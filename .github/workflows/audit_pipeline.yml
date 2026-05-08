@@ -1,62 +1,46 @@
-name: Hubul Final Audit Pipeline
+name: Hubul Autonomous Pipeline
 
 on:
-  workflow_dispatch: 
   schedule:
-    - cron: '0 0 * * 0' 
+    # Her Pazartesi UTC ile 00:00 (Türkiye saati ile Pazar'ı Pazartesi'ye bağlayan gece 03:00)
+    - cron: "0 0 * * 1"
+  workflow_dispatch: # Manuel tetikleme butonu
 
 jobs:
-  heavy-audit:
+  run-pipeline:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Bağımlılıkları ve Crawl4AI Kurulumunu Yap
-        run: |
-          echo " DEBUG: YENI YAML CALISIYOR!"
-          python -m pip install --upgrade pip
-          pip install crawl4ai[all]
-          crawl4ai-setup
-          playwright install chromium --with-deps
-          pip install -r requirements.txt
-          crawl4ai-doctor
+      - name: 1. Depoyu Çek
+        uses: actions/checkout@v3
 
-      - name: 1. Crawler (Tam Tarama)
+      - name: 2. Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: 3. Gereksinimleri Yükle
+        run: |
+          pip install google-genai beautifulsoup4 requests
+
+      - name: 4. Keşif & Gatekeeper (Yeni siteleri bul ve onayla)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        # Eğer yeni siteleri bulan ayrı bir scriptin varsa önce o çalışmalı, sonra gatekeeper
+        run: python utils/auto_gatekeeper.py
+
+      - name: 5. Deep Crawler (Sadece Seed Listesini Tara)
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python crawler/hybrid_hacettepe_crawler_3.py
 
-      - name: 2. AI Gatekeeper (Yeni Siteleri Otomatik Onayla)
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python utils/auto_gatekeeper.py
+      - name: 6. Veri Temizleyici & Puanlayıcı (Jilet)
+        run: python utils/veri_temizleyici.py
 
-      - name: 3. Patch & Clean Pipeline
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      - name: 7. Değişiklikleri Pushla
         run: |
-          python utils/schema_patcher.py
-          python utils/reverse_patcher.py
-          python utils/veri_temizleyici.py
-          python utils/acil_mudahale.py
-          python utils/title_dedektifi.py
-          python utils/smart_fixer.py
-
-      - name: 4. LLM Intent Validation
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python utils/validator.py
-
-      - name: 5. Push Results
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Tüm çıktıları ekle
-          git add public/outputs/*.json
-          
-          # Değişiklik varsa commit ve push yap
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: full audit and validation pipeline completed" && git push)
+          git config --global user.name "Hubul Bot"
+          git config --global user.email "bot@hubul.com"
+          git add inputs/ outputs/ public/outputs/
+          # Değişiklik yoksa hata vermemesi için || true eklendi
+          git commit -m "🤖 [Otonom] Pazar Gece Mesaisi: Yeni siteler eklendi, veri temizlendi" || true
+          git push origin dev

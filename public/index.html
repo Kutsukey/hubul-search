@@ -263,7 +263,7 @@
 <script>
     let masterData = [];
     let currentAnnouncements = [];
-    let fuseInstance = null; // FUSE'U GLOBAL YAPTIK
+    let fuseInstance = null; 
 
     const searchInput = document.getElementById('search-input');
     const resultsContainer = document.getElementById('results');
@@ -326,25 +326,29 @@
             const mRes = await fetch('outputs/hybrid_master.json');
             masterData = await mRes.json();
             
-            // JİLET GİBİ DÜZELTME 1: Subdomain'i zorla enjekte ediyoruz
+            // 1. MEGA İNDEKS (KOMBİNE METİN) OLUŞTURMA
             masterData.forEach(item => {
                 if (!item.search_alias && item.url) {
                     item.search_alias = getSubdomain(item.url);
                 }
+                // Tüm kelimeleri (alias, isim, butonlar) tek bir metinde birleştir
+                const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
+                item.search_text = `${item.search_alias} ${item.entity_name} ${intents}`.toLowerCase();
             });
 
             const aRes = await fetch('outputs/announcements_live.json').catch(() => null);
             if (aRes && aRes.ok) currentAnnouncements = await aRes.json();
 
-            // JİLET GİBİ DÜZELTME 2: FUSE Ayarlarını 1 kere yüklüyoruz ve 'ignoreLocation' ekliyoruz
+            // 2. FUSE.JS GELİŞMİŞ ARAMA AYARLARI
             const options = {
                 includeScore: true,
                 threshold: 0.3,
-                ignoreLocation: true, // KELİME NEREDE OLURSA OLSUN BULUR
+                ignoreLocation: true,
+                useExtendedSearch: true, // ŞART: $and gibi mantıksal operatörleri açar
                 keys: [
-                    { name: 'search_alias', weight: 5.0 }, // Ağırlığı artırıldı
-                    { name: 'entity_name', weight: 2.0 },
-                    { name: 'action_links.intent', weight: 0.5 }
+                    { name: 'search_alias', weight: 5.0 }, // Sadece 'cs' veya 'oidb' yazanlar için zirve
+                    { name: 'entity_name', weight: 3.0 },
+                    { name: 'search_text', weight: 1.0 }  // Çoklu kelimeler için catch-all alanı
                 ]
             };
             fuseInstance = new Fuse(masterData, options);
@@ -366,9 +370,20 @@
             return;
         }
 
-        // JİLET GİBİ DÜZELTME 3: Sadece aramayı tetiklettik, her seferinde motoru baştan kurmuyoruz.
-        const fuseResults = fuseInstance.search(query);
+        // 3. ÇOKLU KELİME (TOKEN) PARÇALAYICI VE "$AND" MANTIĞI
+        let searchTerms = query.split(/\s+/);
+        let fuseQuery = query;
+        
+        // Eğer kullanıcı birden fazla kelime girdiyse (örn: "cs ders")
+        if (searchTerms.length > 1) {
+            fuseQuery = {
+                $and: searchTerms.map(term => ({ search_text: term }))
+            };
+        }
 
+        const fuseResults = fuseInstance.search(fuseQuery);
+
+        // Python'dan gelen Puanları (Priority Score) Ekleme
         let scoredResults = fuseResults.map(fr => {
             let item = fr.item;
             let score = (1 - fr.score) * 1000;

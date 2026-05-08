@@ -1,38 +1,24 @@
 import json
 import os
-import sys
-import io
 from google import genai
 
-# Windows Console UTF-8 Fix
-if sys.platform == "win32":
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
-# Dizin Ayarları
+# Dizin Ayarları (Kendi klasör yapına göre kontrol et)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Crawler artık seed_urls.json kullanıyor
 SEED_JSON = os.path.join(BASE_DIR, "inputs", "seed_urls.json")
-POTENTIAL_NEW = os.path.join(BASE_DIR, "public", "outputs", "potential_new_sites.json")
+POTENTIAL_NEW = os.path.join(BASE_DIR, "outputs", "potential_new_sites.json") # Crawler'ın yeni buldukları
 
 def ai_gatekeeper():
-    print("🤖 AI Gatekeeper: Yeni keşifler sorgulanıyor...")
+    print("🤖 AI Gatekeeper Devrede: Yeni keşifler sorgulanıyor...")
     
     if not os.path.exists(POTENTIAL_NEW):
-        print("[-] İncelenecek yeni site bulunmadı.")
+        print("[-] İncelenecek yeni site bulunmadı. Gatekeeper uyumaya devam ediyor.")
         return
 
-    # Proje standartlarına uygun GOOGLE_API_KEY kullanımı
-    api_key = os.getenv("GOOGLE_API_KEY")
-    if not api_key:
-        print("[!] Hata: GOOGLE_API_KEY bulunamadı.")
-        return
-
-    client = genai.Client(api_key=api_key)
-    # Kullanıcının özellikle istediği gemma modeli
-    model_name = "gemma-4-26b-a4b-it"
+    # API Key'i Actions Secrets'tan alacak
+    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
     
     with open(POTENTIAL_NEW, 'r', encoding='utf-8') as f:
-        new_sites = json.load(f) 
+        new_sites = json.load(f)
 
     if not os.path.exists(SEED_JSON):
         seed_urls = []
@@ -40,14 +26,15 @@ def ai_gatekeeper():
         with open(SEED_JSON, 'r', encoding='utf-8') as f:
             seed_urls = json.load(f)
     
+    existing_urls = [s.get("url") if isinstance(s, dict) else s for s in seed_urls]
     approved_count = 0
     
     for site in new_sites:
         url = site.get("url")
-        title = site.get("entity_name", "İsimsiz Birim")
+        title = site.get("entity_name", "Bilinmeyen Birim")
 
-        # Zaten seed listesinde varsa atla
-        if any(s.get('url') == url for s in seed_urls if isinstance(s, dict)) or url in seed_urls:
+        # Eğer zaten seed listesindeyse atla
+        if url in existing_urls:
             continue
 
         prompt = f"""
@@ -55,41 +42,40 @@ def ai_gatekeeper():
         URL: {url}
         BAŞLIK: {title}
 
-        Bu site kalıcı bir akademik birim, fakülte, bölüm veya uygulama merkezi mi? 
-        Yoksa geçici bir sempozyum, konferans, duyuru sayfası veya 'zattirizurt' etkinliği mi?
+        Bu site kalıcı bir akademik birim, fakülte, bölüm, enstitü veya uygulama merkezi mi? 
+        Yoksa geçici bir sempozyum, konferans, duyuru sayfası, etkinlik veya öğrenci topluluğu mu?
         
-        Sadece kalıcı ve önemli birimler için 'ONAY' yaz. 
+        Sadece kalıcı ve resmi eğitim/idari birimler için 'ONAY' yaz. 
         Geçici, kişisel veya önemsiz sayfalar için 'RED' yaz.
-        Cevabın sadece bu iki kelimeden biri olsun.
+        Cevabın SADECE bu iki kelimeden biri olsun. Başka hiçbir açıklama yapma.
         """
 
         try:
-            response = client.models.generate_content(model=model_name, contents=prompt)
+            response = client.models.generate_content(model="gemma-4-31b-it", contents=prompt)
             decision = response.text.strip().upper()
 
             if "ONAY" in decision:
-                # Seed listesine ekle
-                # az_links.json formatı bir liste (string veya dict olabilir, crawler dict bekliyor genelde)
-                seed_urls.append(url) # Crawler hem list[str] hem list[dict] destekliyor gibi ama main'de fetch_az_links str listesi döner
+                # Onaylananları Seed listesine ekle
+                seed_urls.append({"entity_name": title, "url": url, "action_links": []})
+                existing_urls.append(url)
                 approved_count += 1
-                print(f"[✓] ONAYLANDI: {title} ({url})")
+                print(f"[✓] KABUL EDİLDİ: {title} ({url})")
             else:
-                print(f"[X] REDDEDİLDİ: {title}")
+                print(f"[X] REDDEDİLDİ (Geçici/Gereksiz): {title}")
         except Exception as e:
-            print(f"[!] Hata ({url}): {e}")
+            print(f"[!] Hata oluştu ({title}): {e}")
             continue
 
-    # Güncellenmiş seed listesini kaydet
+    # Güncellenmiş listeyi kaydet
+    os.makedirs(os.path.dirname(SEED_JSON), exist_ok=True)
     with open(SEED_JSON, 'w', encoding='utf-8') as f:
         json.dump(seed_urls, f, ensure_ascii=False, indent=4)
     
-    # İşlenen dosyayı temizle veya işaretle
-    try:
-        os.remove(POTENTIAL_NEW)
-    except:
-        pass
-        
-    print(f"✅ İşlem bitti! {approved_count} yeni birim otonom olarak seed listesine eklendi.")
+    # İşlenen dosyayı sıfırla ki haftaya aynılarını sormasın
+    with open(POTENTIAL_NEW, 'w', encoding='utf-8') as f:
+        json.dump([], f)
+
+    print(f"✅ Görev Tamam! {approved_count} yeni birim otonom olarak sisteme entegre edildi.")
 
 if __name__ == "__main__":
     ai_gatekeeper()

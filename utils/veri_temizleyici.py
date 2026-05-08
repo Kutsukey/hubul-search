@@ -159,6 +159,11 @@ def clean_and_merge_json(file_path):
             item["search_alias"] = subdomain
             item["priority_score"] = priority
             item["entity_type"] = b_type
+            
+            # MEGA İNDEKS (search_text) OLUŞTURMA
+            intents = " ".join([l.get("intent", "") for l in item.get("action_links", [])])
+            item["search_text"] = turkish_lower(f"{subdomain} {item['entity_name']} {intents}")
+            
             survived_data.append(item)
 
     # 2. AŞAMA: URL BAZLI TEKİLLEŞTİRME (Merging)
@@ -194,29 +199,22 @@ def clean_and_merge_json(file_path):
         else:
             merged_data[merge_key] = item
 
-    # 3. AŞAMA: TARİH VE VERSİYON FİLTRESİ (Nuclear Cleanup)
+    # 3. AŞAMA: TARİH VE VERSİYON FİLTRESİ + SON MEGA İNDEKS GÜNCELLEMESİ
     for merge_key, item in merged_data.items():
+        # 1. Filtreleme
         if "action_links" in item:
             item["action_links"] = filter_outdated_links(item["action_links"])
-
-    # Sözlükteki değerleri tekrar JSON listesine çevir
-    final_list = list(merged_data.values())
-    # 3. AŞAMA: YEDEKLEME VE ÜZERİNE YAZMA
-    backup_path = file_path.replace(".json", "_backup.json")
-    
-    # Eğer daha önceden yedek varsa onu sil ki hata vermesin
-    if os.path.exists(backup_path):
-        os.remove(backup_path)
         
-    os.rename(file_path, backup_path)
-
-    # 3. AŞAMA: TARİH VE VERSİYON FİLTRESİ (Nuclear Cleanup)
-    for merge_key, item in merged_data.items():
-        if "action_links" in item:
-            item["action_links"] = filter_outdated_links(item["action_links"])
+        # 2. Mega İndeks Güncelleme (Filtreleme sonrası en güncel intents ile)
+        intents = " ".join([l.get("intent", "") for l in item.get("action_links", [])])
+        subdomain = item.get("search_alias", "")
+        item["search_text"] = turkish_lower(f"{subdomain} {item['entity_name']} {intents}")
 
     # Sözlükteki değerleri tekrar JSON listesine çevir
     final_list = list(merged_data.values())
+
+    # YEDEKLEME VE ÜZERİNE YAZMA
+    backup_path = file_path.replace(".json", "_backup.json")
     
     # Sonuçları kaydet
     with open(file_path, 'w', encoding='utf-8') as f:

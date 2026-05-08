@@ -307,10 +307,13 @@
             const res = await fetch(CONFIG.masterDataUrl);
             masterData = await res.json();
             
+            // 1. MEGA İNDEKS (KOMBİNE METİN) OLUŞTURMA
             masterData.forEach(item => {
                 if (!item.search_alias && item.url) {
                     item.search_alias = getSubdomain(item.url);
                 }
+                const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
+                item.search_text = `${item.search_alias} ${item.entity_name} ${intents}`.toLowerCase();
             });
 
             try {
@@ -318,19 +321,21 @@
                 if (annRes.ok) currentAnnouncements = await annRes.json();
             } catch(e) {}
 
+            // 2. FUSE.JS GELİŞMİŞ ARAMA AYARLARI
             const options = {
                 includeScore: true,
                 threshold: 0.3,
                 ignoreLocation: true,
+                useExtendedSearch: true, // ŞART: $and gibi mantıksal operatörleri açar
                 keys: [
                     { name: 'search_alias', weight: 5.0 },
-                    { name: 'entity_name', weight: 2.0 },
-                    { name: 'action_links.intent', weight: 0.5 }
+                    { name: 'entity_name', weight: 3.0 },
+                    { name: 'search_text', weight: 1.0 }
                 ]
             };
             fuseInstance = new Fuse(masterData, options);
 
-            input.placeholder = "Ne arıyorsun? (Örn: staj)";
+            input.placeholder = "Ne arıyorsun? (Örn: staj, oidb, cge)";
             showFiller();
         } catch (err) {
             input.placeholder = "Veri yüklenemedi.";
@@ -344,7 +349,17 @@
             return;
         }
 
-        const fuseResults = fuseInstance.search(query);
+        // 3. ÇOKLU KELİME (TOKEN) PARÇALAYICI VE "$AND" MANTIĞI
+        let searchTerms = query.split(/\s+/);
+        let fuseQuery = query;
+        
+        if (searchTerms.length > 1) {
+            fuseQuery = {
+                $and: searchTerms.map(term => ({ search_text: term }))
+            };
+        }
+
+        const fuseResults = fuseInstance.search(fuseQuery);
 
         let results = fuseResults.map(fr => {
             let item = fr.item;
