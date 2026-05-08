@@ -19,10 +19,10 @@ jobs:
           echo " DEBUG: YENI YAML CALISIYOR!"
           python -m pip install --upgrade pip
           pip install crawl4ai[all]
-          python -m crawl4ai.setup_main
-          python -m playwright install chromium --with-deps
+          crawl4ai-setup
+          playwright install chromium --with-deps
           pip install -r requirements.txt
-          python -m crawl4ai.doctor
+          crawl4ai-doctor
 
       - name: 1. Crawler (Tam Tarama)
         env:
