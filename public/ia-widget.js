@@ -1,13 +1,8 @@
 /**
- * Hubul | Hacettepe Akıllı Asistan Widget v4.0
- * Premium Search-First Widget (Perplexity & Glean Inspired)
- * ==========================================================
- * Bu script, sayfaya otomatik olarak bir FAB (Uçan Buton) ve 
- * gelişmiş bir arama paneli enjekte eder.
+ * Hubul | Hacettepe Akıllı Asistan Widget v4.0 (Jilet Edition)
  */
 
 (function() {
-    // --- 1. CONFIG & STATE ---
     const CONFIG = {
         masterDataUrl: 'outputs/hybrid_master.json',
         announcementsUrl: 'outputs/announcements_live.json',
@@ -17,9 +12,9 @@
 
     let masterData = [];
     let currentAnnouncements = [];
+    let fuseInstance = null; 
     const commonIntents = ["akademik takvim", "staj başvurusu", "yemekhane menüsü", "vpn kurulumu", "ders programı", "öğrenci işleri"];
 
-    // --- 2. CSS ENJEKSİYONU ---
     const styles = `
         :root {
             --h-bg-color: #f9fafb;
@@ -248,7 +243,6 @@
         }
     `;
 
-    // --- 3. HTML ENJEKSİYONU ---
     const html = `
         <div id="hubul-fab" title="Hacettepe Akıllı Asistan">🔍</div>
         <div id="hubul-panel">
@@ -264,18 +258,23 @@
         </div>
     `;
 
+    function loadFuse(callback) {
+        if (window.Fuse) return callback();
+        const script = document.createElement('script');
+        script.src = "https://cdn.jsdelivr.net/npm/fuse.js@7.0.0";
+        script.onload = callback;
+        document.head.appendChild(script);
+    }
+
     function inject() {
-        // CSS
         const styleEl = document.createElement('style');
         styleEl.textContent = styles;
         document.head.appendChild(styleEl);
 
-        // HTML
         const container = document.createElement('div');
         container.innerHTML = html;
         document.body.appendChild(container);
 
-        // Events
         const fab = document.getElementById('hubul-fab');
         const panel = document.getElementById('hubul-panel');
         const close = document.getElementById('h-close');
@@ -294,85 +293,71 @@
 
         input.oninput = (e) => handleSearch(e.target.value);
         
-        initData();
+        loadFuse(() => initData());
     }
 
-    // --- 4. DATA & SEARCH LOGIC ---
+    function getSubdomain(url) {
+        if (!url) return "";
+        return url.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0].toLowerCase();
+    }
+
     async function initData() {
         const input = document.getElementById('h-input');
         try {
-            // Widget'ın yüklendiği sayfadan bağımsız olarak doğru yolu bulmaya çalış
             const res = await fetch(CONFIG.masterDataUrl);
-            if (res.ok) masterData = await res.json();
+            masterData = await res.json();
             
+            masterData.forEach(item => {
+                if (!item.search_alias && item.url) {
+                    item.search_alias = getSubdomain(item.url);
+                }
+            });
+
             try {
                 const annRes = await fetch(CONFIG.announcementsUrl);
                 if (annRes.ok) currentAnnouncements = await annRes.json();
             } catch(e) {}
 
+            const options = {
+                includeScore: true,
+                threshold: 0.3,
+                ignoreLocation: true,
+                keys: [
+                    { name: 'search_alias', weight: 5.0 },
+                    { name: 'entity_name', weight: 2.0 },
+                    { name: 'action_links.intent', weight: 0.5 }
+                ]
+            };
+            fuseInstance = new Fuse(masterData, options);
+
             input.placeholder = "Ne arıyorsun? (Örn: staj)";
             showFiller();
         } catch (err) {
             input.placeholder = "Veri yüklenemedi.";
-            console.error("Hubul Widget Error:", err);
         }
     }
 
     function handleSearch(val) {
         const query = val.trim().toLocaleLowerCase('tr-TR');
-        const sug = document.getElementById('h-suggestion');
-        const resCont = document.getElementById('h-results');
-
         if (query.length < 2) {
-            sug.style.display = 'none';
             showFiller();
             return;
         }
 
-        // Aliases (Jargon)
-        const aliases = {
-            "ingilizce": "ingiliz dili", "öidb": "öğrenci işleri", "oidb": "öğrenci işleri",
-            "sks": "sağlık kültür", "yemek": "yemekhane", "obs": "öğrenci işleri",
-            "çap": "çift ana dal", "yandal": "yan dal", "ai": "yapay zeka"
-        };
-        const activeQuery = aliases[query] || query;
+        const fuseResults = fuseInstance.search(query);
 
-        // Suggestions
-        const matches = commonIntents.filter(i => i.startsWith(query)).slice(0, 3);
-        if (matches.length > 0) {
-            sug.innerHTML = matches.map(m => `<div class="h-suggest-btn" onclick="document.getElementById('h-input').value='${m}'; document.getElementById('h-input').dispatchEvent(new Event('input'))">${m}</div>`).join('');
-            sug.style.display = 'flex';
-        } else {
-            sug.style.display = 'none';
-        }
+        let results = fuseResults.map(fr => {
+            let item = fr.item;
+            let score = (1 - fr.score) * 1000;
+            score += (item.priority_score || 0);
+            return { item, score };
+        });
 
-        // Scoring
-        const tokens = activeQuery.split(/\s+/);
-        let results = masterData
-            .filter(item => item.is_valid_entity !== false)
-            .map(item => {
-                let score = 0;
-                const name = (item.entity_name || "").toLocaleLowerCase('tr-TR');
-                if (name === activeQuery) score += 2000;
-                tokens.forEach(t => {
-                    if (name.includes(t)) score += 50;
-                    if (name.startsWith(t)) score += 30;
-                });
-                
-                // VIP Boost
-                const vips = ["öğrenci işleri", "kütüphane", "yemekhane", "bilişim"];
-                if (vips.some(v => name.includes(v))) score += 40;
-
-                return { item, score };
-            })
-            .filter(r => r.score > 0)
-            .sort((a, b) => b.score - a.score)
-            .slice(0, 6);
-
-        render(results, tokens);
+        results.sort((a, b) => b.score - a.score);
+        render(results.slice(0, 6));
     }
 
-    function render(results, tokens = []) {
+    function render(results) {
         const cont = document.getElementById('h-results');
         if (results.length === 0) {
             cont.innerHTML = '<div class="h-empty">Sonuç bulunamadı.</div>';
@@ -382,38 +367,26 @@
         cont.innerHTML = results.map(r => {
             const item = r.item;
             let html = `
-                <div class="h-result-card" onclick="if(event.target.tagName !== 'A') window.open('${item.url}','_blank')">
+                <div class="h-result-card" onclick="if(event.target.tagName !== 'A') { window.open('${item.url}','_blank'); hubul_save('${item.entity_name}'); }">
                     <div class="h-category-pill">${item.category || "Birim"}</div>
                     <h3 class="h-entity-title">${item.entity_name}</h3>
             `;
 
-            // Announcement
             const ann = currentAnnouncements.find(a => a.entity === item.entity_name);
             if (ann && ann.items && ann.items.length > 0) {
-                const top = ann.items[0];
-                html += `
-                    <div class="h-announcement">
-                        <span class="h-ann-tag">Yeni</span>
-                        <a href="${top.link}" target="_blank">${top.title}</a>
-                    </div>
-                `;
+                html += `<div class="h-announcement"><span class="h-ann-tag">Yeni</span><a href="${ann.items[0].link}" target="_blank">${ann.items[0].title}</a></div>`;
             }
 
-            // Chips
             if (item.action_links && item.action_links.length > 0) {
                 html += '<div class="h-chips">';
                 item.action_links.slice(0, 3).forEach(l => {
-                    const highlight = tokens.some(t => l.intent.toLowerCase().includes(t));
-                    html += `
-                        <a href="${l.url}" target="_blank" class="h-chip ${highlight ? 'highlight' : ''}">
-                            <span>${l.intent}</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
-                        </a>
-                    `;
+                    html += `<a href="${l.url}" target="_blank" class="h-chip" onclick="event.stopPropagation(); hubul_save('${item.entity_name}');">
+                        <span>${l.intent}</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                    </a>`;
                 });
                 html += '</div>';
             }
-
             html += `</div>`;
             return html;
         }).join('');
@@ -437,7 +410,6 @@
         render(items.slice(0, 3));
     }
 
-    // Global save function
     window.hubul_save = (name) => {
         let h = JSON.parse(localStorage.getItem('hubul_history') || '[]');
         h = h.filter(x => x !== name);
@@ -445,7 +417,6 @@
         localStorage.setItem('hubul_history', JSON.stringify(h.slice(0, 5)));
     };
 
-    // Auto-init
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', inject);
     } else {

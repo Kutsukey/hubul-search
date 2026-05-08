@@ -29,7 +29,12 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python crawler/hybrid_hacettepe_crawler_3.py
 
-      - name: 2. Patch & Clean Pipeline
+      - name: 2. AI Gatekeeper (Yeni Siteleri Otomatik Onayla)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python utils/auto_gatekeeper.py
+
+      - name: 3. Patch & Clean Pipeline
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
@@ -40,12 +45,12 @@ jobs:
           python utils/title_dedektifi.py
           python utils/smart_fixer.py
 
-      - name: 3. LLM Intent Validation
+      - name: 4. LLM Intent Validation
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python utils/validator.py
 
-      - name: 4. Push Results
+      - name: 5. Push Results
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

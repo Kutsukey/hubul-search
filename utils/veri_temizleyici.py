@@ -3,6 +3,62 @@ import os
 import re
 from collections import defaultdict
 
+def turkish_lower(s):
+    """Türkçe karakter duyarlı küçük harf dönüşümü."""
+    if not s: return ""
+    return s.replace('İ', 'i').replace('I', 'ı').lower()
+
+def isimi_sadelestir(entity_name):
+    """'Hacettepe Üniversitesi' kalıplarını baştan siler."""
+    if not entity_name: return ""
+    # (?i) büyük/küçük harf duyarlılığını kaldırır, baştaki gereksiz kalıbı siler
+    temiz_isim = re.sub(r'(?i)^hacettepe\s+(ü|u)niversitesi\s*[-–]?\s*', '', entity_name)
+    
+    if not temiz_isim.strip():
+        return entity_name
+    return temiz_isim.strip()
+
+def birim_puani_hesapla(entity_name, url):
+    match = re.search(r'https?://([^.]+)\.hacettepe\.edu\.tr', url)
+    subdomain = match.group(1) if match else ""
+    
+    score_bonus = 0
+    birim_tipi = "DİĞER"
+    name_lower = turkish_lower(entity_name)
+    
+    # 1. ÖNCE ALT BİRİMLERİ (ANA BİLİM DALI) YAKALA VE HAPSET
+    if "ana bilim dalı" in name_lower or "anabilim dalı" in name_lower or "abd" in name_lower:
+        score_bonus = 40 # Fakülteden düşük, koord'dan yüksek
+        birim_tipi = "ANA BİLİM DALI"
+
+    # 2. SONRA PROGRAMLARI YAKALA
+    elif "programı" in name_lower:
+        score_bonus = 20 
+        birim_tipi = "PROGRAM"
+
+    # 3. ŞİMDİ ASIL KRALLARI (FAKÜLTE/BÖLÜM/DAİRE BAŞKANLIĞI) YAKALA 
+    elif "fakültesi" in name_lower or "bölümü" in name_lower or "daire başkanlığı" in name_lower:
+        score_bonus = 100 if "fakültesi" in name_lower or "bölümü" in name_lower else 80
+        if "fakültesi" in name_lower: birim_tipi = "FAKÜLTE"
+        elif "bölümü" in name_lower: birim_tipi = "BÖLÜM"
+        else: birim_tipi = "DAİRE BAŞKANLIĞI"
+
+    # 4. İDARİ BİRİMLER (Ceza Puanı)
+    elif "koordinatörlüğü" in name_lower or "merkezi" in name_lower:
+        score_bonus = -20 
+        birim_tipi = "KOORDİNATÖRLÜK" if "koordinatörlüğü" in name_lower else "ARAŞTIRMA MERKEZİ"
+
+    # 5. Enstitüler veya Yüksekokullar
+    elif "enstitüsü" in name_lower or "yüksekokulu" in name_lower:
+        score_bonus = 50
+        birim_tipi = "ENSTİTÜ/YÜKSEKOKUL"
+
+    # KISA İSİM BONUSU (Tam İsabet)
+    if len(entity_name.split()) <= 4:
+        score_bonus += 30
+
+    return subdomain, score_bonus, birim_tipi
+
 def extract_base_intent(intent):
     """Yılları temizleyip kelimenin özünü bulur."""
     return re.sub(r'\b(20\d{2})\b', '', intent).strip().lower()
@@ -68,30 +124,41 @@ HARDCODED_OVERRIDES = {
     "egitim-bulteni.hacettepe.edu.tr": "DELETE"
 }
 
+
+def get_subdomain_key(url):
+    """URL'den subdomain'i ayıklayıp standart bir anahtar döndürür."""
+    match = re.search(r'https?://([^.]+)\.hacettepe\.edu\.tr', url)
+    if match: return match.group(1).lower()
+    return url.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].lower()
+
 def clean_and_merge_json(file_path):
     print(f"[i] {file_path} temizligi ve infaz operasyonu basliyor...")
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # 1. ASAMA: ISIM DUZELTME VE INFAZ (Hard Delete)
+    # 1. ASAMA: ISIM DUZELTME VE HARDCODED OVERRIDES
     survived_data = []
     for item in data:
-        url = item.get("url", "")
-        should_delete = False
+        url = item.get("url", "").replace("www.", "")
+        item["url"] = url 
         
+        # 1. İsmi Sadeleştir (Hacettepe Üniversitesi kısmını uçur)
+        item["entity_name"] = isimi_sadelestir(item.get("entity_name", ""))
+
+        should_delete = False
         for override_url, correct_name in HARDCODED_OVERRIDES.items():
             if override_url in url:
                 if correct_name == "DELETE":
                     should_delete = True
-                    print(f"[-] Cop Kutusuna Atildi: {url}")
                     break
                 else:
                     item["entity_name"] = correct_name
         
         if not should_delete:
-            # Varsayılan olarak is_active: true ekle (eğer yoksa)
-            if "is_active" not in item:
-                item["is_active"] = True
+            subdomain, priority, b_type = birim_puani_hesapla(item.get("entity_name", ""), url)
+            item["search_alias"] = subdomain
+            item["priority_score"] = priority
+            item["entity_type"] = b_type
             survived_data.append(item)
 
     # 2. AŞAMA: URL BAZLI TEKİLLEŞTİRME (Merging)
@@ -100,41 +167,6 @@ def clean_and_merge_json(file_path):
     for item in survived_data:
         if not item.get("entity_name"):
             continue
-
-        # 🛡️ OTORİTE FİLTRESİ: OİDB dışındaki birimlerde "Akademik Takvim" linklerini temizle
-        if "oidb.hacettepe.edu.tr" not in item.get("url", ""):
-            item["action_links"] = [a for a in item.get("action_links", []) if "akademik takvim" not in a.get("intent", "").lower()]
-
-        # 🧹 ÇİRKİN LİNK VE ESKİ CS LİNKLERİ TEMİZLİĞİ
-        if item.get("action_links"):
-            item["action_links"] = [
-                a for a in item["action_links"] 
-                if not a.get("intent", "").startswith("http") and 
-                "muhfak.hacettepe.edu.tr/tr/menu/yararli_belgeler-178" not in a.get("url", "") and
-                "intern.cs.hacettepe.edu.tr" not in a.get("url", "") # Eski CS Staj linklerini sil
-            ]
-            
-            # 🎯 CS ÖZEL MODERNİZASYON (İsimleri güzelleştir ve tekilleştir)
-            if "cs.hacettepe.edu.tr" in item.get("url", ""):
-                modernized_links = []
-                seen_intents = set()
-                for a in item["action_links"]:
-                    url = a.get("url", "")
-                    if "#courseschedule_undergraduate" in url:
-                        a["intent"] = "Lisans Ders Programı (CS/AI)"
-                    elif "#curriculum_ce" in url:
-                        a["intent"] = "Bilgisayar Müh. Müfredatı"
-                    elif "#curriculum_ai" in url:
-                        a["intent"] = "Yapay Zeka Müh. Müfredatı"
-                    elif "#awards" in url:
-                        a["intent"] = "Ödüller ve Başarılar"
-                    elif "#courseschedule_graduate" in url: # Graduate programını siliyoruz (Talep üzerine)
-                        continue
-                        
-                    if a["intent"] not in seen_intents:
-                        modernized_links.append(a)
-                        seen_intents.add(a["intent"])
-                item["action_links"] = modernized_links
 
         # URL'yi standartlaştır (www, http, https temizle)
         raw_url = item.get("url", "")
@@ -145,33 +177,27 @@ def clean_and_merge_json(file_path):
         name_key = raw_name.lower().replace("hacettepe üniversitesi", "").replace("hacettepe", "").strip()
         
         # www temizliği için birincil anahtar URL olmalı
-        # Eğer URL yoksa isme güveniyoruz
         merge_key = url_key if url_key else f"no_url_{name_key}"
 
         if merge_key in merged_data:
-            # Aynı isimde kurum bulundu! Linkleri birleştiriyoruz.
             existing_item = merged_data[merge_key]
-            
-            # Eski ve yeni linkleri aynı havuza at
             all_links = existing_item.get("action_links", []) + item.get("action_links", [])
-
-            # Linkleri "intent" (isim) bazında tekilleştir (Aynı linkten 2 tane olmasın)
+            
+            # Tekilleştir
             unique_links = {}
             for link in all_links:
                 link_intent_key = link.get("intent", "").lower().strip()
                 if link_intent_key not in unique_links:
                     unique_links[link_intent_key] = link
-
-            # Temizlenmiş linkleri eski kuruma geri yükle
             existing_item["action_links"] = list(unique_links.values())
-
-            # Derin tarama istatistiklerini topla (Emeğimiz boşa gitmesin)
             existing_item["deep_crawl_pages"] = existing_item.get("deep_crawl_pages", 0) + item.get("deep_crawl_pages", 0)
-            existing_item["deep_crawl_files"] = existing_item.get("deep_crawl_files", 0) + item.get("deep_crawl_files", 0)
-
         else:
-            # Kurum ilk defa geliyorsa haritaya doğrudan ekle
             merged_data[merge_key] = item
+
+    # 3. AŞAMA: TARİH VE VERSİYON FİLTRESİ (Nuclear Cleanup)
+    for merge_key, item in merged_data.items():
+        if "action_links" in item:
+            item["action_links"] = filter_outdated_links(item["action_links"])
 
     # Sözlükteki değerleri tekrar JSON listesine çevir
     final_list = list(merged_data.values())

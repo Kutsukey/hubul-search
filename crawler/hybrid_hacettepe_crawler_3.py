@@ -628,6 +628,7 @@ async def crawl_batch(initial_links: List[str]):
         processed_urls = {}
         
     discovered_urls = set(initial_links)
+    newly_discovered = set()
     results = []
     
     queue = asyncio.Queue()
@@ -688,6 +689,7 @@ async def crawl_batch(initial_links: List[str]):
                         for d_url in discovered:
                             if d_url not in discovered_urls and d_url not in processed_urls:
                                 discovered_urls.add(d_url)
+                                newly_discovered.add(d_url)
                                 await queue.put(d_url)
                                 print(f"[KEŞİF] Yeni birim bulundu: {d_url}")
                 
@@ -719,6 +721,13 @@ async def crawl_batch(initial_links: List[str]):
         with open(master_file, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
         print(f"\n[+] Tamamlandı! Toplam {len(results)} sonuç kaydedildi.")
+        
+    if newly_discovered:
+        potential_file = os.path.join(OUTPUT_DIR, "potential_new_sites.json")
+        potential_data = [{"url": u, "entity_name": urlparse(u).netloc} for u in newly_discovered]
+        with open(potential_file, "w", encoding="utf-8") as f:
+            json.dump(potential_data, f, ensure_ascii=False, indent=4)
+        print(f"[i] {len(newly_discovered)} yeni potansiyel birim kaydedildi: {potential_file}")
 
 # ==========================================
 # 7. ANA AKIŞ
@@ -726,21 +735,21 @@ async def crawl_batch(initial_links: List[str]):
 async def main():
     print("=== Hacettepe Hybrid Two-Phase Crawl Pipeline v4.0 ===")
     
-    az_file = os.path.join(INPUT_DIR, "az_links.json")
-    az_links = []
+    seed_file = os.path.join(INPUT_DIR, "seed_urls.json")
+    seed_links = []
     
-    if os.path.exists(az_file):
-        with open(az_file, "r", encoding="utf-8") as f:
-            az_links = json.load(f)
+    if os.path.exists(seed_file):
+        with open(seed_file, "r", encoding="utf-8") as f:
+            seed_links = json.load(f)
     
-    if not az_links:
+    if not seed_links:
         print("[i] Liste boş veya bulunamadı, web üzerinden taranıyor...")
         connector = aiohttp.TCPConnector(ssl=False)
         async with aiohttp.ClientSession(connector=connector) as session:
-            az_links = await fetch_az_links(session)
+            seed_links = await fetch_az_links(session)
 
-    if az_links:
-        await crawl_batch(az_links)
+    if seed_links:
+        await crawl_batch(seed_links)
 
 if __name__ == "__main__":
     asyncio.run(main())

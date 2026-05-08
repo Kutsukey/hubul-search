@@ -2898,8 +2898,8 @@
         "deep_crawl_pages": 225,
         "is_active": true,
         "search_alias": "bidb",
-        "priority_score": 110,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 30,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Beytepe Anaokulu",
@@ -6701,8 +6701,8 @@
         "deep_crawl_pages": 0,
         "is_active": true,
         "search_alias": "fedek",
-        "priority_score": 100,
-        "entity_type": "FAKÜLTE"
+        "priority_score": -100,
+        "entity_type": "Diğer"
     },
     {
         "entity_name": "Fen Bilgisi Öğretmenliği Ana Bilim Dalı",
@@ -13822,8 +13822,8 @@
         "deep_crawl_pages": 25,
         "is_active": true,
         "search_alias": "imidb",
-        "priority_score": 110,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 30,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "International Students",
@@ -18235,8 +18235,8 @@
         "deep_crawl_pages": 0,
         "is_active": true,
         "search_alias": "pdb",
-        "priority_score": 110,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 30,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Özel Eğitim Bölümü",
@@ -20473,8 +20473,8 @@
         "deep_crawl_pages": 0,
         "is_active": true,
         "search_alias": "sgdb",
-        "priority_score": 110,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 30,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Siyaset Bilimi ve Kamu Yönetimi Bölümü",
@@ -21960,8 +21960,8 @@
         "deep_crawl_pages": 240,
         "is_active": true,
         "search_alias": "sksdb",
-        "priority_score": 80,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 0,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Stres Araştırmaları Uygulama ve Araştırma Merkezi (STAR)",
@@ -23815,8 +23815,8 @@
         "deep_crawl_pages": 93,
         "is_active": true,
         "search_alias": "yapi",
-        "priority_score": 80,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 0,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Hastanesi",
@@ -24935,8 +24935,8 @@
         "deep_crawl_pages": 0,
         "is_active": true,
         "search_alias": "bidbdestek",
-        "priority_score": 80,
-        "entity_type": "DAİRE BAŞKANLIĞI"
+        "priority_score": 0,
+        "entity_type": "DİĞER"
     },
     {
         "entity_name": "Sanat Müzesi",
