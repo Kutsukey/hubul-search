@@ -16,12 +16,13 @@ jobs:
       
       - name: Bağımlılıkları ve Crawl4AI Kurulumunu Yap
         run: |
+          echo " DEBUG: YENI YAML CALISIYOR!"
           python -m pip install --upgrade pip
-          pip install crawl4ai
+          pip install crawl4ai[all]
           python -m crawl4ai.setup_main
+          python -m playwright install chromium --with-deps
           pip install -r requirements.txt
           python -m crawl4ai.doctor
-          playwright install chromium
 
       - name: 1. Crawler (Tam Tarama)
         env:
