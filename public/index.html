@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubul | Hacettepe Akıllı Asistan</title>
+    <style>
+        /* --- KURUMSAL RENK PALETİ --- */
+        :root {
+            --bg-color: #f9fafb; /* Çok uçuk, göz yormayan gri arka plan */
+            --card-bg: #ffffff;
+            --text-main: #111827; /* Tam siyah değil, daha yumuşak bir antrasit */
+            --text-muted: #6b7280;
+            --corporate-purple: #4f46e5; /* Perplexity tarzı modern Indigo / Kurumsal Mor */
+            --corporate-purple-hover: #4338ca;
+            --tag-bg: #e0e7ff; /* Duyuru arka planı için çok uçuk lila */
+            --tag-text: #3730a3; /* Duyuru metni için koyu mor */
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .search-container { width: 100%; max-width: 650px; position: relative; display: flex; flex-direction: column; align-items: center; }
+        
+        .logo {
+            font-size: 56px;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 30px;
+            letter-spacing: -2px;
+            user-select: none;
+        }
+        .logo span { color: var(--corporate-purple); }
+
+        #search-input { 
+            width: 100%; 
+            padding: 18px 24px; 
+            font-size: 18px; 
+            border: 1px solid var(--border-color); 
+            border-radius: 12px; 
+            outline: none; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04); 
+            transition: all 0.3s ease; 
+            box-sizing: border-box; 
+            font-family: inherit;
+        }
+        #search-input:focus { 
+            border-color: var(--corporate-purple); 
+            box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1); 
+        }
+        #search-input:disabled { background-color: #f3f4f6; cursor: not-allowed; }
+        
+        /* ÖNERİ BUTONU ALANI */
+        #suggestion-container { 
+            margin-top: 8px; 
+            display: none; /* Öneri yokken gizli kal */
+            align-items: center;
+            gap: 8px; 
+            overflow-x: auto; 
+            padding-bottom: 4px; 
+            scrollbar-width: none; 
+            width: 100%;
+        }
+        #suggestion-container::-webkit-scrollbar { display: none; } 
+        
+        .suggestion-btn {
+            display: inline-flex;
+            align-items: center;
+            background: var(--card-bg);
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        .suggestion-btn:hover { border-color: var(--corporate-purple); color: var(--corporate-purple); background: #f5f3ff; }
+
+        /* Arama Çubuğu ile Sonuçlar arasındaki dev boşluğu yok et */
+        #results { 
+            margin-top: 8px !important; 
+            padding-top: 0 !important; 
+            display: flex; 
+            flex-direction: column; 
+            width: 100%; 
+        }
+
+        .result-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px; /* Daha minik ovalleşme */
+            padding: 12px 14px; /* Dört bir yandan vakumlandı */
+            margin-bottom: 10px; /* Kartlar arası boşluk kısıldı */
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            transition: box-shadow 0.2s ease, border-color 0.2s ease;
+            text-align: left;
+            cursor: pointer;
+        }
+        .result-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+            border-color: #d1d5db;
+        }
+
+        .category-pill {
+            display: inline-block;
+            font-size: 10px; /* Küçültüldü */
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            margin-bottom: 4px; /* Başlıkla arasındaki boşluk 8'den 4'e indi */
+        }
+
+        .entity-title {
+            font-size: 15px; /* 19px'ten 15px'e çekildi */
+            font-weight: 600;
+            margin: 0 0 8px 0; /* Eski 16px boşluk yarıya indi */
+            color: var(--text-main);
+            line-height: 1.25;
+            letter-spacing: -0.4px;
+        }
+
+        /* --- GLEAN TARZI DUYURU BARI --- */
+        .glean-announcement {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--tag-bg);
+            border-radius: 6px;
+            padding: 8px 10px; /* 12px 16px'den 8px 10px'e vakumlandı */
+            margin-bottom: 12px; 
+            font-size: 12px; /* Font ufalttık */
+        }
+        .announcement-tag {
+            background: var(--tag-text);
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+        .glean-announcement a {
+            color: var(--tag-text);
+            font-weight: 500;
+            text-decoration: none;
+            line-height: 1.4;
+        }
+        .glean-announcement a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- MİNİMALİST BUTONLAR (CHIPS) --- */
+        .action-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px; /* Butonlar arası boşluk 10'dan 6'ya indi */
+        }
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 10px; /* Yükseklik ve genişlik daraltıldı */
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 11.5px; /* 13.5'ten 11.5'e çekildi */
+            font-weight: 500;
+            color: var(--text-main);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .chip:hover {
+            border-color: var(--corporate-purple);
+            color: var(--corporate-purple);
+            background: #f5f3ff;
+        }
+
+        .chip.highlight {
+            background: var(--corporate-purple);
+            color: white;
+            border-color: var(--corporate-purple);
+        }
+        .chip.highlight:hover {
+            background: var(--corporate-purple-hover);
+            transform: translateY(-1px);
+        }
+
+        .chip svg {
+            width: 12px; /* İkonlar da ufaldı */
+            height: 12px;
+            opacity: 0.5;
+            transition: opacity 0.2s ease;
+        }
+        .chip:hover svg {
+            opacity: 0.8;
+        }
+        .chip.highlight svg {
+            opacity: 1;
+        }
+        /* --- WIDGET SWITCHER --- */
+        .widget-switch {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 12px 18px;
+            border-radius: 99px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 9999;
+        }
+        .widget-switch:hover {
+            transform: translateY(-2px);
+            border-color: var(--corporate-purple);
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.1);
+            color: var(--corporate-purple);
+        }
+        .widget-switch svg {
+            width: 18px;
+            height: 18px;
+            color: var(--corporate-purple);
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 40px 15px; }
+            .logo { font-size: 42px; }
+            .widget-switch { bottom: 16px; right: 16px; padding: 10px 14px; font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="widget-demo.html" class="widget-switch" title="Widget Görünümüne Geç">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="9" y1="21" x2="9" y2="9"/>
+        </svg>
+        <span>Widget Modu</span>
+    </a>
+
+    <div class="search-container">
+        <div class="logo">Hu<span>bul</span></div>
+        
+        <input type="text" id="search-input" placeholder="Sistem hazırlanıyor..." autocomplete="off" disabled>
+        
+        <div id="suggestion-container"></div>
+        <div id="results"></div>
+    </div>
+
+<script>
+    // --- GLOBAL DEĞİŞKENLER VE AYARLAR ---
+    let masterData = [];
+    let currentAnnouncements = [];
+
+    const commonIntents = [
+        "akademik takvim", "staj başvurusu", "yemekhane menüsü", 
+        "vpn kurulumu", "ders programı", "öğrenci işleri", 
+        "tek ders sınavı", "yönetmelik"
+    ];
+
+    const categoryWeights = {
+        "rektörlük": 50, "daire başkanlığı": 50, "idari birim": 40,
+        "koordinatörlük": 35, "fakülte": 30, "konservatuvar": 30,
+        "enstitü": 25, "yüksekokul": 25, "meslek yüksekokulu": 25,
+        "bölüm": 15, "araştırma merkezi": 10, "ana bilim dalı": 5
+    };
+
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results');
+    const suggestionContainer = document.getElementById('suggestion-container');
+
+    // --- YARDIMCI FONKSİYONLAR ---
+    function getCategoryWeight(category) {
+        if (!category) return 0;
+        const cat = category.toLowerCase().trim();
+        for (const [key, weight] of Object.entries(categoryWeights)) {
+            if (cat.includes(key)) return weight;
+        }
+        return 0;
+    }
+
+    // --- BELLEK MANTIĞI (BEYİN) ---
+    window.saveToHistory = function(entityName) {
+        let history = JSON.parse(localStorage.getItem('hubul_history') || '[]');
+        history = history.filter(name => name !== entityName);
+        history.unshift(entityName);
+        if (history.length > 3) history.pop();
+        localStorage.setItem('hubul_history', JSON.stringify(history));
+    };
+
+    window.clearHistory = function() {
+        localStorage.removeItem('hubul_history');
+        showFillerCards(); 
+    };
+
+    function extractSubdomain(url) {
+        if (!url) return "";
+        return url.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0].toLowerCase();
+    }
+
+    function showFillerCards() {
+        if (!masterData || masterData.length === 0) return;
+
+        // Hafızayı kontrol et
+        let history = JSON.parse(localStorage.getItem('hubul_history') || '[]');
+        let fillerItems = [];
+
+        // 1. ADIM: EĞER GEÇMİŞ VARSA ONLARI GETİR
+        if (history.length > 0) {
+            history.forEach(entityName => {
+                const found = masterData.find(item => item.entity_name === entityName);
+                if (found) fillerItems.push(found);
+            });
+        }
+
+        // 2. ADIM: EĞER GEÇMİŞ BOŞSA VEYA 3'TEN AZSA, EKSİKLERİ VIP'LERLE TAMAMLA
+        if (fillerItems.length < 3) {
+            const vipKeywords = ["öidb", "yemekhane", "kütüphane"];
+            const vips = masterData.filter(item => 
+                vipKeywords.some(vip => item.entity_name.toLowerCase().includes(vip)) &&
+                !fillerItems.some(f => f.entity_name === item.entity_name)
+            );
+            fillerItems = [...fillerItems, ...vips].slice(0, 3);
+        }
+
+        // --- BAŞLIK (Geçmiş varsa "Temizle" butonu da çıkar) ---
+        const headerTitle = history.length > 0 ? '🕒 Son Ziyaret Edilenler' : '⭐ Sık Kullanılanlar';
+        const clearButton = history.length > 0 ? `<span style="cursor:pointer; color:var(--corporate-purple); text-transform:none; font-weight:600;" onclick="clearHistory()">Temizle</span>` : '';
+
+        let innerHTML = `
+            <div style="margin-bottom: 12px; font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; display: flex; justify-content: space-between;">
+                <span>${headerTitle}</span>
+                ${clearButton}
+            </div>
+        `;
+
+        // --- KARTLARI BAS ---
+        fillerItems.forEach(item => {
+            const safeEntityName = item.entity_name.replace(/'/g, "\\'"); 
+            innerHTML += `
+                <div class="result-card" onclick="saveToHistory('${safeEntityName}')">
+                    <div class="category-pill">${item.category || "Birim"}</div>
+                    <h3 class="entity-title">${item.entity_name}</h3>
+            `;
+
+            if (item.action_links && item.action_links.length > 0) {
+                innerHTML += '<div class="action-chips">';
+                item.action_links.slice(0, 3).forEach(link => {
+                    innerHTML += `
+                        <a href="${link.url}" target="_blank" class="chip" onclick="saveToHistory('${safeEntityName}')">
+                            <span>${link.intent}</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                            </svg>
+                        </a>
+                    `;
+                });
+                innerHTML += '</div>';
+            }
+            innerHTML += `</div>`;
+        });
+
+        resultsContainer.innerHTML = innerHTML;
+    }
+
+    // --- 1. VERİLERİ ÇEKME ---
+    async function initSystem() {
+        try {
+            const masterRes = await fetch('outputs/hybrid_master.json');
+            if (masterRes.ok) masterData = await masterRes.json();
+            else throw new Error("Ana veri bulunamadı.");
+
+            try {
+                const annRes = await fetch('outputs/announcements_live.json');
+                if (annRes.ok) currentAnnouncements = await annRes.json();
+            } catch (e) { console.warn("Duyuru dosyası yok, devam ediliyor."); }
+
+            searchInput.placeholder = "Ne arıyorsun? (Örn: staj, oidb, cge)";
+            searchInput.disabled = false;
+            searchInput.focus();
+            showFillerCards(); // İlk açılışta VIP'leri getir
+        } catch (error) {
+            console.error("Hata:", error);
+            searchInput.placeholder = "Sistem geçici olarak ulaşılamıyor.";
+        }
+    }
+
+    // --- 2. ARAMA VE PUANLAMA ALGORİTMASI ---
+    searchInput.addEventListener('input', (e) => {
+        let query = e.target.value.trim().toLocaleLowerCase('tr-TR');
+        suggestionContainer.innerHTML = ''; 
+        
+        if (query.length < 2) {
+            resultsContainer.innerHTML = '';
+            showFillerCards(); 
+            suggestionContainer.style.display = 'none';
+            return;
+        }
+
+        // 🧠 EŞ ANLAMLILAR SÖZLÜĞÜ (Jargon ve Kısaltma Yaması)
+        const aliases = {
+            "ingilizce": "ingiliz dili",
+            "öidb": "öğrenci işleri", "oidb": "öğrenci işleri",
+            "sks": "sağlık kültür", "sksdb": "sağlık kültür", "yemek": "yemekhane",
+            "obs": "öğrenci işleri", "bilsis": "öğrenci işleri", "besyo": "spor bilimleri",
+            "ogrenci": "öğrenci", "tip": "tıp", "bidb": "bilgi işlem", "bıdb": "bilgi işlem", 
+            "rektorluk": "rektörlük", "iletisim": "iletişim", "muhendislik": "mühendislik",
+            "çap": "çift ana dal", "cap": "çift ana dal", "yandal": "yan dal",
+            "ceng": "bilgisayar mühendisliği", "eem": "elektrik elektronik", "eee": "elektrik elektronik",
+            "ie": "endüstri mühendisliği", "yzm": "yapay zeka mühendisliği", "ai": "yapay zeka", "yz": "yapay zeka",
+            "iibf": "iktisadi idari bilimler", "ydyo": "yabancı diller"
+        };
+        if (aliases[query]) {
+            query = aliases[query];
+        }
+
+        // --- ÖNERİ MANTIĞI ---
+        let matches = commonIntents.filter(intent => intent.startsWith(query) && intent !== query).slice(0, 3);
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                const btn = document.createElement('div');
+                btn.className = 'suggestion-btn';
+                btn.innerHTML = `<span>${match}</span>`; 
+                btn.addEventListener('click', () => {
+                    searchInput.value = match;
+                    searchInput.dispatchEvent(new Event('input'));
+                    searchInput.focus();
+                });
+                suggestionContainer.appendChild(btn);
+            });
+            suggestionContainer.style.display = 'flex'; 
+        } else {
+            suggestionContainer.style.display = 'none';
+        }
+
+        // --- 💉 SON CERRAHİ MÜDAHALE (Kusursuz Algoritma) ---
+        const stopwords = ["hacettepe", "üniversitesi", "ve", "bölümü", "fakültesi", "başkanlığı", "dairesi"];
+        let rawTokens = query.split(/\s+/);
+        let tokens = rawTokens.filter(t => !stopwords.includes(t));
+        if (tokens.length === 0) tokens = rawTokens; 
+
+        let scoredResults = masterData
+            .filter(item => item.is_valid_entity !== false && item.is_active !== false)
+            .map(item => {
+                let score = 0;
+                const entityOriginal = item.entity_name || "";
+                const entityLow = entityOriginal.toLocaleLowerCase('tr-TR');
+                const entityWords = entityLow.split(/[\s,.-]+/); 
+
+                // 🚀 ZAPT EDİLMİŞ NÜKLEER SİLAH
+                if (entityLow === query) {
+                    score += 2000; // Harfi harfine aynıysa oyunu bitir
+                } else if (rawTokens.length > 1 && entityLow.includes(query)) {
+                    score += 500; // Çok kelimeli cümle birebir geçiyorsa
+                }
+
+                tokens.forEach(token => {
+                    if (entityLow.includes(token)) {
+                        score += 10; 
+
+                        // 🎯 KESİN KELİME EŞLEŞMESİ
+                        if (entityWords.includes(token)) score += 50; 
+
+                        // BAŞLANGIÇ EŞLEŞMESİ
+                        if (entityLow.startsWith(token)) score += 30; 
+                    }
+                });
+
+                if (score > 0) {
+                    // 🏛️ HİYERARŞİ YASASI
+                    if (entityLow.includes("fakültesi") || entityLow.includes("başkanlığı")) score += 25;
+                    if (entityLow.includes("bölümü") || entityLow.includes("yüksekokulu")) score += 15;
+                    
+                    if (entityLow.includes("anabilim") || entityLow.includes("ana bilim") || entityLow.includes("merkezi")) {
+                        score -= 30; 
+                    }
+                    
+                    // ⭐ ÖĞRENCİ ZİHNİYETİ (VIP TORPİLLERİ)
+                    const vips = ["öğrenci işleri", "kütüphane", "yemekhane", "yabancı diller", "bilişim", "tömer", "sağlık, kültür"];
+                    if (vips.some(vip => entityLow.includes(vip))) score += 40;
+                    
+                    // 📉 İNSAFLI UZUNLUK CEZASI
+                    score -= (entityLow.length * 0.1);
+                }
+
+                let hasMatchingButton = false;
+                if (item.action_links && Array.isArray(item.action_links)) {
+                    for (let link of item.action_links) {
+                        if (tokens.some(t => link.intent.toLocaleLowerCase('tr-TR').includes(t))) {
+                            hasMatchingButton = true;
+                            break;
+                        }
+                    }
+                }
+
+                return { item, score, hasMatchingButton };
+            })
+            .filter(res => res.score > 0)
+            .sort((a, b) => b.score - a.score);
+
+        renderResults(scoredResults, tokens);
+    });
+
+    // --- 3. EKRANA ÇİZME (RENDER) ---
+    function renderResults(results, tokens) {
+        resultsContainer.innerHTML = '';
+
+        results.slice(0, 6).forEach(resultObj => {
+            const item = resultObj.item;
+            const card = document.createElement('div');
+            card.className = 'result-card';
+            
+            card.addEventListener('click', (e) => {
+                if (e.target.tagName !== 'A' && !e.target.closest('a')) window.open(item.url, '_blank');
+            });
+
+            // --- 1. KART BAŞLIĞI VE KATEGORİSİ ---
+            let innerHTML = `
+                <div class="category-pill">${item.category || "Birim"}</div>
+                <h3 class="entity-title">${item.entity_name}</h3>
+            `;
+
+            // --- 2. DUYURU KONTROLÜ (🚨 Emojisi çöpe gitti, yerine profesyonel rozet geldi) ---
+            if (currentAnnouncements.length > 0) {
+                const activeAnnouncement = currentAnnouncements.find(a => a.entity === item.entity_name);
+                
+                if (activeAnnouncement && activeAnnouncement.items && activeAnnouncement.items.length > 0) {
+                    const firstAnn = activeAnnouncement.items[0]; 
+                    const matchesQuery = tokens.some(token => firstAnn.title.toLowerCase().includes(token));
+                    
+                    if (matchesQuery || tokens.some(t => item.entity_name.toLowerCase().includes(t))) {
+                        innerHTML += `
+                            <div class="glean-announcement">
+                                <span class="announcement-tag">Yeni</span>
+                                <a href="${firstAnn.link}" target="_blank">${firstAnn.title}</a>
+                            </div>
+                        `;
+                    }
+                }
+            }
+
+            // --- 3. AKSİYON BUTONLARI (ZATTİR ZUTTURİ FİLTRESİ) ---
+            if (item.action_links && Array.isArray(item.action_links) && item.action_links.length > 0) {
+                let linksHTML = '<div class="action-chips">';
+                let printedLinksCount = 0;
+                
+                // 1. ADIM: Her linki zeka testine sok (Puanla)
+                let processedLinks = item.action_links.map(link => {
+                    const intentLow = link.intent.toLowerCase();
+                    
+                    // Öğrencinin GERÇEKTEN aradığı altın kelimeler
+                    const vips = ["ders program", "bilgi paketi", "sınav", "takvim", "duyuru", "staj", "obs", "müfredat"];
+                    
+                    // Bürokratik çöpler (Zattir zutturi listesi)
+                    const junk = ["stratejik", "faaliyet", "kalite", "misyon", "vizyon", "tarihçe", "organizasyon", "özdeğerlendirme", "kurumsal", "hakkında", "komisyon"];
+                    
+                    let score = 0;
+                    
+                    // Altın kelimeyse +20 puan
+                    if (vips.some(v => intentLow.includes(v))) score += 20;
+                    
+                    // Bürokratik çöp ise -20 puan (Eksiye düşürür)
+                    if (junk.some(j => intentLow.includes(j))) score -= 20;
+                    
+                    // Kullanıcının kasten yazdığı kelimeyle eşleşiyorsa +50 puan (Her şeyi ezer)
+                    let isMatch = tokens.some(t => intentLow.includes(t));
+                    if (isMatch) score += 50;
+                    
+                    return { ...link, score: score, isMatch: isMatch };
+                });
+                
+                // 2. ADIM: ACI FİLTRE (Çöpleri Gizle)
+                // Eğer link eksi puandaysa (bürokratikse) VE kullanıcı özellikle onu aratmadıysa SİL GİTSİN!
+                let filteredLinks = processedLinks.filter(link => link.score >= 0 || link.isMatch);
+                
+                // 3. ADIM: Kalanları yüksek puandan düşüğe sırala
+                filteredLinks.sort((a, b) => b.score - a.score);
+                
+                // 4. ADIM: Ekrana Bas (Katı 4 Limitiyle)
+                filteredLinks.forEach(link => {
+                    if (printedLinksCount >= 4) return;
+                    
+                    const intentLower = link.intent.toLowerCase();
+                    if (intentLower.includes("2021") || intentLower.includes("2022") || intentLower.includes("2023")) return; 
+                    
+                    const btnClass = link.isMatch ? "chip highlight" : "chip";
+                    const safeEntityName = item.entity_name.replace(/'/g, "\\'"); 
+                    
+                    linksHTML += `
+                        <a href="${link.url}" target="_blank" class="${btnClass}" onclick="saveToHistory('${safeEntityName}')">
+                            <span>${link.intent}</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                            </svg>
+                        </a>
+                    `;
+                    printedLinksCount++;
+                });
+                
+                linksHTML += '</div>';
+                if (printedLinksCount > 0) innerHTML += linksHTML;
+            }
+
+            card.innerHTML = innerHTML;
+            resultsContainer.appendChild(card);
+        });
+    }
+
+    // Sistemi Başlat
+    initSystem();
+</script>
+</body>
+</html>

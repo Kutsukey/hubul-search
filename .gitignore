@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+*.env
+
+# Data & Archives (Keep folders, ignore content)
+inputs/*.json
+archive/
+Arsiv/
+scratch/
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+*.orig
+*.log
+
+# Live Data (Ignore to prevent bloat, but normally kept if needed for GH Pages)
+# Remove the hash if you want to ignore live data changes
+# public/outputs/*.json
+
+# Playwright / Browser artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
