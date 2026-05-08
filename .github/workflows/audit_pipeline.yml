@@ -1,9 +1,9 @@
 name: Hubul Final Audit Pipeline
 
 on:
-  workflow_dispatch: # Manuel tetikleme (Yemekten sonra kontrol için)
+  workflow_dispatch: 
   schedule:
-    - cron: '0 0 * * 0' # Her Pazar gece yarısı otonom çalışma
+    - cron: '0 0 * * 0' 
 
 jobs:
   heavy-audit:
@@ -14,11 +14,13 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Bağımlılıkları Kur
+      - name: Bağımlılıkları ve Crawl4AI Kurulumunu Yap
         run: |
           python -m pip install --upgrade pip
+          pip install crawl4ai
+          crawl4ai-setup
           pip install -r requirements.txt
-          playwright install chromium
+          crawl4ai-doctor
 
       - name: 1. Crawler (Tam Tarama)
         env:
