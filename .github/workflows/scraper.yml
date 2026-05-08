@@ -28,6 +28,8 @@ jobs:
           playwright install chromium
 
       - name: Hubul Crawler'ı Çalıştır
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python crawler/hybrid_hacettepe_crawler_3.py
 

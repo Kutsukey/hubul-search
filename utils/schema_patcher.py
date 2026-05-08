@@ -15,8 +15,10 @@ if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-MASTER_JSON = "outputs/hybrid_master.json"
-BACKUP_JSON = "outputs/hybrid_master_backup.json"
+# Dizin Ayarları
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MASTER_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
+BACKUP_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master_backup.json")
 
 load_dotenv()
 

@@ -4,10 +4,10 @@ import os
 def heal_json():
     print("Ambulans geldi, yarali kelimeler araniyor...")
     
-    # Hedef dosyalari listele
+    # Dizin Ayarları
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     targets = [
-        "public/outputs/hybrid_master.json",
-        "hacettepe_ia_pipeline/outputs/hybrid_master.json"
+        os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
     ]
     
     for file_path in targets:

@@ -203,8 +203,12 @@ def clean_and_merge_json(file_path):
 
 # Scripti Ateşle
 if __name__ == "__main__":
-    target_file = "hacettepe_ia_pipeline/outputs/hybrid_master.json"
+    # Proje kök dizinini baz alarak yolu belirle
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    target_file = os.path.join(project_root, "public", "outputs", "hybrid_master.json")
+    
     if os.path.exists(target_file):
         clean_and_merge_json(target_file)
     else:
-        print(f"HATA: {target_file} dosyası bulunamadı. Klasör yolunu kontrol edin.")
+        print(f"HATA: {target_file} dosyası bulunamadı. Lütfen 'public/outputs/' dizinini kontrol edin.")

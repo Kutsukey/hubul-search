@@ -1,0 +1,53 @@
+name: Hubul Final Audit Pipeline
+
+on:
+  workflow_dispatch: # Manuel tetikleme (Yemekten sonra kontrol için)
+  schedule:
+    - cron: '0 0 * * 0' # Her Pazar gece yarısı otonom çalışma
+
+jobs:
+  heavy-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Bağımlılıkları Kur
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: 1. Crawler (Tam Tarama)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python crawler/hybrid_hacettepe_crawler_3.py
+
+      - name: 2. Patch & Clean Pipeline
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          python utils/schema_patcher.py
+          python utils/reverse_patcher.py
+          python utils/veri_temizleyici.py
+          python utils/acil_mudahale.py
+          python utils/title_dedektifi.py
+          python utils/smart_fixer.py
+
+      - name: 3. LLM Intent Validation
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python utils/validator.py
+
+      - name: 4. Push Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Tüm çıktıları ekle
+          git add public/outputs/*.json
+          
+          # Değişiklik varsa commit ve push yap
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: full audit and validation pipeline completed" && git push)

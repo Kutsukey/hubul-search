@@ -10,7 +10,9 @@ import io
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-MASTER_JSON = "outputs/hybrid_master.json"
+# Dizin Ayarları
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MASTER_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
 
 # Hacettepe sitelerinde en sık kullanılan duyuru seçicileri
 FALLBACK_SCHEMAS = [

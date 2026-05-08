@@ -7,8 +7,10 @@ import io
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-MASTER_JSON = "outputs/hybrid_master.json"
-SUPER_DATA_JSON = "outputs/super_crawled_data.json"
+# Dizin Ayarları
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MASTER_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
+SUPER_DATA_JSON = os.path.join(BASE_DIR, "public", "outputs", "super_crawled_data.json")
 
 def merge_super_data():
     print("🧬 Veri Birleştirme (Smart Merge) Başlatılıyor...")

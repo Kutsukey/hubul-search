@@ -92,10 +92,13 @@ def run_title_detective(file_path):
     
     # Raporu JSON olarak kaydet
     if flagged_items:
-        output_path = "outputs/flagged_hallucinations.json"
+        output_path = os.path.join(os.path.dirname(file_path), "flagged_hallucinations.json")
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(flagged_items, f, ensure_ascii=False, indent=4)
         print(f"📁 Hatalı kayıtlar '{output_path}' dosyasına kaydedildi.")
 
 if __name__ == "__main__":
-    run_title_detective("outputs/hybrid_master.json")
+    # Dizin Ayarları
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    target_file = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
+    run_title_detective(target_file)
