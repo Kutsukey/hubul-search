@@ -1,4 +1,4 @@
-# Python
+# Python/Node.js
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,6 +8,9 @@ env/
 .pytest_cache/
 .coverage
 htmlcov/
+/node_modules
+package-lock.json
+package.json
 
 # Environment Variables
 .env

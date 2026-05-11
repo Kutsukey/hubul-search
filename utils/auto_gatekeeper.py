@@ -3,9 +3,13 @@ import os
 from google import genai
 
 # Dizin Ayarları (Kendi klasör yapına göre kontrol et)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEED_JSON = os.path.join(BASE_DIR, "inputs", "seed_urls.json")
-POTENTIAL_NEW = os.path.join(BASE_DIR, "outputs", "potential_new_sites.json") # Crawler'ın yeni buldukları
+try:
+    from utils.config import SEED_JSON, POTENTIAL_NEW_JSON as POTENTIAL_NEW
+except ImportError:
+    # Fallback if config is missing
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    SEED_JSON = os.path.join(BASE_DIR, "inputs", "seed_urls.json")
+    POTENTIAL_NEW = os.path.join(BASE_DIR, "public", "outputs", "potential_new_sites.json")
 
 def ai_gatekeeper():
     print("🤖 AI Gatekeeper Devrede: Yeni keşifler sorgulanıyor...")

@@ -1,24 +1,25 @@
 # Hacettepe IA Reconstructor Requirements
 # Python 3.10+
 
-# Core Crawler
+# Core Crawler & Networking
 aiohttp>=3.9.0
 beautifulsoup4>=4.12.0
 requests>=2.31.0
 urllib3>=2.0.0
+pydantic>=2.0.0
+
+# Advanced Crawler (crawl4ai)
 crawl4ai
 
 # JS-Rendered (SPA) Page Support
-# After pip install, run: playwright install chromium
+# Note: After pip install, run: playwright install chromium
 playwright>=1.44.0
 
-# LLM Classification
+# LLM & Environment
 google-genai>=1.0.0
 python-dotenv>=1.0.0
-
-# Visualization
-# d3.js loaded via CDN in sitemap_d3_dashboard.html (no pip install needed)
 
 # Optional for development:
 # pytest>=7.0.0
 # black>=22.0.0
+trafilatura
