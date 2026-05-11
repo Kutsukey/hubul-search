@@ -8,6 +8,15 @@ def turkish_lower(s):
     if not s: return ""
     return s.replace('İ', 'i').replace('I', 'ı').lower()
 
+try:
+    from utils.config import MASTER_JSON
+except ImportError:
+    # Script'in kendi bulunduğu dizinden import denemesi
+    try:
+        from config import MASTER_JSON
+    except ImportError:
+        MASTER_JSON = None
+
 def isimi_sadelestir(entity_name):
     """'Hacettepe Üniversitesi' kalıplarını baştan siler."""
     if not entity_name: return ""
@@ -121,7 +130,9 @@ HARDCODED_OVERRIDES = {
     "otk.hacettepe.edu.tr": "DELETE", # Konsey aktif değil, SİL GİTSİN!
     "yurt.hacettepe.edu.tr": "DELETE", # Barınma olarak güncellendi, eski URL'i siliyoruz
     "cs.hacettepe.edu.tr": "Bilgisayar Mühendisliği ve Yapay Zeka Mühendisliği Bölümü",
-    "egitim-bulteni.hacettepe.edu.tr": "DELETE"
+    "egitim-bulteni.hacettepe.edu.tr": "DELETE",
+    "yenikazanan.hacettepe.edu.tr": "DELETE", # Geçici kayıt portalı, süresi doldu
+    "openaccess.hacettepe.edu.tr": "DELETE" # Kullanıcı talebi üzerine engellendi
 }
 
 
@@ -142,6 +153,28 @@ def clean_and_merge_json(file_path):
         url = item.get("url", "").replace("www.", "")
         item["url"] = url 
         
+        if "action_links" in item:
+            for link in item["action_links"]:
+                link_url = link.get("url", "")
+                if link_url:
+                    link["url"] = link_url.replace("www.", "")
+        
+        name_lower = item.get("entity_name", "").lower()
+        
+        # 💉 DEV SEO ENJEKSİYONU: Öğrencilerin dertlerini arama motoruna öğretiyoruz
+        if "sağlık" in name_lower and "kültür" in name_lower:
+            item["description"] = item.get("description", "") + " yemekhane menü yemek yurt barınma kyk sks"
+        elif "öğrenci işleri" in name_lower:
+            item["description"] = item.get("description", "") + " akademik takvim harç kayıt otomasyon transkript mezuniyet belge bilsis diploma"
+        elif "bilgi işlem" in name_lower:
+            item["description"] = item.get("description", "") + " eduroam vpn wifi internet e-posta"
+        elif "idari" in name_lower and "işler" in name_lower:
+            item["description"] = item.get("description", "") + " ring servis otobüs ulaşım"
+        elif "dış ilişkiler" in name_lower or "uluslararası" in name_lower:
+            item["description"] = item.get("description", "") + " erasmus yurtdışı değişim mevlana farabi"
+        elif "yapay zeka" in name_lower:
+            item["description"] = item.get("description", "") + " ai staj"
+
         # 1. İsmi Sadeleştir (Hacettepe Üniversitesi kısmını uçur)
         item["entity_name"] = isimi_sadelestir(item.get("entity_name", ""))
 
@@ -213,6 +246,26 @@ def clean_and_merge_json(file_path):
     # Sözlükteki değerleri tekrar JSON listesine çevir
     final_list = list(merged_data.values())
 
+    # 🚌 SENTETİK VERİ: Dinamik EGO 130 Ring Kartı (Resmi Durak Enjeksiyonlu)
+    ring_karti = {
+        "entity_name": "Beytepe Ring (EGO 130)",
+        "url": "https://www.ego.gov.tr/",
+        "category": "CANLI ULAŞIM",
+        "search_alias": "ring",
+        "description": "Beytepe Kampüsü 130 nolu EGO otobüsü kalkış saatleri ve güzergahı: Metro, Nizamiye, Kongre Salonu, MYO, TÖMER, Öğrenci Evleri, Mühendislik, Hukuk.",
+        "search_text": "ring otobüs otobus servis ulaşım ulasim ego 130 saatleri metro beytepe durak köprü nizamiye kültür kongre salonu kkm meslek yüksek okulu myo öğrenci evleri yurtlar tömer mühendislik hukuk 1596 cd",
+        "priority_score": 8000,
+        "is_ring": True, # Frontend'e bu kartın canlı olduğunu söylüyoruz
+        "action_links": [
+            {"intent": "Metro İstasyonu (10620)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10620';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"},
+            {"intent": "Nizamiye (14694)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='14694';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"},
+            {"intent": "Öğrenci Evleri (10566)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10566';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"},
+            {"intent": "Mühendislik (13140)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13140';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"},
+            {"intent": "Hukuk Fak. (13139)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13139';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"}
+        ]
+    }
+    final_list.append(ring_karti)
+
     # YEDEKLEME VE ÜZERİNE YAZMA
     backup_path = file_path.replace(".json", "_backup.json")
     
@@ -228,9 +281,12 @@ def clean_and_merge_json(file_path):
 # Scripti Ateşle
 if __name__ == "__main__":
     # Proje kök dizinini baz alarak yolu belirle
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(script_dir)
-    target_file = os.path.join(project_root, "public", "outputs", "hybrid_master.json")
+    if MASTER_JSON:
+        target_file = MASTER_JSON
+    else:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)
+        target_file = os.path.join(project_root, "public", "outputs", "hybrid_master.json")
     
     if os.path.exists(target_file):
         clean_and_merge_json(target_file)
