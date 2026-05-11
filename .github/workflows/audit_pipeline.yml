@@ -18,9 +18,10 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: 3. Gereksinimleri Yükle
+      - name: 3. Bağımlılıkları Kur
         run: |
-          pip install google-genai beautifulsoup4 requests
+          pip install -r requirements.txt
+          playwright install chromium
 
       - name: 4. Keşif & Gatekeeper (Yeni siteleri bul ve onayla)
         env:
@@ -40,7 +41,7 @@ jobs:
         run: |
           git config --global user.name "Hubul Bot"
           git config --global user.email "bot@hubul.com"
-          git add inputs/ outputs/ public/outputs/
+          git add inputs/ public/outputs/
           # Değişiklik yoksa hata vermemesi için || true eklendi
           git commit -m "🤖 [Otonom] Pazar Gece Mesaisi: Yeni siteler eklendi, veri temizlendi" || true
           git push origin dev
