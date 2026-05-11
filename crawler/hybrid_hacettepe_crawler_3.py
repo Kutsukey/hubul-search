@@ -21,6 +21,9 @@ from pydantic import BaseModel, Field
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from dotenv import load_dotenv
 
+import trafilatura
+import requests
+
 # Playwright
 try:
     from playwright.async_api import async_playwright
@@ -30,14 +33,26 @@ except ImportError:
     print("[UYARI] playwright kurulu değil. JS tabanlı sayfalar atlanacak.")
 
 # Dizin Yapılandırması
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_DIR = os.path.join(BASE_DIR, "inputs")
-OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
+# Proje kök dizinini sys.path'e ekleyelim ki utils import edilebilsin
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
 
-os.makedirs(INPUT_DIR, exist_ok=True)
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+try:
+    from utils.config import INPUTS_DIR, OUTPUTS_DIR, SEED_JSON, AZ_LINKS_JSON, MASTER_JSON, PROCESSED_URLS_JSON
+except ImportError:
+    # Fallback if config is missing
+    INPUTS_DIR = os.path.join(ROOT_DIR, "inputs")
+    OUTPUTS_DIR = os.path.join(ROOT_DIR, "public", "outputs")
+    SEED_JSON = os.path.join(INPUTS_DIR, "seed_urls.json")
+    AZ_LINKS_JSON = os.path.join(INPUTS_DIR, "az_links.json")
+    MASTER_JSON = os.path.join(OUTPUTS_DIR, "hybrid_master.json")
+    PROCESSED_URLS_JSON = os.path.join(OUTPUTS_DIR, "processed_urls.json")
 
-env_path = os.path.join(os.path.dirname(BASE_DIR), ".env")
+os.makedirs(INPUTS_DIR, exist_ok=True)
+os.makedirs(OUTPUTS_DIR, exist_ok=True)
+
+env_path = os.path.join(ROOT_DIR, ".env")
 if os.path.exists(env_path):
     load_dotenv(env_path)
 else:
@@ -123,24 +138,18 @@ def is_js_candidate(url: str, body_text: str) -> bool:
 
 def extract_semantic_text(html: str) -> str:
     """Semantic Chunking: Sadece anlamlı etiketleri çıkararak LLM maliyetini düşürür."""
-    soup = BeautifulSoup(html, 'html.parser')
-    main_text = ""
-    for tag in soup.find_all(['main', 'article', 'nav', 'div']):
-        # Eğer div ise ve class/id'sinde 'content', 'main', 'article' gibi şeyler yoksa atla
-        if tag.name == 'div':
-            classes = tag.get('class', [])
-            tag_id = tag.get('id', '')
-            is_semantic_div = any('content' in c.lower() or 'main' in c.lower() for c in classes) or 'content' in tag_id.lower() or 'main' in tag_id.lower()
-            if not is_semantic_div:
-                continue
-        main_text += tag.get_text(separator=' ', strip=True) + "\n"
-    
-    if not main_text.strip():
-        # Fallback: Anlamlı etiket yoksa body'yi al
-        main_text = soup.body.get_text(separator=' ', strip=True) if soup.body else soup.get_text(separator=' ', strip=True)
-    return main_text[:10000] # LLM'i yormamak için limit
+    try:
+        temiz_metin = trafilatura.extract(html, include_links=False, include_images=False, include_formatting=False)
+        if temiz_metin:
+            return temiz_metin[:10000]
+    except Exception as e:
+        print(f"Trafilatura hatası (semantic): {e}")
+    return ""
 
 def get_clean_text_for_llm(raw_html):
+    from bs4 import BeautifulSoup
+    import re
+    
     soup = BeautifulSoup(raw_html, 'html.parser')
     
     # 1. Standart çöpleri ve yan menüleri yok et
@@ -162,14 +171,27 @@ def get_clean_text_for_llm(raw_html):
             re.search(r'content|icerik|main|govde', str(tag.get('id', '')), re.I)
         ))
     
-    # 3. Metni Çıkar ve Sıkıştır
+    # 3. Metni Çıkar (TRAFILATURA ENTEGRASYONU)
+    html_to_extract = str(content_div) if content_div else str(soup.body) if soup.body else raw_html
+    
+    try:
+        import trafilatura
+        temiz_metin = trafilatura.extract(html_to_extract, include_links=False, include_images=False, include_formatting=False)
+        if temiz_metin:
+            text = re.sub(r'\s+', ' ', temiz_metin) 
+            return text[:3000]
+    except Exception as e:
+        print(f"Trafilatura hatası (llm): {e}")
+        pass
+        
+    # Trafilatura sonuç veremezse klasik metoda dön
     if content_div:
         text = content_div.get_text(separator=' ', strip=True)
     else:
         text = soup.body.get_text(separator=' ', strip=True) if soup.body else soup.get_text(separator=' ', strip=True)
         
     text = re.sub(r'\s+', ' ', text) 
-    return text[:3000] # LLM için ilk 3000 karakter yeterlidir.
+    return text[:3000]
 
 class PlaywrightPool:
     def __init__(self, concurrency: int = 3):
@@ -403,7 +425,7 @@ async def fetch_az_links(session: aiohttp.ClientSession) -> List[str]:
     alphabet = "ABCÇDEFGHIİJKLMNOÖPRSŞTUÜVYZ"
     base_url = "https://www.hacettepe.edu.tr/hakkinda/AZ/"
     all_links = set()
-    BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr"]
+    BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr", "egzersizdebeslenme.hacettepe.edu.tr"]
     
     async def fetch_letter(char: str):
         url = f"{base_url}{char}"
@@ -426,7 +448,7 @@ async def fetch_az_links(session: aiohttp.ClientSession) -> List[str]:
     await asyncio.gather(*tasks)
     
     links_list = sorted(list(all_links))
-    az_file = os.path.join(INPUT_DIR, "az_links.json")
+    az_file = AZ_LINKS_JSON
     with open(az_file, "w", encoding="utf-8") as f:
         json.dump(links_list, f, ensure_ascii=False, indent=4)
     print(f"[+] Toplam {len(links_list)} link bulundu ve kaydedildi.")
@@ -613,7 +635,7 @@ async def crawl_batch(initial_links: List[str]):
     sem_31b = asyncio.Semaphore(6)
     
     # State Persistence: Kaldığımız yeri hatırlama (Resume)
-    processed_urls_file = os.path.join(OUTPUT_DIR, "processed_urls.json")
+    processed_urls_file = PROCESSED_URLS_JSON
     if os.path.exists(processed_urls_file):
         try:
             with open(processed_urls_file, "r", encoding="utf-8") as f:
@@ -679,7 +701,7 @@ async def crawl_batch(initial_links: List[str]):
                             else:
                                 entity_data.pop("is_active", None); entity_data.pop("is_valid_entity", None)
                                 site_name = urlparse(url).netloc.replace(".", "_")
-                                output_path = os.path.join(OUTPUT_DIR, f"output_{site_name}_hybrid.json")
+                                output_path = os.path.join(OUTPUTS_DIR, f"output_{site_name}_hybrid.json")
                                 with open(output_path, "w", encoding="utf-8") as f:
                                     json.dump(entity_data, f, ensure_ascii=False, indent=4)
                                 print(f"[+] Hybrid Başarılı (FAZ 2) [{model_label}]: {url}")
@@ -708,7 +730,7 @@ async def crawl_batch(initial_links: List[str]):
         if _pw_pool: await _pw_pool.stop()
                 
     if results:
-        master_file = os.path.join(OUTPUT_DIR, "hybrid_master.json")
+        master_file = MASTER_JSON
         # Eğer master file varsa üstüne ekle (Resume logic)
         if os.path.exists(master_file):
             try:
@@ -723,7 +745,8 @@ async def crawl_batch(initial_links: List[str]):
         print(f"\n[+] Tamamlandı! Toplam {len(results)} sonuç kaydedildi.")
         
     if newly_discovered:
-        potential_file = os.path.join(OUTPUT_DIR, "potential_new_sites.json")
+        from utils.config import POTENTIAL_NEW_JSON
+        potential_file = POTENTIAL_NEW_JSON
         potential_data = [{"url": u, "entity_name": urlparse(u).netloc} for u in newly_discovered]
         with open(potential_file, "w", encoding="utf-8") as f:
             json.dump(potential_data, f, ensure_ascii=False, indent=4)
@@ -735,7 +758,7 @@ async def crawl_batch(initial_links: List[str]):
 async def main():
     print("=== Hacettepe Hybrid Two-Phase Crawl Pipeline v4.0 ===")
     
-    seed_file = os.path.join(INPUT_DIR, "seed_urls.json")
+    seed_file = SEED_JSON
     seed_links = []
     
     if os.path.exists(seed_file):
