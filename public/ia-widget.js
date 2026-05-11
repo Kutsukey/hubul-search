@@ -453,24 +453,36 @@
                     // DÜZELTME 3: Duyuruları düzleştirip ayrı Fuse indeksi oluştur
                     const flatAnnouncements = [];
                     currentAnnouncements.forEach(group => {
+                        const groupEntityLower = group.entity.toLowerCase();
+                        // 💉 DUYURU SEO ENJEKSİYONU: Entity adına göre gizli anahtar kelimeler ekliyoruz
+                        let extraAnnKeywords = "";
+                        const isEUGroup = groupEntityLower.includes("european") || groupEntityLower.includes("ab ofis") || groupEntityLower.includes("dış ilişkiler") || groupEntityLower.includes("uluslararası") || groupEntityLower.includes("avrupa");
+                        if (isEUGroup) extraAnnKeywords = "erasmus değişim yurtdışı yurtdisi farabi mevlana staj hareketlilik";
+                        if (groupEntityLower.includes("sağlık") && groupEntityLower.includes("kültür")) extraAnnKeywords = "yemekhane menü yurt barınma sks";
+                        if (groupEntityLower.includes("öğrenci") && groupEntityLower.includes("işleri")) extraAnnKeywords = "akademik takvim harç kayıt transkript mezuniyet";
+
                         (group.items || []).forEach(item => {
                             flatAnnouncements.push({
                                 title: item.title,
                                 link: item.link,
                                 source: item.source || group.entity,
                                 entity: group.entity,
-                                search_text: `${item.title} ${item.source || group.entity}`.toLowerCase()
+                                description: item.description || "",
+                                search_text: `${item.title} ${item.source || group.entity} ${item.description || ""} ${extraAnnKeywords}`.toLowerCase()
                             });
                         });
                     });
                     fuseAnnouncements = new Fuse(flatAnnouncements, {
                         includeScore: true,
-                        threshold: 0.4,
+                        includeMatches: true, // 🚀 SİHİRLİ ÖZELLİK: Harflerin nerede eşleştiğini bize söyler
+                        threshold: 0.45,
                         ignoreLocation: true,
+                        ignoreFieldNorm: true, // Uzun duyuruları silmemesi için bu şart
                         keys: [
-                            { name: 'title', weight: 3.0 },
-                            { name: 'source', weight: 1.5 },
-                            { name: 'search_text', weight: 1.0 }
+                            { name: 'title', weight: 3.0 },       // Başlıkta "Erasmus" geçerse → şampiyonluk skoru
+                            { name: 'source', weight: 1.5 },       // Kaynak adı eşleşirse bonus
+                            { name: 'description', weight: 1.2 }, // Duyuru gövdesinde "Erasmus" geçerse yakalanır
+                            { name: 'search_text', weight: 1.0 }  // Enjekte edilen keyword'ler burada
                         ]
                     });
                 }
@@ -582,15 +594,38 @@
 
         entityResults.sort((a, b) => b.score - a.score);
 
-        // Duyurular
+        // 🎯 HİBRİT DUYURU MOTORU: Fuse.js (Yazım Hatası) + Jilet Kalkan (Harf Saçılması)
         let annResults = [];
         if (fuseAnnouncements) {
-            const annFuse = fuseAnnouncements.search(query);
-            annResults = annFuse.filter(r => {
+            const annSearchResults = fuseAnnouncements.search(query);
+            
+            // Eğer yazılan kelime 4 harften kısaysa tamamı, uzunsa en az 3 harfi YAN YANA eşleşmeli!
+            const minSolidBlock = query.length < 4 ? query.length : 3;
+
+            annResults = annSearchResults.filter(r => {
                 const sourceLower = (r.item.source || "").toLowerCase();
                 const isMerkezAnn = sourceLower.includes("merkezi") && (sourceLower.includes("araştırma") || sourceLower.includes("uygulama"));
                 if (isMerkezAnn && r.score > 0.15) return false;
                 if (r.score >= 0.45) return false; 
+                
+                // 🛡️ AMERİKAN KÜLTÜRÜ KALKANI (Scattered Letter Shield)
+                // Fuse.js harfleri oradan buradan topladıysa çöpe atıyoruz.
+                let hasSolidBlock = false;
+                if (r.matches) {
+                    for (const match of r.matches) {
+                        for (const [start, end] of match.indices) {
+                            if ((end - start + 1) >= minSolidBlock) {
+                                hasSolidBlock = true;
+                                break;
+                            }
+                        }
+                        if (hasSolidBlock) break;
+                    }
+                }
+                
+                // Yan yana 3 harf bile eşleşmemişse, cümlenin içine saçılmış çöptür!
+                if (!hasSolidBlock) return false;
+
                 return true;
             }).slice(0, 2).map(r => ({ ann: r.item, score: (1 - r.score) * 800 }));
         }
