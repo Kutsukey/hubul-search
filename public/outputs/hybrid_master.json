@@ -350,43 +350,43 @@
             },
             {
                 "intent": "Tarihçeyi Oku",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/tarihce-6"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/tarihce-6"
             },
             {
                 "intent": "Misyon ve Vizyonu İncele",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-7"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-7"
             },
             {
                 "intent": "Hizmet Anlayışını",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/hizmet_anlayisimiz-19"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/hizmet_anlayisimiz-19"
             },
             {
                 "intent": "Eğitim ne Eriş",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/egitim-27"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/egitim-27"
             },
             {
                 "intent": "Bilimsel Organizasyonları",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/bilimsel_organizasyonlar-25"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/bilimsel_organizasyonlar-25"
             },
             {
                 "intent": "Bilirkişilik Hizmetlerini İncele",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/bilirkisilik-12"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/bilirkisilik-12"
             },
             {
                 "intent": "Poliklinik Hizmetleri",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/tarihce-6"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/tarihce-6"
             },
             {
                 "intent": "Toksikoloji Laboratuvarı",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/toksikoloji_laboratuvari-14"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/toksikoloji_laboratuvari-14"
             },
             {
                 "intent": "Adli Belge İnceleme Laboratuvarını İncele",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/adli_belge_inceleme_laboratuvari-17"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/adli_belge_inceleme_laboratuvari-17"
             },
             {
                 "intent": "Sık Sorulan Soruları Oku",
-                "url": "https://www.adlitip.hacettepe.edu.tr/tr/menu/sik_sorulan_sorular-16"
+                "url": "https://adlitip.hacettepe.edu.tr/tr/menu/sik_sorulan_sorular-16"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -785,7 +785,7 @@
             },
             {
                 "intent": "Yaz Okulu Eğitim-Öğretim Yönetmeliğini Oku",
-                "url": "https://www.hacettepe.edu.tr/duyuru/yonetmelikler/1861,sn0603"
+                "url": "https://hacettepe.edu.tr/duyuru/yonetmelikler/1861,sn0603"
             },
             {
                 "intent": "Yararlı Belgeleri Görüntüle",
@@ -1252,27 +1252,27 @@
             },
             {
                 "intent": "Lisansüstü Eğitimnu İncele",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/tr/lisansustu-egitim"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/tr/lisansustu-egitim"
             },
             {
                 "intent": "Lisans Programı",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/tr/lisans-programi"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/tr/lisans-programi"
             },
             {
                 "intent": "Yandal Programı ne Ulaş",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/tr/yandal"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/tr/yandal"
             },
             {
                 "intent": "Performans Laboratuvarı Kullanım Yönergesini İndir",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/tr/performans-laboratuvari-kullanim-yönergesi"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/tr/performans-laboratuvari-kullanim-yönergesi"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "İngilizce Sayfaya Geç",
-                "url": "https://www.antrenmanbilimi.hacettepe.edu.tr/en"
+                "url": "https://antrenmanbilimi.hacettepe.edu.tr/en"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -1450,7 +1450,7 @@
             },
             {
                 "intent": "Kanun ve Yönetmelikleri Oku",
-                "url": "https://www.hacettepe.edu.tr/duyurular/kanun-ve-yonetmelikler"
+                "url": "https://hacettepe.edu.tr/duyurular/kanun-ve-yonetmelikler"
             },
             {
                 "intent": "Komisyonlar ve Koordinatörlükler Listesini İndir",
@@ -1909,7 +1909,7 @@
             },
             {
                 "intent": "Öğrenci Formlarını ve Yararlı Belgeleri İndir",
-                "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+                "url": "http://egitim.hacettepe.edu.tr/ogrenci_form.html"
             },
             {
                 "intent": "Aday Öğrenci Koşullarını Görüntüle",
@@ -1945,7 +1945,7 @@
             },
             {
                 "intent": "Yararlı Belgeleri ve Formları İndir",
-                "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+                "url": "http://egitim.hacettepe.edu.tr/ogrenci_form.html"
             },
             {
                 "intent": "Lisans Program ne Eriş",
@@ -2372,23 +2372,23 @@
             },
             {
                 "intent": "Başvuru Yap",
-                "url": "https://www.beytepekkm.hacettepe.edu.tr/tr/basvuru"
+                "url": "https://beytepekkm.hacettepe.edu.tr/tr/basvuru"
             },
             {
                 "intent": "İletişim",
-                "url": "https://www.beytepekkm.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://beytepekkm.hacettepe.edu.tr/tr/iletisim"
             },
             {
                 "intent": "Ulaşım",
-                "url": "https://www.beytepekkm.hacettepe.edu.tr/tr/ulasim"
+                "url": "https://beytepekkm.hacettepe.edu.tr/tr/ulasim"
             },
             {
                 "intent": "Teknik Özellikleri İncele (Technical Specifications)",
-                "url": "https://www.beytepekkm.hacettepe.edu.tr/en/technical-specifications"
+                "url": "https://beytepekkm.hacettepe.edu.tr/en/technical-specifications"
             },
             {
                 "intent": "Galeriye Git",
-                "url": "https://www.beytepekkm.hacettepe.edu.tr/tr/galeriler"
+                "url": "https://beytepekkm.hacettepe.edu.tr/tr/galeriler"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -2563,7 +2563,7 @@
             },
             {
                 "intent": "Yandal Başvuruları Hakkında Duyuruyu Oku",
-                "url": "https://www.beo.hacettepe.edu.tr/tr/yandal_basvurulari_hakkinda_du-119"
+                "url": "https://beo.hacettepe.edu.tr/tr/yandal_basvurulari_hakkinda_du-119"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -3154,19 +3154,19 @@
             },
             {
                 "intent": "Biyoinformatik",
-                "url": "https://www.biyoinformatik.hacettepe.edu.tr/tr/menu/hakkinda-1"
+                "url": "https://biyoinformatik.hacettepe.edu.tr/tr/menu/hakkinda-1"
             },
             {
                 "intent": "Programlar Hakkında Genel Bilgi",
-                "url": "https://www.biyoinformatik.hacettepe.edu.tr/tr/menu/programlar_hakkinda_genel_bilgi-25"
+                "url": "https://biyoinformatik.hacettepe.edu.tr/tr/menu/programlar_hakkinda_genel_bilgi-25"
             },
             {
                 "intent": "Yayınları Görüntüle",
-                "url": "https://www.biyoinformatik.hacettepe.edu.tr/tr/menu/yayinlar-31"
+                "url": "https://biyoinformatik.hacettepe.edu.tr/tr/menu/yayinlar-31"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "https://www.biyoinformatik.hacettepe.edu.tr/tr/menu/hakkinda-1"
+                "url": "https://biyoinformatik.hacettepe.edu.tr/tr/menu/hakkinda-1"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -3283,7 +3283,7 @@
             },
             {
                 "intent": "Duyuruları Görüntüle",
-                "url": "http://www.biology.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://biology.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Etkinlikleri Takip Et",
@@ -3339,7 +3339,7 @@
             },
             {
                 "intent": "Diplomalar",
-                "url": "https://www.biology.hacettepe.edu.tr/tr/diplomalar_hakkinda-972"
+                "url": "https://biology.hacettepe.edu.tr/tr/diplomalar_hakkinda-972"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -3469,7 +3469,7 @@
             },
             {
                 "intent": "Tez Yazım Kılavuzu Yönergesini İndir",
-                "url": "https://www.fenbilimleri.hacettepe.edu.tr/TezYazimKilavuzu2018.pdf"
+                "url": "https://fenbilimleri.hacettepe.edu.tr/TezYazimKilavuzu2018.pdf"
             },
             {
                 "intent": "Eğitim-Öğretim ve Sınav Yönetmeliği Değişikliğini Oku",
@@ -3585,7 +3585,7 @@
             },
             {
                 "intent": "Fen Bilimleri Enstitüsü Tez Yazım Kılavuzunu İndir",
-                "url": "https://www.fenbilimleri.hacettepe.edu.tr/TezYazimKilavuzu2018.pdf"
+                "url": "https://fenbilimleri.hacettepe.edu.tr/TezYazimKilavuzu2018.pdf"
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
@@ -3765,83 +3765,83 @@
             },
             {
                 "intent": "Yönetmelik ve Kuralları İncele",
-                "url": "https://www.ce.hacettepe.edu.tr/en/rules_and_regulations"
+                "url": "https://ce.hacettepe.edu.tr/en/rules_and_regulations"
             },
             {
                 "intent": "Lisans Program",
-                "url": "https://www.ce.hacettepe.edu.tr/en/undergraduate_program"
+                "url": "https://ce.hacettepe.edu.tr/en/undergraduate_program"
             },
             {
                 "intent": "Yüksek Lisans Program",
-                "url": "https://www.ce.hacettepe.edu.tr/en/master_of_science_program"
+                "url": "https://ce.hacettepe.edu.tr/en/master_of_science_program"
             },
             {
                 "intent": "Doktora Program",
-                "url": "https://www.ce.hacettepe.edu.tr/en/phd_program"
+                "url": "https://ce.hacettepe.edu.tr/en/phd_program"
             },
             {
                 "intent": "Yan Dal Rehberini Oku",
-                "url": "https://www.ce.hacettepe.edu.tr/en/minor_program_guide"
+                "url": "https://ce.hacettepe.edu.tr/en/minor_program_guide"
             },
             {
                 "intent": "Sınav Kurallarını ve Oturma Planlarını",
-                "url": "https://www.ce.hacettepe.edu.tr/en/exam_rules_and_seating_plans"
+                "url": "https://ce.hacettepe.edu.tr/en/exam_rules_and_seating_plans"
             },
             {
                 "intent": "2025-26 Bahar Dönemi Ders Programını İndir",
-                "url": "https://www.ce.hacettepe.edu.tr/en/2025-26_spring_course_schedule"
+                "url": "https://ce.hacettepe.edu.tr/en/2025-26_spring_course_schedule"
             },
             {
                 "intent": "2025-26 Bahar Dönemi Vize Sınav Takvimini",
-                "url": "https://www.ce.hacettepe.edu.tr/en/2025-26_spring_midterm_exam_schedule"
+                "url": "https://ce.hacettepe.edu.tr/en/2025-26_spring_midterm_exam_schedule"
             },
             {
                 "intent": "Mezun Anketi Katılımı",
-                "url": "https://www.ce.hacettepe.edu.tr/en/alumni_survey"
+                "url": "https://ce.hacettepe.edu.tr/en/alumni_survey"
             },
             {
                 "intent": "Akreditasyon Belgelerini İncele",
-                "url": "https://www.ce.hacettepe.edu.tr/en/accreditation_documents"
+                "url": "https://ce.hacettepe.edu.tr/en/accreditation_documents"
             },
             {
                 "intent": "Yüksek Lisans ve Doktora Tezlerini Araştır",
-                "url": "https://www.ce.hacettepe.edu.tr/en/msc_and_phd_theses"
+                "url": "https://ce.hacettepe.edu.tr/en/msc_and_phd_theses"
             },
             {
                 "intent": "Ders Dokümanlarını Görüntüle",
-                "url": "https://www.ce.hacettepe.edu.tr/en/course_documents"
+                "url": "https://ce.hacettepe.edu.tr/en/course_documents"
             },
             {
                 "intent": "Staj Bilgilendirme Toplantısı Detayları",
-                "url": "https://www.ce.hacettepe.edu.tr/en/internship_information_meeting"
+                "url": "https://ce.hacettepe.edu.tr/en/internship_information_meeting"
             },
             {
                 "intent": "Lisansüstü Moodle Kaydı Yap",
-                "url": "https://www.ce.hacettepe.edu.tr/en/moodle_registration_of_graduate_student"
+                "url": "https://ce.hacettepe.edu.tr/en/moodle_registration_of_graduate_student"
             },
             {
                 "intent": "Doktora Kayıt ni Öğren",
-                "url": "https://www.ce.hacettepe.edu.tr/en/enrollment_of_doctoral_degree"
+                "url": "https://ce.hacettepe.edu.tr/en/enrollment_of_doctoral_degree"
             },
             {
                 "intent": "Yüksek Lisans Kayıt ni Öğren",
-                "url": "https://www.ce.hacettepe.edu.tr/en/enrollment_of_master_of_science_degree"
+                "url": "https://ce.hacettepe.edu.tr/en/enrollment_of_master_of_science_degree"
             },
             {
                 "intent": "Akademik Kadroyu İncele",
-                "url": "https://www.ce.hacettepe.edu.tr/en/faculty_members"
+                "url": "https://ce.hacettepe.edu.tr/en/faculty_members"
             },
             {
                 "intent": "Araştırma Projelerini Görüntüle",
-                "url": "https://www.ce.hacettepe.edu.tr/en/research_and_projects"
+                "url": "https://ce.hacettepe.edu.tr/en/research_and_projects"
             },
             {
                 "intent": "Staj Raporu Teslim Tarihlerini Kontrol Et",
-                "url": "https://www.ce.hacettepe.edu.tr/en/submission_deadline_for_internship_reports"
+                "url": "https://ce.hacettepe.edu.tr/en/submission_deadline_for_internship_reports"
             },
             {
                 "intent": "IMU491 Danışman Listesine Bak",
-                "url": "https://www.ce.hacettepe.edu.tr/en/imu491_supervisor_list"
+                "url": "https://ce.hacettepe.edu.tr/en/imu491_supervisor_list"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -4097,7 +4097,7 @@
             },
             {
                 "intent": "Öğrenci İşleri Daire Başkanlığı",
-                "url": "http://www.oid.hacettepe.edu.tr/index.php?submenuheader=5"
+                "url": "http://oid.hacettepe.edu.tr/index.php?submenuheader=5"
             },
             {
                 "intent": "İş Olanakları Rehberini İncele",
@@ -4105,7 +4105,7 @@
             },
             {
                 "intent": "Öğrenci Toplulukları Listesine Git",
-                "url": "http://www.sksdb.hacettepe.edu.tr/new/grid.php?parameters=qbapuL6kmaScnHYY2Bf%2BopWek6BZqbHDy6WcpZujmscGBIWonZyPrKvBf4GNX4SfoKOuwbe%2By5GiXqikpXu6wMuPlpmVo53If7TDmVVxlPvqga3I0aWcpaOwosGreKqloqWcrP70Yqwj4Zz04WOtxLK%2F1Jylm5KYrMCjwchVhJ%2Bgo67Bt75%2FcpH1z6KawwYEi5Gbk"
+                "url": "http://sksdb.hacettepe.edu.tr/new/grid.php?parameters=qbapuL6kmaScnHYY2Bf%2BopWek6BZqbHDy6WcpZujmscGBIWonZyPrKvBf4GNX4SfoKOuwbe%2By5GiXqikpXu6wMuPlpmVo53If7TDmVVxlPvqga3I0aWcpaOwosGreKqloqWcrP70Yqwj4Zz04WOtxLK%2F1Jylm5KYrMCjwchVhJ%2Bgo67Bt75%2FcpH1z6KawwYEi5Gbk"
             },
             {
                 "intent": "Ders Programlarını Görüntüle",
@@ -4133,7 +4133,7 @@
             },
             {
                 "intent": "Öğrenci İşleri Daire Başkanlığına Git",
-                "url": "http://www.oid.hacettepe.edu.tr/index.php?submenuheader=5"
+                "url": "http://oid.hacettepe.edu.tr/index.php?submenuheader=5"
             },
             {
                 "intent": "YÖK Atlas Bölüm Verilerini İncele",
@@ -4243,7 +4243,7 @@
             },
             {
                 "intent": "MÜDEK Akreditasyon",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/mudek_akreditasyonu-21"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/mudek_akreditasyonu-21"
             },
             {
                 "intent": "Lisans Programı ni Al",
@@ -4287,75 +4287,75 @@
             },
             {
                 "intent": "Ders Kataloğunu ve AKTS Bilgi Paketini Görüntüle",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/ders_katalogu_akts_bilgi_paketleri-30"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/ders_katalogu_akts_bilgi_paketleri-30"
             },
             {
                 "intent": "Lisans Program",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/lisans-25"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/lisans-25"
             },
             {
                 "intent": "Lisansüstü Program",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/lisansustu-26"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/lisansustu-26"
             },
             {
                 "intent": "Yatay ve Dikey Geçiş Şartlarını İncele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/yatay_dikey_gecis-58"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/yatay_dikey_gecis-58"
             },
             {
                 "intent": "Yan Dal Programı",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/yan_dal-27"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/yan_dal-27"
             },
             {
                 "intent": "Tanıtım Posterini İndir",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/tanitim_posteri-145"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/tanitim_posteri-145"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-16"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-16"
             },
             {
                 "intent": "Araştırma evlilerini Listele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-17"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-17"
             },
             {
                 "intent": "Öğretim evlilerini Listele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/ogretim_gorevlileri-18"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/ogretim_gorevlileri-18"
             },
             {
                 "intent": "Teknik ve İdari Personeli Listele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/teknik_ve_idari_personel-19"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/teknik_ve_idari_personel-19"
             },
             {
                 "intent": "Güncel Araştırma Konularını İncele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/guncel_arastirma_konularimiz-141"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/guncel_arastirma_konularimiz-141"
             },
             {
                 "intent": "Son Akademik Çalışmaları",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/son_calismalarimiz-143"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/son_calismalarimiz-143"
             },
             {
                 "intent": "Bölüm Yönetimini Görüntüle",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/bolum_yonetimi-7"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/bolum_yonetimi-7"
             },
             {
                 "intent": "Misyon ve Vizyonu Oku",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-4"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-4"
             },
             {
                 "intent": "Program Eğitim Amaçlarını İncele",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/program_egitim_amaclari-5"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/program_egitim_amaclari-5"
             },
             {
                 "intent": "Program Çıktılarını Görüntüle",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/program_ciktilari-6"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/program_ciktilari-6"
             },
             {
                 "intent": "Bölüm Danışma Kurulunu Görüntüle",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/bolum_danisma_kurulumuz-12"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/bolum_danisma_kurulumuz-12"
             },
             {
                 "intent": "Anabilim Dalları Bilgisine Ulaş",
-                "url": "https://www.cheng.hacettepe.edu.tr/tr/menu/anabilim_dallari-14"
+                "url": "https://cheng.hacettepe.edu.tr/tr/menu/anabilim_dallari-14"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -4631,43 +4631,43 @@
         "action_links": [
             {
                 "intent": "Yönetimnu İncele",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/yonetim"
+                "url": "https://cuam.hacettepe.edu.tr/tr/yonetim"
             },
             {
                 "intent": "Etkinlikleri Görüntüle",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/etkinlikler"
+                "url": "https://cuam.hacettepe.edu.tr/tr/etkinlikler"
             },
             {
                 "intent": "Projeleri İncele",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/projeler"
+                "url": "https://cuam.hacettepe.edu.tr/tr/projeler"
             },
             {
                 "intent": "Faaliyet Alanlarını Öğren",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/faaliyet-alani"
+                "url": "https://cuam.hacettepe.edu.tr/tr/faaliyet-alani"
             },
             {
                 "intent": "Gerçekleştirilen Faaliyetlere Bak",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/gerceklestirilen-faaliyetler"
+                "url": "https://cuam.hacettepe.edu.tr/tr/gerceklestirilen-faaliyetler"
             },
             {
                 "intent": "Laboratuvar ve Analiz İmkanlarını İncele",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/laboratuvar-ve-analiz-imkanlari"
+                "url": "https://cuam.hacettepe.edu.tr/tr/laboratuvar-ve-analiz-imkanlari"
             },
             {
                 "intent": "Çevre Bilimleri Dergisi'ne Eriş",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/cevre-bilimleri-dergisi"
+                "url": "https://cuam.hacettepe.edu.tr/tr/cevre-bilimleri-dergisi"
             },
             {
                 "intent": "Duyuruları Listele",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://cuam.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.cuam.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://cuam.hacettepe.edu.tr/tr/iletisim"
             },
             {
                 "intent": "İngilizce Sayfaya Geç",
-                "url": "https://www.cuam.hacettepe.edu.tr/en"
+                "url": "https://cuam.hacettepe.edu.tr/en"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -5340,7 +5340,7 @@
             },
             {
                 "intent": "2547 Sayılı Yükseköğretim Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/Metin1.Aspx?MevzuatKod=1.5.2547&MevzuatIliski=0&sourceXmlSearch=2547&Tur=1&Tertip=5&No=2547"
+                "url": "https://mevzuat.gov.tr/Metin1.Aspx?MevzuatKod=1.5.2547&MevzuatIliski=0&sourceXmlSearch=2547&Tur=1&Tertip=5&No=2547"
             },
             {
                 "intent": "Ön Lisans ve Lisans Eğitim-Öğretim Yönetmeliğini Oku",
@@ -5713,7 +5713,7 @@
             },
             {
                 "intent": "Toplantı Gündemlerini Takip Et",
-                "url": "http://www.eczacilik.hacettepe.edu.tr/tr/duyurular/yonetim_gundemleri-44"
+                "url": "http://eczacilik.hacettepe.edu.tr/tr/duyurular/yonetim_gundemleri-44"
             },
             {
                 "intent": "Ulusal Lisans Akreditasyonunu Oku",
@@ -5904,27 +5904,27 @@
             },
             {
                 "intent": "Danışmanlık Yönergesini İncele",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/danismanlik_yonergesi-82"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/danismanlik_yonergesi-82"
             },
             {
                 "intent": "Enstitünün Tarihçesini Oku",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_tarihcesi-4"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_tarihcesi-4"
             },
             {
                 "intent": "Enstitü Misyonunu Görüntüle",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_misyonu-5"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_misyonu-5"
             },
             {
                 "intent": "Enstitü Vizyonunu Görüntüle",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_vizyonu-6"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/enstitunun_vizyonu-6"
             },
             {
                 "intent": "Öz Değerleri İncele",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/oz_degerler-7"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/oz_degerler-7"
             },
             {
                 "intent": "Kalite Anlayışını Oku",
-                "url": "https://www.egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/kalite_anlayisi-8"
+                "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr/tr/menu/kalite_anlayisi-8"
             },
             {
                 "intent": "Enstitü Yönetimini Görüntüle",
@@ -6254,8 +6254,8 @@
     },
     {
         "entity_name": "H.Ü. Beslenme Bilgi Sistemi (Yemek Menüsü)",
-        "category": "Ana Bilim Dalı",
-        "description": "Egzersizde Beslenme ve Metabolizma Anabilim Dalı'nın akademik kadrosu, lisansüstü eğitim programları, araştırma projeleri, laboratuvar imkanları ve güncel akademik faaliyetleri hakkında bilgi sunan resmi web sayfasıdır.",
+        "category": "İdari Birim",
+        "description": "Hacettepe Üniversitesi Sağlık, Kültür ve Spor Daire Başkanlığı bünyesinde sunulan günlük ve haftalık yemek menüleri, kalori bilgileri ve yemekhane hizmetleri hakkında bilgi sunan platformdur.",
         "action_links": [
             {
                 "intent": "Günlük Yemek Menüsü",
@@ -6280,14 +6280,14 @@
         ],
         "announcement_schema": ".duyurular_liste",
         "sub_branches": [],
-        "url": "https://egzersizdebeslenme.hacettepe.edu.tr",
+        "url": "https://beslenme.hacettepe.edu.tr",
         "deep_crawl_files": 0,
-        "deep_crawl_pages": 23,
+        "deep_crawl_pages": 0,
         "is_active": true,
-        "search_alias": "egzersizdebeslenme",
+        "search_alias": "beslenme",
         "priority_score": 0,
         "entity_type": "DİĞER",
-        "search_text": "egzersizdebeslenme h.ü. beslenme bilgi sistemi (yemek menüsü) günlük yemek menüsü haftalık/aylık yemek listesi alerjen rehberi online yemek rezervasyonu yemekhane bakiyesi yükle"
+        "search_text": "beslenme h.ü. beslenme bilgi sistemi (yemek menüsü) günlük yemek menüsü haftalık/aylık yemek listesi alerjen rehberi online yemek rezervasyonu yemekhane bakiyesi yükle"
     },
     {
         "entity_name": "Eğitim Komisyonu",
@@ -6440,11 +6440,11 @@
             },
             {
                 "intent": "Öğretim Üyesi Görüntüle (ID: 1156)",
-                "url": "https://www.egzersizfizyolojisi.hacettepe.edu.tr/ogretim_uyeleri-27?pid=&lang=tr&userid=1156"
+                "url": "https://egzersizfizyolojisi.hacettepe.edu.tr/ogretim_uyeleri-27?pid=&lang=tr&userid=1156"
             },
             {
                 "intent": "Öğretim Üyesi Görüntüle (ID: 3969)",
-                "url": "https://www.egzersizfizyolojisi.hacettepe.edu.tr/ogretim_uyeleri-27?pid=&lang=tr&userid=3969"
+                "url": "https://egzersizfizyolojisi.hacettepe.edu.tr/ogretim_uyeleri-27?pid=&lang=tr&userid=3969"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -6720,35 +6720,35 @@
             },
             {
                 "intent": "Yönetim Kadrosunu Görüntüle",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/yonetim-2"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/yonetim-2"
             },
             {
                 "intent": "Epitezler",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/epitezler_hakkinda-14"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/epitezler_hakkinda-14"
             },
             {
                 "intent": "Hasta Bilgilendirme Sayfasını Ziyaret Et",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/hastalar_icin-12"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/hastalar_icin-12"
             },
             {
                 "intent": "Kulak Epitezleri Çalışmalarını İncele",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/kulak_epitezleri-9"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/kulak_epitezleri-9"
             },
             {
                 "intent": "Burun Epitezleri Çalışmalarını İncele",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/burun_epitezleri-10"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/burun_epitezleri-10"
             },
             {
                 "intent": "Göz Epitezleri Çalışmalarını İncele",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/goz_epitezleri-11"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/goz_epitezleri-11"
             },
             {
                 "intent": "Midfasiyal Epitezler Çalışmalarını İncele",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/midfasiyal_epitezler-15"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/midfasiyal_epitezler-15"
             },
             {
                 "intent": "El ve Parmak Protezleri Çalışmalarını İncele",
-                "url": "https://www.epitez.hacettepe.edu.tr/tr/menu/el_ve_parmak_protezleri-16"
+                "url": "https://epitez.hacettepe.edu.tr/tr/menu/el_ve_parmak_protezleri-16"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -7088,11 +7088,11 @@
             },
             {
                 "intent": "Yüksek Lisans nı İncele",
-                "url": "https://www.farmaanalitik.hacettepe.edu.tr"
+                "url": "https://farmaanalitik.hacettepe.edu.tr"
             },
             {
                 "intent": "Doktora nı İncele",
-                "url": "https://www.farmaanalitik.hacettepe.edu.tr"
+                "url": "https://farmaanalitik.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -7169,7 +7169,7 @@
             },
             {
                 "intent": "Duyuruları Takip Et",
-                "url": "http://www.eytpe.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://eytpe.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Etkinlikleri Görüntüle",
@@ -7221,7 +7221,7 @@
             },
             {
                 "intent": "Duyuruları Görüntüle",
-                "url": "http://www.eytpe.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://eytpe.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Öğretim Üyeleri Listesini Görüntüle",
@@ -8066,43 +8066,43 @@
             },
             {
                 "intent": "Tanıtımnu İncele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/tanitim-23"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/tanitim-23"
             },
             {
                 "intent": "Tarihçeyi Oku",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/tarihce-24"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/tarihce-24"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-5"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-5"
             },
             {
                 "intent": "Araştırma evlilerini Listele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-6"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-6"
             },
             {
                 "intent": "İdari Personeli Listele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/idari_personel-7"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/idari_personel-7"
             },
             {
                 "intent": "Lisans Programı ne Eriş",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/lisans_programi-8"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/lisans_programi-8"
             },
             {
                 "intent": "Yüksek Lisans ve Doktora Öğrencilerini Görüntüle",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_ve_doktora_ogrenciler-46"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_ve_doktora_ogrenciler-46"
             },
             {
                 "intent": "Tıpta Uzmanlık Tezlerini Listele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/tipta_uzmanlik_tezleri-15"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/tipta_uzmanlik_tezleri-15"
             },
             {
                 "intent": "Yüksek Lisans Tezlerini Listele",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_tezleri-13"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_tezleri-13"
             },
             {
                 "intent": "Kimyasal Arşivi'ne Eriş",
-                "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/kimyasal_arsivi-31"
+                "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/kimyasal_arsivi-31"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -8193,7 +8193,7 @@
             },
             {
                 "intent": "Güncel Duyuruları Görüntüle",
-                "url": "http://www.food.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://food.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Haberleri Oku",
@@ -8366,7 +8366,7 @@
     {
         "entity_name": "Uluslararası Gıda Biyogüvenlik ve Biyoteknoloji Araştırma ve Yayım Merkezi (IFBBC)",
         "category": "Araştırma Merkezi",
-        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir.",
+        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Merkez",
@@ -8960,7 +8960,7 @@
             },
             {
                 "intent": "Bölüm Tarihçesini İncele",
-                "url": "http://www.halkbilimi.hacettepe.edu.tr/tr/menu/tarihce-53"
+                "url": "http://halkbilimi.hacettepe.edu.tr/tr/menu/tarihce-53"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
@@ -9025,11 +9025,11 @@
         "action_links": [
             {
                 "intent": "Lisans Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24478&MevzuatTur=8&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=24478&MevzuatTur=8&MevzuatTertip=5"
             },
             {
                 "intent": "Lisansüstü Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
             },
             {
                 "intent": "Lisans Eğitim Programını İncele",
@@ -9341,7 +9341,7 @@
             },
             {
                 "intent": "Başvuru Formunu İndir",
-                "url": "https://www.gse.hacettepe.edu.tr/afform110618.docx"
+                "url": "https://gse.hacettepe.edu.tr/afform110618.docx"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -10061,15 +10061,15 @@
             },
             {
                 "intent": "INCREMENTAL Projesi Web Sitesini Ziyaret Et",
-                "url": "https://www.adapt.it/incremental/"
+                "url": "https://adapt.it/incremental/"
             },
             {
                 "intent": "INCREMENTAL Projesi Tanıtım Videosunu İzle",
-                "url": "https://www.youtube.com/watch?v=WnvHMYpk2UQ&t=19s"
+                "url": "https://youtube.com/watch?v=WnvHMYpk2UQ&t=19s"
             },
             {
                 "intent": "IX. İş Sağlığı ve Güvenliği Sempozyumu Kayıt ve Bilgi",
-                "url": "https://www.fmo.org.tr/viii-is-sagligi-ve-guvenligi-sempozyumu/"
+                "url": "https://fmo.org.tr/viii-is-sagligi-ve-guvenligi-sempozyumu/"
             }
         ],
         "announcement_schema": "#duyurular",
@@ -10342,7 +10342,7 @@
             },
             {
                 "intent": "Kanun, Yönetmelik ve Yönergeleri Oku",
-                "url": "https://www.hemsirelik.hacettepe.edu.tr/tr/ogrenci_kanun_ve_yonetmelikler-815"
+                "url": "https://hemsirelik.hacettepe.edu.tr/tr/ogrenci_kanun_ve_yonetmelikler-815"
             },
             {
                 "intent": "Etik Kurul Başvurusu Yap",
@@ -10406,7 +10406,7 @@
             },
             {
                 "intent": "Erasmus Programı Yardımcı Bilgiler",
-                "url": "http://www.abofisi.hacettepe.edu.tr/"
+                "url": "http://abofisi.hacettepe.edu.tr/"
             },
             {
                 "intent": "Mevlananu İncele",
@@ -10414,7 +10414,7 @@
             },
             {
                 "intent": "Mevlana Programı Yardımcı Bilgiler",
-                "url": "http://www.mevlana.hacettepe.edu.tr/"
+                "url": "http://mevlana.hacettepe.edu.tr/"
             },
             {
                 "intent": "Farabinu İncele",
@@ -10540,11 +10540,11 @@
             },
             {
                 "intent": "Lisans Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
-                "url": "http://www.oid.hacettepe.edu.tr/index_sub.php?grp=y&dir=&file=01_01_lisans_20161213_1600&filetype=html&submenuheader=4"
+                "url": "http://oid.hacettepe.edu.tr/index_sub.php?grp=y&dir=&file=01_01_lisans_20161213_1600&filetype=html&submenuheader=4"
             },
             {
                 "intent": "Öğrenci Disiplin Yönetmeliğini Oku",
-                "url": "http://www.oid.hacettepe.edu.tr/index_sub.php?grp=y&dir=&file=08_ogrenci_disiplin_yonetmeligi&filetype=html&submenuheader=4"
+                "url": "http://oid.hacettepe.edu.tr/index_sub.php?grp=y&dir=&file=08_ogrenci_disiplin_yonetmeligi&filetype=html&submenuheader=4"
             },
             {
                 "intent": "Jeoloji Mühendisliği Tanıtım Broşürünü İndir",
@@ -10596,7 +10596,7 @@
             },
             {
                 "intent": "Resmi Gazete Yönetmelik Metnine Git",
-                "url": "https://www.resmigazete.gov.tr/eskiler/2025/01/20250118-1.htm"
+                "url": "https://resmigazete.gov.tr/eskiler/2025/01/20250118-1.htm"
             },
             {
                 "intent": "Etkinlikleri Görüntüle",
@@ -10807,7 +10807,7 @@
             },
             {
                 "intent": "UNESCO Türkiye Biyoetik Birimi E-Bültenini Oku",
-                "url": "http://www.deontoloji.hacettepe.edu.tr/unescobiyoetik/newsletter_ebulten.php"
+                "url": "http://deontoloji.hacettepe.edu.tr/unescobiyoetik/newsletter_ebulten.php"
             },
             {
                 "intent": "Merkez Hakkında Genel Bilgi Al",
@@ -10977,11 +10977,11 @@
             },
             {
                 "intent": "OSH İmza Kampanyasına Katıl",
-                "url": "https://www.change.org/p/%C3%A7ocuklar%C4%B1m%C4%B1z-i%C3%A7in-okul-sosyal-hizmeti-hemen-%C5%9Fimdi"
+                "url": "https://change.org/p/%C3%A7ocuklar%C4%B1m%C4%B1z-i%C3%A7in-okul-sosyal-hizmeti-hemen-%C5%9Fimdi"
             },
             {
                 "intent": "SHUDER OSH Çalışmalarını İncele",
-                "url": "http://www.shudernegi.org/?Syf=18&Hbr=785877&/Son-zamanlarda-okul-sosyal-hizmetiyle-ilgili-%C3%A7e%C5%9Fitli-geli%C5%9Fme-ve-talepler-g%C3%BCndeme-gelmekte-olup-Derne%C4%9Fimizce-son-s%C3%BCre%C3%A7te-bu-%C3%A7er%C3%A7evede-ger%C3%A7ekle%C5%9Ftirilen-%C3%A7al%C4%B1%C5%9Fmalar..."
+                "url": "http://shudernegi.org/?Syf=18&Hbr=785877&/Son-zamanlarda-okul-sosyal-hizmetiyle-ilgili-%C3%A7e%C5%9Fitli-geli%C5%9Fme-ve-talepler-g%C3%BCndeme-gelmekte-olup-Derne%C4%9Fimizce-son-s%C3%BCre%C3%A7te-bu-%C3%A7er%C3%A7evede-ger%C3%A7ekle%C5%9Ftirilen-%C3%A7al%C4%B1%C5%9Fmalar..."
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -11175,15 +11175,15 @@
             },
             {
                 "intent": "Tıp Fakültesi Eğitim-Öğretim ve Sınav Yönetmeliğini İndir",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/sinavyonetson.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/sinavyonetson.pdf"
             },
             {
                 "intent": "Tıp Fakültesi Tıp Eğitimi Öğrenci Kurulu Yönergesini İndir",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/okuruluyonerge.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/okuruluyonerge.pdf"
             },
             {
                 "intent": "Tıp Fakültesi Sınav Uygulama ve Değerlendirme Yönergesini İndir",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/sinavyon.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/sinavyon.pdf"
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini İndir",
@@ -11191,39 +11191,39 @@
             },
             {
                 "intent": "Diş Hekimliği Fakültesi Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
-                "url": "https://www.resmigazete.gov.tr/eskiler/2014/11/20141116-2.htm"
+                "url": "https://resmigazete.gov.tr/eskiler/2014/11/20141116-2.htm"
             },
             {
                 "intent": "Tababet ve Şuabatı San'atların Tarzı İcrasına Dair Kanunu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1219&MevzuatTur=1&MevzuatTertip=3"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=1219&MevzuatTur=1&MevzuatTertip=3"
             },
             {
                 "intent": "Tıpta ve Diş Hekimliğinde Uzmanlık Eğitimi Yönetmeliğini İndir",
-                "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19629&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19629&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
             },
             {
                 "intent": "Üremeye Yardımcı Tedavi Uygulamaları Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20085&MevzuatTur=7&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=20085&MevzuatTur=7&MevzuatTertip=5"
             },
             {
                 "intent": "2547 No'lu Yükseköğretim Kanununu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2547&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=2547&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "657 No'lu Devlet Memurları Kanununu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "Tıp Fakültesi Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/sinavyonetson.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/sinavyonetson.pdf"
             },
             {
                 "intent": "Tıp Eğitimi Öğrenci Kurulu Yönergesini İncele",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/okuruluyonerge.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/okuruluyonerge.pdf"
             },
             {
                 "intent": "Tıp Fakültesi Sınav Uygulama ve Değerlendirme Yönergesini İncele",
-                "url": "https://www.tip.hacettepe.edu.tr/ekler/pdf/sinavyon.pdf"
+                "url": "https://tip.hacettepe.edu.tr/ekler/pdf/sinavyon.pdf"
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
@@ -11231,39 +11231,39 @@
             },
             {
                 "intent": "Tababet ve Şuabatı San'atların Tarzı İcrasına Dair Kanunu İncele",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1219&MevzuatTur=1&MevzuatTertip=3"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=1219&MevzuatTur=1&MevzuatTertip=3"
             },
             {
                 "intent": "Tıpta ve Diş Hekimliğinde Uzmanlık Eğitimi Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19629&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19629&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
             },
             {
                 "intent": "Üremeye Yardımcı Tedavi Uygulamaları Yönetmeliğini İncele",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20085&MevzuatTur=7&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=20085&MevzuatTur=7&MevzuatTertip=5"
             },
             {
                 "intent": "2547 Sayılı Yükseköğretim Kanununu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2547&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=2547&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "657 Sayılı Devlet Memurları Kanununu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "Lisans Eğitimi",
-                "url": "https://www.histoloji.hacettepe.edu.tr/tr/menu/lisans_egitimi-19"
+                "url": "https://histoloji.hacettepe.edu.tr/tr/menu/lisans_egitimi-19"
             },
             {
                 "intent": "Lisansüstü Eğitimi",
-                "url": "https://www.histoloji.hacettepe.edu.tr/tr/menu/lisansustu_egitimi-20"
+                "url": "https://histoloji.hacettepe.edu.tr/tr/menu/lisansustu_egitimi-20"
             },
             {
                 "intent": "Tıpta Uzmanlık Programlarını İncele",
-                "url": "https://www.histoloji.hacettepe.edu.tr/tr/menu/tipta_uzmanlik-23"
+                "url": "https://histoloji.hacettepe.edu.tr/tr/menu/tipta_uzmanlik-23"
             },
             {
                 "intent": "Doktora Programlarını İncele",
-                "url": "https://www.histoloji.hacettepe.edu.tr/tr/menu/doktora-29"
+                "url": "https://histoloji.hacettepe.edu.tr/tr/menu/doktora-29"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -11588,19 +11588,19 @@
             },
             {
                 "intent": "Merkez Yönetmeliğini Oku",
-                "url": "https://www.hugam.hacettepe.edu.tr/tr/yonetmelik"
+                "url": "https://hugam.hacettepe.edu.tr/tr/yonetmelik"
             },
             {
                 "intent": "Duyuruları Görüntüle",
-                "url": "https://www.hugam.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://hugam.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Yönetim ne Ulaş",
-                "url": "https://www.hugam.hacettepe.edu.tr/tr/yonetim"
+                "url": "https://hugam.hacettepe.edu.tr/tr/yonetim"
             },
             {
                 "intent": "İletişim Görüntüle",
-                "url": "https://www.hugam.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://hugam.hacettepe.edu.tr/tr/iletisim"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -11694,11 +11694,11 @@
         "action_links": [
             {
                 "intent": "THE Impact Rankings Resmi Web Sayfasını İncele",
-                "url": "https://www.timeshighereducation.com/impactrankings/gender-equality?page=1#"
+                "url": "https://timeshighereducation.com/impactrankings/gender-equality?page=1#"
             },
             {
                 "intent": "Toplumsal Cinsiyet Eşitliği Eylem Planını (2022-2026) Görüntüle",
-                "url": "https://www.hacettepe.edu.tr/hakkinda/toplumsal_cinsiyet_esitligi"
+                "url": "https://hacettepe.edu.tr/hakkinda/toplumsal_cinsiyet_esitligi"
             }
         ],
         "announcement_schema": null,
@@ -12018,7 +12018,7 @@
             },
             {
                 "intent": "Resmi Gazete Yönetmelik Metnine Git",
-                "url": "https://www.resmigazete.gov.tr/eskiler/2013/09/20130925-7.htm"
+                "url": "https://resmigazete.gov.tr/eskiler/2013/09/20130925-7.htm"
             },
             {
                 "intent": "Merkez Logosunu İndir",
@@ -12131,7 +12131,7 @@
             },
             {
                 "intent": "Kanun, Yönetmelik ve Yönergeleri İncele",
-                "url": "https://www.hukukfakultesi.hacettepe.edu.tr/tr/menu/kanunlar_yonetmelik_yonergeler-79"
+                "url": "https://hukukfakultesi.hacettepe.edu.tr/tr/menu/kanunlar_yonetmelik_yonergeler-79"
             },
             {
                 "intent": "Fakülte Tarihçesini Oku",
@@ -12181,27 +12181,27 @@
         "action_links": [
             {
                 "intent": "Sepsis Nedir? Bilgisi Al",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/sepsis-nedir"
+                "url": "https://husep.hacettepe.edu.tr/tr/sepsis-nedir"
             },
             {
                 "intent": "Yönetim Kurulunu İncele",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/yonetim-kurulu"
+                "url": "https://husep.hacettepe.edu.tr/tr/yonetim-kurulu"
             },
             {
                 "intent": "Danışma Kurulunu İncele",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/danisma-kurulu"
+                "url": "https://husep.hacettepe.edu.tr/tr/danisma-kurulu"
             },
             {
                 "intent": "Merkezin Misyonunu Oku",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/misyon"
+                "url": "https://husep.hacettepe.edu.tr/tr/misyon"
             },
             {
                 "intent": "HÜSEP Seminerlerini Görüntüle",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/husep-seminerleri"
+                "url": "https://husep.hacettepe.edu.tr/tr/husep-seminerleri"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.husep.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://husep.hacettepe.edu.tr/tr/iletisim"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -12287,71 +12287,71 @@
             },
             {
                 "intent": "2026 Analiz Ücretlerini İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/analiz-ucretleri-2026"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/analiz-ucretleri-2026"
             },
             {
                 "intent": "PDE Raporu ve Güvenlilik Dosyası Hazırlama Bilgisi Al",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/pde-raporu-ve-guvenlilik-dosyasi-hazirlama"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/pde-raporu-ve-guvenlilik-dosyasi-hazirlama"
             },
             {
                 "intent": "Tıbbi Cihazlarda Biyouyumluluk Testlerini Öğren",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/tibbi-cihazlarda-biyouyumluluk-testleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/tibbi-cihazlarda-biyouyumluluk-testleri"
             },
             {
                 "intent": "Biyoteknolojik ve Biyobenzer Ürün Analizlerini İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/biyoteknolojik-ve-biyobenzer-urun-analizleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/biyoteknolojik-ve-biyobenzer-urun-analizleri"
             },
             {
                 "intent": "Radyofarmasötik Ürün Analizlerini Öğren",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/radyofarmasotik-urun-analizleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/radyofarmasotik-urun-analizleri"
             },
             {
                 "intent": "Tıbbi Bitkisel Ürün Analizlerini İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/tibbi-bitkisel-urun-analizleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/tibbi-bitkisel-urun-analizleri"
             },
             {
                 "intent": "Kozmetik Ürün Analizlerini Öğren",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/kozmetik-urun-analizleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/kozmetik-urun-analizleri"
             },
             {
                 "intent": "Biyokimyasal Testleri İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/biyokimyasal-testler"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/biyokimyasal-testler"
             },
             {
                 "intent": "Toksikolojik Testleri Öğren",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/toksikolojik-testler"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/toksikolojik-testler"
             },
             {
                 "intent": "Mikrobiyolojik Kontrolleri İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/mikrobiyolojik-kontroller"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/mikrobiyolojik-kontroller"
             },
             {
                 "intent": "Su Analizlerini İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/su-analizleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/su-analizleri"
             },
             {
                 "intent": "Formülasyon Çalışmaları",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/formulasyon-calismalari"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/formulasyon-calismalari"
             },
             {
                 "intent": "AR-GE ve ÜR-GE Hizmetlerini İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/arge-ve-urge"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/arge-ve-urge"
             },
             {
                 "intent": "Eğitim ve Kursları Görüntüle",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/egitim-ve-kurslar"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/egitim-ve-kurslar"
             },
             {
                 "intent": "Analiz Hizmetleri Detaylarını Oku",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/analiz-hizmetleri"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/analiz-hizmetleri"
             },
             {
                 "intent": "Laboratuvar Cihazlarını İncele",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/cihazlar"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/cihazlar"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.hunikal.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://hunikal.hacettepe.edu.tr/tr/iletisim"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -12487,7 +12487,7 @@
             },
             {
                 "intent": "Duyuruları Görüntüle",
-                "url": "http://www.husbam.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://husbam.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Merkez Tanıtımnu Oku",
@@ -12503,59 +12503,59 @@
             },
             {
                 "intent": "Basında Merkezimiz Haberlerini Oku",
-                "url": "http://www.husbam.hacettepe.edu.tr/tr/fotogaleri/basinda_merkezimiz-3"
+                "url": "http://husbam.hacettepe.edu.tr/tr/fotogaleri/basinda_merkezimiz-3"
             },
             {
                 "intent": "Tanıtım ne Eriş",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/tanitim-13"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/tanitim-13"
             },
             {
                 "intent": "Merkez Gerekçesini Oku",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/gerekce-14"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/gerekce-14"
             },
             {
                 "intent": "Yönetim Yapısını İncele",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/yonetim-3"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/yonetim-3"
             },
             {
                 "intent": "Sempozyum Konusunu Öğren",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/toplantinin_konusu-32"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/toplantinin_konusu-32"
             },
             {
                 "intent": "Toplantı Yerini Görüntüle",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/toplanti_yeri_-31"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/toplanti_yeri_-31"
             },
             {
                 "intent": "Sempozyum Kurullarını Listele",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/kurullar-24"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/kurullar-24"
             },
             {
                 "intent": "Yayınlar ve Belgeleri İndir",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/yayinlarbelgeler-5"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/yayinlarbelgeler-5"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "http://www.husbam.hacettepe.edu.tr/tr/duyurular"
+                "url": "http://husbam.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Basında Merkezimizi Oku",
-                "url": "http://www.husbam.hacettepe.edu.tr/tr/fotogaleri/basinda_merkezimiz-3"
+                "url": "http://husbam.hacettepe.edu.tr/tr/fotogaleri/basinda_merkezimiz-3"
             },
             {
                 "intent": "İstanbul Ansiklopedisi Söz Varlığı Veri Tabanına Eriş",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/istanbul_ansiklopedisi_soz_varligi_-38"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/istanbul_ansiklopedisi_soz_varligi_-38"
             },
             {
                 "intent": "Türkiye Türkçesinde Yeni Sözler Projesini Görüntüle",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/turkiye_turkcesinde_yeni_sozler-39"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/turkiye_turkcesinde_yeni_sozler-39"
             },
             {
                 "intent": "Hüseyin Rahmi Gürpınar Sözlüğü'ne Eriş",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/huseyin_rahmi_gurpinar_sozlugu-41"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/huseyin_rahmi_gurpinar_sozlugu-41"
             },
             {
                 "intent": "İletişim Görüntüle",
-                "url": "https://www.husbam.hacettepe.edu.tr/tr/menu/iletisim-7"
+                "url": "https://husbam.hacettepe.edu.tr/tr/menu/iletisim-7"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -12966,7 +12966,7 @@
             },
             {
                 "intent": "Merkezin Amacı ve Faaliyet Alanlarını İncele",
-                "url": "https://www.hushukam.hacettepe.edu.tr/merkezin-amaci-ve-faaliyet-alanlari"
+                "url": "https://hushukam.hacettepe.edu.tr/merkezin-amaci-ve-faaliyet-alanlari"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -13497,7 +13497,7 @@
             },
             {
                 "intent": "Üç Ders Sınavları",
-                "url": "http://www.imo.hacettepe.edu.tr/tr/uc_ders_sinavlari_hakkinda-20"
+                "url": "http://imo.hacettepe.edu.tr/tr/uc_ders_sinavlari_hakkinda-20"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -13852,7 +13852,7 @@
         "action_links": [
             {
                 "intent": "İş Birlikleri ve Anlaşmaları Görüntüle",
-                "url": "https://www.hacettepe.edu.tr/uluslararasi/isbirlikleri"
+                "url": "https://hacettepe.edu.tr/uluslararasi/isbirlikleri"
             },
             {
                 "intent": "2024 Faaliyet Raporunu İndir",
@@ -13896,44 +13896,40 @@
                 "url": "https://fs.hacettepe.edu.tr/imidb/dosyalar/stratejik%20plan/Stratejik%20Plan%202023-2027.pdf"
             },
             {
-                "intent": "Giyim İhtiyaç Talep Formunu İndir",
-                "url": "https://fs.hacettepe.edu.tr/imidb/dosyalar/formlar/talep/Koruma%20ve%20G%C3%BCvenlik%20Personeli%20G%C3%BCvenlik%20%C4%B0htiya%C3%A7%20Talep%20Formu.xlsx"
-            },
-            {
                 "intent": "657 Sayılı Devlet Memurları Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.657.pdf"
+                "url": "https://mevzuat.gov.tr/mevzuatmetin/1.5.657.pdf"
             },
             {
                 "intent": "5018 Sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.4734.pdf"
+                "url": "https://mevzuat.gov.tr/mevzuatmetin/1.5.4734.pdf"
             },
             {
                 "intent": "4734 Sayılı Kamu İhale Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4735&MevzuatTur=1&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=4735&MevzuatTur=1&MevzuatTertip=5"
             },
             {
                 "intent": "2886 Sayılı Devlet İhale Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2886.pdf"
+                "url": "https://mevzuat.gov.tr/MevzuatMetin/1.5.2886.pdf"
             },
             {
                 "intent": "6245 Sayılı Harcırah Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.3.6245.pdf"
+                "url": "https://mevzuat.gov.tr/mevzuatmetin/1.3.6245.pdf"
             },
             {
                 "intent": "7126 Sayılı Sivil Savunma Kanunu'nu Oku",
-                "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.7126.pdf"
+                "url": "https://mevzuat.gov.tr/MevzuatMetin/1.3.7126.pdf"
             },
             {
                 "intent": "YÖK İdari Teşkilat Hakkında Kararnameyi Oku",
-                "url": "https://www.mevzuat.gov.tr/MevzuatMetin/4.5.124.pdf"
+                "url": "https://mevzuat.gov.tr/MevzuatMetin/4.5.124.pdf"
             },
             {
                 "intent": "Merkezî Yönetim Harcama Belgeleri Yönetmeliği'ni Oku",
-                "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=9815&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=9815&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
             },
             {
                 "intent": "Ulaşım Hizmetleri Müdürlüğü",
@@ -13997,7 +13993,7 @@
         "search_alias": "imidb",
         "priority_score": 110,
         "entity_type": "DAİRE BAŞKANLIĞI",
-        "search_text": "imidb idari işler daire başkanlığı teşkilat şemasını görüntüle stratejik planı (2023-2027) indir giyim ihtiyaç talep formunu indir 657 sayılı devlet memurları kanunu'nu oku 5018 sayılı kamu malî yönetimi ve kontrol kanunu'nu oku 4734 sayılı kamu ihale kanunu'nu oku 4735 sayılı kamu ihale sözleşmeleri kanunu'nu oku 2886 sayılı devlet ihale kanunu'nu oku 6245 sayılı harcırah kanunu'nu oku 7126 sayılı sivil savunma kanunu'nu oku yök idari teşkilat hakkında kararnameyi oku merkezî yönetim harcama belgeleri yönetmeliği'ni oku ulaşım hizmetleri müdürlüğü destek hizmetler müdürlüğü koruma ve güvenlik müdürlüğü işkur gençlik programı başvurusunu yap genel tanıtım sayfasını incele misyon ve vizyon ne eriş başkanlık personel listesine bak sivil savunmanu oku duyuruları takip et verilen hizmetleri listele faaliyet raporlarını görüntüle iletişime ulaş"
+        "search_text": "imidb idari işler daire başkanlığı teşkilat şemasını görüntüle stratejik planı (2023-2027) indir 657 sayılı devlet memurları kanunu'nu oku 5018 sayılı kamu malî yönetimi ve kontrol kanunu'nu oku 4734 sayılı kamu ihale kanunu'nu oku 4735 sayılı kamu ihale sözleşmeleri kanunu'nu oku 2886 sayılı devlet ihale kanunu'nu oku 6245 sayılı harcırah kanunu'nu oku 7126 sayılı sivil savunma kanunu'nu oku yök idari teşkilat hakkında kararnameyi oku merkezî yönetim harcama belgeleri yönetmeliği'ni oku ulaşım hizmetleri müdürlüğü destek hizmetler müdürlüğü koruma ve güvenlik müdürlüğü işkur gençlik programı başvurusunu yap genel tanıtım sayfasını incele misyon ve vizyon ne eriş başkanlık personel listesine bak sivil savunmanu oku duyuruları takip et verilen hizmetleri listele faaliyet raporlarını görüntüle iletişime ulaş"
     },
     {
         "entity_name": "International Students",
@@ -14078,7 +14074,7 @@
     {
         "entity_name": "Uluslararası İlişkiler Bölümü",
         "category": "Bölüm",
-        "description": "Ulusal ve uluslararası alanda faaliyet gösteren kurum ve kuruluşlarda görev almak üzere, mevcut uluslararası politik ve ekonomik gelişmelerin analizini yapabilecek bireyler yetiştiren, lisans, yüksek lisans ve doktora eğitimi veren akademik birimdir.",
+        "description": "Ulusal ve uluslararası alanda faaliyet gösteren kurum ve kuruluşlarda görev almak üzere, mevcut uluslararası politik ve ekonomik gelişmelerin analizini yapabilecek bireyler yetiştiren, lisans, yüksek lisans ve doktora eğitimi veren akademik birimdir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Eğitim Programlarını İncele",
@@ -14118,7 +14114,7 @@
             },
             {
                 "intent": "Akademik Tezler Arşivine Eriş",
-                "url": "http://www.openaccess.hacettepe.edu.tr:8080/xmlui/handle/11655/368"
+                "url": "http://openaccess.hacettepe.edu.tr:8080/xmlui/handle/11655/368"
             },
             {
                 "intent": "Yürütülen Projeleri İncele",
@@ -14162,7 +14158,7 @@
             },
             {
                 "intent": "Tez Arşivine Eriş",
-                "url": "http://www.openaccess.hacettepe.edu.tr:8080/xmlui/handle/11655/368"
+                "url": "http://openaccess.hacettepe.edu.tr:8080/xmlui/handle/11655/368"
             },
             {
                 "intent": "Projeleri İncele",
@@ -14194,7 +14190,7 @@
             },
             {
                 "intent": "AİT Üç Ders Sınavınu Oku",
-                "url": "https://www.ir.hacettepe.edu.tr/tr/ait_uc_ders_sinavi_hakkinda_bi-1262"
+                "url": "https://ir.hacettepe.edu.tr/tr/ait_uc_ders_sinavi_hakkinda_bi-1262"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -14822,7 +14818,7 @@
             },
             {
                 "intent": "Yükseköğretim Kalite Güvencesi Yönetmeliği'ni İncele",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=28996&MevzuatTur=7&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=28996&MevzuatTur=7&MevzuatTertip=5"
             },
             {
                 "intent": "Danışma Kurulu Çalışma Usul ve Esasları Yönergesi'ni İndir",
@@ -14902,7 +14898,7 @@
             },
             {
                 "intent": "Yükseköğretim Kalite Güvencesi Yönetmeliği'ni Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=28996&MevzuatTur=7&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=28996&MevzuatTur=7&MevzuatTertip=5"
             },
             {
                 "intent": "Öz Değerlendirme Raporu Hazırlama Kılavuzu 2024'ü İndir",
@@ -15057,11 +15053,11 @@
             },
             {
                 "intent": "Çift Ana Dal Programlarını Görüntüle",
-                "url": "http://www.egitim.hacettepe.edu.tr/tr/menu/cift_ana_dal_programlari-36"
+                "url": "http://egitim.hacettepe.edu.tr/tr/menu/cift_ana_dal_programlari-36"
             },
             {
                 "intent": "Yan Dal Programlarını Görüntüle",
-                "url": "http://www.egitim.hacettepe.edu.tr/tr/menu/yan_dal_programlari-35"
+                "url": "http://egitim.hacettepe.edu.tr/tr/menu/yan_dal_programlari-35"
             },
             {
                 "intent": "Değişim Programlarını İncele",
@@ -15232,7 +15228,7 @@
             },
             {
                 "intent": "TİTCK Mevzuat",
-                "url": "https://www.titck.gov.tr/mevzuat"
+                "url": "https://titck.gov.tr/mevzuat"
             }
         ],
         "announcement_schema": null,
@@ -15747,11 +15743,11 @@
         "action_links": [
             {
                 "intent": "Matematik Öğretmenliği Programı",
-                "url": "http://www.ofmamat.hacettepe.edu.tr/tr/menu/genel_tanitim-3"
+                "url": "http://ofmamat.hacettepe.edu.tr/tr/menu/genel_tanitim-3"
             },
             {
                 "intent": "İlköğretim Matematik Öğretmenliği Programı",
-                "url": "http://www.imo.hacettepe.edu.tr/?sayfa=genel_tanitim"
+                "url": "http://imo.hacettepe.edu.tr/?sayfa=genel_tanitim"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
@@ -15767,7 +15763,7 @@
             },
             {
                 "intent": "Emekli Öğretim Üyelerini Listele",
-                "url": "http://www.ofmamat.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-34"
+                "url": "http://ofmamat.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-34"
             },
             {
                 "intent": "Hızlı Destek Al",
@@ -15787,11 +15783,11 @@
             },
             {
                 "intent": "Matematik Öğretmenliği nı İncele",
-                "url": "http://www.ofmamat.hacettepe.edu.tr/"
+                "url": "http://ofmamat.hacettepe.edu.tr/"
             },
             {
                 "intent": "İlköğretim Matematik Öğretmenliği nı İncele",
-                "url": "http://www.imo.hacettepe.edu.tr/"
+                "url": "http://imo.hacettepe.edu.tr/"
             },
             {
                 "intent": "Ana Bilim Dalı",
@@ -16173,39 +16169,39 @@
             },
             {
                 "intent": "Program Başvuru",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/basvuru-3"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/basvuru-3"
             },
             {
                 "intent": "Formları İndir",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/formlar-8"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/formlar-8"
             },
             {
                 "intent": "Program Anahatlarını İncele",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/program_anahatlari-4"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/program_anahatlari-4"
             },
             {
                 "intent": "Çekirdek Program ne Ulaş",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/cekirdek_programlar-5"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/cekirdek_programlar-5"
             },
             {
                 "intent": "Seminerleri Takip Et",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/seminerler-9"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/seminerler-9"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Mevzuat",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/mevzuat-7"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/mevzuat-7"
             },
             {
                 "intent": "Yönetim Kadrosunu Görüntüle",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/yonetim-2"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/yonetim-2"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.mdphd.hacettepe.edu.tr/tr/menu/iletisim-13"
+                "url": "https://mdphd.hacettepe.edu.tr/tr/menu/iletisim-13"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -16290,39 +16286,39 @@
             },
             {
                 "intent": "Bölüm Tarihçesini Oku",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/tarihce-3"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/tarihce-3"
             },
             {
                 "intent": "Misyon ve Vizyonu İncele",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-4"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-4"
             },
             {
                 "intent": "Durum Raporuna Eriş",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/durum_raporu-5"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/durum_raporu-5"
             },
             {
                 "intent": "Mezuniyet Öncesi Eğitimnu Oku",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/mezuniyet_oncesi-16"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/mezuniyet_oncesi-16"
             },
             {
                 "intent": "Mezuniyet Sonrası Eğitimnu Oku",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/mezuniyet_sonrasi-17"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/mezuniyet_sonrasi-17"
             },
             {
                 "intent": "Sürekli Mesleki Gelişimnu İncele",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/surekli_mesleki_gelisim-18"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/surekli_mesleki_gelisim-18"
             },
             {
                 "intent": "Standart Hasta nı Oku",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/standart_hasta_programi-19"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/standart_hasta_programi-19"
             },
             {
                 "intent": "Etkinlik Takvimini Görüntüle",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/etkinlikler-11"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/etkinlikler-11"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.medinfo.hacettepe.edu.tr/tr/menu/iletisim-14"
+                "url": "https://medinfo.hacettepe.edu.tr/tr/menu/iletisim-14"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -16528,35 +16524,35 @@
             },
             {
                 "intent": "Eğitim Programlarını İncele",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/programlar"
+                "url": "https://mfb.hacettepe.edu.tr/tr/programlar"
             },
             {
                 "intent": "Erasmus+ Personel Hareketliliğinu İncele",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/erasmus-personel-hareketlilig"
+                "url": "https://mfb.hacettepe.edu.tr/tr/erasmus-personel-hareketlilig"
             },
             {
                 "intent": "2209-A Üniversite Öğrencileri Araştırma Projeleri Duyurusunu",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/2209-a-projeleri"
+                "url": "https://mfb.hacettepe.edu.tr/tr/2209-a-projeleri"
             },
             {
                 "intent": "Öğretim Üyeleri Listesine Eriş",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/ogretim-uyeleri"
+                "url": "https://mfb.hacettepe.edu.tr/tr/ogretim-uyeleri"
             },
             {
                 "intent": "Araştırma evlileri Listesini Görüntüle",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/arastirma-gorevlileri"
+                "url": "https://mfb.hacettepe.edu.tr/tr/arastirma-gorevlileri"
             },
             {
                 "intent": "İdari Personel",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/idari-personel"
+                "url": "https://mfb.hacettepe.edu.tr/tr/idari-personel"
             },
             {
                 "intent": "Bölüm Yönetimini İncele",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/yonetim"
+                "url": "https://mfb.hacettepe.edu.tr/tr/yonetim"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "https://www.mfb.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://mfb.hacettepe.edu.tr/tr/duyurular"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -17510,7 +17506,7 @@
             },
             {
                 "intent": "Hastane Randevu Sistemine Git",
-                "url": "https://www.hastane.hacettepe.edu.tr"
+                "url": "https://hastane.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -17559,7 +17555,7 @@
             },
             {
                 "intent": "Kanun ve Yönetmelikleri Oku",
-                "url": "http://www.muhfak.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-175"
+                "url": "http://muhfak.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-175"
             },
             {
                 "intent": "Uluslararası Lisans Başvurusu Yap",
@@ -17732,35 +17728,35 @@
             },
             {
                 "intent": "2025-2026 Bahar Dönemi Ders Programını İncele",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "2024-2025 Güz Dönemi Ders Programını İncele",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "Yüksek Lisans Burs Olanağınu Oku",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "TÜBİTAK 2247-C Stajyer Araştırmacı Burs Programını İncele",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "Bursiyer Duyurularını Görüntüle",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "Tezleri İncele",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "Ders Listesine Eriş",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             },
             {
                 "intent": "Anabilim Dalı Öğretim Üyelerini Listele",
-                "url": "https://www.nanott.hacettepe.edu.tr"
+                "url": "https://nanott.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -17778,13 +17774,13 @@
         "search_text": "nanott nanoteknoloji ve nanotıp anabilim dalı aday öğrencinu incele birim tanıtımını oku anabilim dalı başkanlığı görüntüle vizyon ve misyonu incele organizasyon şemasını görüntüle yayımlanan tezleri listele iletişime ulaş öğretim üyeleri listesini görüntüle afiliye öğretim üyelerini incele yardımcı araştırmacıları görüntüle araştırma öncelik alanlarını görüntüle araştırma gruplarını incele kurumsal iş birliklerini görüntüle ders içeriklerini incele sıkça sorulan soruları oku 2025-2026 bahar dönemi ders programını indir 2024-2025 güz dönemi ders programını indir yüksek lisans burs olanaklarını incele tübitak 2247-c stajyer araştırmacı burs programına başvur 2025-2026 bahar dönemi ders programını incele 2024-2025 güz dönemi ders programını incele yüksek lisans burs olanağınu oku tübitak 2247-c stajyer araştırmacı burs programını incele bursiyer duyurularını görüntüle tezleri incele ders listesine eriş anabilim dalı öğretim üyelerini listele"
     },
     {
-        "entity_name": "H.Ü. ÖİDB",
+        "entity_name": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
         "category": "İdari Birim",
         "description": "Üniversitenin kayıt, mezuniyet, burs, yatay geçiş, muafiyet ve akademik takvim gibi tüm öğrenci işleri süreçlerinin yürütüldüğü ve BİLSİS (Öğrenci Bilgi Sistemi) üzerinden yönetildiği merkezi idari birimdir.",
         "action_links": [
             {
                 "intent": "2025-2026 Akademik Takvimi Görüntüle",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/akademik_takvim-84"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/akademik_takvim-84"
             },
             {
                 "intent": "BİLSİS Öğrenci Girişi Yap",
@@ -17848,35 +17844,35 @@
             },
             {
                 "intent": "Burs Olanaklarını İncele",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/burslar"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/burslar"
             },
             {
                 "intent": "Mevzuat ve Yönetmelikleri Oku",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/mevzuat"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/mevzuat"
             },
             {
                 "intent": "İdari Formları İndir",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/formlar"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/formlar"
             },
             {
                 "intent": "Yatay Geçiş Başvuru ve Kabul Şartlarını İncele",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/yatay_gecis_basvuru_ve_kabul"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/yatay_gecis_basvuru_ve_kabul"
             },
             {
                 "intent": "ÇAP ve Yandal Rehberini İncele",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/cap-yandal_rehberi"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/cap-yandal_rehberi"
             },
             {
                 "intent": "Akademik Takvim Arşivine Eriş",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/akademik_takvim_arsivi"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/akademik_takvim_arsivi"
             },
             {
                 "intent": "Yaz Okulunu İncele",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/yaz_okulu"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/yaz_okulu"
             },
             {
                 "intent": "OBS Mobil Uygulama ni Al",
-                "url": "https://www.oidb.hacettepe.edu.tr/tr/menu/obs_mobil_uygulama"
+                "url": "https://oidb.hacettepe.edu.tr/tr/menu/obs_mobil_uygulama"
             },
             {
                 "intent": "Akademik Takvim 2026-2027",
@@ -17897,10 +17893,6 @@
             {
                 "intent": "2025-2026 Muafiyet Başvuru ve Sınav Takvimi",
                 "url": "https://fs.hacettepe.edu.tr/oidb/2025-2026muafiyet_yeni.pdf"
-            },
-            {
-                "intent": "Akademik Takvim Arşivi",
-                "url": "https://oidb.hacettepe.edu.tr/tr/menu/akademik_takvim_arsivi-61"
             },
             {
                 "intent": "Formlar",
@@ -17933,9 +17925,9 @@
         "deep_crawl_pages": 385,
         "is_active": true,
         "search_alias": "oidb",
-        "priority_score": 30,
-        "entity_type": "DİĞER",
-        "search_text": "oidb h.ü. öidb 2025-2026 akademik takvimi görüntüle bilsis öğrenci girişi yap bilsis akademisyen girişi yap bilsis idari kullanıcı girişi yap öğrenci numarası sorgula e-kampüs projesi sss belgesini indir 2025 yks yeni kazananlarnu incele 2025 dgs yeni kazananlarnu incele dgs ek yerleştirme kayıt işlemleri genel tanıtım sayfasını görüntüle iletişim ve ulaşım ni al kvkk aydınlatma metnini oku kurul ve komisyonlar listesini yönetim kadrosunu incele personel listesine eriş yks ek yerleştirme kayıt rehberini oku burs olanaklarını incele mevzuat ve yönetmelikleri oku idari formları indir yatay geçiş başvuru ve kabul şartlarını incele çap ve yandal rehberini incele akademik takvim arşivine eriş yaz okulunu incele obs mobil uygulama ni al akademik takvim 2026-2027 tıp fakültesi akademik takvimi diş hekimliği fakültesi akademik takvimi ydyo akademik takvimi 2025-2026 muafiyet başvuru ve sınav takvimi akademik takvim arşivi formlar akademik takvimler öğrencilerimizin öğrenci bilgi sistemi'nde kayıtlı iletişim epostaları hk"
+        "priority_score": 80,
+        "entity_type": "DAİRE BAŞKANLIĞI",
+        "search_text": "oidb öğrenci işleri daire başkanlığı (oidb) 2025-2026 akademik takvimi görüntüle bilsis öğrenci girişi yap bilsis akademisyen girişi yap bilsis idari kullanıcı girişi yap öğrenci numarası sorgula e-kampüs projesi sss belgesini indir 2025 yks yeni kazananlarnu incele 2025 dgs yeni kazananlarnu incele dgs ek yerleştirme kayıt işlemleri genel tanıtım sayfasını görüntüle iletişim ve ulaşım ni al kvkk aydınlatma metnini oku kurul ve komisyonlar listesini yönetim kadrosunu incele personel listesine eriş yks ek yerleştirme kayıt rehberini oku burs olanaklarını incele mevzuat ve yönetmelikleri oku idari formları indir yatay geçiş başvuru ve kabul şartlarını incele çap ve yandal rehberini incele akademik takvim arşivine eriş yaz okulunu incele obs mobil uygulama ni al akademik takvim 2026-2027 tıp fakültesi akademik takvimi diş hekimliği fakültesi akademik takvimi ydyo akademik takvimi 2025-2026 muafiyet başvuru ve sınav takvimi formlar akademik takvimler öğrencilerimizin öğrenci bilgi sistemi'nde kayıtlı iletişim epostaları hk"
     },
     {
         "entity_name": "Dişhekimliği Fakültesi Ortodonti Anabilim Dalı",
@@ -18064,79 +18056,79 @@
             },
             {
                 "intent": "Erasmus Programınu İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Farabi Programınu İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Mevlana Programınu İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Uygulama Okulları Koordinatörlüğü",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Yararlı Belgeleri Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Öğrenci Kılavuzlarını İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Bahar Dönemi Ara Sınav Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Bahar Dönemi Lisans Programını İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Bahar Dönemi Lisansüstü Ders Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Lisansüstü Danışman Atamalarını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Güz Dönemi Bütünleme Sınav Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Güz Dönemi Genel Sınav Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2025 Güz Dönemi GKS Dersleri Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Güz Dönemi Lisans Ders Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Güz Dönemi EGT-EBB Ders Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "BTE 199 Bilişim Teknolojileri Dersi Programını Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "2025-2026 Bahar Dönemi Erasmus Başvurularını İncele",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "Yönetim Görüntüle",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.okuloncesi.hacettepe.edu.tr"
+                "url": "https://okuloncesi.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -18309,7 +18301,7 @@
             },
             {
                 "intent": "Sıkça Sorulan Soruları İncele",
-                "url": "https://www.oyem.hacettepe.edu.tr/tr/sikca_sorulan_sorular-24"
+                "url": "https://oyem.hacettepe.edu.tr/tr/sikca_sorulan_sorular-24"
             },
             {
                 "intent": "Merkezin Amacını Görüntüle",
@@ -18397,23 +18389,23 @@
             },
             {
                 "intent": "Özel Eğitim Bölümü",
-                "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+                "url": "http://ozelegitim.hacettepe.edu.tr/"
             },
             {
                 "intent": "Vizyon ve Misyonu Oku",
-                "url": "https://www.otizm.hacettepe.edu.tr/tr/menu/vizyon_ve_misyon-20"
+                "url": "https://otizm.hacettepe.edu.tr/tr/menu/vizyon_ve_misyon-20"
             },
             {
                 "intent": "Tarihçeyi Görüntüle",
-                "url": "https://www.otizm.hacettepe.edu.tr/tr/menu/tarihce-21"
+                "url": "https://otizm.hacettepe.edu.tr/tr/menu/tarihce-21"
             },
             {
                 "intent": "Yönetim Yapısını İncele",
-                "url": "https://www.otizm.hacettepe.edu.tr/tr/menu/yonetim-22"
+                "url": "https://otizm.hacettepe.edu.tr/tr/menu/yonetim-22"
             },
             {
                 "intent": "Özel Eğitim Bölümü Web Sitesine Git",
-                "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+                "url": "http://ozelegitim.hacettepe.edu.tr/"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -18545,11 +18537,11 @@
             },
             {
                 "intent": "İntibak ve Muafiyet Başvurusu",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/intibak_basvurusu_hakkinda-256"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/intibak_basvurusu_hakkinda-256"
             },
             {
                 "intent": "Lisans ve Lisansüstü Programları Görüntüle",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/program-84"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/program-84"
             },
             {
                 "intent": "Değişim Programları Bilgisine Eriş",
@@ -18557,11 +18549,11 @@
             },
             {
                 "intent": "Öğrenci Topluluklarını Keşfet",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/ogrenci_topluluklari-90"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/ogrenci_topluluklari-90"
             },
             {
                 "intent": "Araştırma Faaliyetlerini İncele",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/arastirma-104"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/arastirma-104"
             },
             {
                 "intent": "Bölüm Duyurularını Takip Et",
@@ -18569,27 +18561,27 @@
             },
             {
                 "intent": "Bölüm Tarihçesini Oku",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/tarihce-24"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/tarihce-24"
             },
             {
                 "intent": "Bölüm Yönetimini Görüntüle",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/yonetim-25"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/yonetim-25"
             },
             {
                 "intent": "Öğretim Üyeleri Listesine Eriş",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-4"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-4"
             },
             {
                 "intent": "Araştırma evlilerini İncele",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-27"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-27"
             },
             {
                 "intent": "Emekli Öğretim Üyelerini Görüntüle",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-5"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-5"
             },
             {
                 "intent": "Bölüm Tanıtım ne Eriş",
-                "url": "https://www.ozelegitim.hacettepe.edu.tr/tr/menu/tanitim-22"
+                "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/tanitim-22"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -18690,11 +18682,11 @@
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim Yönetmeliğini İndir",
-                "url": "https://www.pbt.hacettepe.edu.tr/Yonetmelikler/2013_06_28-lisansustu_egitim_ogretim_yonetmeligi.pdf"
+                "url": "https://pbt.hacettepe.edu.tr/Yonetmelikler/2013_06_28-lisansustu_egitim_ogretim_yonetmeligi.pdf"
             },
             {
                 "intent": "Yönetmelik Değişikliği Belgesini İndir",
-                "url": "https://www.pbt.hacettepe.edu.tr/belgeler/yonetmelikler/YonetmelikDegisikligi.pdf"
+                "url": "https://pbt.hacettepe.edu.tr/belgeler/yonetmelikler/YonetmelikDegisikligi.pdf"
             },
             {
                 "intent": "Genel Tanıtımı Oku",
@@ -18746,7 +18738,7 @@
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini İndir",
-                "url": "https://www.pbt.hacettepe.edu.tr/Yonetmelikler/2013_06_28-lisansustu_egitim_ogretim_yonetmeligi.pdf"
+                "url": "https://pbt.hacettepe.edu.tr/Yonetmelikler/2013_06_28-lisansustu_egitim_ogretim_yonetmeligi.pdf"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -18846,43 +18838,43 @@
             },
             {
                 "intent": "Özel Eğitim Bölümü",
-                "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+                "url": "http://ozelegitim.hacettepe.edu.tr/"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-19"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-19"
             },
             {
                 "intent": "Araştırma evlilerini Listele",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-21"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-21"
             },
             {
                 "intent": "Emekli Öğretim Üyelerini",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-62"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/emekli_ogretim_uyeleri-62"
             },
             {
                 "intent": "İdari Personeli Listele",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/idari_personel-22"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/idari_personel-22"
             },
             {
                 "intent": "Tarihçenu Oku",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/tarihce-16"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/tarihce-16"
             },
             {
                 "intent": "Misyon ve Vizyonu İncele",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-15"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-15"
             },
             {
                 "intent": "Tanıtım",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/menu/tanitim-14"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/tanitim-14"
             },
             {
                 "intent": "Arşiv Duyurularına Eriş",
-                "url": "https://www.ozelyetenekliler.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Özel Eğitim Bölümü Web Sitesine Git",
-                "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+                "url": "http://ozelegitim.hacettepe.edu.tr/"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -19180,63 +19172,63 @@
             },
             {
                 "intent": "Erasmus+ Programnu İncele",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/erasmus-plus"
+                "url": "https://pdo.hacettepe.edu.tr/tr/erasmus-plus"
             },
             {
                 "intent": "Digital Europe ne Eriş",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/digital-europe"
+                "url": "https://pdo.hacettepe.edu.tr/tr/digital-europe"
             },
             {
                 "intent": "Horizon Europe Çağrılarını Görüntüle",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/horizon-europe"
+                "url": "https://pdo.hacettepe.edu.tr/tr/horizon-europe"
             },
             {
                 "intent": "TÜBİTAK Fonları Rehberine Git",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/tubitak-fonlari"
+                "url": "https://pdo.hacettepe.edu.tr/tr/tubitak-fonlari"
             },
             {
                 "intent": "TÜSEB Fonları",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/tuseb-fonlari"
+                "url": "https://pdo.hacettepe.edu.tr/tr/tuseb-fonlari"
             },
             {
                 "intent": "Kalkınma Ajansları Desteklerini İncele",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/kalkinma-ajanslari"
+                "url": "https://pdo.hacettepe.edu.tr/tr/kalkinma-ajanslari"
             },
             {
                 "intent": "EMBO Destek Programlarını Oku",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/embo-destek-programlari"
+                "url": "https://pdo.hacettepe.edu.tr/tr/embo-destek-programlari"
             },
             {
                 "intent": "Erasmus+ 2026 Program Rehberini İndir/Oku",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/erasmus-2026-program-rehberi"
+                "url": "https://pdo.hacettepe.edu.tr/tr/erasmus-2026-program-rehberi"
             },
             {
                 "intent": "Erasmus+ 2026 Teklif Çağrısına Bak",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/erasmus-2026-teklif-cagrisi"
+                "url": "https://pdo.hacettepe.edu.tr/tr/erasmus-2026-teklif-cagrisi"
             },
             {
                 "intent": "Ufuk Avrupa Sağlık Kümesi 2026 Çağrılarını İncele",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/ufuk-avrupa-saglik-2026"
+                "url": "https://pdo.hacettepe.edu.tr/tr/ufuk-avrupa-saglik-2026"
             },
             {
                 "intent": "Women TechEU İlk Çağrısını İncele",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/women-techeu"
+                "url": "https://pdo.hacettepe.edu.tr/tr/women-techeu"
             },
             {
                 "intent": "Ankara Kalkınma Ajansı SOGEP Başvurularına Bak",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/sogep-basvurulari"
+                "url": "https://pdo.hacettepe.edu.tr/tr/sogep-basvurulari"
             },
             {
                 "intent": "Horizon Europe Sağlık Ulusal İrtibat Noktaları (HNN3)",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/hnn3-ag"
+                "url": "https://pdo.hacettepe.edu.tr/tr/hnn3-ag"
             },
             {
                 "intent": "Ofis Belgelerine Eriş",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/belgeler"
+                "url": "https://pdo.hacettepe.edu.tr/tr/belgeler"
             },
             {
                 "intent": "Hızlı Bağlantılara Göz At",
-                "url": "https://www.pdo.hacettepe.edu.tr/tr/hizli-baglantilar"
+                "url": "https://pdo.hacettepe.edu.tr/tr/hizli-baglantilar"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -19281,7 +19273,7 @@
             },
             {
                 "intent": "Biyolojik Etkinlik Testleri",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Ruhsata Esas Analizler",
@@ -19289,7 +19281,7 @@
             },
             {
                 "intent": "Ruhsata Esas Analizler",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Formulasyon Kontrolü",
@@ -19297,7 +19289,7 @@
             },
             {
                 "intent": "Formulasyon Kontrolü",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Belgeleri ve Formları İndir",
@@ -19321,27 +19313,27 @@
             },
             {
                 "intent": "Numune Gönderim Dokümanını İndir",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Yetki Belgelerini Görüntüle",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Kimyasal Analizler",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Fiziksel Testler",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "Belgeler ve Formlara Eriş",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.pestisit.hacettepe.edu.tr"
+                "url": "https://pestisit.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -19475,19 +19467,19 @@
             },
             {
                 "intent": "Bağımlılıkla Mücadelenu Oku",
-                "url": "https://www.psikolojikdanismabirimi.hacettepe.edu.tr/tr/bagimlilikla-mucadele"
+                "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/bagimlilikla-mucadele"
             },
             {
                 "intent": "Personel ne Eriş",
-                "url": "https://www.psikolojikdanismabirimi.hacettepe.edu.tr/tr/personel"
+                "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/personel"
             },
             {
                 "intent": "Faaliyet Raporlarını Görüntüle",
-                "url": "https://www.psikolojikdanismabirimi.hacettepe.edu.tr/tr/faaliyet-raporlari"
+                "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/faaliyet-raporlari"
             },
             {
                 "intent": "İletişim",
-                "url": "https://www.psikolojikdanismabirimi.hacettepe.edu.tr/tr/iletisim"
+                "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/iletisim"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -19848,79 +19840,79 @@
             },
             {
                 "intent": "Bölüm Tanıtımını Oku",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Akreditasyonnu İncele",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Bölüm Yönetimine Göz At",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Anabilim Dalları Listesini Görüntüle",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Sıkça Sorulan Soruları İncele",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Akademik Kadroyu Görüntüle",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Araştırma evlileri Listesine Eriş",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "İdari Personel ne Ulaş",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Belge ve Formları İndir",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Güncel Yayınları Görüntüle",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Öğretim Programlarını İncele",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Değişim Programları",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Yandal nı Oku",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Gönüllü Staj Başvuru venu İncele",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "HÜPT Öğrenci Topluluğu",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Yararlı Bağlantılara Göz At",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Afet Psikolojisinu Oku",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "İletişime Ulaş",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             },
             {
                 "intent": "Engelli Bireyler İçin Bina Yön Tariflerini",
-                "url": "https://www.psikoloji.hacettepe.edu.tr"
+                "url": "https://psikoloji.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -20093,7 +20085,7 @@
             },
             {
                 "intent": "Erasmus Yararlı Bilgiler (AB Ofisi)",
-                "url": "http://www.abofisi.hacettepe.edu.tr/"
+                "url": "http://abofisi.hacettepe.edu.tr/"
             },
             {
                 "intent": "Mevlana Değişim Programı Görüntüle",
@@ -20101,7 +20093,7 @@
             },
             {
                 "intent": "Mevlana Programı Yararlı Bilgiler",
-                "url": "http://www.mevlana.hacettepe.edu.tr/"
+                "url": "http://mevlana.hacettepe.edu.tr/"
             },
             {
                 "intent": "Farabi Değişim Programı Görüntüle",
@@ -20109,7 +20101,7 @@
             },
             {
                 "intent": "Farabi Programı Yararlı Bilgiler",
-                "url": "http://www.farabi.hacettepe.edu.tr/"
+                "url": "http://farabi.hacettepe.edu.tr/"
             },
             {
                 "intent": "1. Sınıf Danışmanlıknu Oku",
@@ -20844,7 +20836,7 @@
             },
             {
                 "intent": "Öğrenci Disiplin Yönetmeliğini Oku",
-                "url": "https://www.resmigazete.gov.tr/eskiler/2012/08/20120818-12.htm"
+                "url": "https://resmigazete.gov.tr/eskiler/2012/08/20120818-12.htm"
             },
             {
                 "intent": "Bölüm Yararlı Belgelerini Görüntüle",
@@ -21448,55 +21440,55 @@
             },
             {
                 "intent": "Sosyal Hizmet Uygulamaları (SHO417-418) Değerlendirme Anketine Katıl",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/sho417418_sosyal_hizmet_uygulamalar-392"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/sho417418_sosyal_hizmet_uygulamalar-392"
             },
             {
                 "intent": "Sosyal Hizmet Bölümü Genel Değerlendirme Anketine Katıl",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/sosyal_hizmet_bolumu_genel_degerlen-394"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/sosyal_hizmet_bolumu_genel_degerlen-394"
             },
             {
                 "intent": "Sosyal Hizmete İlişkin Yönergeleri ve Kılavuzları İncele",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/sosyal_hizmete_iliskin_yonergeler_k-434"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/sosyal_hizmete_iliskin_yonergeler_k-434"
             },
             {
                 "intent": "Akreditasyon ne Ulaş",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/akreditasyona_dair-389"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/akreditasyona_dair-389"
             },
             {
                 "intent": "Lisans Ders Programlarını Görüntüle",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/duyurular/lisans_duyuru-9"
+                "url": "https://shy.hacettepe.edu.tr/tr/duyurular/lisans_duyuru-9"
             },
             {
                 "intent": "Lisansüstü Ders Programlarını Görüntüle",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/duyurular/lisans_duyuru-9"
+                "url": "https://shy.hacettepe.edu.tr/tr/duyurular/lisans_duyuru-9"
             },
             {
                 "intent": "Öğretim Üyeleri Listesine Eriş",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-367"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-367"
             },
             {
                 "intent": "Araştırma evlileri Listesine Eriş",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-357"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/arastirma_gorevlileri-357"
             },
             {
                 "intent": "Bölüm Tarihçesini Oku",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/tarihce-210"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/tarihce-210"
             },
             {
                 "intent": "Misyon ve Vizyonnu İncele",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/misyonvizyon-212"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/misyonvizyon-212"
             },
             {
                 "intent": "Koordinatörlükler",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/koordinatorlukler-214"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/koordinatorlukler-214"
             },
             {
                 "intent": "Lisansüstü Program Kayıt Formlarını İncele",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/lisans_ogrencilerine_dair-391"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/lisans_ogrencilerine_dair-391"
             },
             {
                 "intent": "Ders Kataloğu ve AKTS Bilgi Paketine Ulaş",
-                "url": "https://www.shy.hacettepe.edu.tr/tr/menu/ders_katalogu-info"
+                "url": "https://shy.hacettepe.edu.tr/tr/menu/ders_katalogu-info"
             },
             {
                 "intent": "Lisans Öğrencinu İncele",
@@ -21568,59 +21560,59 @@
             },
             {
                 "intent": "Sosyal Hizmete İlişkin Yönergeleri ve Kılavuzları Oku",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/sosyal_hizmete_iliskin_yonergeler_k-434"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/sosyal_hizmete_iliskin_yonergeler_k-434"
             },
             {
                 "intent": "Lisans Öğrencileri İçin Bilgilendirme",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/lisans_ogrencilerine_dair-391"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/lisans_ogrencilerine_dair-391"
             },
             {
                 "intent": "Akreditasyonnu İncele",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/akreditasyona_dair-389"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/akreditasyona_dair-389"
             },
             {
                 "intent": "SHO417-418 Uygulama Değerlendirme Anketini Doldur",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/sho417418_sosyal_hizmet_uygulamalar-392"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/sho417418_sosyal_hizmet_uygulamalar-392"
             },
             {
                 "intent": "Bölüm Genel Değerlendirme Anketine Katıl",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/sosyal_hizmet_bolumu_genel_degerlen-394"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/sosyal_hizmet_bolumu_genel_degerlen-394"
             },
             {
                 "intent": "Yönetim Yapısını İncele",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/yonetim-211"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/yonetim-211"
             },
             {
                 "intent": "Misyon ve Vizyon ne Eriş",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/misyonvizyon-212"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/misyonvizyon-212"
             },
             {
                 "intent": "Öğretim Üyeleri Listesini Görüntüle",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-367"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-367"
             },
             {
                 "intent": "İdari Personel ne Eriş",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/idari_personel-218"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/idari_personel-218"
             },
             {
                 "intent": "Yayınları İncele",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/yayinlar-339"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/yayinlar-339"
             },
             {
                 "intent": "Eğitim Videolarına Eriş",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/videolar-347"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/videolar-347"
             },
             {
                 "intent": "Eğitim Materyallerine Eriş",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/egitimler-351"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/egitimler-351"
             },
             {
                 "intent": "Bilgi Notlarını İncele",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/bilgi_notlari_-345"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/bilgi_notlari_-345"
             },
             {
                 "intent": "Mezun ne Eriş",
-                "url": "https://www.sh.hacettepe.edu.tr/tr/menu/mezunlarimiza_dair-387"
+                "url": "https://sh.hacettepe.edu.tr/tr/menu/mezunlarimiza_dair-387"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -21834,7 +21826,7 @@
             },
             {
                 "intent": "Mazeret Dilekçeleri",
-                "url": "https://www.sid.hacettepe.edu.tr/tr/mazeret_dilekceleri_hakkinda-1360"
+                "url": "https://sid.hacettepe.edu.tr/tr/mazeret_dilekceleri_hakkinda-1360"
             },
             {
                 "intent": "Hacettepe Sağlık İdaresi Dergisi'ne Git",
@@ -21883,7 +21875,7 @@
             },
             {
                 "intent": "LIH Web Sitesine Git",
-                "url": "https://www.lih.lu"
+                "url": "https://lih.lu"
             },
             {
                 "intent": "S-Training Platformuna Git",
@@ -22070,7 +22062,7 @@
     {
         "entity_name": "Sağlık, Kültür ve Spor Daire Başkanlığı",
         "category": "İdari Birim",
-        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir.",
+        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir. yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks",
         "action_links": [
             {
                 "intent": "SKS Yönetmeliğini Oku",
@@ -22350,27 +22342,27 @@
             },
             {
                 "intent": "Hakkında Sayfasını Ziyaret Et",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/hakkinda-47"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/hakkinda-47"
             },
             {
                 "intent": "Kabul Koşullarını ve Öğretim Programını İncele",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/kabul_kosullari__ogretim_programi-41"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/kabul_kosullari__ogretim_programi-41"
             },
             {
                 "intent": "Spor Bilimleri Fakültesi Laboratuvar Araçlarını Görüntüle",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/spor_bilimleri_fakultesi_laboratuva-19"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/spor_bilimleri_fakultesi_laboratuva-19"
             },
             {
                 "intent": "Psikoloji Bölümü Laboratuvar Araçlarını Görüntüle",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/psikoloji_bolumu_laboratuvarimizda_-21"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/psikoloji_bolumu_laboratuvarimizda_-21"
             },
             {
                 "intent": "Tezleri Görüntüle",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/tezler-27"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/tezler-27"
             },
             {
                 "intent": "Takip Edilen Hakemli Dergileri Görüntüle",
-                "url": "https://www.sporpsikolojisi.hacettepe.edu.tr/tr/menu/dergiler-43"
+                "url": "https://sporpsikolojisi.hacettepe.edu.tr/tr/menu/dergiler-43"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -22913,11 +22905,11 @@
             },
             {
                 "intent": "Kanun ve Yönetmelikleri Oku",
-                "url": "http://www.oid.hacettepe.edu.tr/"
+                "url": "http://oid.hacettepe.edu.tr/"
             },
             {
                 "intent": "Yararlı Belgeleri ve Formları İndir",
-                "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+                "url": "http://egitim.hacettepe.edu.tr/ogrenci_form.html"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
@@ -22941,11 +22933,11 @@
             },
             {
                 "intent": "Kanun ve Yönetmelikleri Görüntüle",
-                "url": "http://www.oid.hacettepe.edu.tr/"
+                "url": "http://oid.hacettepe.edu.tr/"
             },
             {
                 "intent": "Öğrenci Yararlı Belgelerine Eriş",
-                "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+                "url": "http://egitim.hacettepe.edu.tr/ogrenci_form.html"
             },
             {
                 "intent": "Aday Öğrencinu İncele",
@@ -23202,47 +23194,47 @@
             },
             {
                 "intent": "Lisans Program Görüntüle",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/lisans-programi"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/lisans-programi"
             },
             {
                 "intent": "Lisans Üstü Program Görüntüle",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/lisans-ustu-programi"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/lisans-ustu-programi"
             },
             {
                 "intent": "Yüksek Lisans ve Doktora Programlarını İncele",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/yuksek-lisans-doktora"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/yuksek-lisans-doktora"
             },
             {
                 "intent": "Akademik Kadroyu Listele",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/ogretim-uyeleri-gorevlileri"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/ogretim-uyeleri-gorevlileri"
             },
             {
                 "intent": "Teknik Personel Listesine Ulaş",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/teknik-personel"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/teknik-personel"
             },
             {
                 "intent": "Teknik Altyapı ve Laboratuvarları Bilgisi Al",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/teknik-altyapi"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/teknik-altyapi"
             },
             {
                 "intent": "Tez Çalışmalarına Eriş",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/tezler"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/tezler"
             },
             {
                 "intent": "Moleküler Genetik Tanı Birimini İncele",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/molekuler-genetik-tani"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/molekuler-genetik-tani"
             },
             {
                 "intent": "Biyobanka",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/biyobanka"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/biyobanka"
             },
             {
                 "intent": "Güncel Duyuruları Takip Et",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/duyurular"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/duyurular"
             },
             {
                 "intent": "Arşivlenmiş Duyuruları Görüntüle",
-                "url": "https://www.tibbibiyoloji.hacettepe.edu.tr/tr/arsiv-duyurular"
+                "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/arsiv-duyurular"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -23478,7 +23470,7 @@
     {
         "entity_name": "Uluslararası Karst Su Kaynakları Uygulama ve Araştırma Merkezi (UKAM)",
         "category": "Araştırma Merkezi",
-        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir.",
+        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [],
         "announcement_schema": ".icerik",
         "sub_branches": [],
@@ -23892,7 +23884,7 @@
             },
             {
                 "intent": "V-PREG (Vaskülit-Gebelik Kaydı) ne Ulaş",
-                "url": "https://www.vasculitisfoundation.org/vpreg_turkish/"
+                "url": "https://vasculitisfoundation.org/vpreg_turkish/"
             }
         ],
         "announcement_schema": "#duyurular",
@@ -23985,27 +23977,27 @@
             },
             {
                 "intent": "Erasmus Değişim Programı ni Al",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/menu/erasmus-231"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/erasmus-231"
             },
             {
                 "intent": "Farabi Değişim Programı ni Al",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/menu/farabi-233"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/farabi-233"
             },
             {
                 "intent": "Mevlana Değişim Programı ni Al",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/menu/mevlana-235"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/mevlana-235"
             },
             {
                 "intent": "Form ve Dilekçelere Eriş",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/menu/form_ve_dilekceler-68"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/form_ve_dilekceler-68"
             },
             {
                 "intent": "Diplomalar",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/diplomalar_hakkinda_tiklayiniz-340"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/diplomalar_hakkinda_tiklayiniz-340"
             },
             {
                 "intent": "Kütüphane Hizmetlerine Eriş",
-                "url": "https://www.turkoloji.hacettepe.edu.tr/tr/menu/kutuphane-173"
+                "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/kutuphane-173"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -24074,7 +24066,7 @@
             },
             {
                 "intent": "Arıza Bildiriminde Bulun",
-                "url": "https://www.yapi.hacettepe.edu.tr/tr/menu/ariza-bildirimi"
+                "url": "https://yapi.hacettepe.edu.tr/tr/menu/ariza-bildirimi"
             },
             {
                 "intent": "Dilekçe Örneklerine Eriş",
@@ -24259,7 +24251,7 @@
             },
             {
                 "intent": "Yararlı Belgeleri İndir",
-                "url": "http://www.turkceegitimi.hacettepe.edu.tr/tr/menu/yararli_belgeler-26"
+                "url": "http://turkceegitimi.hacettepe.edu.tr/tr/menu/yararli_belgeler-26"
             },
             {
                 "intent": "Öğretim Üyelerini Listele",
@@ -24335,7 +24327,7 @@
             },
             {
                 "intent": "Belge ve Formlara Eriş",
-                "url": "http://www.turkceegitimi.hacettepe.edu.tr/tr/menu/yararli_belgeler-26"
+                "url": "http://turkceegitimi.hacettepe.edu.tr/tr/menu/yararli_belgeler-26"
             },
             {
                 "intent": "Çift Ana Dal Programlarını İncele",
@@ -24387,30 +24379,6 @@
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
         "search_text": "yubam yutma bozuklukları araştırma ve uygulama merkezi tme 360° sempozyumu'na kayıt ol"
-    },
-    {
-        "entity_name": "2024-2025 Öğretim Yılı Yeni Kazanan Öğrenci Kayıt İşlemleri",
-        "category": "İdari Birim",
-        "description": "Üniversitemize yeni yerleşen adayların e-Devlet üzerinden veya şahsen gerçekleştirecekleri kayıt süreçleri, gerekli belgeler ve tarihleri hakkında bilgilendirme sağlayan resmi portal.",
-        "action_links": [
-            {
-                "intent": "e-Devlet Üzerinden Üniversite E-Kayıt İşlemini Gerçekleştir",
-                "url": "https://turkiye.gov.tr"
-            }
-        ],
-        "announcement_schema": null,
-        "sub_branches": [
-            "Kayıt İşlemleri",
-            "İletişim"
-        ],
-        "url": "https://yenikazanan.hacettepe.edu.tr",
-        "deep_crawl_files": 0,
-        "deep_crawl_pages": 3,
-        "is_active": true,
-        "search_alias": "yenikazanan",
-        "priority_score": 0,
-        "entity_type": "DİĞER",
-        "search_text": "yenikazanan 2024-2025 öğretim yılı yeni kazanan öğrenci kayıt işlemleri e-devlet üzerinden üniversite e-kayıt işlemini gerçekleştir"
     },
     {
         "entity_name": "Yuvam Uygulama ve Araştırma Merkezi",
@@ -24649,7 +24617,7 @@
             },
             {
                 "intent": "Özel Eğitim Bölümü Web Sitesine Git",
-                "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+                "url": "http://ozelegitim.hacettepe.edu.tr/"
             }
         ],
         "announcement_schema": ".duyurular_liste",
@@ -24785,60 +24753,6 @@
         "search_text": "egitimmezun eğitim fakültesi mezun bilgi sistemi mezun bilgi sistemine kaydol sisteme giriş yap şifremi unuttum"
     },
     {
-        "entity_name": "Açık Erişim Sistemi",
-        "category": "Diğer",
-        "description": "Hacettepe Üniversitesi'ne ait akademik çalışmaların, tezlerin, makalelerin ve bilimsel araştırmaların dijital olarak arşivlendiği ve paylaşıldığı kurumsal açık erişim deposudur.",
-        "action_links": [
-            {
-                "intent": "Koleksiyonları ve Toplulukları İncele",
-                "url": "https://openaccess.hacettepe.edu.tr/communities"
-            },
-            {
-                "intent": "Yazarlara e Ara",
-                "url": "https://openaccess.hacettepe.edu.tr/browse?type=author"
-            },
-            {
-                "intent": "Başlıklara e Ara",
-                "url": "https://openaccess.hacettepe.edu.tr/browse?type=title"
-            },
-            {
-                "intent": "Konulara e Ara",
-                "url": "https://openaccess.hacettepe.edu.tr/browse?type=subject"
-            },
-            {
-                "intent": "Konu Kategorilerine e Ara",
-                "url": "https://openaccess.hacettepe.edu.tr/browse?type=subject_category"
-            },
-            {
-                "intent": "Yayın Tarihine e Ara",
-                "url": "https://openaccess.hacettepe.edu.tr/browse?type=issue_date"
-            },
-            {
-                "intent": "İstatistikleri Görüntüle",
-                "url": "https://openaccess.hacettepe.edu.tr/statistics"
-            }
-        ],
-        "announcement_schema": null,
-        "sub_branches": [
-            "Ankara Devlet Konservatuvarı",
-            "Daire Başkanlıkları",
-            "Diş Hekimliği Fakültesi",
-            "Eczacılık Fakültesi",
-            "Edebiyat Fakültesi",
-            "Tıp Fakültesi",
-            "Yüksekokullar",
-            "Sağlık Bilimleri Fakültesi"
-        ],
-        "url": "https://openaccess.hacettepe.edu.tr",
-        "deep_crawl_files": 0,
-        "deep_crawl_pages": 339,
-        "is_active": true,
-        "search_alias": "openaccess",
-        "priority_score": 30,
-        "entity_type": "DİĞER",
-        "search_text": "openaccess açık erişim sistemi koleksiyonları ve toplulukları incele yazarlara e ara başlıklara e ara konulara e ara konu kategorilerine e ara yayın tarihine e ara istatistikleri görüntüle"
-    },
-    {
         "entity_name": "Yabancı Diller Yüksekokulu",
         "category": "Yüksekokul / Meslek Yüksekokulu",
         "description": "Hacettepe Üniversitesi bünyesinde öğrencilerin yabancı dil hazırlık eğitimlerini, muafiyet sınavlarını ve seçmeli modern dil derslerini organize eden akademik birimdir.",
@@ -24934,47 +24848,6 @@
         "priority_score": 80,
         "entity_type": "ENSTİTÜ/YÜKSEKOKUL",
         "search_text": "ydyo yabancı diller yüksekokulu öğrenci bilgilendirme el kitabını incele yabancı dil sınav eşdeğerliklerini kontrol et yeterlik, muafiyet ve düzey belirleme sınavları belgeler ve dilekçelere eriş psikolojik danışmanlık ve rehberlik hizmetleri psikolojik danışmanlık ve rehberlik hizmetleri kanun ve yönetmelikleri oku ev tanımlarını indir (pdf) 2023-2027 stratejik planını indir (pdf) engelli öğrenci temsilciliği ile iletişime geç yüksekokul danışma kurulu ve kalite komisyonu görüntüle kurs planlama ve uygulama usul ve esaslarını oku yabancı dil kursu kayıt başvurusunu yap 2025-2026 öğrenci bilgilendirme el kitaplarını incele ydyo ev tanımlarını indir 2023-2027 stratejik planını indir derslik bilgi sistemi'ne (debi) git"
-    },
-    {
-        "entity_name": "Yeni Kazananlar",
-        "category": "İdari Birim",
-        "description": "Yeni kazanan öğrencilerin YKS, DGS, ek yerleştirme, sağlık lisans tamamlama ve hazırlık sınıfı kayıt süreçlerine dair güncel duyuruların ve ilgili birim yönlendirmelerinin paylaşıldığı portal.",
-        "action_links": [
-            {
-                "intent": "Hacettepe Üniversitesi Ana",
-                "url": "https://www.hacettepe.edu.tr"
-            },
-            {
-                "intent": "Öğrenci İşleri Daire Başkanlığına Git",
-                "url": "https://oidb.hacettepe.edu.tr"
-            },
-            {
-                "intent": "Barınma Olanakları Bilgisine Ulaş",
-                "url": "https://sksdb.hacettepe.edu.tr"
-            },
-            {
-                "intent": "Yabancı Dil Hazırlık Sınıfı Yeterlik",
-                "url": "https://ydyo.hacettepe.edu.tr"
-            },
-            {
-                "intent": "BEB 650 Muafiyet Sınavı ne Ulaş",
-                "url": "https://bilisim.hacettepe.edu.tr/"
-            },
-            {
-                "intent": "UNI101 Üniversite Yaşamına Giriş Ders",
-                "url": "https://uni101.hacettepe.edu.tr"
-            }
-        ],
-        "announcement_schema": ".duyurular_liste",
-        "sub_branches": [],
-        "url": "https://yenikazanan2.hacettepe.edu.tr",
-        "deep_crawl_files": 0,
-        "deep_crawl_pages": 24,
-        "is_active": true,
-        "search_alias": "yenikazanan2",
-        "priority_score": 30,
-        "entity_type": "DİĞER",
-        "search_text": "yenikazanan2 yeni kazananlar hacettepe üniversitesi ana öğrenci işleri daire başkanlığına git barınma olanakları bilgisine ulaş yabancı dil hazırlık sınıfı yeterlik beb 650 muafiyet sınavı ne ulaş unı101 üniversite yaşamına giriş ders"
     },
     {
         "entity_name": "Fen Fakültesi Aktüerya Bilimleri Bölümü Mezun Bilgi Sistemi",
@@ -25364,11 +25237,11 @@
         "action_links": [
             {
                 "intent": "Uluslararası Öğrenci Başvurusu Yap",
-                "url": "https://www.iso.hacettepe.edu.tr"
+                "url": "https://iso.hacettepe.edu.tr"
             },
             {
                 "intent": "Öğrenci İşleri Daire Başkanlığı'nı Ziyaret Et",
-                "url": "https://www.oid.hacettepe.edu.tr"
+                "url": "https://oid.hacettepe.edu.tr"
             }
         ],
         "announcement_schema": "#duyurular",
@@ -25445,15 +25318,15 @@
             },
             {
                 "intent": "KVKK'ya Duyulan İhtiyaç Rehberini Oku",
-                "url": "https://www.kvkk.gov.tr/Icerik/4182/Kisisel-Verilerin-Korunmasi-Kanununa-Duyulan-Ihtiyac"
+                "url": "https://kvkk.gov.tr/Icerik/4182/Kisisel-Verilerin-Korunmasi-Kanununa-Duyulan-Ihtiyac"
             },
             {
                 "intent": "Uluslararası ve Ulusal Düzenlemeler Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/49712b6d-655c-47e2-8c53-0c51bbef0306.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/49712b6d-655c-47e2-8c53-0c51bbef0306.pdf"
             },
             {
                 "intent": "KVKK Amacı ve Kapsamı Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/4d1c6565-b087-4bfb-b148-70e75b2549a5.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/4d1c6565-b087-4bfb-b148-70e75b2549a5.pdf"
             },
             {
                 "intent": "Hak ve Yükümlülükler Rehberini İndir",
@@ -25461,11 +25334,11 @@
             },
             {
                 "intent": "Veri Sorumlusu ve Veri İşleyen Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/31d9c444-27a5-4a75-95b1-1ca9bdb81ea5.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/31d9c444-27a5-4a75-95b1-1ca9bdb81ea5.pdf"
             },
             {
                 "intent": "Kişisel Verilerin İşlenmesine İlişkin Temel İlkeler Rehberini Oku",
-                "url": "https://www.kvkk.gov.tr/Icerik/4189/Kisisel-Verilerin-Islenmesine-Iliskin-Temel-Ilkeler"
+                "url": "https://kvkk.gov.tr/Icerik/4189/Kisisel-Verilerin-Islenmesine-Iliskin-Temel-Ilkeler"
             },
             {
                 "intent": "Aydınlatma Yükümlülüğü Rehberini İndir",
@@ -25477,19 +25350,19 @@
             },
             {
                 "intent": "Anayasal Hak Olarak KVKK Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/28b8639c-1624-40af-ac9b-8f2551b4b2bf.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/28b8639c-1624-40af-ac9b-8f2551b4b2bf.pdf"
             },
             {
                 "intent": "Verilerin Silinmesi, Yok Edilmesi ve Anonim Hale Getirilmesi Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/bc1cb353-ef85-4e58-bb99-3bba31258508.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/bc1cb353-ef85-4e58-bb99-3bba31258508.pdf"
             },
             {
                 "intent": "Kişisel Veri Güvenliği Rehberini İndir",
-                "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/7512d0d4-f345-41cb-bc5b-8d5cf125e3a1.pdf"
+                "url": "https://kvkk.gov.tr/SharedFolderServer/CMSFiles/7512d0d4-f345-41cb-bc5b-8d5cf125e3a1.pdf"
             },
             {
                 "intent": "Hak Arama Yöntemleri Rehberini Oku",
-                "url": "https://www.kvkk.gov.tr/Icerik/4193/Ilgili-Kisinin-Hak-Arama-Yontemleri"
+                "url": "https://kvkk.gov.tr/Icerik/4193/Ilgili-Kisinin-Hak-Arama-Yontemleri"
             }
         ],
         "announcement_schema": null,
@@ -25600,7 +25473,7 @@
     {
         "entity_name": "Bilgisayar Mühendisliği ve Yapay Zeka Mühendisliği Bölümü",
         "category": "Bölüm",
-        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır.",
+        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır. ai staj ai staj ai staj ai staj ai staj ai staj",
         "action_links": [
             {
                 "intent": "Lisans Ders Programı (CS/AI)",
@@ -25744,23 +25617,23 @@
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim Yönergesini Oku",
-                "url": "https://www.ee.hacettepe.edu.tr/documents/Lisansu_Yonergesi-2025-Mayis.pdf"
+                "url": "https://ee.hacettepe.edu.tr/documents/Lisansu_Yonergesi-2025-Mayis.pdf"
             },
             {
                 "intent": "Graduate Education Directive (English)",
-                "url": "https://www.ee.hacettepe.edu.tr/documents/Lisansu_Yonergesi-2025-Mayis_en.pdf"
+                "url": "https://ee.hacettepe.edu.tr/documents/Lisansu_Yonergesi-2025-Mayis_en.pdf"
             },
             {
                 "intent": "Öğrenci Adayları Tanıtım Kılavuzunu İndir",
-                "url": "https://www.ee.hacettepe.edu.tr/documents/yksKilavuz_v2025.08.01.01.pdf"
+                "url": "https://ee.hacettepe.edu.tr/documents/yksKilavuz_v2025.08.01.01.pdf"
             },
             {
                 "intent": "Ders Önkoşullarını İncele",
-                "url": "https://www.ee.hacettepe.edu.tr/documents/onkosullar_22022023.pdf"
+                "url": "https://ee.hacettepe.edu.tr/documents/onkosullar_22022023.pdf"
             },
             {
                 "intent": "Ders Değişiklikleri Belgesini İndir",
-                "url": "https://www.ee.hacettepe.edu.tr/documents/program-degisikligi-2017.pdf"
+                "url": "https://ee.hacettepe.edu.tr/documents/program-degisikligi-2017.pdf"
             }
         ],
         "announcement_schema": null,
@@ -26115,43 +25988,43 @@
             },
             {
                 "intent": "Misyon ve Vizyonu Görüntüle",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=Misyon_%2F_Vizyon"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=Misyon_%2F_Vizyon"
             },
             {
                 "intent": "Organizasyon Şemasını İncele",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=Organizasyon_Şeması"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=Organizasyon_Şeması"
             },
             {
                 "intent": "Faaliyet Raporlarını Oku",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=Faaliyet_Raporları"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=Faaliyet_Raporları"
             },
             {
                 "intent": "Stratejik Planları Görüntüle",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=Stratejik_Planlar"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=Stratejik_Planlar"
             },
             {
                 "intent": "2024 Kurum İçi Değerlendirme Raporunu İndir",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=Kurum_İçi_Değerlendirme_Raporu_(2024)"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=Kurum_İçi_Değerlendirme_Raporu_(2024)"
             },
             {
                 "intent": "Prosedür, Talimat ve İş Akışlarını İncele",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=PROSEDÜRLER_%2F_TALİMATLAR_/_İŞ_AKIŞLARI"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=PROSEDÜRLER_%2F_TALİMATLAR_/_İŞ_AKIŞLARI"
             },
             {
                 "intent": "Beytepe Kütüphanesi Müdürlüğü Prosedürünü Oku",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=BEYTEPE_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=BEYTEPE_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
                 "intent": "Sağlık Bilimleri Kütüphanesi Müdürlüğü Prosedürünü Oku",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=SAĞLIK_BİLİMLERİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=SAĞLIK_BİLİMLERİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
                 "intent": "Konservatuvar Kütüphanesi Müdürlüğü Prosedürünü Oku",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=KONSERVATUVAR_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=KONSERVATUVAR_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
                 "intent": "Hukuk Fakültesi Kütüphanesi Müdürlüğü Prosedürünü Oku",
-                "url": "https://www.libraryworkflows.hacettepe.edu.tr/index.php?title=HUKUK_FAKÜLTESİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
+                "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=HUKUK_FAKÜLTESİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             }
         ],
         "announcement_schema": null,
@@ -26386,7 +26259,7 @@
             },
             {
                 "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
             },
             {
                 "intent": "Uluslararası Öğrenci ne Eriş",
@@ -26434,7 +26307,7 @@
             },
             {
                 "intent": "Lisansüstü Eğitim Yönetmeliğini Oku",
-                "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
+                "url": "https://mevzuat.gov.tr/mevzuat?MevzuatNo=23066&MevzuatTur=8&MevzuatTertip=5"
             },
             {
                 "intent": "Uluslararası Projeleri İncele",
@@ -26824,5 +26697,91 @@
         "priority_score": 30,
         "entity_type": "DİĞER",
         "search_text": "topluluklar öğrenci toplulukları tüm toplulukları listele etkinlik takvimini görüntüle topluluk başvurusu yap duyuruları takip et"
+    },
+    {
+        "entity_name": "Beytepe Ring (EGO 130)",
+        "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130",
+        "category": "CANLI ULAŞIM",
+        "search_alias": "",
+        "description": "Beytepe Kampüsü 130 nolu EGO otobüsü kalkış saatleri ve güzergahı: Metro, Nizamiye, Kongre Salonu, MYO, TÖMER, Öğrenci Evleri, Mühendislik, Hukuk.",
+        "search_text": " beytepe ring (ego 130) metro istasyonu nizamiye öğrenci evleri mühendislik hukuk fak. metro istasyonu (10620) nizamiye (14694) öğrenci evleri (10566) mühendislik (13140) hukuk fak. (13139)",
+        "priority_score": 30,
+        "is_ring": true,
+        "action_links": [
+            {
+                "intent": "Metro İstasyonu",
+                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
+            },
+            {
+                "intent": "Nizamiye",
+                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
+            },
+            {
+                "intent": "Öğrenci Evleri",
+                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
+            },
+            {
+                "intent": "Mühendislik",
+                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
+            },
+            {
+                "intent": "Hukuk Fak.",
+                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
+            },
+            {
+                "intent": "Metro İstasyonu (10620)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10620';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Nizamiye (14694)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='14694';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Öğrenci Evleri (10566)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10566';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Mühendislik (13140)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13140';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Hukuk Fak. (13139)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13139';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            }
+        ],
+        "entity_type": "DİĞER",
+        "deep_crawl_pages": 0
+    },
+    {
+        "entity_name": "Beytepe Ring (EGO 130)",
+        "url": "https://www.ego.gov.tr/",
+        "category": "CANLI ULAŞIM",
+        "search_alias": "ring",
+        "description": "Beytepe Kampüsü 130 nolu EGO otobüsü kalkış saatleri ve güzergahı: Metro, Nizamiye, Kongre Salonu, MYO, TÖMER, Öğrenci Evleri, Mühendislik, Hukuk.",
+        "search_text": "ring otobüs otobus servis ulaşım ulasim ego 130 saatleri metro beytepe durak köprü nizamiye kültür kongre salonu kkm meslek yüksek okulu myo öğrenci evleri yurtlar tömer mühendislik hukuk 1596 cd",
+        "priority_score": 8000,
+        "is_ring": true,
+        "action_links": [
+            {
+                "intent": "Metro İstasyonu (10620)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10620';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Nizamiye (14694)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='14694';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Öğrenci Evleri (10566)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10566';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Mühendislik (13140)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13140';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            },
+            {
+                "intent": "Hukuk Fak. (13139)",
+                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13139';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
+            }
+        ]
     }
 ]
