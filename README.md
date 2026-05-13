@@ -171,22 +171,22 @@ Bu yapı, veri setinin düzenli olarak güncel kalmasını sağlar.
 
 ## Şu Ana Kadar Yapılanlar
 
-- [x] Ana veri üretim hattı kuruldu
-- [x] Seed tabanlı ve keşif destekli hibrit crawler akışı oluşturuldu
-- [x] JS ile yüklenen sayfalar için Playwright entegrasyonu eklendi
-- [x] `search_alias`, `search_text` ve `priority_score` tabanlı arama optimizasyonu devreye alındı
-- [x] Çok kelimeli arama için `Fuse.js` tarafında `$and` mantığı uygulandı
-- [x] Duyuru çekici bağımsız modül haline getirildi ve günlük workflow'a bağlandı
-- [x] Yeni keşfedilen subdomain'ler için `auto_gatekeeper.py` ile LLM tabanlı otomasyon kuruldu
-- [x] Ön yüzde son ziyaret edilenler / sık kullanılanlar mantığı eklendi
+- [x] Ana veri üretim hattı, seed listesi ve LLM tabanlı keşif akışı kuruldu
+- [x] Playwright ve Trafilatura ile dinamik/semantik içerik ayıklama eklendi
+- [x] `search_alias`, SEO enjeksiyonu ve `priority_score` optimizasyonları yapıldı
+- [x] Çok kelimeli arama ($and) ve bitişik karakter eşleşme (Shield) mantığı uygulandı
+- [x] Günlük duyuru senkronizasyonu ve haftalık `audit_pipeline` otomatize edildi
+- [x] EGO "Otobüs Nerede" sistemi için dinamik yönlendirme kartı entegre edildi
+- [x] URL temizliği (www stripping) ve gereksiz domain filtrelemeleri sağlandı
+- [x] Widget tarafına geçmiş takibi, "Geçmişi Temizle" ve UI sadeleştirmeleri yapıldı
+- [x] Crawler stabilizasyonu için timeout ve hata toleransları artırıldı
 
 ## Yapılması Beklenenler
 
 - [ ] TR / EN sayfaların tek bir kurumsal kayıt altında birleştirilmesi
-- [ ] Ölü site ve zayıf bağlantı temizliğinin daha güvenilir hale getirilmesi
-- [ ] Frontend tarafında istemci tabanlı JSON cache mekanizmasının kurulması
-- [ ] `utils/validator.py` çıktılarının ana pipeline akışına daha net bağlanması
-- [ ] Çıktı dizinleri ve bazı dosya yollarında refactor yapılması
+- [ ] Duyuru içeriklerinde tam metin arama desteği ve UI entegrasyonu
+- [ ] Frontend tarafında büyük veriler için JSON cache mekanizması
+- [ ] Mobil uyumluluk ve erişilebilirlik iyileştirmeleri
 
 ## Katkıda Bulunmak İçin
 
