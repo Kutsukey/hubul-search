@@ -42,7 +42,8 @@
         "search_alias": "ahum",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "ahum aile hizmetleri uygulama ve araştırma merkezi (ahum) merkez tarihçesini oku yönetim kadrosunu görüntüle merkez yönetmeliğini oku belge ve dergilere eriş iletişim görüntüle kurumsal logoyu görüntüle güncel duyuruları görüntüle"
+        "search_text": "ahum aile hizmetleri uygulama ve araştırma merkezi (ahum) merkez tarihçesini oku yönetim kadrosunu görüntüle merkez yönetmeliğini oku belge ve dergilere eriş iletişim görüntüle kurumsal logoyu görüntüle güncel duyuruları görüntüle",
+        "announcement_url": "https://ahum.hacettepe.edu.tr"
     },
     {
         "entity_name": "Adli Bilişim Araştırma ve Uygulama Merkezi",
@@ -117,7 +118,8 @@
         "search_alias": "adlibilisim",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "adlibilisim adli bilişim araştırma ve uygulama merkezi merkezi tanıyın müdürlük ne ulaşın yönetim kurulunu görüntüleyin danışma kurulunu görüntüleyin uzay ve bilişim hukuku dergisini inceleyin yayınlanan kitapları görüntüleyin etkinlik takvimine güncel duyuruları takip edin fotoğraf galerisini gezin video galerisini izleyin bilişim hukuku sempozyumu ııı ün blockchain ve kripto para konferansını inceleyin iletişime ulaşın english version"
+        "search_text": "adlibilisim adli bilişim araştırma ve uygulama merkezi merkezi tanıyın müdürlük ne ulaşın yönetim kurulunu görüntüleyin danışma kurulunu görüntüleyin uzay ve bilişim hukuku dergisini inceleyin yayınlanan kitapları görüntüleyin etkinlik takvimine güncel duyuruları takip edin fotoğraf galerisini gezin video galerisini izleyin bilişim hukuku sempozyumu ııı ün blockchain ve kripto para konferansını inceleyin iletişime ulaşın english version",
+        "announcement_url": "https://adlibilisim.hacettepe.edu.tr"
     },
     {
         "entity_name": "Ankara Devlet Konservatuvarı",
@@ -293,7 +295,8 @@
         "search_alias": "aem",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "aem ağaçişleri endüstri mühendisliği bölümü lisans programlarını incele yüksek lisans program yüksek lisans başvuru işlemlerini yap lisansüstü formları ve belgeleri indir ders programlarını görüntüle güncel duyuruları takip et akademik personeli listele idari personeli listele tarihçeyi oku stratejik planı görüntüle yönetim kadrosunu kalite komisyonunu incele genel tanıtımı oku meslek sınıflandırmasını incele misyon ve vizyonu oku akademik çalışmaları incele"
+        "search_text": "aem ağaçişleri endüstri mühendisliği bölümü lisans programlarını incele yüksek lisans program yüksek lisans başvuru işlemlerini yap lisansüstü formları ve belgeleri indir ders programlarını görüntüle güncel duyuruları takip et akademik personeli listele idari personeli listele tarihçeyi oku stratejik planı görüntüle yönetim kadrosunu kalite komisyonunu incele genel tanıtımı oku meslek sınıflandırmasını incele misyon ve vizyonu oku akademik çalışmaları incele",
+        "announcement_url": "https://aem.hacettepe.edu.tr"
     },
     {
         "entity_name": "Tıp Fakültesi Adli Tıp Ana Bilim Dalı",
@@ -401,7 +404,8 @@
         "search_alias": "adlitip",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "adlitip tıp fakültesi adli tıp ana bilim dalı birim tarihçesini oku misyon ve vizyonu görüntüle hizmet anlayışını incele akademik kadroyu görüntüle eğitim ni al eğitim ve kursları incele bilimsel organizasyonları görüntüle bilirkişilik hizmetleri toksikoloji laboratuvarı görüntüle adli belge inceleme laboratuvarı görüntüle sık sorulan sorulara göz at iletişime ulaş tarihçeyi oku misyon ve vizyonu incele hizmet anlayışını eğitim ne eriş bilimsel organizasyonları bilirkişilik hizmetlerini incele poliklinik hizmetleri toksikoloji laboratuvarı adli belge inceleme laboratuvarını incele sık sorulan soruları oku"
+        "search_text": "adlitip tıp fakültesi adli tıp ana bilim dalı birim tarihçesini oku misyon ve vizyonu görüntüle hizmet anlayışını incele akademik kadroyu görüntüle eğitim ni al eğitim ve kursları incele bilimsel organizasyonları görüntüle bilirkişilik hizmetleri toksikoloji laboratuvarı görüntüle adli belge inceleme laboratuvarı görüntüle sık sorulan sorulara göz at iletişime ulaş tarihçeyi oku misyon ve vizyonu incele hizmet anlayışını eğitim ne eriş bilimsel organizasyonları bilirkişilik hizmetlerini incele poliklinik hizmetleri toksikoloji laboratuvarı adli belge inceleme laboratuvarını incele sık sorulan soruları oku",
+        "announcement_url": "https://adlitip.hacettepe.edu.tr"
     },
     {
         "entity_name": "Alman Dili Eğitimi Ana Bilim Dalı",
@@ -558,7 +562,8 @@
         "search_alias": "adea",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "adea alman dili eğitimi ana bilim dalı lisans ders programını indir (2025-2026 bahar) lisansüstü ders programını indir (2025-2026 bahar) lisans sınav programını indir (2025-2026 bahar) lisans öğretim programını incele yüksek lisans öğretim programını incele doktora öğretim programını incele öğrenci kılavuzuna eriş öğrenciler için yararlı belgeleri görüntüle çift anadal programlarınu oku yan dal programlarınu oku erasmus programınu incele farabi programınu incele aday öğrenciler için önemli  oku bölüm yönetimini görüntüle bölüm tarihçesini oku misyon ve vizyonu görüntüle öğretim üyeleri listesine eriş araştırma evlileri listesine eriş 2025-2026 bahar lisans ders programını indir 2025-2026 bahar lisansüstü ders programını indir 2025-2026 bahar lisans sınav programını indir çift anadal programları görüntüle yan dal programları görüntüle erasmus görüntüle farabi görüntüle öğrenci kılavuzunu indir/görüntüle aday öğrenciler için önemli  görüntüle araştırma projelerini incele araştırma öncelik alanlarını görüntüle öğretim üyeleri listesini görüntüle öğretim evlilerini görüntüle araştırma evlilerini görüntüle yönetim görüntüle tarihçe bilgisine ulaş misyon ve vizyon görüntüle"
+        "search_text": "adea alman dili eğitimi ana bilim dalı lisans ders programını indir (2025-2026 bahar) lisansüstü ders programını indir (2025-2026 bahar) lisans sınav programını indir (2025-2026 bahar) lisans öğretim programını incele yüksek lisans öğretim programını incele doktora öğretim programını incele öğrenci kılavuzuna eriş öğrenciler için yararlı belgeleri görüntüle çift anadal programlarınu oku yan dal programlarınu oku erasmus programınu incele farabi programınu incele aday öğrenciler için önemli  oku bölüm yönetimini görüntüle bölüm tarihçesini oku misyon ve vizyonu görüntüle öğretim üyeleri listesine eriş araştırma evlileri listesine eriş 2025-2026 bahar lisans ders programını indir 2025-2026 bahar lisansüstü ders programını indir 2025-2026 bahar lisans sınav programını indir çift anadal programları görüntüle yan dal programları görüntüle erasmus görüntüle farabi görüntüle öğrenci kılavuzunu indir/görüntüle aday öğrenciler için önemli  görüntüle araştırma projelerini incele araştırma öncelik alanlarını görüntüle öğretim üyeleri listesini görüntüle öğretim evlilerini görüntüle araştırma evlilerini görüntüle yönetim görüntüle tarihçe bilgisine ulaş misyon ve vizyon görüntüle",
+        "announcement_url": "https://adea.hacettepe.edu.tr"
     },
     {
         "entity_name": "Adli Bilimler Yüksek Lisans ve Doktora Programı",
@@ -636,12 +641,13 @@
         "search_alias": "adlibilimler",
         "priority_score": 20,
         "entity_type": "PROGRAM",
-        "search_text": "adlibilimler adli bilimler yüksek lisans ve doktora programı eğitim komisyonu yönergesini indir eğitim komisyonu kılavuzuna git ders listesini incele tez ve sanat çalışması usullerini oku akademik kadroyu listele araştırma alanlarını araştırma olanaklarını incele yüksek lisans ve doktora tezlerini incele tüseb projeleri ve çağrı takvimine git resmi belgeleri görüntüle sık sorulan soruları oku iletişime ulaş yönetim kadrosunu genel tanıtımnu oku"
+        "search_text": "adlibilimler adli bilimler yüksek lisans ve doktora programı eğitim komisyonu yönergesini indir eğitim komisyonu kılavuzuna git ders listesini incele tez ve sanat çalışması usullerini oku akademik kadroyu listele araştırma alanlarını araştırma olanaklarını incele yüksek lisans ve doktora tezlerini incele tüseb projeleri ve çağrı takvimine git resmi belgeleri görüntüle sık sorulan soruları oku iletişime ulaş yönetim kadrosunu genel tanıtımnu oku",
+        "announcement_url": "https://adlibilimler.hacettepe.edu.tr"
     },
     {
         "entity_name": "European Union Office",
         "category": "Koordinatörlük",
-        "description": "Hacettepe Üniversitesi'nin Erasmus+ programları, Avrupa Birliği projeleri, öğrenci ve personel hareketlilikleri ile konsorsiyum süreçlerini yöneten ve koordine eden merkez birimdir.",
+        "description": "Hacettepe Üniversitesi'nin Erasmus+ programları, Avrupa Birliği projeleri, öğrenci ve personel hareketlilikleri ile konsorsiyum süreçlerini yöneten ve koordine eden merkez birimdir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Giden Öğrenci Hareketliliğinu İncele",
@@ -764,7 +770,8 @@
         "search_alias": "abofisi",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "abofisi european union office giden öğrenci hareketliliğinu incele gelen öğrenci hareketliliğinu incele giden personel hareketliliğinu incele gelen personel hareketliliğinu incele öğrenim hareketliliği (ka131) detayları öğrenim hareketliliği (ka171) detayları staj hareketliliği (ka131) detayları karma yoğun programlar (bıps) öğrenci belge ve formlarını görüntüle ab ülkeleri başvuru ab dışı ülkeler başvuru fact sheet (bilgi formları) listesini ders kataloglarını incele sigorta, vize ve oturum izni rehberini oku konaklama görüntüle personel ders verme hareketliliği (ka131) personel eğitim alma hareketliliği (ka131) personel ders verme hareketliliği (ka171) personel eğitim alma hareketliliği (ka171) personel belge ve formlarını görüntüle erasmus+ sıkça sorulan sorular (faq) avrupa gönüllü hizmeti (evs) yürütülen projeleri incele hüsbik sağlık bilimleri konsorsiyumu ahiler konsorsiyumu ka103 staj başvuru sürecini öğren"
+        "search_text": "abofisi european union office giden öğrenci hareketliliğinu incele gelen öğrenci hareketliliğinu incele giden personel hareketliliğinu incele gelen personel hareketliliğinu incele öğrenim hareketliliği (ka131) detayları öğrenim hareketliliği (ka171) detayları staj hareketliliği (ka131) detayları karma yoğun programlar (bıps) öğrenci belge ve formlarını görüntüle ab ülkeleri başvuru ab dışı ülkeler başvuru fact sheet (bilgi formları) listesini ders kataloglarını incele sigorta, vize ve oturum izni rehberini oku konaklama görüntüle personel ders verme hareketliliği (ka131) personel eğitim alma hareketliliği (ka131) personel ders verme hareketliliği (ka171) personel eğitim alma hareketliliği (ka171) personel belge ve formlarını görüntüle erasmus+ sıkça sorulan sorular (faq) avrupa gönüllü hizmeti (evs) yürütülen projeleri incele hüsbik sağlık bilimleri konsorsiyumu ahiler konsorsiyumu ka103 staj başvuru sürecini öğren",
+        "announcement_url": "https://abofisi.hacettepe.edu.tr"
     },
     {
         "entity_name": "Alman Dili ve Edebiyatı Bölümü",
@@ -1106,7 +1113,7 @@
                 "url": "https://aktuerya.hacettepe.edu.tr/pers/cv/muratbycv_yok_temmuz2019.pdf"
             }
         ],
-        "announcement_schema": "#duyurular",
+        "announcement_schema": ".icerik",
         "sub_branches": [
             "Lisans Programı",
             "Yüksek Lisans Programı",
@@ -1120,7 +1127,8 @@
         "search_alias": "aktuerya",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "aktuerya aktüerya bilimleri bölümü istatistik yandal duyurusunu oku (şubat 2022) matematik yandal duyurusunu oku (şubat 2022) staj raporu formatını indir dr. öğr. üyesi murat büyükyazıcı özgeçmişini incele"
+        "search_text": "aktuerya aktüerya bilimleri bölümü istatistik yandal duyurusunu oku (şubat 2022) matematik yandal duyurusunu oku (şubat 2022) staj raporu formatını indir dr. öğr. üyesi murat büyükyazıcı özgeçmişini incele",
+        "announcement_url": "https://aktuerya.hacettepe.edu.tr"
     },
     {
         "entity_name": "Department of Architecture",
@@ -1211,7 +1219,8 @@
         "search_alias": "architecture",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "architecture department of architecture misyon ve vizyonu incele bölüm yönetimini görüntüle akademik personeli listele idari personeli listele lisans programını incele öğrenciler için formları indir akademik personel formlarını indir idari personel formlarını indir akademik yayınlara eriş akademik etkinlikleri takip et mimarlık konferanslarını görüntüle tüm duyuruları oku iletişime ulaş unı101 üniversite yaşamına giriş bilgisine git bütünleme sınavnu oku"
+        "search_text": "architecture department of architecture misyon ve vizyonu incele bölüm yönetimini görüntüle akademik personeli listele idari personeli listele lisans programını incele öğrenciler için formları indir akademik personel formlarını indir idari personel formlarını indir akademik yayınlara eriş akademik etkinlikleri takip et mimarlık konferanslarını görüntüle tüm duyuruları oku iletişime ulaş unı101 üniversite yaşamına giriş bilgisine git bütünleme sınavnu oku",
+        "announcement_url": "https://architecture.hacettepe.edu.tr"
     },
     {
         "entity_name": "Hareket ve Antrenman Bilimleri Anabilim Dalı",
@@ -1284,7 +1293,8 @@
         "search_alias": "antrenmanbilimi",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "antrenmanbilimi hareket ve antrenman bilimleri anabilim dalı lisans programını incele lisansüstü eğitim yandal programını incele akademik personel listesini görüntüle performans laboratuvarı tanıtımını oku performans laboratuvarı kullanım yönergesini oku güncel duyuruları görüntüle iletişime ulaş lisansüstü eğitimnu incele lisans programı yandal programı ne ulaş performans laboratuvarı kullanım yönergesini indir güncel duyuruları takip et ingilizce sayfaya geç"
+        "search_text": "antrenmanbilimi hareket ve antrenman bilimleri anabilim dalı lisans programını incele lisansüstü eğitim yandal programını incele akademik personel listesini görüntüle performans laboratuvarı tanıtımını oku performans laboratuvarı kullanım yönergesini oku güncel duyuruları görüntüle iletişime ulaş lisansüstü eğitimnu incele lisans programı yandal programı ne ulaş performans laboratuvarı kullanım yönergesini indir güncel duyuruları takip et ingilizce sayfaya geç",
+        "announcement_url": "https://antrenmanbilimi.hacettepe.edu.tr"
     },
     {
         "entity_name": "Arkeoloji Bölümü",
@@ -1413,7 +1423,8 @@
         "search_alias": "arkeo",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "arkeo arkeoloji bölümü lisans programını incele yüksek lisans programını incele doktora programını incele yandal program rehberini indir çift anadal (çap) program rehberini indir formlar ve dilekçelere eriş erasmus programı görüntüle kazı çalışmalarını incele yüzey araştırmalarını incele yüksek lisans tezlerini görüntüle doktora tezlerini görüntüle uygulamalı kazı alanı akademik yayınları incele yandal programı öğretim üyeleri listesini görüntüle lisans nı incele yüksek lisans programı ders listesini görüntüle doktora programı ders listesini görüntüle çift anadal program rehberini indir formlara ve dilekçelere eriş erasmus programınu incele bölüm misyon ve vizyonu oku tüm duyuruları görüntüle aday öğrenciler iletişim görüntüle yüksek lisans tezlerini incele doktora tezlerini incele"
+        "search_text": "arkeo arkeoloji bölümü lisans programını incele yüksek lisans programını incele doktora programını incele yandal program rehberini indir çift anadal (çap) program rehberini indir formlar ve dilekçelere eriş erasmus programı görüntüle kazı çalışmalarını incele yüzey araştırmalarını incele yüksek lisans tezlerini görüntüle doktora tezlerini görüntüle uygulamalı kazı alanı akademik yayınları incele yandal programı öğretim üyeleri listesini görüntüle lisans nı incele yüksek lisans programı ders listesini görüntüle doktora programı ders listesini görüntüle çift anadal program rehberini indir formlara ve dilekçelere eriş erasmus programınu incele bölüm misyon ve vizyonu oku tüm duyuruları görüntüle aday öğrenciler iletişim görüntüle yüksek lisans tezlerini incele doktora tezlerini incele",
+        "announcement_url": "https://arkeo.hacettepe.edu.tr"
     },
     {
         "entity_name": "Aile ve Tüketici Bilimleri Bölümü",
@@ -3020,7 +3031,7 @@
         "category": "Ana Bilim Dalı",
         "description": "Hacettepe Üniversitesi Bilişim Enstitüsü bünyesinde, Bilgisayar Animasyonu ve Oyun Teknolojileri alanında tezli ve tezsiz yüksek lisans programları sunan, akademik eğitim ve araştırma faaliyetleri yürüten birimdir.",
         "action_links": [],
-        "announcement_schema": null,
+        "announcement_schema": ".icerik",
         "sub_branches": [
             "Bilgisayar Animasyonu ve Oyun Teknolojileri Tezli Yüksek Lisans Programı",
             "Bilgisayar Animasyonu ve Oyun Teknolojileri Tezsiz Yüksek Lisans Programı"
@@ -4622,7 +4633,8 @@
         "search_alias": "dahiliye",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "dahiliye tıp fakültesi iç hastalıkları anabilim dalı aylık çalışma programını görüntüle yurt dışı katılım formunu indir şeref zileli 2025 davetiyesini görüntüle 34. prof. dr. şeref zileli anma ve iç hastalıkları günü belgesini indir idari formlara eriş öğretim üyeleri kadrosunu görüntüle araştırma evlileri listesini görüntüle yandal araştırma evlilerini görüntüle idari personel görüntüle mezunlar listesini görüntüle duyuru arşivine git bilim dallarınu incele"
+        "search_text": "dahiliye tıp fakültesi iç hastalıkları anabilim dalı aylık çalışma programını görüntüle yurt dışı katılım formunu indir şeref zileli 2025 davetiyesini görüntüle 34. prof. dr. şeref zileli anma ve iç hastalıkları günü belgesini indir idari formlara eriş öğretim üyeleri kadrosunu görüntüle araştırma evlileri listesini görüntüle yandal araştırma evlilerini görüntüle idari personel görüntüle mezunlar listesini görüntüle duyuru arşivine git bilim dallarınu incele",
+        "announcement_url": "https://dahiliye.hacettepe.edu.tr"
     },
     {
         "entity_name": "Çevre Uygulama ve Araştırma Merkezi",
@@ -4679,7 +4691,8 @@
         "search_alias": "cuam",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "cuam çevre uygulama ve araştırma merkezi yönetimnu incele etkinlikleri görüntüle projeleri incele faaliyet alanlarını öğren gerçekleştirilen faaliyetlere bak laboratuvar ve analiz imkanlarını incele çevre bilimleri dergisi'ne eriş duyuruları listele iletişime ulaş ingilizce sayfaya geç"
+        "search_text": "cuam çevre uygulama ve araştırma merkezi yönetimnu incele etkinlikleri görüntüle projeleri incele faaliyet alanlarını öğren gerçekleştirilen faaliyetlere bak laboratuvar ve analiz imkanlarını incele çevre bilimleri dergisi'ne eriş duyuruları listele iletişime ulaş ingilizce sayfaya geç",
+        "announcement_url": "https://cuam.hacettepe.edu.tr"
     },
     {
         "entity_name": "Çocuk Hakları Uygulama ve Araştırma Merkezi",
@@ -4706,7 +4719,8 @@
         "search_alias": "cohum",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "cohum çocuk hakları uygulama ve araştırma merkezi "
+        "search_text": "cohum çocuk hakları uygulama ve araştırma merkezi ",
+        "announcement_url": "https://cohum.hacettepe.edu.tr"
     },
     {
         "entity_name": "Destek Hizmetleri Müdürlüğü",
@@ -4731,7 +4745,8 @@
         "search_alias": "destekhizmetleri",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "destekhizmetleri destek hizmetleri müdürlüğü iletişime ulaş"
+        "search_text": "destekhizmetleri destek hizmetleri müdürlüğü iletişime ulaş",
+        "announcement_url": "https://destekhizmetleri.hacettepe.edu.tr"
     },
     {
         "entity_name": "Dijital Dönüşüm ve Bilişim Koordinatörlüğü",
@@ -4959,7 +4974,8 @@
         "search_alias": "ctl",
         "priority_score": 100,
         "entity_type": "BÖLÜM",
-        "search_text": "ctl çağdaş türk lehçeleri ve edebiyatları bölümü aday öğrenci kılavuzunu indir öğrenci kılavuzunu indir programları incele değişim programlarını görüntüle yan dal ve çift ana dal programlarını incele yüksek lisans tezlerini listele formlar ve dilekçeleri görüntüle akademik personel listesine git idari personel listesine git projeleri incele bölüm yayınlarını görüntüle kaynak dizinleri görüntüle tara 2026 sempozyumu ne git birimin tarihçesini oku misyon ve vizyonu incele tarihçeyi oku akademik personeli görüntüle idari personeli görüntüle değişim programlarını yan dal ve çift ana dal bölüm yayınlarını incele projeleri görüntüle yüksek lisans tezlerini incele formları ve dilekçeleri indir iletişime ulaş tara 2026 sempozyum 2024 etkinliklerini"
+        "search_text": "ctl çağdaş türk lehçeleri ve edebiyatları bölümü aday öğrenci kılavuzunu indir öğrenci kılavuzunu indir programları incele değişim programlarını görüntüle yan dal ve çift ana dal programlarını incele yüksek lisans tezlerini listele formlar ve dilekçeleri görüntüle akademik personel listesine git idari personel listesine git projeleri incele bölüm yayınlarını görüntüle kaynak dizinleri görüntüle tara 2026 sempozyumu ne git birimin tarihçesini oku misyon ve vizyonu incele tarihçeyi oku akademik personeli görüntüle idari personeli görüntüle değişim programlarını yan dal ve çift ana dal bölüm yayınlarını incele projeleri görüntüle yüksek lisans tezlerini incele formları ve dilekçeleri indir iletişime ulaş tara 2026 sempozyum 2024 etkinliklerini",
+        "announcement_url": "https://ctl.hacettepe.edu.tr"
     },
     {
         "entity_name": "Anaokulları",
@@ -6979,7 +6995,7 @@
                 "url": "https://etikkurul.hacettepe.edu.tr/yerel/faaliyetraporu2023.pdf"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": "#sayfalar_senatokararlariduy",
         "sub_branches": [
             "Sosyal ve Beşeri Bilimler Araştırma Etik Kurulu",
             "Sağlık Bilimleri Araştırma Etik Kurulu",
@@ -7433,7 +7449,7 @@
                 "url": "https://feabd.hacettepe.edu.tr/tr/videogaleri"
             }
         ],
-        "announcement_schema": ".duyurular_liste",
+        "announcement_schema": ".liste",
         "sub_branches": [],
         "url": "https://feabd.hacettepe.edu.tr",
         "deep_crawl_files": 0,
@@ -7442,7 +7458,8 @@
         "search_alias": "feabd",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "feabd fizik eğitimi ana bilim dalı lisans programlarını incele uzaktan eğitim ne eriş araştırmaları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele emekli öğretim üyelerini görüntüle birim tarihçesini oku misyon ve vizyonu görüntüle yönetim kadrosunu görüntüle birim tanıtımını oku foto galeriyi görüntüle video galeriyi görüntüle güncel duyuruları takip et duyuruları görüntüle haberleri oku etkinlikleri incele programları incele uzaktan eğitime eriş araştırma faaliyetlerini emekli öğretim üyelerini listele tarihçeyi oku misyon ve vizyonu oku yönetimi görüntüle tanıtım foto galeriye git video galeriye git"
+        "search_text": "feabd fizik eğitimi ana bilim dalı lisans programlarını incele uzaktan eğitim ne eriş araştırmaları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele emekli öğretim üyelerini görüntüle birim tarihçesini oku misyon ve vizyonu görüntüle yönetim kadrosunu görüntüle birim tanıtımını oku foto galeriyi görüntüle video galeriyi görüntüle güncel duyuruları takip et duyuruları görüntüle haberleri oku etkinlikleri incele programları incele uzaktan eğitime eriş araştırma faaliyetlerini emekli öğretim üyelerini listele tarihçeyi oku misyon ve vizyonu oku yönetimi görüntüle tanıtım foto galeriye git video galeriye git",
+        "announcement_url": "https://feabd.hacettepe.edu.tr/tr/duyurular"
     },
     {
         "entity_name": "Fen Bilimleri Enstitüsü",
@@ -7574,7 +7591,8 @@
         "search_alias": "fenbilimleri",
         "priority_score": 80,
         "entity_type": "ENSTİTÜ/YÜKSEKOKUL",
-        "search_text": "fenbilimleri fen bilimleri enstitüsü yönetmelikleri ve yönergeleri incele lisansüstü eğitim-öğretim ve sınav yönetmeliği pdf indir ana bilim dalları listesini görüntüle değişim programları başvuru işlemleri rehberini oku eğitim akış şeması ve süreçleri incele uluslararası öğrenci ikamet izni işlemleri askerlik işlemleri bilgilendirmesi katkı payları ve öğrenim ücretlerini görüntüle öğrenci formlarını indir intihal kontrol programı ve orjinallik raporu bilgisi tez yazım işlemleri kılavuzunu oku tez teslim ve mezuniyet süreçlerini öğren içerik paylaşım kılavuzunu indir lisansüstü eğitim yönetmeliğini oku başvuru işlemlerini incele eğitim akış şemasını görüntüle uluslararası öğrenci ikamet izni askerlik işlemlerini incele katkı payları ve öğrenim ücretlerini formları indir intihal kontrol programı tez yazım işlemlerini incele tez teslim ve mezuniyet sürecini öğren ana bilim dallarına göz at değişim programlarını incele iletişim tüm duyuruları listele"
+        "search_text": "fenbilimleri fen bilimleri enstitüsü yönetmelikleri ve yönergeleri incele lisansüstü eğitim-öğretim ve sınav yönetmeliği pdf indir ana bilim dalları listesini görüntüle değişim programları başvuru işlemleri rehberini oku eğitim akış şeması ve süreçleri incele uluslararası öğrenci ikamet izni işlemleri askerlik işlemleri bilgilendirmesi katkı payları ve öğrenim ücretlerini görüntüle öğrenci formlarını indir intihal kontrol programı ve orjinallik raporu bilgisi tez yazım işlemleri kılavuzunu oku tez teslim ve mezuniyet süreçlerini öğren içerik paylaşım kılavuzunu indir lisansüstü eğitim yönetmeliğini oku başvuru işlemlerini incele eğitim akış şemasını görüntüle uluslararası öğrenci ikamet izni askerlik işlemlerini incele katkı payları ve öğrenim ücretlerini formları indir intihal kontrol programı tez yazım işlemlerini incele tez teslim ve mezuniyet sürecini öğren ana bilim dallarına göz at değişim programlarını incele iletişim tüm duyuruları listele",
+        "announcement_url": "https://fenbilimleri.hacettepe.edu.tr/tr/duyuru/duyurular"
     },
     {
         "entity_name": "Felsefe Bölümü",
@@ -7726,11 +7744,12 @@
         "search_alias": "felsefe",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "felsefe felsefe bölümü lisans programı görüntüle yüksek lisans programı görüntüle doktora programı görüntüle ders programlarına eriş belgeler ve formları görüntüle yandal başvuru ve bilgi sayfası çift anadal başvuru ve bilgi sayfası değişim programları uzaktan eğitim fedek görüntüle öncelikli alanlar pdf dosyasını indir aday öğrenciler için bilgi sayfası anabilim dalları listesini görüntüle ulusal staj programı başvurusu yap öğretim üyeleri listesini görüntüle araştırma evlileri listesini görüntüle idari personel görüntüle bölüm tarihçesini oku misyon ve vizyonu incele lisans program detaylarını (bologna) görüntüle yüksek lisans program görüntüle doktora program görüntüle uzaktan eğitim görüntüle ders programlarını görüntüle anabilim dalları görüntüle yandal program görüntüle çift anadal program görüntüle değişim programları görüntüle fedek akreditasyon görüntüle belgeler ve formlara eriş aday öğrenci görüntüle ulusal staj programı başvurusu yap (işkur) kariyer kapısı staj başvurusu yap"
+        "search_text": "felsefe felsefe bölümü lisans programı görüntüle yüksek lisans programı görüntüle doktora programı görüntüle ders programlarına eriş belgeler ve formları görüntüle yandal başvuru ve bilgi sayfası çift anadal başvuru ve bilgi sayfası değişim programları uzaktan eğitim fedek görüntüle öncelikli alanlar pdf dosyasını indir aday öğrenciler için bilgi sayfası anabilim dalları listesini görüntüle ulusal staj programı başvurusu yap öğretim üyeleri listesini görüntüle araştırma evlileri listesini görüntüle idari personel görüntüle bölüm tarihçesini oku misyon ve vizyonu incele lisans program detaylarını (bologna) görüntüle yüksek lisans program görüntüle doktora program görüntüle uzaktan eğitim görüntüle ders programlarını görüntüle anabilim dalları görüntüle yandal program görüntüle çift anadal program görüntüle değişim programları görüntüle fedek akreditasyon görüntüle belgeler ve formlara eriş aday öğrenci görüntüle ulusal staj programı başvurusu yap (işkur) kariyer kapısı staj başvurusu yap",
+        "announcement_url": "https://felsefe.hacettepe.edu.tr"
     },
     {
-        "entity_name": "Lisansüstü Eğitim Enstitüsü",
-        "category": "Enstitü",
+        "entity_name": "Fransız Dili Eğitimi Anabilim Dalı",
+        "category": "Ana Bilim Dalı",
         "description": "Lisansüstü eğitim, araştırma süreçleri, akademik personel bilgileri, tez çalışmaları, programlar ve öğrenci kılavuzlarına erişim sağlayan birim sayfası.",
         "action_links": [
             {
@@ -7934,8 +7953,9 @@
         "is_active": true,
         "search_alias": "fdo",
         "priority_score": 80,
-        "entity_type": "ENSTİTÜ/YÜKSEKOKUL",
-        "search_text": "fdo lisansüstü eğitim enstitüsü duyuruları görüntüle yeni yayınları incele etkinlikleri takip et  misyon ve vizyonu oku tarihçeyi incele yönetim kadrosunu koordinatörlükleri ve komisyonları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele idari personeli listele lisans programlarını incele yüksek lisans programlarını incele tezler ve araştırmaları incele yararlı belgeleri indir aday öğrenciler için önemli  oku iletişim ne eriş erasmus programı bilgisi al farabi/mevlana programı bilgisi al çap ve yandal rehberini oku mezun bilgi sistemine git hızlı destek al sıkça sorulan soruları (s.s.s.) oku araştırma öncelik alanları belgesini incele öğrenci kılavuzunu (student booklet) indir güncel duyuruları görüntüle yayınları incele etkinlik takvimini birim tarihçesini incele yönetim kadrosunu görüntüle koordinatörlükler ve komisyonları öğretim üyeleri listesine bak idari personel ne ulaş lisans nı incele yüksek lisans nı incele tezler ve araştırmaları görüntüle iletişime ulaş erasmus programı ni al farabi ve mevlana programlarını incele hızlı destek sıkça sorulan soruları (s.s.s.) incele araştırma öncelik alanları belgesini indir öğrenci kılavuzunu / student booklet incele mezun bilgi sistemine giriş yap kurumsal e-posta sistemine git"
+        "entity_type": "ENSTİTÜ",
+        "search_text": "fdo lisansüstü eğitim enstitüsü duyuruları görüntüle yeni yayınları incele etkinlikleri takip et  misyon ve vizyonu oku tarihçeyi incele yönetim kadrosunu koordinatörlükleri ve komisyonları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele idari personeli listele lisans programlarını incele yüksek lisans programlarını incele tezler ve araştırmaları incele yararlı belgeleri indir aday öğrenciler için önemli  oku iletişim ne eriş erasmus programı bilgisi al farabi/mevlana programı bilgisi al çap ve yandal rehberini oku mezun bilgi sistemine git hızlı destek al sıkça sorulan soruları (s.s.s.) oku araştırma öncelik alanları belgesini incele öğrenci kılavuzunu (student booklet) indir güncel duyuruları görüntüle yayınları incele etkinlik takvimini birim tarihçesini incele yönetim kadrosunu görüntüle koordinatörlükler ve komisyonları öğretim üyeleri listesine bak idari personel ne ulaş lisans nı incele yüksek lisans nı incele tezler ve araştırmaları görüntüle iletişime ulaş erasmus programı ni al farabi ve mevlana programlarını incele hızlı destek sıkça sorulan soruları (s.s.s.) incele araştırma öncelik alanları belgesini indir öğrenci kılavuzunu / student booklet incele mezun bilgi sistemine giriş yap kurumsal e-posta sistemine git",
+        "announcement_url": "https://fdo.hacettepe.edu.tr"
     },
     {
         "entity_name": "Tıp Fakültesi Fiziksel Tıp ve Rehabilitasyon Ana Bilim Dalı",
@@ -7989,7 +8009,8 @@
         "search_alias": "ftr",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "ftr tıp fakültesi fiziksel tıp ve rehabilitasyon ana bilim dalı logbook dosyasını indir genel tanıtımı oku misyon ve vizyonu görüntüle öğretim üyelerini listele araştırma evlilerini listele uzman listesini görüntüle personel listesini görüntüle iletişime ulaş"
+        "search_text": "ftr tıp fakültesi fiziksel tıp ve rehabilitasyon ana bilim dalı logbook dosyasını indir genel tanıtımı oku misyon ve vizyonu görüntüle öğretim üyelerini listele araştırma evlilerini listele uzman listesini görüntüle personel listesini görüntüle iletişime ulaş",
+        "announcement_url": "https://ftr.hacettepe.edu.tr"
     },
     {
         "entity_name": "Fizyoloji Ana Bilim Dalı",
@@ -8120,7 +8141,8 @@
         "search_alias": "fizyoloji",
         "priority_score": 70,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "fizyoloji fizyoloji ana bilim dalı güncel duyuruları görüntüle birim tanıtımını oku tarihçeyi incele misyon ve vizyonu görüntüle öğretim üyeleri listesine eriş araştırma evlilerini görüntüle idari personel ni al emekli öğretim üyelerini görüntüle lisans nı incele lisansüstü programları incele yüksek lisans ve doktora öğrenci ne eriş araştırma laboratuvarlarını incele doktora tezlerini listele tıpta uzmanlık tezlerini görüntüle yüksek lisans tezlerini incele kimyasal arşivine eriş iletişime ulaş tanıtımnu incele tarihçeyi oku öğretim üyelerini listele araştırma evlilerini listele idari personeli listele lisans programı ne eriş yüksek lisans ve doktora öğrencilerini görüntüle tıpta uzmanlık tezlerini listele yüksek lisans tezlerini listele kimyasal arşivi'ne eriş"
+        "search_text": "fizyoloji fizyoloji ana bilim dalı güncel duyuruları görüntüle birim tanıtımını oku tarihçeyi incele misyon ve vizyonu görüntüle öğretim üyeleri listesine eriş araştırma evlilerini görüntüle idari personel ni al emekli öğretim üyelerini görüntüle lisans nı incele lisansüstü programları incele yüksek lisans ve doktora öğrenci ne eriş araştırma laboratuvarlarını incele doktora tezlerini listele tıpta uzmanlık tezlerini görüntüle yüksek lisans tezlerini incele kimyasal arşivine eriş iletişime ulaş tanıtımnu incele tarihçeyi oku öğretim üyelerini listele araştırma evlilerini listele idari personeli listele lisans programı ne eriş yüksek lisans ve doktora öğrencilerini görüntüle tıpta uzmanlık tezlerini listele yüksek lisans tezlerini listele kimyasal arşivi'ne eriş",
+        "announcement_url": "https://fizyoloji.hacettepe.edu.tr"
     },
     {
         "entity_name": "Gıda Mühendisliği Bölümü",
@@ -8366,7 +8388,7 @@
     {
         "entity_name": "Uluslararası Gıda Biyogüvenlik ve Biyoteknoloji Araştırma ve Yayım Merkezi (IFBBC)",
         "category": "Araştırma Merkezi",
-        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
+        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Merkez",
@@ -8469,7 +8491,8 @@
         "search_alias": "foodbiotech",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphanesi'ne git"
+        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphanesi'ne git",
+        "announcement_url": "https://foodbiotech.hacettepe.edu.tr"
     },
     {
         "entity_name": "Geriatri",
@@ -8658,7 +8681,8 @@
         "search_alias": "gogus",
         "priority_score": 40,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "gogus tıp fakültesi göğüs hastalıkları ana bilim dalı genel tanıtımı oku misyon ve vizyonu incele öğretim üyelerini listele araştırma evlilerini listele uzman personeli tüm personel listesine eriş lisans programı lisansüstü program yüksek lisans tezlerini araştır doktora tezlerini araştır iletişim ne eriş"
+        "search_text": "gogus tıp fakültesi göğüs hastalıkları ana bilim dalı genel tanıtımı oku misyon ve vizyonu incele öğretim üyelerini listele araştırma evlilerini listele uzman personeli tüm personel listesine eriş lisans programı lisansüstü program yüksek lisans tezlerini araştır doktora tezlerini araştır iletişim ne eriş",
+        "announcement_url": "https://gogus.hacettepe.edu.tr"
     },
     {
         "entity_name": "Harita Mühendisliği Bölümü",
@@ -9252,7 +9276,8 @@
         "search_alias": "grafik",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "grafik grafik bölümü lisans programnu incele (bologna) yüksek lisans programnu incele sanatta yeterlik programnu incele 1. sınıf danışmanlığı ne bak 2. sınıf danışmanlığı ne bak 3. sınıf danışmanlığı ne bak 4. sınıf danışmanlığı ne bak staj ne ulaş erasmus programı mevlâna değişim programı farabi değişim programı bölüm formlarını görüntüle öğrenci kılavuzunu oku aday öğrenci ne ulaş bölüm yönetimini incele vizyon ve misyonnu oku bölüm tarihçesini oku öğretim üyeleri listesine bak öğretim evlileri listesine bak araştırma evlileri listesine bak idari personel listesine bak bölüm etkinliklerini takip et fotoğraf galerisini incele bölüm iletişime ulaş"
+        "search_text": "grafik grafik bölümü lisans programnu incele (bologna) yüksek lisans programnu incele sanatta yeterlik programnu incele 1. sınıf danışmanlığı ne bak 2. sınıf danışmanlığı ne bak 3. sınıf danışmanlığı ne bak 4. sınıf danışmanlığı ne bak staj ne ulaş erasmus programı mevlâna değişim programı farabi değişim programı bölüm formlarını görüntüle öğrenci kılavuzunu oku aday öğrenci ne ulaş bölüm yönetimini incele vizyon ve misyonnu oku bölüm tarihçesini oku öğretim üyeleri listesine bak öğretim evlileri listesine bak araştırma evlileri listesine bak idari personel listesine bak bölüm etkinliklerini takip et fotoğraf galerisini incele bölüm iletişime ulaş",
+        "announcement_url": "https://grafik.hacettepe.edu.tr"
     },
     {
         "entity_name": "Güzel Sanatlar Enstitüsü",
@@ -10555,7 +10580,7 @@
                 "url": "https://hidro.hacettepe.edu.tr/tanitim/Brosur_tanitim_hidrojeoloji_2018.pdf"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": ".background-color-1",
         "sub_branches": [
             "Hidrojeoloji Mühendisliği",
             "Jeoloji Mühendisliği"
@@ -12926,7 +12951,7 @@
                 "url": "https://huzem.hacettepe.edu.tr/huzemYonetmelik.php"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": ".duyuru",
         "sub_branches": [
             "Geriatrik Bilimler Okulu (GEBAM)"
         ],
@@ -13603,7 +13628,7 @@
                 "url": "https://ie.hacettepe.edu.tr/docs/2021_IAESTE_StajDuyuru.pdf"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": ".homepageAnnouncements",
         "sub_branches": [
             "Lisans Programı",
             "Yandal Programları",
@@ -15602,7 +15627,7 @@
                 "url": "https://library.hacettepe.edu.tr/tr/gorus-ve-onerileriniz"
             }
         ],
-        "announcement_schema": ".news-list",
+        "announcement_schema": ".accordion-toggle",
         "sub_branches": [
             "E-Kaynaklar",
             "Açık Erişim",
@@ -19482,7 +19507,7 @@
                 "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/iletisim"
             }
         ],
-        "announcement_schema": ".duyurular_liste",
+        "announcement_schema": ".icerik",
         "sub_branches": [
             "Bireysel Psikolojik Danışma",
             "Grup Psikolojik Danışma",
@@ -19496,7 +19521,8 @@
         "search_alias": "psikolojikdanismabirimi",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "psikolojikdanismabirimi psikolojik danışma birimi başvuru yap hizmetleri incele çalışma ilkelerini oku bağımlılıkla mücadele faaliyet raporlarını incele broşürleri görüntüle iletişime ulaş personel listesini güncel duyuruları takip et bağımlılıkla mücadelenu oku personel ne eriş faaliyet raporlarını görüntüle iletişim"
+        "search_text": "psikolojikdanismabirimi psikolojik danışma birimi başvuru yap hizmetleri incele çalışma ilkelerini oku bağımlılıkla mücadele faaliyet raporlarını incele broşürleri görüntüle iletişime ulaş personel listesini güncel duyuruları takip et bağımlılıkla mücadelenu oku personel ne eriş faaliyet raporlarını görüntüle iletişim",
+        "announcement_url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/tr/menu/guncel_duyuru-63"
     },
     {
         "entity_name": "Protein Araştırma Merkezi (PRC)",
@@ -20424,7 +20450,8 @@
         "search_alias": "sbf",
         "priority_score": 130,
         "entity_type": "FAKÜLTE",
-        "search_text": "sbf sağlık bilimleri fakültesi seçmeli ders içerikleri ve sınav tarihlerini görüntüle öğrenci formlarını indir çap ve yandal rehberini incele akredite olmuş bölümleri listele etik kurul başvuru ve düzeltme işlemlerini yap fakülte dergilerini görüntüle beslenme ve diyetetik bölüm çocuk gelişimi bölüm dil ve konuşma terapisi bölüm ergoterapi bölüm odyoloji bölüm stratejik plan ve faaliyet raporlarını incele fakülte tarihçesini oku misyon ve vizyon ne eriş teşkilat şemasını görüntüle güncel duyuruları takip et fakülte yönetimini görüntüle iletişim ne eriş sbf kodlu seçmeli ders içeriklerini incele çap ve yandal rehberini oku etik kurul başvurusunu yap akredite edilmiş bölümleri görüntüle fakülte dergilerini incele stratejik plan ve faaliyet raporlarını görüntüle misyon ve vizyon ne ulaş yönetim kadrosunu görüntüle"
+        "search_text": "sbf sağlık bilimleri fakültesi seçmeli ders içerikleri ve sınav tarihlerini görüntüle öğrenci formlarını indir çap ve yandal rehberini incele akredite olmuş bölümleri listele etik kurul başvuru ve düzeltme işlemlerini yap fakülte dergilerini görüntüle beslenme ve diyetetik bölüm çocuk gelişimi bölüm dil ve konuşma terapisi bölüm ergoterapi bölüm odyoloji bölüm stratejik plan ve faaliyet raporlarını incele fakülte tarihçesini oku misyon ve vizyon ne eriş teşkilat şemasını görüntüle güncel duyuruları takip et fakülte yönetimini görüntüle iletişim ne eriş sbf kodlu seçmeli ders içeriklerini incele çap ve yandal rehberini oku etik kurul başvurusunu yap akredite edilmiş bölümleri görüntüle fakülte dergilerini incele stratejik plan ve faaliyet raporlarını görüntüle misyon ve vizyon ne ulaş yönetim kadrosunu görüntüle",
+        "announcement_url": "https://sbf.hacettepe.edu.tr"
     },
     {
         "entity_name": "Sağlık Bilimleri Fakültesi Odyoloji Bölümü",
@@ -20901,7 +20928,8 @@
         "search_alias": "sbky",
         "priority_score": 100,
         "entity_type": "BÖLÜM",
-        "search_text": "sbky siyaset bilimi ve kamu yönetimi bölümü kanun ve yönetmelikleri incele ders ve sınav programlarını görüntüle staj ne ulaş yandal programı yatay ve dikey geçiş koşullarını öğren yaz okulu bölüme özel yararlı belgeleri indir fakülte dilekçe ve form örneklerini indir sıkça sorulan soruları oku değişim programlarını incele öğretim kadrosunu görüntüle araştırma evlilerini listele idari personeli görüntüle bölüm tarihçesini oku bölüm yönetimini görüntüle vizyon ve misyonnu oku anabilim dallarına göz at koordinatörlükleri incele öğrenci topluluklarını bölüm kurulu kararlarını incele programları incele değişim programlarını kanun ve yönetmelikleri oku yandal programı ni al yatay ve dikey geçiş şartlarını staj bilgilerini ve yönergesini incele öğrenci topluluklarını incele öğrenci disiplin yönetmeliğini oku bölüm yararlı belgelerini görüntüle akademik makalelere eriş kitap listesini görüntüle kitap bölümlerini incele bildirileri görüntüle öğretim kadrosunu incele genel yararlı belgeleri indir tanıtım ve tarihçe bilgisi al bölüm yönetimini vizyon ve misyonu oku anabilim dalları listesine eriş hacettepe portal girişi yap"
+        "search_text": "sbky siyaset bilimi ve kamu yönetimi bölümü kanun ve yönetmelikleri incele ders ve sınav programlarını görüntüle staj ne ulaş yandal programı yatay ve dikey geçiş koşullarını öğren yaz okulu bölüme özel yararlı belgeleri indir fakülte dilekçe ve form örneklerini indir sıkça sorulan soruları oku değişim programlarını incele öğretim kadrosunu görüntüle araştırma evlilerini listele idari personeli görüntüle bölüm tarihçesini oku bölüm yönetimini görüntüle vizyon ve misyonnu oku anabilim dallarına göz at koordinatörlükleri incele öğrenci topluluklarını bölüm kurulu kararlarını incele programları incele değişim programlarını kanun ve yönetmelikleri oku yandal programı ni al yatay ve dikey geçiş şartlarını staj bilgilerini ve yönergesini incele öğrenci topluluklarını incele öğrenci disiplin yönetmeliğini oku bölüm yararlı belgelerini görüntüle akademik makalelere eriş kitap listesini görüntüle kitap bölümlerini incele bildirileri görüntüle öğretim kadrosunu incele genel yararlı belgeleri indir tanıtım ve tarihçe bilgisi al bölüm yönetimini vizyon ve misyonu oku anabilim dalları listesine eriş hacettepe portal girişi yap",
+        "announcement_url": "https://sbky.hacettepe.edu.tr"
     },
     {
         "entity_name": "Güzel Sanatlar Fakültesi Seramik ve Cam Bölümü",
@@ -21371,7 +21399,8 @@
         "search_alias": "snf",
         "priority_score": 70,
         "entity_type": "ANA BİLİM DALI",
-        "search_text": "snf sınıf eğitimi anabilim dalı öğrenci kılavuzunu indir lisans programı çift anadalnu incele uzaktan eğitim tezsiz yüksek lisans uzaktan eğitim tezsiz yüksek lisans yüksek lisans programını incele doktora programını incele çift ana dal yatay geçiş şartlarını öğren erasmus hareketliliği araştırma ve projeleri incele tüm duyuruları listele etkinlikleri takip et öğretim üyelerini listele emekli öğretim elemanlarını öğretim evlilerini listele araştırma evlilerini listele idari personel yönetim kadrosunu incele misyon ve vizyonu oku bölüm tarihçesini oku iletişime ulaş fotoğraf galerisini incele lisans programınu incele yatay geçiş koşullarını erasmus programı tüm duyuruları görüntüle akademik personel listesini"
+        "search_text": "snf sınıf eğitimi anabilim dalı öğrenci kılavuzunu indir lisans programı çift anadalnu incele uzaktan eğitim tezsiz yüksek lisans uzaktan eğitim tezsiz yüksek lisans yüksek lisans programını incele doktora programını incele çift ana dal yatay geçiş şartlarını öğren erasmus hareketliliği araştırma ve projeleri incele tüm duyuruları listele etkinlikleri takip et öğretim üyelerini listele emekli öğretim elemanlarını öğretim evlilerini listele araştırma evlilerini listele idari personel yönetim kadrosunu incele misyon ve vizyonu oku bölüm tarihçesini oku iletişime ulaş fotoğraf galerisini incele lisans programınu incele yatay geçiş koşullarını erasmus programı tüm duyuruları görüntüle akademik personel listesini",
+        "announcement_url": "https://snf.hacettepe.edu.tr"
     },
     {
         "entity_name": "Sosyal Hizmet Bölümü",
@@ -22048,7 +22077,7 @@
                 "url": "https://spordostu.hacettepe.edu.tr/tr/yonergeler_ve_politikalar-183"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": ".haber",
         "sub_branches": [],
         "url": "https://spordostu.hacettepe.edu.tr",
         "deep_crawl_files": 3,
@@ -22062,7 +22091,7 @@
     {
         "entity_name": "Sağlık, Kültür ve Spor Daire Başkanlığı",
         "category": "İdari Birim",
-        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir. yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks",
+        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir. yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks",
         "action_links": [
             {
                 "intent": "SKS Yönetmeliğini Oku",
@@ -22201,7 +22230,7 @@
                 "url": "https://sksdb.hacettepe.edu.tr/bidbnew/post.php?id=58519&title=hacettepe-universitesi-anaokullari-2026-2027-on-kayit-basvurulari-hk"
             }
         ],
-        "announcement_schema": null,
+        "announcement_schema": ".col-lg-9 p",
         "sub_branches": [
             "Satınalma Müdürlüğü",
             "Bütçe-Tahakkuk Müdürlüğü",
@@ -23470,7 +23499,7 @@
     {
         "entity_name": "Uluslararası Karst Su Kaynakları Uygulama ve Araştırma Merkezi (UKAM)",
         "category": "Araştırma Merkezi",
-        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
+        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [],
         "announcement_schema": ".icerik",
         "sub_branches": [],
@@ -25473,7 +25502,7 @@
     {
         "entity_name": "Bilgisayar Mühendisliği ve Yapay Zeka Mühendisliği Bölümü",
         "category": "Bölüm",
-        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır. ai staj ai staj ai staj ai staj ai staj ai staj",
+        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır. ai staj ai staj ai staj ai staj ai staj ai staj ai staj ai staj",
         "action_links": [
             {
                 "intent": "Lisans Ders Programı (CS/AI)",
@@ -26697,60 +26726,6 @@
         "priority_score": 30,
         "entity_type": "DİĞER",
         "search_text": "topluluklar öğrenci toplulukları tüm toplulukları listele etkinlik takvimini görüntüle topluluk başvurusu yap duyuruları takip et"
-    },
-    {
-        "entity_name": "Beytepe Ring (EGO 130)",
-        "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130",
-        "category": "CANLI ULAŞIM",
-        "search_alias": "",
-        "description": "Beytepe Kampüsü 130 nolu EGO otobüsü kalkış saatleri ve güzergahı: Metro, Nizamiye, Kongre Salonu, MYO, TÖMER, Öğrenci Evleri, Mühendislik, Hukuk.",
-        "search_text": " beytepe ring (ego 130) metro istasyonu nizamiye öğrenci evleri mühendislik hukuk fak. metro istasyonu (10620) nizamiye (14694) öğrenci evleri (10566) mühendislik (13140) hukuk fak. (13139)",
-        "priority_score": 30,
-        "is_ring": true,
-        "action_links": [
-            {
-                "intent": "Metro İstasyonu",
-                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
-            },
-            {
-                "intent": "Nizamiye",
-                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
-            },
-            {
-                "intent": "Öğrenci Evleri",
-                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
-            },
-            {
-                "intent": "Mühendislik",
-                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
-            },
-            {
-                "intent": "Hukuk Fak.",
-                "url": "https://ego.gov.tr/hareket-saatleri?hat_no=130"
-            },
-            {
-                "intent": "Metro İstasyonu (10620)",
-                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10620';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
-            },
-            {
-                "intent": "Nizamiye (14694)",
-                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='14694';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
-            },
-            {
-                "intent": "Öğrenci Evleri (10566)",
-                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='10566';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
-            },
-            {
-                "intent": "Mühendislik (13140)",
-                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13140';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
-            },
-            {
-                "intent": "Hukuk Fak. (13139)",
-                "url": "javascript:(function(){var f=document.createElement('form');f.action='https://ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13139';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"
-            }
-        ],
-        "entity_type": "DİĞER",
-        "deep_crawl_pages": 0
     },
     {
         "entity_name": "Beytepe Ring (EGO 130)",
