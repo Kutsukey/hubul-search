@@ -4,7 +4,8 @@ import json
 import shutil
 import sys
 import io
-from urllib.parse import urlparse
+import re
+from urllib.parse import urlparse, urljoin
 import aiohttp
 from bs4 import BeautifulSoup
 from google import genai
@@ -20,104 +21,95 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master.json")
 BACKUP_JSON = os.path.join(BASE_DIR, "public", "outputs", "hybrid_master_backup.json")
 
-load_dotenv()
+env_path = os.path.join(BASE_DIR, ".env")
+if os.path.exists(env_path):
+    load_dotenv(env_path)
+else:
+    load_dotenv()
 
 async def fetch_html_and_extract_schema(session, client, model_name, entity, semaphore):
-    url = entity.get("url")
-    if not url:
-        return entity
+    base_url = entity.get("url", "").rstrip('/')
+    if not base_url: return entity
         
-    # Zaten daha önceden patchlenmişse atla
-    if entity.get("announcement_schema") and entity.get("announcement_schema") != "null":
+    if entity.get("announcement_schema") and entity.get("announcement_url"):
         return entity
         
     async with semaphore:
+        print(f"[*] İşleniyor: {base_url}", flush=True)
+        
+        # 1. Ana Sayfayı Çek ve Linkleri Bul
+        target_urls = [base_url]
         try:
-            # 1. Sadece ana sayfaya istek at
-            async with session.get(url, timeout=15, ssl=False) as response:
-                if response.status != 200:
-                    return entity
-                raw_content = await response.read()
-                html = raw_content.decode('utf-8', errors='ignore')
-                
-            # 2. HAM HTML'i ayrıştır ve ilk 10.000 karakteri al
-            soup = BeautifulSoup(html, "html.parser")
-            body = soup.body
-            if not body:
-                return entity
-                
-            raw_body = str(body)[:10000]
-            
-            # 3. LLM'e CSS seçiciyi sor
-            prompt = f"""Aşağıdaki üniversite sayfası HTML kodunda, duyuruların veya haberlerin listelendiği ana çerçevenin (container) CSS Seçicisini bul. (Örn: '.news-list', '#duyurular', '.manset-container'). YALNIZCA geçerli bir CSS seçici string'i döndür. Eğer bulamazsan 'null' yaz. Başka hiçbir kelime veya markdown kullanma.
+            async with session.get(base_url, timeout=12, ssl=False) as response:
+                if response.status == 200:
+                    html = await response.text()
+                    soup = BeautifulSoup(html, "html.parser")
+                    
+                    # Duyuru linklerini avla
+                    for a in soup.find_all('a', href=True):
+                        text = a.get_text(strip=True).lower()
+                        href = a['href']
+                        if any(kw in text for kw in ["duyuru", "haber", "announcement", "news"]):
+                            full_url = urljoin(base_url, href).rstrip('/')
+                            if urlparse(full_url).netloc == urlparse(base_url).netloc:
+                                if full_url not in target_urls:
+                                    target_urls.append(full_url)
+        except:
+            pass
 
-HTML:
-{raw_body}
-"""
-            
-            max_retries = 3
-            result = None
-            
-            for attempt in range(max_retries):
-                try:
-                    response = await asyncio.to_thread(
-                        client.models.generate_content,
-                        model=model_name,
-                        contents=prompt
-                    )
-                    if response and response.text:
-                        result = response.text.strip().strip("`").strip("'").strip('"')
-                        break
-                    else:
-                        raise Exception("Boş cevap döndü")
-                except Exception as api_err:
-                    err_msg = str(api_err).lower()
-                    print(f"[*] Deneme {attempt+1} Hatası ({url}): {api_err}")
-                    sys.stdout.flush()
-                    await asyncio.sleep(5 * (attempt + 1))
-            
-            if result and result.lower() != "null" and not " " in result and (result.startswith(".") or result.startswith("#")):
-                entity["announcement_schema"] = result
-                print(f"[+] Schema bulundu: {url} -> {result}")
-            else:
-                print(f"[-] Schema bulunamadı: {url} ({result})")
-            
-            sys.stdout.flush()
-            # Dakikada 15 istek sınırına (15 RPM) takılmamak için 5 saniye bekliyoruz
-            await asyncio.sleep(5)
+        # Statik fallback listesi
+        fallbacks = ["/duyurular", "/duyuru", "/haberler", "/haber"]
+        for fb in fallbacks:
+            u = base_url + fb
+            if u not in target_urls: target_urls.append(u)
+
+        # 2. Aday Sayfaları Tek Tek Kontrol Et (Max 4 deneme)
+        for target_url in target_urls[:5]:
+            try:
+                async with session.get(target_url, timeout=10, ssl=False) as response:
+                    if response.status != 200: continue
+                    html = await response.text()
                 
-        except Exception as e:
-            print(f"[!] İstek Hatası ({url}): {e}")
-            sys.stdout.flush()
-            
+                soup = BeautifulSoup(html, "html.parser")
+                content = str(soup.body)[:12000] if soup.body else html[:12000]
+                
+                prompt = f"Bu HTML'de duyuru listesinin CSS Seçicisini bul (örn: .news-list). Sadece seçiciyi yaz, yoksa 'null' yaz. HTML: {content}"
+                
+                response = await asyncio.to_thread(client.models.generate_content, model=model_name, contents=prompt)
+                if response and response.text:
+                    result = response.text.strip().strip("`").strip("'").strip('"')
+                    if result and result.lower() != "null" and not " " in result and (result.startswith(".") or result.startswith("#")):
+                        entity["announcement_schema"] = result
+                        entity["announcement_url"] = target_url
+                        print(f"[+] Schema bulundu ({target_url}): {result}", flush=True)
+                        return entity
+            except: continue
+                
+        print(f"[-] Başarısız: {base_url}", flush=True)
     return entity
 
 async def main():
-    print("[i] Patcher (Gemma-31b) başlatılıyor...")
-    sys.stdout.flush()
-    
+    print("[i] Akıllı Patcher başlatılıyor...", flush=True)
     api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        print("[!] Hata: GOOGLE_API_KEY bulunamadı.", flush=True)
+        return
+
     client = genai.Client(api_key=api_key)
     model_name = "gemma-4-31b-it" 
     
-    if not os.path.exists(MASTER_JSON):
-        print(f"[!] Hata: {MASTER_JSON} dosyası bulunamadı.")
-        return
-        
+    if not os.path.exists(MASTER_JSON): return
     with open(MASTER_JSON, "r", encoding="utf-8") as f:
         master_data = json.load(f)
         
-    print(f"[i] Toplam {len(master_data)} kayıt işlenecek.")
-    sys.stdout.flush()
+    null_items = [x for x in master_data if not x.get("announcement_schema") or x.get("announcement_schema") == "null"]
+    print(f"[i] Toplam {len(master_data)} kayıt. {len(null_items)} tanesi boş.", flush=True)
     
     if not os.path.exists(BACKUP_JSON):
         shutil.copy2(MASTER_JSON, BACKUP_JSON)
-        print(f"[i] Yedek alındı: {BACKUP_JSON}")
-        sys.stdout.flush()
     
-    # Eşzamanlılık 2
-    semaphore = asyncio.Semaphore(2)
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) HacettepePatcher/1.0"}
+    semaphore = asyncio.Semaphore(4) 
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     
     async with aiohttp.ClientSession(headers=headers) as session:
         tasks = [fetch_html_and_extract_schema(session, client, model_name, entity, semaphore) for entity in master_data]
@@ -126,8 +118,7 @@ async def main():
     with open(MASTER_JSON, "w", encoding="utf-8") as f:
         json.dump(updated_data, f, ensure_ascii=False, indent=4)
         
-    print(f"[+] İşlem tamamlandı! Schema yamaları {MASTER_JSON} üzerine başarıyla yazıldı.")
-    sys.stdout.flush()
+    print(f"[+] Bitti!", flush=True)
 
 if __name__ == "__main__":
     if os.name == 'nt':
