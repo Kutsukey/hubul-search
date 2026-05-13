@@ -530,7 +530,7 @@
 
         if (!cachedMaster) {
             await refreshData();
-            input.placeholder = "Ne arıyorsun? (Örn: staj, oidb)";
+            input.placeholder = "Ne arıyorsun? (Örn: oidb, erasmus)";
             if (!input.value.trim()) showFiller(false);
         } else {
             refreshData();
