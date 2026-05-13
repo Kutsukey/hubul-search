@@ -469,6 +469,29 @@
         return nextMins !== -1;
     }
 
+    function buildMasterFuse(data) {
+        fuseInstance = new Fuse(data, {
+            includeScore: true, threshold: 0.45, ignoreLocation: true, useExtendedSearch: true,
+            keys: [{ name: 'search_alias', weight: 5.0 }, { name: 'entity_name', weight: 3.0 }, { name: 'description', weight: 2.0 }, { name: 'search_text', weight: 1.0 }]
+        });
+    }
+
+    function buildAnnouncementsFuse(data) {
+        const flatAnnouncements = [];
+        data.forEach(group => {
+            (group.items || []).forEach(item => {
+                flatAnnouncements.push({
+                    title: item.title, link: item.link, source: item.source || group.entity, entity: group.entity,
+                    search_text: `${item.title} ${item.source || group.entity}`.toLowerCase()
+                });
+            });
+        });
+        fuseAnnouncements = new Fuse(flatAnnouncements, {
+            includeScore: true, includeMatches: true, threshold: 0.45, ignoreLocation: true, ignoreFieldNorm: true,
+            keys: [{ name: 'title', weight: 3.0 }, { name: 'source', weight: 1.5 }, { name: 'search_text', weight: 1.0 }]
+        });
+    }
+
     async function initData() {
         const input = document.getElementById('h-input');
         const cacheKey = 'hubul_master_data';
@@ -493,38 +516,42 @@
         async function refreshData() {
             try {
                 const lastFetch = localStorage.getItem(cacheTimeKey);
-
-                if (lastFetch && (now - parseInt(lastFetch)) < 1 * 60 * 60 * 1000) return;
-
                 const cacheBuster = '?v=' + now;
-                const [res, annRes] = await Promise.all([
-                    fetch(CONFIG.masterDataUrl + cacheBuster),
-                    fetch(CONFIG.announcementsUrl + cacheBuster)
-                ]);
+                
+                let fetchPromises = [];
+                let isMasterFetching = false;
 
-                if (res.ok && annRes.ok) {
-                    const newMaster = await res.json();
-                    const newAnn = await annRes.json();
-
-                    if (JSON.stringify(newMaster) !== cachedMaster) {
-                        masterData = newMaster;
-                        localStorage.setItem(cacheKey, JSON.stringify(newMaster));
-
-                        masterData.forEach(item => {
-                            if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
-                            const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
-                            const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
-                            item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""}`.toLowerCase();
-                        });
-                    }
-
-                    if (JSON.stringify(newAnn) !== cachedAnn) {
-                        currentAnnouncements = newAnn;
-                        localStorage.setItem(annCacheKey, JSON.stringify(newAnn));
-                    }
-
-                    localStorage.setItem(cacheTimeKey, now.toString());
+                if (!lastFetch || (now - parseInt(lastFetch)) > 2 * 60 * 60 * 1000) {
+                    fetchPromises.push(fetch(CONFIG.masterDataUrl + cacheBuster).then(res => res.json()));
+                    isMasterFetching = true;
+                } else {
+                    fetchPromises.push(Promise.resolve(null)); 
                 }
+
+                fetchPromises.push(fetch(CONFIG.announcementsUrl + cacheBuster).then(res => res.json()));
+
+                const [newMaster, newAnn] = await Promise.all(fetchPromises);
+
+                if (isMasterFetching && newMaster && JSON.stringify(newMaster) !== cachedMaster) {
+                    masterData = newMaster;
+                    localStorage.setItem(cacheKey, JSON.stringify(newMaster));
+                    localStorage.setItem(cacheTimeKey, now.toString());
+                    
+                    masterData.forEach(item => {
+                        if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
+                        const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
+                        const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
+                        item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""}`.toLowerCase();
+                    });
+                    buildMasterFuse(masterData);
+                }
+
+                if (newAnn && JSON.stringify(newAnn) !== cachedAnn) {
+                    currentAnnouncements = newAnn;
+                    localStorage.setItem(annCacheKey, JSON.stringify(newAnn));
+                    buildAnnouncementsFuse(newAnn); 
+                }
+
             } catch (e) { console.error("Veri güncellenemedi:", e); }
         }
 
@@ -536,24 +563,8 @@
             refreshData();
         }
 
-        const flatAnnouncements = [];
-        currentAnnouncements.forEach(group => {
-            (group.items || []).forEach(item => {
-                flatAnnouncements.push({
-                    title: item.title, link: item.link, source: item.source || group.entity, entity: group.entity,
-                    search_text: `${item.title} ${item.source || group.entity}`.toLowerCase()
-                });
-            });
-        });
-        fuseAnnouncements = new Fuse(flatAnnouncements, {
-            includeScore: true, includeMatches: true, threshold: 0.45, ignoreLocation: true, ignoreFieldNorm: true,
-            keys: [{ name: 'title', weight: 3.0 }, { name: 'source', weight: 1.5 }, { name: 'search_text', weight: 1.0 }]
-        });
-
-        fuseInstance = new Fuse(masterData, {
-            includeScore: true, threshold: 0.45, ignoreLocation: true, useExtendedSearch: true,
-            keys: [{ name: 'search_alias', weight: 5.0 }, { name: 'entity_name', weight: 3.0 }, { name: 'description', weight: 2.0 }, { name: 'search_text', weight: 1.0 }]
-        });
+        buildAnnouncementsFuse(currentAnnouncements);
+        buildMasterFuse(masterData);
     }
 
     function handleSearch(val) {
