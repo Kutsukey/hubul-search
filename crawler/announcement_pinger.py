@@ -11,40 +11,25 @@ from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
 def duyuru_gecerli_mi(tarih_metni, baslik, kaynak):
-    """
-    Tarih ayıklar ve geçerlilik kontrolü yapar.
-    Döner: (bool_gecerli, date_obj, reason)
-    """
-    if not tarih_metni:
-        return False, None, "no_text"
-        
+    if not tarih_metni: return False, None, "no_text"
     patterns = [
-        r'(\d{2}\.\d{2}\.\d{4})',
-        r'(\d{4}-\d{2}-\d{2})',
-        r'(\d{2}/\d{2}/\d{4})',
-        r'(\d{1,2}\s+(?:Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)\s+\d{4})'
+        r'(\d{2}\.\d{2}\.202[56])',
+        r'(202[56]-\d{2}-\d{2})',
+        r'(\d{2}/(\d{2}/202[56]))',
+        r'(\d{1,2}\s+(?:Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)\s+202[56])'
     ]
-    
     match = None
     for p in patterns:
         match = re.search(p, str(tarih_metni), re.IGNORECASE)
-        if match:
-            break
-            
-    if not match:
-        return False, None, "date_not_found"
-        
+        if match: break
+    if not match: return False, None, "date_not_found"
     tarih_str = match.group(1)
     ann_date = None
-    
-    # 1. Standart formatlar
     for fmt in ("%d.%m.%Y", "%Y-%m-%d", "%d/%m/%Y"):
         try:
             ann_date = datetime.strptime(tarih_str, fmt)
             break
         except: continue
-            
-    # 2. Türkçe ay isimleri
     if not ann_date:
         tr_months = {"Ocak": "1", "Şubat": "2", "Mart": "3", "Nisan": "4", "Mayıs": "5", "Haziran": "6",
                      "Temmuz": "7", "Ağustos": "8", "Eylül": "9", "Ekim": "10", "Kasım": "11", "Aralık": "12"}
@@ -56,238 +41,215 @@ def duyuru_gecerli_mi(tarih_metni, baslik, kaynak):
                     ann_date = datetime(int(parts[2]), int(parts[1]), int(parts[0]))
                     break
                 except: continue
-                        
-    if not ann_date:
-        return False, None, "parse_error"
-        
+    if not ann_date: return False, None, "parse_error"
     now = datetime.now() 
-    # 2025 ve sonrası duyuruları kabul et (Mayıs 2026'dayız, 2025 makul bir sınır)
-    if ann_date.year < 2025:
-        return False, ann_date, "too_old_year"
-    if ann_date > now:
-        return False, ann_date, "future_date"
-        
-    title_lower = baslik.lower()
-    source_lower = kaynak.lower()
-    idari_birimler = ["öğrenci işleri", "oidb", "sağlık kültür", "sks", "rektörlük"]
-    hayati_kelimeler = ["sınav", "takvim", "başvuru", "program", "kayıt", "muafiyet"]
-    
-    is_idari = any(birim in source_lower for birim in idari_birimler)
-    is_hayati = any(kelime in title_lower for kelime in hayati_kelimeler)
-
-    max_age_days = 90 if (is_idari and is_hayati) else 30
-    age_days = (now - ann_date).days
-    
-    if age_days > max_age_days:
-        return False, ann_date, "ttl_expired"
-        
+    if ann_date.year < 2025: return False, ann_date, "too_old"
+    if ann_date > now and (ann_date - now).days > 60: return False, ann_date, "future"
     return True, ann_date, "valid"
 
-# Windows Console UTF-8 Fix
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-# Proje kök dizinini sys.path'e ekleyelim
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if ROOT_DIR not in sys.path:
-    sys.path.append(ROOT_DIR)
-
-# Proje kök dizinini bul
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Config'e falan güvenme, yolu direkt jilet gibi kendin çak:
 MASTER_JSON = os.path.join(ROOT_DIR, "public", "outputs", "hybrid_master.json")
 OUTPUT_PINGER = os.path.join(ROOT_DIR, "public", "outputs", "announcements_live.json")
 
-# Hacettepe sitelerinde en sık kullanılan duyuru seçicileri
-FALLBACK_SCHEMAS = [
-    ".duyurular_liste", ".duyurular", "#duyurular", ".duyuru",
-    ".icerik_yazi", ".duyuru-liste", ".manset-container", ".news-list",
-    "#manset", ".announcements", ".news", "article", ".content", "#content",
-    "main", ".main", ".container", "#main", ".page-content", ".entry-content"
+FALLBACK_SCHEMAS = [".duyurular_liste", ".duyurular", "#duyurular", ".duyuru", ".icerik_yazi", ".duyuru-liste", ".news-list", "article", ".content", "#content"]
+
+FAKE_KEYWORDS = [
+    "tiklayiniz", "detay", "devami", "daha fazla", "see all", "view all", "arsiv",
+    "ileri", "geri", "hepsini goster", "tikla", "tumunu gor", "tumu", "tiklayin", 
+    "detaylar", "sonraki", "onceki", "ana sayfa", "anasayfa", "iletisim", 
+    "hakkimizda", "giris", "duyurular", "haberler", "contact", "home", "about", 
+    "news", "announcements", "search", "login", "logout", "menu", "kapat", "ust", "basa don"
 ]
 
-async def fetch_announcement_detail(session, url, semaphore):
-    """
-    Duyuru linkine gider ve trafilatura ile temiz metin çeker.
-    """
+# 🚫 BLACKLIST: Duyuru çekilmesi istenmeyen alakasız yerler
+BLACKLIST_DOMAINS = [
+    "ego.gov.tr",
+    "google.com",
+    "facebook.com",
+    "twitter.com",
+    "instagram.com"
+]
+
+def normalize_text(text):
+    if not text: return ""
+    tr_map = str.maketrans("çğıöşüİĞIÖŞÜ", "cgiosuIGIOSU")
+    text = str(text).translate(tr_map)
+    text = re.sub(r'[^\w\s]', '', text)
+    return re.sub(r'\s+', ' ', text).strip().lower()
+
+async def fetch_announcement_detail_and_date(session, url, semaphore, title, entity_name):
     async with semaphore:
         try:
-            async with session.get(url, timeout=10, ssl=False) as response:
+            async with session.get(url, timeout=20, ssl=False) as response:
                 if response.status == 200:
                     html = await response.text()
-                    # Sadece ana içeriği süzerek al
-                    temiz_metin = trafilatura.extract(html, include_links=False, include_images=False, include_formatting=False)
-                    if temiz_metin:
-                        # Gereksiz boşlukları temizle ve ilk 200 karakteri al (veya tamamını)
-                        return re.sub(r'\s+', ' ', temiz_metin).strip()
-        except:
-            pass
-    return None
+                    soup = BeautifulSoup(html, "html.parser")
+                    text = soup.get_text(" ", strip=True)
+                    valid, d_obj, _ = duyuru_gecerli_mi(text, title, entity_name)
+                    content_tags = soup.select('.icerik, .icerik_yazi, .content, #content, article')
+                    temiz_metin = ""
+                    if content_tags:
+                        best_tag = max(content_tags, key=lambda t: len(t.get_text(strip=True)))
+                        temiz_metin = best_tag.get_text(" ", strip=True)
+                    if len(temiz_metin) < 50:
+                        temiz_metin = trafilatura.extract(html, include_links=False) or ""
+                    return re.sub(r'\s+', ' ', temiz_metin).strip(), d_obj
+        except: pass
+    return None, None
 
 async def fetch_announcements(session, entity, semaphore, detail_semaphore):
-    url = entity.get("url")
-    target_schema = entity.get("announcement_schema")
-    schemas_to_try = [target_schema] if target_schema and target_schema != "null" else FALLBACK_SCHEMAS
-    
-    # Aynı birim içinde mükerrer linkleri engellemek için
-    seen_links = set()
-    
+    url = entity.get("announcement_url") or entity.get("url")
+    entity_name = entity.get("entity_name")
+    schemas = [entity.get("announcement_schema")] if entity.get("announcement_schema") else FALLBACK_SCHEMAS
     async with semaphore:
         try:
-            async with session.get(url, timeout=15, ssl=False) as response:
-                if response.status != 200:
-                    return None
-                html = await response.text()
-                soup = BeautifulSoup(html, "html.parser")
-                
-                announcements = []
-                for schema in schemas_to_try:
-                    if not schema: continue
+            async with session.get(url, timeout=30, ssl=False) as response:
+                if response.status != 200: return None
+                soup = BeautifulSoup(await response.text(), "html.parser")
+                results = []
+                # KÜTÜPHANE ÖZEL (Jilet Modu)
+                if "library.hacettepe.edu.tr" in url:
+                    # Kütüphane sitesindeki o temiz başlıkları tutan ana elemanlar
+                    anchors = soup.find_all('a', attrs={"data-toggle": "collapse"})
+                    for a_tag in anchors:
+                        title_raw = a_tag.get_text(strip=True)
+                        if ">>" in title_raw:
+                            title = title_raw.split(">>")[-1].strip()
+                            target_id = a_tag.get('href', '').replace('#', '')
+                            body = soup.find(id=target_id)
+                            if body and title:
+                                link_elem = body.find('a', href=True)
+                                if link_elem:
+                                    # Tarih bul
+                                    is_v, d_obj, _ = duyuru_gecerli_mi(title_raw, title, entity_name)
+                                    results.append({
+                                        "title": title,
+                                        "link": urljoin(url, link_elem['href']),
+                                        "date": d_obj.strftime("%d.%m.%Y %H:%M") if is_v else datetime.now().strftime("%d.%m.%Y %H:%M"),
+                                        "source": entity_name,
+                                        "entity": entity_name,
+                                        "description": body.get_text(" ", strip=True)[:300]
+                                    })
+                    if results:
+                        results.sort(key=lambda x: datetime.strptime(x["date"], "%d.%m.%Y %H:%M"), reverse=True)
+                        return {"entity": entity_name, "url": url, "last_updated": datetime.now().isoformat(), "items": results[:5]}
+
+                for schema in schemas:
+                    if not schema or schema == "null": continue
                     containers = soup.select(schema)
                     for container in containers:
-                        links = container.find_all("a", href=True)
-                        valid_count = 0
-                        for a in links:
-                            if valid_count >= 5: break
-                                
+                        for a in container.find_all("a", href=True):
+                            if len(results) >= 5: break
                             title = a.get_text(strip=True)
-                            norm_title = re.sub(r'\s+', ' ', title).strip().lower().replace('ı', 'i').replace('i̇', 'i')
-                            
-                            exact_fakes = [
-                                "tıklayınız", "detay", "devamı", "daha fazla", "see all", "view all", "arşiv", "arsiv",
-                                "ileri", "geri", "hepsini göster", "tıkla", "tümünü gör", "tümü", "tıklayın", "tıklayınız...", "detaylar",
-                                "ana sayfa", "anasayfa", "iletişim", "hakkımızda", "hakkimizda", "giriş", "giris",
-                                "duyurular", "haberler", "yukarı", "aşağı", "asagi", "contact", "home", "about",
-                                "news", "announcements", "main page", "türkçe", "english", "tr", "en",
-                                "yukari", "site map", "site haritası", "arama", "search", "login", "logout",
-                                "menü", "menu", "kapat", "close", "üst", "üste", "başa dön", "basa don"
-                            ]
-                            contains_fakes = [
-                                "tüm duyurular", "tüm haberler", "diğer duyurular", "duyuru arşivi",
-                                "ana sayfa", "iletişim", "hakkımızda", "giriş", "duyurular", "haberler",
-                                "site haritası", "contact", "home", "about", "news", "announcements",
-                                "search", "login", "logout", "yukarı çık", "başa dön", "tümünü oku",
-                                "detaylı bilgi", "daha detaylı", "yönetim", "akademik", "öğrenci", "personel"
-                            ]
-                            
-                            is_fake = False
-                            if any(fake == norm_title for fake in exact_fakes): is_fake = True
-                            elif any(fake in norm_title for fake in contains_fakes): is_fake = True
-                            elif title.startswith("http") or len(title) < 5: is_fake = True
-                            
-                            # Navigasyon linklerini (ana sayfa, iletişim, menü vb.) filtrele
-                            if not is_fake:
-                                href = a["href"]
-                                href_full = urljoin(url, href)
-                                href_path = urlparse(href_full).path.lower()
-                                href_last = href_path.strip('/').split('/')[-1] if href_path.strip('/') else ''
-                                nav_pages = {
-                                    'index.html', 'index.php', 'index.htm', 'default.aspx', 'default.html',
-                                    'tr', 'en', 'tr/', 'en/',
-                                    'iletisim', 'iletisim.html', 'iletisim.php',
-                                    'hakkimizda', 'hakkimizda.html', 'hakkimizda.php', 'hakkımızda',
-                                    'duyurular', 'duyurular.html', 'duyurular.php', 'duyurular/',
-                                    'haberler', 'haberler.html', 'haberler.php',
-                                    'giris', 'giris.html', 'giris.php',
-                                    'contact', 'contact.html', 'home', 'home.html',
-                                    'about', 'about.html', 'news', 'news.html',
-                                    'announcements', 'announcements.html', 'main', 'main.html',
-                                    'galeri', 'fotograflar', 'videolar',
-                                    'bolum', 'bolumler', 'programlar', 'kadro',
-                                    'personel', 'ogrenci', 'ogrenciler',
-                                    'akademik', 'yonetim', 'kurumsal', 'tarihce',
-                                    'misyon', 'vizyon', 'sss', 'faq',
-                                    'arama', 'search', 'login', 'logout',
-                                    'kayit', 'kayit.html', 'kayit.php', 'kayıt', 'kayıt.html'
-                                }
-                                if href.startswith('#') or not href_last or href_last in nav_pages:
-                                    is_fake = True
-                                else:
-                                    href = href_full
-                            
-                            if not is_fake:
-                                # Tarih bulma mantığı - Parent Climb
+                            norm = normalize_text(title)
+                            # AGRESİF FİLTRE
+                            if any(fake in norm for fake in FAKE_KEYWORDS) or len(title) < 5 or title.startswith("http"):
+                                # Başlık Kurtarma (Parent)
                                 curr = a
-                                tarih_alani = None
-                                for _ in range(3):
+                                found_better = False
+                                for _ in range(4):
                                     curr = curr.parent
                                     if not curr: break
-                                    tarih_alani = curr.find(class_=re.compile(r'tarih|date|duyuru_tarih|updated|published', re.I)) or \
-                                                  curr.find(['code', 'small', 'time', 'span'], class_=re.compile(r'date|tarih', re.I)) or \
-                                                  curr.find(['code', 'small', 'time'])
-                                    if tarih_alani: break
+                                    t_elem = curr.find(['h1','h2','h3','h4','h5','h6','strong','b'])
+                                    if t_elem:
+                                        t_text = t_elem.get_text(strip=True)
+                                        t_norm = normalize_text(t_text)
+                                        if len(t_text) > 10 and not any(f in t_norm for f in FAKE_KEYWORDS):
+                                            title, norm, found_better = t_text, t_norm, True
+                                            break
+                                if not found_better:
+                                    # Kütüphane ve Akordeon Tipi Yapılar: Linkin ebeveyni bir panel gövdesiyse kardeş başlığı bul
+                                    body = a.find_parent(id=re.compile(r'^detay|^collapse|^panel', re.I))
+                                    if body and body.get('id'):
+                                        header_a = soup.find('a', href=re.compile(f"#{body['id']}$"))
+                                        if header_a:
+                                            t_text = header_a.get_text(strip=True).split('>>')[-1].strip()
+                                            if len(t_text) > 8:
+                                                title, norm, found_better = t_text, normalize_text(t_text), True
                                 
-                                if tarih_alani:
-                                    tarih_metni = tarih_alani.get_text(" ", strip=True)
-                                else:
-                                    # Parent metni çok gürültülü oluyor; sadece başlıkta tarih ara
-                                    tarih_metni = title
+                                if not found_better:
+                                    # Normal hiyerarşide yukarı tırman
+                                    curr = a
+                                    for _ in range(5):
+                                        curr = curr.parent
+                                        if not curr: break
+                                        header = curr.find(['h1','h2','h3','h4','h5','h6'], class_=re.compile(r'title|heading|header|toggle', re.I)) or \
+                                                 curr.find(class_=re.compile(r'panel-title|accordion-header|card-header|heading', re.I))
+                                        if header:
+                                            t_text = header.get_text(strip=True).split('>>')[-1].strip()
+                                            if len(t_text) > 10 and not any(f in normalize_text(t_text) for f in FAKE_KEYWORDS):
+                                                title, norm, found_better = t_text, normalize_text(t_text), True
+                                                break
                                 
-                                kaynak = entity.get("entity_name", "")
-                                is_valid, ann_date, reason = duyuru_gecerli_mi(tarih_metni, title, kaynak)
+                                if not found_better:
+                                    parent_text = a.parent.get_text(" ", strip=True)
+                                    if ">>" in parent_text: parent_text = parent_text.split(">>")[-1].strip()
+                                    if len(parent_text) > 150: parent_text = parent_text[:100].split('.')[0] + "..."
+                                    p_norm = normalize_text(parent_text)
+                                    if 15 < len(parent_text) < 200 and p_norm not in FAKE_KEYWORDS:
+                                        title, norm, found_better = parent_text, p_norm, True
                                 
-                                # Tarih bulunamazsa risk alıp kabul et
-                                if not is_valid and reason == "date_not_found":
-                                    is_valid = True
-                                    tarih_metni = "Tarih Belirtilmemiş"
-                                
-                                if is_valid:
-                                    if href not in seen_links:
-                                        announcements.append({
-                                            "title": title,
-                                            "link": href,
-                                            "date": tarih_metni,
-                                            "source": kaynak,
-                                            "entity": entity.get("entity_name")
-                                        })
-                                        seen_links.add(href)
-                                        valid_count += 1
-                        if announcements: break
-                    if announcements: break
-                
-                # Duyuru içeriklerini trafilatura ile temizle (Opsiyonel: Hız için paralel)
-                if announcements:
-                    detail_tasks = [fetch_announcement_detail(session, ann["link"], detail_semaphore) for ann in announcements]
-                    details = await asyncio.gather(*detail_tasks)
-                    for i, detail in enumerate(details):
-                        if detail:
-                            # Eğer başlık çok kısaysa veya "tıklayınız" gibi bir şeyse, trafilatura'dan gelen ilk cümleyi kullanabiliriz
-                            # Ama şimdilik sadece 'description' olarak ekleyelim
-                            announcements[i]["description"] = detail[:500] # İlk 500 karakter yeterli
-                
-                if announcements:
-                    return {
-                        "entity": entity.get("entity_name"),
-                        "url": url,
-                        "last_updated": datetime.now().isoformat(),
-                        "items": announcements
-                    }
-        except Exception:
-            pass
+                                if not found_better: continue
+
+                            # 🛡️ SON SÜZGEÇ: Çöp fragmanları temizle
+                            trash_exact = ["konusmacilar", "buradan", "erisebilirsiniz", "tiklayin", "kayit", "detaylar", "sunum", "video", "erisim adresi", "erisim", "adresi", "tiklayiniz", "kayit linki"]
+                            if norm in trash_exact or len(title) < 8 or any(f == norm for f in FAKE_KEYWORDS):
+                                continue
+
+                            # Aynı birim içinde aynı başlığı 2. kez ekleme
+                            if any(normalize_text(r["title"]) == norm for r in results): continue
+
+                            href_raw = a["href"]
+                            href_clean = re.sub(r'<[^>]+>', '', str(href_raw)).strip()
+                            href = urljoin(url, href_clean)
+                            if href_clean.startswith('#'): continue
+                            
+                            if any(normalize_text(r["title"]) == norm for r in results): continue
+                            
+                            date_obj = None
+                            parent = a.parent
+                            for _ in range(5):
+                                if not parent: break
+                                is_v, d_obj, _ = duyuru_gecerli_mi(parent.get_text(" ", strip=True), title, entity_name)
+                                if is_v: date_obj = d_obj; break
+                                parent = parent.parent
+                            
+                            detail_text = ""
+                            if not date_obj and not href.lower().endswith('.pdf'):
+                                detail_text, date_obj = await fetch_announcement_detail_and_date(session, href, detail_semaphore, title, entity_name)
+                            elif not href.lower().endswith('.pdf'):
+                                detail_text, _ = await fetch_announcement_detail_and_date(session, href, detail_semaphore, title, entity_name)
+                            
+                            if not date_obj: continue # TARİH YOKSA ŞUTLA
+                            results.append({"title": title.strip(), "link": href, "date": date_obj.strftime("%d.%m.%Y %H:%M"), "source": entity_name, "entity": entity_name, "description": detail_text[:500] if detail_text else None})
+                    if results: break
+                if results:
+                    results.sort(key=lambda x: datetime.strptime(x["date"], "%d.%m.%Y %H:%M"), reverse=True)
+                    return {"entity": entity_name, "url": url, "last_updated": datetime.now().isoformat(), "items": results}
+        except: pass
     return None
 
 async def main():
     print("[i] Duyuru Çekici başlatılıyor...")
-    if not os.path.exists(MASTER_JSON):
-        print(f"[!] Hata: {MASTER_JSON} bulunamadı.")
-        return
-    with open(MASTER_JSON, "r", encoding="utf-8") as f:
-        master_data = json.load(f)
+    with open(MASTER_JSON, "r", encoding="utf-8") as f: master_data = json.load(f)
     targets = [e for e in master_data if e.get("url")]
-    print(f"[i] Toplam {len(targets)} birim taranacak.")
-    semaphore = asyncio.Semaphore(50)
-    detail_semaphore = asyncio.Semaphore(15) # Global semaphore: Toplamda en fazla 15 paralel detay çekimi
     
+    # Blacklist filtresi uygula
+    targets = [
+        e for e in targets 
+        if not any(black in e.get("url", "").lower() for black in BLACKLIST_DOMAINS)
+    ]
+    
+    sem, d_sem = asyncio.Semaphore(50), asyncio.Semaphore(15)
     async with aiohttp.ClientSession(headers={"User-Agent": "HacettepeSniper/1.0"}) as session:
-        tasks = [fetch_announcements(session, entity, semaphore, detail_semaphore) for entity in targets]
-        results = await asyncio.gather(*tasks)
-    live_data = [r for r in results if r]
-    with open(OUTPUT_PINGER, "w", encoding="utf-8") as f:
-        json.dump(live_data, f, ensure_ascii=False, indent=4)
-    print(f"[+] Tarama tamamlandı! {len(live_data)} birimden duyuru çekildi.")
-    print(f"[+] Sonuçlar: {OUTPUT_PINGER}")
+        results = await asyncio.gather(*[fetch_announcements(session, e, sem, d_sem) for e in targets])
+    live = [r for r in results if r]
+    with open(OUTPUT_PINGER, "w", encoding="utf-8") as f: json.dump(live, f, ensure_ascii=False, indent=4)
+    print(f"[+] Tamamlandı! {len(live)} birim.")
 
 if __name__ == "__main__":
-    if os.name == 'nt':
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    if os.name == 'nt': asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
