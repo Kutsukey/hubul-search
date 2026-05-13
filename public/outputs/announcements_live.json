@@ -2,11 +2,11 @@
     {
         "entity": "Adli Bilişim Araştırma ve Uygulama Merkezi",
         "url": "https://adlibilisim.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:07.660653",
+        "last_updated": "2026-05-13T10:37:59.382379",
         "items": [
             {
                 "title": "Hukuk ve Teknoloji Buluşmaları #1 - Adli Bilişim ve Dijital Deliller",
-                "link": "https://adlibilisim.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrhukuk-76",
+                "link": "https://adlibilisim.hacettepe.edu.tr/tr/hukuk_ve_teknoloji_bulusmalari-76",
                 "date": "11.05.2026 17:00",
                 "source": "Adli Bilişim Araştırma ve Uygulama Merkezi",
                 "entity": "Adli Bilişim Araştırma ve Uygulama Merkezi",
@@ -17,7 +17,7 @@
     {
         "entity": "Ankara Devlet Konservatuvarı",
         "url": "https://adk.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.491038",
+        "last_updated": "2026-05-13T10:38:18.831530",
         "items": [
             {
                 "title": "► Opera Anasanat Dalı öğrencimiz Azra ORÇAN Letonya Yolcusu",
@@ -39,7 +39,7 @@
     {
         "entity": "Ağaçişleri Endüstri Mühendisliği Bölümü",
         "url": "https://aem.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.675474",
+        "last_updated": "2026-05-13T10:38:13.833946",
         "items": [
             {
                 "title": "2025-2026 Bahar Dönemi Lisansüstü Final Programı",
@@ -67,7 +67,7 @@
     {
         "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
         "url": "https://adea.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.871453",
+        "last_updated": "2026-05-13T10:38:13.833896",
         "items": [
             {
                 "title": "2025-2026 Bahar Dönemi ALE Lisans Sınav Programı güncellenmiştir",
@@ -81,7 +81,7 @@
     {
         "entity": "European Union Office",
         "url": "https://abofisi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.052997",
+        "last_updated": "2026-05-13T10:38:10.832321",
         "items": [
             {
                 "title": "9-10 MAYIS 2026 TARİHLERİNDE DORTMUND TÜRK EĞİTİM MERKEZİ’NDE TÜRK ÜNİVERSİTELERİ TANITIM GÜNLERİ GERÇEKLEŞTİRİLECEKTİR",
@@ -103,7 +103,7 @@
     {
         "entity": "Alman Dili ve Edebiyatı Bölümü",
         "url": "https://ade.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:09.335408",
+        "last_updated": "2026-05-13T10:38:09.528486",
         "items": [
             {
                 "title": "Türk Dili Dersleri Ara Sınav Mazereti",
@@ -118,15 +118,8 @@
     {
         "entity": "Amerikan Kültürü ve Edebiyatı Bölümü",
         "url": "https://ake.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.765179",
+        "last_updated": "2026-05-13T10:38:18.831464",
         "items": [
-            {
-                "title": "Bölümümüzü ziyaret eden Szczecin Üniveristesi, Dr. Renata Novaczewska, 12 Mayıs 2026, Salı günü, saat 13:30-14:30 arasında Edebiyat Fakültesi, Prof. Tuğrul İnal Salonunda bir konuşma verecektir.",
-                "link": "https://fs.hacettepe.edu.tr/ake/renataposter.JPG",
-                "date": "11.05.2026 07:00",
-                "source": "Amerikan Kültürü ve Edebiyatı Bölümü",
-                "entity": "Amerikan Kültürü ve Edebiyatı Bölümü"
-            },
             {
                 "title": "BEB650DersiGenel/Bahar Ek/Bütünleme Sınav Tarihleri",
                 "link": "https://ake.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrakere-866",
@@ -160,9 +153,31 @@
         ]
     },
     {
+        "entity": "Department of Architecture",
+        "url": "https://architecture.hacettepe.edu.tr",
+        "last_updated": "2026-05-13T10:38:13.833836",
+        "items": [
+            {
+                "title": "Current exam schedule ❗",
+                "link": "https://fs.hacettepe.edu.tr/architec/dosyalar/ARC01_Schedule_Exam%20(2).pdf",
+                "date": "13.05.2026 11:00",
+                "source": "Department of Architecture",
+                "entity": "Department of Architecture"
+            },
+            {
+                "title": "Ethics from Farm to Table Seminar",
+                "link": "https://architecture.hacettepe.edu.tr/en/ethics_from_farm_to_table_semi-116",
+                "date": "12.05.2026 21:00",
+                "source": "Department of Architecture",
+                "entity": "Department of Architecture",
+                "description": "The \"From Soil to Table: Ethics Seminar,\" organized in collaboration between Hacettepe University's Soil Ethics Application and Research Center and the Agricultural and Food Ethics Association, will be held on Friday, May 15, 2026, at the Mehmet Akif Ersoy Hall in Hacettepe University's Beytepe Campus. The seminar will address topics such as soil, agriculture, food security, sustainability, campus farming, traceability, child labor, and ecological responsibility within an ethical framework. The "
+            }
+        ]
+    },
+    {
         "entity": "Aile ve Tüketici Bilimleri Bölümü",
         "url": "https://atb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.775718",
+        "last_updated": "2026-05-13T10:38:22.525831",
         "items": [
             {
                 "title": "MEB1416 Bursları Hkk.",
@@ -176,7 +191,7 @@
     {
         "entity": "Aşı Enstitüsü",
         "url": "https://asienstitusu.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:13.203106",
+        "last_updated": "2026-05-13T10:38:13.588659",
         "items": [
             {
                 "title": "Aşı Enstitüsü Seminerleri 12 Mayıs 2026Doç. Dr. Melike Eğer Aydoğmuş\"Mükemmeliyetçilik ve Öz Şefkat\"",
@@ -215,7 +230,7 @@
     {
         "entity": "Bilimsel Araştırma Projeleri Koordinasyon Birimi",
         "url": "https://bap.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.943428",
+        "last_updated": "2026-05-13T10:38:18.831558",
         "items": [
             {
                 "title": "2026 yılı BAP Uygulama Esasları yayınlandı.",
@@ -227,83 +242,9 @@
         ]
     },
     {
-        "entity": "Bilgisayar ve Bilişim Bilimleri Fakültesi",
-        "url": "https://bbbf.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.165863",
-        "items": [
-            {
-                "title": "11 Mayıs 2026 Pazartesi günü 10.00-11.30 saatleri arasında Beytepe Yerleşkesi Mehmet Akif Ersoy Salonu’nda gerçekleştirilecek olan ve Fakültemiz öğretim elemanı Prof. Dr. Tunca Doğan’ın konuşmacı olarak katılacağı “Yapay Zekâ: Temel Kavramlar, Güncel Uygulamalar ve Bilimsel Araştırma Örnekleri Eğitimi” başlıklı seminere tüm Hacettepeliler davetlidir.Ayrıntılı bilgi için tıklayınız.",
-                "link": "https://etkinlikler.hacettepe.edu.tr/tr/yapay_zek%C3%A2_temel_kavramlar_gu-3232",
-                "date": "04.05.2026 11:00",
-                "source": "Bilgisayar ve Bilişim Bilimleri Fakültesi",
-                "entity": "Bilgisayar ve Bilişim Bilimleri Fakültesi",
-                "description": "Üniversitemiz akademik faaliyetleri kapsamında düzenlenecek olan seminerde, yapay zekâ teknolojilerinin kuramsal temelleri ve disiplinler arası uygulama alanları ele alınacaktır. Prof. Dr. Tunca Doğan tarafından gerçekleştirilecek olan seminer, 11 Mayıs 2026 tarihinde, 10.00 - 11.30 saatleri arasında Beytepe Kampüsü Mehmet Akif Ersoy Salonu’nda düzenlenecektir. Seminer içeriği; yapay zekânın tarihsel süreci ve temel terminolojisinin aktarımı ile başlayıp, bu teknolojinin günlük yaşam ve sağlık b"
-            }
-        ]
-    },
-    {
-        "entity": "Bilgi İşlem Daire Başkanlığı",
-        "url": "https://bidb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.445849",
-        "items": [
-            {
-                "title": "İŞKUR Gençlik Programı Noter Kurası Çekilişi",
-                "link": "https://bidb.hacettepe.edu.tr/dosyalar/iskur_kuracekimi_151025.pdf",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Bilgi İşlem Daire Başkanlığı",
-                "entity": "Bilgi İşlem Daire Başkanlığı"
-            },
-            {
-                "title": "2025-2026 Eğitim Öğretim Dönemi İŞKUR Gençlik Programı",
-                "link": "https://pdb.hacettepe.edu.tr/duyuru/iskur_131025.pdf",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Bilgi İşlem Daire Başkanlığı",
-                "entity": "Bilgi İşlem Daire Başkanlığı"
-            },
-            {
-                "title": "İŞKUR Gençlik Programı, İş Sağlığı ve Güvenliği Eğitimi",
-                "link": "https://bidb.hacettepe.edu.tr/tr/duy_iskur280225",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Bilgi İşlem Daire Başkanlığı",
-                "entity": "Bilgi İşlem Daire Başkanlığı",
-                "description": "İŞKUR Gençlik Programı, İş Sağlığı ve Güvenliği Eğitimi İŞKUR Gençlik Programı kapsamında programa katılmaya hak kazanan öğrencilerimizin 5 Mart 2025 günü saat 10.00-12.00 arası Üniversitemiz İş Sağlığı ve Güvenliği Koordinatörlüğü tarafından verilecek online eğitime katılmaları gerekmektedir."
-            },
-            {
-                "title": "İşkur Gençlik Programı",
-                "link": "https://bidb.hacettepe.edu.tr/dosyalar/iskurduyuru170225.pdf",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Bilgi İşlem Daire Başkanlığı",
-                "entity": "Bilgi İşlem Daire Başkanlığı"
-            },
-            {
-                "title": "VPN sistemi ile ilgili Bilgilendirme ve Bağlantı Kılavuzları",
-                "link": "https://bidb.hacettepe.edu.tr/tr/VPN",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Bilgi İşlem Daire Başkanlığı",
-                "entity": "Bilgi İşlem Daire Başkanlığı",
-                "description": "Sayın Kullanıcımız; VPN uygulamamızda değişiklik olmuştur. Yeni uygulamamıza tarayıcınızda https://vpn.hacettepe.edu.tr adresine Hacettepe E-posta kullanıcı adı ve şifrenizle giriş yaptıktan sonra İşletim Sistemi’nize göre uygun olan uygulamayı yükleyerek erişim sağlayabilirsiniz. Kurulum dökümanına buradan erişebilirsiniz. Herhangi bir sorun ile karşılaşmanız durumunda system@hacettepe.edu.tr adresine e-posta yolu ile bilgi vermeniz rica olunur."
-            }
-        ]
-    },
-    {
-        "entity": "Beytepe Anaokulu",
-        "url": "https://beytepeanaokulu.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:13.358762",
-        "items": [
-            {
-                "title": "Hacettepe Üniversitesi Anaokulları 2026-2027 Eğitim Yılı 'Ön Kayıt' başvuruları başlamıştır.",
-                "link": "https://beytepeanaokulu.hacettepe.edu.tr/tr/hacettepe_universitesi_anaokul-64",
-                "date": "04.05.2026 15:00",
-                "source": "Beytepe Anaokulu",
-                "entity": "Beytepe Anaokulu",
-                "description": "HACETTEPE ÜNİVERSİTESİ Beytepe Anaokulu TR EN Kalite Güvencesi Ana Sayfa Eğitim Felsefesi Eğitim Programı Anaokulu Yönergesi Personel Birimler Rehberlik ve Psikolojik Danışma Birimi Sağlık Birimi Çocuk Kütüphanesi Bilim ve Keşif Merkezi Spor Atölyesi Sanat Atölyesi Satranç Atölyesi Çocuk Gelişimi Takip Birimi Çocuk Yogası Yabancı Dil Atölyesi Robotik Kodlama - Maker Atölyesi Etkinlikler 2023-2024 Eğitim- Öğretim Yılı Mezuniyet Şenliği ve Diploma Törenimiz 23 Nisan Ulusal Egemenlik ve Çocuk Bayra"
-            }
-        ]
-    },
-    {
         "entity": "Bilgisayar Grafiği Anabilim Dalı",
         "url": "https://bil-grafik.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:14.073096",
+        "last_updated": "2026-05-13T10:38:14.022466",
         "items": [
             {
                 "title": "Tezsiz Program",
@@ -348,244 +289,9 @@
         ]
     },
     {
-        "entity": "Biyoloji Bölümü",
-        "url": "https://biology.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:15.430077",
-        "items": [
-            {
-                "title": "AİT kodlu derslerin 2025-2026 Bahar Dönemi Ek ders sınav programı için tıklayınız",
-                "link": "https://fs.hacettepe.edu.tr/biology/dosyalar/2025-2026%20bahar-ait-ek-sinav.pdf",
-                "date": "11.05.2026 20:00",
-                "source": "Biyoloji Bölümü",
-                "entity": "Biyoloji Bölümü"
-            },
-            {
-                "title": "TKD kodlu derslerin 2025-2026 Bahar Dönemi Ek ders ve sınırsız sınav programı için tıklayınız",
-                "link": "https://fs.hacettepe.edu.tr/biology/dosyalar/2025-2026%20bahar-tkd-ek-sinirsiz-sinav.pdf",
-                "date": "11.05.2026 20:00",
-                "source": "Biyoloji Bölümü",
-                "entity": "Biyoloji Bölümü"
-            }
-        ]
-    },
-    {
-        "entity": "Biyomühendislik Anabilim Dalı",
-        "url": "https://biyomuh.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:15.558548",
-        "items": [
-            {
-                "title": "Ebru ŞENEL'in tez çalışması için veri toplama isteği hakkında",
-                "link": "https://fs.hacettepe.edu.tr/biyomuh/dosyalar/Ebru%20%C5%9EENEL.pdf",
-                "date": "26.04.2026 14:00",
-                "source": "Biyomühendislik Anabilim Dalı",
-                "entity": "Biyomühendislik Anabilim Dalı"
-            },
-            {
-                "title": "Eğitim Duyurusu/ Yapay Zekâ: Temel Kavramlar, Güncel Uygulamalar ve Bilimsel Araştırma Örnekleri Eğitimi",
-                "link": "https://fs.hacettepe.edu.tr/biyomuh/dosyalar/Yapay%20Zeka%20E%C4%9Fitimi%20-%20Afi%C5%9F.jpeg.jpeg",
-                "date": "26.04.2026 13:00",
-                "source": "Biyomühendislik Anabilim Dalı",
-                "entity": "Biyomühendislik Anabilim Dalı"
-            },
-            {
-                "title": "DUFEBLAS-2026 Sempozyum Duyurusu",
-                "link": "https://fs.hacettepe.edu.tr/biyomuh/dosyalar/DUFEBLAS%202026.pdf",
-                "date": "26.04.2026 13:00",
-                "source": "Biyomühendislik Anabilim Dalı",
-                "entity": "Biyomühendislik Anabilim Dalı"
-            },
-            {
-                "title": "Gençlik ve İnanç Başlıklı Uluslararası Sempozyumu",
-                "link": "https://fs.hacettepe.edu.tr/biyomuh/dosyalar/Gen%C3%A7lik%20ve%20%C4%B0nan%C3%A7%20Ba%C5%9Fl%C4%B1kl%C4%B1%20Uluslararas%C4%B1%20Sempozyumu.pdf",
-                "date": "26.04.2026 13:00",
-                "source": "Biyomühendislik Anabilim Dalı",
-                "entity": "Biyomühendislik Anabilim Dalı"
-            }
-        ]
-    },
-    {
-        "entity": "Civil Engineering Department",
-        "url": "https://ce.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.347704",
-        "items": [
-            {
-                "title": "AİT Additional Exams (Exam Location Change)",
-                "link": "https://ce.hacettepe.edu.tr/en/ait_additional_exams_exam_loca-926",
-                "date": "08.05.2026 13:00",
-                "source": "Civil Engineering Department",
-                "entity": "Civil Engineering Department",
-                "description": "HÜRKOR TEKNOFEST Team Wins 15 Million TL Academic Incentive Within the scope of TEKNOFEST 2025, our university team HÜRKOR achieved second place in the Detailed Design Category of the Nuclear Energy Technologies Design Competition. HÜRKOR represents a multidisciplinary collaboration primarily involving Nuclear Energy and Civil Engineering and was the only university team competing in its category."
-            },
-            {
-                "title": "MAT124 Make-up Exam Announcement",
-                "link": "https://ce.hacettepe.edu.tr/en/mat124_makeup_exam_announcemen-924",
-                "date": "05.05.2026 10:00",
-                "source": "Civil Engineering Department",
-                "entity": "Civil Engineering Department",
-                "description": "HÜRKOR TEKNOFEST Team Wins 15 Million TL Academic Incentive Within the scope of TEKNOFEST 2025, our university team HÜRKOR achieved second place in the Detailed Design Category of the Nuclear Energy Technologies Design Competition. HÜRKOR represents a multidisciplinary collaboration primarily involving Nuclear Energy and Civil Engineering and was the only university team competing in its category."
-            },
-            {
-                "title": "TKD Additional and Unlimited Exam Schedule",
-                "link": "https://ce.hacettepe.edu.tr/en/tkd_additional_and_unlimited_e-920",
-                "date": "28.04.2026 12:00",
-                "source": "Civil Engineering Department",
-                "entity": "Civil Engineering Department",
-                "description": "Türk Dili derslerine ait ek sınav ve sınırsız sınav takvimi aşağıda verilmiştir. Sınavlar H.Ü. TÖMER dersliklerinde yapılacaktır. Ek sınav ve Sınırsız Sınav takvimi: TKD 103, TKD 105 ve TKD 107 sınavı Tarih: 9 Haziran 2026 Salı saat: 13.00-13.50 TKD 104 ve TKD 100 sınavı Tarih: 9 Haziran 2026 Salı saat: 14.00-14.50"
-            },
-            {
-                "title": "YLSY Scholarships Information Event",
-                "link": "https://fs.hacettepe.edu.tr/civile/dosyalar/2025-25%20BAHAR/YLYS%20afi%C5%9F.jpg",
-                "date": "28.04.2026 12:00",
-                "source": "Civil Engineering Department",
-                "entity": "Civil Engineering Department"
-            },
-            {
-                "title": "The Preliminary Evaluation Results of the 21th Student Project Exhibition of the Faculty of Engineering, Department of Civil Engineering",
-                "link": "https://ce.hacettepe.edu.tr/en/the_preliminary_evaluation_res-916",
-                "date": "24.04.2026 11:00",
-                "source": "Civil Engineering Department",
-                "entity": "Civil Engineering Department",
-                "description": "The information of the projects from our department, whose participation in the 21th Project Exhibition of the Faculty of Engineering has been decided as a result of the evaluations, is presented below. We congratulate all project teams participating in the preliminary evaluation and wish them success."
-            }
-        ]
-    },
-    {
-        "entity": "Çocuk Gelişimi Bölümü",
-        "url": "https://cge.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.180486",
-        "items": [
-            {
-                "title": "Türk Dili derslerine ait ek sınav ve sınırsız sınav bilgileri için tıklayınız.",
-                "link": "https://cge.hacettepe.edu.tr/tr/turk_dili_derslerine_ait_ek_si-772",
-                "date": "27.04.2026 15:00",
-                "source": "Çocuk Gelişimi Bölümü",
-                "entity": "Çocuk Gelişimi Bölümü",
-                "description": "Türk Dili derslerine ait ek sınav ve sınırsız sınav bilgileri için tıklayınız. Türk Dili derslerine ait ek sınav ve sınırsız sınavların, aşağıda belirtilen tarihlerde Beytepe TÖMER dersliklerinde yapılacağı bildirilmektedir. Ek Sınav ve Sınırsız Sınav Takvimi: - TKD 103, TKD 105 ve TKD 107 - Tarih: 9 Haziran 2026 Salı - Saat: 13.00 – 13.50 - TKD 104 ve TKD 100 - Tarih: 9 Haziran 2026 Salı - Saat: 14.00 – 14.50 Tüm öğrencilere önemle duyurulur."
-            }
-        ]
-    },
-    {
-        "entity": "Çocuk Gelişimi Uygulama ve Araştırma Merkezi",
-        "url": "https://cogaum.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:15.171451",
-        "items": [
-            {
-                "title": "Gelişimsel Erken Müdahale Sempozyumu için tıklayınız.",
-                "link": "https://cogaum.hacettepe.edu.tr/tr/gelisimsel_erken_mudahale_semp-44",
-                "date": "28.04.2026 12:00",
-                "source": "Çocuk Gelişimi Uygulama ve Araştırma Merkezi",
-                "entity": "Çocuk Gelişimi Uygulama ve Araştırma Merkezi",
-                "description": "Gelişimsel Erken Müdahale Sempozyumu kapsamında, 0–6 yaş döneminde gelişimsel riskleri olan küçük çocuklar ile ailelerinin ihtiyaçları açısından kritik öneme sahip olan gelişimsel erken müdahale yaklaşımının tanınması ve uygulamada yaygınlaştırılması hedeflenmektedir. Bu doğrultuda, katılımcıların bilgi düzeyini artırmaya yönelik kapsamlı ve bilgilendirici bir sempozyum programı planlanmıştır. Gelişimsel Erken Müdahale Sempozyumu 5 Mayıs 2026 tarihinde, 09.30–17.30 saatleri arasında Hacettepe Kü"
-            }
-        ]
-    },
-    {
-        "entity": "Kimya Mühendisliği Bölümü",
-        "url": "https://cheng.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.626387",
-        "items": [
-            {
-                "title": "Biyoçeşitlilik Günü Etkinlik Daveti",
-                "link": "https://fs.hacettepe.edu.tr/cheng/dosyalar/22%20MAYIS%20B%C4%B0YO%C3%87E%C5%9E%C4%B0TL%C4%B0L%C4%B0K%20G%C3%9CN%C3%9C%20AF%C4%B0%C5%9E%C4%B0.jpeg.jpeg",
-                "date": "12.05.2026 10:00",
-                "source": "Kimya Mühendisliği Bölümü",
-                "entity": "Kimya Mühendisliği Bölümü"
-            },
-            {
-                "title": "AİT Ek Sınavlar (Sınav Yeri Değişikliği)",
-                "link": "https://fs.hacettepe.edu.tr/cheng/dosyalar/060526%20A%C4%B0T%20Ek%20S%C4%B1navlar%20(S%C4%B1nav%20Yeri%20De%C4%9Fi%C5%9Fikli%C4%9Fi).pdf",
-                "date": "06.05.2026 15:00",
-                "source": "Kimya Mühendisliği Bölümü",
-                "entity": "Kimya Mühendisliği Bölümü"
-            },
-            {
-                "title": "04.05.2026 tarihinde güncellenen ara sınav takvimi için tıklayınız",
-                "link": "https://fs.hacettepe.edu.tr/cheng/dosyalar/Ara%20S%C4%B1nav%20Takvimi_040526.pdf",
-                "date": "04.05.2026 13:00",
-                "source": "Kimya Mühendisliği Bölümü",
-                "entity": "Kimya Mühendisliği Bölümü"
-            },
-            {
-                "title": "4. Öncelikli ve Yenilikçi Araştırmalar Çalıştayı Hakkında",
-                "link": "https://fs.hacettepe.edu.tr/cheng/dosyalar/040526%20%C3%A7al%C4%B1%C5%9Ftay.png",
-                "date": "04.05.2026 13:00",
-                "source": "Kimya Mühendisliği Bölümü",
-                "entity": "Kimya Mühendisliği Bölümü"
-            },
-            {
-                "title": "ASTROTIP Kongresi Duyurusu",
-                "link": "https://fs.hacettepe.edu.tr/cheng/dosyalar/040526%20astrot%C4%B1p.pdf",
-                "date": "04.05.2026 13:00",
-                "source": "Kimya Mühendisliği Bölümü",
-                "entity": "Kimya Mühendisliği Bölümü"
-            }
-        ]
-    },
-    {
-        "entity": "Kimya Bölümü",
-        "url": "https://chem.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.448966",
-        "items": [
-            {
-                "title": "KİM 330 Fizikokimya II dersinin I. ve II. Ara sınav mazeretleri Hk.",
-                "link": "https://chem.hacettepe.edu.tr/tr/kim_330_fizikokimya_ii_dersini-1048",
-                "date": "12.05.2026 11:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "KİM 330 Fizikokimya II dersinin I. Ara sınav mazereti 14 Mayıs Perşembe saat 13.30'da, II. Ara sınav mazereti 18 Mayıs Pazartesi günü saat 13.30 da E dersliğinde yapılacaktır"
-            },
-            {
-                "title": "Ek Sınav Programı/ AİT guncellendi",
-                "link": "https://chem.hacettepe.edu.tr/tr/ek_sinav_programi_ait_guncelle-1034",
-                "date": "08.05.2026 08:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "Azami öğrenim sürelerini dolduran ve ek sınav hakkı verilen öğrencilerin programlarına almış oldukları AİT kodlu derslerin, ek sınavları aşağıda belirtilen tarih saat ve yerde yapılacaktır. İlgili ek sınav öğrencilerimize duyurulur Dersin Kodu : Sınav Tarihi : Sınav Saati : Sınav Yeri : AİT103 01 Haziran 2026 15:00 Yıldız Amfi M9 Dersliği AİT104 01 Haziran 2026 16:00 Yıldız Amfi M9 Dersliği"
-            },
-            {
-                "title": "Telafi Sınavları",
-                "link": "https://chem.hacettepe.edu.tr/tr/telafi_sinavlari-1044",
-                "date": "06.05.2026 05:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "2025-2026 Eğitim/Öğretim Yılı Bahar Döneminde Bölümümüz öğrencilerinin (Bölüm ve servis dersleri) girmiş olduğu ara sınavlara ilişkin mazeretlerine istinaden alınan Fakülte Yönetim Kurulu Kararları doğrultusunda tespit edilen öğrencilerin listesi ekte gönderilmiştir. Ara sınavlara sadece listede ismi bulunan öğrencilerimiz alınacak olup, gerekli duyurular ders sorumluları tarafından öğrencilerimize bildirilecektir. İlgili öğrencilerimize duyurulur."
-            },
-            {
-                "title": "2026 Yaz Stajı Başvuruları belgelerinin imzalatılması",
-                "link": "https://chem.hacettepe.edu.tr/tr/2026_yaz_staji_basvurulari_bel-1046",
-                "date": "06.05.2026 05:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "2026 Yaz Döneminde Zorunlu ve Seçmeli Stajını yapacak öğrencilerimiz Staj Başvurusu için işyerine imzalatacakları EK3 Başvuru belgelerini doldurup Bölüm Öğrenci İşlerine teslim edeceklerdir. Bölüm Staj Koordinatörü Prof. Dr. Nurşen ALTUNTAŞ ÖZTAŞ tarafından her hafta salı ve perşembe günleri belgeler toplu olarak imzalanacak, öğrenciler imzalanan belgelerini işyerlerine imzalatmak için teslim alacaklardır. Bu günlerin (salı-cuma) haricinde Staj Koordinatörü tarafından bireysel belge imzalanmayac"
-            },
-            {
-                "title": "FİZ 114 Fizik II Dersi Telafi Sınavları",
-                "link": "https://chem.hacettepe.edu.tr/tr/fiz_114_fizik_ii_dersi_telafi_-1040",
-                "date": "29.04.2026 12:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "Fizik Mühendisliği tarafından Bölümümüz öğrencilerine verilmekte olan FİZ 114 Fizik II dersinin Telafi Sınavları 22 Mayıs 2026 Cuma günü saat 14:00' da Fizik Mühendisliği dersliklerinde yapılacaktır. Derslik bilgisi öğrencilere Fizik Mühendisliği Bölümü tarafından duyuru olarak veya hadi üzerinden paylaşılacaktır. İlgili öğrencilerimize duyurulur."
-            }
-        ]
-    },
-    {
-        "entity": "Tıp Fakültesi İç Hastalıkları Anabilim Dalı",
-        "url": "https://dahiliye.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:16.593010",
-        "items": [
-            {
-                "title": "tıklayınız...",
-                "link": "https://dahiliye.hacettepe.edu.tr/ekler/41.şerefzileli.jpg",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Tıp Fakültesi İç Hastalıkları Anabilim Dalı",
-                "entity": "Tıp Fakültesi İç Hastalıkları Anabilim Dalı"
-            }
-        ]
-    },
-    {
         "entity": "Dijital Dönüşüm ve Bilişim Koordinatörlüğü",
         "url": "https://digihu.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.182646",
+        "last_updated": "2026-05-13T10:38:21.856314",
         "items": [
             {
                 "title": "digiHÜ",
@@ -630,9 +336,24 @@
         ]
     },
     {
+        "entity": "Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü",
+        "url": "https://ctl.hacettepe.edu.tr",
+        "last_updated": "2026-05-13T10:38:22.188852",
+        "items": [
+            {
+                "title": "Kep, Cübbe ve Şallar Hakkında Bilgilendirme",
+                "link": "https://ctl.hacettepe.edu.tr/tr/kep_cubbe_ve_sallar_hakkinda_b-720",
+                "date": "13.05.2026 10:00",
+                "source": "Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü",
+                "entity": "Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü",
+                "description": "Üniversitemiz 2025-2026 eğitim-öğretim yılı mezuniyet törenlerine katılacak öğrencilerimizin törenlerde kullanmak üzere teslim almak istedikleri kep, cübbe ve şallar (takım halinde) için 1. Ücret Dekontu (ATM Bilgi Fişi kabul edilmemektedir.) eksiksiz bir şekilde doldurup bölüme teslim etmeleri gerekmektedir. Kep, Cübbe ve Şal Depozito Ücreti: 1500 TL Hesap Bilgileri Alıcı: HACETTEPE ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİ. BŞK IBAN : TR96 0001 2001 5410 0006 0001 07 Açıklama: T.C. - Ad Soyad- Cübb"
+            }
+        ]
+    },
+    {
         "entity": "Tıp Tarihi ve Etik Anabilim Dalı",
         "url": "https://deontoloji.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.307217",
+        "last_updated": "2026-05-13T10:38:19.130301",
         "items": [
             {
                 "title": "DÜNYA BİYOETİK GÜNÜ KUTLU OLSUN!!",
@@ -678,7 +399,7 @@
     {
         "entity": "İktisat Bölümü",
         "url": "https://econ.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.625035",
+        "last_updated": "2026-05-13T10:38:23.059499",
         "items": [
             {
                 "title": "2025-2026 Bahar Ek Sınavları Hakkında",
@@ -693,7 +414,7 @@
     {
         "entity": "Edebiyat Fakültesi",
         "url": "https://edebiyat.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.203857",
+        "last_updated": "2026-05-13T10:38:22.702054",
         "items": [
             {
                 "title": "Vefat Duyurusu: \r\nDr. Halil Uysal",
@@ -716,7 +437,7 @@
     {
         "entity": "Eğitim Fakültesi",
         "url": "https://egitim.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.122045",
+        "last_updated": "2026-05-13T10:38:22.310273",
         "items": [
             {
                 "title": "Eğitim Fakültesi, Temel Eğitim Bölümü, Sınıf Eğitimi Ana Bilim Dalı Dr. Öğr. Üyesi Burcu Akhun’un babası Fakültemiz Eğitim Bilimleri Bölümü emekli öğretim üyesi Prof. Dr. İsmail İlhan Akhun vefat etmiştir.",
@@ -731,7 +452,7 @@
     {
         "entity": "Engelli Öğrenci Birimi",
         "url": "https://eob.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.955386",
+        "last_updated": "2026-05-13T10:38:23.878619",
         "items": [
             {
                 "title": "Turuncu Bayrak Ödülleri",
@@ -762,7 +483,7 @@
     {
         "entity": "Etik Kurulu",
         "url": "https://etikkurul.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:19.543699",
+        "last_updated": "2026-05-13T10:38:23.543058",
         "items": [
             {
                 "title": "Kurul Üyeleri",
@@ -808,7 +529,7 @@
     {
         "entity": "Fizyoloji Ana Bilim Dalı",
         "url": "https://fizyoloji.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.961733",
+        "last_updated": "2026-05-13T10:38:23.241716",
         "items": [
             {
                 "title": "Fizyoloji Anabilim Dalı 2026 Yaz Stajı",
@@ -831,8 +552,15 @@
     {
         "entity": "Gıda Mühendisliği Bölümü",
         "url": "https://food.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.004467",
+        "last_updated": "2026-05-13T10:38:23.801784",
         "items": [
+            {
+                "title": "Bahar dönemi mazaret sınavları takvimi",
+                "link": "https://fs.hacettepe.edu.tr/food/sinav_programi/2025-26%20Bahar-mazeret.docx",
+                "date": "13.05.2026 07:00",
+                "source": "Gıda Mühendisliği Bölümü",
+                "entity": "Gıda Mühendisliği Bölümü"
+            },
             {
                 "title": "DR. ÖĞRETİM ÜYESİ ALIM İLANI",
                 "link": "https://fs.hacettepe.edu.tr/food/duyurular/kadro%20ilan/%C3%96%C4%9Fretim%20%C3%9Cyesi%20%C4%B0lan%C4%B1.pdf",
@@ -845,7 +573,7 @@
     {
         "entity": "Harita Mühendisliği Bölümü",
         "url": "https://geomatik.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.685858",
+        "last_updated": "2026-05-13T10:38:23.209487",
         "items": [
             {
                 "title": "Telafi sınavları hakkında",
@@ -860,11 +588,11 @@
     {
         "entity": "Güzel Sanatlar Enstitüsü",
         "url": "https://gse.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:17.655172",
+        "last_updated": "2026-05-13T10:38:23.625735",
         "items": [
             {
                 "title": "\"Eymir Doğal Kalsın\" Sergisi",
-                "link": "https://gse.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrgsedo-1882",
+                "link": "https://gse.hacettepe.edu.tr/tr/eymir_dogal_kalsin_sergisi-1882",
                 "date": "30.04.2026 10:00",
                 "source": "Güzel Sanatlar Enstitüsü",
                 "entity": "Güzel Sanatlar Enstitüsü",
@@ -875,7 +603,7 @@
     {
         "entity": "Afet Araştırma ve Uygulama Merkezi (HAMER)",
         "url": "https://hamer.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.340775",
+        "last_updated": "2026-05-13T10:38:29.933316",
         "items": [
             {
                 "title": "Kısa Bilgi  Notu",
@@ -917,7 +645,7 @@
     {
         "entity": "Tıp Fakültesi Halk Sağlığı Anabilim Dalı",
         "url": "https://halksagligi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.688887",
+        "last_updated": "2026-05-13T10:38:34.796298",
         "items": [
             {
                 "title": "lütfen tıklayınız.",
@@ -961,22 +689,22 @@
     {
         "entity": "1. OSB Meslek Yüksekokulu",
         "url": "https://hacettepeaso.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.015310",
+        "last_updated": "2026-05-13T10:38:31.359658",
         "items": [
             {
-                "title": "Halkbank Eğitim Harcaması Kampanyası",
-                "link": "https://hacettepeaso.hacettepe.edu.tr/halkbank-egitim-harcamasi-kampanyasi/",
+                "title": "2025-2026 Mezuniyet Töreni",
+                "link": "https://hacettepeaso.hacettepe.edu.tr/yaz-doneminde-is-yeri-beceri-egitimi-uygulamasi-yapacak-ogrencilerimizin-dikkatine-2/",
                 "date": "Tarih Belirtilmemiş",
                 "source": "1. OSB Meslek Yüksekokulu",
                 "entity": "1. OSB Meslek Yüksekokulu",
-                "description": "Öğrenci Bilgi Sistemi ve Halkbank A.Ş. Paraf POS ödeme sistemiyle entegre halinde çalışan BİLSİS kredi kartı ödeme menüsü aracılığıyla yapılan/yapılacak kredi kartı ödemelerinde ilgili banka tarafından ekte yer alan “Kredi Kartı Eğitim Kampanyası” düzenlenmiştir. Ayrıntılı bilgi için TIKLAYINIZ."
+                "description": "Üniversitemiz 2025-2026 eğitim dönemi mezuniyet törenlerine katılacak öğrencilerimizin; meslek yüksekokulumuzdan, törenlerde kullanmak üzere teslim almak istedikleri kep, cübbe ve şal (takım halinde) için Üniversitemizin Halk Bankası Hacettepe Ankara Şubesi nezdinde yer alan TR96 0001 2001 5410 0006 0001 07 iban numaralı hesabına (alıcı: HACETTEPE ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİ. BŞK., açıklama kısmına: T.C.–ad soyad-cübbe bedeli – ASO 1.OSB MYO) 1.500-TL depozito ücreti yatırıp dekontu (AT"
             }
         ]
     },
     {
         "entity": "Hemşirelik Fakültesi",
         "url": "https://hemsirelik.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:19.450383",
+        "last_updated": "2026-05-13T10:38:27.818608",
         "items": [
             {
                 "title": "Gazi Üniversitesi Teknoloji Fakültesi Kongre Merkezinde Uluslararası Araştırma Kongresi açılışı gerçekleştirildi.",
@@ -990,7 +718,7 @@
     {
         "entity": "Heykel Bölümü",
         "url": "https://heykel.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:19.288076",
+        "last_updated": "2026-05-13T10:38:28.457337",
         "items": [
             {
                 "title": "Heykel Bölümü 20.Büst Yarışması ve Sergisi için BAŞVURULAR DEVAM EDİYOR",
@@ -1011,7 +739,7 @@
     {
         "entity": "Jeoloji ve Hidrojeoloji Mühendisliği Bölümü",
         "url": "https://hidro.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:19.603879",
+        "last_updated": "2026-05-13T10:38:27.717645",
         "items": [
             {
                 "title": "Tarihçe",
@@ -1058,7 +786,7 @@
     {
         "entity": "Tarih Bölümü",
         "url": "https://history.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.854580",
+        "last_updated": "2026-05-13T10:38:27.873143",
         "items": [
             {
                 "title": "2025-2026 Bahar Dönemi Ek Sınav Programı",
@@ -1080,7 +808,7 @@
     {
         "entity": "Okul Sosyal Hizmeti Uygulama ve Araştırma Merkezi (HOSMER)",
         "url": "https://hosmer.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:18.678612",
+        "last_updated": "2026-05-13T10:38:27.646247",
         "items": [
             {
                 "title": "\"Unutmayalım ki önlemek, müdahaleden daha güçlüdür\" başlıklı Hürriyet Gazetesi haberi hakkında",
@@ -1095,7 +823,7 @@
     {
         "entity": "Enerji Piyasaları Uygulama ve Araştırma Merkezi (HÜEPUAM)",
         "url": "https://huepuam.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:23.242847",
+        "last_updated": "2026-05-13T10:38:30.114306",
         "items": [
             {
                 "title": "buradan",
@@ -1140,7 +868,7 @@
     {
         "entity": "Hukuk Fakültesi",
         "url": "https://hukukfakultesi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:20.352363",
+        "last_updated": "2026-05-13T10:38:28.456578",
         "items": [
             {
                 "title": "2025-2026 Öğretim Yılı Bahar Dönemi Genel Sınav Programı",
@@ -1186,7 +914,7 @@
     {
         "entity": "Tütün Kontrolü, Eğitim, Uygulama ve Araştırma Merkezi (HÜTKOM)",
         "url": "https://hutkom.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.286043",
+        "last_updated": "2026-05-13T10:38:29.951456",
         "items": [
             {
                 "title": "9 ŞUBAT SİGARAYI BIRAKMA GÜNÜ",
@@ -1221,7 +949,7 @@
     {
         "entity": "Uzaktan Eğitim Uygulama ve Araştırma Merkezi (HUZEM)",
         "url": "https://huzem.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.457801",
+        "last_updated": "2026-05-13T10:38:29.325960",
         "items": [
             {
                 "title": "Öğretim ElemanlarınaYönelik",
@@ -1260,7 +988,7 @@
     {
         "entity": "İç Mimarlık ve Çevre Tasarımı Bölümü",
         "url": "https://ict.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.216477",
+        "last_updated": "2026-05-13T10:38:29.634498",
         "items": [
             {
                 "title": "Uluslararası Dostluk Günü Daveti",
@@ -1307,7 +1035,7 @@
     {
         "entity": "İngiliz Dilbilimi Bölümü",
         "url": "https://idb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:20.526404",
+        "last_updated": "2026-05-13T10:38:29.951420",
         "items": [
             {
                 "title": "Biyoçeşitlilik Günü Etkinlikleri Hk.",
@@ -1346,7 +1074,7 @@
     {
         "entity": "İnorganik Kimya Anabilim Dalı",
         "url": "https://inorg.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.042886",
+        "last_updated": "2026-05-13T10:38:30.913354",
         "items": [
             {
                 "title": "Members",
@@ -1392,7 +1120,7 @@
     {
         "entity": "Department of Industrial Engineering",
         "url": "https://ie.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.478775",
+        "last_updated": "2026-05-13T10:38:30.225437",
         "items": [
             {
                 "title": "PROSPECTIVE STUDENTS",
@@ -1407,7 +1135,7 @@
     {
         "entity": "İktisadi ve İdari Bilimler Fakültesi",
         "url": "https://iibf.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.244748",
+        "last_updated": "2026-05-13T10:38:29.952325",
         "items": [
             {
                 "title": "Yurtdışında Lisansüstü Eğitim",
@@ -1421,7 +1149,7 @@
     {
         "entity": "İdari İşler Daire Başkanlığı",
         "url": "https://imidb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.052750",
+        "last_updated": "2026-05-13T10:38:30.190588",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Taşınmazların Kiraya Verilmesi İşi.",
@@ -1435,7 +1163,7 @@
     {
         "entity": "Uluslararası İlişkiler Bölümü",
         "url": "https://ir.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.206776",
+        "last_updated": "2026-05-13T10:38:29.960501",
         "items": [
             {
                 "title": "YLSY (1416) Bursları Tanıtım Etkinliği hakkında bilgi için tıklayınız.",
@@ -1450,8 +1178,16 @@
     {
         "entity": "İşletme Bölümü",
         "url": "https://isletme.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.879644",
+        "last_updated": "2026-05-13T10:38:31.468337",
         "items": [
+            {
+                "title": "Announcement for Students Enrolled in MAN327",
+                "link": "https://isletme.hacettepe.edu.tr/tr/announcement_for_students_enro-1318",
+                "date": "12.05.2026 13:00",
+                "source": "İşletme Bölümü",
+                "entity": "İşletme Bölümü",
+                "description": "Announcement for Students Enrolled in MAN327 Students enrolled in the MAN327 Internship course are required to submit their Internship Evaluation Form and Internship Report via HUZEM on Wednesday, June 3. Please ensure that your submissions are in accordance with the requirements specified in the internship section of the department’s official website."
+            },
             {
                 "title": "MAN212 Mazeret Sınavı Duyurusu",
                 "link": "https://isletme.hacettepe.edu.tr/tr/man212_mazeret_sinavi_duyurusu-1316",
@@ -1483,21 +1219,13 @@
                 "source": "İşletme Bölümü",
                 "entity": "İşletme Bölümü",
                 "description": "Bölümümüz 2025 YKS Aday Başarı Sıralaması 2024 yılında İşletme Bölümü’ne yerleşen son öğrencimiz 16.000 sıralamadayken, 2025 yılında en düşük sıralamamız 7.900 oldu. Hacettepe Üniversitesi İşletme Bölümü olarak yükselen başarımızla gurur duyuyor, tüm öğrencilerimize ve adaylarımıza teşekkür ediyoruz."
-            },
-            {
-                "title": "MAN304-MAN420 Mazeret Sınavları",
-                "link": "https://isletme.hacettepe.edu.tr/tr/man304man420_mazeret_sinavlari-1310",
-                "date": "04.05.2026 13:00",
-                "source": "İşletme Bölümü",
-                "entity": "İşletme Bölümü",
-                "description": "2024 yılında İşletme Bölümü’ne yerleşen son öğrencimiz 16.000 sıralamadayken, 2025 yılında en düşük sıralamamız 7.900 oldu. Hacettepe Üniversitesi İşletme Bölümü olarak yükselen başarımızla gurur duyuyor, tüm öğrencilerimize ve adaylarımıza teşekkür ediyoruz. Aşağıda belirtilen dersler için mazeret sınavları yapılacaktır. Belirtilen derslerin mazeret sınav tarihleri ve yerleri aşağıda listelenmiştir. Öğrencilerimizin sınav saatinden önce salonlarda hazır bulunmaları rica olunur."
             }
         ]
     },
     {
         "entity": "Tıp Fakültesi Kulak Burun Boğaz Anabilim Dalı",
         "url": "https://kbb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:24.785611",
+        "last_updated": "2026-05-13T10:38:33.000417",
         "items": [
             {
                 "title": "Alumni Programı İçin Lütfen Tıklayınız",
@@ -1525,7 +1253,7 @@
     {
         "entity": "Kariyer Gelişimi Uygulama ve Araştırma Merkezi (KARMER)",
         "url": "https://karmer.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.716775",
+        "last_updated": "2026-05-13T10:38:34.513021",
         "items": [
             {
                 "title": "Etkinlikler",
@@ -1540,8 +1268,15 @@
     {
         "entity": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü",
         "url": "https://jeomuh.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:24.859023",
+        "last_updated": "2026-05-13T10:38:33.695149",
         "items": [
+            {
+                "title": "Gençlik Bilgilendirme Servisi hakkında duyuru için tıklayınız.",
+                "link": "https://jeomuh.hacettepe.edu.tr/2026_duyuru/Gençlik Bilgilendirme Servisi.pdf",
+                "date": "Tarih Belirtilmemiş",
+                "source": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü",
+                "entity": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü"
+            },
             {
                 "title": "Araştırma İzni Talebi (Zeyneb Funda TEZ KURTULUŞ) hakkında duyuru için tıklayınız.",
                 "link": "https://jeomuh.hacettepe.edu.tr/2026_duyuru/Araştırma İzni Talebi Zeyneb Funda.pdf",
@@ -1569,20 +1304,13 @@
                 "date": "Tarih Belirtilmemiş",
                 "source": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü",
                 "entity": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü"
-            },
-            {
-                "title": "Biyoçeşitlilik Günü Etkinlik Daveti hakkında duyuru için tıklayınız.",
-                "link": "https://jeomuh.hacettepe.edu.tr/2026_duyuru/Biyoçeşitlilik Günü Etkinlik Daveti.pdf",
-                "date": "Tarih Belirtilmemiş",
-                "source": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü",
-                "entity": "Jeoloji/Hidrojeoloji Mühendisliği Bölümü"
             }
         ]
     },
     {
         "entity": "Kalite Güvencesi ve Kalite Komisyonu",
         "url": "https://kalite.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:28.843617",
+        "last_updated": "2026-05-13T10:38:33.672399",
         "items": [
             {
                 "title": "Devamı...",
@@ -1628,7 +1356,7 @@
     {
         "entity": "Kimya Eğitimi Ana Bilim Dalı",
         "url": "https://kimegi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:21.788698",
+        "last_updated": "2026-05-13T10:38:30.565972",
         "items": [
             {
                 "title": "Türk Dili derslerine ait ek sınav takvimine ulaşmak için tıklayınız.",
@@ -1643,7 +1371,7 @@
     {
         "entity": "Klinik Araştırmalar Etik Kurulu",
         "url": "https://kliniketik.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.928277",
+        "last_updated": "2026-05-13T10:38:33.808426",
         "items": [
             {
                 "title": "Kurul Üyeleri",
@@ -1689,7 +1417,7 @@
     {
         "entity": "Kütüphanesi",
         "url": "https://library.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.386942",
+        "last_updated": "2026-05-13T10:38:32.670454",
         "items": [
             {
                 "title": "tıklayınız",
@@ -1731,7 +1459,7 @@
     {
         "entity": "Kalite ve Uygunluk Değerlendirme Mühendisliği",
         "url": "https://kudem.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:24.963187",
+        "last_updated": "2026-05-13T10:38:34.894156",
         "items": [
             {
                 "title": "2025-2026 Bahar Dönemi Kalite ve Uygunluk Değerlendirme Mühendisliği Final Programı",
@@ -1767,7 +1495,7 @@
     {
         "entity": "Maliye Bölümü",
         "url": "https://maliye.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.371579",
+        "last_updated": "2026-05-13T10:38:33.697463",
         "items": [
             {
                 "title": "Yurtdışında Lisansüstü Eğitim Bursları Tanıtım Etkinliği Hk.",
@@ -1789,7 +1517,7 @@
     {
         "entity": "Maden Mühendisliği Bölümü",
         "url": "https://maden.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.916151",
+        "last_updated": "2026-05-13T10:38:33.249367",
         "items": [
             {
                 "title": "AİT Ek Sınav Tarihleri - Güncellendi",
@@ -1835,7 +1563,7 @@
     {
         "entity": "Matematik Bölümü",
         "url": "https://mat.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:24.671143",
+        "last_updated": "2026-05-13T10:38:34.489484",
         "items": [
             {
                 "title": "Bölüm Lisans Dersleri Mazeret Sınav Tarihleri",
@@ -1877,7 +1605,7 @@
     {
         "entity": "Müzik ve Bale Ortaokulu",
         "url": "https://mbo.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:22.252470",
+        "last_updated": "2026-05-13T10:38:33.031481",
         "items": [
             {
                 "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı (23 Nisan 2026)",
@@ -1892,7 +1620,7 @@
     {
         "entity": "Department of Mechanical Engineering",
         "url": "https://me.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.569569",
+        "last_updated": "2026-05-13T10:38:34.903171",
         "items": [
             {
                 "title": "You can access the PDF file of the Institution of Mechanical Engineers (IMechE) presentation held in our department here.",
@@ -1906,8 +1634,16 @@
     {
         "entity": "Faculty of Architecture",
         "url": "https://mimarlikfakultesi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.566723",
+        "last_updated": "2026-05-13T10:38:34.489454",
         "items": [
+            {
+                "title": "Ethics from Farm to Table Seminar",
+                "link": "https://mimarlikfakultesi.hacettepe.edu.tr/en/ethics_from_farm_to_table_semi-240",
+                "date": "12.05.2026 20:00",
+                "source": "Faculty of Architecture",
+                "entity": "Faculty of Architecture",
+                "description": "The \"From Soil to Table: Ethics Seminar,\" organized in collaboration between Hacettepe University's Soil Ethics Application and Research Center and the Agricultural and Food Ethics Association, will be held on Friday, May 15, 2026, at the Mehmet Akif Ersoy Hall in Hacettepe University's Beytepe Campus. The seminar will address topics such as soil, agriculture, food security, sustainability, campus farming, traceability, child labor, and ecological responsibility within an ethical framework. The "
+            },
             {
                 "title": "The Opening Ceremony of Faculty of Architecture",
                 "link": "https://mimarlikfakultesi.hacettepe.edu.tr/en/the_opening_ceremony_of_facult-238",
@@ -1921,7 +1657,7 @@
     {
         "entity": "Ankara Devlet Konservatuvarı Müzik ve Sahne Sanatları Lisesi",
         "url": "https://mssl.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.407043",
+        "last_updated": "2026-05-13T10:38:33.697773",
         "items": [
             {
                 "title": "Çanakkale Gezisi (17-18 Nisan 2026)",
@@ -1936,8 +1672,22 @@
     {
         "entity": "Nükleer Enerji Mühendisliği Bölümü",
         "url": "https://nuke.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.182064",
+        "last_updated": "2026-05-13T10:38:34.076423",
         "items": [
+            {
+                "title": "2025-2026 Bahar Dönemi Final Programı",
+                "link": "https://fs.hacettepe.edu.tr/nuke/documents/spring2026/HUNEM%20SPRINGexam%20PROGRA.pdf",
+                "date": "13.05.2026 10:00",
+                "source": "Nükleer Enerji Mühendisliği Bölümü",
+                "entity": "Nükleer Enerji Mühendisliği Bölümü"
+            },
+            {
+                "title": "2025-2026 Bahar Dönemi Ek Sınav Programı",
+                "link": "https://fs.hacettepe.edu.tr/nuke/documents/spring2026/EksS%C4%B1nav.pdf",
+                "date": "13.05.2026 10:00",
+                "source": "Nükleer Enerji Mühendisliği Bölümü",
+                "entity": "Nükleer Enerji Mühendisliği Bölümü"
+            },
             {
                 "title": "MAT124-7  Dersi Telafi Sınavı ile İlgili Duyuru",
                 "link": "https://nuke.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrnukei-462",
@@ -1951,7 +1701,7 @@
     {
         "entity": "Özel Eğitim Bölümü",
         "url": "https://ozelegitim.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.487005",
+        "last_updated": "2026-05-13T10:38:34.489410",
         "items": [
             {
                 "title": "2025-2026 Bahar Dönemi Lisans Final Programı",
@@ -1959,14 +1709,14 @@
                 "date": "12.05.2026 10:00",
                 "source": "Özel Eğitim Bölümü",
                 "entity": "Özel Eğitim Bölümü",
-                "description": "| A | B | C | D | E | F | G | H | I | | |---|---|---|---|---|---|---|---|---|---| 1 | ÖZEL EĞİTİM ÖĞRETMENLİĞİ BÖLÜMÜ ÖZEL EĞİTİM ANABİLİM DALI 2025-2026 BAHAR DÖNEMİ FİNAL PROGRAMI | |||||||| 2 | 1. SINIF FİNAL PROGRAMI | |||||||| 3 | DERSİN OPTİK KODU VE ŞUBESİ | DERS KODU, ŞUBESİ VE ADI | TPK | AKTS | DERS SORUMLUSU | GÜNÜ | SAATİ | YÜZ YÜZE / UZAKTAN | YERİ | 4 | AİT106.14 | ATATÜRK İLKELERİ ve İNKILÂP TARİHİ II | 2+0+0 | 3 | Çiğdem Dumanlı | YÜZ YÜZE | C-K1-14 | || 5 | EGT102 | EĞİTİM FELSE"
+                "description": "| A | B | C | D | E | F | G | H | I | | |---|---|---|---|---|---|---|---|---|---| 1 | ÖZEL EĞİTİM ÖĞRETMENLİĞİ BÖLÜMÜ ÖZEL EĞİTİM ANABİLİM DALI 2025-2026 BAHAR DÖNEMİ FİNAL PROGRAMI | |||||||| 2 | 1. SINIF FİNAL PROGRAMI | |||||||| 3 | DERSİN OPTİK KODU VE ŞUBESİ | DERS KODU, ŞUBESİ VE ADI | TPK | AKTS | DERS SORUMLUSU | GÜNÜ | SAATİ | YÜZ YÜZE / UZAKTAN | YERİ | 4 | AİT106.14 | ATATÜRK İLKELERİ ve İNKILÂP TARİHİ II | 2+0+0 | 3 | Çiğdem Dumanlı | 03.06.2016 | 12.40-14.30 | YÜZ YÜZE | C-K1-14 | 5"
             }
         ]
     },
     {
         "entity": "Psikolojik Danışma ve Rehberlik Uygulama ve Araştırma Merkezi",
         "url": "https://pdrmer.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:26.384212",
+        "last_updated": "2026-05-13T10:38:35.747270",
         "items": [
             {
                 "title": "Kuruluş gerekçesi",
@@ -1996,7 +1746,7 @@
     {
         "entity": "Protein Araştırma Merkezi (PRC)",
         "url": "https://prc.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:26.056967",
+        "last_updated": "2026-05-13T10:38:35.207155",
         "items": [
             {
                 "title": "TARİHÇE",
@@ -2043,7 +1793,7 @@
     {
         "entity": "Psikoloji Bölümü",
         "url": "https://psikoloji.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:26.841947",
+        "last_updated": "2026-05-13T10:38:34.490154",
         "items": [
             {
                 "title": "PSL305 Psikopatoloji-II Dersinin 1. Ara Sınavının Mazeret Sınavı Hk.",
@@ -2067,21 +1817,13 @@
                 "date": "30.04.2026 14:00",
                 "source": "Psikoloji Bölümü",
                 "entity": "Psikoloji Bölümü"
-            },
-            {
-                "title": "Yapay Zekâ: Temel Kavramlar, Güncel Uygulamalar ve Bilimsel Araştırma Örnekleri Eğitimi Hk.",
-                "link": "https://psikoloji.hacettepe.edu.tr/tr/yapay_zekâ_temel_kavramlar_gu-702",
-                "date": "26.04.2026 16:00",
-                "source": "Psikoloji Bölümü",
-                "entity": "Psikoloji Bölümü",
-                "description": "Üniversitemiz bünyesindeki akademik ve idari personel ile öğrencilere yönelik kamu yararı niteliğinde \"Yapay Zekâ: Temel Kavramlar, Güncel Uygulamalar ve Bilimsel Araştırma Örnekleri Eğitimi\" Bilgisayar ve Bilişim Bilimleri Fakültesi Bilgisayar Mühendisliği Bölümü Yapay Zeka Mühendisliği Anabilim Dalı öğretim üyesi Prof. Dr. Tunca DOĞAN tarafından 11 Mayıs 2026 tarihinde 10.00-11.30 saatleri arasında Mehmet Akif Ersoy Salonunda düzenlenecektir."
             }
         ]
     },
     {
         "entity": "Sağlık Bilimleri Fakültesi",
         "url": "https://sbf.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.646501",
+        "last_updated": "2026-05-13T10:38:34.100475",
         "items": [
             {
                 "title": "15 Mayıs 2026 Arş. Gör. Dr. Damla DEDEBAYRAKTAR’ın \"AFET DÖNEMİNDE TOPLUM BESLENMESİ İÇİN STRATEJİK YAKLAŞIMLAR\" Başlıklı Konuşması",
@@ -2096,19 +1838,19 @@
     {
         "entity": "Sağlık Hizmetleri Meslek Yüksekokulu",
         "url": "https://shmyo.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.658690",
+        "last_updated": "2026-05-13T10:38:36.613906",
         "items": [
             {
                 "title": "Ek Sınav Tarihleri.",
                 "link": "https://shmyo.hacettepe.edu.tr/duyurular/Ek Sınav Tarihleri.pdf",
-                "date": "12.05.2026 08:30",
+                "date": "13.05.2026 13:00",
                 "source": "Sağlık Hizmetleri Meslek Yüksekokulu",
                 "entity": "Sağlık Hizmetleri Meslek Yüksekokulu"
             },
             {
                 "title": "2025-2026 Bahar Dönemi Genel sınav Tarihleri.",
                 "link": "https://shmyo.hacettepe.edu.tr/duyurular/Bahar Dönemi Genel Sınav Tarihleri.pdf",
-                "date": "12.05.2026 08:30",
+                "date": "13.05.2026 13:00",
                 "source": "Sağlık Hizmetleri Meslek Yüksekokulu",
                 "entity": "Sağlık Hizmetleri Meslek Yüksekokulu"
             },
@@ -2131,7 +1873,7 @@
     {
         "entity": "Sosyal Hizmet Bölümü",
         "url": "https://sh.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:25.874224",
+        "last_updated": "2026-05-13T10:38:34.490124",
         "items": [
             {
                 "title": "\"Dünya Sosyal Hizmet Günü\" Etkinliği Hk.",
@@ -2146,7 +1888,7 @@
     {
         "entity": "Sosyal Politika Araştırma ve Uygulama Merkezi",
         "url": "https://sosyalpolitika.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:26.851586",
+        "last_updated": "2026-05-13T10:38:34.489806",
         "items": [
             {
                 "title": "13 Mayıs 2026 Çarşamba günü saat 20.00’de çevrim içi gerçekleştirilecek, Prof. Dr. Reyhan Atasü-Topcuoğlu’nun konuşmacı olarak katılacağı “Sosyal Politika Perspektifinden Kadınların Adalete Erişimi: 70. Birleşmiş Milletler Kadının Statüsü Komisyonu Kararları” başlıklı konferansa tüm Hacettepeliler davetlidir.",
@@ -2161,7 +1903,7 @@
     {
         "entity": "Sağlık Yönetimi Bölümü",
         "url": "https://sid.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:26.656148",
+        "last_updated": "2026-05-13T10:38:34.860330",
         "items": [
             {
                 "title": "Mesleki Uygulama Dersi Devam Çizelgesi ve Değerlendirme Formlarının Teslimi Hakkında",
@@ -2208,7 +1950,7 @@
     {
         "entity": "Spor Dostu Kampüs Koordinatörlüğü",
         "url": "https://spordostu.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.615735",
+        "last_updated": "2026-05-13T10:38:34.970557",
         "items": [
             {
                 "title": "Vizyon - Misyon",
@@ -2255,7 +1997,7 @@
     {
         "entity": "Sağlık, Kültür ve Spor Daire Başkanlığı",
         "url": "https://sksdb.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.615449",
+        "last_updated": "2026-05-13T10:38:36.173385",
         "items": [
             {
                 "title": "Devamı...",
@@ -2270,7 +2012,7 @@
     {
         "entity": "Spor Bilimleri Fakültesi",
         "url": "https://sporbilimleri.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:28.256257",
+        "last_updated": "2026-05-13T10:38:38.534476",
         "items": [
             {
                 "title": "SPOR BİLİMLERİ DERGİSİ SON SAYISI YAYINDA",
@@ -2285,7 +2027,7 @@
     {
         "entity": "İstatistik Bölümü",
         "url": "https://stat.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.658650",
+        "last_updated": "2026-05-13T10:38:34.992248",
         "items": [
             {
                 "title": "2025-2026 Bahar Yarıyılı Lisans Mazeret Sınav Programı (Güncellenme Tarihi: 11 Mayıs 2026)",
@@ -2310,21 +2052,13 @@
                 "source": "İstatistik Bölümü",
                 "entity": "İstatistik Bölümü",
                 "description": "Türk Dili dersleri (TKD 104, TKD105 ve TKD 100) ara sınav mazereti 27 Nisan Pazartesi 2026 tarihinde 12.30-13.20 saat aralığında Beytepe TÖMER dersliklerinde yapılacaktır. Ara sınava mazereti sebebiyle giremeyen öğrencilerin mazeretini dersin öğretim görevlisine fiziken, e-posta vb. yolla bildirmesine ilişkin uygulamaya son verilmesi dolayısıyla öğrenciler, mazeret başvurularını kayıtlı oldukları Dekanlık veya Müdürlüklere yapacaklardır. Hacettepe Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim "
-            },
-            {
-                "title": "Doğum Sonrası İki Dönem Ek Süre/Azami Kadroda Bulunma Süresi Hakkında",
-                "link": "https://stat.hacettepe.edu.tr/tr/dogum_sonrasi_iki_donem_ek_sur-1272",
-                "date": "12.04.2026 22:00",
-                "source": "İstatistik Bölümü",
-                "entity": "İstatistik Bölümü",
-                "description": "6 Mart 2026 tarihli ve 33188 sayılı Resmî Gazete'de yayımlanan Lisansüstü Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmeliğin 2 nci maddesiyle Lisansüstü Eğitim ve Öğretim Yönetmeliğinin 35 inci maddesine \"Doğum yapan lisansüstü kadın öğrencilere talepleri halinde doğum sonrası iki dönem ek süre verilebilir, verilen bu ek süreler azami süreden sayılmaz.\" hükmünü içeren dokuzuncu fıkra eklenmiştir. 01.02.2013 tarihli Yükseköğretim Genel Kurulu toplantısında \"657 sayılı kanun"
             }
         ]
     },
     {
         "entity": "Sürdürülebilir Yerleşkeler Koordinatörlüğü",
         "url": "https://syk.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.231841",
+        "last_updated": "2026-05-13T10:38:34.998544",
         "items": [
             {
                 "title": "Topraktan Sofraya Etik Semineri",
@@ -2339,7 +2073,7 @@
     {
         "entity": "Sürdürülebilir Kalkınma Birimi",
         "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/tr",
-        "last_updated": "2026-05-12T10:40:27.047048",
+        "last_updated": "2026-05-13T10:38:34.900945",
         "items": [
             {
                 "title": "tkk@hacettepe.edu.tr",
@@ -2353,7 +2087,7 @@
     {
         "entity": "Temiz Tükenmez Enerjiler Ana Bilim Dalı",
         "url": "https://temiztukenmezenerjiler.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.060304",
+        "last_updated": "2026-05-13T10:38:36.062346",
         "items": [
             {
                 "title": "Haftalık Ders Program",
@@ -2395,7 +2129,7 @@
     {
         "entity": "Tıp Fakültesi",
         "url": "https://tip.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.655749",
+        "last_updated": "2026-05-13T10:38:35.118029",
         "items": [
             {
                 "title": "Prof.Dr. Hasan ÖZEN Emeklilik Töreni",
@@ -2410,7 +2144,7 @@
     {
         "entity": "Tüketici – Pazar – Araştırma – Danışma – Test ve Eğitim Merkezi (TÜPADEM)",
         "url": "https://tupadem.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:28.854076",
+        "last_updated": "2026-05-13T10:38:36.047082",
         "items": [
             {
                 "title": "2021 Yılı Faaliyet Raporu",
@@ -2424,7 +2158,7 @@
     {
         "entity": "TÖMER (Türkçe Öğretim Merkezi)",
         "url": "https://tomer.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:28.299677",
+        "last_updated": "2026-05-13T10:38:35.523029",
         "items": [
             {
                 "title": "Türk Dili (TKD) Dersleri Bütünleme Sınavı Hakkında",
@@ -2447,7 +2181,7 @@
     {
         "entity": "Türkiyat Araştırmaları Enstitüsü",
         "url": "https://turkiyat.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:31.919099",
+        "last_updated": "2026-05-13T10:38:36.392996",
         "items": [
             {
                 "title": "Enstitümüz tarafından 6 Mayıs 2026 tarihinde \"100. Yıl Dönümünde Bakü Türkoloji Kurultayı ve Türkiyat Araştırmaları\" konulu panel düzenlenecektir. Etkinlik afişi için tıklayınız!",
@@ -2475,7 +2209,7 @@
     {
         "entity": "Yabancı Diller Yüksekokulu Yabancı Dil Kursları",
         "url": "https://ydkydyo.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.871007",
+        "last_updated": "2026-05-13T10:38:35.747311",
         "items": [
             {
                 "title": "HAZİRAN 2026 YAZ DÖNEMİ KURSLARIMIZ 22 HAZİRAN - 06 EYLÜL 2026 TARİHLERİ ARASINDA YÜRÜTÜLECEKTİR.",
@@ -2490,8 +2224,22 @@
     {
         "entity": "Yabancı Diller Yüksekokulu",
         "url": "https://ydyo.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.060438",
+        "last_updated": "2026-05-13T10:38:36.752820",
         "items": [
+            {
+                "title": "2025-2026 Bahar Dönemi Modern Diller Birimi Ek Sınav Takvimi",
+                "link": "https://fs.hacettepe.edu.tr/ydyo/duyuru/modern_diller_duyuru_dosyalari/2025_26_BAHAR_EK_SINAV.xlsx%20-%20ek%20s%C4%B1nav%20takvimi.pdf",
+                "date": "13.05.2026 12:00",
+                "source": "Yabancı Diller Yüksekokulu",
+                "entity": "Yabancı Diller Yüksekokulu"
+            },
+            {
+                "title": "2026-2027 Eğitim Öğretim Yılı Yatay Geçiş Yabancı Dil Muafiyet Sınavı Takvimi",
+                "link": "https://fs.hacettepe.edu.tr/ydyo/%C4%B0rem/2026%202027%20YATAY%20GECIS%20YABANCI%20DIL%20MUAFIYET%20SINAVLARI.pdf",
+                "date": "13.05.2026 11:00",
+                "source": "Yabancı Diller Yüksekokulu",
+                "entity": "Yabancı Diller Yüksekokulu"
+            },
             {
                 "title": "2025-2026 Eğitim Öğretim Yılı Hazırlık Birimleri Yeterlik Sınavı Takvimi",
                 "link": "https://fs.hacettepe.edu.tr/ydyo/%C4%B0rem/25-26%20YETERL%C4%B0K%20TAKV%C4%B0M%C4%B0.pdf",
@@ -2504,7 +2252,7 @@
     {
         "entity": "Fen Fakültesi Aktüerya Bilimleri Bölümü Mezun Bilgi Sistemi",
         "url": "https://mbsaktuerya.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.633322",
+        "last_updated": "2026-05-13T10:38:37.226044",
         "items": [
             {
                 "title": "Ders Listesi",
@@ -2527,10 +2275,10 @@
     {
         "entity": "Araştırma Portalı",
         "url": "https://research.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.875117",
+        "last_updated": "2026-05-13T10:38:35.968547",
         "items": [
             {
-                "title": "3647Profiles",
+                "title": "3646Profiles",
                 "link": "https://research.hacettepe.edu.tr/en/persons/",
                 "date": "Tarih Belirtilmemiş",
                 "source": "Araştırma Portalı",
@@ -2569,7 +2317,7 @@
     {
         "entity": "Öğretim Üyesi Atama Kriterlerini Belirleme ve Dosyaları İnceleme Komisyonu",
         "url": "https://kriter.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:32.388828",
+        "last_updated": "2026-05-13T10:38:38.181042",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Öğretim Üyesi Atama Kriterlerini Belirleme ve Dosyaları İnceleme Komisyonu Yönergesi",
@@ -2612,7 +2360,7 @@
     {
         "entity": "İnşaat Mühendisliği Bölümü Moodle Sistemi",
         "url": "https://moodle.ce.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.030502",
+        "last_updated": "2026-05-13T10:38:36.721004",
         "items": [
             {
                 "title": "Data retention summary",
@@ -2635,7 +2383,7 @@
     {
         "entity": "Kişisel Verileri Koruma Komisyonu",
         "url": "https://kvkk.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:28.854038",
+        "last_updated": "2026-05-13T10:38:36.613868",
         "items": [
             {
                 "title": "KVKK Hakkında",
@@ -2658,7 +2406,7 @@
     {
         "entity": "Bilgi ve Belge Yönetimi Bölümü",
         "url": "https://bby.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.596201",
+        "last_updated": "2026-05-13T10:38:36.766013",
         "items": [
             {
                 "title": "Kalite Güvencesi",
@@ -2673,7 +2421,7 @@
     {
         "entity": "Elektrik ve Elektronik Mühendisliği Bölümü",
         "url": "https://ee.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:32.418718",
+        "last_updated": "2026-05-13T10:38:38.728382",
         "items": [
             {
                 "title": "AKTS Ders Kataloğu",
@@ -2719,7 +2467,7 @@
     {
         "entity": "HÜNİTEK – İleri Teknolojiler Uygulama ve Araştırma Merkezi",
         "url": "https://hunitek.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:32.918845",
+        "last_updated": "2026-05-13T10:38:39.568006",
         "items": [
             {
                 "title": "2021 Faaliyet Raporu",
@@ -2761,7 +2509,7 @@
     {
         "entity": "Hacettepe Atletik",
         "url": "https://atletik.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.788169",
+        "last_updated": "2026-05-13T10:38:37.082892",
         "items": [
             {
                 "title": "Misyon Vizyon",
@@ -2808,7 +2556,7 @@
     {
         "entity": "Kütüphaneleri İç Kontrol Sistemi",
         "url": "https://libraryworkflows.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:30.972649",
+        "last_updated": "2026-05-13T10:38:37.570666",
         "items": [
             {
                 "title": "Misyon / Vizyon",
@@ -2855,7 +2603,7 @@
     {
         "entity": "Sürdürülebilir Kalkınma Koordinatörlüğü",
         "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:27.875828",
+        "last_updated": "2026-05-13T10:38:35.960552",
         "items": [
             {
                 "title": "tkk@hacettepe.edu.tr",
@@ -2869,7 +2617,7 @@
     {
         "entity": "Sosyal Tesisleri",
         "url": "https://sosyaltesisler.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:32.015639",
+        "last_updated": "2026-05-13T10:38:38.812162",
         "items": [
             {
                 "title": "Kafeler",
@@ -2900,7 +2648,7 @@
     {
         "entity": "Çocuk Ürolojisi Ana Bilim Dalı",
         "url": "https://cocukurolojisi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:31.665702",
+        "last_updated": "2026-05-13T10:38:38.985436",
         "items": [
             {
                 "title": "2. Uluslararası Çocuk Ürolojisi Pratik Kursu",
@@ -2932,7 +2680,7 @@
                 "date": "Tarih Belirtilmemiş",
                 "source": "Çocuk Ürolojisi Ana Bilim Dalı",
                 "entity": "Çocuk Ürolojisi Ana Bilim Dalı",
-                "description": "Skip to content Salı, Mayıs 12, 2026 En güncel: 2. Uluslararası Çocuk Ürolojisi Pratik Kursu INTERNATIONAL PEDIATRIC UROLOGY FELLOWS WORKSHOP 1. Uluslararası Çocuk Ürolojisi Pratik Kursu Türkiye Enürezis Kılavuzu Çocuk Ürolojisi Ameliyatları Hasta Bilgilendirme Kitabı Hakkımızda Tarihçe Akademik Kadro Eğitim Alanlar Eğitim Programı Bilimsel Aktiviteler Çocuk Ürolojisi Hakkında Hastalar için Enürezis Nokturna (Gece Yatak Islatma) İnmemiş Testis (Kriptorşitizm) Hipospadias Üreteropelvik Alan Darlı"
+                "description": "Skip to content Çarşamba, Mayıs 13, 2026 En güncel: 2. Uluslararası Çocuk Ürolojisi Pratik Kursu INTERNATIONAL PEDIATRIC UROLOGY FELLOWS WORKSHOP 1. Uluslararası Çocuk Ürolojisi Pratik Kursu Türkiye Enürezis Kılavuzu Çocuk Ürolojisi Ameliyatları Hasta Bilgilendirme Kitabı Hakkımızda Tarihçe Akademik Kadro Eğitim Alanlar Eğitim Programı Bilimsel Aktiviteler Çocuk Ürolojisi Hakkında Hastalar için Enürezis Nokturna (Gece Yatak Islatma) İnmemiş Testis (Kriptorşitizm) Hipospadias Üreteropelvik Alan D"
             },
             {
                 "title": "Çocuk Ürolojisi Ameliyatları Hasta Bilgilendirme Kitabı",
@@ -2940,14 +2688,14 @@
                 "date": "Tarih Belirtilmemiş",
                 "source": "Çocuk Ürolojisi Ana Bilim Dalı",
                 "entity": "Çocuk Ürolojisi Ana Bilim Dalı",
-                "description": "Skip to content Salı, Mayıs 12, 2026 En güncel: 2. Uluslararası Çocuk Ürolojisi Pratik Kursu INTERNATIONAL PEDIATRIC UROLOGY FELLOWS WORKSHOP 1. Uluslararası Çocuk Ürolojisi Pratik Kursu Türkiye Enürezis Kılavuzu Çocuk Ürolojisi Ameliyatları Hasta Bilgilendirme Kitabı Hakkımızda Tarihçe Akademik Kadro Eğitim Alanlar Eğitim Programı Bilimsel Aktiviteler Çocuk Ürolojisi Hakkında Hastalar için Enürezis Nokturna (Gece Yatak Islatma) İnmemiş Testis (Kriptorşitizm) Hipospadias Üreteropelvik Alan Darlı"
+                "description": "Skip to content Çarşamba, Mayıs 13, 2026 En güncel: 2. Uluslararası Çocuk Ürolojisi Pratik Kursu INTERNATIONAL PEDIATRIC UROLOGY FELLOWS WORKSHOP 1. Uluslararası Çocuk Ürolojisi Pratik Kursu Türkiye Enürezis Kılavuzu Çocuk Ürolojisi Ameliyatları Hasta Bilgilendirme Kitabı Hakkımızda Tarihçe Akademik Kadro Eğitim Alanlar Eğitim Programı Bilimsel Aktiviteler Çocuk Ürolojisi Hakkında Hastalar için Enürezis Nokturna (Gece Yatak Islatma) İnmemiş Testis (Kriptorşitizm) Hipospadias Üreteropelvik Alan D"
             }
         ]
     },
     {
         "entity": "Eğitim Ölçme ve Değerlendirme Ana Bilim Dalı",
         "url": "https://eod.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:29.744712",
+        "last_updated": "2026-05-13T10:38:36.771869",
         "items": [
             {
                 "title": "Eğitim Fakültesi, Temel Eğitim Bölümü, Sınıf Eğitimi Ana Bilim Dalı Dr. Öğr. Üyesi Burcu Akhun’un babası Fakültemiz Eğitim Bilimleri Bölümü emekli öğretim üyesi Prof. Dr. İsmail İlhan Akhun vefat etmiştir.",
@@ -2962,7 +2710,7 @@
     {
         "entity": "SPOR ŞENLİĞİ",
         "url": "https://sporsenligi.hacettepe.edu.tr",
-        "last_updated": "2026-05-12T10:40:30.374478",
+        "last_updated": "2026-05-13T10:38:37.300029",
         "items": [
             {
                 "title": "BASKETBOL",
@@ -3009,7 +2757,7 @@
     {
         "entity": "Beytepe Ring (EGO 130)",
         "url": "https://www.ego.gov.tr/",
-        "last_updated": "2026-05-12T10:40:33.787370",
+        "last_updated": "2026-05-13T10:38:38.900046",
         "items": [
             {
                 "title": "526 Temelli Sincan Hattı güzergahı yeniden düzenlenmiştir...04.05.2026",
