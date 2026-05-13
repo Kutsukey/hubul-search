@@ -161,19 +161,23 @@ def clean_and_merge_json(file_path):
         
         name_lower = item.get("entity_name", "").lower()
         
-        # 💉 DEV SEO ENJEKSİYONU: Öğrencilerin dertlerini arama motoruna öğretiyoruz
+        # 💉 MERKEZİ DEV SEO ENJEKSİYONU: Tüm gizli kelimeler sadece burada yaşar!
         if "sağlık" in name_lower and "kültür" in name_lower:
             item["description"] = item.get("description", "") + " yemekhane menü yemek yurt barınma kyk sks"
         elif "öğrenci işleri" in name_lower:
-            item["description"] = item.get("description", "") + " akademik takvim harç kayıt otomasyon transkript mezuniyet belge bilsis diploma"
+            item["description"] = item.get("description", "") + " akademik takvim harç ödeme kayıt otomasyon transkript mezuniyet belge bilsis diploma"
         elif "bilgi işlem" in name_lower:
-            item["description"] = item.get("description", "") + " eduroam vpn wifi internet e-posta"
+            item["description"] = item.get("description", "") + " eduroam vpn wifi internet e-posta şifre unuttum"
         elif "idari" in name_lower and "işler" in name_lower:
-            item["description"] = item.get("description", "") + " ring servis otobüs ulaşım"
-        elif "dış ilişkiler" in name_lower or "uluslararası" in name_lower:
-            item["description"] = item.get("description", "") + " erasmus yurtdışı değişim mevlana farabi"
+            item["description"] = item.get("description", "") + " ring servis otobüs ulaşım saatleri"
         elif "yapay zeka" in name_lower:
             item["description"] = item.get("description", "") + " ai staj"
+            
+        # Erasmus/AB Ofisi için gelişmiş ve akademik bölüm dışlayıcı filtre
+        is_academic = any(k in name_lower for k in ["bölümü", "fakültesi", "enstitü", "ana bilim"])
+        is_eu_office = any(k in name_lower for k in ["dış ilişkiler", "uluslararası", "ab ofisi", "european", "avrupa", "erasmus"])
+        if not is_academic and is_eu_office:
+            item["description"] = item.get("description", "") + " erasmus yurtdışı değişim mevlana farabi"
 
         # 1. İsmi Sadeleştir (Hacettepe Üniversitesi kısmını uçur)
         item["entity_name"] = isimi_sadelestir(item.get("entity_name", ""))
@@ -264,6 +268,15 @@ def clean_and_merge_json(file_path):
             {"intent": "Hukuk Fak. (13139)", "url": "javascript:(function(){var f=document.createElement('form');f.action='https://www.ego.gov.tr/tr/otobusnerede';f.method='POST';f.target='_blank';var i=document.createElement('input');i.name='durak_no';i.value='13139';f.appendChild(i);document.body.appendChild(f);f.submit();f.remove();})()"}
         ]
     }
+
+    # EGO duplication protection: Filter out any existing entries that refer to the same thing
+    # This prevents duplication if the script runs multiple times on its own output.
+    final_list = [
+        item for item in final_list 
+        if item.get("entity_name") != "Beytepe Ring (EGO 130)" and 
+        "ego.gov.tr" not in item.get("url", "").lower()
+    ]
+    
     final_list.append(ring_karti)
 
     # YEDEKLEME VE ÜZERİNE YAZMA
