@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hubul | Hacettepe Akıllı Asistan</title>
-    <!-- 🧠 Fuse.js Fuzzy Search Library -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <style>
-        /* --- KURUMSAL RENK PALETİ --- */
         :root {
-            --bg-color: #f9fafb;
+            --bg-color: #ffffff;
             --card-bg: #ffffff;
             --text-main: #111827;
             --text-muted: #6b7280;
-            --corporate-purple: #4f46e5;
-            --corporate-purple-hover: #4338ca;
-            --tag-bg: #e0e7ff;
-            --tag-text: #3730a3;
+            --corporate-red: #A6192E;
+            --corporate-red-light: rgba(166, 25, 46, 0.08);
             --border-color: #e5e7eb;
         }
 
@@ -40,7 +36,7 @@
             letter-spacing: -2px;
             user-select: none;
         }
-        .logo span { color: var(--corporate-purple); }
+        .logo span { color: var(--corporate-red); }
 
         #search-input { 
             width: 100%; 
@@ -55,8 +51,8 @@
             font-family: inherit;
         }
         #search-input:focus { 
-            border-color: var(--corporate-purple); 
-            box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1); 
+            border-color: var(--corporate-red); 
+            box-shadow: 0 0 0 4px rgba(166, 25, 46, 0.1); 
         }
         #search-input:disabled { background-color: #f3f4f6; cursor: not-allowed; }
         
@@ -86,7 +82,7 @@
             transition: all 0.2s ease;
             white-space: nowrap;
         }
-        .suggestion-btn:hover { border-color: var(--corporate-purple); color: var(--corporate-purple); background: #f5f3ff; }
+        .suggestion-btn:hover { border-color: var(--corporate-red); color: var(--corporate-red); background: var(--corporate-red-light); }
 
         #results { 
             margin-top: 8px !important; 
@@ -135,14 +131,14 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            background: var(--tag-bg);
+            background: var(--corporate-red-light);
             border-radius: 6px;
             padding: 8px 10px;
             margin-bottom: 12px; 
             font-size: 12px;
         }
         .announcement-tag {
-            background: var(--tag-text);
+            background: var(--corporate-red);
             color: #fff;
             padding: 4px 8px;
             border-radius: 6px;
@@ -151,7 +147,7 @@
             letter-spacing: 0.3px;
         }
         .glean-announcement a {
-            color: var(--tag-text);
+            color: var(--corporate-red);
             font-weight: 500;
             text-decoration: none;
             line-height: 1.4;
@@ -180,18 +176,18 @@
             transition: all 0.2s ease;
         }
         .chip:hover {
-            border-color: var(--corporate-purple);
-            color: var(--corporate-purple);
-            background: #f5f3ff;
+            border-color: var(--corporate-red);
+            color: var(--corporate-red);
+            background: var(--corporate-red-light);
         }
 
         .chip.highlight {
-            background: var(--corporate-purple);
+            background: var(--corporate-red);
             color: white;
-            border-color: var(--corporate-purple);
+            border-color: var(--corporate-red);
         }
         .chip.highlight:hover {
-            background: var(--corporate-purple-hover);
+            background: #8B1527; /* Darker red */
             transform: translateY(-1px);
         }
 
@@ -270,7 +266,7 @@
         }
 
         const headerTitle = history.length > 0 ? '🕒 Son Ziyaret Edilenler' : '⭐ Sık Kullanılanlar';
-        const clearBtn = history.length > 0 ? `<span style="cursor:pointer; color:var(--corporate-purple);" onclick="clearHistory()">Temizle</span>` : '';
+        const clearBtn = history.length > 0 ? `<span style="cursor:pointer; color:var(--corporate-red);" onclick="clearHistory()">Temizle</span>` : '';
 
         let html = `<div style="margin-bottom: 12px; font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: flex; justify-content: space-between;">
             <span>${headerTitle}</span>${clearBtn}</div>`;
@@ -289,12 +285,10 @@
             const mRes = await fetch('outputs/hybrid_master.json');
             masterData = await mRes.json();
             
-            // 1. MEGA İNDEKS (KOMBİNE METİN) OLUŞTURMA
             masterData.forEach(item => {
                 if (!item.search_alias && item.url) {
                     item.search_alias = getSubdomain(item.url);
                 }
-                // Tüm kelimeleri (alias, isim, butonlar) tek bir metinde birleştir
                 const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
                 item.search_text = `${item.search_alias} ${item.entity_name} ${intents}`.toLowerCase();
             });
@@ -302,16 +296,16 @@
             const aRes = await fetch('outputs/announcements_live.json').catch(() => null);
             if (aRes && aRes.ok) currentAnnouncements = await aRes.json();
 
-            // 2. FUSE.JS GELİŞMİŞ ARAMA AYARLARI
             const options = {
                 includeScore: true,
-                threshold: 0.3,
+                threshold: 0.45,
                 ignoreLocation: true,
-                useExtendedSearch: true, // ŞART: $and gibi mantıksal operatörleri açar
+                useExtendedSearch: true, 
                 keys: [
-                    { name: 'search_alias', weight: 5.0 }, // Sadece 'cs' veya 'oidb' yazanlar için zirve
+                    { name: 'search_alias', weight: 5.0 }, 
                     { name: 'entity_name', weight: 3.0 },
-                    { name: 'search_text', weight: 1.0 }  // Çoklu kelimeler için catch-all alanı
+                    { name: 'description', weight: 2.0 },
+                    { name: 'search_text', weight: 1.0 }  
                 ]
             };
             fuseInstance = new Fuse(masterData, options);
@@ -333,32 +327,67 @@
             return;
         }
 
-        // 3. ÇOKLU KELİME (TOKEN) PARÇALAYICI VE "$AND" MANTIĞI
         let searchTerms = query.split(/\s+/);
-        let fuseQuery = query;
         
-        // Eğer kullanıcı birden fazla kelime girdiyse (örn: "cs ders")
-        if (searchTerms.length > 1) {
-            fuseQuery = {
-                $and: searchTerms.map(term => ({ search_text: term }))
-            };
-        }
+        let fuseQuery = {
+            $or: searchTerms.map(term => ({
+                $or: [
+                    { search_alias: term },
+                    { entity_name: term },
+                    { description: term },
+                    { search_text: term }
+                ]
+            }))
+        };
 
         const fuseResults = fuseInstance.search(fuseQuery);
 
-        // Python'dan gelen Puanları (Priority Score) Ekleme
         let scoredResults = fuseResults.map(fr => {
             let item = fr.item;
+            const nameLower = item.entity_name.toLocaleLowerCase('tr-TR');
+            
             let score = (1 - fr.score) * 1000;
             score += (item.priority_score || 0);
-            return { item, score };
+
+            // VIP Bonuses
+            if (searchTerms.some(term => item.search_alias === term || item.search_alias === term + 'db' || item.search_alias + 'db' === term)) score += 10000;
+            if (searchTerms.includes("ai") && nameLower.includes("yapay zeka")) score += 10000;
+
+            const isAcademic = nameLower.includes("bölümü") || nameLower.includes("fakültesi") || nameLower.includes("ana bilim") || nameLower.includes("enstitü");
+            const isYurt = (query.includes("yurt") || query.includes("barınma") || query.includes("barinma")) && !query.includes("yurtdışı");
+
+            if (["takv", "akademik", "harç", "harc", "öde", "ode", "otomas", "transk", "mezun", "belge", "bilsis", "kayıt", "öğren", "ogren", "işler", "isler"].some(k => query.includes(k)) && nameLower.includes("öğrenci") && nameLower.includes("işleri")) score += 5000;
+            if ((isYurt || ["yemek", "ymek", "menü", "menu", "menn"].some(k => query.includes(k))) && nameLower.includes("sağlık") && nameLower.includes("kültür")) score += 5000;
+            if (["kütüphane", "kutuph"].some(k => query.includes(k)) && nameLower.includes("kütüphane")) score += 5000;
+            if (["eduroam", "vpn", "wifi", "internet", "şifre", "sifre", "unuttum"].some(k => query.includes(k)) && nameLower.includes("bilgi işlem")) score += 5000;
+
+            const isEU = nameLower.includes("dış ilişkiler") || nameLower.includes("uluslararası") || nameLower.includes("ab ofisi") || nameLower.includes("european") || nameLower.includes("avrupa") || nameLower.includes("erasmus");
+            if (["erasmus", "yurtdışı", "yurtdisi", "değişim", "degisim", "mevlana", "farabi"].some(k => query.includes(k)) && !isAcademic && isEU) score += 5000;
+
+            if (searchTerms.some(term => term.length > 3 && nameLower.includes(term))) score += 1000;
+
+            const matchedIntents = item.action_links
+                ? item.action_links.filter(l => searchTerms.some(t => l.intent.toLocaleLowerCase('tr-TR').includes(t))).map(l => l.intent)
+                : [];
+
+            return { item, score, matchedIntents };
+        });
+
+        // 🛡️ RING KARTI İÇİN KESKİN NİŞANCI KALKANI
+        scoredResults = scoredResults.filter(r => {
+            if (r.item.is_ring) {
+                const qWords = query.toLowerCase().trim().split(/\s+/);
+                const allowedTriggers = ["ring", "130", "otobüs", "otobus", "servis", "ego", "ulaşım", "beytepe"];
+                return qWords.some(w => allowedTriggers.includes(w));
+            }
+            return true;
         });
 
         scoredResults.sort((a, b) => b.score - a.score);
-        renderResults(scoredResults.slice(0, 8));
+        renderResults(scoredResults.slice(0, 8), query);
     });
 
-    function renderResults(results) {
+    function renderResults(results, currentQuery = "") {
         resultsContainer.innerHTML = '';
         results.forEach(res => {
             const item = res.item;
@@ -369,10 +398,29 @@
             let html = `<div class="category-pill">${item.category || "Birim"}</div>
                         <h3 class="entity-title">${item.entity_name}</h3>`;
             
+            const ann = currentAnnouncements.find(a => a.entity === item.entity_name);
+            if (ann && ann.items && ann.items.length > 0) {
+                html += `<div class="glean-announcement"><span class="announcement-tag">Yeni</span><a href="${ann.items[0].link}" target="_blank" onclick="event.stopPropagation();">${ann.items[0].title}</a></div>`;
+            }
+
             if (item.action_links && item.action_links.length > 0) {
                 html += '<div class="action-chips">';
-                item.action_links.slice(0, 4).forEach(link => {
-                    html += `<a href="${link.url}" target="_blank" class="chip" onclick="event.stopPropagation(); saveToHistory('${item.entity_name.replace(/'/g, "\\'")}');">
+                
+                // 🚀 ZEKİ SIRALAMA: Aranan kelimeye uyan butonları en öne çek!
+                const searchVal = currentQuery.toLowerCase().trim();
+                let sortedLinks = [...item.action_links];
+                
+                if (searchVal.length > 2) {
+                    sortedLinks.sort((a, b) => {
+                        const aMatch = a.intent.toLowerCase().includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                        const bMatch = b.intent.toLowerCase().includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                        return bMatch - aMatch;
+                    });
+                }
+
+                sortedLinks.slice(0, 4).forEach(link => {
+                    const isHighlight = searchVal.length > 2 && (link.intent.toLowerCase().includes(searchVal) || link.url.toLowerCase().includes(searchVal));
+                    html += `<a href="${link.url}" target="_blank" class="chip${isHighlight ? ' highlight' : ''}" onclick="event.stopPropagation(); saveToHistory('${item.entity_name.replace(/'/g, "\\'")}');">
                         <span>${link.intent}</span></a>`;
                 });
                 html += '</div>';
