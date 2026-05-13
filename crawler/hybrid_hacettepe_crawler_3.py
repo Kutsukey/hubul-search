@@ -18,11 +18,32 @@ import aiohttp
 from bs4 import BeautifulSoup
 from google import genai
 from pydantic import BaseModel, Field
+# pyrefly: ignore [missing-import]
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from dotenv import load_dotenv
 
 import trafilatura
 import requests
+
+# 🚀 CACHE ALTYAPISI (Fatura Kalkanı)
+CACHE_FILE = "crawler_hash_cache.json"
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_cache(cache_data):
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache_data, f, ensure_ascii=False, indent=4)
+
+def calculate_md5(text):
+    # Metnin dijital parmak izini (Hash) çıkarır
+    return hashlib.md5(text.encode('utf-8', errors='ignore')).hexdigest()
+
+# Global Cache Objesi
+URL_CACHE = load_cache()
 
 # Playwright
 try:
@@ -100,8 +121,10 @@ def is_clean_for_rag(url):
 
 def score_document_relevance(url, filename, size_bytes):
     score = 0
-    keywords = ['yönerge', 'yönetmelik', 'takvim', 'akademik', 'form', 'mevzuat']
-    if any(kw in url.lower() for kw in keywords):
+    # 🚀 İNGİLİZCE KELİMELER EKLENDİ VE DOSYA ADINDA DA ARANMASI SAĞLANDI
+    keywords = ['yönerge', 'yönetmelik', 'takvim', 'akademik', 'form', 'mevzuat',
+                'directive', 'regulation', 'syllabus', 'internship', 'calendar', 'guide']
+    if any(kw in url.lower() or kw in filename.lower() for kw in keywords):
         score += 1
     if re.search(r'\d{4}', filename):
         score += 1
@@ -120,7 +143,10 @@ def is_valid_internal_link(url):
 def clean_url(url):
     return url.split('#')[0].rstrip('/')
 
-PRIORITY_KEYWORDS = ["yonerge", "yonetmelik", "esaslar", "mevzuat", "karar", "senato"]
+PRIORITY_KEYWORDS = [
+    "yonerge", "yonetmelik", "esaslar", "mevzuat", "karar", "senato",
+    "directive", "regulation", "syllabus", "internship", "erasmus", "exchange", "international"
+]
 
 JS_RENDER_URL_PATTERNS = [
     r"/duyuru", r"/haber", r"/icerik", r"/news", r"/announcements",
@@ -223,8 +249,8 @@ class PlaywrightPool:
                 # Playwright'ı Hızlandır: Gereksiz assetleri engelle (Two-Phase Optimization)
                 await page.route("**/*.{png,jpg,jpeg,gif,css,woff,woff2,svg,ico}", lambda route: route.abort())
                 
-                # domcontentloaded: Ağ trafiği yerine DOM'un yüklenmesini bekle (Timeout oranını düşürür)
-                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                # 🚀 TIMEOUT 60 SANİYEYE ÇIKARILDI!
+                await page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 
                 # Sayfayı biraz aşağı kaydır (Lazy load olan linkleri tetiklemek için)
                 await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -249,6 +275,8 @@ class PlaywrightPool:
                 text_content = content if content and len(content) > 50 else None
                 return html, text_content
             except Exception as e:
+                # ÇÖKMEYİ ENGELLE, SADECE UYARI VER VE GEÇ
+                print(f"[WARN] Playwright çöktü veya zaman aşımı ({url}): {e}")
                 return None
             finally:
                 await page.close()
@@ -472,16 +500,14 @@ async def extract_entity_data_with_gemma(
     
     prompt = f"""Sen uzman bir Veri Mühendisisin. Aşağıda Hacettepe Üniversitesi'nin bir birimine ait ana sayfanın semantik metni, botumuzun bulduğu önemli alt sayfa içerikleri ve dosyalar yer alıyor.
 
-ÖNEMLİ GÖREVLERİN (GÜVENLİK FİLTRELERİ):
+ÖNEMLİ GÖREVLERİN (GÜVENLİK FİLTRELERİ VE ÇİFT DİL DESTEĞİ):
 1. ZAMAN KONTROLÜ (is_active): 
-   - DİKKAT: "Öğrenci İşleri (OİDB)", "Daire Başkanlığı", "Fakülte", "Enstitü", "Koordinatörlük" gibi BÜYÜK ve TEMEL idari/akademik birimler, son duyuru tarihi 2024 veya daha eski olsa dahi KESİNLİKLE TRUE olarak işaretlenmelidir. Üniversitenin temel birimleri asla Zombi site sayılmaz!
-   - Eğer sayfa bir 'Mevzuat', 'Yönetmelik', 'Hakkımızda' veya 'Tarihçe' alt sayfası barındırıyorsa, tarih eski olsa bile TRUE yap. Resmi belgeler yıllarca geçerli kalır.
-   - SADECE sayfa sıradan bir etkinlik, geçici bir proje, öğrenci topluluğu veya kapanmış küçük bir laboratuvar izlenimi veriyorsa ve 2025/2026'ya ait hiçbir hareketlilik yoksa FALSE yap (Zombi site).
+   - DİKKAT: "Öğrenci İşleri (OİDB)", "Daire Başkanlığı", "Fakülte", "Enstitü", "Koordinatörlük" gibi BÜYÜK ve TEMEL idari/akademik birimler, son duyuru tarihi eski olsa dahi KESİNLİKLE TRUE olarak işaretlenmelidir.
+   - SADECE sayfa sıradan bir etkinlik, geçici bir proje, veya öğrenci topluluğu izlenimi veriyorsa ve yeni hiçbir hareketlilik yoksa FALSE yap (Zombi site).
 
-2. AKSİYON LİNKLERİ (DEEP LINKING): Botumuz bu birimin altında yüzlerce sayfa ve PDF buldu (Aşağıda listeleniyor). Öğrenciler ve personel için İŞLEM veya BİLGİ niteliği taşıyan **TÜM ÖNEMLİ LİNKLERİ** (Staj, Muafiyet, Yönetmelik, Ders Programı, Kayıt Formları, BÜTÜN Kurulum Rehberleri -iOS, Android, Windows-, Dilekçeler vb.) seç. 
-   - Lütfen cimri davranma! Eğer bir konuyla ilgili birden fazla işletim sistemi, yıl veya tür varsa HEPSİNİ ayrı ayrı ekle (Örn: iOS kurulum, Android kurulum).
-   - Liste 20-30 maddeye kadar çıkabilir, sınırlandırma yapma. 
-   - Bunları "Staj Yönergesini Oku", "Android Kurulumunu İndir" gibi net, tıklanabilir EYLEM (intent) isimleriyle eşleştirerek 'action_links' listesine ekle. Asla çalışmayan veya listede olmayan sahte link uydurma!
+2. AKSİYON LİNKLERİ (BILINGUAL DEEP LINKING): Botumuz bu birimin altında yüzlerce sayfa ve PDF buldu. Öğrenciler ve personel için İŞLEM veya BİLGİ niteliği taşıyan **TÜM ÖNEMLİ LİNKLERİ** seç.
+   - 🌍 DİKKAT (ÇİFT DİL): Eğer sayfanın hem Türkçe hem İngilizce versiyonu veya belgeleri varsa (Örn: "Staj Yönergesi" ve "Internship Directive"), İKİSİNİ DE AYRI AYRI EKLE! Yabancı öğrenciler için İngilizce belgeleri kesinlikle atlama.
+   - Bunları "Staj Yönergesini İncele", "Download Internship Directive" gibi net, tıklanabilir EYLEM (intent) isimleriyle eşleştirerek 'action_links' listesine ekle.
 
 KATEGORİ SEÇİMİ: "Rektörlük", "Fakülte", "Enstitü", "Yüksekokul / Meslek Yüksekokulu", "Bölüm", "Ana Bilim Dalı", "İdari Birim", "Koordinatörlük", "Araştırma Merkezi", "Diğer" arasından seç.
 
@@ -502,13 +528,17 @@ ANA SAYFA HTML İÇERİĞİ:
 JSON Şeması:
 {{
   "is_active": "Boolean",
-  "entity_name": "Birimin tam adı",
+  "entity_name": "Birimin tam Türkçe adı (Örn: Bilgisayar Mühendisliği Bölümü)",
   "category": "Kategorilerden biri",
-  "description": "Sayfanın amacı",
+  "description": "Sayfanın amacını anlatan 1-2 cümlelik Türkçe bilgi. BUNA EK OLARAK, yabancı öğrencilerin bu birimi bulabilmesi için cümlenin sonuna mutlaka o bölümle ilgili 4-5 adet global İngilizce arama terimi ekle (Örn: computer engineering, syllabus, internship, curriculum, contact).",
   "action_links": [
       {{
-          "intent": "Staj Belgelerini İndir",
-          "url": "https://hemsirelik.hacettepe.edu.tr/tr/staj_belgeleri-15"
+          "intent": "Staj Yönergesini İncele",
+          "url": "https://..."
+      }},
+      {{
+          "intent": "Download Internship Directive",
+          "url": "https://..."
       }}
   ],
   "announcement_schema": "CSS seçicisi",
@@ -540,14 +570,35 @@ Kurallar:
 # ==========================================
 async def process_single_hybrid_url(url: str, crawler: AsyncWebCrawler, client: genai.Client, model_name: str) -> Optional[tuple]:
     try:
-        # FAZ 1: Hızlı Ön İnceleme (Quick Review)
+        # Sayfayı çek
         config = CrawlerRunConfig(
             cache_mode=CacheMode.BYPASS, word_count_threshold=15, 
             excluded_tags=['nav', 'footer', 'header', 'script', 'style', 'aside', 'iframe', 'noscript'],
             remove_overlay_elements=True,
-            page_timeout=30000
+            page_timeout=60000 
         )
-        phase1_res = await crawler.arun(url=url, config=config)
+        result = await crawler.arun(url=url, config=config)
+
+        if not result.success:
+            print(f"[WARN] Sayfa çekilemedi: {url}")
+            return None, []
+
+        # 🚀 MD5 HASH KONTROLÜ (LLM FATURA KALKANI)
+        # Sayfanın text halini al ve parmak izini çıkar
+        page_content = result.markdown or result.html or ""
+        current_hash = calculate_md5(page_content)
+
+        # Eğer bu URL daha önce işlendiyse ve parmak izi DEĞİŞMEDİYSE:
+        if url in URL_CACHE and URL_CACHE[url].get("hash") == current_hash:
+            print(f"[⚡ CACHE HIT] {url} değişmemiş! LLM atlanıyor (Maliyet: 0 TL).")
+            # Hiç LLM'e gitmeden, dünkü hazır JSON'ı geri dön!
+            cached_entry = URL_CACHE[url]
+            return cached_entry["data"], cached_entry.get("discovered", [])
+
+        print(f"[🔍 YENİ/DEĞİŞMİŞ SAYFA] {url} analiz ediliyor...")
+
+        # --- FAZ 1: Hızlı Ön İnceleme ---
+        phase1_res = result # Use the already fetched result
         if not phase1_res.success:
             return None, []
             
@@ -591,7 +642,10 @@ Sadece geçerli bir JSON dön:
         tree_data = await crawl_tree_async(url, max_pages=150) # Kullanıcının isteğiyle 150
         discovered = list(tree_data.get("discovered_subdomains", []))
         
-        priority_keywords = ["mevzuat", "yönerge", "yonerge", "yonetmelik", "hakkinda", "tarihce"]
+        priority_keywords = [
+            "mevzuat", "yönerge", "yonerge", "yonetmelik", "hakkinda", "tarihce",
+            "about", "history", "directive", "regulation", "mission"
+        ]
         priority_urls = []
         for page_info in tree_data.get("sayfalar", []):
             if any(k in page_info["url"].lower() for k in priority_keywords):
@@ -614,6 +668,15 @@ Sadece geçerli bir JSON dön:
             entity_data["url"] = url
             entity_data["deep_crawl_files"] = len(tree_data.get("dosyalar", []))
             entity_data["deep_crawl_pages"] = len(tree_data.get("sayfalar", []))
+            
+            # 🚀 YENİ VERİYİ VE YENİ PARMAK İZİNİ CACHE'E KAYDET
+            URL_CACHE[url] = {
+                "hash": current_hash,
+                "data": entity_data,
+                "discovered": discovered
+            }
+            save_cache(URL_CACHE) # Diske yaz ki yarın hatırlasın
+            
             return entity_data, discovered
             
     except Exception as e:
