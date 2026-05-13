@@ -481,7 +481,7 @@
 
         if (cachedMaster) {
             masterData = JSON.parse(cachedMaster);
-            input.placeholder = "Ne arıyorsun? (Örn: staj, oidb)";
+            input.placeholder = "Ne arıyorsun? (Örn: oidb, erasmus)";
             showFiller(); // Cache var, anında göster!
         } else {
             showFiller(true);
