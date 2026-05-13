@@ -171,41 +171,38 @@ Bu yapı, veri setinin düzenli olarak güncel kalmasını sağlar.
 
 ## Şu Ana Kadar Yapılanlar
 
-- [x] Ana veri üretim hattı, seed listesi ve LLM tabanlı keşif akışı kuruldu
-- [x] Playwright ve Trafilatura ile dinamik/semantik içerik ayıklama eklendi
-- [x] `search_alias`, SEO enjeksiyonu ve `priority_score` optimizasyonları yapıldı
-- [x] Çok kelimeli arama ($and) ve bitişik karakter eşleşme (Shield) mantığı uygulandı
-- [x] Günlük duyuru senkronizasyonu ve haftalık `audit_pipeline` otomatize edildi
-- [x] EGO "Otobüs Nerede" sistemi için dinamik yönlendirme kartı entegre edildi
-- [x] URL temizliği (www stripping) ve gereksiz domain filtrelemeleri sağlandı
-- [x] Widget tarafına geçmiş takibi, "Geçmişi Temizle" ve UI sadeleştirmeleri yapıldı
-- [x] Crawler stabilizasyonu için timeout ve hata toleransları artırıldı
+- [x] Seed listesi ve LLM tabanlı (Gemma/Gemini) otonom kurum keşif akışı kuruldu
+- [x] Playwright ve Trafilatura kullanılarak JavaScript render'lı sitelerden semantik metin ayıklama sistemi entegre edildi
+- [x] MD5 hash karşılaştırması ile içeriği değişmeyen sayfalar tespit edilerek gereksiz LLM çağrıları ve tarama süresi önemli ölçüde azaltıldı
+- [x] Aynı kurumun TR ve EN sayfaları ayrı ayrı analiz edilip tek bir kayıt altında birleştirildi.
+- [x] LocalStorage ve SWR (Stale-While-Revalidate) mantığıyla sıfır bekleme süreli istemci taraflı JSON önbellek mekanizması uygulandı
+- [x] Hacettepe kurumsal kimliğine uygun arayüz tasarımı; iOS Safari zoom hatası, safe area desteği ve mobil UX iyileştirmeleri tamamlandı
+- [x] Çok kelimeli arama (`$and`), kelime bazlı önceliklendirme (`priority_score`) ve false-positive önleme (bitişik karakter eşleşme) Fuse.js üzerinde uygulandı
+- [x] Günlük duyuru senkronizasyonu ve haftalık tam veri yenileme (`audit_pipeline`) GitHub Actions üzerinden otomatize edildi; gereksiz domain ve `www` kirliliği temizlendi
 
 ## Yapılması Beklenenler
 
-- [ ] TR / EN sayfaların tek bir kurumsal kayıt altında birleştirilmesi
-- [ ] Duyuru içeriklerinde tam metin arama desteği ve UI entegrasyonu
-- [ ] Frontend tarafında büyük veriler için JSON cache mekanizması
-- [ ] Mobil uyumluluk ve erişilebilirlik iyileştirmeleri
+- [ ] Duyuru içeriklerinde tam metin arama desteği
+- [ ] Hangi kurumların veya anahtar kelimelerin ne sıklıkla arandığını ölçen, KV tabanlı anonim arama loglama altyapısı
+- [ ] Crawler job'larının bağımsız parçalara ayrılması ve GitHub Actions üzerinden kritik hata ile başarı bildirimleri için Telegram/Discord webhook desteği
 
 ## Katkıda Bulunmak İçin
 
-Katkı verirken şu akış genelde daha sağlıklı:
+Katkı verirken şu sırayı izlemek projenin veri bütünlüğü açısından kritiktir:
 
-1. Önce `public/outputs/` altındaki JSON yapısını inceleyin.
-2. Crawler veya utility tarafında dar kapsamlı bir değişiklik yapın.
-3. Tüm pipeline'ı çalıştırmak yerine mümkünse sadece ilgili modülü test edin.
-4. JSON farkını gördükten sonra arayüzü açıp sonucu manuel kontrol edin.
+1. `public/outputs/` altındaki `hybrid_master.json` ve `announcements_live.json` yapılarını inceleyerek veriyi tanıyın.
+2. Crawler, LLM promptları veya temizleyici utility tarafında dar kapsamlı bir değişiklik yapın.
+3. Tüm pipeline'ı çalıştırmak yerine yalnızca ilgili modülü veya belirli bir seed URL'sini test edin.
+4. `git diff` ile JSON farkını inceledikten sonra arayüzü yerel ortamda açıp arama sonuçlarının öneriler ve tam eşleşme mantığını bozmadığını doğrulayın.
 
-Dikkat edilmesi gereken yerler:
+PR açmadan önce dikkat edilmesi gereken noktalar:
 
-- kurumsal eşleşmelerde false positive üretmemek
-- kırık link oluşturabilecek selector veya kural değişiklikleri
-- fazla jenerik duyuru seçicileri
-- aynı birimin birden fazla kayıt halinde görünmesi
+- Kurumsal eşleşmelerde alakasız sonuçların (false positive) öne çıkmaması
+- CSS selector veya URL kuralı değişikliklerinin kırık bağlantıya yol açmaması
+- Veri birleştirme aşamasında aynı birimin birden fazla kayıt olarak görünmemesi
 
 ## Geliştirici Notları
 
-- Repo içinde eski veya deneysel crawler dosyaları bulunuyor; hepsi aktif akışın parçası değil.
-- Frontend tarafı build tool kullanmıyor; doğrudan statik dosya olarak çalışıyor.
-- Bazı scriptler çalışma sırasında eksik `inputs/` ve `outputs/` dizinlerini kendileri oluşturuyor.
+- Frontend tarafı herhangi bir build tool (Webpack, Vite, npm) kullanmaz. `ia-widget.js` doğrudan CDN mantığıyla herhangi bir sayfaya entegre edilebilecek şekilde tasarlanmıştır.
+- Repo içinde eski veya deneysel crawler scriptleri bulunabilir; ancak bunların tamamı aktif GitHub Actions akışının parçası değildir. Ana pipeline `hybrid_hacettepe_crawler_3.py` ve veri temizleyici scriptler üzerinden yürür.
+- Bazı Python scriptleri, eksik `inputs/` ve `outputs/` dizinlerini ilk çalıştırmada otomatik olarak oluşturur.
