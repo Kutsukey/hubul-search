@@ -202,6 +202,33 @@
 
 
 
+        .result-card.ann-card {
+            border-left: 3px solid var(--corporate-red);
+            background: #fafafa;
+        }
+        .ann-card-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .ann-source {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-muted);
+        }
+        .ann-title {
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.45;
+            text-decoration: none;
+            display: block;
+        }
+        .ann-title:hover { color: var(--corporate-red); text-decoration: underline; }
+
         @media (max-width: 600px) {
             body { padding: 40px 15px; }
             .logo { font-size: 42px; }
@@ -223,6 +250,7 @@
     let masterData = [];
     let currentAnnouncements = [];
     let fuseInstance = null; 
+    let fuseAnnouncements = null;
 
     const searchInput = document.getElementById('search-input');
     const resultsContainer = document.getElementById('results');
@@ -245,6 +273,32 @@
         localStorage.removeItem('hubul_history');
         showFillerCards(); 
     };
+
+    function buildAnnouncementsFuse(data) {
+        const flatAnnouncements = [];
+        const now = new Date();
+        data.forEach(group => {
+            (group.items || []).forEach(item => {
+                let isNew = false;
+                try {
+                    const parts = item.date.split(' ')[0].split('.');
+                    const d = new Date(parts[2], parts[1] - 1, parts[0]);
+                    isNew = (now - d) / (1000 * 60 * 60 * 24) <= 7;
+                } catch(e){}
+                item.isNew = isNew;
+
+                flatAnnouncements.push({
+                    title: item.title, link: item.link, source: item.source || group.entity, entity: group.entity,
+                    isNew: isNew,
+                    search_text: `${item.title} ${item.source || group.entity}`.toLowerCase()
+                });
+            });
+        });
+        fuseAnnouncements = new Fuse(flatAnnouncements, {
+            includeScore: true, includeMatches: true, threshold: 0.45, ignoreLocation: true, ignoreFieldNorm: true,
+            keys: [{ name: 'title', weight: 3.0 }, { name: 'source', weight: 1.5 }, { name: 'search_text', weight: 1.0 }]
+        });
+    }
 
     function showFillerCards() {
         if (!masterData || masterData.length === 0) return;
@@ -277,8 +331,87 @@
                 <div class="category-pill">${item.category || "Birim"}</div>
                 <h3 class="entity-title">${item.entity_name}</h3></div>`;
         });
+
+        // 📢 DUYURULAR ENJEKSİYONU
+        const priorityAnns = [];
+        currentAnnouncements.forEach(group => {
+            (group.items || []).forEach(it => {
+                if (priorityAnns.length < 2 && it.isNew) {
+                    priorityAnns.push({ ...it, source: group.entity });
+                }
+            });
+        });
+
+        if (priorityAnns.length > 0) {
+            html += `<div style="margin-top: 16px; margin-bottom: 12px; font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">📢 Güncel Duyurular</div>`;
+            priorityAnns.forEach(ann => {
+                html += `
+                    <div class="result-card ann-card" onclick="window.open('${ann.link}','_blank');">
+                        <div class="ann-card-header">
+                            <span class="announcement-tag">Yeni</span>
+                            <span class="ann-source">${ann.source}</span>
+                        </div>
+                        <div class="ann-title">${ann.title}</div>
+                    </div>
+                `;
+            });
+        }
+
         resultsContainer.innerHTML = html;
+
+        // 2. Durum: Sonuçlar listelendi, en alta zarif bir buton koyalım
+        if (results.length > 0 || annResults.length > 0) {
+            const footer = document.createElement('div');
+            footer.style.textAlign = 'center';
+            footer.style.marginTop = '30px';
+            footer.style.paddingBottom = '30px';
+            footer.innerHTML = `
+                <button onclick="window.hubul_report(this)" style="background:none; border:none; color:var(--h-text-muted); font-size:14px; cursor:pointer; text-decoration:underline; transition:0.2s;">
+                    Aradığını bulamadın mı? Bize bildir.
+                </button>
+            `;
+            resultsContainer.appendChild(footer);
+        }
     }
+
+    window.hubul_report = async (btnElement) => {
+        const query = document.getElementById('searchInput').value.trim();
+        if (!query) return;
+
+        const btn = btnElement || event.target;
+        const oldText = btn.innerText;
+        btn.innerText = "İletiliyor...";
+        btn.style.pointerEvents = "none";
+
+        try {
+            const SUPABASE_URL = "https://ksishnnumgdmouinmsfq.supabase.co"; 
+            const SUPABASE_ANON_KEY = "sb_publishable_3x7pu1oykynlDVb1-f6OgQ_ySyzqUry";
+
+            const response = await fetch(`${SUPABASE_URL}/rest/v1/search_logs`, {
+                method: 'POST',
+                headers: {
+                    'apikey': SUPABASE_ANON_KEY,
+                    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                    'Content-Type': 'application/json',
+                    'Prefer': 'return=minimal'
+                },
+                body: JSON.stringify({ query: query })
+            });
+
+            if (!response.ok) throw new Error("API Hatası");
+            btn.innerText = "Teşekkürler! İletildi.";
+            setTimeout(() => { 
+                btn.innerText = oldText; 
+                btn.style.pointerEvents = "all"; 
+            }, 3000);
+        } catch (e) {
+            btn.innerText = "Hata oluştu!";
+            setTimeout(() => { 
+                btn.innerText = oldText; 
+                btn.style.pointerEvents = "all"; 
+            }, 3000);
+        }
+    };
 
     async function initSystem() {
         try {
@@ -286,15 +419,32 @@
             masterData = await mRes.json();
             
             masterData.forEach(item => {
-                if (!item.search_alias && item.url) {
-                    item.search_alias = getSubdomain(item.url);
+                if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
+                
+                // SEO ENJEKSİYONU
+                let extraKeywords = "";
+                const eName = item.entity_name.toLowerCase();
+                
+                if (eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler")) {
+                    extraKeywords += " erasmus yurtdışı değişim farabi mevlana";
                 }
+                if (eName.includes("sağlık") && eName.includes("kültür")) {
+                    extraKeywords += " yemekhane yemek menü yurt barınma mediko";
+                }
+                if (eName.includes("bilgi işlem")) {
+                    extraKeywords += " eduroam wifi vpn şifre internet";
+                }
+
                 const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
-                item.search_text = `${item.search_alias} ${item.entity_name} ${intents}`.toLowerCase();
+                const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
+                item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""} ${extraKeywords}`.toLowerCase();
             });
 
             const aRes = await fetch('outputs/announcements_live.json').catch(() => null);
-            if (aRes && aRes.ok) currentAnnouncements = await aRes.json();
+            if (aRes && aRes.ok) {
+                currentAnnouncements = await aRes.json();
+                buildAnnouncementsFuse(currentAnnouncements);
+            }
 
             const options = {
                 includeScore: true,
@@ -340,37 +490,62 @@
             }))
         };
 
-        const fuseResults = fuseInstance.search(fuseQuery);
+        const fuseResults = fuseInstance.search(query);
 
-        let scoredResults = fuseResults.map(fr => {
-            let item = fr.item;
-            const nameLower = item.entity_name.toLocaleLowerCase('tr-TR');
+        let scoredResults = fuseResults.map(fr => ({
+            item: fr.item,
+            score: fr.score,
+            matchedIntents: fr.item.action_links
+                ? fr.item.action_links.filter(l => searchTerms.some(t => l.intent.toLocaleLowerCase('tr-TR').includes(t))).map(l => l.intent)
+                : []
+        }));
+
+        const exactQuery = query.toLowerCase().trim();
+        
+        scoredResults.forEach(r => {
+            const eName = r.item.entity_name.toLowerCase();
+            const eAlias = (r.item.search_alias || "").toLowerCase();
             
-            let score = (1 - fr.score) * 1000;
-            score += (item.priority_score || 0);
+            // YENİ: Kartın içindeki çiplerde (butonlarda) bu kelime geçiyor mu?
+            const hasIntentMatch = r.item.action_links && r.item.action_links.some(l => 
+                l.intent && new RegExp(`\\b${exactQuery}\\b`).test(l.intent.toLowerCase())
+            );
 
-            // VIP Bonuses
-            if (searchTerms.some(term => item.search_alias === term || item.search_alias === term + 'db' || item.search_alias + 'db' === term)) score += 10000;
-            if (searchTerms.includes("ai") && nameLower.includes("yapay zeka")) score += 10000;
+            let newScore = r.score;
 
-            const isAcademic = nameLower.includes("bölümü") || nameLower.includes("fakültesi") || nameLower.includes("ana bilim") || nameLower.includes("enstitü");
-            const isYurt = (query.includes("yurt") || query.includes("barınma") || query.includes("barinma")) && !query.includes("yurtdışı");
+            // KURAL 0: VIP KAVRAMSAL YONLENDIRME (Erasmus = AB Ofisi)
+            const isErasmusQuery = exactQuery.includes("erasmus") || exactQuery.includes("yurtdışı") || exactQuery.includes("değişim") || exactQuery.includes("avrupa") || exactQuery.includes("ab ofis");
+            const isEUOffice = eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler") || eAlias.includes("abofisi") || eAlias.includes("erasmus");
 
-            if (["takv", "akademik", "harç", "harc", "öde", "ode", "otomas", "transk", "mezun", "belge", "bilsis", "kayıt", "öğren", "ogren", "işler", "isler"].some(k => query.includes(k)) && nameLower.includes("öğrenci") && nameLower.includes("işleri")) score += 5000;
-            if ((isYurt || ["yemek", "ymek", "menü", "menu", "menn"].some(k => query.includes(k))) && nameLower.includes("sağlık") && nameLower.includes("kültür")) score += 5000;
-            if (["kütüphane", "kutuph"].some(k => query.includes(k)) && nameLower.includes("kütüphane")) score += 5000;
-            if (["eduroam", "vpn", "wifi", "internet", "şifre", "sifre", "unuttum"].some(k => query.includes(k)) && nameLower.includes("bilgi işlem")) score += 5000;
+            if (isErasmusQuery && isEUOffice) {
+                newScore = 0.000000001; // Mutlak Kraldan bile daha üstün skor!
+            }
+            // 1. KURAL: Gerçek ismin BİREBİR kendisiyse (Mutlak Kral)
+            else if (eName === exactQuery || eName === `${exactQuery} bölümü` || eName === `${exactQuery} mühendisliği`) {
+                newScore = 0.00000001; 
+            }
+            // 2. KURAL: Gerçek isim aranan kelimeyle BAŞLIYORSA 
+            else if (eName.startsWith(`${exactQuery} `) || eName === exactQuery) {
+                newScore = 0.0000001;
+            }
+            // 3. KURAL: Aranan kelime, gerçek ismin İÇİNDE tam kelime olarak geçiyorsa
+            else if (new RegExp(`\\b${exactQuery}\\b`).test(eName)) {
+                newScore = 0.000001;
+            }
+            // 4. KURAL: Alias (Takma ad) eşleşmesi
+            else if (eAlias === exactQuery) {
+                newScore = 0.0001;
+            }
+            // 5. KURAL (HAYAT KURTARAN): İsmi uymasa da ÇİPLERİNDEN birinde bu kelime varsa ceza yemesin!
+            else if (hasIntentMatch) {
+                newScore = 0.001; 
+            }
+            // 6. CEZA KURALI: Hiçbir yerinde tam geçmiyor, Fuse.js uydurmuş. +10 ver, göm!
+            else {
+                newScore = newScore + 10;
+            }
 
-            const isEU = nameLower.includes("dış ilişkiler") || nameLower.includes("uluslararası") || nameLower.includes("ab ofisi") || nameLower.includes("european") || nameLower.includes("avrupa") || nameLower.includes("erasmus");
-            if (["erasmus", "yurtdışı", "yurtdisi", "değişim", "degisim", "mevlana", "farabi"].some(k => query.includes(k)) && !isAcademic && isEU) score += 5000;
-
-            if (searchTerms.some(term => term.length > 3 && nameLower.includes(term))) score += 1000;
-
-            const matchedIntents = item.action_links
-                ? item.action_links.filter(l => searchTerms.some(t => l.intent.toLocaleLowerCase('tr-TR').includes(t))).map(l => l.intent)
-                : [];
-
-            return { item, score, matchedIntents };
+            r.score = newScore;
         });
 
         // 🛡️ RING KARTI İÇİN KESKİN NİŞANCI KALKANI
@@ -383,12 +558,41 @@
             return true;
         });
 
-        scoredResults.sort((a, b) => b.score - a.score);
-        renderResults(scoredResults.slice(0, 8), query);
+        scoredResults.sort((a, b) => a.score - b.score);
+        
+        // 🚀 ÇÖP ÖĞÜTÜCÜ: +10 Ceza yemiş (Yani alakasız olan) hiçbir şeyi ekranda gösterme!
+        scoredResults = scoredResults.filter(r => r.score < 10);
+
+        // 📢 DUYURU ARAMA ENJEKSİYONU
+        let annResults = [];
+        if (fuseAnnouncements) {
+            const annSearchResults = fuseAnnouncements.search(query);
+            annResults = annSearchResults.filter(r => r.score < 0.45).slice(0, 2).map(r => r.item);
+        }
+
+        renderResults(scoredResults.slice(0, 8), annResults, query);
     });
 
-    function renderResults(results, currentQuery = "") {
+    function renderResults(results, annResults = [], currentQuery = "") {
         resultsContainer.innerHTML = '';
+
+        if (annResults.length > 0) {
+            resultsContainer.innerHTML += `<div style="margin-bottom: 12px; font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">📢 Eşleşen Duyurular</div>`;
+            annResults.forEach(ann => {
+                const card = document.createElement('div');
+                card.className = 'result-card ann-card';
+                card.onclick = () => window.open(ann.link, '_blank');
+                card.innerHTML = `
+                    <div class="ann-card-header">
+                        <span class="announcement-tag">Yeni</span>
+                        <span class="ann-source">${ann.source}</span>
+                    </div>
+                    <div class="ann-title">${ann.title}</div>
+                `;
+                resultsContainer.appendChild(card);
+            });
+            resultsContainer.innerHTML += `<div style="margin-top: 16px; margin-bottom: 12px; font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">🏢 Kurum ve Birimler</div>`;
+        }
         results.forEach(res => {
             const item = res.item;
             const card = document.createElement('div');
