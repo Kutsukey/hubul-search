@@ -26,7 +26,7 @@
         }
 
         /* =========================================================
-        ARŞİVLENMİŞ TEMA: "Cyberpunk AI / Start-Up" Moru
+        ARŞİVLENMİŞ TEMA: "Cyberpunk AI / Start-Up / Hacettepe" Moru
         =========================================================
         :root {
             --h-primary: #4f46e5; 
@@ -80,11 +80,11 @@
 
         #hubul-panel {
             position: fixed;
-            bottom: 100px;
+            bottom: 100px; 
             right: 30px;
             width: 400px;
             height: 600px;
-            max-height: calc(100vh - 120px);
+            max-height: calc(100dvh - 120px); 
             background: 
                 linear-gradient(var(--h-bg-color), var(--h-bg-color)) padding-box,
                 conic-gradient(from var(--h-angle), transparent 20%, rgba(166, 25, 46, 0.1) 80%, rgba(166, 25, 46, 1) 100%) border-box;
@@ -97,7 +97,7 @@
             transform: translateY(15px);
             opacity: 0;
             pointer-events: none;
-            transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+            transition: opacity 0.2s ease-out, transform 0.2s ease-out, bottom 0.2s ease-out, max-height 0.2s ease-out; 
             z-index: 999998;
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             padding-bottom: env(safe-area-inset-bottom);
@@ -427,6 +427,12 @@
         return url.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0].toLowerCase();
     }
 
+    function isTitleMatchingSearch(title) {
+        const query = document.getElementById('h-input').value.toLowerCase().trim();
+        if (!query) return false;
+        return title.toLowerCase().includes(query);
+    }
+
     function isRingActive() {
         const now = new Date();
         const currentMins = now.getHours() * 60 + now.getMinutes();
@@ -478,10 +484,20 @@
 
     function buildAnnouncementsFuse(data) {
         const flatAnnouncements = [];
+        const now = new Date();
         data.forEach(group => {
             (group.items || []).forEach(item => {
+                let isNew = false;
+                try {
+                    const parts = item.date.split(' ')[0].split('.');
+                    const d = new Date(parts[2], parts[1] - 1, parts[0]);
+                    isNew = (now - d) / (1000 * 60 * 60 * 24) <= 7;
+                } catch (e) { }
+                item.isNew = isNew;
+
                 flatAnnouncements.push({
                     title: item.title, link: item.link, source: item.source || group.entity, entity: group.entity,
+                    isNew: isNew,
                     search_text: `${item.title} ${item.source || group.entity}`.toLowerCase()
                 });
             });
@@ -517,7 +533,7 @@
             try {
                 const lastFetch = localStorage.getItem(cacheTimeKey);
                 const cacheBuster = '?v=' + now;
-                
+
                 let fetchPromises = [];
                 let isMasterFetching = false;
 
@@ -525,7 +541,7 @@
                     fetchPromises.push(fetch(CONFIG.masterDataUrl + cacheBuster).then(res => res.json()));
                     isMasterFetching = true;
                 } else {
-                    fetchPromises.push(Promise.resolve(null)); 
+                    fetchPromises.push(Promise.resolve(null));
                 }
 
                 fetchPromises.push(fetch(CONFIG.announcementsUrl + cacheBuster).then(res => res.json()));
@@ -536,12 +552,32 @@
                     masterData = newMaster;
                     localStorage.setItem(cacheKey, JSON.stringify(newMaster));
                     localStorage.setItem(cacheTimeKey, now.toString());
-                    
+
                     masterData.forEach(item => {
                         if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
+                        
+                        // SEO ENJEKSİYONU: Makineye bilmediği kavramları gizlice öğretiyoruz
+                        let extraKeywords = "";
+                        const eName = item.entity_name.toLowerCase();
+                        
+                        // Erasmus ve Yurtdışı kelimelerini AB Ofisi'nin zihnine kazı!
+                        if (eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler")) {
+                            extraKeywords += " erasmus yurtdışı değişim farabi mevlana";
+                        }
+                        // Yemek, Yurt gibi kelimeleri SKS'nin zihnine kazı!
+                        if (eName.includes("sağlık") && eName.includes("kültür")) {
+                            extraKeywords += " yemekhane yemek menü yurt barınma mediko";
+                        }
+                        // İnternet sorunlarını Bilgi İşlem'e bağla!
+                        if (eName.includes("bilgi işlem")) {
+                            extraKeywords += " eduroam wifi vpn şifre internet";
+                        }
+
                         const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
                         const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
-                        item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""}`.toLowerCase();
+                        
+                        // extraKeywords'ü görünmez arama metnine (search_text) gömüyoruz!
+                        item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""} ${extraKeywords}`.toLowerCase();
                     });
                     buildMasterFuse(masterData);
                 }
@@ -549,7 +585,7 @@
                 if (newAnn && JSON.stringify(newAnn) !== cachedAnn) {
                     currentAnnouncements = newAnn;
                     localStorage.setItem(annCacheKey, JSON.stringify(newAnn));
-                    buildAnnouncementsFuse(newAnn); 
+                    buildAnnouncementsFuse(newAnn);
                 }
 
             } catch (e) { console.error("Veri güncellenemedi:", e); }
@@ -576,59 +612,72 @@
 
         let searchTerms = query.split(/\s+/);
 
-        let fuseQuery = {
-            $or: searchTerms.map(term => ({
-                $or: [
-                    { search_alias: term },
-                    { entity_name: term },
-                    { description: term },
-                    { search_text: term }
-                ]
-            }))
-        };
+        const entitySearchResults = fuseInstance.search(query);
 
-        const fuseResults = fuseInstance.search(fuseQuery);
-        let entityResults = fuseResults.map(fr => {
-            let item = fr.item;
-            const nameLower = item.entity_name.toLocaleLowerCase('tr-TR');
+        let entityResults = entitySearchResults.map(r => ({
+            item: r.item,
+            score: r.score,
+            matchedIntents: r.item.action_links
+                ? r.item.action_links.filter(l => searchTerms.some(t => l.intent.toLocaleLowerCase('tr-TR').includes(t))).map(l => l.intent)
+                : []
+        }));
 
-            let score = (1 - fr.score) * 1000;
-            score += (item.priority_score || 0);
+        // MUTLAK İTAAT VE CEZA KANUNU (Çipler Dahil!)
+        const exactQuery = query.toLowerCase().trim();
 
-            if (searchTerms.some(term => item.search_alias === term || item.search_alias === term + 'db' || item.search_alias + 'db' === term)) score += 10000;
-            if (searchTerms.includes("ai") && nameLower.includes("yapay zeka")) score += 10000;
+        entityResults.forEach(r => {
+            const eName = r.item.entity_name.toLowerCase();
+            const eAlias = (r.item.search_alias || "").toLowerCase();
 
-            const isAcademic = nameLower.includes("bölümü") || nameLower.includes("fakültesi") || nameLower.includes("ana bilim") || nameLower.includes("enstitü");
-            const isYurt = (query.includes("yurt") || query.includes("barınma") || query.includes("barinma")) && !query.includes("yurtdışı");
+            // YENİ: Kartın içindeki çiplerde (butonlarda) bu kelime geçiyor mu?
+            const hasIntentMatch = r.item.action_links && r.item.action_links.some(l =>
+                l.intent && new RegExp(`\\b${exactQuery}\\b`).test(l.intent.toLowerCase())
+            );
 
-            if (["takv", "akademik", "harç", "harc", "öde", "ode", "otomas", "transk", "mezun", "belge", "bilsis", "kayıt", "öğren", "ogren", "işler", "isler"].some(k => query.includes(k)) && nameLower.includes("öğrenci") && nameLower.includes("işleri")) score += 5000;
+            let newScore = r.score;
 
-            if ((isYurt || ["yemek", "ymek", "menü", "menu", "menn"].some(k => query.includes(k))) && nameLower.includes("sağlık") && nameLower.includes("kültür")) score += 5000;
+            // KURAL 0: VIP KAVRAMSAL YONLENDIRME (Erasmus = AB Ofisi)
+            const isErasmusQuery = exactQuery.includes("erasmus") || exactQuery.includes("yurtdışı") || exactQuery.includes("değişim") || exactQuery.includes("avrupa") || exactQuery.includes("ab ofis");
+            const isEUOffice = eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler") || eAlias.includes("abofisi") || eAlias.includes("erasmus");
 
-            if (["kütüphane", "kutuph"].some(k => query.includes(k)) && nameLower.includes("kütüphane")) score += 5000;
-
-            if (["eduroam", "vpn", "wifi", "internet", "şifre", "sifre", "unuttum"].some(k => query.includes(k)) && nameLower.includes("bilgi işlem")) score += 5000;
-
-            const isRingSearch = ["ring", "servis", "otobus"].some(k => query.includes(k));
-            const isIdariIsler = nameLower.includes("idari") && nameLower.includes("işler");
-            if (isRingSearch && isIdariIsler) {
-                if (!isRingActive()) return null;
-                score += 5000;
+            if (isErasmusQuery && isEUOffice) {
+                newScore = 0.000000001; // Mutlak Kraldan bile daha üstün skor!
+            }
+            // 1. KURAL: Gerçek ismin BİREBİR kendisiyse (Mutlak Kral)
+            else if (eName === exactQuery || eName === `${exactQuery} bölümü` || eName === `${exactQuery} mühendisliği`) {
+                newScore = 0.00000001;
+            }
+            // 2. KURAL: Gerçek isim aranan kelimeyle BAŞLIYORSA 
+            else if (eName.startsWith(`${exactQuery} `) || eName === exactQuery) {
+                newScore = 0.0000001;
+            }
+            // 3. KURAL: Aranan kelime, gerçek ismin İÇİNDE tam kelime olarak geçiyorsa
+            else if (new RegExp(`\\b${exactQuery}\\b`).test(eName)) {
+                newScore = 0.000001;
+            }
+            // 4. KURAL: Alias (Takma ad) eşleşmesi
+            else if (eAlias === exactQuery) {
+                newScore = 0.0001;
+            }
+            // 5. KURAL (HAYAT KURTARAN): İsmi uymasa da ÇİPLERİNDEN birinde bu kelime varsa ceza yemesin!
+            else if (hasIntentMatch) {
+                newScore = 0.001;
+            }
+            // 6. CEZA KURALI: Hiçbir yerinde tam geçmiyor, Fuse.js uydurmuş. +10 ver, göm!
+            else {
+                newScore = newScore + 10;
             }
 
-            const isEU = nameLower.includes("dış ilişkiler") || nameLower.includes("uluslararası") || nameLower.includes("ab ofisi") || nameLower.includes("european") || nameLower.includes("avrupa") || nameLower.includes("erasmus");
-            if (["erasmus", "yurtdışı", "yurtdisi", "değişim", "degisim", "mevlana", "farabi"].some(k => query.includes(k)) && !isAcademic && isEU) score += 5000;
+            r.score = newScore;
+        });
 
-            if (searchTerms.some(term => term.length > 3 && nameLower.includes(term))) score += 1000;
+        // Skorları bizim kurallara göre ZORLA yeniden sırala (Küçük skor = En üst sıra)
+        entityResults.sort((a, b) => a.score - b.score);
 
-            const matchedIntents = item.action_links
-                ? item.action_links.filter(l => searchTerms.some(t => l.intent.toLocaleLowerCase('tr-TR').includes(t))).map(l => l.intent)
-                : [];
+        // 🚀 ÇÖP ÖĞÜTÜCÜ: +10 Ceza yemiş (Yani alakasız olan) hiçbir şeyi ekranda gösterme!
+        entityResults = entityResults.filter(r => r.score < 10);
 
-            return { item, score, matchedIntents };
-        }).filter(res => res !== null);
-
-        // 🛡️ RING KARTI İÇİN KESKİN NİŞANCI KALKANI (Spring, Engineering Tıkacı)
+        // RING KARTI İÇİN KESKİN NİŞANCI KALKANI (Spring, Engineering Tıkacı)
         entityResults = entityResults.filter(r => {
             if (r.item.is_ring) {
                 // Kullanıcının yazdığı cümleyi kelime kelime parçala
@@ -645,7 +694,7 @@
             return true; // Ring değilse normal kurallarla devam et
         });
 
-        entityResults.sort((a, b) => b.score - a.score);
+
 
         let annResults = [];
         if (fuseAnnouncements) {
@@ -684,8 +733,14 @@
     function render(entityResults, annResults = [], isFiller = false, hasHistory = false) {
         const cont = document.getElementById('h-results');
 
+        // 1. Durum: Hiç sonuç yoksa
         if (entityResults.length === 0 && annResults.length === 0) {
-            cont.innerHTML = '<div class="h-empty">Sonuç bulunamadı.</div>';
+            cont.innerHTML = `
+                <div class="h-empty">
+                    <p style="margin-bottom: 12px;">Sonuç bulunamadı.</p>
+                    <button onclick="window.hubul_report(this)" class="h-suggest-btn">Aradığını bulamadın mı? Bize bildir</button>
+                </div>
+            `;
             return;
         }
 
@@ -743,15 +798,25 @@
             if (item.action_links && item.action_links.length > 0) {
                 cardHtml += '<div class="h-chips">';
 
-                // 🚀 ZEKİ SIRALAMA: Aranan kelimeye uyan butonları en öne çek!
+                // 🚀 ZEKİ SIRALAMA VE ZERO-STATE (BOŞ EKRAN) MANTIĞI
                 const searchVal = document.getElementById('h-input').value.toLowerCase().trim();
                 let sortedLinks = [...item.action_links];
 
                 if (searchVal.length > 2) {
+                    // 1. Durum: Kullanıcı arama yaptıysa, yazdığı kelimeye uyan butonları öne çek!
                     sortedLinks.sort((a, b) => {
                         const aMatch = a.intent.toLowerCase().includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
                         const bMatch = b.intent.toLowerCase().includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
-                        return bMatch - aMatch; // Eşleşenleri başa at
+                        return bMatch - aMatch; 
+                    });
+                } else {
+                    // 2. Durum: BOŞ EKRAN (Zero-State). Kullanıcı hiçbir şey yazmadı.
+                    // En çok tıklanan ve can alıcı butonları (Yeni Kazanan, Menü, Takvim) zorla öne çek!
+                    const hotTopics = ["yeni kazanan", "aday", "akademik takvim", "yemek", "menü", "öğrenci bilgi", "bilsis", "iletişim"];
+                    sortedLinks.sort((a, b) => {
+                        const aHot = hotTopics.some(ht => a.intent.toLowerCase().includes(ht)) ? 1 : 0;
+                        const bHot = hotTopics.some(ht => b.intent.toLowerCase().includes(ht)) ? 1 : 0;
+                        return bHot - aHot;
                     });
                 }
 
@@ -865,15 +930,24 @@
                 if (item.action_links && item.action_links.length > 0) {
                     cardHtml += '<div class="h-chips">';
 
-                    // 🚀 ZEKİ SIRALAMA: Aranan kelimeye uyan butonları en öne çek!
+                    // 🚀 ZEKİ SIRALAMA VE ZERO-STATE (BOŞ EKRAN) MANTIĞI
                     const searchVal = document.getElementById('h-input').value.toLowerCase().trim();
                     let sortedLinks = [...item.action_links];
 
                     if (searchVal.length > 2) {
+                        // 1. Durum: Kullanıcı arama yaptıysa, yazdığı kelimeye uyan butonları öne çek!
                         sortedLinks.sort((a, b) => {
                             const aMatch = a.intent.toLowerCase().includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
                             const bMatch = b.intent.toLowerCase().includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
-                            return bMatch - aMatch; // Eşleşenleri başa at
+                            return bMatch - aMatch; 
+                        });
+                    } else {
+                        // 2. Durum: BOŞ EKRAN (Zero-State). Kullanıcı hiçbir şey yazmadı.
+                        const hotTopics = ["yeni kazanan", "aday", "akademik takvim", "yemek", "menü", "öğrenci bilgi", "bilsis", "iletişim"];
+                        sortedLinks.sort((a, b) => {
+                            const aHot = hotTopics.some(ht => a.intent.toLowerCase().includes(ht)) ? 1 : 0;
+                            const bHot = hotTopics.some(ht => b.intent.toLowerCase().includes(ht)) ? 1 : 0;
+                            return bHot - aHot;
                         });
                     }
 
@@ -890,6 +964,17 @@
                 cardHtml += '</div>';
                 return cardHtml;
             }).join('');
+        }
+
+        // 2. Durum: Sonuçlar listelendi, en alta zarif bir buton koyalım
+        if (!isFiller) {
+            html += `
+                <div style="text-align: center; margin-top: 15px; padding-bottom: 10px;">
+                    <button onclick="window.hubul_report(this)" style="background:none; border:none; color:var(--h-text-muted); font-size:12px; cursor:pointer; text-decoration:underline; transition:0.2s;" onmouseover="this.style.color='var(--h-primary)'" onmouseout="this.style.color='var(--h-text-muted)'">
+                        Aradığını bulamadın mı? Bize bildir.
+                    </button>
+                </div>
+            `;
         }
 
         cont.innerHTML = html;
@@ -916,12 +1001,23 @@
         let items = [];
         let hasHistory = false;
 
-        const prioritySources = ["Öğrenci İşleri Daire Başkanlığı", "Sağlık, Kültür ve Spor Daire Başkanlığı"];
         let priorityAnns = [];
+        
+        // 🚀 1. DUYURU FİLTRESİ: Sadece "Baba" kurumların duyuruları anasayfada çıksın
+        const vipAnnSources = ["öğrenci işleri", "sağlık, kültür", "hacettepe üniversitesi", "öidb", "sksdb", "rektörlük"];
+
         currentAnnouncements.forEach(group => {
-            if (prioritySources.includes(group.entity)) {
-                (group.items || []).slice(0, 1).forEach(it => {
-                    priorityAnns.push({ ann: { ...it, source: group.entity, entity: group.entity }, score: 1000 });
+            const eName = (group.entity || "").toLowerCase();
+            const isVipSource = vipAnnSources.some(vip => eName.includes(vip));
+
+            // Eğer kurum VIP listedeyse ve duyurusu "Yeni" ise ana sayfaya al!
+            if (isVipSource) {
+                let matchCount = 0;
+                (group.items || []).forEach(it => {
+                    if (matchCount < 4 && (it.isNew || isTitleMatchingSearch(it.title))) {
+                        priorityAnns.push({ ann: { ...it, source: group.entity, entity: group.entity }, score: 100 });
+                        matchCount++;
+                    }
                 });
             }
         });
@@ -933,16 +1029,27 @@
                 if (found) { items.push({ item: found, score: 1, matchedIntents: [] }); hasHistory = true; }
             });
         }
+        
         if (items.length < 3) {
-            const vips = masterData.filter(m => {
-                if (m.is_ring) return true;
-                const n = m.entity_name.toLowerCase();
-                const a = (m.search_alias || "").toLowerCase();
-                return ["öidb", "yemekhane", "kütüphane"].some(k => n.includes(k) || a === k);
-            });
+            // 🚀 2. VIP 3'LÜ KART (İlk açılışta öğrenciyi vuracak altın vuruş)
+            const vips = [];
+            
+            // 1 numara: Ana Sayfa
+            const mainPage = masterData.find(m => m.entity_name === "Hacettepe Üniversitesi");
+            if (mainPage) vips.push(mainPage);
+            
+            // 2 numara: Yemekhane
+            const sks = masterData.find(m => m.entity_name.toLowerCase().includes("sağlık, kültür ve spor"));
+            if (sks) vips.push(sks);
+
+            // 3 numara: Öğrenci İşleri
+            const oidb = masterData.find(m => m.entity_name.toLowerCase().includes("öğrenci işleri"));
+            if (oidb) vips.push(oidb);
 
             vips.forEach(v => {
-                if (!items.find(i => i.item.entity_name === v.entity_name)) items.push({ item: v, score: 1, matchedIntents: [] });
+                if (!items.find(i => i.item.entity_name === v.entity_name) && items.length < 3) {
+                    items.push({ item: v, score: 1, matchedIntents: [] });
+                }
             });
         }
         render(items.slice(0, 3), priorityAnns.slice(0, 2), true, hasHistory);
@@ -955,10 +1062,84 @@
         localStorage.setItem('hubul_history', JSON.stringify(h.slice(0, 5)));
     };
 
+    window.hubul_report = async (btnElement) => {
+        const query = document.getElementById('h-input').value.trim();
+        if (!query) return;
+
+        // Tıklanan butonu bul ve görsel geri bildirim ver (Spam'i engelle)
+        const btn = btnElement || event.target;
+        const oldText = btn.innerText;
+        btn.innerText = "İletiliyor...";
+        btn.style.pointerEvents = "none";
+
+        try {
+            // 🚀 SUPABASE BİLGİLERİ (Proje devredileceği için sadece 'anon' key kullanıyoruz)
+            const SUPABASE_URL = "https://ksishnnumgdmouinmsfq.supabase.co"; 
+            const SUPABASE_ANON_KEY = "sb_publishable_3x7pu1oykynlDVb1-f6OgQ_ySyzqUry";
+
+            // Supabase REST API'sine doğrudan güvenli POST isteği
+            const response = await fetch(`${SUPABASE_URL}/rest/v1/search_logs`, {
+                method: 'POST',
+                headers: {
+                    'apikey': SUPABASE_ANON_KEY,
+                    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                    'Content-Type': 'application/json',
+                    'Prefer': 'return=minimal' // Sunucuyu yormamak için başarılıysa boş dön dedik
+                },
+                body: JSON.stringify({
+                    query: query
+                    // created_at tarihini Supabase otomatik ekleyecek
+                })
+            });
+
+            if (!response.ok) throw new Error("Supabase API Hatası");
+
+            btn.innerText = "Teşekkürler! İncelenmek üzere iletildi.";
+            btn.style.color = "var(--h-primary)";
+            
+            // 3 saniye sonra butonu eski haline getir
+            setTimeout(() => { 
+                btn.innerText = oldText; 
+                btn.style.color = "";
+                btn.style.pointerEvents = "all"; 
+            }, 3000);
+
+        } catch (e) {
+            console.error("Log gönderilemedi:", e);
+            btn.innerText = "Bağlantı hatası!";
+            setTimeout(() => { 
+                btn.innerText = oldText; 
+                btn.style.pointerEvents = "all"; 
+            }, 3000);
+        }
+    };
+
     window.hubul_clear_history = () => {
         localStorage.removeItem('hubul_history');
         showFiller();
     };
+
+    // 📱 MOBİL KLAVYE UYUMU (Visual Viewport API)
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', () => {
+            const panel = document.getElementById('hubul-panel');
+            if (panel && panel.classList.contains('h-panel-active')) {
+                // Ekranın toplam boyundan, klavye açıldıktan sonraki boyunu çıkarıyoruz
+                const keyboardHeight = window.innerHeight - window.visualViewport.height;
+
+                if (keyboardHeight > 50) {
+                    // KLAVYE AÇIK: Paneli klavyenin hemen üstüne (10px boşlukla) sabitle ve boyunu kısalt
+                    panel.style.bottom = (keyboardHeight + 10) + 'px';
+                    panel.style.maxHeight = (window.visualViewport.height - 20) + 'px';
+                } else {
+                    // KLAVYE KAPALI: Orijinal yerine (mobildeyse 85px, webde 100px) geri dön
+                    const isMobile = window.innerWidth <= 480;
+                    panel.style.bottom = isMobile ? '85px' : '100px';
+                    panel.style.maxHeight = 'calc(100dvh - 120px)';
+                }
+            }
+        });
+    }
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', inject);
