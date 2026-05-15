@@ -70,7 +70,8 @@ BLACKLIST_DOMAINS = [
     "google.com",
     "facebook.com",
     "twitter.com",
-    "instagram.com"
+    "instagram.com",
+    "endokrin.hacettepe.edu.tr"
 ]
 
 def normalize_text(text):

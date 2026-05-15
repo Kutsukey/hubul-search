@@ -42,7 +42,7 @@ class HacettepeEntity(BaseModel):
 # ==========================================
 # 2. A-Z LİNK TOPLAYICI (Filtreleme Dahil)
 # ==========================================
-BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr"]
+BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr", "endokrin.hacettepe.edu.tr"]
 
 def is_allowed_url(url: str) -> bool:
     """URL'nin taranmaya uygun olup olmadığını kontrol eder."""

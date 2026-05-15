@@ -310,7 +310,7 @@ async def crawl_tree_async(start_url, max_pages=12):
 # ==========================================
 # 3. A-Z LİNK TOPLAYICI
 # ==========================================
-BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr"]
+BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr", "endokrin.hacettepe.edu.tr"]
 
 def is_allowed_az_url(url: str) -> bool:
     try:

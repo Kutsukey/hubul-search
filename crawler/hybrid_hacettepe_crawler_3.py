@@ -45,6 +45,22 @@ def calculate_md5(text):
 # Global Cache Objesi
 URL_CACHE = load_cache()
 
+# KARA LISTE (BLACKLIST) ALTYAPISI
+BLACKLIST_FILE = "crawler_blacklist.json"
+
+def load_blacklist():
+    if os.path.exists(BLACKLIST_FILE):
+        with open(BLACKLIST_FILE, "r", encoding="utf-8") as f:
+            return set(json.load(f))
+    return set()
+
+def save_blacklist(blacklist_set):
+    with open(BLACKLIST_FILE, "w", encoding="utf-8") as f:
+        json.dump(list(blacklist_set), f, ensure_ascii=False, indent=4)
+
+# Global Blacklist Objesi
+URL_BLACKLIST = load_blacklist()
+
 # Playwright
 try:
     from playwright.async_api import async_playwright
@@ -376,6 +392,11 @@ async def crawl_tree_async(start_url, max_pages=150):
                     full_url = clean_url(urljoin(current_url, raw_href))
                     if not is_valid_internal_link(full_url): continue
                     
+                    # 🛡️ SUBDOMAIN DUVARI (Zombi Engelleyici)
+                    if "hacettepe.edu.tr" in full_url:
+                        if "tip.hacettepe.edu.tr" in full_url and full_url.count('.') > 3:
+                            continue # Alt domainlere geçişi YASAKLA! Sadece ana sayfayı tara.
+
                     # --- KEŞİF (DISCOVERY) MANTIĞI ---
                     target_netloc = urlparse(full_url).netloc.lower()
                     if target_netloc != start_netloc:
@@ -453,7 +474,7 @@ async def fetch_az_links(session: aiohttp.ClientSession) -> List[str]:
     alphabet = "ABCÇDEFGHIİJKLMNOÖPRSŞTUÜVYZ"
     base_url = "https://www.hacettepe.edu.tr/hakkinda/AZ/"
     all_links = set()
-    BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr", "egzersizdebeslenme.hacettepe.edu.tr"]
+    BLACKLIST_DOMAINS = ["bologna.hacettepe.edu.tr", "arsiv.hacettepe.edu.tr", "egzersizdebeslenme.hacettepe.edu.tr", "endokrin.hacettepe.edu.tr"]
     
     async def fetch_letter(char: str):
         url = f"{base_url}{char}"
@@ -508,6 +529,12 @@ async def extract_entity_data_with_gemma(
 2. AKSİYON LİNKLERİ (BILINGUAL DEEP LINKING): Botumuz bu birimin altında yüzlerce sayfa ve PDF buldu. Öğrenciler ve personel için İŞLEM veya BİLGİ niteliği taşıyan **TÜM ÖNEMLİ LİNKLERİ** seç.
    - 🌍 DİKKAT (ÇİFT DİL): Eğer sayfanın hem Türkçe hem İngilizce versiyonu veya belgeleri varsa (Örn: "Staj Yönergesi" ve "Internship Directive"), İKİSİNİ DE AYRI AYRI EKLE! Yabancı öğrenciler için İngilizce belgeleri kesinlikle atlama.
    - Bunları "Staj Yönergesini İncele", "Download Internship Directive" gibi net, tıklanabilir EYLEM (intent) isimleriyle eşleştirerek 'action_links' listesine ekle.
+
+3. MEGA-KART ASİMİLASYONU (TIP FAKÜLTESİ ÖZEL): 
+   - Tıp Fakültesi sayfasının menülerinde veya içeriğinde bulunan "Anabilim Dalları" (Örn: Anatomi, Kardiyoloji, Beyin ve Sinir Cerrahisi vb.) sayfalarının linklerini BİREBİR HTML href özniteliklerinden al!
+   - ÇOK ÖNEMLİ: Linkleri kendin uydurma! Sayfadaki gerçek URL'leri kopyala (Genellikle sonu ID ile biter, Örn: https://tip.hacettepe.edu.tr/tr/beyin_ve_sinir_cerrahisi_anabilim_dali-104).
+   - Bu anabilim dallarını ayrı bir kurum yapma; hepsini "Tıp Fakültesi" kartının 'action_links' listesine ekle. 
+   - Örnek: {{"intent": "Beyin ve Sinir Cerrahisi Anabilim Dalı", "url": "GERÇEK_HREF_LINKI"}}
 
 KATEGORİ SEÇİMİ: "Rektörlük", "Fakülte", "Enstitü", "Yüksekokul / Meslek Yüksekokulu", "Bölüm", "Ana Bilim Dalı", "İdari Birim", "Koordinatörlük", "Araştırma Merkezi", "Diğer" arasından seç.
 
@@ -569,6 +596,12 @@ Kurallar:
 # 5. TWO-PHASE SINGLE HYBRID URL PROCESSOR
 # ==========================================
 async def process_single_hybrid_url(url: str, crawler: AsyncWebCrawler, client: genai.Client, model_name: str) -> Optional[tuple]:
+    
+    # 1. ASAMA: KARA LISTE KONTROLÜ
+    if url in URL_BLACKLIST:
+        print(f"[KARA LISTE] {url} daha önce tamamen öldüğü tespit edildi, atlanıyor!")
+        return None
+
     try:
         # Sayfayı çek
         config = CrawlerRunConfig(
@@ -580,7 +613,12 @@ async def process_single_hybrid_url(url: str, crawler: AsyncWebCrawler, client: 
         result = await crawler.arun(url=url, config=config)
 
         if not result.success:
-            print(f"[WARN] Sayfa çekilemedi: {url}")
+            print(f"[OLU LINK] Sayfa çekilemedi veya Timeout yedi: {url}")
+            
+            # ACIMADAN KARA LISTEYE EKLE VE DISKE YAZ
+            URL_BLACKLIST.add(url)
+            save_blacklist(URL_BLACKLIST)
+            
             return None, []
 
         # 🚀 MD5 HASH KONTROLÜ (LLM FATURA KALKANI)
