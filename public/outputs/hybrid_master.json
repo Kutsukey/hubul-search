@@ -2967,7 +2967,7 @@
                 "url": "https://beytepeanaokulu.hacettepe.edu.tr/tr/saglik_birimi"
             },
             {
-                "intent": "Çocuk Kütüphanesinu İncele",
+                "intent": "HÜ Çocuk Kütüphanesinu İncele",
                 "url": "https://beytepeanaokulu.hacettepe.edu.tr/tr/cocuk_kutuphanesi"
             },
             {
@@ -3007,7 +3007,7 @@
         "sub_branches": [
             "Rehberlik ve Psikolojik Danışma Birimi",
             "Sağlık Birimi",
-            "Çocuk Kütüphanesi",
+            "HÜ Çocuk Kütüphanesi",
             "Bilim ve Keşif Merkezi",
             "Spor Atölyesi",
             "Sanat Atölyesi",
@@ -5043,7 +5043,7 @@
         "deep_crawl_pages": 21,
         "is_active": true,
         "search_alias": "dogramacianaokulu",
-        "priority_score": 30,
+        "priority_score": -30,
         "entity_type": "DİĞER",
         "search_text": "dogramacianaokulu anaokulları anaokulları yönergesini indir (pdf) eğitim felsefesini incele eğitim programını görüntüle anaokulları yönergesini oku personel listesini görüntüle gelişimsel değerlendirme birimi sağlık birimi müzik atölyesi detayları spor atölyesi detayları projeleri incele güncel duyuruları takip et foto galerileri incele"
     },
@@ -8491,7 +8491,7 @@
         "search_alias": "foodbiotech",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphanesi'ne git",
+        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphane'ne git",
         "announcement_url": "https://foodbiotech.hacettepe.edu.tr"
     },
     {
@@ -10693,7 +10693,7 @@
                 "url": "https://history.hacettepe.edu.tr/tr/menu/arastirma_oncelikli_alanlar-67"
             },
             {
-                "intent": "Ercüment Kuran Kütüphanesi'ne Eriş",
+                "intent": "HÜ Ercüment Kuran Kütüphanesi'ne Eriş",
                 "url": "https://history.hacettepe.edu.tr/tr/menu/ercument_kuran_kutuphanesi-69"
             },
             {
@@ -10729,7 +10729,7 @@
                 "url": "https://history.hacettepe.edu.tr/tr/menu/yatay_gecis-33"
             },
             {
-                "intent": "Ercüment Kuran Kütüphanesine Git",
+                "intent": "HÜ Ercüment Kuran Kütüphanesine Git",
                 "url": "https://history.hacettepe.edu.tr/tr/menu/ercument_kuran_kutuphanesi-69"
             },
             {
@@ -10762,7 +10762,7 @@
             "Koordinatörlükler",
             "Öğretim Üyeleri",
             "Araştırma Öncelikli Alanlar",
-            "Ercüment Kuran Kütüphanesi"
+            "HÜ Ercüment Kuran Kütüphanesi"
         ],
         "url": "https://history.hacettepe.edu.tr",
         "deep_crawl_files": 0,
@@ -10771,7 +10771,7 @@
         "search_alias": "history",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "history tarih bölümü lisans programınu incele yüksek lisans programınu incele doktora programınu incele belgeler ve formları indir yönetmelik ve yönergeleri oku isteğe bağlı staj yatay geçiş koşullarını öğren değişim programlarını araştır çift anadal ve yandal wıu-hacettepe yüksek lisans programını incele araştırma öncelikli alanları incele ercüment kuran kütüphanesi'ne eriş akademik tezleri araştır türkiye kaynakçası'na git lisans programı yüksek lisans programı doktora programı belgeleri ve formları indir değişim programlarını incele yatay geçiş şartlarını ercüment kuran kütüphanesine git türkiye kaynakçasına eriş tezler arşivini görüntüle duyuruları takip et haberleri oku etkinlikleri"
+        "search_text": "history tarih bölümü lisans programınu incele yüksek lisans programınu incele doktora programınu incele belgeler ve formları indir yönetmelik ve yönergeleri oku isteğe bağlı staj yatay geçiş koşullarını öğren değişim programlarını araştır çift anadal ve yandal wıu-hacettepe yüksek lisans programını incele araştırma öncelikli alanları incele ercüment kuran kütüphane'ne eriş akademik tezleri araştır türkiye kaynakçası'na git lisans programı yüksek lisans programı doktora programı belgeleri ve formları indir değişim programlarını incele yatay geçiş şartlarını ercüment kuran kütüphanesine git türkiye kaynakçasına eriş tezler arşivini görüntüle duyuruları takip et haberleri oku etkinlikleri"
     },
     {
         "entity_name": "Hubiobank",
@@ -15534,7 +15534,7 @@
         "search_text": "magum medisinal kimya araştırma, geliştirme ve uygulama merkezi (magum) genel tanıtımı oku misyon ve vizyonu incele merkez yönetmeliğini oku yönetim kadrosunu görüntüle etkinlikleri takip et aktif projeleri incele duyuruları görüntüle iletişime ulaş uygulama alanlarını incele dökümantasyon çalışmalarına git ilaç sentez çalışmalarını ilaç analiz çalışmalarını ilaç aktivite çalışmalarını"
     },
     {
-        "entity_name": "Kütüphanesi",
+        "entity_name": "Kütüphane",
         "category": "İdari Birim",
         "description": "Hacettepe Üniversitesi öğrencileri ve akademik personeline yönelik e-kaynaklar, dijital veritabanları, kitap ödünç verme, grup çalışma odaları, intihal kontrol programları ve akademik araştırma destek hizmetleri sunan merkezi birimdir.",
         "action_links": [
@@ -15642,7 +15642,7 @@
         "search_alias": "library",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "library kütüphanesi kütüphane üyelik formunu doldur kütüphane hesabıma giriş yap e-kaynaklara eriş oku ve yayımla anlaşmalarını incele hü açık erişim sistemini kullan hü yayınlarını görüntüle eğitim ve etkinlik takvimini hü akademik dergilerine eriş kampüs dışı erişim ayarlarını yap grup çalışma odası rezervasyonu yap engelsiz kütüphane hizmetlerini incele kurum dışı kullanıcı ni al intihal kontrol programlarını incele referans yönetim programlarını kullan danışma ve eğitim hizmetlerine eriş ödünç verme kurallarını oku belge sağlama talebi oluştur kaynak siparişi ve bağış yap kütüphane staj olanaklarını incele kütüphane kullanım kurallarını oku duyuru arşivine git üş ve öneri formunu doldur"
+        "search_text": "library kütüphane kütüphane üyelik formunu doldur kütüphane hesabıma giriş yap e-kaynaklara eriş oku ve yayımla anlaşmalarını incele hü açık erişim sistemini kullan hü yayınlarını görüntüle eğitim ve etkinlik takvimini hü akademik dergilerine eriş kampüs dışı erişim ayarlarını yap grup çalışma odası rezervasyonu yap engelsiz kütüphane hizmetlerini incele kurum dışı kullanıcı ni al intihal kontrol programlarını incele referans yönetim programlarını kullan danışma ve eğitim hizmetlerine eriş ödünç verme kurallarını oku belge sağlama talebi oluştur kaynak siparişi ve bağış yap kütüphane staj olanaklarını incele kütüphane kullanım kurallarını oku duyuru arşivine git üş ve öneri formunu doldur"
     },
     {
         "entity_name": "Kalite ve Uygunluk Değerlendirme Mühendisliği",
@@ -25971,7 +25971,7 @@
         "search_text": "baskentmezun başkent osb teknik bilimler meslek yüksekokulu mezun bilgi sistemi sisteme kaydol sisteme giriş yap şifremi sıfırla"
     },
     {
-        "entity_name": "Kütüphaneleri İç Kontrol Sistemi",
+        "entity_name": "HÜ Kütüphaneleri İç Kontrol Sistemi",
         "category": "İdari Birim",
         "description": "Hacettepe Üniversitesi kütüphane birimlerinin stratejik planlarını, hizmet tablolarını, iş akışlarını, prosedürlerini ve iç kontrol süreçlerini yöneten idari portal.",
         "action_links": [
@@ -26040,28 +26040,28 @@
                 "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=PROSEDÜRLER_%2F_TALİMATLAR_/_İŞ_AKIŞLARI"
             },
             {
-                "intent": "Beytepe Kütüphanesi Müdürlüğü Prosedürünü Oku",
+                "intent": "HÜ Beytepe Kütüphanesi Müdürlüğü Prosedürünü Oku",
                 "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=BEYTEPE_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
-                "intent": "Sağlık Bilimleri Kütüphanesi Müdürlüğü Prosedürünü Oku",
+                "intent": "HÜ Sağlık Bilimleri Kütüphanesi Müdürlüğü Prosedürünü Oku",
                 "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=SAĞLIK_BİLİMLERİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
-                "intent": "Konservatuvar Kütüphanesi Müdürlüğü Prosedürünü Oku",
+                "intent": "HÜ Konservatuvar Kütüphanesi Müdürlüğü Prosedürünü Oku",
                 "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=KONSERVATUVAR_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             },
             {
-                "intent": "Hukuk Fakültesi Kütüphanesi Müdürlüğü Prosedürünü Oku",
+                "intent": "HÜ Hukuk Fakültesi Kütüphanesi Müdürlüğü Prosedürünü Oku",
                 "url": "https://libraryworkflows.hacettepe.edu.tr/index.php?title=HUKUK_FAKÜLTESİ_KÜTÜPHANESİ_MÜDÜRLÜĞÜ"
             }
         ],
         "announcement_schema": null,
         "sub_branches": [
-            "Beytepe Kütüphanesi Müdürlüğü",
-            "Sağlık Bilimleri Kütüphanesi Müdürlüğü",
-            "Konservatuvar Kütüphanesi Müdürlüğü",
-            "Hukuk Fakültesi Kütüphanesi Müdürlüğü",
+            "HÜ Beytepe Kütüphanesi Müdürlüğü",
+            "HÜ Sağlık Bilimleri Kütüphanesi Müdürlüğü",
+            "HÜ Konservatuvar Kütüphanesi Müdürlüğü",
+            "HÜ Hukuk Fakültesi Kütüphanesi Müdürlüğü",
             "Bilgi Teknolojileri Birimi",
             "Kurumsal İletişim ve Geliştirme Birimi",
             "Satın Alma / Taşınır Kayıt Birimi",
@@ -26074,7 +26074,7 @@
         "search_alias": "libraryworkflows",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "libraryworkflows kütüphaneleri iç kontrol sistemi 2025 kullanıcı memnuniyeti anketini doldur stratejik amaçları incele hizmet tablosunu görüntüle gelirler prosedürünü oku anket kurumsal iletişim ve geliştirme birimi satın alma ve taşınır kayıt iş akışlarını incele sekreterlik birimi iş akışlarını görüntüle kataloglama ve sınıflama birimi prosedürünü oku sistemin ana sayfasına dön misyon ve vizyonu görüntüle organizasyon şemasını incele faaliyet raporlarını oku stratejik planları görüntüle 2024 kurum içi değerlendirme raporunu indir prosedür, talimat ve iş akışlarını incele beytepe kütüphanesi müdürlüğü prosedürünü oku sağlık bilimleri kütüphanesi müdürlüğü prosedürünü oku konservatuvar kütüphanesi müdürlüğü prosedürünü oku hukuk fakültesi kütüphanesi müdürlüğü prosedürünü oku"
+        "search_text": "libraryworkflows kütüphaneler iç kontrol sistemi 2025 kullanıcı memnuniyeti anketini doldur stratejik amaçları incele hizmet tablosunu görüntüle gelirler prosedürünü oku anket kurumsal iletişim ve geliştirme birimi satın alma ve taşınır kayıt iş akışlarını incele sekreterlik birimi iş akışlarını görüntüle kataloglama ve sınıflama birimi prosedürünü oku sistemin ana sayfasına dön misyon ve vizyonu görüntüle organizasyon şemasını incele faaliyet raporlarını oku stratejik planları görüntüle 2024 kurum içi değerlendirme raporunu indir prosedür, talimat ve iş akışlarını incele beytepe kütüphane müdürlüğü prosedürünü oku sağlık bilimleri kütüphane müdürlüğü prosedürünü oku konservatuvar kütüphane müdürlüğü prosedürünü oku hukuk fakültesi kütüphane müdürlüğü prosedürünü oku"
     },
     {
         "entity_name": "Sürdürülebilir Kalkınma Koordinatörlüğü",
