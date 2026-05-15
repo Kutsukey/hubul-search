@@ -187,6 +187,7 @@ Bu yapı, veri setinin düzenli olarak güncel kalmasını sağlar.
 - [x] Supabase tabanlı kullanıcı "Bulamadım" raporlama sistemi `ia-widget.js`'e entegre edildi; buton durumu (iletiliyor / teşekkürler / hata) yönetimi eklendi
 - [x] Visual Viewport API ile mobil klavye uyumu sağlandı; klavye açıldığında widget paneli otomatik olarak klavye üstüne sabitleniyor
 - [x] `endokrin.hacettepe.edu.tr` kara listeye alındı (crawler, announcement_pinger ve eski crawler sürümlerinde)
+- [x] Otonom Temizlikçi (Cleanup) protokolü: `veri_temizleyici.py` işlem bittikten sonra ham `output_*.json` dosyalarını otomatik olarak temizliyor
 
 ## Yapılması Beklenenler
 
