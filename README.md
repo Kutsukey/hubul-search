@@ -179,11 +179,20 @@ Bu yapı, veri setinin düzenli olarak güncel kalmasını sağlar.
 - [x] Hacettepe kurumsal kimliğine uygun arayüz tasarımı; iOS Safari zoom hatası, safe area desteği ve mobil UX iyileştirmeleri tamamlandı
 - [x] Çok kelimeli arama (`$and`), kelime bazlı önceliklendirme (`priority_score`) ve false-positive önleme (bitişik karakter eşleşme) Fuse.js üzerinde uygulandı
 - [x] Günlük duyuru senkronizasyonu ve haftalık tam veri yenileme (`audit_pipeline`) GitHub Actions üzerinden otomatize edildi; gereksiz domain ve `www` kirliliği temizlendi
+- [x] Kalıcı URL kara listesi (`crawler_blacklist.json`) eklendi; ölü veya zaman aşımına uğrayan bağlantılar otomatik olarak diske yazılarak sonraki çalıştırmalarda atlanıyor
+- [x] Tıp Fakültesi için Mega-Kart asimilasyon prompt'u eklendi; anabilim dalı linkleri ayrı kayıt yerine tek kart altında toplandı
+- [x] Arama motoru SEO enjeksiyonu: AB Ofisi/Erasmus, SKS/yemekhane ve Bilgi İşlem/eduroam için görünmez `search_text` anahtar kelimeleri eklendi
+- [x] Fuse.js sorgu motoru yeniden yazıldı; kavramsal yönlendirme (Erasmus → AB Ofisi), birebir isim eşleşme bonusu ve arayüz skoru yönetimi iyileştirildi
+- [x] `isNew` (7 gün) flag'i ile duyuruların önceliklendirme mantığı güncellendi; ana sayfa ve widget'ta VIP duyuru filtrelemesi uygulandı
+- [x] Supabase tabanlı kullanıcı "Bulamadım" raporlama sistemi `ia-widget.js`'e entegre edildi; buton durumu (iletiliyor / teşekkürler / hata) yönetimi eklendi
+- [x] Visual Viewport API ile mobil klavye uyumu sağlandı; klavye açıldığında widget paneli otomatik olarak klavye üstüne sabitleniyor
+- [x] `endokrin.hacettepe.edu.tr` kara listeye alındı (crawler, announcement_pinger ve eski crawler sürümlerinde)
 
 ## Yapılması Beklenenler
 
+- [ ] README'ye bakım (maintenance) kılavuzu eklenmesi: kara liste yönetimi, kara listeye alınmış domain'lerin nasıl çıkarılacağı, Supabase loglarının nasıl okunacağı ve periyodik veri yenileme prosedürü
 - [ ] Duyuru içeriklerinde tam metin arama desteği
-- [ ] Hangi kurumların veya anahtar kelimelerin ne sıklıkla arandığını ölçen, KV tabanlı anonim arama loglama altyapısı
+- [ ] Hangi kurumların veya anahtar kelimelerin ne sıklıkla arandığını ölçen anonim arama loglama altyapısı (Supabase `search_logs` tablosu hazır; otomatik kayıt mekanizması eklenecek)
 - [ ] Crawler job'larının bağımsız parçalara ayrılması ve GitHub Actions üzerinden kritik hata ile başarı bildirimleri için Telegram/Discord webhook desteği
 
 ## Katkıda Bulunmak İçin
