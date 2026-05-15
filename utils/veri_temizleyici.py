@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import glob
 from collections import defaultdict
 
 def turkish_lower(s):
@@ -303,5 +304,22 @@ if __name__ == "__main__":
     
     if os.path.exists(target_file):
         clean_and_merge_json(target_file)
+        
+        # 🧹 TEMİZLİK PROTOKOLÜ: İşlem bittikten sonra ham dosyaları yok et!
+        print("\n[Cleanup] Cop toplama (Cleanup) baslatiliyor...")
+        hedef_dizin = os.path.dirname(target_file)
+
+        # İsmi output_ ile başlayan tüm ham JSON'ları bul
+        ham_dosyalar = glob.glob(os.path.join(hedef_dizin, "output_*_hybrid.json"))
+        silinen_sayi = 0
+
+        for dosya in ham_dosyalar:
+            try:
+                os.remove(dosya)
+                silinen_sayi += 1
+            except Exception as e:
+                print(f"(!) Silinemedi: {dosya} - Hata: {e}")
+
+        print(f"[*] Toplam {silinen_sayi} ham JSON dosyasi silindi. Mutfak tertemiz!")
     else:
         print(f"HATA: {target_file} dosyası bulunamadı. Lütfen 'public/outputs/' dizinini kontrol edin.")

@@ -647,7 +647,7 @@
     {
         "entity_name": "European Union Office",
         "category": "Koordinatörlük",
-        "description": "Hacettepe Üniversitesi'nin Erasmus+ programları, Avrupa Birliği projeleri, öğrenci ve personel hareketlilikleri ile konsorsiyum süreçlerini yöneten ve koordine eden merkez birimdir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
+        "description": "Hacettepe Üniversitesi'nin Erasmus+ programları, Avrupa Birliği projeleri, öğrenci ve personel hareketlilikleri ile konsorsiyum süreçlerini yöneten ve koordine eden merkez birimdir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Giden Öğrenci Hareketliliğinu İncele",
@@ -3024,7 +3024,7 @@
         "search_alias": "beytepeanaokulu",
         "priority_score": 30,
         "entity_type": "DİĞER",
-        "search_text": "beytepeanaokulu beytepe anaokulu eğitim felsefesini incele eğitim programını görüntüle personel listesini rehberlik ve psikolojik danışma birimi sağlık birimi çocuk kütüphanesinu incele bilim ve keşif merkezi faaliyetlerini spor atölyesi programına bak sanat atölyesi çalışmalarını incele satranç atölyesi ni al çocuk gelişimi takip birimi'ni tanı çocuk yogası etkinliklerini yabancı dil atölyesi robotik kodlama - maker atölyesi"
+        "search_text": "beytepeanaokulu beytepe anaokulu eğitim felsefesini incele eğitim programını görüntüle personel listesini rehberlik ve psikolojik danışma birimi sağlık birimi hü çocuk kütüphanesinu incele bilim ve keşif merkezi faaliyetlerini spor atölyesi programına bak sanat atölyesi çalışmalarını incele satranç atölyesi ni al çocuk gelişimi takip birimi'ni tanı çocuk yogası etkinliklerini yabancı dil atölyesi robotik kodlama - maker atölyesi"
     },
     {
         "entity_name": "Bilgisayar Grafiği Anabilim Dalı",
@@ -5043,7 +5043,7 @@
         "deep_crawl_pages": 21,
         "is_active": true,
         "search_alias": "dogramacianaokulu",
-        "priority_score": -30,
+        "priority_score": 30,
         "entity_type": "DİĞER",
         "search_text": "dogramacianaokulu anaokulları anaokulları yönergesini indir (pdf) eğitim felsefesini incele eğitim programını görüntüle anaokulları yönergesini oku personel listesini görüntüle gelişimsel değerlendirme birimi sağlık birimi müzik atölyesi detayları spor atölyesi detayları projeleri incele güncel duyuruları takip et foto galerileri incele"
     },
@@ -7952,9 +7952,9 @@
         "deep_crawl_pages": 133,
         "is_active": true,
         "search_alias": "fdo",
-        "priority_score": 80,
-        "entity_type": "ENSTİTÜ",
-        "search_text": "fdo lisansüstü eğitim enstitüsü duyuruları görüntüle yeni yayınları incele etkinlikleri takip et  misyon ve vizyonu oku tarihçeyi incele yönetim kadrosunu koordinatörlükleri ve komisyonları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele idari personeli listele lisans programlarını incele yüksek lisans programlarını incele tezler ve araştırmaları incele yararlı belgeleri indir aday öğrenciler için önemli  oku iletişim ne eriş erasmus programı bilgisi al farabi/mevlana programı bilgisi al çap ve yandal rehberini oku mezun bilgi sistemine git hızlı destek al sıkça sorulan soruları (s.s.s.) oku araştırma öncelik alanları belgesini incele öğrenci kılavuzunu (student booklet) indir güncel duyuruları görüntüle yayınları incele etkinlik takvimini birim tarihçesini incele yönetim kadrosunu görüntüle koordinatörlükler ve komisyonları öğretim üyeleri listesine bak idari personel ne ulaş lisans nı incele yüksek lisans nı incele tezler ve araştırmaları görüntüle iletişime ulaş erasmus programı ni al farabi ve mevlana programlarını incele hızlı destek sıkça sorulan soruları (s.s.s.) incele araştırma öncelik alanları belgesini indir öğrenci kılavuzunu / student booklet incele mezun bilgi sistemine giriş yap kurumsal e-posta sistemine git",
+        "priority_score": 40,
+        "entity_type": "ANA BİLİM DALI",
+        "search_text": "fdo fransız dili eğitimi anabilim dalı duyuruları görüntüle yeni yayınları incele etkinlikleri takip et  misyon ve vizyonu oku tarihçeyi incele yönetim kadrosunu koordinatörlükleri ve komisyonları incele öğretim üyelerini listele öğretim evlilerini listele araştırma evlilerini listele idari personeli listele lisans programlarını incele yüksek lisans programlarını incele tezler ve araştırmaları incele yararlı belgeleri indir aday öğrenciler için önemli  oku iletişim ne eriş erasmus programı bilgisi al farabi/mevlana programı bilgisi al çap ve yandal rehberini oku mezun bilgi sistemine git hızlı destek al sıkça sorulan soruları (s.s.s.) oku araştırma öncelik alanları belgesini incele öğrenci kılavuzunu (student booklet) indir güncel duyuruları görüntüle yayınları incele etkinlik takvimini birim tarihçesini incele yönetim kadrosunu görüntüle koordinatörlükler ve komisyonları öğretim üyeleri listesine bak idari personel ne ulaş lisans nı incele yüksek lisans nı incele tezler ve araştırmaları görüntüle iletişime ulaş erasmus programı ni al farabi ve mevlana programlarını incele hızlı destek sıkça sorulan soruları (s.s.s.) incele araştırma öncelik alanları belgesini indir öğrenci kılavuzunu / student booklet incele mezun bilgi sistemine giriş yap kurumsal e-posta sistemine git",
         "announcement_url": "https://fdo.hacettepe.edu.tr"
     },
     {
@@ -8388,7 +8388,7 @@
     {
         "entity_name": "Uluslararası Gıda Biyogüvenlik ve Biyoteknoloji Araştırma ve Yayım Merkezi (IFBBC)",
         "category": "Araştırma Merkezi",
-        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
+        "description": "Küresel gıda sürdürülebilirliği ve gelişimi hakkında bilgi paylaşan, HÜNİTEK bünyesinde faaliyet gösteren, araştırma, eğitim ve teknoloji transferi odaklı çok disiplinli bir mükemmellik merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [
             {
                 "intent": "Merkez",
@@ -8491,7 +8491,7 @@
         "search_alias": "foodbiotech",
         "priority_score": -20,
         "entity_type": "ARAŞTIRMA MERKEZİ",
-        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphane'ne git",
+        "search_text": "foodbiotech uluslararası gıda biyogüvenlik ve biyoteknoloji araştırma ve yayım merkezi (ıfbbc) merkez misyon ve vizyonu incele bilimsel yönetim kurulunu görüntüle faaliyet alanlarını (ne yapıyoruz) incele merkez tarihçesini oku tanıtım sayfasını ziyaret et araştırma konularını incele araştırma gruplarını görüntüle bağlı araştırma merkezlerini toplantı ve eğitimleri incele sunumlara eriş yürütülen projeleri incele burs olanaklarını görüntüle ortak kurumları fotoğraf galerisini incele konum ve adres ne eriş ilgili linkleri görüntüle iletişim ne eriş foodomics laboratuvarı'na git hufcc kültür koleksiyonu'na git eduroam kurulum ve bilgi sayfası hacettepe üniversitesi kütüphanesi'ne git",
         "announcement_url": "https://foodbiotech.hacettepe.edu.tr"
     },
     {
@@ -10771,7 +10771,7 @@
         "search_alias": "history",
         "priority_score": 130,
         "entity_type": "BÖLÜM",
-        "search_text": "history tarih bölümü lisans programınu incele yüksek lisans programınu incele doktora programınu incele belgeler ve formları indir yönetmelik ve yönergeleri oku isteğe bağlı staj yatay geçiş koşullarını öğren değişim programlarını araştır çift anadal ve yandal wıu-hacettepe yüksek lisans programını incele araştırma öncelikli alanları incele ercüment kuran kütüphane'ne eriş akademik tezleri araştır türkiye kaynakçası'na git lisans programı yüksek lisans programı doktora programı belgeleri ve formları indir değişim programlarını incele yatay geçiş şartlarını ercüment kuran kütüphanesine git türkiye kaynakçasına eriş tezler arşivini görüntüle duyuruları takip et haberleri oku etkinlikleri"
+        "search_text": "history tarih bölümü lisans programınu incele yüksek lisans programınu incele doktora programınu incele belgeler ve formları indir yönetmelik ve yönergeleri oku isteğe bağlı staj yatay geçiş koşullarını öğren değişim programlarını araştır çift anadal ve yandal wıu-hacettepe yüksek lisans programını incele araştırma öncelikli alanları incele hü ercüment kuran kütüphanesi'ne eriş akademik tezleri araştır türkiye kaynakçası'na git lisans programı yüksek lisans programı doktora programı belgeleri ve formları indir değişim programlarını incele yatay geçiş şartlarını hü ercüment kuran kütüphanesine git türkiye kaynakçasına eriş tezler arşivini görüntüle duyuruları takip et haberleri oku etkinlikleri"
     },
     {
         "entity_name": "Hubiobank",
@@ -22091,7 +22091,7 @@
     {
         "entity_name": "Sağlık, Kültür ve Spor Daire Başkanlığı",
         "category": "İdari Birim",
-        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir. yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks",
+        "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma, beslenme ve kısmi zamanlı çalışma gibi sosyal hizmetlerini koordine eden ve yöneten idari birimdir. yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks yemekhane menü yemek yurt barınma kyk sks",
         "action_links": [
             {
                 "intent": "SKS Yönetmeliğini Oku",
@@ -23499,7 +23499,7 @@
     {
         "entity_name": "Uluslararası Karst Su Kaynakları Uygulama ve Araştırma Merkezi (UKAM)",
         "category": "Araştırma Merkezi",
-        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
+        "description": "Hidrojeoloji Mühendisliği ve Karst Hidrojeolojisi alanlarında uluslararası düzeyde bilimsel araştırmalar yürüten, eğitim veren ve endüstriyel iş birlikleri gerçekleştiren Türkiye'deki tek uluslararası nitelikli karst uygulama ve araştırma merkezidir. erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi erasmus yurtdışı değişim mevlana farabi",
         "action_links": [],
         "announcement_schema": ".icerik",
         "sub_branches": [],
@@ -25502,7 +25502,7 @@
     {
         "entity_name": "Bilgisayar Mühendisliği ve Yapay Zeka Mühendisliği Bölümü",
         "category": "Bölüm",
-        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır. ai staj ai staj ai staj ai staj ai staj ai staj ai staj ai staj",
+        "description": "Bilgisayar Mühendisliği ve Yapay Zeka Bölümü'nün akademik duyuruları, ders programları, sınav tarihleri ve öğrenci bilgi süreçlerinin paylaşıldığı resmi web sayfasıdır. ai staj ai staj ai staj ai staj ai staj ai staj ai staj ai staj ai staj ai staj",
         "action_links": [
             {
                 "intent": "Lisans Ders Programı (CS/AI)",
@@ -26072,9 +26072,9 @@
         "deep_crawl_pages": 2143,
         "is_active": true,
         "search_alias": "libraryworkflows",
-        "priority_score": 30,
+        "priority_score": 0,
         "entity_type": "DİĞER",
-        "search_text": "libraryworkflows kütüphaneler iç kontrol sistemi 2025 kullanıcı memnuniyeti anketini doldur stratejik amaçları incele hizmet tablosunu görüntüle gelirler prosedürünü oku anket kurumsal iletişim ve geliştirme birimi satın alma ve taşınır kayıt iş akışlarını incele sekreterlik birimi iş akışlarını görüntüle kataloglama ve sınıflama birimi prosedürünü oku sistemin ana sayfasına dön misyon ve vizyonu görüntüle organizasyon şemasını incele faaliyet raporlarını oku stratejik planları görüntüle 2024 kurum içi değerlendirme raporunu indir prosedür, talimat ve iş akışlarını incele beytepe kütüphane müdürlüğü prosedürünü oku sağlık bilimleri kütüphane müdürlüğü prosedürünü oku konservatuvar kütüphane müdürlüğü prosedürünü oku hukuk fakültesi kütüphane müdürlüğü prosedürünü oku"
+        "search_text": "libraryworkflows hü kütüphaneleri iç kontrol sistemi 2025 kullanıcı memnuniyeti anketini doldur stratejik amaçları incele hizmet tablosunu görüntüle gelirler prosedürünü oku anket kurumsal iletişim ve geliştirme birimi satın alma ve taşınır kayıt iş akışlarını incele sekreterlik birimi iş akışlarını görüntüle kataloglama ve sınıflama birimi prosedürünü oku sistemin ana sayfasına dön misyon ve vizyonu görüntüle organizasyon şemasını incele faaliyet raporlarını oku stratejik planları görüntüle 2024 kurum içi değerlendirme raporunu indir prosedür, talimat ve iş akışlarını incele hü beytepe kütüphanesi müdürlüğü prosedürünü oku hü sağlık bilimleri kütüphanesi müdürlüğü prosedürünü oku hü konservatuvar kütüphanesi müdürlüğü prosedürünü oku hü hukuk fakültesi kütüphanesi müdürlüğü prosedürünü oku"
     },
     {
         "entity_name": "Sürdürülebilir Kalkınma Koordinatörlüğü",
