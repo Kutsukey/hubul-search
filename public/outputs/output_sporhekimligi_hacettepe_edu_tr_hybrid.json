@@ -1,0 +1,40 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Spor Hekimliği Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Spor hekimliği alanında uzmanlık eğitimi, poliklinik hizmetleri ve bilimsel araştırmalar yürüten akademik bir birimdir. sports medicine, medical training, clinic services, research, academic department.",
+    "action_links": [
+        {
+            "intent": "Online Randevu Al",
+            "url": "https://hastanerandevu.hacettepe.edu.tr/nucleus-hastaportal-randevu/public/main?user=PUBLIC"
+        },
+        {
+            "intent": "Make Online Appointment",
+            "url": "https://hastanerandevu.hacettepe.edu.tr/nucleus-hastaportal-randevu/public/main?user=PUBLIC"
+        },
+        {
+            "intent": "Poliklinik Hizmetlerini İncele",
+            "url": "https://sporhekimligi.hacettepe.edu.tr/tr/menu/poliklinik_hizmetleri-26"
+        },
+        {
+            "intent": "Check Outpatient Clinic Services",
+            "url": "https://sporhekimligi.hacettepe.edu.tr/tr/menu/poliklinik_hizmetleri-26"
+        },
+        {
+            "intent": "Bölüm Hakkında Bilgi Al",
+            "url": "https://sporhekimligi.hacettepe.edu.tr/tr/menu/bolum_hakkinda-49"
+        },
+        {
+            "intent": "Learn About the Department",
+            "url": "https://sporhekimligi.hacettepe.edu.tr/tr/menu/bolum_hakkinda-49"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Poliklinik Hizmetleri",
+        "Bilimsel Araştırma Altyapısı",
+        "Tıpta Uzmanlık Tezleri"
+    ],
+    "url": "https://sporhekimligi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 52
+}

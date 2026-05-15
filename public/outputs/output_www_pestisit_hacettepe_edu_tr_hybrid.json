@@ -1,0 +1,56 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Pestisit Araştırma ve Referans Laboratuvarı",
+    "category": "Araştırma Merkezi",
+    "description": "T.C. Sağlık Bakanlığı tarafından yetkilendirilmiş ve TÜRKAK tarafından akredite edilmiş, pestisit analizleri, kimyasal ve biyolojik testler gerçekleştiren bir referans laboratuvarıdır. pesticide research, reference laboratory, chemical analysis, pesticide residue analysis, ISO/IEC 17025.",
+    "action_links": [
+        {
+            "intent": "Numune Gönderim Bilgilerini İndir",
+            "url": "https://www.pestisit.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Kimyasal Analizleri İncele",
+            "url": "https://www.pestisit.hacettepe.edu.tr/kimyasal-analizler"
+        },
+        {
+            "intent": "Fiziksel Testleri İncele",
+            "url": "https://www.pestisit.hacettepe.edu.tr/fiziksel-testler"
+        },
+        {
+            "intent": "Biyolojik Etkinlik Testlerini İncele",
+            "url": "https://www.pestisit.hacettepe.edu.tr/biyolojik-etkinlik-testleri"
+        },
+        {
+            "intent": "Ruhsata Esas Analizleri İncele",
+            "url": "https://www.pestisit.hacettepe.edu.tr/ruhsata-esas-analizler"
+        },
+        {
+            "intent": "Formulasyon Kontrolünü İncele",
+            "url": "https://www.pestisit.hacettepe.edu.tr/formulasyon-kontrolu"
+        },
+        {
+            "intent": "Belgeleri ve Formları Görüntüle",
+            "url": "https://www.pestisit.hacettepe.edu.tr/belgeler-formlar"
+        },
+        {
+            "intent": "Personel Listesini Görüntüle",
+            "url": "https://www.pestisit.hacettepe.edu.tr/personel"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://www.pestisit.hacettepe.edu.tr/academic-staff"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://www.pestisit.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://www.pestisit.hacettepe.edu.tr/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://www.pestisit.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 22
+}

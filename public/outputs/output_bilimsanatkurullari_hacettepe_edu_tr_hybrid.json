@@ -1,0 +1,14 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Bilim ve Sanat Kurulları",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi bünyesindeki Bilim Kurulu ve Sanat Kurulu üyelerini, kurumsal yönergeleri ve kurulların toplantı süreçlerini içeren resmi bilgilendirme sayfasıdır. science board, arts board, academic committee, university regulations, university boards.",
+    "action_links": [],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilim Kurulu",
+        "Sanat Kurulu"
+    ],
+    "url": "https://bilimsanatkurullari.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

@@ -1,0 +1,20 @@
+{
+    "entity_name": "İngiliz Dili ve Edebiyatı Bölümü",
+    "category": "Bölüm",
+    "description": "İngiliz dili, edebiyatı ve kültürü üzerine lisans ve lisansüstü düzeyde eğitim ve akademik araştırma faaliyetleri yürüten akademik birimdir. english language and literature, curriculum, syllabus, academic studies, linguistics",
+    "action_links": [
+        {
+            "intent": "REBUS Başvuru Ekranına Git / Access REBUS Application System",
+            "url": "https://rebus.meb.gov.tr"
+        },
+        {
+            "intent": "1416 Bursları Kılavuzunu İncele / Review 1416 Scholarship Guide",
+            "url": "https://yyegm.meb.gov.tr/www/2025-yili-1416-burslari-basvuru-ve-tercih-kilavuzu/icerik/1094"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://ide.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

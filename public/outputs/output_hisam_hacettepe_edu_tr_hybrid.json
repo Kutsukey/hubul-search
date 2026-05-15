@@ -1,0 +1,28 @@
+{
+    "entity_name": "Hacettepe Üniversitesi İş Sağlığı ve Güvenliği Meslek Hastalıkları Uygulama ve Araştırma Merkezi (HİSAM)",
+    "category": "Araştırma Merkezi",
+    "description": "İş sağlığı, güvenliği ve meslek hastalıkları alanlarında bilimsel araştırma, eğitim ve uygulama faaliyetleri yürüterek ulusal ve uluslararası düzeyde hizmet sunan bir merkezdir. occupational health and safety, occupational diseases, research center, safety training, industrial hygiene.",
+    "action_links": [
+        {
+            "intent": "INCREMENTAL Projesi Sonuç Raporunu İncele",
+            "url": "https://lnkd.in/d3hvUWKj"
+        },
+        {
+            "intent": "INCREMENTAL Projesi Tanıtım Videosunu İzle",
+            "url": "https://www.youtube.com/watch?v=WnvHMYpk2UQ&t=19s"
+        },
+        {
+            "intent": "Visit INCREMENTAL Project Website",
+            "url": "https://www.adapt.it/incremental/"
+        },
+        {
+            "intent": "IX. İş Sağlığı ve Güvenliği Sempozyumu Kayıt ve Bilgi",
+            "url": "https://www.fmo.org.tr/viii-is-sagligi-ve-guvenligi-sempozyumu/"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hisam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

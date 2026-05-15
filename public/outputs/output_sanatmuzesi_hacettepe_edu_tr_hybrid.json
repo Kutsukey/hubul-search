@@ -1,0 +1,16 @@
+{
+    "entity_name": "Hacettepe Sanat Müzesi",
+    "category": "Diğer",
+    "description": "Çağdaş sanat belleğini geleceğe taşımayı amaçlayan, üniversite yerleşkesi içerisinde yaşayan ve disiplinlerarası sergiler sunan bir sanat müzesidir. art museum, contemporary art, exhibitions, gallery, visual arts.",
+    "action_links": [
+        {
+            "intent": "Müze Hakkında Bilgi Al",
+            "url": "https://sanatmuzesi.hacettepe.edu.tr/muze-hakkinda"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://sanatmuzesi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 58
+}

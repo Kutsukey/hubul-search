@@ -1,0 +1,52 @@
+{
+    "entity_name": "Nanoteknoloji ve Nanotıp Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Nanoteknoloji ve Nanotıp, fen, mühendislik, tıp ve eczacılık bilimlerini bir araya getiren disiplinlerarası bir yüksek lisans ve doktora programıdır. nanotechnology, nanomedicine, graduate programs, interdisciplinary research, curriculum.",
+    "action_links": [
+        {
+            "intent": "2025-2026 Bahar Dönemi Ders Programını İncele",
+            "url": "https://www.nanott.hacettepe.edu.tr/tr/menu/ders_programi"
+        },
+        {
+            "intent": "View 2025-2026 Spring Semester Course Schedule",
+            "url": "https://www.nanott.hacettepe.edu.tr/en/menu/course_schedule"
+        },
+        {
+            "intent": "Bursiyerlik Duyurularını İncele",
+            "url": "https://www.nanott.hacettepe.edu.tr/tr/menu/scholarship_announcement"
+        },
+        {
+            "intent": "View Scholarship Announcements",
+            "url": "https://www.nanott.hacettepe.edu.tr/en/menu/scholarship_announcement"
+        },
+        {
+            "intent": "Tezleri İncele",
+            "url": "https://www.nanott.hacettepe.edu.tr/tr/menu/theses"
+        },
+        {
+            "intent": "View Theses",
+            "url": "https://www.nanott.hacettepe.edu.tr/en/menu/theses"
+        },
+        {
+            "intent": "Dersleri Görüntüle",
+            "url": "https://www.nanott.hacettepe.edu.tr/tr/menu/dersler"
+        },
+        {
+            "intent": "View Courses",
+            "url": "https://www.nanott.hacettepe.edu.tr/en/menu/courses"
+        },
+        {
+            "intent": "Sıkça Sorulan Soruları İncele",
+            "url": "https://www.nanott.hacettepe.edu.tr/tr/menu/faq"
+        },
+        {
+            "intent": "View Frequently Asked Questions",
+            "url": "https://www.nanott.hacettepe.edu.tr/en/menu/faq"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://www.nanott.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 100
+}

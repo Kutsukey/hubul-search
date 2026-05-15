@@ -1,0 +1,60 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Üniversitenin dijital altyapısı, e-posta sistemleri, ağ güvenliği, proxy ayarları ve yazılım destek hizmetlerinden sorumlu teknik birimdir. it services, network administration, email configuration, cybersecurity, software support",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formu İndir",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu İndir",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formu İndir",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formu İndir",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarları",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarları",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarları Rehberi",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Firefox Proxy Ayarları Rehberi",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/proxy-pdf/firefoxproxy_2023.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "View Service Groups (English)",
+            "url": "https://www.dahiliye.hacettepe.edu.tr/hizmetlerweb/kisisel.shtml"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Ağ Altyapısı",
+        "Yazılım Deposu",
+        "Formlar",
+        "Web Servisleri"
+    ],
+    "url": "https://www.dahiliye.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

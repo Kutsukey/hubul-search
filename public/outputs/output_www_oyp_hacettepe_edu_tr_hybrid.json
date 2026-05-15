@@ -1,0 +1,60 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin dijital altyapısını, ağ yönetimini, e-posta servislerini, yazılım ihtiyaçlarını ve bilgi güvenliği süreçlerini yöneten birimdir. (it services, network administration, cybersecurity, email configuration, software support)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Android E-Posta Kurulum Kılavuzu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS E-Posta Kurulum Kılavuzu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarları Kılavuzu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.oyp.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Bilgi Güvenliği Politikası",
+        "Formlar",
+        "Yazılım Deposu",
+        "Ağ Altyapısı",
+        "Bilgi ve Dokümanlar"
+    ],
+    "url": "https://www.oyp.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

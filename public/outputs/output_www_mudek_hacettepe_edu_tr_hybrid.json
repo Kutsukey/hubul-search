@@ -1,0 +1,48 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "Daire Başkanlığı",
+    "description": "Hacettepe Üniversitesi'nin ağ altyapısı, e-posta servisleri, internet erişimi (proxy), bilgi güvenliği ve yazılım ihtiyaçlarını yöneten teknik birimdir. (it services, network administration, email support, proxy settings, information security, software deployment)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını Yapılandır",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarlarını İncele",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formunu İndir",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.mudek.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Bilgi ve Dokümanlar",
+        "Ağ Altyapısı",
+        "Yazılım Deposu",
+        "Formlar",
+        "Sözleşmeli Bilişim Personeli Alımı"
+    ],
+    "url": "https://www.mudek.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

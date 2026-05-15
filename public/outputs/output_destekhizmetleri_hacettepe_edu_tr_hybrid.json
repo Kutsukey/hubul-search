@@ -1,0 +1,30 @@
+{
+    "entity_name": "Beytepe Yerleşkesi Destek Hizmetleri Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin Beytepe, Sıhhiye ve diğer yerleşkelerinde temizlik, atık yönetimi ve genel destek hizmetlerini koordine eden idari birimdir. support services, campus maintenance, cleaning services, waste management, administrative support.",
+    "action_links": [
+        {
+            "intent": "İletişim Bilgilerini Görüntüle",
+            "url": "https://destekhizmetleri.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Misyon ve Vizyon Hakkında Bilgi Al",
+            "url": "https://destekhizmetleri.hacettepe.edu.tr/misyon-vizyon"
+        },
+        {
+            "intent": "Kurul ve Komisyonları İncele",
+            "url": "https://destekhizmetleri.hacettepe.edu.tr/kurul-ve-komisyonlar"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Beytepe Yerleşkesi",
+        "Sıhhiye Yerleşkesi",
+        "Ankara Meslek Yüksek Okulu",
+        "Başkent OSB Teknik Bilimler Meslek Yüksekokulu",
+        "Hacettepe Ankara Sanayi Odası 1. OSB Meslek Yüksek Okulu"
+    ],
+    "url": "https://destekhizmetleri.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 24
+}

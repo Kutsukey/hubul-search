@@ -1,0 +1,46 @@
+{
+    "entity_name": "Mühendislik Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi bünyesinde mühendislik disiplinlerinde ileri düzey eğitim, araştırma ve toplumsal katkı faaliyetlerini yürüten akademik birimdir. engineering faculty, departments, course catalog, accreditation, curriculum, research, syllabus.",
+    "action_links": [
+        {
+            "intent": "Ders Kataloğunu / AKTS Bilgi Paketini İncele",
+            "url": "https://muhfak.hacettepe.edu.tr/tr/menu/ders_katalogu_akts_bilgi_paketi-429"
+        },
+        {
+            "intent": "View Course Catalog",
+            "url": "https://muhfak.hacettepe.edu.tr/en/menu/course_catalog-457"
+        },
+        {
+            "intent": "Öğrenci Mevzuatını İncele",
+            "url": "https://oidb.hacettepe.edu.tr/tr/menu/mevzuat-9"
+        },
+        {
+            "intent": "Review Student Regulations",
+            "url": "https://oidb.hacettepe.edu.tr/en/menu/rules_and_regulations-81"
+        },
+        {
+            "intent": "Download Minor Program Guide (English)",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/mevzuat/YANDAL%20_web_rehber_ENG_Esra.pdf"
+        },
+        {
+            "intent": "Akredite Programları Görüntüle",
+            "url": "https://mis.yokak.gov.tr/Prg/VmPrgTycs/Index2"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilgisayar Mühendisliği",
+        "Kimya Mühendisliği",
+        "Gıda Mühendisliği",
+        "Jeoloji Mühendisliği",
+        "Maden Mühendisliği",
+        "Endüstri Mühendisliği",
+        "Bölümler",
+        "Koordinatörlükler",
+        "Komisyonlar"
+    ],
+    "url": "https://muhfak.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 180
+}

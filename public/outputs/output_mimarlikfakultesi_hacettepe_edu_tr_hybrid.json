@@ -1,0 +1,62 @@
+{
+    "entity_name": "Mimarlık Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi Mimarlık Fakültesi, mimarlık eğitimi ve sürdürülebilir tasarım araştırmaları yürüten akademik bir birimdir. architecture, faculty of architecture, architecture curriculum, student guide, internship guides.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Rehberini İncele",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/ogrenci_rehberi-98"
+        },
+        {
+            "intent": "Review Student Guide",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/student_guide-98"
+        },
+        {
+            "intent": "Staj Kılavuzlarını İncele",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/staj_kilavuzlari-104"
+        },
+        {
+            "intent": "Review Guides for Summer Practice",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/guides_for_summer_practice-104"
+        },
+        {
+            "intent": "Öğrenci Formlarına Eriş",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/ogrenciler_icin_formlar-90"
+        },
+        {
+            "intent": "Access Forms for Students",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/forms_for_students-90"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/akademik_takvim-96"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/academic_calendar-96"
+        },
+        {
+            "intent": "Mevzuat ve Kuralları İncele",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/mevzuat_ve_kurallar-102"
+        },
+        {
+            "intent": "Review Regulations and Rules",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/regulations_and_rules-102"
+        },
+        {
+            "intent": "Aday Öğrenci Bilgilerini İncele",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/menu/aday_ogrenciler-100"
+        },
+        {
+            "intent": "Review Prospective Students Information",
+            "url": "https://mimarlikfakultesi.hacettepe.edu.tr/en/menu/prospective_students-100"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Mimarlık Bölümü"
+    ],
+    "url": "https://mimarlikfakultesi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 258
+}

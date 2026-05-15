@@ -1,0 +1,44 @@
+{
+    "entity_name": "Sosyal Politika Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Ulusal ve uluslararası düzeyde sosyal politika, sosyal refah ve kalkınma alanlarında disiplinler arası kuramsal ve uygulamalı araştırmalar gerçekleştiren, projeler geliştiren ve eğitim faaliyetleri yürüten bir merkezdir. (social policy, social welfare, social development, research center, sociology)",
+    "action_links": [
+        {
+            "intent": "English Version",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Genel Tanıtım",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/genel-tanitim"
+        },
+        {
+            "intent": "Merkezin Amacı",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/merkezin-amaci"
+        },
+        {
+            "intent": "Faaliyet Alanlarını İncele",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/merkezin-faaliyet-alanlari"
+        },
+        {
+            "intent": "Yönetim Kurulunu Görüntüle",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/yonetim-kurulu"
+        },
+        {
+            "intent": "Danışma Kurulunu Görüntüle",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/danisma-kurulu"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Tüm Duyuruları Gör",
+            "url": "https://sosyalpolitika.hacettepe.edu.tr/duyurular"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://sosyalpolitika.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 19
+}

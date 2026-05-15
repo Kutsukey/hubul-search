@@ -1,0 +1,79 @@
+{
+    "entity_name": "Beden Eğitimi ve Spor Öğretmenliği Bölümü",
+    "category": "Bölüm",
+    "description": "Okul öncesi, ilkokul, ortaokul ve lise düzeyindeki okullar için nitelikli beden eğitimi ve spor öğretmenleri yetiştiren akademik birimdir. physical education, sports teaching, pedagogy, sports science, curriculum",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://beo.hacettepe.edu.tr/tr/menu/lisans-38"
+        },
+        {
+            "intent": "Review Undergraduate Programme",
+            "url": "https://beo.hacettepe.edu.tr/en/menu/lisans-38"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://beo.hacettepe.edu.tr/tr/menu/yuksek_lisans-41"
+        },
+        {
+            "intent": "Review Master's Programme",
+            "url": "https://beo.hacettepe.edu.tr/en/menu/yuksek_lisans-41"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://beo.hacettepe.edu.tr/tr/menu/doktora-42"
+        },
+        {
+            "intent": "Review PhD Programme",
+            "url": "https://beo.hacettepe.edu.tr/en/menu/doktora-42"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgi Paketlerini Görüntüle",
+            "url": "https://beo.hacettepe.edu.tr/tr/menu/ders_kataloguakts_bilgi_paketleri-57"
+        },
+        {
+            "intent": "View Course Catalogue and ECTS Packages",
+            "url": "https://beo.hacettepe.edu.tr/en/menu/ders_kataloguakts_bilgi_paketleri-57"
+        },
+        {
+            "intent": "Derslik Programlarını Görüntüle",
+            "url": "https://sporbilimleri.hacettepe.edu.tr/dsignage/classroom.php"
+        },
+        {
+            "intent": "View Classroom Schedules",
+            "url": "https://sporbilimleri.hacettepe.edu.tr/dsignage/classroom.php"
+        },
+        {
+            "intent": "Çalışma Ofisi/Laboratuvar Programını İndir",
+            "url": "https://fs.hacettepe.edu.tr/beo/dosyalar/Laboratuvar%20Program%C4%B1.pdf"
+        },
+        {
+            "intent": "Download Laboratory Schedule",
+            "url": "https://fs.hacettepe.edu.tr/beo/dosyalar/Laboratuvar%20Program%C4%B1.pdf"
+        },
+        {
+            "intent": "Araştırma Öncelikli Alanları İncele",
+            "url": "https://fs.hacettepe.edu.tr/beo/dosyalar/ArastirmaOncelikliAlanlar_BSO.pdf"
+        },
+        {
+            "intent": "Review Priority Research Areas",
+            "url": "https://fs.hacettepe.edu.tr/beo/dosyalar/ArastirmaOncelikliAlanlar_BSO.pdf"
+        },
+        {
+            "intent": "Yandal Başvuruları Hakkında Bilgi Al",
+            "url": "https://beo.hacettepe.edu.tr/tr/yandal_basvurulari_hakkinda_du-119"
+        },
+        {
+            "intent": "Information on Minor Programme Applications",
+            "url": "https://beo.hacettepe.edu.tr/en/yandal_basvurulari_hakkinda_du-119"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Beden Eğitimi ve Spor Anabilim Dalı",
+        "Engellilerde Beden Eğitimi ve Spor Anabilim Dalı"
+    ],
+    "url": "https://beo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 150
+}

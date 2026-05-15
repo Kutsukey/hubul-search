@@ -1,0 +1,81 @@
+{
+    "entity_name": "İnşaat Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi İnşaat Mühendisliği Bölümü, uluslararası standartlarda eğitim veren ve etik değerlere sahip nitelikli mühendisler yetiştirmeyi amaçlayan bir akademik birimdir. civil engineering, undergraduate program, graduate studies, faculty members, curriculum, syllabus",
+    "action_links": [
+        {
+            "intent": "Çift Anadal Rehberini İncele",
+            "url": "https://fs.hacettepe.edu.tr/civile/dosyalar/MEN%C3%9CLER/DEGREE/%C3%87AP%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "Check Double Major Program Guide",
+            "url": "https://fs.hacettepe.edu.tr/civile/dosyalar/MEN%C3%9CLER/DEGREE/%C3%87AP%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "Minor Program Rehberini İncele",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/minor_program_guide-122"
+        },
+        {
+            "intent": "Review Minor Program Guide",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/minor_program_guide-122"
+        },
+        {
+            "intent": "Kuralları ve Yönetmelikleri Görüntüle",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/rules_and_regulations-65"
+        },
+        {
+            "intent": "View Rules and Regulations",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/rules_and_regulations-65"
+        },
+        {
+            "intent": "Lisans Programı Bilgileri",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/undergraduate_program-30"
+        },
+        {
+            "intent": "Undergraduate Program Information",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/undergraduate_program-30"
+        },
+        {
+            "intent": "Yüksek Lisans Programı Bilgileri",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/master_of_science_program-29"
+        },
+        {
+            "intent": "Master of Science Program Information",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/master_of_science_program-29"
+        },
+        {
+            "intent": "Doktora Programı Bilgileri",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/phd_program-49"
+        },
+        {
+            "intent": "Ph.D. Program Information",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/phd_program-49"
+        },
+        {
+            "intent": "Akademik Kadroyu Görüntüle",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/faculty_members-32"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/faculty_members-32"
+        },
+        {
+            "intent": "Sınav Programlarını Görüntüle",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/202526_spring_course_schedule-128"
+        },
+        {
+            "intent": "View Course Schedule",
+            "url": "https://ce.hacettepe.edu.tr/en/menu/202526_spring_course_schedule-128"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı",
+        "Uzaktan Eğitim Koordinatörlüğü"
+    ],
+    "url": "https://ce.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 98
+}

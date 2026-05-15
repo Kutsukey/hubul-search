@@ -1,0 +1,62 @@
+{
+    "entity_name": "Okul Öncesi Eğitimi Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Okul Öncesi Eğitimi Anabilim Dalı, toplum ve çevre sorunlarına duyarlı, etik kurallar çerçevesinde görev yapacak nitelikli okul öncesi öğretmenleri ve akademisyenler yetiştirmeyi amaçlamaktadır. early childhood education, preschool teaching, syllabus, academic staff, student guides",
+    "action_links": [
+        {
+            "intent": "Yan Dal Bilgilerini İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/yan-dal"
+        },
+        {
+            "intent": "Çift Anadal Bilgilerini İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/cift-anadal"
+        },
+        {
+            "intent": "Erasmus Bilgilerini İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/erasmus"
+        },
+        {
+            "intent": "Farabi Bilgilerini İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/farabi"
+        },
+        {
+            "intent": "Mevlana Bilgilerini İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/mevlana"
+        },
+        {
+            "intent": "Yararlı Belgeleri Görüntüle",
+            "url": "https://okuloncesi.hacettepe.edu.tr/yararli-belgeler"
+        },
+        {
+            "intent": "Öğrenci Kılavuzlarını İncele",
+            "url": "https://okuloncesi.hacettepe.edu.tr/ogrenci-kilavuzlari"
+        },
+        {
+            "intent": "Öğretim Üyelerini Görüntüle",
+            "url": "https://okuloncesi.hacettepe.edu.tr/ogretim-uyeleri"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://okuloncesi.hacettepe.edu.tr/faculty-members"
+        },
+        {
+            "intent": "Download Student Booklet",
+            "url": "https://okuloncesi.hacettepe.edu.tr/student-booklet"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://okuloncesi.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://okuloncesi.hacettepe.edu.tr/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Uygulama Okulları Koordinatörlüğü"
+    ],
+    "url": "https://okuloncesi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 52
+}

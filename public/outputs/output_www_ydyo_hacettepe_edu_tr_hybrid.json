@@ -1,0 +1,56 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Yabancı Diller Yüksekokulu",
+    "category": "Yüksekokul / Meslek Yüksekokulu",
+    "description": "Hacettepe Üniversitesi bünyesinde yabancı dil hazırlık eğitimi, dil yeterlik sınavları ve yabancı dil birimlerinin yönetiminden sorumlu akademik birimdir. foreign language school, language proficiency exam, preparatory program, academic calendar, language departments.",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://www.ydyo.hacettepe.edu.tr/tr/menu/akademik_takvim-237"
+        },
+        {
+            "intent": "Akademischen Kalender prüfen",
+            "url": "https://ydyo.hacettepe.edu.tr/de/menu/akademischer_kalender-98"
+        },
+        {
+            "intent": "Yabancı Dil Sınav Eşdeğerliklerini Gör",
+            "url": "https://www.ydyo.hacettepe.edu.tr/tr/menu/yabanci_dil_sinav_esdegerlikleri-239"
+        },
+        {
+            "intent": "Fremdsprachenprüfungen Gleichwertigkeiten",
+            "url": "https://ydyo.hacettepe.edu.tr/de/menu/die_gleichwertigkeiten_der_fremdspr-99"
+        },
+        {
+            "intent": "Öğrenci Bilgilendirme El Kitaplarını İncele",
+            "url": "https://ydyo.hacettepe.edu.tr/tr/menu/2025%E2%80%932026_egitim_ogretim_yili_yab-235"
+        },
+        {
+            "intent": "Student Information Handbook (German)",
+            "url": "https://ydyo.hacettepe.edu.tr/de/menu/das_informative_handbuch_fu%CC%88r_die_-105"
+        },
+        {
+            "intent": "Belgeler ve Dilekçelere Eriş",
+            "url": "https://www.ydyo.hacettepe.edu.tr/tr/menu/belgeler_ve_dilekceler-243"
+        },
+        {
+            "intent": "Yeterlik ve Muafiyet Sınavları Hakkında Bilgi Al",
+            "url": "https://www.ydyo.hacettepe.edu.tr/tr/menu/yeterlik_muafiyet_duzey_belirleme_s-241"
+        },
+        {
+            "intent": "Erasmus+ Programı Hakkında Bilgi Al",
+            "url": "https://ydyo.hacettepe.edu.tr/de/menu/_das_erasmus+_programm-126"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "İngilizce Hazırlık Birimi",
+        "Almanca Hazırlık Birimi",
+        "Fransızca Hazırlık Birimi",
+        "Modern Diller Birimi",
+        "Erasmus Koordinatörlüğü",
+        "HUZEM / Uzaktan Eğitim Koordinatörlüğü",
+        "Yabancı Dil Sınav Merkezi"
+    ],
+    "url": "https://www.ydyo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 247
+}

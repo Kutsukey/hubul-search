@@ -1,0 +1,62 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Tıp Fakültesi Tıp-Bilim Doktoru Bütünleşik Programı",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde, tıp doktoru (MD) ve bilim doktoru (PhD) diplomalarının birlikte alınmasını sağlayan entegre bir eğitim programıdır. MD-PhD program, integrated medical doctorate, medical research, PhD in medicine, medical curriculum.",
+    "action_links": [
+        {
+            "intent": "Başvuru Sürecini İncele",
+            "url": "https://mdphd.hacettepe.edu.tr/tr/menu/basvuru-3"
+        },
+        {
+            "intent": "Review Application Process",
+            "url": "https://mdphd.hacettepe.edu.tr/en/menu/applications"
+        },
+        {
+            "intent": "Tıp-Bilim Doktorası Eğitim-Öğretim ve Sınav Yönergesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/mdphd/dosyalar/mevzuat/T%C4%B1p%20Doktoras%C4%B1%20B%C3%BCt%C3%BCnle%C5%9Fik%20Prog.%2015.09.2022%20267%20SK.pdf"
+        },
+        {
+            "intent": "Download MD-PhD Education and Examination Directive",
+            "url": "https://fs.hacettepe.edu.tr/mdphd/dosyalar/mevzuat/T%C4%B1p%20Doktoras%C4%B1%20B%C3%BCt%C3%BCnle%C5%9Fik%20Prog.%2015.09.2022%20267%20SK.pdf"
+        },
+        {
+            "intent": "YÖK Tıp-Bilim Doktorası Yönetmeliğini İncele",
+            "url": "https://fs.hacettepe.edu.tr/mdphd/dosyalar/mevzuat/9%20%C5%9Eubat%202022%20%C3%87AR%C5%9EAMBAMDPhDYOKYntmlk.pdf"
+        },
+        {
+            "intent": "Review Council of Higher Education (YÖK) MD-PhD Regulation",
+            "url": "https://fs.hacettepe.edu.tr/mdphd/dosyalar/mevzuat/9%20%C5%9Eubat%202022%20%C3%87AR%C5%9EAMBAMDPhDYOKYntmlk.pdf"
+        },
+        {
+            "intent": "Program Anahatlarını İncele",
+            "url": "https://mdphd.hacettepe.edu.tr/tr/menu/program_anahatlari-4"
+        },
+        {
+            "intent": "Review Program Timeline",
+            "url": "https://mdphd.hacettepe.edu.tr/en/menu/program-timeline"
+        },
+        {
+            "intent": "Çekirdek Programları İncele",
+            "url": "https://mdphd.hacettepe.edu.tr/tr/menu/cekirdek_programlar-5"
+        },
+        {
+            "intent": "Review Core Programs",
+            "url": "https://mdphd.hacettepe.edu.tr/en/menu/core-programs"
+        },
+        {
+            "intent": "Başvuru ve Bilgi Formlarına Eriş",
+            "url": "https://mdphd.hacettepe.edu.tr/tr/menu/formlar-8"
+        },
+        {
+            "intent": "Contact and Communication",
+            "url": "https://mdphd.hacettepe.edu.tr/en/menu/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Çekirdek Programlar"
+    ],
+    "url": "https://mdphd.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 26
+}

@@ -1,0 +1,60 @@
+{
+    "entity_name": "Polimer Reoloji ve Kompozit Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Polimer reoloji ve kompozit malzemelerin geliştirilmesi, karakterizasyonu ve uygulamaları üzerine lisans, yüksek lisans ve doktora düzeyinde akademik eğitim ve araştırma faaliyetleri yürütmektedir. polymer rheology, composite materials, material science, academic research, polymer engineering.",
+    "action_links": [
+        {
+            "intent": "Duyuruları Görüntüle",
+            "url": "https://prc.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "https://prc.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "Belgeleri İncele",
+            "url": "https://prc.hacettepe.edu.tr/belgeler"
+        },
+        {
+            "intent": "Review Documents",
+            "url": "https://prc.hacettepe.edu.tr/belgeler"
+        },
+        {
+            "intent": "Öğretim Üyelerini Listele",
+            "url": "https://prc.hacettepe.edu.tr/ogretim-uyeleri"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://prc.hacettepe.edu.tr/ogretim-uyeleri"
+        },
+        {
+            "intent": "Lisans Eğitimi Bilgileri",
+            "url": "https://prc.hacettepe.edu.tr/lisans-egitimi"
+        },
+        {
+            "intent": "Undergraduate Education Information",
+            "url": "https://prc.hacettepe.edu.tr/lisans-egitimi"
+        },
+        {
+            "intent": "Doktora Eğitimi Bilgileri",
+            "url": "https://prc.hacettepe.edu.tr/doktora-egitimi"
+        },
+        {
+            "intent": "PhD Education Information",
+            "url": "https://prc.hacettepe.edu.tr/doktora-egitimi"
+        },
+        {
+            "intent": "İletişim Bilgilerine Eriş",
+            "url": "https://prc.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Access Contact Information",
+            "url": "https://prc.hacettepe.edu.tr/iletisim"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://prc.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 18
+}

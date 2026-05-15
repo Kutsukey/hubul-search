@@ -1,0 +1,52 @@
+{
+    "entity_name": "Spor Dostu Kampüs Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi çalışanlarının ve öğrencilerinin sağlıklı ve aktif bir yaşam tarzı benimsemelerine destek olan, spor ve beslenme dostu bir kampüs ortamı oluşturmayı hedefleyen birimdir. sports-friendly campus, healthy lifestyle, university sports, athletic facilities, nutrition guide.",
+    "action_links": [
+        {
+            "intent": "Koordinatörlük Yönergesini İncele",
+            "url": "https://spordostu.hacettepe.edu.tr/tr/yonergeler_ve_politikalar-183"
+        },
+        {
+            "intent": "Review Coordinatorship Guidelines",
+            "url": "https://spordostu.hacettepe.edu.tr/en/guidelines_and_policies"
+        },
+        {
+            "intent": "Spor Dostu Kampüs Kriterleri (2025) İndir",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/spor_dostu_kampus_projesi-degerlendirme_kriterleri_2025.pdf"
+        },
+        {
+            "intent": "Download Sports-Friendly Campus Criteria (2025)",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/spor_dostu_kampus_projesi-degerlendirme_kriterleri_2025.pdf"
+        },
+        {
+            "intent": "Beslenme Dostu ve Fiziksel Aktiviteyi Destekleyen İşyeri Kriterleri (2025) İndir",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/beslenme_dostu_fiziksel_aktivite_rehber_2025.pdf"
+        },
+        {
+            "intent": "Download Nutrition-Friendly and Physical Activity Supporting Workplace Criteria (2025)",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/beslenme_dostu_fiziksel_aktivite_rehber_2025.pdf"
+        },
+        {
+            "intent": "Beslenme Dostu ve Fiziksel Aktiviteyi Destekleyen İşyeri Kriterleri (2024) İndir",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/beslenme_dostu_fiziksel_aktivite_rehber_2024.pdf"
+        },
+        {
+            "intent": "Download Nutrition-Friendly and Physical Activity Supporting Workplace Criteria (2024)",
+            "url": "https://spordostu.hacettepe.edu.tr/fs_/files/beslenme_dostu_fiziksel_aktivite_rehber_2024.pdf"
+        },
+        {
+            "intent": "Vizyon ve Misyonu İncele",
+            "url": "https://spordostu.hacettepe.edu.tr/tr/vizyon_misyon-215"
+        },
+        {
+            "intent": "Review Vision and Mission",
+            "url": "https://spordostu.hacettepe.edu.tr/en/vision_mission-215"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://spordostu.hacettepe.edu.tr",
+    "deep_crawl_files": 3,
+    "deep_crawl_pages": 61
+}

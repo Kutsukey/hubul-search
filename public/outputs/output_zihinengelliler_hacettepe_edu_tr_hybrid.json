@@ -1,0 +1,54 @@
+{
+    "entity_name": "Zihin Engelliler Eğitimi Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Zihinsel yetersizliği olan bireylerin gelişimsel potansiyellerine ulaşmalarını desteklemek ve bu alanda uzman öğretmenler yetiştirmek amacıyla faaliyet gösteren akademik bir birimdir. special education, intellectual disabilities, teacher training, special needs education, academic research",
+    "action_links": [
+        {
+            "intent": "Duyuruları İncele",
+            "url": "http://zihinengelliler.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "http://ziminengelliler.hacettepe.edu.tr/en/announcements"
+        },
+        {
+            "intent": "Öğretim Üyelerini Görüntüle",
+            "url": "https://zihinengelliler.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-16"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://zihinengelliler.hacettepe.edu.tr/en/menu/faculty_members-30"
+        },
+        {
+            "intent": "Özel Eğitim Bölümü Web Sitesini Ziyaret Et",
+            "url": "http://www.ozelegitim.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Visit The Department of Special Education (EN)",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Tarihçeyi Oku",
+            "url": "https://zihinengelliler.hacettepe.edu.tr/tr/menu/tarihce-14"
+        },
+        {
+            "intent": "Read History",
+            "url": "https://zihinengelliler.hacettepe.edu.tr/en/menu/history-27"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tanıtım",
+        "Misyon ve Vizyon",
+        "Tarihçe",
+        "Yönetim",
+        "Öğretim Üyeleri",
+        "Araştırma Görevlileri",
+        "İdari Personel",
+        "Duyurular",
+        "Dersler"
+    ],
+    "url": "https://zihinengelliler.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 44
+}

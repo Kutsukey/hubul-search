@@ -1,0 +1,73 @@
+{
+    "entity_name": "Sosyal Bilimler Enstitüsü",
+    "category": "Enstitü",
+    "description": "Sosyal bilimler alanında lisansüstü eğitim, araştırma ve tez süreçlerini yöneten akademik birimdir. postgraduate studies, social sciences, master's degree, PhD, academic calendar, admission, application.",
+    "action_links": [
+        {
+            "intent": "Yönetmelikleri İncele",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/yonetmelikler-47"
+        },
+        {
+            "intent": "View Regulations",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/regulations"
+        },
+        {
+            "intent": "Yönergeleri İncele",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/yonergeler-48"
+        },
+        {
+            "intent": "View Directives",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/directives"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/akademik_takvim-16"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/academic_calendar"
+        },
+        {
+            "intent": "Başvuru Bilgilerini İncele",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/basvurular-31"
+        },
+        {
+            "intent": "Check Application Requirements",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/application_requirements"
+        },
+        {
+            "intent": "Yüksek Lisans Programlarını İncele",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/yuksek_lisans-77"
+        },
+        {
+            "intent": "View Master's Programs",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/masters_programs"
+        },
+        {
+            "intent": "Doktora Programlarını İncele",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/tr/menu/doktora-78"
+        },
+        {
+            "intent": "View PhD Programs",
+            "url": "https://sosyalbilimler.hacettepe.edu.tr/en/menu/phd_programs"
+        },
+        {
+            "intent": "Stratejik Planı İndir",
+            "url": "https://fs.hacettepe.edu.tr/sosbil/duyurular/Sosyal%20Bilimler%20Enstit%C3%BCs%C3%BC%20Stratejik%20Plan%C4%B1%202023-2027.pdf"
+        },
+        {
+            "intent": "Download Strategic Plan",
+            "url": "https://fs.hacettepe.edu.tr/sosbil/duyurular/Sosyal%20Bilimler%20Enstit%C3%BCs%C3%BC%20Stratejik%20Plan%C4%B1%202023-2027.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yüksek Lisans",
+        "Doktora",
+        "Tezsiz Yüksek Lisans",
+        "Uzaktan Eğitim Tezsiz Yüksek Lisans"
+    ],
+    "url": "https://sosyalbilimler.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 130
+}

@@ -1,0 +1,44 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Hastanesi",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi Hastanesi'nin online randevu, test sonuçları sorgulama, ulaşım ve sıkça sorulan sorular gibi temel sağlık hizmetlerine erişim sağlayan resmi web sitesidir. hospital appointment, medical test results, healthcare services, hospital location, patient information.",
+    "action_links": [
+        {
+            "intent": "Online Randevu Al",
+            "url": "https://www.hastane.hacettepe.edu.tr/online-randevu"
+        },
+        {
+            "intent": "Get Online Appointment",
+            "url": "https://www.hastane.hacettepe.edu.tr/en/online-randevu"
+        },
+        {
+            "intent": "Test Sonuçlarını Sorgula",
+            "url": "https://www.hastane.hacettepe.edu.tr/test-sonuclari"
+        },
+        {
+            "intent": "Check Test Results",
+            "url": "https://www.hastane.hacettepe.edu.tr/en/test-sonuclari"
+        },
+        {
+            "intent": "Harita ve Ulaşım Bilgileri",
+            "url": "https://www.hastane.hacettepe.edu.tr/ulasim"
+        },
+        {
+            "intent": "Maps and Transportation",
+            "url": "https://www.hastane.hacettepe.edu.tr/en/transportation"
+        },
+        {
+            "intent": "Soru / Cevap Bölümünü İncele",
+            "url": "https://www.hastane.hacettepe.edu.tr/soru-cevap"
+        },
+        {
+            "intent": "View Q&A Section",
+            "url": "https://www.hastane.hacettepe.edu.tr/en/qa"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://www.hastane.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

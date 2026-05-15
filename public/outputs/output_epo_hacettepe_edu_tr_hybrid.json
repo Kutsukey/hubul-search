@@ -1,0 +1,56 @@
+{
+    "entity_name": "Eğitim Programları ve Öğretim Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Eğitim Fakültesi bünyesinde, program geliştirme, değerlendirme ve öğretim süreçleri alanlarında uzmanlar yetiştiren lisansüstü eğitim birimidir. curriculum and instruction, educational programs, phd in education, master's degree, curriculum development",
+    "action_links": [
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/yuksek_lisans-13"
+        },
+        {
+            "intent": "Tezsiz Yüksek Lisans Programını İncele",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/tezsiz_yuksek_lisans-12"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/doktora-14"
+        },
+        {
+            "intent": "Ders Programlarına Eriş",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/ders_programlari-50"
+        },
+        {
+            "intent": "Duyuruları Görüntüle",
+            "url": "https://epo.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "Yararlı Belgeleri İncele",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/yararli_belgeler-19"
+        },
+        {
+            "intent": "Aday Öğrenci Bilgilerine Eriş",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/aday_ogrenciler-20"
+        },
+        {
+            "intent": "Mezunlar Sayfasını Ziyaret Et",
+            "url": "https://epo.hacettepe.edu.tr/tr/menu/mezunlar-46"
+        },
+        {
+            "intent": "Check Noticeboard",
+            "url": "https://epo.hacettepe.edu.tr/en/menu/noticeboard-37"
+        },
+        {
+            "intent": "Access Useful Documents",
+            "url": "https://epo.hacettepe.edu.tr/en/menu/useful_documents-39"
+        },
+        {
+            "intent": "Information for Prospective Students",
+            "url": "https://epo.hacettepe.edu.tr/en/menu/prospective_students-40"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://epo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 60
+}

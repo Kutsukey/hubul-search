@@ -1,0 +1,46 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Mesleklerarası İşbirliği ve Simülasyon Eğitim Uygulama ve Araştırma Merkezi (HÜMİSAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Sağlık simülasyonu, kadavra, modelleme ve interprofesyonel eğitimler üzerine akademik çalışmalar, projeler ve uzmanlık kursları düzenleyen bir merkezdir. healthcare simulation, interprofessional education, medical simulation training, simulation modeling, TeamSTEPPS.",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://fs.hacettepe.edu.tr/humisam/dosyalar/yonerge.pdf"
+        },
+        {
+            "intent": "Download Regulation",
+            "url": "https://fs.hacettepe.edu.tr/humisam/dosyalar/yonerge.pdf"
+        },
+        {
+            "intent": "Eğitimleri İncele",
+            "url": "https://humisam.hacettepe.edu.tr/tr/menu/egitimler-5"
+        },
+        {
+            "intent": "View Courses",
+            "url": "https://humisam.hacettepe.edu.tr/en/menu/courses-12"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://humisam.hacettepe.edu.tr/tr/menu/iletisim-6"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://humisam.hacettepe.edu.tr/en/menu/contact-13"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Hakkında",
+        "Yönetim",
+        "Yönetmelik",
+        "Eğitimler",
+        "İletişim",
+        "About",
+        "Board",
+        "Courses",
+        "Contact"
+    ],
+    "url": "https://humisam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 17
+}

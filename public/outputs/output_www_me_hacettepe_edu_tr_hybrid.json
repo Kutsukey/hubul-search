@@ -1,0 +1,65 @@
+{
+    "entity_name": "Makine Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Makine Mühendisliği Bölümü'nün akademik programları, araştırma faaliyetleri, laboratuvar imkanları ve akademik kadrosu hakkında detaylı bilgi sunan birimdir. mechanical engineering, curriculum, laboratory, academic staff, undergraduate programs, graduate programs.",
+    "action_links": [
+        {
+            "intent": "Çift Anadal Program Rehberini İncele",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/%C3%87AP%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "Download Double Major Program Guide",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/%C3%87AP%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "Yandal Program Rehberini İncele",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/Yandal%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "Download Minor Program Guide",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/Yandal%20Rehberi-17.10.2024.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Lisans Ders Programını İndir",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/courseExamSchedule/2025-2026%20Spring%20Undergraduate%20Course%20Schedule1.pdf"
+        },
+        {
+            "intent": "Download 2025-2026 Spring Undergraduate Course Schedule",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/courseExamSchedule/2025-2026%20Spring%20Undergraduate%20Course%20Schedule1.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Lisansüstü Ders Programını İndir",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/courseExamSchedule/2025-2026%20Spring%20Graduate%20Course%20Schedule.pdf"
+        },
+        {
+            "intent": "Download 2025-2026 Spring Graduate Course Schedule",
+            "url": "https://fs.hacettepe.edu.tr/makinam/documents/courseExamSchedule/2025-2026%20Spring%20Graduate%20Course%20Schedule.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Dönemi Final Sınav Programını İndir",
+            "url": "https://fs.hacettepe.edu.tr/makinam/dosyalar/exam%20schedules/25-26%20Spring/25-26%20Spring%20Final%20Exam%20Schedule.pdf"
+        },
+        {
+            "intent": "Download 2025-2026 Spring Final Exam Schedule",
+            "url": "https://fs.hacettepe.edu.tr/makinam/dosyalar/exam%20schedules/25-26%20Spring/25-26%20Spring%20Final%20Exam%20Schedule.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Dönemi Ara Sınav Programını İndir",
+            "url": "https://fs.hacettepe.edu.tr/makinam/dosyalar/exam%20schedules/25-26%20Spring/1304_25-26%20Spring%20Exam%20Schedule.pdf"
+        },
+        {
+            "intent": "Download 2025-2026 Spring Midterm Exam Schedule",
+            "url": "https://fs.hacettepe.edu.tr/makinam/dosyalar/exam%20schedules/25-26%20Spring/1304_25-26%20Spring%20Exam%20Schedule.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programları",
+        "Lisansüstü Programlar",
+        "Araştırma Laboratuvarları",
+        "Akademik Kadro"
+    ],
+    "url": "https://www.me.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 152
+}

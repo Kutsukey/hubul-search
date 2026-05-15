@@ -1,0 +1,28 @@
+{
+    "entity_name": "Bulaşıcı Olmayan Hastalıkların Önlenmesi İşbirliği ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Bulaşıcı olmayan hastalıkların önlenmesi, taranması ve bu alandaki bilimsel araştırmaların koordine edilmesi amacıyla faaliyet gösteren bir araştırma merkezidir. non-communicable diseases, research center, public health, prevention, medical research.",
+    "action_links": [
+        {
+            "intent": "Visit English Version",
+            "url": "https://boham.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Duyuruları İncele",
+            "url": "https://boham.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "Yönetimi Görüntüle",
+            "url": "https://boham.hacettepe.edu.tr/yonetim"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Misyon ve Vizyon",
+        "Duyurular"
+    ],
+    "url": "https://boham.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 10
+}

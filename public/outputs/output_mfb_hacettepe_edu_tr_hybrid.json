@@ -1,0 +1,65 @@
+{
+    "entity_name": "Matematik ve Fen Bilimleri Eğitimi Bölümü",
+    "category": "Bölüm",
+    "description": "Matematik ve fen bilimleri alanında yetkin öğretmenler yetiştirmeyi ve bu alanlarda bilimsel araştırmalar yürütmeyi amaçlayan akademik bir birimdir. (mathematics and science education, teaching degree, faculty, curriculum, academic programs)",
+    "action_links": [
+        {
+            "intent": "Lisans ve Lisansüstü Programları İncele",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/degree_programmes-64"
+        },
+        {
+            "intent": "Review Degree Programmes",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/degree_programmes-64"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://oidb.hacettepe.edu.tr/en/menu/20222023_academic_calendar-125"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://oidb.hacettepe.edu.tr/en/menu/20222023_academic_calendar-125"
+        },
+        {
+            "intent": "Araştırma Çalışmalarını İncele",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/research-74"
+        },
+        {
+            "intent": "Explore Research",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/research-74"
+        },
+        {
+            "intent": "Öğretim Üyelerini Listele",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/faculty-58"
+        },
+        {
+            "intent": "List Faculty Members",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/faculty-58"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Oku",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/mission_and_vision-53"
+        },
+        {
+            "intent": "Read Mission and Vision",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/mission_and_vision-53"
+        },
+        {
+            "intent": "Bölüm Yönetimini Gör",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/administration-55"
+        },
+        {
+            "intent": "View Administration",
+            "url": "https://mfb.hacettepe.edu.tr/en/menu/administration-55"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Matematik Eğitimi Ana Bilim Dalı",
+        "Fen Bilgisi Eğitimi (Biyoloji-Fizik) Ana Bilim Dalı",
+        "Kimya Eğitimi Ana Bilim Dalı",
+        "Matematik Eğitimi"
+    ],
+    "url": "https://mfb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 56
+}

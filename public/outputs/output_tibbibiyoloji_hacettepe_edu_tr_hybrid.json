@@ -1,0 +1,52 @@
+{
+    "entity_name": "Tıbbi Biyoloji Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Moleküler biyoloji, genetik ve genom bilimi alanlarında ileri düzey araştırma, genetik test geliştirme ve eğitim faaliyetleri yürüten akademik bir birimdir. medical biology, molecular genetics, genomics, biotechnology, research",
+    "action_links": [
+        {
+            "intent": "Lisans Programlarını İncele",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/undergraduate_programs-37"
+        },
+        {
+            "intent": "View Undergraduate Programs",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/undergraduate_programs-37"
+        },
+        {
+            "intent": "Lisansüstü Programları İncele",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/graduate_programs-38"
+        },
+        {
+            "intent": "View Graduate Programs",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/graduate_programs-38"
+        },
+        {
+            "intent": "Teknik Altyapıyı İncele",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/technical_infrastructure-41"
+        },
+        {
+            "intent": "Check Technical Infrastructure",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/technical_infrastructure-41"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/contact-49"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/contact-49"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Lisansüstü Programı",
+        "Projeler",
+        "Teknik Altyapı",
+        "Tezler",
+        "Moleküler Genetik Tanı",
+        "Biyobanka"
+    ],
+    "url": "https://tibbibiyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 45
+}

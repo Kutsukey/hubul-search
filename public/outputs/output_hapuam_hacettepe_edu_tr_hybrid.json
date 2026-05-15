@@ -1,0 +1,32 @@
+{
+    "entity_name": "Hareket Analizi ve Podiatri Uygulama ve Araştırma Merkezi (HAPUAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde hareket analizi ve podiatri alanlarında bilimsel araştırma, uygulama ve eğitim faaliyetleri yürüten akademik bir merkezdir. movement analysis, podiatry, research center, gait analysis, clinical practice",
+    "action_links": [
+        {
+            "intent": "Merkezin Tarihçesini İncele",
+            "url": "https://hapuam.hacettepe.edu.tr/tr/menu/tarihce-5"
+        },
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://hapuam.hacettepe.edu.tr/tr/menu/yonetmelik-23"
+        },
+        {
+            "intent": "Yönetim Kurulunu Görüntüle",
+            "url": "https://hapuam.hacettepe.edu.tr/tr/menu/yonetim_kurulu-15"
+        },
+        {
+            "intent": "Danışma Kurulunu Görüntüle",
+            "url": "https://hapuam.hacettepe.edu.tr/tr/menu/danisma_kurulu-17"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://hapuam.hacettepe.edu.tr/tr/menu/iletisim-21"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hapuam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 15
+}

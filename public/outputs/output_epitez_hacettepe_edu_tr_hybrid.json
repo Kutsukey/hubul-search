@@ -1,0 +1,38 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Anaplastoloji Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Yüz defektleri ve yaralanmaları sonrası kişiye özel epitez (yüz protezi) üretimi, uygulaması ve bu alandaki bilimsel araştırmaları yürüten merkezdir. anaplastology, facial prosthetics, medical research, prosthesis, patient care",
+    "action_links": [
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://epitez.hacettepe.edu.tr/tr/yonetmelik-5"
+        },
+        {
+            "intent": "2020-2021 Faaliyet Raporunu İndir",
+            "url": "http://fs.hacettepe.edu.tr/epitez/dosyalar/2020-2021%20Faaliyet%20Raporu%202021.pdf"
+        },
+        {
+            "intent": "Epitez Çalışmaları Hakkında Bilgi Al",
+            "url": "https://epitez.hacettepe.edu.tr/tr/menu/epitezler_hakkinda-14"
+        },
+        {
+            "intent": "Hastalar İçin Bilgileri Görüntüle",
+            "url": "https://epitez.hacettepe.edu.tr/tr/menu/hastalar_icin-12"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://epitez.hacettepe.edu.tr/tr/menu/iletisim-6"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kulak Epitezleri",
+        "Burun Epitezleri",
+        "Göz Epitezleri",
+        "Midfasiyal Epitezler",
+        "El ve Parmak Protezleri"
+    ],
+    "url": "https://epitez.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 17
+}

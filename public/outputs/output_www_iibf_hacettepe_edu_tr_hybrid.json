@@ -1,0 +1,53 @@
+{
+    "entity_name": "İktisadi ve İdari Bilimler Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi bünyesinde Türkçe ve İngilizce dillerinde lisans, yüksek lisans ve doktora programları sunan, geniş akademik kadrosuyla tanınan bir akademik birimdir. economics, business administration, political science, international relations, social work, public finance, administration.",
+    "action_links": [
+        {
+            "intent": "Dilekçe ve Form Örneklerini İncele",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri_-132"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "Bologna Bilgi Paketini İncele",
+            "url": "http://akts.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Mevzuat ve Yönetmelikleri İncele",
+            "url": "https://oidb.hacettepe.edu.tr/tr/menu/mevzuat-9"
+        },
+        {
+            "intent": "Organizasyon Şemasını İndir",
+            "url": "https://fs.hacettepe.edu.tr/iibf/dosyalar/organizasyon%20%C5%9Femas%C4%B1.pdf"
+        },
+        {
+            "intent": "Fakülte Dergilerini İncele",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dergiler-222"
+        },
+        {
+            "intent": "Read Faculty Journals",
+            "url": "https://iibf.hacettepe.edu.tr/en/menu/hacettepe_university_journal_of_eco-198"
+        },
+        {
+            "intent": "Review Academic Papers",
+            "url": "https://iibf.hacettepe.edu.tr/en/menu/papers-245"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Aile ve Tüketici Bilimleri Bölümü",
+        "İktisat Bölümü",
+        "İşletme Bölümü",
+        "Maliye Bölümü",
+        "Sağlık Yönetimi Bölümü",
+        "Siyaset Bilimi ve Kamu Yönetimi Bölümü",
+        "Sosyal Hizmet Bölümü",
+        "Uluslararası İlişkiler Bölümü"
+    ],
+    "url": "https://www.iibf.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 60
+}

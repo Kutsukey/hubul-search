@@ -1,0 +1,72 @@
+{
+    "entity_name": "Uluslararası Gıda Biyogüvenlik ve Biyoteknoloji Araştırma ve Yayım Merkezi (IFBBC)",
+    "category": "Araştırma Merkezi",
+    "description": "Küresel gıda sürdürülebilirliği, biyogüvenlik ve biyoteknoloji alanlarında araştırma, eğitim ve teknoloji transferi yapan çok disiplinli bir merkezdir. food biosafety, food biotechnology, food sustainability, IFBBC, foodomics",
+    "action_links": [
+        {
+            "intent": "Merkez Hakkında Bilgi Al",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/hakkimizda-155"
+        },
+        {
+            "intent": "Who We Are / About the Center",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/who_we_are-12"
+        },
+        {
+            "intent": "Misyon ve Vizyonu İncele",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-149"
+        },
+        {
+            "intent": "Our Mission and Vision",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/our_mission_and_vision-161"
+        },
+        {
+            "intent": "Araştırma Konularını Görüntüle",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/arastirma_konulari-72"
+        },
+        {
+            "intent": "Research Areas",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/research_areas-177"
+        },
+        {
+            "intent": "Projeleri İncele",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/projeler-171"
+        },
+        {
+            "intent": "Projects",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/projects-35"
+        },
+        {
+            "intent": "Burs Olanaklarını İncele",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/burslar-173"
+        },
+        {
+            "intent": "Fellowships",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/fellowships-34"
+        },
+        {
+            "intent": "FoodOmics Laboratuvarı'nı Ziyaret Et",
+            "url": "https://foodomicslab.hacettepe.edu.tr/tr"
+        },
+        {
+            "intent": "Visit FoodOmics Laboratory",
+            "url": "http://www.foodomicslab.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "HUFCC Kültür Koleksiyonu'na Git",
+            "url": "https://hufcc.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://foodbiotech.hacettepe.edu.tr/tr/menu/iletisim-123"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://foodbiotech.hacettepe.edu.tr/en/menu/contact_us-37"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://foodbiotech.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 205
+}

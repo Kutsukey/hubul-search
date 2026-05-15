@@ -1,0 +1,28 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Mezunlarla İletişim Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi mezunları ile üniversite arasındaki bağı güçlendirmeyi, mezun iletişimini yönetmeyi ve mezunlara yönelik etkinlikler ile topluluk faaliyetlerini koordine etmeyi amaçlayan birimdir. alumni relations, graduate network, alumni communication, alumni events, alumni contact.",
+    "action_links": [
+        {
+            "intent": "Duyuruları İncele",
+            "url": "https://mezunkoor.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "Etkinlikleri Görüntüle",
+            "url": "https://mezunkoor.hacettepe.edu.tr/etkinlikler"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://mezunkoor.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Ekibimiz Hakkında Bilgi Al",
+            "url": "https://mezunkoor.hacettepe.edu.tr/ekibimiz"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://mezunkoor.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 11
+}

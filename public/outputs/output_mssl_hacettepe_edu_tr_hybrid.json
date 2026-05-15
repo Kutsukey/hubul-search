@@ -1,0 +1,58 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Müzik ve Sahne Sanatları Lisesi",
+    "category": "Diğer",
+    "description": "Hacettepe Üniversitesi bünyesinde müzik ve sahne sanatları alanında uzmanlaşmış eğitim veren profesyonel bir lisedir. music and performing arts high school, admission exam, academic calendar, conservatory, regulations.",
+    "action_links": [
+        {
+            "intent": "MSSL Kabul Sınavı Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/mssl/dosyalar/Y%C3%96NETMEL%C4%B0KLER/MSSL%20Kabul%20Sinavi%20Yonergesi_13052025.pdf"
+        },
+        {
+            "intent": "Review MSSL Admission Exam Directive",
+            "url": "https://fs.hacettepe.edu.tr/mssl/dosyalar/Y%C3%96NETMEL%C4%B0KLER/MSSL%20Kabul%20Sinavi%20Yonergesi_13052025.pdf"
+        },
+        {
+            "intent": "Nakil ve Geçiş Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/mssl/dosyalar/Y%C3%96NETMEL%C4%B0KLER/NAK%C4%B0L%20VE%20GE%C3%87%C4%B0%C5%9E.pdf"
+        },
+        {
+            "intent": "Review Transfer and Transition Directive",
+            "url": "https://fs.hacettepe.edu.tr/mssl/dosyalar/Y%C3%96NETMEL%C4%B0KLER/NAK%C4%B0L%20VE%20GE%C3%87%C4%B0%C5%9E.pdf"
+        },
+        {
+            "intent": "Kabul Sınavı Takvimini Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/mssl/KABUL%20SINAVLARI/2026-2027%20MBO-MSSL%20Giri%C5%9F%20S%C4%B1navlar%C4%B1.pdf"
+        },
+        {
+            "intent": "View Admission Exam Calendar",
+            "url": "https://fs.hacettepe.edu.tr/mssl/KABUL%20SINAVLARI/2026-2027%20MBO-MSSL%20Giri%C5%9F%20S%C4%B1navlar%C4%B1.pdf"
+        },
+        {
+            "intent": "Dilekçe ve Formlara Eriş",
+            "url": "https://mssl.hacettepe.edu.tr/tr/menu/dilekce_ve_formlar-18"
+        },
+        {
+            "intent": "Access Petitions and Forms",
+            "url": "https://mssl.hacettepe.edu.tr/tr/menu/dilekce_ve_formlar-18"
+        },
+        {
+            "intent": "Yönetmelikleri İncele",
+            "url": "https://mssl.hacettepe.edu.tr/tr/menu/yonetmelikler-9"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Okulumuz",
+        "Yönetim",
+        "Öğretim Elemanları",
+        "Akademik Takvim",
+        "Aday Öğrenci",
+        "Yönetmelikler",
+        "Dilekçe ve Formlar",
+        "Okul Aile Birliği",
+        "İletişim"
+    ],
+    "url": "https://mssl.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 20
+}

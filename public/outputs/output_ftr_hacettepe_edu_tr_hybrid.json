@@ -1,0 +1,57 @@
+{
+    "entity_name": "Fiziksel Tıp ve Rehabilitasyon Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde akademik eğitim, araştırma ve klinik rehabilitasyon hizmetleri sunan birimdir. Physical Medicine and Rehabilitation, Physiatry, Rehabilitation, Medical Education, Clinical Training.",
+    "action_links": [
+        {
+            "intent": "Logbook'u İndir",
+            "url": "https://ftr.hacettepe.edu.tr/ekler/pdf/logbook.pdf"
+        },
+        {
+            "intent": "Download Logbook",
+            "url": "https://ftr.hacettepe.edu.tr/ekler/pdf/logbook.pdf"
+        },
+        {
+            "intent": "Öğretim Üyelerini Görüntüle",
+            "url": "https://ftr.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://ftr.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "Genel Tanıtımı İncele",
+            "url": "https://ftr.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "View General Introduction",
+            "url": "https://ftr.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Görüntüle",
+            "url": "https://ftr.hacettepe.edu.tr/hakkinda/misyon.php"
+        },
+        {
+            "intent": "View Mission and Vision",
+            "url": "https://ftr.hacettepe.edu.tr/hakkinda/misyon.php"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://ftr.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://ftr.hacettepe.edu.tr/iletisim/iletisim.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "İzokinetik Kas Ölçme Değerlendirme Ünitesi",
+        "Yüzeysel Ultrasonografi Ünitesi",
+        "Yürüme Analizi Ünitesi",
+        "Kardiyopulmoner Rehabilitasyon Ünitesi"
+    ],
+    "url": "https://ftr.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 15
+}

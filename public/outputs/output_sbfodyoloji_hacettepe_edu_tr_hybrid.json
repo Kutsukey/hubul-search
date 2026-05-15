@@ -1,0 +1,42 @@
+{
+    "entity_name": "Odyoloji Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Sağlık Bilimleri Fakültesi bünyesinde, işitme ve denge problemleri konusunda uzmanlaşmış odyologlar yetiştiren akademik birimdir. audiology, hearing and balance, course schedule, internship, curriculum.",
+    "action_links": [
+        {
+            "intent": "Ders Programını İncele",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/tr/menu/ders_programi-19"
+        },
+        {
+            "intent": "Staj Olanaklarını Görüntüle",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/tr/menu/staj_olanaklari-20"
+        },
+        {
+            "intent": "Dilekçelere ve Formlara Eriş",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/tr/menu/dilekceler_formlar-22"
+        },
+        {
+            "intent": "Bölüm Yönetmeliğini Oku",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/tr/menu/yonetmelik-23"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/en/menu/faculty-59"
+        },
+        {
+            "intent": "Administration Information",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/en/menu/administration-50"
+        },
+        {
+            "intent": "Contact Details",
+            "url": "https://sbfodyoloji.hacettepe.edu.tr/en/menu/contact-77"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Anabilim Dalları"
+    ],
+    "url": "https://sbfodyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 87
+}

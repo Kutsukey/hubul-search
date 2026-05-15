@@ -1,0 +1,75 @@
+{
+    "entity_name": "Heykel Bölümü",
+    "category": "Bölüm",
+    "description": "Heykel Bölümü, lisans, yüksek lisans ve sanatta yeterlik düzeylerinde sanatsal eğitim, akademik araştırma ve uluslararası değişim programları sunan bir akademik birimdir. sculpture, fine arts, academic staff, curriculum, exchange programs.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Kılavuzunu İndir",
+            "url": "https://fs.hacettepe.edu.tr/heykel/1Hakk%C4%B1nda/%C3%96%C4%9Frenci%20K%C4%B1lavuzu/%C3%96%C4%9Frenci%20K%C4%B1lavuzu_Ek_H.U.%20OGRENCI%20KILAVUZU.pdf"
+        },
+        {
+            "intent": "Download Student Guide",
+            "url": "https://fs.hacettepe.edu.tr/heykel/1Hakk%C4%B1nda/%C3%96%C4%9Frenci%20K%C4%B1lavuzu/%C3%96%C4%9Frenci%20K%C4%B1lavuzu_Ek_H.U.%20OGRENCI%20KILAVUZU.pdf"
+        },
+        {
+            "intent": "Erasmus Bilgileri",
+            "url": "http://www.abofisi.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Erasmus Information",
+            "url": "http://www.abofisi.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Mevlana Bilgileri",
+            "url": "http://www.mevlana.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Mevlana Information",
+            "url": "http://www.mevlana.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Lisans Program Detaylarını Gör",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000377&birim_kod=463&prg_oid=PRGRAM_0000000000000000000000346&prg_kod=463&programduzey=2&submenuheader=2"
+        },
+        {
+            "intent": "View Undergraduate Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000377&birim_kod=463&prg_oid=PRGRAM_0000000000000000000000346&prg_kod=463&programduzey=2&submenuheader=2"
+        },
+        {
+            "intent": "Yüksek Lisans Program Detaylarını Gör",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000581&birim_kod=2033&prg_oid=PRGRAM_0000000000000000000000561&prg_kod=20331&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "View Master's Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000581&birim_kod=2033&prg_oid=PRGRAM_0000000000000000000000561&prg_kod=20331&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Sanatta Yeterlik Program Detaylarını Gör",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000581&birim_kod=2033&prg_oid=PRGRAM_0000000000000000000000857&prg_kod=20332&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "View Proficiency in Art Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000581&birim_kod=2033&prg_oid=PRGRAM_0000000000000000000000857&prg_kod=20332&programduzey=5&submenuheader=2"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tarihçe",
+        "Tanıtım",
+        "Vizyon/Misyon",
+        "Yönetim",
+        "Öğretim Üyeleri",
+        "Araştırma Görevlileri",
+        "İdari Personel",
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Sanatta Yeterlik Programı",
+        "Erasmus Programı",
+        "Mevlana Programı",
+        "Farabi Programı",
+        "Öğrenci Danışmanlıkları"
+    ],
+    "url": "https://heykel.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 155
+}

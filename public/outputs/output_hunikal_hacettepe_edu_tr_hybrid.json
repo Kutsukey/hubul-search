@@ -1,0 +1,46 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Kalite ve Analiz Laboratuvarı",
+    "category": "Araştırma Merkezi",
+    "description": "Hammadde, ilaç, kozmetik, biyoteknolojik ürünler ve tıbbi cihazlar gibi çeşitli sektörlere yönelik ileri düzey analiz, kalite kontrol ve AR-GE hizmetleri sunan bir laboratuvar birimidir. (analysis services, quality control, biotechnology, toxicology, laboratory, R&D)",
+    "action_links": [
+        {
+            "intent": "Analiz Ücretlerini İncele",
+            "url": "https://hunikal.hacettepe.edu.tr/analiz-ucretleri-2026"
+        },
+        {
+            "intent": "Review Analysis Fees 2026",
+            "url": "https://hunikal.hacettepe.edu.tr/analiz-ucretleri-2026"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://hunikal.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://hunikal.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "PDE Raporu Hazırlama Bilgisi Al",
+            "url": "https://hunikal.hacettepe.edu.tr/pde-raporu-ve-guvenlilik-dosyasi-hazirlama"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Hammadde Analizleri",
+        "Konvansiyonel İlaç Analizleri",
+        "Biyoteknolojik ve Biyobenzer Ürün Analizleri",
+        "Radyofarmasötik Ürün Analizleri",
+        "Tıbbi Bitkisel Ürün Analizleri",
+        "Kozmetik Ürün Analizleri",
+        "Biyokimyasal Testler",
+        "Tıbbi Cihazlarda Biyouyumluluk Testleri",
+        "Toksikolojik Testler",
+        "Mikrobiyolojik Kontroller",
+        "Su Analizleri",
+        "Formülasyon Çalışmaları",
+        "AR-GE ve ÜR-GE"
+    ],
+    "url": "https://hunikal.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 28
+}

@@ -1,0 +1,64 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Özel Eğitim Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Özel Eğitim Bölümü, otizm spektrum bozukluğu ve özel yetenekliler alanlarında uzmanlaşmış akademik kadrosuyla eğitim, araştırma ve topluma hizmet faaliyetlerini sürdürmektedir. special education, autism spectrum disorder, gifted education, undergraduate program, research.",
+    "action_links": [
+        {
+            "intent": "Program Bilgilerini İncele",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/program-84"
+        },
+        {
+            "intent": "Review Program Information",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en"
+        },
+        {
+            "intent": "Öğrenci Kılavuzlarını İncele",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/ogrenci_kilavuzlari-111"
+        },
+        {
+            "intent": "View Student Booklet",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en/menu/student_booklet-113"
+        },
+        {
+            "intent": "Araştırma Alanlarını Gör",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/arastirma-104"
+        },
+        {
+            "intent": "Explore Research Areas",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en/menu/research-66"
+        },
+        {
+            "intent": "Özel Yetenekliler Eğitimi Sayfasına Git",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Go to Gifted Education Page",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Zihin Engelliler Eğitimi Sayfasına Git",
+            "url": "http://zihinengelliler.hacettepe.edu.tr/tr"
+        },
+        {
+            "intent": "Go to Intellectual Disabilities Education Page",
+            "url": "http://zihinengelliler.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Otizm Spektrum Bozukluğu Eğitimi Sayfasına Git",
+            "url": "http://otizm.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Go to Autism Spectrum Disorders Education Page",
+            "url": "https://otizm.hacettepe.edu.tr/en"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Özel Yetenekliler Eğitimi",
+        "Otizm Spektrum Bozukluğu Eğitimi",
+        "Zihin Engelliler Eğitimi"
+    ],
+    "url": "https://ozelegitim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 160
+}

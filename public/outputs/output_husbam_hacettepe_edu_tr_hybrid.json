@@ -1,0 +1,58 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Sözlük Bilimi Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Sözlük bilimi alanında bilimsel araştırmalar, veri tabanı oluşturma ve akademik yayınlar gerçekleştiren bir araştırma merkezidir. lexicography, linguistics, dictionary studies, research center, academic research",
+    "action_links": [
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://husbam.hacettepe.edu.tr/tr/menu/yonetmelik-19"
+        },
+        {
+            "intent": "Review Regulation",
+            "url": "https://husbam.hacettepe.edu.tr/en/menu/yonetmelik-19"
+        },
+        {
+            "intent": "Download Center Directive (PDF)",
+            "url": "https://fs.hacettepe.edu.tr/husbam/dosyalar/yonetmelik.pdf"
+        },
+        {
+            "intent": "Sempozyum Programını Görüntüle",
+            "url": "https://husbam.hacettepe.edu.tr/tr/menu/sempozyum_programi-34"
+        },
+        {
+            "intent": "Examine Symposium Program",
+            "url": "https://husbam.hacettepe.edu.tr/en/menu/sempozyum_programi-34"
+        },
+        {
+            "intent": "Sözlükçe Projelerini İncele",
+            "url": "https://husbam.hacettepe.edu.tr/tr/sozlukceler-10"
+        },
+        {
+            "intent": "Examine Dictionary Projects",
+            "url": "https://husbam.hacettepe.edu.tr/en/sozlukceler-10"
+        },
+        {
+            "intent": "Duyuruları Takip Et",
+            "url": "http://www.husbam.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://husbam.hacettepe.edu.tr/tr/menu/iletisim-7"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tanıtım",
+        "Gerekçe",
+        "Yönetim",
+        "Yönetmelik",
+        "Sempozyum",
+        "Yayınlar/Belgeler",
+        "Duyurular",
+        "Sözlükçeler",
+        "Projeler"
+    ],
+    "url": "https://husbam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 35
+}

@@ -1,0 +1,63 @@
+{
+    "entity_name": "Endüstri Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde lisans, yüksek lisans ve doktora düzeyinde endüstri mühendisliği eğitimi, araştırmaları ve akademik faaliyetler sunan bölümdür. industrial engineering, curriculum, syllabus, internship, research",
+    "action_links": [
+        {
+            "intent": "2025-2026 Bahar MUY Final Programını İncele",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025-2026_bahar_MUY_final_program.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Final Programını İncele",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025-2026_bahar_final.pdf"
+        },
+        {
+            "intent": "Download 2025-2026 Spring Semester Make up Exam Schedule",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025_2026_Spring_Makeup_Schedule.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Ara Sınav Programını İncele",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025_2026_Midterm_Schedule.pdf"
+        },
+        {
+            "intent": "2025-2026 Bahar Dönemi Ders Programını İncele",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025-2026_spring_schedule.pdf"
+        },
+        {
+            "intent": "Mühendislik Yönetimi Tezsiz Yüksek Lisans Ders Programını İncele",
+            "url": "https://ie.hacettepe.edu.tr/docs/ders-sinav-program-duyuru/2025_2026_MUY_Spring_Course_Schedule.pdf"
+        },
+        {
+            "intent": "EMÜ398 Yaz Stajı Rapor Taslağını İndir",
+            "url": "https://ie.hacettepe.edu.tr/docs/staj/internship-report-template-emu398_june2025.docx"
+        },
+        {
+            "intent": "EMÜ498 Yaz Stajı Rapor Taslağını İndir",
+            "url": "https://ie.hacettepe.edu.tr/docs/staj/internship-report-template-emu498_june2025.docx"
+        },
+        {
+            "intent": "Download Internship Procedures for Foreign Students",
+            "url": "https://ie.hacettepe.edu.tr/docs/yb_st060422.pdf"
+        },
+        {
+            "intent": "Uluslararası Öğrenciler İçin Bilgilendirme",
+            "url": "https://ie.hacettepe.edu.tr/docs/etkinlik-burs-duyuru/yabanci-uyruklular-2024.pdf"
+        },
+        {
+            "intent": "Download IAESTE Internship Announcement",
+            "url": "https://ie.hacettepe.edu.tr/docs/2021_IAESTE_StajDuyuru.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programları",
+        "Doktora Programı",
+        "Mühendislik Yönetimi (MUY)",
+        "Yandal Programları",
+        "Kalite ve Uygunluk Değerlendirme Mühendisliği (KUDEM)"
+    ],
+    "url": "https://ie.hacettepe.edu.tr",
+    "deep_crawl_files": 122,
+    "deep_crawl_pages": 345
+}

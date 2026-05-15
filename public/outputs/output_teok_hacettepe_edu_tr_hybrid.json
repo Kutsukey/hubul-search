@@ -1,0 +1,39 @@
+{
+    "entity_name": "Tıp Eğitimi Öğrenci Kurulu (TEÖK)",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi öğrencilerinin eğitim planlama, yönetim ve değerlendirme süreçlerine etkin katılımını sağlayan temsil kuruludur. medical education, student board, medical students, faculty of medicine, student representation",
+    "action_links": [
+        {
+            "intent": "Uluslararası Öğrenci Kılavuzunu İndir",
+            "url": "https://teok.hacettepe.edu.tr/Guidev2.pdf"
+        },
+        {
+            "intent": "Download Freshmen Guide for International Students",
+            "url": "https://teok.hacettepe.edu.tr/Guidev2.pdf"
+        },
+        {
+            "intent": "Kurul Amaçlarını ve Görevlerini İncele",
+            "url": "https://teok.hacettepe.edu.tr/hakkinda.html"
+        },
+        {
+            "intent": "View Missions of Medical Education Student Board",
+            "url": "https://teok.hacettepe.edu.tr/missions.html"
+        },
+        {
+            "intent": "Kurul Yapısını Görüntüle",
+            "url": "https://teok.hacettepe.edu.tr/kurul-yapisi.html"
+        },
+        {
+            "intent": "Faaliyet Planı ve Raporlarını İncele",
+            "url": "https://teok.hacettepe.edu.tr/faaliyet-plani.html"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kurul Yapısı",
+        "Faaliyet Planı ve Raporlar"
+    ],
+    "url": "https://teok.hacettepe.edu.tr",
+    "deep_crawl_files": 1,
+    "deep_crawl_pages": 12
+}

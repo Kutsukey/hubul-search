@@ -1,0 +1,60 @@
+{
+    "entity_name": "Radyoloji Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Radyoloji Ana Bilim Dalı, tıbbi görüntüleme ve radyoloji alanında uzmanlaşmış akademik kadrosuyla eğitim, araştırma ve sağlık hizmetleri sunmaktadır. (radiology, medical imaging, radiology department, academic staff, residency)",
+    "action_links": [
+        {
+            "intent": "Genel Tanıtımı İncele",
+            "url": "https://radyoloji.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "View General Introduction",
+            "url": "https://radyoloji.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Görüntüle",
+            "url": "https://radyoloji.hacettepe.edu.tr/hakkinda/misyon.php"
+        },
+        {
+            "intent": "View Mission and Vision",
+            "url": "https://radyoloji.hacettepe.edu.tr/hakkinda/misyon.php"
+        },
+        {
+            "intent": "Öğretim Üyeleri Listesini Gör",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "Araştırma Görevlilerini İncele",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/arsgorevlisi.php"
+        },
+        {
+            "intent": "View Research Assistants",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/arsgorevlisi.php"
+        },
+        {
+            "intent": "Uzman Doktor Listesine Ulaş",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/uzman.php"
+        },
+        {
+            "intent": "View Specialist Doctors",
+            "url": "https://radyoloji.hacettepe.edu.tr/personel/uzman.php"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://radyoloji.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://radyoloji.hacettepe.edu.tr/iletisim/iletisim.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://radyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 27
+}

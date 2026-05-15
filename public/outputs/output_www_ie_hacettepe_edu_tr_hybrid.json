@@ -1,0 +1,68 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "Daire Başkanlığı",
+    "description": "Hacettepe Üniversitesi'nin tüm bilişim altyapısını, ağ servislerini, e-posta sistemlerini, bilgi güvenliği süreçlerini ve yazılım ihtiyaçlarını yöneten temel idari birimdir. university IT services, network administration, email configuration, information security, software repository.",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını İncele",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Configure Chrome Proxy Settings",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Android Mail Kurulum Rehberi",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Android Mail Setup Guide",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Kurulum Rehberi",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Setup Guide",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Software Development Request Form",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formu",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Server Request Form",
+            "url": "https://www.ie.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilgi Güvenliği",
+        "Ağ Altyapısı",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Yazılım Deposu",
+        "Formlar",
+        "İçerik Yönetim Sistemi"
+    ],
+    "url": "https://www.ie.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

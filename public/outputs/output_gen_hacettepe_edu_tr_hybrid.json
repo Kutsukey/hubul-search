@@ -1,0 +1,56 @@
+{
+    "entity_name": "Tıbbi Genetik Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde sitogenetik, moleküler genetik ve klinik genetik alanlarında multidisipliner bir yaklaşımla hasta hizmeti, eğitim ve araştırma faaliyetleri yürüten akademik birimdir. medical genetics, cytogenetics, molecular genetics, clinical genetics, genetics laboratory",
+    "action_links": [
+        {
+            "intent": "Akademik Kadroyu İncele",
+            "url": "https://gen.hacettepe.edu.tr/kadromuz"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://gen.hacettepe.edu.tr/kadromuz"
+        },
+        {
+            "intent": "Eğitim Bilgilerini İncele",
+            "url": "https://gen.hacettepe.edu.tr/egitim"
+        },
+        {
+            "intent": "View Education Information",
+            "url": "https://gen.hacettepe.edu.tr/egitim"
+        },
+        {
+            "intent": "Laboratuvar Bilgilerini İncele",
+            "url": "https://gen.hacettepe.edu.tr/laboratuar"
+        },
+        {
+            "intent": "View Laboratory Information",
+            "url": "https://gen.hacettepe.edu.tr/laboratuar"
+        },
+        {
+            "intent": "Araştırmaları İncele",
+            "url": "https://gen.hacettepe.edu.tr/arastirmalar"
+        },
+        {
+            "intent": "View Research Information",
+            "url": "https://gen.hacettepe.edu.tr/arastirmalar"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://gen.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://gen.hacettepe.edu.tr/iletisim"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Sitogenetik",
+        "Moleküler Genetik",
+        "Klinik Genetik"
+    ],
+    "url": "https://gen.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

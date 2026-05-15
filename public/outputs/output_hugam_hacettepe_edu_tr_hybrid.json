@@ -1,0 +1,15 @@
+{
+    "entity_name": "Gıda Geliştirme Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Gıda araştırması, gıda güvenliği, gıda kalite ve fonksiyonel gıda ürünleri geliştirme üzerine odaklanmış araştırma ve geliştirme faaliyetlerini yürüten bir merkezdir. food research, food safety, food quality, food development, R&D center",
+    "action_links": [],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "İletişim",
+        "Duyurular"
+    ],
+    "url": "https://hugam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 4
+}

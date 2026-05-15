@@ -1,0 +1,52 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Biyoetik Eğitim, Uygulama ve Araştırma Merkezi (HÜBAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde biyoetik alanında eğitim, uygulama ve bilimsel araştırmalar yürüten, etik kurallar ve standartlar üzerine odaklanan bir merkezdir. bioethics, research, training, medical ethics, bioethics center.",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://hubam.hacettepe.edu.tr/diger/yonetmelik.php"
+        },
+        {
+            "intent": "Review Legislation",
+            "url": "https://hubam.hacettepe.edu.tr/english"
+        },
+        {
+            "intent": "Biyoetik Eğitim Materyallerine Eriş",
+            "url": "https://hubam.hacettepe.edu.tr/egitim/merkezbiyoetikegitimmateryalleri.php"
+        },
+        {
+            "intent": "Access Bioethics Training Materials",
+            "url": "https://hubam.hacettepe.edu.tr/english"
+        },
+        {
+            "intent": "Uluslararası Ziyaretçi Araştırmacı Bilgileri",
+            "url": "https://hubam.hacettepe.edu.tr/ziyaretciarastirmacilar/ziyaretciarastirmacilar.php"
+        },
+        {
+            "intent": "International Visiting Researchers Information",
+            "url": "https://hubam.hacettepe.edu.tr/english"
+        },
+        {
+            "intent": "Merkez Hakkında Bilgi Al",
+            "url": "https://hubam.hacettepe.edu.tr/tanitim/amaci.php"
+        },
+        {
+            "intent": "Get Information About the Center",
+            "url": "https://hubam.hacettepe.edu.tr/english"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://hubam.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://hubam.hacettepe.edu.tr/english"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hubam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 36
+}

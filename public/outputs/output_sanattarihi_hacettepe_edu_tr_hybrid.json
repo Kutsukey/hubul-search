@@ -1,0 +1,22 @@
+{
+    "entity_name": "Sanat Tarihi Bölümü",
+    "category": "Bölüm",
+    "description": "Sanat Tarihi Bölümü'nün akademik duyuruları, ders programları, sınav takvimleri ve bilimsel etkinlikleri hakkında bilgi sunan birimdir. art history, academic calendar, curriculum, courses, department.",
+    "action_links": [
+        {
+            "intent": "Kongre Başvuru Formunu Doldur",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc1fU2MDnOaiWzEWVokpkxAfV_IDHm-YBddzWR_QtQRBZjrrw/viewform"
+        },
+        {
+            "intent": "Fill out the Conference Application Form",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc1fU2MDnOaiWzEWVokpkxAfV_IDHm-YBddzWR_QtQRBZjrrw/viewform"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bizans Sanatları Anabilim Dalı"
+    ],
+    "url": "https://sanattarihi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

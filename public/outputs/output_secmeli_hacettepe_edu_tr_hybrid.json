@@ -1,0 +1,69 @@
+{
+    "entity_name": "Seçmeli Dersler Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi bünyesinde sunulan seçmeli derslerin (SEC kodlu) akademik süreçlerini, sınav takvimlerini, ders içeriklerini ve ilgili mevzuat uygulamalarını koordine eden birimdir. elective courses, course catalog, exam schedule, syllabus, academic coordination.",
+    "action_links": [
+        {
+            "intent": "Mevzuatı İncele",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/mevzuat-30"
+        },
+        {
+            "intent": "Review Legislation",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/mevzuat-30"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/ders_programi-75"
+        },
+        {
+            "intent": "View Course Schedule",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/ders_programi-75"
+        },
+        {
+            "intent": "SEC Kodlu Dersleri Listele",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/sec_kodlu_dersler-95"
+        },
+        {
+            "intent": "Browse SEC Coded Courses",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/sec_kodlu_dersler-95"
+        },
+        {
+            "intent": "Sınav Takvimine Bak",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/sinav_takvimi-93"
+        },
+        {
+            "intent": "Check Exam Schedule",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/sinav_takvimi-93"
+        },
+        {
+            "intent": "Formları İndir",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/formlar-32"
+        },
+        {
+            "intent": "Download Forms",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/formlar-32"
+        },
+        {
+            "intent": "Ders Verme Talebi Oluştur",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/ders_verme_talepleri-20"
+        },
+        {
+            "intent": "Submit Course Offering Request",
+            "url": "https://secmeli.hacettepe.edu.tr/tr/menu/ders_verme_talepleri-20"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Sosyal ve Beşeri Bilimler",
+        "Sağlık Bilimleri",
+        "Fen ve Mühendislik Bilimleri",
+        "Mimarlık",
+        "Güzel Sanatlar",
+        "Spor Bilimleri",
+        "Müzik ve Sahne Sanatları",
+        "Yabancı Diller"
+    ],
+    "url": "https://secmeli.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 89
+}

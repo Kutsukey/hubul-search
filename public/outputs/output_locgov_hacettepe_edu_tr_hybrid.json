@@ -1,0 +1,32 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Yerel Yönetimler Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Yerel yönetimlerin kapasitesini geliştirmek, kentsel yönetişim ve yerel politikalar üzerine araştırma, proje ve yayın faaliyetleri yürüten akademik bir birimdir. local government, urban governance, municipal studies, research center, public administration",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://locgov.hacettepe.edu.tr/tr/menu/yonetmelik-30"
+        },
+        {
+            "intent": "Faaliyet Alanlarını İncele",
+            "url": "https://locgov.hacettepe.edu.tr/tr/menu/faaliyet_alanlari-36"
+        },
+        {
+            "intent": "Projeleri İncele",
+            "url": "https://locgov.hacettepe.edu.tr/tr/menu/projeler-40"
+        },
+        {
+            "intent": "Merkez Yayınlarını İncele",
+            "url": "https://locgov.hacettepe.edu.tr/tr/menu/merkez_yayinlari-38"
+        },
+        {
+            "intent": "Yönetim Kurulu Bilgisi",
+            "url": "https://locgov.hacettepe.edu.tr/tr/menu/yonetim_kurulu-43"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://locgov.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 23
+}

@@ -1,0 +1,73 @@
+{
+    "entity_name": "Amerikan Kültürü ve Edebiyatı Bölümü",
+    "category": "Bölüm",
+    "description": "Amerikan kültürü ve edebiyatını tarihsel, felsefi, toplumsal ve sanatsal perspektiflerle inceleyen, Türkiye'de bu alanda eğitim veren ilk akademik birimdir. american culture and literature, curriculum, undergraduate programs, graduate studies, academic staff.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://ake.hacettepe.edu.tr/tr/menu/lisans_programi-16"
+        },
+        {
+            "intent": "Review Undergraduate Program",
+            "url": "https://ake.hacettepe.edu.tr/en/menu/undergraduate_-45"
+        },
+        {
+            "intent": "Lisansüstü Programı İncele",
+            "url": "https://ake.hacettepe.edu.tr/tr/menu/lisansustu_programi-17"
+        },
+        {
+            "intent": "Review Graduate Program",
+            "url": "https://ake.hacettepe.edu.tr/en/menu/graduate_-46"
+        },
+        {
+            "intent": "Erasmus ve Staj Bilgileri",
+            "url": "https://ake.hacettepe.edu.tr/tr/menu/erasmus_+_ve_erasmus_staj-61"
+        },
+        {
+            "intent": "Erasmus Program Information",
+            "url": "https://ake.hacettepe.edu.tr/en/menu/erasmus_program-50"
+        },
+        {
+            "intent": "Yüksek Lisans/Doktora Giriş Sınavı Hazırlık Kılavuzu İndir",
+            "url": "http://fs.hacettepe.edu.tr/ake/MA-PhD%20Entrance%20Exam%20Study%20Guide.pdf"
+        },
+        {
+            "intent": "Download MA/PhD Entrance Exam Study Guide",
+            "url": "http://fs.hacettepe.edu.tr/ake/MA-PhD%20Entrance%20Exam%20Study%20Guide.pdf"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikler",
+            "url": "https://oidb.hacettepe.edu.tr/tr/menu/mevzuat-9"
+        },
+        {
+            "intent": "Rules and Regulations",
+            "url": "https://oidb.hacettepe.edu.tr/en/menu/rules_and_regulations-81"
+        },
+        {
+            "intent": "Yandal Programı Bilgileri",
+            "url": "https://ake.hacettepe.edu.tr/tr/menu/yandal_programi-18"
+        },
+        {
+            "intent": "Minor Program Information",
+            "url": "https://ake.hacettepe.edu.tr/en/menu/minor_-47"
+        },
+        {
+            "intent": "Çift Anadal Programı Bilgileri",
+            "url": "https://ake.hacettepe.edu.tr/tr/menu/cift_anadal_programi-19"
+        },
+        {
+            "intent": "Double Major Program Information",
+            "url": "https://ake.hacettepe.edu.tr/en/menu/double_major_-89"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Lisansüstü Programı",
+        "Yandal Programı",
+        "Çift Anadal Programı"
+    ],
+    "url": "https://ake.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 222
+}

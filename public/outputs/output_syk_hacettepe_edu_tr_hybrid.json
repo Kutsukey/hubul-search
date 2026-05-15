@@ -1,0 +1,37 @@
+{
+    "entity_name": "Sürdürülebilir Yerleşkeler Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi bünyesinde çevresel sürdürülebilirlik, atık yönetimi ve yeşil kampüs stratejilerini koordine eden, çevre bilincini artırmayı hedefleyen birimdir. sustainability, green campus, zero waste, environmental management, biodiversity.",
+    "action_links": [
+        {
+            "intent": "Hacettepe Üniversitesi Karasal Omurgalı Faunası Belgesini İndir",
+            "url": "https://syk.hacettepe.edu.tr/fs_/files/10.15671-hjbc.722876-1059795_compressed.pdf"
+        },
+        {
+            "intent": "Download Hacettepe Factfile",
+            "url": "https://syk.hacettepe.edu.tr/fs_/files/hun_edu_tr_factfile_2022_full_compressed.pdf"
+        },
+        {
+            "intent": "20_04_2022 Tarihli Dosyayı İndir",
+            "url": "https://syk.hacettepe.edu.tr/fs_/files/20_04_2022.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Sıfır Atık ve Atık Yönetimi",
+        "Yeşil Kampüs",
+        "Engelsiz Kampüs",
+        "Biyoçeşitlilik",
+        "Enerji Yönetimi",
+        "Su Yönetimi",
+        "Ulaşım",
+        "Kampüs Tarımı",
+        "Sürdürülebilirlik Raporları",
+        "Yeşil Kampüs Sıralaması",
+        "PHRC (Planetary Health Report Card)",
+        "Yerleşkeler Master Planı"
+    ],
+    "url": "https://syk.hacettepe.edu.tr",
+    "deep_crawl_files": 3,
+    "deep_crawl_pages": 186
+}

@@ -1,0 +1,62 @@
+{
+    "entity_name": "Siyaset Bilimi ve Kamu Yönetimi Bölümü",
+    "category": "Bölüm",
+    "description": "1982 yılında kurulan bölüm; lisans, yüksek lisans ve doktora programları ile siyaset bilimi ve kamu yönetimi alanında eğitim ve araştırma faaliyetlerini sürdürmektedir. political science, public administration, curriculum, internship, exchange programs, undergraduate, graduate",
+    "action_links": [
+        {
+            "intent": "Programları İncele",
+            "url": "https://www.sbky.hacettepe.edu.tr/tr/menu/programlar-320"
+        },
+        {
+            "intent": "View Programs",
+            "url": "https://sbky.hacettepe.edu.tr/en/menu/programs-355"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "https://www.sbky.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-330"
+        },
+        {
+            "intent": "View Rules and Regulations",
+            "url": "http://sbky.hacettepe.edu.tr/en/menu/rules_and_regulations-256"
+        },
+        {
+            "intent": "Staj Bilgilerini Gör",
+            "url": "https://www.sbky.hacettepe.edu.tr/tr/menu/staj-332"
+        },
+        {
+            "intent": "View Internship Information",
+            "url": "http://www.sbky.hacettepe.edu.tr/tr/menu/staj-332"
+        },
+        {
+            "intent": "Ders ve Sınav Programını Görüntüle",
+            "url": "https://www.sbky.hacettepe.edu.tr/tr/menu/ders_programi_ve_sinav_programi-328"
+        },
+        {
+            "intent": "View Course and Exam Schedule",
+            "url": "http://sbky.hacettepe.edu.tr/tr/menu/ders_programi_ve_sinav_programi-328"
+        },
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://www.sbky.hacettepe.edu.tr/tr/menu/degisim_programlari-321"
+        },
+        {
+            "intent": "View Exchange Programs",
+            "url": "https://sbky.hacettepe.edu.tr/en/menu/exchange_programs-356"
+        },
+        {
+            "intent": "Bölüm Yararlı Belgelerini İndir",
+            "url": "https://sbky.hacettepe.edu.tr/tr/menu/yararli_belgeler_bolum-339"
+        },
+        {
+            "intent": "Download Departmental Useful Documents",
+            "url": "http://www.sbky.hacettepe.edu.tr/tr/menu/yararli_belgeler_bolum-339"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Anabilim Dalları"
+    ],
+    "url": "https://www.sbky.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 133
+}

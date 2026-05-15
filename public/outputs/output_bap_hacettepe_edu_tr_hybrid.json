@@ -1,0 +1,84 @@
+{
+    "entity_name": "Bilimsel Araştırma Projeleri Koordinasyon Birimi",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi bünyesindeki bilimsel araştırma projelerinin değerlendirilmesi, kabulü, desteklenmesi ve izlenmesi süreçlerini yürüten koordinasyon birimidir. scientific research projects, BAP, research funding, project guidelines, academic grants.",
+    "action_links": [
+        {
+            "intent": "BAPSİS Proje Yönetim Sistemine Git",
+            "url": "https://bapsis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Access BAPSİS Project Management System",
+            "url": "https://bapsis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "DAPSİS Sistemine Git",
+            "url": "https://dapsis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Access DAPSİS System",
+            "url": "https://dapsis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "AVESİS Akademik Veri Yönetim Sistemine Git",
+            "url": "https://avesis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Access AVESİS Academic Data System",
+            "url": "https://avesis.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "BAP Uygulama Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/research/Bilimsel%20Ara%C5%9Ft%C4%B1rma%20Projesi%20Uygulama%20Y%C3%B6nergesi.pdf"
+        },
+        {
+            "intent": "Review BAP Application Directive",
+            "url": "https://fs.hacettepe.edu.tr/research/Bilimsel%20Ara%C5%9Ft%C4%B1rma%20Projesi%20Uygulama%20Y%C3%B6nergesi.pdf"
+        },
+        {
+            "intent": "2026 BAP Uygulama Esaslarını İncele",
+            "url": "https://fs.hacettepe.edu.tr/research/BAP%20Uygulama%20Esaslar%C4%B1%202026.pdf"
+        },
+        {
+            "intent": "Review 2026 BAP Application Principles",
+            "url": "https://fs.hacettepe.edu.tr/research/BAP%20Uygulama%20Esaslar%C4%B1%202026.pdf"
+        },
+        {
+            "intent": "Yükseköğretim Kurulları Yayın Etiği Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/research/bilimsel_arastirma_ve_yayin_etigi_yonergesi.pdf"
+        },
+        {
+            "intent": "Review Higher Education Council Publication Ethics Directive",
+            "url": "https://fs.hacettepe.edu.tr/research/bilimsel_arastirma_ve_yayin_etigi_yonergesi.pdf"
+        },
+        {
+            "intent": "Sinai Mülkiyet Hakları Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/research/sinai_mulkiyet_haklari_yonergesi.pdf"
+        },
+        {
+            "intent": "Review Industrial Property Rights Directive",
+            "url": "https://fs.hacettepe.edu.tr/research/sinai_mulkiyet_haklari_yonergesi.pdf"
+        },
+        {
+            "intent": "Etik Kurul Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/research/etik_kurul_yonergesi.pdf"
+        },
+        {
+            "intent": "Review Ethics Committee Directive",
+            "url": "https://fs.hacettepe.edu.tr/research/etik_kurul_yonergesi.pdf"
+        },
+        {
+            "intent": "AB Projeleri Günlük Kur Bilgilerini Görüntüle",
+            "url": "https://docs.google.com/spreadsheets/d/1x8DogJ3iD57bMxe3SpbJpCEyhgaShEC-72CQLY0J2X4/"
+        },
+        {
+            "intent": "View Daily Exchange Rates for EU Projects",
+            "url": "https://docs.google.com/spreadsheets/d/1x8DogJ3iD57bMxe3SpbJpCEyhgaShEC-72CQLY0J2X4/"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://bap.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 20
+}

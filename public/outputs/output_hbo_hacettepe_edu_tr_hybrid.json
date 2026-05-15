@@ -1,0 +1,52 @@
+{
+    "entity_name": "Hayat Boyu Öğrenme ve Yetişkin Eğitimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hayat boyu öğrenme ve yetişkin eğitimi süreçlerini yöneten, seminerler ve akademik çalışmalar düzenleyen bir akademik birimdir. lifelong learning, adult education, seminars, training, academic programs.",
+    "action_links": [
+        {
+            "intent": "Tanıtım Bilgilerini İncele",
+            "url": "https://hbo.hacettepe.edu.tr/tr/menu/tanitim-5"
+        },
+        {
+            "intent": "Read Introduction",
+            "url": "https://hbo.hacettepe.edu.tr/en/menu/introduction-21"
+        },
+        {
+            "intent": "Tarihçeyi Görüntüle",
+            "url": "https://hbo.hacettepe.edu.tr/tr/menu/tarihce-9"
+        },
+        {
+            "intent": "Read History",
+            "url": "https://hbo.hacettepe.edu.tr/en/menu/history-25"
+        },
+        {
+            "intent": "Yönetimi İncele",
+            "url": "https://hbo.hacettepe.edu.tr/tr/menu/yonetim-11"
+        },
+        {
+            "intent": "View Administration",
+            "url": "https://hbo.hacettepe.edu.tr/en/menu/administration-27"
+        },
+        {
+            "intent": "Öğretim Üyeleri Listesi",
+            "url": "https://hbo.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-15"
+        },
+        {
+            "intent": "Faculty Members List",
+            "url": "https://hbo.hacettepe.edu.tr/en/menu/faculty_members-31"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://hbo.hacettepe.edu.tr/tr/menu/iletisim-17"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://hbo.hacettepe.edu.tr/en/menu/contact-35"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hbo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 20
+}

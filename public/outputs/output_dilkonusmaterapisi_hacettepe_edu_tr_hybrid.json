@@ -1,0 +1,13 @@
+{
+    "entity_name": "Dil ve Konuşma Terapisi Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Dil ve Konuşma Terapisi Bölümü, lisans, yüksek lisans ve doktora düzeylerinde eğitim veren, bilimsel araştırma ve klinik uygulama odaklı bir akademik birimdir. speech and language therapy, SLT, curriculum, clinical practice, admission.",
+    "action_links": [],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Dil ve Konuşma Terapisi Anabilim Dalı"
+    ],
+    "url": "https://dilkonusmaterapisi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

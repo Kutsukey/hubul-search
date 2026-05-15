@@ -1,0 +1,34 @@
+{
+    "entity_name": "Sosyal Hizmet Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde sosyal hizmet alanında lisans ve lisansüstü düzeyde eğitim, araştırma ve toplumsal katkı faaliyetlerini yürüten akademik birimdir. social work, social services, curriculum, internship, accreditation, social work department",
+    "action_links": [
+        {
+            "intent": "Sosyal Hizmet Yönergeleri ve Kılavuzlarını İncele",
+            "url": "https://sh.hacettepe.edu.tr/tr/menu/sosyal_hizmete_iliskin_yonergeler_k-434"
+        },
+        {
+            "intent": "Ulusal Staj Programı Hakkında Bilgi Al",
+            "url": "https://sh.hacettepe.edu.tr/tr/ulusal_staj_programi_hakkinda_-1328"
+        },
+        {
+            "intent": "Akreditasyon Bilgilerini Görüntüle",
+            "url": "https://sh.hacettepe.edu.tr/tr/menu/akreditasyona_dair-389"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgi Paketine Eriş",
+            "url": "https://sh.hacettepe.edu.tr/tr/menu/ders_katalogu_akts_bilgi_paketi"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programları",
+        "Lisansüstü Programlar",
+        "Koordinatörlükler",
+        "Akreditasyon Birimi",
+        "Araştırma Grupları"
+    ],
+    "url": "https://sh.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 179
+}

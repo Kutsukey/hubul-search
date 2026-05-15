@@ -1,0 +1,60 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi personeli ve öğrencilerinin dijital hesap yönetimi, e-posta, e-imza ve teknik destek hizmetlerine erişim sağladığı merkezi portal servisidir. IT services, student portal, email login, digital signature, technical support, password management.",
+    "action_links": [
+        {
+            "intent": "Yeni Hesap Aç",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Open New Account",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Şifremi Unuttum",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Forgot Password",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Bilgi Güncelleme",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Update Information",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "E-Posta Girişi",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Email Login",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Office 365'e Eriş",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "E-İmza İşlemleri",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "E-Signature Services",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Destek Sistemine Git",
+            "url": "https://portal.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://portal.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 25
+}

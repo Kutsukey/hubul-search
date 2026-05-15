@@ -1,0 +1,76 @@
+{
+    "entity_name": "İş Sağlığı ve Güvenliği Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi yerleşkelerinde iş sağlığı ve güvenliği faaliyetlerini yürütmek, denetlemek ve üniversite genelinde iş güvenliği kültürünü geliştirmek amacıyla çalışmalar yapan birimdir. occupational health and safety, OHS, workplace safety, university safety, emergency response.",
+    "action_links": [
+        {
+            "intent": "İSG Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/HU_ISG_YONERGE_20_Subat_2025.pdf"
+        },
+        {
+            "intent": "Review OHS Directive",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/HU_ISG_YONERGE_20_Subat_2025.pdf"
+        },
+        {
+            "intent": "Görev, Yetki ve Sorumlulukları İncele",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/%C4%B0SG_GYS_16_Eylul_2022.pdf"
+        },
+        {
+            "intent": "Review Duties, Authorities and Responsibilities",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/%C4%B0SG_GYS_16_Eylul_2022.pdf"
+        },
+        {
+            "intent": "Stratejik Planı Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/SIHHIYE_%C4%B0SG_Kurul_Stratejik%20Plan_2023.docx"
+        },
+        {
+            "intent": "View Strategic Plan",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/SIHHIYE_%C4%B0SG_Kurul_Stratejik%20Plan_2023.docx"
+        },
+        {
+            "intent": "2024 Faaliyet Raporunu İncele",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/%C4%B0SG_Kurul_Faaliyet_Raporu_2023.pdf"
+        },
+        {
+            "intent": "Review 2024 Activity Report",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/%C4%B0SG_Kurul_Faaliyet_Raporu_2023.pdf"
+        },
+        {
+            "intent": "Beytepe Kampüsü Acil Durum Ekipleri Listesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/Beytepe_Kampusu_Acil_Durum_Ekipleri_Mart_2023.xlsx"
+        },
+        {
+            "intent": "Download Beytepe Campus Emergency Teams List",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/Beytepe_Kampusu_Acil_Durum_Ekipleri_Mart_2023.xlsx"
+        },
+        {
+            "intent": "Sıhhiye Kampüsü Acil Durum Ekipleri Listesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/S%C4%B1hhiye_Kampusu_Acil_Durum_Ekipleri_Nisan_2023.xlsx"
+        },
+        {
+            "intent": "Download Sıhhiye Campus Emergency Teams List",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/S%C4%B1hhiye_Kampusu_Acil_Durum_Ekipleri_Nisan_2023.xlsx"
+        },
+        {
+            "intent": "Diş Hekimliği Fakültesi Acil Durum Ekipleri Listesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/D%C4%B0s_Hekimligi_Fakultesi_Acil_Durum_Ekipleri_2023.xlsx"
+        },
+        {
+            "intent": "Download Faculty of Dentistry Emergency Teams List",
+            "url": "https://fs.hacettepe.edu.tr/isgbirim/dosyalar/D%C4%B0s_Hekimligi_Fakultesi_Acil_Durum_Ekipleri_2023.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Personel",
+        "Teşkilat Şeması",
+        "Mevzuat",
+        "İş Akış Şemaları",
+        "İSG Kurulları",
+        "Acil Durum Ekipleri"
+    ],
+    "url": "https://isgb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 42
+}

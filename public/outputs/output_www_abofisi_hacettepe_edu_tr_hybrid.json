@@ -1,0 +1,65 @@
+{
+    "entity_name": "Bilgi İşlem Ofisi (Ağ ve Bilgi Sistemleri Ofisi)",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin ağ altyapısı, e-posta sistemleri, proxy yapılandırmaları, VPN servisleri, yazılım kaynakları ve bilgi güvenliği süreçlerini yöneten teknik birimdir. network services, email configuration, proxy settings, IT support, cybersecurity, campus wifi, software repository.",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Download Server Request Form",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Chrome Proxy Ayarları Kılavuzu",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Download Chrome Proxy Settings Guide",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarları",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarları",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.abofisi.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "Web Servisleri",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Proxy Ayarları ve Kurulumu",
+        "Ağ Altyapısı",
+        "Yazılım Deposu",
+        "Formlar",
+        "Kablosuz Erişim Servisleri"
+    ],
+    "url": "https://www.abofisi.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

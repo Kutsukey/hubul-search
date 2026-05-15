@@ -1,0 +1,69 @@
+{
+    "entity_name": "Biyostatistik Birimi",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi Biyostatistik birimi; ağ altyapısı, e-posta yönetimi, proxy ayarları, VPN bağlantıları ve yazılım hizmetleri gibi bilişimsel teknik destek ve bilgi güvenliği süreçlerini yürütmektedir. (biostatistics, IT services, proxy settings, email configuration, network infrastructure, software support)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Android Outlook Mail Ayarlarını İncele",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "Check Android Outlook Mail Settings",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarları",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Account Settings",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Android Proxy Ayarlarını Yapılandır",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/proxy-pdf/android_proxy_ayarlari2021.pdf"
+        },
+        {
+            "intent": "Configure Android Proxy Settings",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/proxy-pdf/android_proxy_ayarlari2021.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Download IT Personnel Application Form",
+            "url": "https://www.biyoistatistik.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Bilgi Güvenliği Politikası",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Ağ Altyapısı",
+        "Yazılım Deposu",
+        "Formlar",
+        "Bilgi ve Dokümanlar"
+    ],
+    "url": "https://www.biyoistatistik.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

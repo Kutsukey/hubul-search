@@ -1,0 +1,63 @@
+{
+    "entity_name": "Dijital Dönüşüm ve Bilişim Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Üniversitenin dijital dönüşüm süreçlerini hızlandırmak, kurumsal veri yönetimi ve bilişim altyapısını etkin bir şekilde yönetmek amacıyla faaliyet gösteren birimdir. digital transformation, data management, information technology, institutional data, university digitalization.",
+    "action_links": [
+        {
+            "intent": "Yönergeyi İncele",
+            "url": "https://digihu.hacettepe.edu.tr/tr/yonerge-93"
+        },
+        {
+            "intent": "Review Directives",
+            "url": "https://digihu.hacettepe.edu.tr/en/directives-222"
+        },
+        {
+            "intent": "Politikaları Görüntüle",
+            "url": "https://digihu.hacettepe.edu.tr/tr/politikalar-204"
+        },
+        {
+            "intent": "View Policies",
+            "url": "https://digihu.hacettepe.edu.tr/en/policies-221"
+        },
+        {
+            "intent": "Rehberleri İncele",
+            "url": "https://digihu.hacettepe.edu.tr/tr/rehberler-205"
+        },
+        {
+            "intent": "Review Guidelines",
+            "url": "https://digihu.hacettepe.edu.tr/en/guidelines-223"
+        },
+        {
+            "intent": "Raporları İncele",
+            "url": "https://digihu.hacettepe.edu.tr/tr/raporlar-203"
+        },
+        {
+            "intent": "View Reports",
+            "url": "https://digihu.hacettepe.edu.tr/en/reports-224"
+        },
+        {
+            "intent": "Araştırma Portalı'na Git",
+            "url": "https://digihu.hacettepe.edu.tr/tr/arastirma_portali-207"
+        },
+        {
+            "intent": "Access Research Portal",
+            "url": "https://digihu.hacettepe.edu.tr/en/research_portal-225"
+        },
+        {
+            "intent": "Dijital Dönüşüm Rehberini İndir",
+            "url": "https://digihu.hacettepe.edu.tr/dijital_donusum_rehberi-209"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kurumsal Veri Yönetimi Ofisi",
+        "Yazılım ve Büyük Veri Ofisi",
+        "Performans ve Derecelendirme Ofisi",
+        "Akademik Danışma Kurulu",
+        "Yürütme Kurulu",
+        "Birim Temsilcileri Komisyonu"
+    ],
+    "url": "https://digihu.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 129
+}

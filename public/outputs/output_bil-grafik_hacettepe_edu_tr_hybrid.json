@@ -1,0 +1,55 @@
+{
+    "entity_name": "Bilgisayar Grafiği Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Bilgisayar Animasyonu ve Oyun Teknolojileri alanına odaklanan, medya, film, oyun ve bilimsel görselleştirme sektörleri için disiplinlerarası uzmanlar yetiştiren bir akademik birimdir. computer graphics, computer animation, game technology, informatics, master's degree.",
+    "action_links": [
+        {
+            "intent": "Tezli Program Bilgilerini İncele",
+            "url": "https://bil-grafik.hacettepe.edu.tr/tezli-program"
+        },
+        {
+            "intent": "View Thesis Program Information",
+            "url": "https://bil-grafik.hacettepe.edu.tr/en/thesis-program"
+        },
+        {
+            "intent": "Tezsiz Program Bilgilerini İncele",
+            "url": "https://bil-grafik.hacettepe.edu.tr/tezsiz-program"
+        },
+        {
+            "intent": "View Non-Thesis Program Information",
+            "url": "https://bil-grafik.hacettepe.edu.tr/en/non-thesis-program"
+        },
+        {
+            "intent": "Öğretim Üyelerini Listele",
+            "url": "https://bil-grafik.hacettepe.edu.tr/ogretim-uyeleri"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://bil-grafik.hacettepe.edu.tr/en/faculty"
+        },
+        {
+            "intent": "Güncel Duyuruları Takip Et",
+            "url": "https://bil-grafik.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "Check Latest Announcements",
+            "url": "https://bil-grafik.hacettepe.edu.tr/en/announcements"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://bil-grafik.hacettepe.edu.tr/2025-2026-bahar-donemi-dersleri"
+        },
+        {
+            "intent": "View Course Schedule",
+            "url": "https://bil-grafik.hacettepe.edu.tr/en/course-schedule"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilgisayar Animasyonu ve Oyun Teknolojileri Tezli Yüksek Lisans Programı",
+        "Bilgisayar Animasyonu ve Oyun Teknolojileri Tezsiz Yüksek Lisans Programı"
+    ],
+    "url": "https://bil-grafik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 9
+}

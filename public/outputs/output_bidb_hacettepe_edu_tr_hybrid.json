@@ -1,0 +1,59 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin tüm bilişim altyapısını, ağ servislerini, e-posta, e-imza ve yazılım hizmetlerini yöneten ve destekleyen birimdir. IT department, university email, e-signature, VPN, proxy settings, network services.",
+    "action_links": [
+        {
+            "intent": "E-İmza Kullanma Rehberini İncele",
+            "url": "https://bidb.hacettepe.edu.tr/eimza/hakkinda.php"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını İndir",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "iOS Proxy Ayarlarını İndir",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/proxy-pdf/IOSWifiProxyAyarlariEkim2020.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarlarını İncele",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarlarını İncele",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "E-İmza Mevzuatını İncele",
+            "url": "https://bidb.hacettepe.edu.tr/eimza/mevzuat/eimza_kanunu.pdf"
+        },
+        {
+            "intent": "Download Proxy Settings (Chrome)",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Request Form",
+            "url": "https://bidb.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "E-İmza & Mobil İmza",
+        "Ağ Altyapısı ve Kablosuz Erişim",
+        "Yazılım Geliştirme",
+        "Bilgi Güvenliği Yönetim Sistemi (BGYS)",
+        "Web Servisleri"
+    ],
+    "url": "https://bidb.hacettepe.edu.tr/tr/e-posta",
+    "deep_crawl_files": 55,
+    "deep_crawl_pages": 100
+}

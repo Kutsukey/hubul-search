@@ -1,0 +1,52 @@
+{
+    "entity_name": "Adli Bilişim Araştırma ve Uygulama Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Bilişim ve teknoloji hukuku alanlarında bilimsel araştırmalar yapan, eğitim programları düzenleyen ve kamu/özel kuruluşlara danışmanlık ve bilirkişilik hizmeti veren bir merkezdir. forensic computing, cyber law, digital forensics, IT law, research center.",
+    "action_links": [
+        {
+            "intent": "Merkez Hakkında Bilgi Al",
+            "url": "https://adlibilisim.hacettepe.edu.tr/tr/menu/merkez_hakkinda-9"
+        },
+        {
+            "intent": "About the Center",
+            "url": "https://adlibilisim.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://www.resmigazete.gov.tr/eskiler/2009/05/20090526-1.htm"
+        },
+        {
+            "intent": "Review Center Regulation",
+            "url": "https://www.resmigazete.gov.tr/eskiler/2009/05/20090526-1.htm"
+        },
+        {
+            "intent": "Yönetim Organlarını Görüntüle",
+            "url": "https://adlibilisim.hacettepe.edu.tr/tr/menu/yonetim_organlari-62"
+        },
+        {
+            "intent": "View Board of Directors",
+            "url": "https://adlibilisim.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Güncel Duyuruları Takip Et",
+            "url": "https://adlibilisim.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "Follow Latest Announcements",
+            "url": "https://adlibilisim.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Etkinlik Takvimini İncele",
+            "url": "https://adlibilisim.hacettepe.edu.tr/tr/menu/etkinlikler-21"
+        },
+        {
+            "intent": "View Events",
+            "url": "https://adlibilisim.hacettepe.edu.tr/en"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://adlibilisim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 23
+}

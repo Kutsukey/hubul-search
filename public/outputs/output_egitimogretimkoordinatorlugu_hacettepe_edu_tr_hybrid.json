@@ -1,0 +1,42 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Eğitim ve Öğretim Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Eğitim ve öğretim faaliyetlerinin stratejik planlar doğrultusunda planlanması, uygulanması, izlenmesi ve iyileştirilmesi süreçlerini koordine eden birimdir. education management, quality assurance, academic coordination, teaching ecosystem, educational planning.",
+    "action_links": [
+        {
+            "intent": "Mevzuatı İncele",
+            "url": "https://egitimogretimkoordinatorlugu.hacettepe.edu.tr/tr/menu/mevzuat-45"
+        },
+        {
+            "intent": "Eylem Planını İncele",
+            "url": "https://egitimogretimkoordinatorlugu.hacettepe.edu.tr/tr/menu/eylem_plani-41"
+        },
+        {
+            "intent": "Raporları İncele",
+            "url": "https://egitimogretimkoordinatorlugu.hacettepe.edu.tr/tr/menu/raporlar-43"
+        },
+        {
+            "intent": "Çalışma Usul ve Esaslarını İndir",
+            "url": "https://fs.hacettepe.edu.tr/eokoord/dosyalar/yonerge_.pdf"
+        },
+        {
+            "intent": "Senato Kararını İndir",
+            "url": "https://fs.hacettepe.edu.tr/eokoord/dosyalar/SKa_.pdf"
+        },
+        {
+            "intent": "Eğitim ve Öğretim Faaliyetlerini İncele",
+            "url": "https://egitimogretimkoordinatorlugu.hacettepe.edu.tr/tr/menu/egitim_ve_ogretim_faaliyetlerinin_k-15"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Eğitim ve Öğretim Ekosistemi",
+        "Eğitim ve Öğretim Faaliyetlerinin Koordinasyonu",
+        "Eğitim ve Öğretim Koordinatörlüğünün Organizasyon Yapısı",
+        "Eğitim ve Öğretim Koordinatörlüğü Üyeleri",
+        "Eğitim ve Öğretimde İç Kalite Güvencesi Sistemi"
+    ],
+    "url": "https://egitimogretimkoordinatorlugu.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 30
+}

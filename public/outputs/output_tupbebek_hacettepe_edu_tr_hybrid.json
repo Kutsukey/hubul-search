@@ -1,0 +1,20 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Tüp Bebek Ünitesi",
+    "category": "İdari Birim",
+    "description": "1991 yılında kurulan ve ESHRE tarafından akredite edilen, yüksek gebelik oranları ve kaliteli tıbbi hizmet sunan uzman bir üreme sağlığı merkezidir. IVF center, in vitro fertilization, reproductive health, embryology, Hacettepe medical services.",
+    "action_links": [
+        {
+            "intent": "Web Sitesini Ziyaret Et",
+            "url": "https://tupbebek.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Visit Website",
+            "url": "https://tupbebek.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://tupbebek.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

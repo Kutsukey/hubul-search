@@ -1,0 +1,47 @@
+{
+    "entity_name": "Temel Eğitim Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Eğitim Fakültesi bünyesinde yer alan Temel Eğitim Bölümü, Okul Öncesi ve Sınıf Eğitimi alanlarında nitelikli öğretmenler yetiştirmeyi amaçlamaktadır. primary education, early childhood education, classroom teaching, teaching syllabus, academic staff",
+    "action_links": [
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "http://www.oid.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Review Regulations and Guidelines",
+            "url": "http://www.oid.hacettepe.edu.tr/english/index_sub.php"
+        },
+        {
+            "intent": "AKTS Bilgi Paketlerini Görüntüle",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/akts_bilgi_paketi-19"
+        },
+        {
+            "intent": "View ECTS Information",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/ects_information-64"
+        },
+        {
+            "intent": "Duyurulara Göz At",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/duyurular-27"
+        },
+        {
+            "intent": "Check Noticeboard",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/history-47"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/menu/iletisim-13"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/contact-44"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Okul Öncesi Eğitimi Ana Bilim Dalı",
+        "Sınıf Eğitimi Ana Bilim Dalı"
+    ],
+    "url": "https://www.temelegitim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 28
+}

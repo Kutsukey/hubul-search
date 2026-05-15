@@ -1,0 +1,68 @@
+{
+    "entity_name": "Arkeoloji Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Arkeoloji Bölümü, kadim medeniyetlerin incelenmesi, arkeolojik kazılar ve yüzey araştırmaları yoluyla kültürel mirasın korunması ve bilimsel olarak tasnif edilmesi üzerine odaklanmış bir akademik birimdir. archaeology, archaeology department, excavation, curriculum, undergraduate, graduate studies.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=520&curSunit=504"
+        },
+        {
+            "intent": "View Undergraduate Program",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=520&curSunit=504"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://akts.hacettepe.edu.tr/ders_listesi.php?birim_ref=AKDBRM_0000000000000000000000659&birim_kod=2111&prg_oid=PRGRAM_0000000000000000000000794&prg_kod=21111&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "View Master's Program",
+            "url": "https://akts.hacettepe.edu.tr/ders_listesi.php?birim_ref=AKDBRM_0000000000000000000000659&birim_kod=2111&prg_oid=PRGRAM_0000000000000000000000794&prg_kod=21111&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://akts.hacettepe.edu.tr/ders_listesi.php?birim_ref=AKDBRM_0000000000000000000000659&birim_kod=2111&prg_oid=PRGRAM_0000000000000000000000625&prg_kod=21112&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "View PhD Program",
+            "url": "https://akts.hacettepe.edu.tr/ders_listesi.php?birim_ref=AKDBRM_0000000000000000000000659&birim_kod=2111&prg_oid=PRGRAM_0000000000000000000000625&prg_kod=21112&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Formlar ve Dilekçelere Eriş",
+            "url": "https://arkeo.hacettepe.edu.tr/tr/menu/formlar_ve_dilekceler-14"
+        },
+        {
+            "intent": "Access Forms and Petitions",
+            "url": "https://arkeo.hacettepe.edu.tr/tr/menu/formlar_ve_dilekceler-14"
+        },
+        {
+            "intent": "Yandal Program Rehberini İndir",
+            "url": "https://fs.hacettepe.edu.tr/arkeo/Duyuru%20Dosyalar%C4%B1/YANDAL%20REHBER.pdf"
+        },
+        {
+            "intent": "Download Minor Program Guide",
+            "url": "https://fs.hacettepe.edu.tr/arkeo/Duyuru%20Dosyalar%C4%B1/YANDAL%20REHBER.pdf"
+        },
+        {
+            "intent": "Çift Anadal Program Rehberini İndir",
+            "url": "https://fs.hacettepe.edu.tr/arkeo/Duyuru%20Dosyalar%C4%B1/CAP%20REHBER.pdf"
+        },
+        {
+            "intent": "Download Double Major Program Guide",
+            "url": "https://fs.hacettepe.edu.tr/arkeo/Duyuru%20Dosyalar%C4%B1/CAP%20REHBER.pdf"
+        },
+        {
+            "intent": "Erasmus Programı Bilgilerini Gör",
+            "url": "https://arkeo.hacettepe.edu.tr/tr/menu/erasmus_programi-29"
+        },
+        {
+            "intent": "View Erasmus Program Details",
+            "url": "https://arkeo.hacettepe.edu.tr/tr/menu/erasmus_programi-29"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://arkeo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 82
+}

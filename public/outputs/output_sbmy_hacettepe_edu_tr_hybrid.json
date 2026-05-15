@@ -1,0 +1,58 @@
+{
+    "entity_name": "Sosyal Bilimler Meslek Yüksekokulu",
+    "category": "Yüksekokul / Meslek Yüksekokulu",
+    "description": "Büro Yönetimi, Muhasebe, Pazarlama, Sahne Teknolojileri ve Turizm alanlarında ön lisans düzeyinde eğitim vererek uluslararası standartlarda nitelikli meslek elemanları yetiştiren birimdir. (vocational school, associate degree, social sciences, tourism and hotel management, office administration, accounting and tax)",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "Yatay Geçiş Takvimini İncele",
+            "url": "https://fs.hacettepe.edu.tr/sbmy/dosyalar/2025-2026%20G%C3%9CZ%20D%C3%96NEM%C4%B0/2025-2026_Yatay_Gecis_Takvimi.pdf"
+        },
+        {
+            "intent": "Review Lateral Transfer Calendar",
+            "url": "https://fs.hacettepe.edu.tr/sbmy/dosyalar/2025-2026%20G%C3%9CZ%20D%C3%96NEM%C4%B0/2025-2026_Yatay_Gecis_Takvimi.pdf"
+        },
+        {
+            "intent": "Organizasyon Şemasını Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/sbmy/dosyalar/ORGAN%C4%B0ZASYON%20%C5%9EEMASI.pdf"
+        },
+        {
+            "intent": "View Organization Chart",
+            "url": "https://fs.hacettepe.edu.tr/sbmy/dosyalar/ORGAN%C4%B0ZASYON%20%C5%9EEMASI.pdf"
+        },
+        {
+            "intent": "Formlara Eriş (Türkçe)",
+            "url": "https://sbmy.hacettepe.edu.tr/tr/menu/formlar"
+        },
+        {
+            "intent": "Access Forms (English)",
+            "url": "https://sbmy.hacettepe.edu.tr/en/menu/form_english-72"
+        },
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "https://sbmy.hacettepe.edu.tr/tr/menu/staj-ile-ilgili-bilgiler"
+        },
+        {
+            "intent": "Review Internship Information",
+            "url": "https://sbmy.hacettepe.edu.tr/en/menu/history-57"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Büro Hizmetleri ve Sekreterlik Bölümü",
+        "Muhasebe ve Vergi Bölümü",
+        "Görsel - İşitsel Teknikler ve Medya Yapımcılığı Bölümü",
+        "Pazarlama ve Reklamcılık Bölümü",
+        "Otel, Lokanta ve İkram Hizmetleri Bölümü"
+    ],
+    "url": "https://sbmy.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 241
+}

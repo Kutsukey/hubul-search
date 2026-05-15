@@ -1,0 +1,40 @@
+{
+    "entity_name": "Aktüerya Bilimleri Bölümü",
+    "category": "Bölüm",
+    "description": "Aktüerya biliminin risk analizi, olasılık tahmini ve finansal etkilerin hafifletilmesi gibi alanlarına odaklanan, lisans, yüksek lisans ve doktora programları sunan akademik bir birimdir. actuarial science, risk management, statistics, internship, curriculum, life tables.",
+    "action_links": [
+        {
+            "intent": "Staj Raporu Formatını İndir",
+            "url": "https://aktuerya.hacettepe.edu.tr/duyurular/StajRaporuFormati23.docx"
+        },
+        {
+            "intent": "Download Internship Report Format",
+            "url": "https://aktuerya.hacettepe.edu.tr/duyurular/StajRaporuFormati23.docx"
+        },
+        {
+            "intent": "Endüstri Mühendisliği Yandal Bilgisi",
+            "url": "https://aktuerya.hacettepe.edu.tr/duyurular/Yandal_(End-Akt)_Temmuz2021.pdf"
+        },
+        {
+            "intent": "İstatistik Yandal Bilgisi",
+            "url": "https://aktuerya.hacettepe.edu.tr/duyurular/Yandal(ist-Akt)_Subat2022.pdf"
+        },
+        {
+            "intent": "Matematik Yandal Bilgisi",
+            "url": "https://aktuerya.hacettepe.edu.tr/duyurular/Yandal(Akt-Mat)_Subat2022.pdf"
+        },
+        {
+            "intent": "TRH 2010 Hayat Tablosu (PDF)",
+            "url": "https://aktuerya.hacettepe.edu.tr/HayatTablolari/TRH_2010_1507_k_e.pdf"
+        },
+        {
+            "intent": "Download TRH 2010 Life Table (PDF)",
+            "url": "https://aktuerya.hacettepe.edu.tr/HayatTablolari/TRH_2010_1507_k_e.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://aktuerya.hacettepe.edu.tr",
+    "deep_crawl_files": 11,
+    "deep_crawl_pages": 83
+}

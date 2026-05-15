@@ -1,0 +1,74 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin tüm bilişim altyapısını, ağ servislerini, e-posta sistemlerini ve yazılım hizmetlerini yöneten ve destekleyen idari birimdir. information technology, IT services, proxy settings, VPN request, university network, software support.",
+    "action_links": [
+        {
+            "intent": "E-Posta Girişi",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Email Login",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Proxy Ayarlarını İncele",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Check Proxy Settings",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formu",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "VPN Connection Request Form",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Software Development Request Form",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formu",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Server Request Form",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Download HÜ-İYS Application Form",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Contracted IT Staff Application Form",
+            "url": "https://www.huerg.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "WEB Servisleri",
+        "Ağ Altyapısı",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Yazılım Geliştirme",
+        "Sistem Yönetimi"
+    ],
+    "url": "https://www.huerg.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

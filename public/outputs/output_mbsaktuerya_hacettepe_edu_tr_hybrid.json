@@ -1,0 +1,22 @@
+{
+    "entity_name": "Fen Fakültesi Aktüerya Bölümü",
+    "category": "Bölüm",
+    "description": "Fen Fakültesi bünyesindeki Aktüerya programına ait ders listeleri, akademik içerikler ve mezun takip süreçlerinin yönetildiği bilgi sistemidir. actuarial science, course list, alumni information, faculty of science, curriculum",
+    "action_links": [
+        {
+            "intent": "Ders Listesini İncele",
+            "url": "https://mbsaktuerya.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Mezun Bilgi Sistemine Giriş Yap",
+            "url": "https://mbsaktuerya.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Aktüerya"
+    ],
+    "url": "https://mbsaktuerya.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 3
+}

@@ -1,0 +1,36 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Haber Portalı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin resmi haberlerini, güncel duyurularını, akademik başarılarını ve kurumsal gelişmelerini paylaşan haber platformudur. (news, announcements, university updates, press releases, campus news)",
+    "action_links": [
+        {
+            "intent": "Haberleri İncele",
+            "url": "https://www.gazete.hacettepe.edu.tr/tr/haberler"
+        },
+        {
+            "intent": "View News",
+            "url": "https://www.gazete.hacettepe.edu.tr/en/news"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://www.gazete.hacettepe.edu.tr/tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://www.gazete.hacettepe.edu.tr/en/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Toplumsal Katkı",
+        "Araştırma",
+        "Öğretim",
+        "Sıralamalar",
+        "Projeler",
+        "Ödüller"
+    ],
+    "url": "https://www.gazete.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 920
+}

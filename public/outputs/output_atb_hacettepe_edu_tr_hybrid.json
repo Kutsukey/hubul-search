@@ -1,0 +1,65 @@
+{
+    "entity_name": "Aile ve Tüketici Bilimleri Bölümü",
+    "category": "Bölüm",
+    "description": "Kişi, aile ve toplumun yaşam kalitesini artırmayı hedefleyen, lisans ve lisansüstü eğitim faaliyetleri yürüten akademik birimdir. family and consumer sciences, undergraduate, graduate, curriculum, internship, contact.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/lisans_programi_-11"
+        },
+        {
+            "intent": "Undergraduate Program Details",
+            "url": "https://atb.hacettepe.edu.tr/en/menu/undergraduate-30"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/yuksek_lisans_programi_-61"
+        },
+        {
+            "intent": "Master of Science (MSc) Details",
+            "url": "https://atb.hacettepe.edu.tr/en/menu/master_of_science_msc_-31"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/doktora_programi_-62"
+        },
+        {
+            "intent": "Doctorate (PhD) Details",
+            "url": "https://atb.hacettepe.edu.tr/en/menu/doctorate_phd_-80"
+        },
+        {
+            "intent": "Mesleki Eğitim ve Yaz Uygulama Belgelerine Eriş",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/aile_ve_tuketici_bilimlerinde_mesle-127"
+        },
+        {
+            "intent": "Access Professional Training Documents",
+            "url": "http://www.eeb.hacettepe.edu.tr/tr/menu/aile_ve_tuketici_bilimleri_saha_ve_-127"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgilerini İncele",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000310&birim_kod=577&prg_oid=PRGRAM_0000000000000000000000279&prg_kod=577&programduzey=2&submenuheader=2"
+        },
+        {
+            "intent": "Course Catalog / ECTS Information Package",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000310&birim_kod=577&prg_oid=PRGRAM_0000000000000000000000279&prg_kod=577&programduzey=2&submenuheader=2"
+        },
+        {
+            "intent": "Dilekçe ve Form Örneklerini İndir",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri_-132"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı",
+        "Yan Dal"
+    ],
+    "url": "https://atb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 72
+}

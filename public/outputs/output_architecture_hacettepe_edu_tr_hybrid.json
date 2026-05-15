@@ -1,0 +1,74 @@
+{
+    "entity_name": "Mimarlık Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde sürdürülebilir tasarım, sosyal sorumluluk ve çevre bilinci odaklı profesyonel mimarlar yetiştirmeyi amaçlayan akademik birimdir. architecture, department, architecture program, architecture curriculum, architecture faculty",
+    "action_links": [
+        {
+            "intent": "Misyon ve Vizyonu İncele",
+            "url": "https://architecture.hacettepe.edu.tr/tr"
+        },
+        {
+            "intent": "View Mission and Vision",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/mission_and_vision-70"
+        },
+        {
+            "intent": "Lisans Programı Detayları",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/undergraduate_program-30"
+        },
+        {
+            "intent": "View Undergraduate Program Details",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/undergraduate_program-30"
+        },
+        {
+            "intent": "Öğrenci Formlarını İndir",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/forms_for_students-50"
+        },
+        {
+            "intent": "Download Student Forms",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/forms_for_students-50"
+        },
+        {
+            "intent": "Akademik Personel Listesi",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/academic_personnel-12"
+        },
+        {
+            "intent": "View Academic Personnel",
+            "url": "https://architecture.hacettepe.edu.tr/en/menu/academic_personnel-12"
+        },
+        {
+            "intent": "Bütünleme Sınav Bilgilerini Gör",
+            "url": "https://architecture.hacettepe.edu.tr/en/information_about_makeup_exams-98"
+        },
+        {
+            "intent": "Check Make-up Exam Information",
+            "url": "https://architecture.hacettepe.edu.tr/en/information_about_makeup_exams-98"
+        },
+        {
+            "intent": "UNI101 Üniversite Yaşamına Giriş Bilgisi",
+            "url": "https://uni101.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Announcements",
+            "url": "https://architecture.hacettepe.edu.tr/en/en/announcements"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Misyon ve Vizyon",
+        "Bölüm Yönetimi",
+        "Akademik Personel",
+        "İdari Personel",
+        "Lisans Programı",
+        "Öğrenciler İçin Formlar",
+        "Akademik Personel İçin Formlar",
+        "İdari Personel İçin Formlar",
+        "Akademik Yayınlar",
+        "Akademik Etkinlikler",
+        "Mimarlık Konferansları",
+        "Duyurular",
+        "İletişim"
+    ],
+    "url": "https://architecture.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 155
+}

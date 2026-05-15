@@ -1,0 +1,56 @@
+{
+    "entity_name": "Hacettepe Üniversitesi İktisat Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde 1967 yılında kurulan, iktisat biliminin çeşitli dallarında eğitim ve araştırma faaliyetleri yürüten köklü bir akademik birimdir. economics, undergraduate, graduate, syllabus, curriculum, internship, research, faculty.",
+    "action_links": [
+        {
+            "intent": "Dilekçe ve Form Örneklerini İncele",
+            "url": "https://econ.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri-205"
+        },
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "https://econ.hacettepe.edu.tr/tr/menu/staj-201"
+        },
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://econ.hacettepe.edu.tr/tr/menu/degisim_programlari-193"
+        },
+        {
+            "intent": "View Undergraduate (English) Program",
+            "url": "https://econ.hacettepe.edu.tr/en/menu/undergraduate_english-42"
+        },
+        {
+            "intent": "View Undergraduate (Turkish) Program",
+            "url": "https://econ.hacettepe.edu.tr/en/menu/undergraduate_turkish-41"
+        },
+        {
+            "intent": "View Graduate Program",
+            "url": "https://econ.hacettepe.edu.tr/en/menu/graduate_program-157"
+        },
+        {
+            "intent": "Review Erasmus Program",
+            "url": "https://econ.hacettepe.edu.tr/en/menu/erasmus_program-217"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://econ.hacettepe.edu.tr/tr/menu/iletisim-230"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://econ.hacettepe.edu.tr/en/menu/contact-226"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "İktisat Politikası",
+        "İktisat Tarihi",
+        "İktisat Teorisi",
+        "İktisadi Gelişme",
+        "Uluslararası İktisat",
+        "Koordinatörlükler",
+        "Komisyonlar"
+    ],
+    "url": "https://econ.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 104
+}

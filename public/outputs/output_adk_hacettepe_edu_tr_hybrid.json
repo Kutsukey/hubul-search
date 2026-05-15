@@ -1,0 +1,58 @@
+{
+    "entity_name": "Ankara Devlet Konservatuvarı",
+    "category": "İdari Birim",
+    "description": "Müzik ve sahne sanatları alanlarında lisans, yüksek lisans ve doktora düzeyinde eğitim ile sanatsal faaliyetler yürüten köklü bir akademik birimdir. conservatory, music education, performing arts, audition, curriculum",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgi Paketini Görüntüle",
+            "url": "https://akts.hacettepe.edu.tr"
+        },
+        {
+            "intent": "H.Ü. Öğrenci Kılavuzlarını İncele",
+            "url": "https://adk.hacettepe.edu.tr/tr/menu/hu_ogrenci_kilavuzlari-94"
+        },
+        {
+            "intent": "Formlar ve Belgeleri Görüntüle",
+            "url": "https://adk.hacettepe.edu.tr/tr/menu/ogrenci_isleri_-282"
+        },
+        {
+            "intent": "Mevzuatı İncele",
+            "url": "https://adk.hacettepe.edu.tr/tr/menu/mevzuat-272"
+        },
+        {
+            "intent": "Birim Faaliyet Raporunu İndir",
+            "url": "https://fs.hacettepe.edu.tr/adk/dosyalar/Birim%20Faaliyet%20Raporu.pdf"
+        },
+        {
+            "intent": "Müzik ve Bale Ortaokulu Web Sitesine Git",
+            "url": "https://mbo.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Müzik ve Sahne Sanatları Lisesi Web Sitesine Git",
+            "url": "https://mssl.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Müzik Bölümü",
+        "Sahne Sanatları Bölümü",
+        "Müzik Bilimleri Bölümü",
+        "Bestecilik ve Orkestra Şefliği Anasanat Dalı",
+        "Caz Anasanat Dalı",
+        "Piyano Anasanat Dalı",
+        "Üflemeli ve Vurmalı Çalgılar Anasanat Dalı",
+        "Yaylı Çalgılar Anasanat Dalı",
+        "Bale Anasanat Dalı",
+        "Opera Anasanat Dalı",
+        "Tiyatro Anasanat Dalı",
+        "Müzikoloji Anabilim Dalı",
+        "Müzik Teorileri Anabilim Dalı"
+    ],
+    "url": "https://adk.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 429
+}

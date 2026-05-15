@@ -1,0 +1,84 @@
+{
+    "entity_name": "Alman Dili Eğitimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Alman dili, kültürü, edebiyatı ve öğretmenlik metodolojileri üzerine lisans, yüksek lisans ve doktora seviyesinde eğitim veren akademik bir birimdir. german language teaching, pedagogy, german studies, language education, curriculum.",
+    "action_links": [
+        {
+            "intent": "Lisans Ders Programını İncele",
+            "url": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program%20-%20Ders/2025-2026-BAHAR%20ALE%20Lisans%20Ders%20Program%C4%B1%2025.02.2026_PDF2.pdf"
+        },
+        {
+            "intent": "Lisansüstü Ders Programını İncele",
+            "url": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program%20-%20Ders/2025_2026_Bahar_Lisans%C3%BCst%C3%BC_Ders_Program%C4%B1_04.02.26.pdf"
+        },
+        {
+            "intent": "Lisans Sınav Programını İncele",
+            "url": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program%20-%20S%C4%B1nav/2025-2026-BAHAR%20ALE%20Lisans%20SINAV%20Program%C4%B1_30.03.26.pdf"
+        },
+        {
+            "intent": "View Undergraduate Program",
+            "url": "https://adea.hacettepe.edu.tr/en/menu/undergraduate_program-103"
+        },
+        {
+            "intent": "Check Master's Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000685&birim_kod=2137&prg_oid=PRGRAM_0000000000000000000000692&%20prg_kod=21371&programduzey=3&submenuheader=2&dil_kod=2%20%20%20%20%20"
+        },
+        {
+            "intent": "Check Doctorate Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000685&birim_kod=2137&prg_oid=PRGRAM_0000000000000000000000824&prg_kod=21372&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Erasmus Bilgilerini İncele",
+            "url": "https://adea.hacettepe.edu.tr/tr/menu/erasmus-151"
+        },
+        {
+            "intent": "Erasmus Informationen prüfen",
+            "url": "https://adea.hacettepe.edu.tr/de/menu/erasmus_-176"
+        },
+        {
+            "intent": "Check Erasmus Information",
+            "url": "https://adea.hacettepe.edu.tr/en/menu/erasmus_-200"
+        },
+        {
+            "intent": "Farabi Bilgilerini İncele",
+            "url": "https://adea.hacettepe.edu.tr/tr/menu/farabi-152"
+        },
+        {
+            "intent": "Farabi Informationen",
+            "url": "https://adea.hacettepe.edu.tr/de/menu/farabi-175"
+        },
+        {
+            "intent": "Farabi Information",
+            "url": "https://adea.hacettepe.edu.tr/en/menu/farabi-201"
+        },
+        {
+            "intent": "Çift Anadal Programlarını İncele",
+            "url": "https://adea.hacettepe.edu.tr/tr/menu/cift_anadal_programlari-150"
+        },
+        {
+            "intent": "Check Double Major Programs",
+            "url": "https://adea.hacettepe.edu.tr/en/menu/double_major_programs-231"
+        },
+        {
+            "intent": "Öğrenci Kılavuzunu İncele",
+            "url": "https://adea.hacettepe.edu.tr/tr/menu/ogrenci_kilavuzu-229"
+        },
+        {
+            "intent": "Review Student Booklet",
+            "url": "https://adea.hacettepe.edu.tr/en/menu/studen_booklet-233"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://oidb.hacettepe.edu.tr/tr/akademik_takvim_20242025-647"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı"
+    ],
+    "url": "https://www.adea.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 197
+}

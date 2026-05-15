@@ -1,0 +1,52 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Peyzaj Planlama Şube Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi Beytepe ve Sıhhiye yerleşkelerinin peyzaj planlama, yeşil alan yönetimi ve bitki varlığının korunması faaliyetlerini yürüten birimdir. landscape planning, campus landscaping, plant inventory, green area management, campus maintenance.",
+    "action_links": [
+        {
+            "intent": "Genel Tanıtımı İncele",
+            "url": "https://peyzaj.hacettepe.edu.tr/genel-tanitim"
+        },
+        {
+            "intent": "Read General Introduction",
+            "url": "https://peyzaj.hacettepe.edu.tr/en/general-introduction"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Görüntüle",
+            "url": "https://peyzaj.hacettepe.edu.tr/misyon-ve-vizyon"
+        },
+        {
+            "intent": "View Mission and Vision",
+            "url": "https://peyzaj.hacettepe.edu.tr/en/mission-and-vision"
+        },
+        {
+            "intent": "Beytepe Yerleşkesi Bitki Varlığını İncele",
+            "url": "https://peyzaj.hacettepe.edu.tr/beytepe-yerleskesi-bitki-varligi"
+        },
+        {
+            "intent": "Examine Beytepe Campus Plant Inventory",
+            "url": "https://peyzaj.hacettepe.edu.tr/en/beytepe-campus-plant-inventory"
+        },
+        {
+            "intent": "Rutin Faaliyetleri Görüntüle",
+            "url": "https://peyzaj.hacettepe.edu.tr/rutin-faaliyetlerimiz"
+        },
+        {
+            "intent": "View Routine Activities",
+            "url": "https://peyzaj.hacettepe.edu.tr/en/routine-activities"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://peyzaj.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://peyzaj.hacettepe.edu.tr/en/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://peyzaj.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 12
+}

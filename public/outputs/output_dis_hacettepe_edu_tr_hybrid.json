@@ -1,0 +1,60 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Diş Hekimliği Fakültesi",
+    "category": "Fakülte",
+    "description": "Diş hekimliği alanında lisans, lisansüstü eğitim, uzmanlık eğitimi ve klinik hizmetler sunan akademik bir birimdir. dentistry, dental faculty, oral health, dental education, clinical dentistry",
+    "action_links": [
+        {
+            "intent": "Kanun, Yönetmelik ve Yönergeleri İncele",
+            "url": "https://dis.hacettepe.edu.tr/tr/menu/kanun_yonetmelik_ve_yonergeler-341"
+        },
+        {
+            "intent": "Review Rules and Regulations",
+            "url": "https://dis.hacettepe.edu.tr/en/menu/rules_and_regulations"
+        },
+        {
+            "intent": "Fakülte Tarihçesini İncele",
+            "url": "https://dis.hacettepe.edu.tr/tr/menu/tarihce-61"
+        },
+        {
+            "intent": "Explore Faculty History",
+            "url": "https://dis.hacettepe.edu.tr/en/menu/introduction_and_history-130"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Oku",
+            "url": "https://dis.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-2"
+        },
+        {
+            "intent": "Read Mission and Vision",
+            "url": "https://dis.hacettepe.edu.tr/en/menu/mission_and_vision-129"
+        },
+        {
+            "intent": "Organizasyon Şemasını Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/dishek/dosyalar/YONETIM/Organizasyon%20semasi.pdf"
+        },
+        {
+            "intent": "Uluslararası Öğrenci Bilgileri",
+            "url": "https://dis.hacettepe.edu.tr/tr/menu/uluslararasi_ogrenci_degerlendirme_-566"
+        },
+        {
+            "intent": "International Student Information",
+            "url": "https://dis.hacettepe.edu.tr/en/menu/international_student_application"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Temel ve Klinik Bilimler Bölümü",
+        "Ağız, Diş ve Çene Radyolojisi A.D.",
+        "Ağız Diş ve Çene Cerrahisi A.D.",
+        "Protetik Diş Tedavisi A.D.",
+        "Periodontoloji A.D.",
+        "Endodonti A.D.",
+        "Restoratif Diş Tedavisi A.D.",
+        "Pedodonti A.D.",
+        "Ortodonti A.D.",
+        "Uzmanlık Eğitimi",
+        "Uluslararası Öğrenci"
+    ],
+    "url": "https://dis.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 135
+}

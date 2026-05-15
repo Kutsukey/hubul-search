@@ -1,0 +1,71 @@
+{
+    "entity_name": "Biyoloji Eğitimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Biyoloji eğitimi alanında lisans, yüksek lisans ve doktora düzeyinde akademik programlar sunan, biyoloji öğretmeni yetiştirmeye odaklanmış bir akademik birimdir. biology education, curriculum, faculty members, graduate programs, academic research.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://beabd.hacettepe.edu.tr/tr/menu/lisans-11"
+        },
+        {
+            "intent": "Check Undergraduate Program",
+            "url": "https://beabd.hacettepe.edu.tr/en/menu/lisans-11"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://beabd.hacettepe.edu.tr/tr/menu/yuksek_lisans-35"
+        },
+        {
+            "intent": "Check Master's Program",
+            "url": "https://beabd.hacettepe.edu.tr/en/menu/yuksek_lisans-35"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://beabd.hacettepe.edu.tr/tr/menu/doktora-36"
+        },
+        {
+            "intent": "Check PhD Program",
+            "url": "https://beabd.hacettepe.edu.tr/en/menu/doktora-36"
+        },
+        {
+            "intent": "Duyuruları Görüntüle",
+            "url": "https://beabd.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "https://beabd.hacettepe.edu.tr/en/duyurular"
+        },
+        {
+            "intent": "Öğretim Üyeleri Listesi",
+            "url": "https://beabd.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-7"
+        },
+        {
+            "intent": "Faculty Members List",
+            "url": "https://beabd.hacettepe.edu.tr/en/menu/ogretim_uyeleri-7"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://beabd.hacettepe.edu.tr/tr/menu/iletisim-17"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://beabd.hacettepe.edu.tr/en/menu/iletisim-17"
+        },
+        {
+            "intent": "Yararlı Belgeler",
+            "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans",
+        "Yüksek Lisans",
+        "Doktora",
+        "Bütünleşik Doktora",
+        "Çift Anadal Programı",
+        "Yandal Programı"
+    ],
+    "url": "https://beabd.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 38
+}

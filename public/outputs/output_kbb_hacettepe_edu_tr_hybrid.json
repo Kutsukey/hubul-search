@@ -1,0 +1,22 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Kulak Burun Boğaz Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Kulak Burun Boğaz Anabilim Dalı'nın akademik kadrosu, tıbbi uzmanlık alanları, klinik uygulama yöntemleri ve ameliyat istatistikleri hakkında kapsamlı bilgi sunan resmi birim sayfasıdır. otorhinolaryngology, ENT department, medical procedures, clinical services, faculty doctors.",
+    "action_links": [
+        {
+            "intent": "Asistan Ameliyat Sayılarını İncele",
+            "url": "https://kbb.hacettepe.edu.tr/ekler/pdf/sayilar_2011.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Fasiyel Sinir Paralizileri",
+        "Üst Solunum Yolu Obstrüksiyonları",
+        "İşitme Kayıpları",
+        "Farinks Hastalıkları",
+        "Odyolojik Tetkik ve Tedaviler"
+    ],
+    "url": "https://kbb.hacettepe.edu.tr",
+    "deep_crawl_files": 1,
+    "deep_crawl_pages": 39
+}

@@ -1,0 +1,44 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Senfoni Orkestrası",
+    "category": "Diğer",
+    "description": "Hacettepe Üniversitesi bünyesinde çok sesli Türk müziğinin gelişimine öncülük eden ve uluslararası düzeyde konserler veren akademik bir topluluktur. symphony orchestra, classical music, concert program, orchestra directive, musical performance.",
+    "action_links": [
+        {
+            "intent": "Senfoni Orkestrası Yönergesini İncele",
+            "url": "https://hso.hacettepe.edu.tr/wp-content/uploads/2021/11/Sen"
+        },
+        {
+            "intent": "Review Symphony Orchestra Directive",
+            "url": "https://hso.hacettepe.edu.tr/wp-content/uploads/2021/11/Sen"
+        },
+        {
+            "intent": "Konser Programlarını Görüntüle",
+            "url": "https://hso.hacettepe.edu.tr/program"
+        },
+        {
+            "intent": "View Concert Programs",
+            "url": "https://hso.hacettepe.edu.tr/program"
+        },
+        {
+            "intent": "Albümleri İncele",
+            "url": "https://hso.hacettepe.edu.tr/album"
+        },
+        {
+            "intent": "Explore Albums",
+            "url": "https://hso.hacettepe.edu.tr/album"
+        },
+        {
+            "intent": "Orkestra Kadrosunu İncele",
+            "url": "https://hso.hacettepe.edu.tr/orkestra"
+        },
+        {
+            "intent": "Review Orchestra Members",
+            "url": "https://hso.hacettepe.edu.tr/orkestra"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hso.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 96
+}

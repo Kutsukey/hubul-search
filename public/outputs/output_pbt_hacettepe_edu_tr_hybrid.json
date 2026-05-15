@@ -1,0 +1,51 @@
+{
+    "entity_name": "Polimer Bilimi ve Teknolojisi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Polimer bilimi ve teknolojisi alanında lisansüstü eğitim, bilimsel araştırma ve akademik çalışmalar yürüten, akademi ve sanayi iş birliğini hedefleyen bir birimdir. polymer science, technology, graduate programs, research, curriculum.",
+    "action_links": [
+        {
+            "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini İndir",
+            "url": "https://www.pbt.hacettepe.edu.tr/Yonetmelikler/2013_06_28-lisansustu_egitim_ogretim_yonetmeligi.pdf"
+        },
+        {
+            "intent": "Lisansüstü Yönetmelik Değişikliğini İncele",
+            "url": "https://www.pbt.hacettepe.edu.tr/belgeler/yonetmelikler/YonetmelikDegisikligi.pdf"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/akademik_takvim-26"
+        },
+        {
+            "intent": "Yüksek Lisans Programı Bilgileri",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/yuksek_lisans_programi-6"
+        },
+        {
+            "intent": "Doktora Programı Bilgileri",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/doktora_programi-7"
+        },
+        {
+            "intent": "Akademik Kadroyu İncele",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/ogretim_uyelerigorevlileri-10"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/iletisim-16"
+        },
+        {
+            "intent": "Araştırma Konularını İncele",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/arastirma_konulari-22"
+        },
+        {
+            "intent": "Tezleri Görüntüle",
+            "url": "https://pbt.hacettepe.edu.tr/tr/menu/tezler-30"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Polimer Bilimi ve Teknolojisi Tezli Yüksek Lisans Programı",
+        "Polimer Bilimi ve Teknolojisi Doktora Programı"
+    ],
+    "url": "https://pbt.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 26
+}

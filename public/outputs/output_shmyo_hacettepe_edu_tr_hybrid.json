@@ -1,0 +1,58 @@
+{
+    "entity_name": "Sağlık Hizmetleri Meslek Yüksekokulu",
+    "category": "Yüksekokul / Meslek Yüksekokulu",
+    "description": "Hacettepe Üniversitesi bünyesinde 13 farklı sağlık programında, yoğun teorik ve uygulamalı eğitimle nitelikli sağlık teknikerleri yetiştiren bir eğitim birimidir. (vocational school of health services, health programs, medical technician, associate degree, internship, curriculum)",
+    "action_links": [
+        {
+            "intent": "Staj Yönergesini İncele",
+            "url": "https://shmyo.hacettepe.edu.tr/staj_yonergesi.html"
+        },
+        {
+            "intent": "Read Internship Directive",
+            "url": "https://shmyo.hacettepe.edu.tr/shmyo_ing/staj_yonergesi.html"
+        },
+        {
+            "intent": "2025-2026 Akademik Takvimini İndir",
+            "url": "https://shmyo.hacettepe.edu.tr/duyurular/2025-2026_akademik_takvim.pdf"
+        },
+        {
+            "intent": "Stajyer Değerlendirme Formunu İndir",
+            "url": "https://shmyo.hacettepe.edu.tr/belgeler/form/Değerlendirme Formu.pdf"
+        },
+        {
+            "intent": "Erasmus+ Seçim Takvimini İncele",
+            "url": "https://shmyo.hacettepe.edu.tr/duyurular/2025-2026 Akademik Yılı Erasmus+ Seçim Takvimi.pdf"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgilerini Görüntüle",
+            "url": "https://shmyo.hacettepe.edu.tr/ders_katalogu_akts.htm"
+        },
+        {
+            "intent": "View Course Catalogue and ECTS",
+            "url": "https://shmyo.hacettepe.edu.tr/shmyo_ing/course_catalogue_ects.htm"
+        },
+        {
+            "intent": "Program Dışı Öğrenim Başvuru Formu ve Takvimi",
+            "url": "https://shmyo.hacettepe.edu.tr/duyurular/Başvuru formu ve takvimi 2026.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Ağız ve Diş Sağlığı Programı",
+        "Ameliyathane Hizmetleri Programı",
+        "Dezenfeksiyon, Sterilizasyon ve Antisepsi Teknikerliği Programı",
+        "Diş Protez Teknolojisi Programı",
+        "Eczane Hizmetleri Programı",
+        "Elektronörofizyoloji Programı",
+        "İlk ve Acil Yardım Programı",
+        "Odyometri Programı",
+        "Ortopedik Protez ve Ortez Programı",
+        "Radyoterapi Programı",
+        "Tıbbi Dokümantasyon ve Sekreterlik Programı",
+        "Tıbbi Görüntüleme Teknikleri Programı",
+        "Tıbbi Laboratuvar Teknikleri Programı"
+    ],
+    "url": "https://shmyo.hacettepe.edu.tr",
+    "deep_crawl_files": 39,
+    "deep_crawl_pages": 264
+}

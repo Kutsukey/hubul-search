@@ -1,0 +1,49 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Çevre Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Üniversite bünyesinde çevre ile ilgili konularda lisans ve lisansüstü düzeyde araştırmalar yapan, endüstri ve uluslararası kurumlarla iş birliği içerisinde faaliyet gösteren bir araştırma merkezidir. environmental research, ecology, sustainability, laboratory analysis, environmental science.",
+    "action_links": [
+        {
+            "intent": "İletişim Bilgilerini İncele",
+            "url": "https://cuam.hacettepe.edu.tr/tr/iletisim"
+        },
+        {
+            "intent": "View Contact Information",
+            "url": "https://cuam.hacettepe.edu.tr/en/contact"
+        },
+        {
+            "intent": "Laboratuvar ve Analiz İmkanlarını İncele",
+            "url": "https://cuam.hacettepe.edu.tr/tr/laboratuvar-ve-analiz-imkanlari"
+        },
+        {
+            "intent": "Explore Laboratory and Analysis Facilities",
+            "url": "https://cuam.hacettepe.edu.tr/en/laboratory-and-analysis-facilities"
+        },
+        {
+            "intent": "Çevre Bilimleri Dergisi",
+            "url": "https://cuam.hacettepe.edu.tr/tr/cevre-bilimleri-dergisi"
+        },
+        {
+            "intent": "Environmental Sciences Journal",
+            "url": "https://cuam.hacettepe.edu.tr/en/environmental-sciences-journal"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Genel Tanıtım",
+        "Yönetim",
+        "Etkinlikler",
+        "Faaliyet Alanı",
+        "Gerçekleştirilen Faaliyetler",
+        "Laboratuvar ve Analiz İmkanları",
+        "Çevre Bilimleri Dergisi",
+        "İletişim",
+        "Duyurular",
+        "Projects",
+        "Activities",
+        "Announcement"
+    ],
+    "url": "https://cuam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 19
+}

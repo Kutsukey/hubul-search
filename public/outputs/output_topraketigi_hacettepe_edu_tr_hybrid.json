@@ -1,0 +1,36 @@
+{
+    "entity_name": "Toprak Etiği Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "İnsan ve doğa arasındaki ilişkiyi disiplinler arası bir yaklaşımla inceleyen, ekolojik vatandaşlık ve toprak etiği üzerine bilimsel araştırmalar ve projeler gerçekleştiren bir merkezdir. soil ethics, research center, environmental science, ecology, sustainability, nature studies.",
+    "action_links": [
+        {
+            "intent": "Sempozyum Programını İncele",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Sempozyum Özet Kitapçığını İncele",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Sempozyum Hakkında Detaylı Bilgi Al",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Get Detailed Information about the Symposium",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Katılım Formunu Doldur",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Fill the Participation Form",
+            "url": "https://topraketigi.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://topraketigi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

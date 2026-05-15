@@ -1,0 +1,64 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Eğitim Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi bünyesinde eğitim bilimleri alanında uzmanlaşmış, nitelikli öğretmen adayları yetiştirmeyi ve eğitim araştırmaları yapmayı hedefleyen akademik bir birimdir. faculty of education, teaching programs, pedagogy, education curriculum, academic departments",
+    "action_links": [
+        {
+            "intent": "Bölümleri İncele",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/bolumler-33"
+        },
+        {
+            "intent": "Explore Departments",
+            "url": "https://egitim.hacettepe.edu.tr/en/menu/departments-106"
+        },
+        {
+            "intent": "Çift Ana Dal Programlarını İncele",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/cift_ana_dal_programlari-36"
+        },
+        {
+            "intent": "Yan Dal Programlarını İncele",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/yan_dal_programlari-35"
+        },
+        {
+            "intent": "Akreditasyon Bilgilerini Görüntüle",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/akreditasyon-91"
+        },
+        {
+            "intent": "Öğrenciler İçin Yararlı Belgeleri İncele",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/ogrenciler_icin_yararli_belgeler-37"
+        },
+        {
+            "intent": "Personel İçin Yararlı Belgeleri İncele",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/personel_icin_yararli_belgeler-42"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "http://oidb.hacettepe.edu.tr/tr/menu/%3Cimg_src=httpfshacettepeedutryenika-9"
+        },
+        {
+            "intent": "Review Rules and Regulations",
+            "url": "http://www.oid.hacettepe.edu.tr/en/menu/rules_and_regulations-81"
+        },
+        {
+            "intent": "Ders Kataloğu / AKTS Bilgi Paketi",
+            "url": "http://akts.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Course Catalog / ECTS Information Package",
+            "url": "http://akts.hacettepe.edu.tr/?dil_kod=2"
+        },
+        {
+            "intent": "Yabancı Uyruklu Öğretim Elemanı Görevlendirme Formları",
+            "url": "https://egitim.hacettepe.edu.tr/tr/menu/yabanci_uyruklu_ogretim_elemani_gor-92"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Temel Eğitim Bölümü",
+        "Sınıf Eğitimi Ana Bilim Dalı",
+        "Eğitim Bilimleri Bölümü"
+    ],
+    "url": "https://egitim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 602
+}

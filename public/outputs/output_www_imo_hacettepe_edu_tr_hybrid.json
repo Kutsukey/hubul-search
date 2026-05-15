@@ -1,0 +1,50 @@
+{
+    "entity_name": "İlköğretim Matematik Öğretmenliği Programı",
+    "category": "Ana Bilim Dalı",
+    "description": "Teorik ve uygulama bilgilerini bütünleştirerek çağdaş matematik eğitimi anlayışını benimseyen öğretmenler yetiştirmeyi amaçlayan akademik programdır. elementary mathematics education, teacher training, mathematics curriculum, syllabus, Hacettepe university.",
+    "action_links": [
+        {
+            "intent": "Matematik Eğitimi Belgelerini İncele",
+            "url": "https://imo.hacettepe.edu.tr/tr/menu/matematik_egitimi_belgeleri-60"
+        },
+        {
+            "intent": "Öğretim Üyelerini Görüntüle",
+            "url": "https://imo.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-10"
+        },
+        {
+            "intent": "Erasmus Bilgilerini İncele",
+            "url": "https://imo.hacettepe.edu.tr/tr/menu/erasmus-68"
+        },
+        {
+            "intent": "Öğretim Programlarına Eriş",
+            "url": "https://akts.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Mezun Bilgi Sistemine Git",
+            "url": "https://egitimmezun.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "View Useful Documents",
+            "url": "http://www.oid.hacettepe.edu.tr/english/index_sub.php?grp=anaduyuru_ust&dir=&file=20190318_01_yos_2019&filetype=text"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://imo.hacettepe.edu.tr/en/menu/faculty_members-41"
+        },
+        {
+            "intent": "Erasmus Information (EN)",
+            "url": "https://imo.hacettepe.edu.tr/en/menu/erasmus-81"
+        },
+        {
+            "intent": "View Degree Programmes",
+            "url": "https://imo.hacettepe.edu.tr/en/menu/degree_programmes-75"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Matematik Eğitimi Bilim Dalı"
+    ],
+    "url": "https://www.imo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 128
+}

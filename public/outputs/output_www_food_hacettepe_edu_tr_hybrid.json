@@ -1,0 +1,43 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Gıda Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Gıda maddelerinin işlenmesi, kalite kontrolü, muhafazası ve yeni ürün geliştirilmesi süreçlerinde uzman mühendisler yetiştiren akademik bir birimdir. food engineering, degree programmes, internship, research, faculty, syllabus.",
+    "action_links": [
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "https://food.hacettepe.edu.tr/tr/menu/staj-122"
+        },
+        {
+            "intent": "Review Internship Information",
+            "url": "https://food.hacettepe.edu.tr/en/menu/internship-144"
+        },
+        {
+            "intent": "Lisans ve Lisansüstü Programları İncele",
+            "url": "https://food.hacettepe.edu.tr/tr/menu/programlar-114"
+        },
+        {
+            "intent": "Check Degree Programmes",
+            "url": "https://food.hacettepe.edu.tr/en/menu/degree_programmes-142"
+        },
+        {
+            "intent": "Yandal Programı Hakkında Bilgi Al",
+            "url": "https://food.hacettepe.edu.tr/tr/menu/yandal-121"
+        },
+        {
+            "intent": "Araştırma Laboratuvarlarını Gör",
+            "url": "https://lab.hacettepe.edu.tr/tr/laboratuvarlar/gida_muhendisligi_bolumu-21"
+        },
+        {
+            "intent": "MÜDEK Eğitim Amaç ve Çıktılarını İncele",
+            "url": "https://food.hacettepe.edu.tr/tr/menu/mudek_egitim_amac_ve_ciktilari-6"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Gıda Bilimi Anabilim Dalı",
+        "Gıda Teknolojisi Anabilim Dalı"
+    ],
+    "url": "https://www.food.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 169
+}

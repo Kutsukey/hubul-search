@@ -1,0 +1,54 @@
+{
+    "entity_name": "Basın ve Halkla İlişkiler Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin basın, halkla ilişkiler, kurumsal iletişim, sosyal medya ve görsel tasarım süreçlerini yöneten idari birimdir. press and public relations, corporate communication, media relations, university news, social media management.",
+    "action_links": [
+        {
+            "intent": "Duyuruları İncele",
+            "url": "http://www.bhimduyurular.hacettepe.edu.tr/duyuru/tumu"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "http://www.bhimduyurular.hacettepe.edu.tr/duyuru/tumu"
+        },
+        {
+            "intent": "Görev ve Sorumlulukları İncele",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/duties_authorities_and_responsibili-44"
+        },
+        {
+            "intent": "Review Duties and Responsibilities",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/duties_authorities_and_responsibili-44"
+        },
+        {
+            "intent": "İş Akış Süreçlerini İncele",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/workflow_processes-68"
+        },
+        {
+            "intent": "Check Workflow Processes",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/workflow_processes-68"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/communication-40"
+        },
+        {
+            "intent": "Access Communication Information",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/communication-40"
+        },
+        {
+            "intent": "Misyon ve Vizyonu İncele",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/mission_and_vision-75"
+        },
+        {
+            "intent": "Review Mission and Vision",
+            "url": "https://bhim.hacettepe.edu.tr/en/menu/mission_and_vision-75"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kalite Komisyonu"
+    ],
+    "url": "https://bhim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 22
+}

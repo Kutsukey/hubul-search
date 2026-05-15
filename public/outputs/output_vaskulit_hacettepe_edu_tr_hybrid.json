@@ -1,0 +1,28 @@
+{
+    "entity_name": "Hacettepe Vaskülit Tanı ve Tedavi Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Vaskülit hastalıklarının tanısı, tedavisi ve bu alandaki araştırmaların koordinasyonu ile farkındalığın artırılmasına yönelik çalışmalar yürüten bir merkezdir. vasculitis, medical research, diagnosis, treatment, rheumatology.",
+    "action_links": [
+        {
+            "intent": "Acta Medica Yayınını İncele",
+            "url": "https://actamedica.org/index.php/actamedica/issue/view/136"
+        },
+        {
+            "intent": "Review Acta Medica Publication",
+            "url": "https://actamedica.org/index.php/actamedica/issue/view/136"
+        },
+        {
+            "intent": "V-PREG Projesi Bilgileri",
+            "url": "https://www.vasculitisfoundation.org/vpreg_turkish/"
+        },
+        {
+            "intent": "V-PREG Project Information",
+            "url": "https://www.vasculitisfoundation.org/vpreg_turkish/"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://vaskulit.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

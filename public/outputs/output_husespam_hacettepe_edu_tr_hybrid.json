@@ -1,0 +1,54 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Sağlık Ekonomisi ve Sağlık Politikası Araştırma ve Uygulama Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Sağlık ekonomisi ve sağlık politikaları üzerine bilimsel araştırmalar yürüten, ulusal ve uluslararası düzeyde politika yapıcılarına rehberlik eden bir araştırma merkezidir. health economics, health policy, research center, health services research, health policy analysis",
+    "action_links": [
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://kms.kaysis.gov.tr/Home/Goster/37126?AspxAutoDetectCookieSupport=1"
+        },
+        {
+            "intent": "View Center Regulation",
+            "url": "https://husespam.hacettepe.edu.tr/en/menu/about-13"
+        },
+        {
+            "intent": "Yayınları İncele",
+            "url": "https://husespam.hacettepe.edu.tr/tr/menu/yayinlar-29"
+        },
+        {
+            "intent": "Review Publications",
+            "url": "https://husespam.hacettepe.edu.tr/en/menu/about-13"
+        },
+        {
+            "intent": "Araştırma Raporlarını Görüntüle",
+            "url": "https://husespam.hacettepe.edu.tr/tr/menu/arastirma_raporlari-30"
+        },
+        {
+            "intent": "Review Research Reports",
+            "url": "https://husespam.hacettepe.edu.tr/en/menu/about-13"
+        },
+        {
+            "intent": "Projeleri İncele",
+            "url": "https://husespam.hacettepe.edu.tr/tr/menu/projeler-23"
+        },
+        {
+            "intent": "View Projects",
+            "url": "https://husespam.hacettepe.edu.tr/en/menu/about-13"
+        },
+        {
+            "intent": "Seminer ve Çalıştayları Takip Et",
+            "url": "https://husespam.hacettepe.edu.tr/tr/menu/seminer_ve_calistaylar-27"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Merkez Yönetimi",
+        "Yayınlar",
+        "Araştırma Raporları",
+        "Projeler",
+        "Seminer ve Çalıştaylar"
+    ],
+    "url": "https://husespam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 42
+}

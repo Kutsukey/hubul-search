@@ -1,0 +1,26 @@
+{
+    "entity_name": "İnsan Hakları ve Felsefesi Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "İnsan hakları ve felsefesi alanlarında akademik araştırmalar yürüten, bilimsel etkinlikler düzenleyen ve toplumsal farkındalık çalışmaları yapan bir merkezdir. human rights, philosophy, research center, academic programs, social sciences.",
+    "action_links": [
+        {
+            "intent": "Duyuru Arşivine Git",
+            "url": "https://ihuam.hacettepe.edu.tr/duyuru-arsivi"
+        },
+        {
+            "intent": "Yüksek Lisans Ders Programlarını İncele",
+            "url": "https://ihuam.hacettepe.edu.tr/yuksek-lisans-ders-programlari"
+        },
+        {
+            "intent": "Doktora Ders Programlarını İncele",
+            "url": "https://ihuam.hacettepe.edu.tr/doktora-ders-programlari"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "İnsan Hakları Anabilim Dalı"
+    ],
+    "url": "https://ihuam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

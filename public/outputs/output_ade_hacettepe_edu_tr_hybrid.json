@@ -1,0 +1,91 @@
+{
+    "entity_name": "Alman Dili ve Edebiyatı Bölümü",
+    "category": "Bölüm",
+    "description": "Alman dili, edebiyatı ve kültürü üzerine akademik eğitim ve araştırma faaliyetleri yürüten bir birimdir. german language and literature, german studies, academic programs, undergraduate, graduate, department contact",
+    "action_links": [
+        {
+            "intent": "Lisans Bologna Sayfasını İncele",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=520&curSunit=341"
+        },
+        {
+            "intent": "Check Undergraduate Bologna Page",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=520&curSunit=341"
+        },
+        {
+            "intent": "Yüksek Lisans Bologna Sayfasını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000656&birim_kod=2108&prg_oid=410c62645e03ea3b015ec833e4c40bf6&prg_kod=21085&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Check Master's Bologna Page",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000656&birim_kod=2108&prg_oid=410c62645e03ea3b015ec833e4c40bf6&prg_kod=21085&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Doktora Bologna Sayfasını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000656&birim_kod=2108&prg_oid=410c62645e03ea3b015ec83472720bf7&prg_kod=21086&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Check PhD Bologna Page",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000656&birim_kod=2108&prg_oid=410c62645e03ea3b015ec83472720bf7&prg_kod=21086&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Erasmus Hakkında Bilgi Al",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/erasmus_hakkinda-189"
+        },
+        {
+            "intent": "Learn About Erasmus",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/erasmus_hakkinda-189"
+        },
+        {
+            "intent": "Erasmus Örnek Formlarını İndir",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/ornek_formlar-187"
+        },
+        {
+            "intent": "Download Erasmus Sample Forms",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/ornek_formlar-187"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-69"
+        },
+        {
+            "intent": "Review Laws and Regulations",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-69"
+        },
+        {
+            "intent": "Yaz Okulu Yönetmeliğini İncele",
+            "url": "https://www.hacettepe.edu.tr/duyuru/yonetmelikler/1861,sn0603"
+        },
+        {
+            "intent": "Review Summer School Regulation",
+            "url": "https://www.hacettepe.edu.tr/duyuru/yonetmelikler/1861,sn0603"
+        },
+        {
+            "intent": "Öğrenci Rehberlerini İncele",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/ogrenci_rehberleri-219"
+        },
+        {
+            "intent": "Check Student Guides",
+            "url": "https://ade.hacettepe.edu.tr/tr/menu/ogrenci_rehberleri-219"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans",
+        "Lisansüstü",
+        "Çift Anadal",
+        "Yandal",
+        "Erasmus",
+        "Akademik Personel",
+        "İdari Personel",
+        "Kanun ve Yönetmelikler",
+        "Yararlı Belgeler",
+        "Öğrenci Rehberleri",
+        "Koordinatörler",
+        "Yayınlar",
+        "Galeri",
+        "Etkinliklerimiz"
+    ],
+    "url": "https://ade.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 161
+}

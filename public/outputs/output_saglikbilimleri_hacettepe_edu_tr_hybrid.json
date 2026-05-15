@@ -1,0 +1,86 @@
+{
+    "entity_name": "Sağlık Bilimleri Enstitüsü",
+    "category": "Enstitü",
+    "description": "Hacettepe Üniversitesi Sağlık Bilimleri Enstitüsü, sağlık bilimleri alanında yüksek lisans ve doktora düzeyinde lisansüstü eğitim ve araştırma faaliyetlerini yürüten akademik birimdir. graduate studies, health sciences, master's program, PhD program, academic calendar.",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/akademik_takvim-268"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/akademik_takvim-268"
+        },
+        {
+            "intent": "Lisansüstü Programları Görüntüle",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/programlar-265"
+        },
+        {
+            "intent": "View Graduate Programs",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/programlar-265"
+        },
+        {
+            "intent": "Başvuru ve Kayıt İşlemlerini Öğren",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/basvuru_ve_kayit_islemleri"
+        },
+        {
+            "intent": "Application and Registration Procedures",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/basvuru_ve_kayit_islemleri"
+        },
+        {
+            "intent": "Uluslararası Öğrenciler ve Misafir Araştırmacılar Bilgi Sayfası",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/uluslararasi_ogrenciler_ve_misafir_-332"
+        },
+        {
+            "intent": "International Students and Visiting Researchers Info",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/uluslararasi_ogrenciler_ve_misafir_-332"
+        },
+        {
+            "intent": "BİLSİS Öğrenci Bilgi Sistemi Girişi",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/std/login.aspx"
+        },
+        {
+            "intent": "BILSIS Student Information System Login",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/std/login.aspx"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-262"
+        },
+        {
+            "intent": "Review Laws and Regulations",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-262"
+        },
+        {
+            "intent": "Tıp - Bilim Doktoru (MD-PhD) Programı Bilgileri",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/tip_bilim_doktoru_butunlesik_progra-287"
+        },
+        {
+            "intent": "MD-PhD Integrated Program Information",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/tip_bilim_doktoru_butunlesik_progra-287"
+        },
+        {
+            "intent": "ORPHEUS Bilgi Sayfası",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/orpheus-286"
+        },
+        {
+            "intent": "ORPHEUS Information Page",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/orpheus-286"
+        },
+        {
+            "intent": "Kontenjanları Görüntüle",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/kontenjanlar"
+        },
+        {
+            "intent": "View Quotas",
+            "url": "https://saglikbilimleri.hacettepe.edu.tr/tr/menu/kontenjanlar"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Ana Bilim Dalları"
+    ],
+    "url": "https://saglikbilimleri.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 260
+}

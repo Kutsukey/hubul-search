@@ -1,0 +1,43 @@
+{
+    "entity_name": "Beytepe Anaokulu",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi Sağlık, Kültür ve Spor Dairesi Başkanlığı bünyesinde faaliyet gösteren, üniversite personeli ve dış ailelere okul öncesi eğitim hizmeti sunan birimdir. kindergarten, pre-school, registration, campus nursery, child education",
+    "action_links": [
+        {
+            "intent": "Anaokulu Yönergesini İncele",
+            "url": "https://beytepeanaokulu.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Anaokulları ve Kreş Ücretlerini İncele",
+            "url": "https://beytepeanaokulu.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Ön Kayıt Başvurularını İncele",
+            "url": "https://beytepeanaokulu.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Kesin Kayıt İlanlarını İncele",
+            "url": "https://beytepeanaokulu.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Eğitim Felsefesi",
+        "Eğitim Programı",
+        "Personel",
+        "Rehberlik ve Psikolojik Danışma Birimi",
+        "Sağlık Birimi",
+        "Çocuk Kütüphanesi",
+        "Bilim ve Keşif Merkezi",
+        "Spor Atölyesi",
+        "Sanat Atölyesi",
+        "Satranç Atölyesi",
+        "Çocuk Gelişimi Takip Birimi",
+        "Çocuk Yogası",
+        "Yabancı Dil Atölyesi",
+        "Robotik Kodlama - Maker Atölyesi"
+    ],
+    "url": "https://beytepeanaokulu.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 61
+}

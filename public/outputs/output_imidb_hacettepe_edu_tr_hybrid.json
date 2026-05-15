@@ -1,0 +1,40 @@
+{
+    "entity_name": "İdari İşler Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin idari süreçlerini, personel yönetimini, mevzuat takibini, taşınmaz yönetimi ve sivil savunma gibi operasyonel hizmetlerini yürüten birimdir. administrative services, university regulations, personnel, campus management, logistics.",
+    "action_links": [
+        {
+            "intent": "Mevzuatı İncele",
+            "url": "https://imidb.hacettepe.edu.tr/tr/menu/mevzuat-8"
+        },
+        {
+            "intent": "Teşkilat Şemasını Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/imidb/dosyalar/teskilat%20semasi.pdf"
+        },
+        {
+            "intent": "Stratejik Planı İndir",
+            "url": "https://fs.hacettepe.edu.tr/imidb/dosyalar/stratejik%20plan/Stratejik%20Plan%202023-2027.pdf"
+        },
+        {
+            "intent": "Verilen Hizmetleri İncele",
+            "url": "https://imidb.hacettepe.edu.tr/tr/menu/verilen_hizmetler-53"
+        },
+        {
+            "intent": "Faaliyet Raporlarını İncele",
+            "url": "https://imidb.hacettepe.edu.tr/tr/menu/faaliyet_raporlari-59"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://imidb.hacettepe.edu.tr/tr/menu/iletisim-69"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Ulaşım Hizmetleri Müdürlüğü",
+        "Destek Hizmetler Müdürlüğü",
+        "Koruma ve Güvenlik Müdürlüğü"
+    ],
+    "url": "https://imidb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 25
+}

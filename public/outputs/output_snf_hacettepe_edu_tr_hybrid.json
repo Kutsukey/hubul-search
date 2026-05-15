@@ -1,0 +1,66 @@
+{
+    "entity_name": "Sınıf Öğretmenliği Bölümü",
+    "category": "Bölüm",
+    "description": "Sınıf öğretmeni yetiştirmek amacıyla lisans ve lisansüstü düzeyde eğitim ve araştırma faaliyetleri yürüten akademik bir birimdir. classroom teaching, elementary education, teaching degree, pedagogy, academic programs.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Kılavuzunu İncele",
+            "url": "https://fs.hacettepe.edu.tr/snf/dosyalar/Anabilim_dali/Ogrenci_kilavuzu.pdf"
+        },
+        {
+            "intent": "Download Student Booklet",
+            "url": "https://fs.hacettepe.edu.tr/snf/dosyalar/Anabilim_dali/Student_booklet.pdf"
+        },
+        {
+            "intent": "Lisans Programlarını İncele",
+            "url": "https://snf.hacettepe.edu.tr/tr/menu/lisans-35"
+        },
+        {
+            "intent": "Explore Undergraduate Programs",
+            "url": "https://snf.hacettepe.edu.tr/en/menu/undergraduate-56"
+        },
+        {
+            "intent": "Yüksek Lisans Programlarını İncele",
+            "url": "https://snf.hacettepe.edu.tr/tr/menu/yuksek_lisans-39"
+        },
+        {
+            "intent": "Explore Master of Science (MSc) Programs",
+            "url": "https://snf.hacettepe.edu.tr/en/menu/master_of_science_msc-59"
+        },
+        {
+            "intent": "Doktora Programlarını İncele",
+            "url": "https://snf.hacettepe.edu.tr/tr/menu/doktora-40"
+        },
+        {
+            "intent": "Explore Doctorate (PhD) Programs",
+            "url": "https://snf.hacettepe.edu.tr/en/menu/doctorate_phd-60"
+        },
+        {
+            "intent": "Erasmus Bilgilerini Gör",
+            "url": "https://snf.hacettepe.edu.tr/tr/menu/erasmus-71"
+        },
+        {
+            "intent": "Check Erasmus Mobility Info",
+            "url": "https://snf.hacettepe.edu.tr/en/menu/erasmus_mobility-81"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://snf.hacettepe.edu.tr/tr/menu/iletisim-14"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://snf.hacettepe.edu.tr/en/menu/contact-28"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans",
+        "Çift Anadal",
+        "Uzaktan Eğitim Tezsiz Yüksek Lisans",
+        "Yüksek Lisans",
+        "Doktora"
+    ],
+    "url": "https://snf.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 50
+}

@@ -1,0 +1,28 @@
+{
+    "entity_name": "Rekreasyon Programı",
+    "category": "Bölüm",
+    "description": "Fiziksel aktivite uzmanları ve rekreasyon liderleri yetiştiren, kuramsal ve uygulama temelli eğitim sunan bir akademik programdır. recreation, physical activity, sports science, curriculum, internship",
+    "action_links": [
+        {
+            "intent": "Staj Yönergesini İncele",
+            "url": "https://rekreasyon.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Zorunlu İşyeri Eğitimi Uygulama Esaslarını İncele",
+            "url": "https://rekreasyon.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://rekreasyon.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Egzersizde Beslenme ve Metabolizma Anabilim Dalı",
+        "Fiziksel Aktivite ve Sağlık Anabilim Dalı",
+        "Sporda Sosyal Alanlar Anabilim Dalı"
+    ],
+    "url": "https://rekreasyon.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

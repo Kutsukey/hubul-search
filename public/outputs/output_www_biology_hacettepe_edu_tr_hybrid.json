@@ -1,0 +1,69 @@
+{
+    "entity_name": "Biyoloji Bölümü",
+    "category": "Bölüm",
+    "description": "1965 yılında kurulan, botanikten moleküler biyolojiye kadar geniş bir yelpazede anabilim dallarıyla eğitim ve araştırma faaliyetleri yürüten akademik birimdir. biology department, biology programs, academic staff, research laboratories, internship.",
+    "action_links": [
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/staj-372"
+        },
+        {
+            "intent": "Check Internship Information",
+            "url": "https://biology.hacettepe.edu.tr/en/staj-372"
+        },
+        {
+            "intent": "Yandal Program Rehberini İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/yan_dal_programi-150"
+        },
+        {
+            "intent": "Review Minor Program Guide",
+            "url": "https://biology.hacettepe.edu.tr/en/yan_dal_programi-150"
+        },
+        {
+            "intent": "Çift Anadal Program Rehberini İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/cift_anadal_programi-324"
+        },
+        {
+            "intent": "Review Double Major Program Guide",
+            "url": "https://biology.hacettepe.edu.tr/en/cift_anadal_programi-324"
+        },
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/degisim_programlari-371"
+        },
+        {
+            "intent": "Check Exchange Programs",
+            "url": "https://biology.hacettepe.edu.tr/en/degisim_programlari-371"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/ders_programi-99"
+        },
+        {
+            "intent": "View Course Schedule",
+            "url": "https://biology.hacettepe.edu.tr/en/menu/ders_programi-99"
+        },
+        {
+            "intent": "Sınav Programını Görüntüle",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/sinav_programi-100"
+        },
+        {
+            "intent": "View Exam Schedule",
+            "url": "https://biology.hacettepe.edu.tr/en/menu/sinav_programi-100"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Botanik",
+        "Moleküler Biyoloji",
+        "Zooloji",
+        "Hidrobiyoloji",
+        "Genel Biyoloji",
+        "Biyoteknoloji",
+        "Ekoloji",
+        "Uygulamalı Biyoloji"
+    ],
+    "url": "https://www.biology.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 274
+}

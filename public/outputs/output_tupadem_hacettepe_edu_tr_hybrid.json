@@ -1,0 +1,32 @@
+{
+    "entity_name": "Tüketici – Pazar – Araştırma – Danışma – Test ve Eğitim Merkezi (TÜPADEM)",
+    "category": "Araştırma Merkezi",
+    "description": "Tüketici ve pazar ilişkileri alanında araştırmalar yürüten, eğitim ve danışmanlık hizmetleri sunarak kamuoyunun bilinçlendirilmesine katkı sağlayan bir uygulama ve araştırma merkezidir. (consumer rights, market research, consumer protection, academic research, consultancy)",
+    "action_links": [
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://tupadem.hacettepe.edu.tr/yonetmelik.php"
+        },
+        {
+            "intent": "2021 Yılı Faaliyet Raporunu İndir",
+            "url": "https://tupadem.hacettepe.edu.tr/tupadem-faaliyetraporu2021.pdf"
+        },
+        {
+            "intent": "Tüketici Hakları Bilgi Bankasını İncele",
+            "url": "https://tupadem.hacettepe.edu.tr/bilgibankasi.php"
+        },
+        {
+            "intent": "Review Center Objectives (EN)",
+            "url": "https://tupadem.hacettepe.edu.tr/objective.php"
+        },
+        {
+            "intent": "Tüketici Akademisi Portalı'na Git",
+            "url": "https://tupadem.hacettepe.edu.tr/duyurular.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://tupadem.hacettepe.edu.tr",
+    "deep_crawl_files": 1,
+    "deep_crawl_pages": 48
+}

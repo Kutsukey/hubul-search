@@ -1,0 +1,37 @@
+{
+    "entity_name": "Afet Yönetimi Araştırma ve Uygulama Merkezi (DAUM)",
+    "category": "Araştırma Merkezi",
+    "description": "Doğal afetlerin (deprem, heyelan, taşkın, çığ) yönetimi, risk azaltılması ve bu konularda araştırma, eğitim ve farkındalık çalışmaları yürüten akademik bir merkezdir. disaster management, risk assessment, earthquake, landslide, flood, research center.",
+    "action_links": [
+        {
+            "intent": "Yer Mühendisliği Dergisindeki Makaleyi İncele",
+            "url": "https://hudam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "6 Şubat Kahramanmaraş Depremleri Ön Değerlendirme Raporunu Oku",
+            "url": "https://hudam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "DAUM 2021 Faaliyet Raporunu İncele",
+            "url": "https://hudam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Contact Center",
+            "url": "https://hudam.hacettepe.edu.tr/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Deprem",
+        "Heyelan",
+        "Taşkın",
+        "Çığ",
+        "Eğitim Faaliyetleri",
+        "Araştırma",
+        "Süreli Yayınlar",
+        "Web Seminerleri (Webinar)"
+    ],
+    "url": "https://hudam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 30
+}

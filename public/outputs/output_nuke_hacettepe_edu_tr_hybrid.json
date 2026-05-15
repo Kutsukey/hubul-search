@@ -1,0 +1,68 @@
+{
+    "entity_name": "Nükleer Enerji Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Nükleer Enerji Mühendisliği Bölümü, Türkiye'de nükleer mühendislik alanında lisans düzeyinde eğitim veren ilk bölümdür; enerji sistemleri, kontrol ve simülasyon alanlarında nitelikli mühendisler yetiştirmeyi amaçlar. nuclear energy engineering, undergraduate program, graduate studies, nuclear fuel cycle, admission",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=310&curSunit=386"
+        },
+        {
+            "intent": "Review Undergraduate Program",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en&curOp=showPac&curUnit=310&curSunit=386"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000576&birim_kod=2028&prg_oid=PRGRAM_0000000000000000000000771&prg_kod=20281&programduzey=3&submenuheader=2&dil_kod=1"
+        },
+        {
+            "intent": "Review Master's Degree Program",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000576&birim_kod=2028&prg_oid=PRGRAM_0000000000000000000000771&prg_kod=20281&programduzey=3&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000576&birim_kod=2028&prg_oid=PRGRAM_0000000000000000000000550&prg_kod=20282&programduzey=5&submenuheader=2&dil_kod=1"
+        },
+        {
+            "intent": "Review Doctorate Degree Program",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000001047&birim_kod=2028&prg_oid=PRGRAM_0000000000000000000010112&prg_kod=20282&programduzey=5&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "http://www.muhfak.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-175"
+        },
+        {
+            "intent": "Review Rules and Regulations",
+            "url": "http://www.muhfak.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-175"
+        },
+        {
+            "intent": "Yararlı Belgeleri İncele",
+            "url": "http://www.muhfak.hacettepe.edu.tr/tr/menu/yararli_belgeler-178"
+        },
+        {
+            "intent": "Review Useful Documents",
+            "url": "https://nuke.hacettepe.edu.tr/en/menu/useful_documents-32"
+        },
+        {
+            "intent": "Lisans Başvuru İşlemleri",
+            "url": "https://nuke.hacettepe.edu.tr/tr/lisans_basvuru-128"
+        },
+        {
+            "intent": "Undergraduate Applications",
+            "url": "https://nuke.hacettepe.edu.tr/en/undergraduate_applications-126"
+        },
+        {
+            "intent": "Lisansüstü Başvuru İşlemleri",
+            "url": "https://nuke.hacettepe.edu.tr/tr/lisansustu_-129"
+        },
+        {
+            "intent": "Graduate Applications",
+            "url": "https://nuke.hacettepe.edu.tr/en/graduate_applications-127"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://nuke.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 100
+}

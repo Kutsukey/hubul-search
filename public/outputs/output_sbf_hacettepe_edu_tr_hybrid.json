@@ -1,0 +1,46 @@
+{
+    "entity_name": "Sağlık Bilimleri Fakültesi",
+    "category": "Fakülte",
+    "description": "Sağlık bilimleri alanında çeşitli disiplinlerde eğitim, araştırma ve toplumsal katkı faaliyetleri yürüten akademik bir birimdir. health sciences, faculty, nutrition, speech therapy, audiology, occupational therapy, student forms, curriculum",
+    "action_links": [
+        {
+            "intent": "SBF Kodlu Seçmeli Ders İçeriklerini ve Sınav Tarihlerini İncele",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/sbf_kodlu_secmeli_ders_icerikleri_v-211"
+        },
+        {
+            "intent": "Öğrenci Formlarını İndir",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/ogrenci_formlari-232"
+        },
+        {
+            "intent": "ÇAP ve YANDAL Rehberini İncele",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/capyandal_rehberi-209"
+        },
+        {
+            "intent": "Etik Kurul Başvurusu ve Çalışma Usullerini İncele",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/saglik_bilimleri_fakultesi_arastirm-155"
+        },
+        {
+            "intent": "Duyuruları Görüntüle",
+            "url": "https://sbf.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "Birim Faaliyet Raporlarını İncele",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/birim_faaliyet_raporu-207"
+        },
+        {
+            "intent": "Akredite Olmuş Bölümleri Görüntüle",
+            "url": "https://sbf.hacettepe.edu.tr/tr/menu/akredite_olmus_bolumlerimiz-181"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Beslenme ve Diyetetik Bölümü",
+        "Çocuk Gelişimi Bölümü",
+        "Dil ve Konuşma Terapisi Bölümü",
+        "Ergoterapi Bölümü",
+        "Odyoloji Bölümü"
+    ],
+    "url": "https://sbf.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 95
+}

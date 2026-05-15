@@ -1,0 +1,61 @@
+{
+    "entity_name": "Bologna Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Üniversitenin Bologna Süreci'ne uyumunu, eğitim-öğretim kalitesini, AKTS sistemini ve Avrupa Yükseköğretim Alanı standartlarını koordine eden birimdir. bologna process, ects, course catalog, diploma supplement, higher education quality, syllabus.",
+    "action_links": [
+        {
+            "intent": "Ders Kataloğu / AKTS Bilgi Paketini İncele",
+            "url": "https://hubologna.hacettepe.edu.tr/en/menu/course_catalog_ects_information_pac-83"
+        },
+        {
+            "intent": "Review Course Catalog / ECTS Information Package",
+            "url": "https://hubologna.hacettepe.edu.tr/en/menu/course_catalog_ects_information_pac-83"
+        },
+        {
+            "intent": "Diploma Eki Bilgilerine Eriş",
+            "url": "https://hubologna.hacettepe.edu.tr/en/menu/diploma_oct-81"
+        },
+        {
+            "intent": "Access Diploma Supplement Information",
+            "url": "https://hubologna.hacettepe.edu.tr/en/menu/diploma_oct-81"
+        },
+        {
+            "intent": "2024 İzleme ve Değerlendirme Raporunu İndir",
+            "url": "https://fs.hacettepe.edu.tr/bologna/dosyalar/Bologna%20Koordinatorluk%20Raporu%2017subat2025son.pdf"
+        },
+        {
+            "intent": "Download 2024 Monitoring and Evaluation Report",
+            "url": "https://fs.hacettepe.edu.tr/bologna/dosyalar/Bologna%20Koordinatorluk%20Raporu%2017subat2025son.pdf"
+        },
+        {
+            "intent": "AKTS Bilgi Paketi ve Ders Kataloğu Dosyasını İndir",
+            "url": "https://hubologna.hacettepe.edu.tr/zzz/AKTS_Bilgi_Paketi_Ders_Katalogu_Takvimi_05032014.PDF"
+        },
+        {
+            "intent": "Download ECTS Information Package and Course Catalogue",
+            "url": "https://hubologna.hacettepe.edu.tr/zzz/AKTS_Bilgi_Paketi_Ders_Katalogu_Takvimi_05032014.PDF"
+        },
+        {
+            "intent": "Bologna Eşgüdüm Komisyonu İlkelerini İncele",
+            "url": "https://fs.hacettepe.edu.tr/bologna/dosyalar/BEK%20%C4%B0LKELER%C4%B0.pdf"
+        },
+        {
+            "intent": "Review Bologna Coordination Commission Principles",
+            "url": "https://fs.hacettepe.edu.tr/bologna/dosyalar/BEK%20%C4%B0LKELER%C4%B0.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Akademik Birim Bologna Ekipleri",
+        "Bologna Eşgüdüm Komisyonu (BEK)",
+        "Diploma Eki",
+        "Ders Kataloğu / AKTS Bilgi Paketi",
+        "Türkiye Yükseköğretim Yeterlilikler Çerçevesi (TYYÇ)",
+        "Koordinatörlük Toplantıları",
+        "Eğitim Toplantıları",
+        "İlgili Bağlantılar"
+    ],
+    "url": "https://hubologna.hacettepe.edu.tr",
+    "deep_crawl_files": 2,
+    "deep_crawl_pages": 57
+}

@@ -1,0 +1,45 @@
+{
+    "entity_name": "Fizyoloji Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Tıbbi fizyoloji alanında lisans ve lisansüstü eğitim programları yürüten, yaşam bilimlerini moleküler ve sistem düzeyinde araştıran akademik birimdir. medical physiology, syllabus, graduate programs, internship, physiology labs",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/lisans_programi-8"
+        },
+        {
+            "intent": "Lisansüstü Programları İncele",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/lisansustu_programlar-9"
+        },
+        {
+            "intent": "Yüksek Lisans ve Doktora Öğrenci Bilgilerini İncele",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_ve_doktora_ogrenciler-46"
+        },
+        {
+            "intent": "Araştırma Laboratuvarlarını İncele",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/arastirma_laboratuvarlari-21"
+        },
+        {
+            "intent": "2026 Yaz Stajı Duyurusunu İncele",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/duyurular"
+        },
+        {
+            "intent": "İletişim Bilgilerine Eriş",
+            "url": "https://fizyoloji.hacettepe.edu.tr/tr/menu/iletisim-16"
+        },
+        {
+            "intent": "View English Page",
+            "url": "https://fizyoloji.hacettepe.edu.tr/en"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Nörofizyoloji",
+        "Solunum",
+        "Hemoreoloji",
+        "Moleküler Fizyoloji"
+    ],
+    "url": "https://fizyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 24
+}

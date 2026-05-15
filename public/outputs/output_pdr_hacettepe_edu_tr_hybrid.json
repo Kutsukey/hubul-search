@@ -1,0 +1,64 @@
+{
+    "entity_name": "Rehberlik ve Psikolojik Danışmanlık Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Eğitim kurumlarında bireylerin psikolojik iyilik hallerini korumayı amaçlayan, psikolojik danışmanlar yetiştiren ve lisans, yüksek lisans ile doktora düzeyinde eğitim veren akademik birimdir. psychological counseling, guidance, counseling psychology, academic program, Hacettepe PDR",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/lisans-35"
+        },
+        {
+            "intent": "Review Undergraduate Program",
+            "url": "https://pdr.hacettepe.edu.tr/en/menu/undergraduate-113"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/yuksek_lisans-37"
+        },
+        {
+            "intent": "Review Master of Science (MSc) Program",
+            "url": "https://pdr.hacettepe.edu.tr/en/menu/master_of_science_msc-115"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/doktora-39"
+        },
+        {
+            "intent": "Review Doctorate (PhD) Program",
+            "url": "https://pdr.hacettepe.edu.tr/en/menu/doctorate_phd-117"
+        },
+        {
+            "intent": "Erasmus+ Bilgilerini İncele",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/erasmus+-123"
+        },
+        {
+            "intent": "Review Erasmus+ Information",
+            "url": "https://pdr.hacettepe.edu.tr/en/menu/erasmus+-121"
+        },
+        {
+            "intent": "Yararlı Belgelere Eriş",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/yararli_belgeler-145"
+        },
+        {
+            "intent": "Access Useful Documents",
+            "url": "https://pdr.hacettepe.edu.tr/en/menu/useful_documents-147"
+        },
+        {
+            "intent": "Yapay Zeka Kullanım Rehberini İncele",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/egitimogretimde_uretken_yapay_zeka_-148"
+        },
+        {
+            "intent": "Psikolojik Destek Sayfasına Git",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/afet_ve_kriz_durumlarinda_psikoloji-139"
+        },
+        {
+            "intent": "Ders Programları Arşivini Görüntüle",
+            "url": "https://pdr.hacettepe.edu.tr/tr/menu/ders_programlari_arsivi-41"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://pdr.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 73
+}

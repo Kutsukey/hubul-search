@@ -1,0 +1,44 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Multipl Skleroz Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Multipl skleroz ve nöroimmünoloji alanlarında disiplinlerarası araştırmalar, eğitim faaliyetleri ve hasta yaşam kalitesini artırmaya yönelik projeler yürütmektedir. multiple sclerosis, neuroimmunology, research center, neurology, clinical research",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/tr/menu/yonetmelik-4"
+        },
+        {
+            "intent": "Review Regulation",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/en/menu/yonetmelik-4"
+        },
+        {
+            "intent": "Yönetim Kurulunu Görüntüle",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/tr/menu/yonetim_kurulu_-13"
+        },
+        {
+            "intent": "View Board of Directors",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/en/menu/yonetim_kurulu_-13"
+        },
+        {
+            "intent": "Etkinlikleri Takip Et",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/tr/menu/etkinlikler-6"
+        },
+        {
+            "intent": "View Events",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/en/menu/etkinlikler-6"
+        },
+        {
+            "intent": "Geleceğimsin Proje Destek Programı",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/tr/menu/gelecegimsin_proje_destek_programi-11"
+        },
+        {
+            "intent": "Geleceğimsin Project Support Program",
+            "url": "https://multiplskleroz.hacettepe.edu.tr/en/menu/gelecegimsin_proje_destek_programi-11"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://multiplskleroz.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 13
+}

@@ -1,0 +1,70 @@
+{
+    "entity_name": "Bilişim Enstitüsü",
+    "category": "Enstitü",
+    "description": "Hacettepe Üniversitesi Bilişim Enstitüsü, bilişim alanında uzmanlaşmış yüksek lisans ve doktora programları sunan, yapay zeka ve veri bilimleri odaklı araştırmalar yürüten akademik bir birimdir. informatics institute, graduate studies, artificial intelligence, computer science, master's degree, PhD.",
+    "action_links": [
+        {
+            "intent": "Başvuru Koşullarını İncele",
+            "url": "https://bilisim.hacettepe.edu.tr/tr/basvuru_kosullari-29"
+        },
+        {
+            "intent": "Check Application Requirements",
+            "url": "https://bilisim.hacettepe.edu.tr/en/history-50"
+        },
+        {
+            "intent": "Ekle-Sil İşlemlerini Gerçekleştir",
+            "url": "https://bilisim.hacettepe.edu.tr/tr/menu/eklesil_islemleri-105"
+        },
+        {
+            "intent": "Haftalık Ders Programına Eriş",
+            "url": "https://bilisim.hacettepe.edu.tr/tr/20252026_bahar_donemi_yuksek_lisans_programlari_ha-378"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://bilisim.hacettepe.edu.tr/en/menu/academic_calendar-74"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://bilisim.hacettepe.edu.tr/en/menu/academic_calendar-74"
+        },
+        {
+            "intent": "Lisansüstü Yönetmeliği İncele",
+            "url": "https://bilisim.hacettepe.edu.tr/tr/lisansustu_yonetmelik-36"
+        },
+        {
+            "intent": "Review Regulations",
+            "url": "https://bilisim.hacettepe.edu.tr/en/menu/regulations-76"
+        },
+        {
+            "intent": "Kesin Kayıt İşlemleri Kılavuzu (PDF)",
+            "url": "https://fs.hacettepe.edu.tr/bilisim/Dosyalar/Duyurular/25-26_Bahar_KesinKayit.pdf"
+        },
+        {
+            "intent": "Program Kayıt Belgesi (PDF)",
+            "url": "https://fs.hacettepe.edu.tr/bilisim/Dosyalar/Duyurular/25-26_Bahar_ProgramKaydi.pdf"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://bilisim.hacettepe.edu.tr/tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://bilisim.hacettepe.edu.tr/en/contact-64"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilişim Sistemleri",
+        "Yapay Zeka",
+        "Bilgi Güvenliği",
+        "Bilgisayar Grafiği",
+        "Sağlık Bilişimi",
+        "Eğitimde Bilişim Teknolojileri",
+        "Bilgi Araştırmaları",
+        "Sayısal İletişim Sistemleri ve Bilgisayar Ağları",
+        "Bilişim ve Fikri Mülkiyet Hukuku"
+    ],
+    "url": "https://www.bilisim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 62
+}

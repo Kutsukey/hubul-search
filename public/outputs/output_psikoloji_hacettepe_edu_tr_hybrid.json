@@ -1,0 +1,55 @@
+{
+    "entity_name": "Psikoloji Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Psikoloji Bölümü, lisans ve lisansüstü düzeyde psikoloji eğitimi, bilimsel araştırmalar ve akademik çalışmalar yürüten bir birimdir. psychology, clinical psychology, psychology research, psychology curriculum, psychology department.",
+    "action_links": [
+        {
+            "intent": "Erasmus+ Programı Hakkında Bilgi Al",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Learn about Erasmus+ Programs",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Yandal Programı Bilgileri",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Minor Program Information",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "İsteğe Bağlı (Gönüllü) Staj Bilgileri",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Optional (Voluntary) Internship Information",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Akademik Yayın İlkelerini (APA 7) İncele",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Farabi Programı Hakkında Bilgi Al",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Mevlana Programı Hakkında Bilgi Al",
+            "url": "https://psikoloji.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Deneysel Psikoloji",
+        "Gelişim Psikolojisi",
+        "İş ve Örgüt Psikolojisi",
+        "Klinik Psikoloji",
+        "Sosyal Psikoloji",
+        "Uygulamalı Psikoloji"
+    ],
+    "url": "https://psikoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 208
+}

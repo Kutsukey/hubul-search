@@ -1,0 +1,60 @@
+{
+    "entity_name": "Psikolojik Danışma Birimi",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi öğrencilerinin zihinsel, duygusal ve sosyal potansiyellerini geliştirmek amacıyla destekleyici, koruyucu ve önleyici psikolojik danışma ve rehberlik hizmetleri sunan birimdir. psychological counseling, student support, mental health, guidance center, counseling services",
+    "action_links": [
+        {
+            "intent": "Başvuru Yap",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/menu/basvuru"
+        },
+        {
+            "intent": "Apply Now",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/en/menu/application-47"
+        },
+        {
+            "intent": "Hizmetleri İncele",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/menu/hizmetler"
+        },
+        {
+            "intent": "View Services",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/en/menu/services-46"
+        },
+        {
+            "intent": "Birim Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/psydnsm/dosyalar/Psikolojik_Danisma_Birimi_Yonergesi.pdf"
+        },
+        {
+            "intent": "Review Unit Directive",
+            "url": "https://fs.hacettepe.edu.tr/psydnsm/dosyalar/Psikolojik_Danisma_Birimi_Yonergesi.pdf"
+        },
+        {
+            "intent": "Personel Bilgilerini Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/psydnsm/dosyalar/PDB%20Personell.pdf"
+        },
+        {
+            "intent": "View Personnel Information",
+            "url": "https://fs.hacettepe.edu.tr/psydnsm/dosyalar/PDB%20Personell.pdf"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/menu/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/en/menu/contact-48"
+        },
+        {
+            "intent": "Bağımlılıkla Mücadele Sayfasını İncele",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/menu/bagimlilikla-mucadele"
+        },
+        {
+            "intent": "View Addiction Support Page",
+            "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr/en/menu/addiction-49"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://psikolojikdanismabirimi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 21
+}

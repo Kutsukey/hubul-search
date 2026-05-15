@@ -1,0 +1,36 @@
+{
+    "entity_name": "İnşaat Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi İnşaat Mühendisliği Bölümü'nün ders materyallerinin, ödevlerinin ve eğitim içeriklerinin yönetildiği Moodle öğrenme yönetim sistemidir. civil engineering, course materials, LMS, online learning, academic resources.",
+    "action_links": [
+        {
+            "intent": "Sisteme Giriş Yap",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/index.php"
+        },
+        {
+            "intent": "Log in to Moodle",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/index.php"
+        },
+        {
+            "intent": "Şifremi/Kullanıcı Adımı Unuttum",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/forgotten.php"
+        },
+        {
+            "intent": "Forgotten username or password",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/forgotten.php"
+        },
+        {
+            "intent": "Misafir Olarak Giriş Yap",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/index.php"
+        },
+        {
+            "intent": "Log in as a guest",
+            "url": "https://moodle.ce.hacettepe.edu.tr/login/index.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://moodle.ce.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 7
+}

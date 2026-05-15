@@ -1,0 +1,80 @@
+{
+    "entity_name": "Uluslararası İlişkiler Bölümü",
+    "category": "Bölüm",
+    "description": "Ulusal ve uluslararası düzeyde politik ve ekonomik gelişmeleri analiz edebilecek uzmanlar yetiştiren, lisans, yüksek lisans ve doktora eğitimi veren akademik birimdir. international relations, political science, syllabus, internship, curriculum, contact.",
+    "action_links": [
+        {
+            "intent": "Programları İncele",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/programlar-99"
+        },
+        {
+            "intent": "View Programs",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/programs-123"
+        },
+        {
+            "intent": "Yandal Bilgilerini Görüntüle",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/yandal-19"
+        },
+        {
+            "intent": "View Minor Programs",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/minor-59"
+        },
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/degisim_programlari-21"
+        },
+        {
+            "intent": "View Exchange Programs",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/exchange_programs-60"
+        },
+        {
+            "intent": "Staj Bilgilerini Görüntüle",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/staj-153"
+        },
+        {
+            "intent": "View Internship Information",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/internship-155"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/akademik_takvim-104"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/academic_calendar-124"
+        },
+        {
+            "intent": "Ders Programlarını İncele",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/ders_programlari-131"
+        },
+        {
+            "intent": "View Course Schedules",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/course_schedules-132"
+        },
+        {
+            "intent": "Okuma Listelerine Eriş",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/okuma_listeleri-106"
+        },
+        {
+            "intent": "View Reading Lists",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/reading_lists-126"
+        },
+        {
+            "intent": "Sınav ve Ödev Kurallarını İncele",
+            "url": "https://ir.hacettepe.edu.tr/tr/menu/sinav_ve_odev_kurallari-107"
+        },
+        {
+            "intent": "View Regulations for Exams and Assignments",
+            "url": "https://ir.hacettepe.edu.tr/en/menu/regulations_for_exams_and_assigment-127"
+        },
+        {
+            "intent": "Belgeler ve Formlara Eriş",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri_-132"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://ir.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 265
+}

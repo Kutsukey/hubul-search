@@ -1,0 +1,47 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin bilişim altyapısı, ağ güvenliği, e-posta servisleri, yazılım desteği ve dijital dönüşüm süreçlerini yöneten teknik birimdir. (it services, network security, email configuration, proxy settings, software support)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarlarını İncele",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını İncele",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.radonko.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Misyon ve Vizyon",
+        "Bilgi Güvenliği Politikası",
+        "Organizasyon Şeması",
+        "Web Servisleri",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Formlar",
+        "Duyuru Arşivi",
+        "Bilgi ve Dokümanlar"
+    ],
+    "url": "https://www.radonko.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

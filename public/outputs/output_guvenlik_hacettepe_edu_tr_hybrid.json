@@ -1,0 +1,20 @@
+{
+    "entity_name": "Koruma ve Güvenlik Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Üniversite yerleşkelerinin güvenliğinin sağlanması, araç giriş-çıkış kontrollerinin yönetimi ve taşıt tanıtım pulu işlemlerinin yürütüldüğü birimdir. (Keywords: campus security, vehicle permit, parking, security office, safety)",
+    "action_links": [
+        {
+            "intent": "Taşıt Tanıtım Pulu Başvurusu Yap",
+            "url": "https://guvenlik.hacettepe.edu.tr/sticker-basvurusu"
+        },
+        {
+            "intent": "Apply for Vehicle Identification Sticker",
+            "url": "https://guvenlik.hacettepe.edu.tr/sticker-basvurusu"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://guvenlik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 1
+}

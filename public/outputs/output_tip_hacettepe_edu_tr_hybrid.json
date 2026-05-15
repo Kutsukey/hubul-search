@@ -1,0 +1,81 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Tıp Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi bünyesinde tıp alanında lisans ve lisansüstü eğitim veren, uluslararası akreditasyona sahip temel akademik birimdir. medical faculty, medicine, undergraduate medical education, clinical clerkship, medical school, healthcare training.",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://tip.hacettepe.edu.tr/tr/akademik-takvim"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://tip.hacettepe.edu.tr/en/academic-calendar"
+        },
+        {
+            "intent": "Öğrenci Rehberini İncele",
+            "url": "https://tip.hacettepe.edu.tr/tr/ogrenci-rehberi"
+        },
+        {
+            "intent": "View Student Guide",
+            "url": "https://tip.hacettepe.edu.tr/en/student-guide"
+        },
+        {
+            "intent": "Yönetmelikler ve Yönergeleri İncele",
+            "url": "https://tip.hacettepe.edu.tr/tr/yonetmelikler_ve_yonergeler-26"
+        },
+        {
+            "intent": "Review Regulations and Rules",
+            "url": "https://tip.hacettepe.edu.tr/en/regulations-and-rules"
+        },
+        {
+            "intent": "Staj Rehberini İncele",
+            "url": "https://tip.hacettepe.edu.tr/tr/staj-rehberi"
+        },
+        {
+            "intent": "Review Clerkship Guide",
+            "url": "https://tip.hacettepe.edu.tr/en/clerkship-guide"
+        },
+        {
+            "intent": "Formlara Eriş",
+            "url": "https://tip.hacettepe.edu.tr/tr/formlar"
+        },
+        {
+            "intent": "Access Forms",
+            "url": "https://tip.hacettepe.edu.tr/en/forms"
+        },
+        {
+            "intent": "MD-PhD Eğitim Programı Bilgisi",
+            "url": "https://tip.hacettepe.edu.tr/tr/mdphd_egitim_programi-23"
+        },
+        {
+            "intent": "MD-PhD Program Information",
+            "url": "https://tip.hacettepe.edu.tr/en/mdphd-program"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Anatomi Anabilim Dalı",
+        "Biyofizik Anabilim Dalı",
+        "Biyoistatistik Anabilim Dalı",
+        "Fizyoloji Anabilim Dalı",
+        "Histoloji ve Embriyoloji Anabilim Dalı",
+        "Tıbbi Biyokimya Anabilim Dalı",
+        "Tıbbi Biyoloji Anabilim Dalı",
+        "Tıbbi Mikrobiyoloji Anabilim Dalı",
+        "Tıp Eğitimi ve Bilişimi Anabilim Dalı",
+        "Tıp Tarihi ve Etik Anabilim Dalı",
+        "Acil Tıp Anabilim Dalı",
+        "Adli Tıp Anabilim Dalı",
+        "Aile Hekimliği Anabilim Dalı",
+        "Çocuk Sağlığı ve Hastalıkları Anabilim Dalı",
+        "İç Hastalıkları Anabilim Dalı",
+        "Kardiyoloji Anabilim Dalı",
+        "Nöroloji Anabilim Dalı",
+        "Radyoloji Anabilim Dalı",
+        "Genel Cerrahi Anabilim Dalı",
+        "Kadın Hastalıkları ve Doğum Anabilim Dalı"
+    ],
+    "url": "https://tip.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 184
+}

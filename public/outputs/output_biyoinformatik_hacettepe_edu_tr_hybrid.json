@@ -1,0 +1,40 @@
+{
+    "entity_name": "Biyoinformatik Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Biyoinformatik alanında yüksek lisans ve doktora düzeyinde lisansüstü eğitim ve disiplinlerarası araştırmalar yürüten akademik bir birimdir. bioinformatics, graduate programs, master degree, PhD, biological data analysis, curriculum.",
+    "action_links": [
+        {
+            "intent": "Programlar Hakkında Genel Bilgi Al",
+            "url": "https://biyoinformatik.hacettepe.edu.tr/tr/menu/programlar_hakkinda_genel_bilgi-25"
+        },
+        {
+            "intent": "Biyoinformatik Doktora Programı Detayları",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62644270276d0142ebe799d83ef9&birim_kod=2150&prg_oid=5692f68658c08766f785b77be615d01c&prg_kod=55895&programduzey=5&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Biyoinformatik Yüksek Lisans Programı Detayları",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62644270276d0142ebe799d83ef9&birim_kod=2150&prg_oid=410c62644270276d0142ebe8990d3efa&prg_kod=21501&programduzey=3&submenuheader=2&dil_kod=1"
+        },
+        {
+            "intent": "View General Information",
+            "url": "https://biyoinformatik.hacettepe.edu.tr/en/menu/general_information-41"
+        },
+        {
+            "intent": "Check PhD Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62644270276d0142ebe799d83ef9&birim_kod=2150&prg_oid=5692f68658c08766f785b77be615d01c&prg_kod=55895&programduzey=5&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Check MS Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62644270276d0142ebe799d83ef9&birim_kod=2150&prg_oid=410c62644270276d0142ebe8990d3efa&prg_kod=21501&programduzey=3&submenuheader=2&dil_kod=1"
+        },
+        {
+            "intent": "View Ongoing and Completed Thesis Studies",
+            "url": "https://biyoinformatik.hacettepe.edu.tr/en/menu/ongoing_and_completed_thesis_studie-43"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://biyoinformatik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 43
+}

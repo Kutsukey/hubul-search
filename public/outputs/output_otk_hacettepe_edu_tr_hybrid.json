@@ -1,0 +1,32 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Öğrenci İşleri Koordinatörlüğü",
+    "category": "İdari Birim",
+    "description": "Öğrencilerin kayıt, belge ve akademik süreçlerinin yönetildiği, idari işlemlerin yürütüldüğü koordinatörlüktür. student affairs, registration, academic records, transcript, student documents.",
+    "action_links": [
+        {
+            "intent": "İletişim Bilgilerine Eriş",
+            "url": "https://otk.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://otk.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Güncel Duyuruları Görüntüle",
+            "url": "https://otk.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "View Current Announcements",
+            "url": "https://otk.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "Yönetim Kurulunu İncele",
+            "url": "https://otk.hacettepe.edu.tr/yonetim-kurulu"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://otk.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 6
+}

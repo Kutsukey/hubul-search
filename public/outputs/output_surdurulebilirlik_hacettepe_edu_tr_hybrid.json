@@ -1,0 +1,36 @@
+{
+    "entity_name": "Sürdürülebilirlik Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi'nin kampüs genelindeki sürdürülebilirlik stratejilerini, sıfır atık projelerini ve çevresel yönetim politikalarını koordine eden birimdir. sustainability, zero waste, green campus, environmental management, sustainability coordinator.",
+    "action_links": [
+        {
+            "intent": "Formlar ve Belgelere Eriş",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/formlar-ve-belgeler"
+        },
+        {
+            "intent": "Access Forms and Documents",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/formlar-ve-belgeler"
+        },
+        {
+            "intent": "Sıfır Atık ve Atık Yönetimi Bilgilerini İncele",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/sifir-atik-ve-atik-yonetimi"
+        },
+        {
+            "intent": "Review Zero Waste and Waste Management",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/sifir-atik-ve-atik-yonetimi"
+        },
+        {
+            "intent": "Koordinatörlük Etkinliklerini Görüntüle",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/koordinatorluk-etkinlikleri"
+        },
+        {
+            "intent": "View Coordination Activities",
+            "url": "https://surdurulebilirlik.hacettepe.edu.tr/koordinatorluk-etkinlikleri"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://surdurulebilirlik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 15
+}

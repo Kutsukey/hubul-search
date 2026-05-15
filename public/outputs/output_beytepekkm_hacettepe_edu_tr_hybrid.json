@@ -1,0 +1,50 @@
+{
+    "entity_name": "Beytepe Kültür Merkezi Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Beytepe yerleşkesindeki kongre merkezleri, amfiler, salonlar ve açık hava tiyatrosunun yönetimini sağlayan, ayrıca stant, afiş ve etkinlik onay süreçlerini yürüten idari birimdir. culture center, venue rental, event management, campus facilities, Beytepe Culture Center.",
+    "action_links": [
+        {
+            "intent": "Başvuru Yap",
+            "url": "https://beytepekkm.hacettepe.edu.tr/basvuru"
+        },
+        {
+            "intent": "Application",
+            "url": "https://beytepekkm.hacettepe.edu.tr/application"
+        },
+        {
+            "intent": "Formlar ve Dilekçeleri İncele",
+            "url": "https://beytepekkm.hacettepe.edu.tr/formlar-ve-dilekceler"
+        },
+        {
+            "intent": "Ulaşım Bilgilerini Görüntüle",
+            "url": "https://beytepekkm.hacettepe.edu.tr/ulasim"
+        },
+        {
+            "intent": "Directions",
+            "url": "https://beytepekkm.hacettepe.edu.tr/directions"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://beytepekkm.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Aylık Etkinlik Takvimini İncele",
+            "url": "https://beytepekkm.hacettepe.edu.tr/aylik-etkinlik-takvimi"
+        },
+        {
+            "intent": "İdari Personel Listesi",
+            "url": "https://beytepekkm.hacettepe.edu.tr/idari-personel"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tunçalp Özgen Kongre ve Kültür Merkezi",
+        "Yıldız Amfi",
+        "Beytepe Açık Hava Tiyatrosu",
+        "Mehmet Akif Ersoy ve K Salonları",
+        "İhsan Doğramacı Binası Senato Katı"
+    ],
+    "url": "https://beytepekkm.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 35
+}

@@ -1,0 +1,20 @@
+{
+    "entity_name": "Personel Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin personel alımları, özlük hakları, ek ders ödemeleri, sendika işlemleri ve İŞKUR programları gibi tüm insan kaynakları süreçlerini yöneten birimdir. personnel department, human resources, recruitment, payroll, staff affairs.",
+    "action_links": [
+        {
+            "intent": "İŞKUR Öğrenci Gençlik Programı Başvurusu",
+            "url": "https://iskur.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Apply for ISKUR Student Youth Program",
+            "url": "https://iskur.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://pdb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

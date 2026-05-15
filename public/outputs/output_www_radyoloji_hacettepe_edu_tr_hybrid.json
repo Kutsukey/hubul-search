@@ -1,0 +1,65 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin tüm bilgi teknolojileri altyapısını, ağ servislerini, e-posta sistemlerini ve dijital dönüşüm süreçlerini yöneten idari birimdir. IT services, network infrastructure, university email, VPN, software licenses.",
+    "action_links": [
+        {
+            "intent": "BİDB Portalına Git",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Go to BİDB Portal",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Download Server Request Form",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Proxy Ayarları ve Kurulum Rehberini İncele",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Review Proxy Settings and Installation Guide",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formunu İndir",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Download Contracted IT Personnel Application Form",
+            "url": "https://www.radyoloji.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "WEB Servisleri",
+        "Ağ Altyapısı",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Sistem Yönetimi"
+    ],
+    "url": "https://www.radyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

@@ -1,0 +1,101 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Biyoloji Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Biyoloji Bölümü, biyoloji biliminin farklı uzmanlık alanlarında lisans ve lisansüstü eğitim veren, araştırma odaklı akademik bir birimdir. biology, undergraduate programs, graduate studies, biology curriculum, academic staff",
+    "action_links": [
+        {
+            "intent": "Eğitim Programlarını İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/programlar-367"
+        },
+        {
+            "intent": "Review Academic Programs",
+            "url": "https://biology.hacettepe.edu.tr/tr/programlar-367"
+        },
+        {
+            "intent": "Değişim Programları Hakkında Bilgi Al",
+            "url": "https://biology.hacettepe.edu.tr/tr/degisim_programlari-371"
+        },
+        {
+            "intent": "Exchange Programs Information",
+            "url": "https://biology.hacettepe.edu.tr/tr/degisim_programlari-371"
+        },
+        {
+            "intent": "Yandal Programını İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/yan_dal_programi-150"
+        },
+        {
+            "intent": "Review Minor Program",
+            "url": "https://biology.hacettepe.edu.tr/tr/yan_dal_programi-150"
+        },
+        {
+            "intent": "Çift Anadal Programını İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/cift_anadal_programi-324"
+        },
+        {
+            "intent": "Review Double Major Program",
+            "url": "https://biology.hacettepe.edu.tr/tr/cift_anadal_programi-324"
+        },
+        {
+            "intent": "Staj Bilgilerini Görüntüle",
+            "url": "https://biology.hacettepe.edu.tr/tr/staj-372"
+        },
+        {
+            "intent": "Internship Information",
+            "url": "https://biology.hacettepe.edu.tr/tr/staj-372"
+        },
+        {
+            "intent": "Belgeler ve Formlara Eriş",
+            "url": "https://biology.hacettepe.edu.tr/tr/formlarbelgeler-205"
+        },
+        {
+            "intent": "Access Documents and Forms",
+            "url": "https://biology.hacettepe.edu.tr/tr/formlarbelgeler-205"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/ders_programi-99"
+        },
+        {
+            "intent": "View Course Schedule",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/ders_programi-99"
+        },
+        {
+            "intent": "Sınav Programını Görüntüle",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/sinav_programi-100"
+        },
+        {
+            "intent": "View Exam Schedule",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/sinav_programi-100"
+        },
+        {
+            "intent": "Yatay ve Dikey Geçiş Koşullarını İncele",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/yataydikey_gecis-104"
+        },
+        {
+            "intent": "Lateral and Vertical Transfer Information",
+            "url": "https://biology.hacettepe.edu.tr/tr/menu/yataydikey_gecis-104"
+        },
+        {
+            "intent": "Diploma İşlemleri Hakkında Bilgi Al",
+            "url": "https://biology.hacettepe.edu.tr/tr/diplomalar_hakkinda-972"
+        },
+        {
+            "intent": "Information About Diplomas",
+            "url": "https://biology.hacettepe.edu.tr/tr/diplomalar_hakkinda-972"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Botanik",
+        "Moleküler Biyoloji",
+        "Zooloji",
+        "Hidrobiyoloji",
+        "Genel Biyoloji",
+        "Biyoteknoloji",
+        "Ekoloji",
+        "Uygulamalı Biyoloji"
+    ],
+    "url": "https://biology.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 151
+}

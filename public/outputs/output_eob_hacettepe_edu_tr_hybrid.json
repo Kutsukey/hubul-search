@@ -1,0 +1,50 @@
+{
+    "entity_name": "Engelsiz Öğrenme Birimi",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi bünyesinde engelli öğrencilerin ve personelin eğitim, sosyal ve akademik süreçlere tam katılımını sağlamak amacıyla erişilebilirlik hizmetleri ve destek sunan birimdir. accessibility, disability services, inclusive education, student support, campus accessibility.",
+    "action_links": [
+        {
+            "intent": "Hizmetleri İncele",
+            "url": "https://eob.hacettepe.edu.tr/hizmetler"
+        },
+        {
+            "intent": "Explore Services",
+            "url": "https://eob.hacettepe.edu.tr/hizmetler"
+        },
+        {
+            "intent": "Duyurulara Göz At",
+            "url": "https://eob.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "https://eob.hacettepe.edu.tr/duyurular"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://eob.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://eob.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Yasal Düzenlemeleri İncele",
+            "url": "https://eob.hacettepe.edu.tr/yasal-duzenlemeler"
+        },
+        {
+            "intent": "Review Legal Regulations",
+            "url": "https://eob.hacettepe.edu.tr/yasal-duzenlemeler"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Amaç ve Görevler",
+        "Hizmetler",
+        "Duyurular",
+        "Yasal Düzenlemeler"
+    ],
+    "url": "https://eob.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 12
+}

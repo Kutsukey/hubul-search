@@ -1,0 +1,15 @@
+{
+    "entity_name": "Tıp Fakültesi Biyofizik Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi Biyofizik Anabilim Dalı; beyin araştırmaları, hücresel elektrofizyoloji ve hücre kültürü alanlarında uzmanlaşmış laboratuvar altyapısıyla bilimsel çalışmalar yürüten bir akademik birimdir. (biophysics, medical faculty, cellular electrophysiology, brain research, laboratory)",
+    "action_links": [],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Beyin Araştırmaları Laboratuvarları",
+        "Hücresel Elektrofizyoloji/Görüntüleme Laboratuvarı",
+        "Hücre Kültürü Laboratuvarı"
+    ],
+    "url": "https://biophysics.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

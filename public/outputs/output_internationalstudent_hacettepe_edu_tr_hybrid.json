@@ -1,0 +1,128 @@
+{
+    "entity_name": "Uluslararası Öğrenci Ofisi",
+    "category": "İdari Birim",
+    "description": "Uluslararası öğrencilerin başvuru, kayıt, vize ve ikamet süreçlerini yöneten, akademik ve idari bilgilendirme yapan birimdir. international student admission, application guide, tuition fees, student visa, international student handbook",
+    "action_links": [
+        {
+            "intent": "Adım Adım Başvuru Kılavuzunu İncele",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/adim_adim_basvuru_kilavuzu-23"
+        },
+        {
+            "intent": "Review Step-by-Step Application Guide",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/adim_adim_basvuru_kilavuzu-23"
+        },
+        {
+            "intent": "Başvuru Koşullarını İncele",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_kosullari-25"
+        },
+        {
+            "intent": "Review Application Requirements",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_kosullari-25"
+        },
+        {
+            "intent": "Başvuru Belgelerini Görüntüle",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_belgeleri-27"
+        },
+        {
+            "intent": "View Required Documents",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_belgeleri-27"
+        },
+        {
+            "intent": "Kabul Edilen Sınavları İncele",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/dosyalar/mevzuat/004_Kabul_Edilen_S%C4%B1navlar_2025.pdf"
+        },
+        {
+            "intent": "Review Accepted Exams",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/dosyalar/mevzuat/004_Kabul_Edilen_S%C4%B1navlar_2025.pdf"
+        },
+        {
+            "intent": "Kontenjanları Görüntüle",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/kontenjanlar-31"
+        },
+        {
+            "intent": "View Student Quotas",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/kontenjanlar-31"
+        },
+        {
+            "intent": "Eğitim Dillerini Öğren",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/egitim_dilleri-33"
+        },
+        {
+            "intent": "Learn Medium of Instruction",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/egitim_dilleri-33"
+        },
+        {
+            "intent": "Eğitim Ücretlerini İndir",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/007_2025-2026%20U%C3%96_Ogrenim_Ucretleri_ok.pdf"
+        },
+        {
+            "intent": "Download Tuition Fees",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/007_2025-2026%20U%C3%96_Ogrenim_Ucretleri_ok.pdf"
+        },
+        {
+            "intent": "Başvuru ve Kabul Takvimini İncele",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_ve_kabul_takvimi-37"
+        },
+        {
+            "intent": "Review Application and Admission Timeline",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/basvuru_ve_kabul_takvimi-37"
+        },
+        {
+            "intent": "Online Başvuru Yap",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/foa_app"
+        },
+        {
+            "intent": "Apply Online",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/foa_app"
+        },
+        {
+            "intent": "Yurtdışından Öğrenci Kabul Yönergesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/uluslararasi_ogrenci_yonerge_05022026_2026_22.pdf"
+        },
+        {
+            "intent": "Download Application and Admission Directive",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/uluslararasi_ogrenci_yonerge_05022026_2026_22.pdf"
+        },
+        {
+            "intent": "Genel Bilgileri İncele",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/genel_bilgiler-71"
+        },
+        {
+            "intent": "Review General Information",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/genel_bilgiler-71"
+        },
+        {
+            "intent": "Formları İndir",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/formlar-69"
+        },
+        {
+            "intent": "Download Forms",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/formlar-69"
+        },
+        {
+            "intent": "Uluslararası Öğrenci El Kitabını İncele",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/uluslararasi_ogrenci_el_kitabi-9"
+        },
+        {
+            "intent": "Review International Student Handbook",
+            "url": "https://internationalstudent.hacettepe.edu.tr/tr/menu/uluslararasi_ogrenci_el_kitabi-9"
+        },
+        {
+            "intent": "Öğrenim Ücretleri Güncellemesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/dosyalar/mevzuat/2024-2025_Katk%C4%B1%20paylar%C4%B1_Tr.pdf"
+        },
+        {
+            "intent": "Review Tuition Fee Update",
+            "url": "https://fs.hacettepe.edu.tr/intstudent/dosyalar/mevzuat/2024-2025_Katk%C4%B1%20paylar%C4%B1_Tr.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Uluslararası Öğrenci Başvurusu",
+        "Vize ve İkamet İzni",
+        "Öğrenim Ücretleri"
+    ],
+    "url": "https://internationalstudent.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 72
+}

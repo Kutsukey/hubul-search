@@ -1,0 +1,42 @@
+{
+    "entity_name": "Biyokimya Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi bünyesinde biyokimya alanında bilimsel araştırmalar yürüten, lisans ve lisansüstü düzeyde akademik eğitim veren temel bilimsel birimdir. biochemistry, medical biochemistry, biochemistry research, laboratory, curriculum, faculty of medicine.",
+    "action_links": [
+        {
+            "intent": "Araştırma Dokümanını İndir",
+            "url": "https://biyokimya.hacettepe.edu.tr/ekler/doc/arastirma.doc"
+        },
+        {
+            "intent": "Öğretim Üyelerini İncele",
+            "url": "https://biyokimya.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "Araştırma Görevlilerini Görüntüle",
+            "url": "https://biyokimya.hacettepe.edu.tr/personel/arsgorevlisi.php"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://biyokimya.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Yardımcı Personel Listesi",
+            "url": "https://biyokimya.hacettepe.edu.tr/personel/personel.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Genel Tanıtım",
+        "Misyon/Vizyon",
+        "Öğretim Üyeleri/Görevlileri",
+        "Araştırma Görevlileri ve Öğrenciler",
+        "Yardımcı Personel",
+        "Lisans Programı",
+        "Lisansüstü Programı",
+        "Yüksek Lisans Tezleri",
+        "Doktora Tezleri"
+    ],
+    "url": "https://biyokimya.hacettepe.edu.tr",
+    "deep_crawl_files": 2,
+    "deep_crawl_pages": 8
+}

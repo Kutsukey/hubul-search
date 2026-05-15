@@ -1,0 +1,55 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Güzel Sanatlar Fakültesi",
+    "category": "Fakülte",
+    "description": "Güzel Sanatlar Fakültesi, sanat, tasarım ve ilgili yaratıcı alanlarda ileri düzey eğitim, araştırma ve sanatsal faaliyetler yürütmek amacıyla kurulmuş akademik bir birimdir. fine arts, art and design, academic staff, admission, curriculum.",
+    "action_links": [
+        {
+            "intent": "Erasmus ve Değişim Programları Bilgisi",
+            "url": "https://www.gsf.hacettepe.edu.tr/tr/menu/erasmus-socrates-311"
+        },
+        {
+            "intent": "Erasmus and Exchange Programs Information",
+            "url": "https://www.gsf.hacettepe.edu.tr/en/menu/erasmussocrates-311"
+        },
+        {
+            "intent": "Akademik Kadroyu İncele",
+            "url": "https://www.gsf.hacettepe.edu.tr/tr/menu/akademik_kadro-85"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://www.gsf.hacettepe.edu.tr/en/menu/academic_staff_-303"
+        },
+        {
+            "intent": "Kurumsal Yapı Belgesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/gsf/_quarantine/fak%C3%BClte.pdf"
+        },
+        {
+            "intent": "Download Institutional Structure",
+            "url": "https://fs.hacettepe.edu.tr/gsf/fotogaleri/kurumsal%20yap%C4%B1.pdf"
+        },
+        {
+            "intent": "Nasıl Başvurulur?",
+            "url": "https://www.gsf.hacettepe.edu.tr/en/menu/how_to_apply-354"
+        },
+        {
+            "intent": "Öğrenci Formları",
+            "url": "https://www.gsf.hacettepe.edu.tr/tr/menu/ogrenci-formlari"
+        },
+        {
+            "intent": "Personel Formları",
+            "url": "https://www.gsf.hacettepe.edu.tr/tr/menu/personel-formlari"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Dijital Oyun Tasarımı Bölümü",
+        "Grafik Bölümü",
+        "Heykel Bölümü",
+        "İç Mimarlık ve Çevre Tasarımı Bölümü",
+        "Resim Bölümü",
+        "Seramik ve Cam Bölümü"
+    ],
+    "url": "https://www.gsf.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 157
+}

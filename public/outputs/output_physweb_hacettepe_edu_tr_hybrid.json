@@ -1,0 +1,72 @@
+{
+    "entity_name": "Fizik Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Fizik Bölümü'nün akademik programları, ders içerikleri, staj süreçleri ve öğrenci duyurularının yer aldığı resmi sayfadır. physics department, physics syllabus, undergraduate physics, physics internship, physics research.",
+    "action_links": [
+        {
+            "intent": "Staj Yönergesini İncele",
+            "url": "https://physweb.hacettepe.edu.tr/staj/Staj Yönergesi.pdf"
+        },
+        {
+            "intent": "Review Internship Directive",
+            "url": "https://physweb.hacettepe.edu.tr/staj/Staj Yönergesi.pdf"
+        },
+        {
+            "intent": "Staj Raporu Taslağını İndir",
+            "url": "https://physweb.hacettepe.edu.tr/staj/staj_raporu_ template_15JUNE2017.doc"
+        },
+        {
+            "intent": "Download Internship Report Template",
+            "url": "https://physweb.hacettepe.edu.tr/staj/staj_raporu_ template_15JUNE2017.doc"
+        },
+        {
+            "intent": "2025-26 Bahar Haftalık Ders Programını Görüntüle",
+            "url": "https://physweb.hacettepe.edu.tr/252602/2025-26%20Bahar%20Haftal%C4%B1k%20Ders%20Program%C4%B1.pdf"
+        },
+        {
+            "intent": "View 2025-26 Spring Weekly Course Schedule",
+            "url": "https://physweb.hacettepe.edu.tr/252602/2025-26%20Bahar%20Haftal%C4%B1k%20Ders%20Program%C4%B1.pdf"
+        },
+        {
+            "intent": "Lisans Programı Önkoşul Tablosunu İncele",
+            "url": "https://physweb.hacettepe.edu.tr/2024-Önkoşullu Dersler.pdf"
+        },
+        {
+            "intent": "Review Undergraduate Prerequisite Table",
+            "url": "https://physweb.hacettepe.edu.tr/2024-Önkoşullu Dersler.pdf"
+        },
+        {
+            "intent": "Muafiyet Başvuru ve Sınav Takvimini Görüntüle",
+            "url": "https://physweb.hacettepe.edu.tr/252601/muafiyetakvimi2025.pdf"
+        },
+        {
+            "intent": "View Exemption Application and Exam Calendar",
+            "url": "https://physweb.hacettepe.edu.tr/252601/muafiyetakvimi2025.pdf"
+        },
+        {
+            "intent": "Kurum İçi Ders Alma Talep Formunu İndir",
+            "url": "https://physweb.hacettepe.edu.tr/belgeler/Kurum İçi Ders Alma Talep Formu.pdf"
+        },
+        {
+            "intent": "Download Internal Course Request Form",
+            "url": "https://physweb.hacettepe.edu.tr/belgeler/Kurum İçi Ders Alma Talep Formu.pdf"
+        },
+        {
+            "intent": "FİZ 434 Bitirme Çalışması Bilgi Formunu İncele",
+            "url": "https://physweb.hacettepe.edu.tr/belgeler/FİZ 434 BİTİRME ÇALIŞMASI BİLGİ FORMU.pdf"
+        },
+        {
+            "intent": "Review PHY 434 Graduation Project Information Form",
+            "url": "https://physweb.hacettepe.edu.tr/belgeler/FİZ 434 BİTİRME ÇALIŞMASI BİLGİ FORMU.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yan Dal Programları",
+        "Çift Ana Dal Programları",
+        "Servis Dersleri"
+    ],
+    "url": "https://physweb.hacettepe.edu.tr",
+    "deep_crawl_files": 28,
+    "deep_crawl_pages": 26
+}

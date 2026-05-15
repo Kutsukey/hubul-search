@@ -1,0 +1,52 @@
+{
+    "entity_name": "İlaç Kimyası Bölümü",
+    "category": "Bölüm",
+    "description": "İlaç tasarımı, sentezi ve biyolojik aktivite çalışmaları üzerine odaklanmış, araştırma ve lisansüstü eğitim faaliyetleri yürüten akademik bir bölümdür. pharmaceutical chemistry, drug design, medicinal chemistry, graduate program, research.",
+    "action_links": [
+        {
+            "intent": "Ders İçeriklerini İncele",
+            "url": "https://pharmchem.hacettepe.edu.tr/courses"
+        },
+        {
+            "intent": "Review Course Content",
+            "url": "https://pharmchem.hacettepe.edu.tr/courses"
+        },
+        {
+            "intent": "Araştırma Alanlarını İncele",
+            "url": "https://pharmchem.hacettepe.edu.tr/research"
+        },
+        {
+            "intent": "Explore Research Areas",
+            "url": "https://pharmchem.hacettepe.edu.tr/research"
+        },
+        {
+            "intent": "Lisansüstü Program Bilgileri",
+            "url": "https://pharmchem.hacettepe.edu.tr/graduate-program"
+        },
+        {
+            "intent": "Graduate Program Information",
+            "url": "https://pharmchem.hacettepe.edu.tr/graduate-program"
+        },
+        {
+            "intent": "Akademik Kadroyu İncele",
+            "url": "https://pharmchem.hacettepe.edu.tr/faculty"
+        },
+        {
+            "intent": "View Faculty Members",
+            "url": "https://pharmchem.hacettepe.edu.tr/faculty"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://pharmchem.hacettepe.edu.tr/contact"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://pharmchem.hacettepe.edu.tr/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://pharmchem.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 9
+}

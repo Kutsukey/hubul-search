@@ -1,0 +1,60 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Özel Eğitim Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Özel Eğitim Bölümü; otizm spektrum bozukluğu ve özel yetenekliler alanlarında uzmanlaşmış, araştırma ve uygulama odaklı eğitim veren akademik bir birimdir. special education, gifted education, autism spectrum disorder, undergraduate program, postgraduate studies",
+    "action_links": [
+        {
+            "intent": "Öğrenci Kılavuzunu İncele",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/ogrenci_kilavuzlari-111"
+        },
+        {
+            "intent": "Review Student Booklet",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en/menu/student_booklet-113"
+        },
+        {
+            "intent": "Lisansüstü ve Lisans Programları (Bologna)",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en"
+        },
+        {
+            "intent": "Akademik Kadroyu Görüntüle",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-4"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en/menu/academic_staff-50"
+        },
+        {
+            "intent": "Araştırma Sayfasına Git",
+            "url": "https://ozelegitim.hacettepe.edu.tr/tr/menu/arastirma-104"
+        },
+        {
+            "intent": "Visit Research Page",
+            "url": "https://ozelegitim.hacettepe.edu.tr/en/menu/research-66"
+        },
+        {
+            "intent": "Özel Yetenekliler Eğitimi Sayfası",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Gifted Education Department",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Otizm Spektrum Bozukluğu Eğitimi Sayfası",
+            "url": "http://otizm.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Education of Individuals with Autism Spectrum Disorders",
+            "url": "https://otizm.hacettepe.edu.tr/en"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Özel Yetenekliler Eğitimi",
+        "Zihin Engelliler Eğitimi",
+        "Otizm Spektrum Bozukluğu Eğitimi"
+    ],
+    "url": "https://www.ozelegitim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 161
+}

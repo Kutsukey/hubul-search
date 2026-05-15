@@ -1,0 +1,64 @@
+{
+    "entity_name": "Tıbbi Biyoloji Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Tıbbi Biyoloji Anabilim Dalı, yaşam bilimleri ve sağlık alanlarının kesişiminde moleküler genetik, genombilim ve moleküler patoloji üzerine eğitim-öğretim ve araştırma faaliyetleri yürütmektedir. medical biology, genomics, molecular genetics, postgraduate, biobank",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/lisans_programi-37"
+        },
+        {
+            "intent": "Undergraduate Programs",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/undergraduate_programs-37"
+        },
+        {
+            "intent": "Lisans Üstü Programlarını İncele",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/lisans_ustu_programi-38"
+        },
+        {
+            "intent": "Graduate Programs",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/graduate_programs-38"
+        },
+        {
+            "intent": "Yüksek Lisans ve Doktora Başvuru Şartları",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/yuksek_lisans_doktora-48"
+        },
+        {
+            "intent": "Graduate Application Prerequisites",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/graduate-48"
+        },
+        {
+            "intent": "Moleküler Genetik Tanı Merkezi",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/molekuler_genetik_tani-44"
+        },
+        {
+            "intent": "Molecular Genetic Diagnostic Facility",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/molecular_genetic_diagnostic_facili-44"
+        },
+        {
+            "intent": "Biyobanka Bilgileri",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/biyobanka-45"
+        },
+        {
+            "intent": "Biobank",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/biobank-45"
+        },
+        {
+            "intent": "2025 Yaz Dönemi Staj Programı",
+            "url": "https://www.tibbibiyoloji.hacettepe.edu.tr"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/tr/menu/iletisim-49"
+        },
+        {
+            "intent": "Contact",
+            "url": "https://tibbibiyoloji.hacettepe.edu.tr/en/menu/contact-49"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://www.tibbibiyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 91
+}

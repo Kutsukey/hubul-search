@@ -1,0 +1,52 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin dijital altyapısını, ağ servislerini, e-posta sistemlerini, bilgi güvenliği süreçlerini ve yazılım ihtiyaçlarını yöneten idari birimdir. (it services, university network, email configuration, information security, proxy settings)",
+    "action_links": [
+        {
+            "intent": "Chrome Proxy Ayarlarını Yapılandır",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Firefox Proxy Ayarlarını Yapılandır",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/proxy-pdf/firefoxproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarlarını İncele",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarlarını İncele",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formunu İndir",
+            "url": "https://www.beb.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Ağ Altyapısı",
+        "Formlar",
+        "Yazılım Deposu",
+        "Bilgi ve Dokümanlar"
+    ],
+    "url": "https://www.beb.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

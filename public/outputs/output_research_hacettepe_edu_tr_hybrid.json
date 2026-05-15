@@ -1,0 +1,68 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Araştırma Portalı",
+    "category": "Diğer",
+    "description": "Hacettepe Üniversitesi'nin araştırma çıktılarını, projelerini, uzmanlık alanlarını, akademik profillerini ve araştırma birimlerini içeren merkezi bilgi sistemidir. research, academic profiles, research projects, publications, expertise.",
+    "action_links": [
+        {
+            "intent": "Kullanım Kılavuzunu İncele",
+            "url": "https://research.hacettepe.edu.tr/tr/user-guide"
+        },
+        {
+            "intent": "Review User Guide",
+            "url": "https://research.hacettepe.edu.tr/en/user-guide"
+        },
+        {
+            "intent": "Akademik Personel Girişi",
+            "url": "https://research.hacettepe.edu.tr/tr/login"
+        },
+        {
+            "intent": "Academic Staff Login",
+            "url": "https://research.hacettepe.edu.tr/en/login"
+        },
+        {
+            "intent": "Araştırmacı Profillerini İncele",
+            "url": "https://research.hacettepe.edu.tr/tr/profiles"
+        },
+        {
+            "intent": "View Researcher Profiles",
+            "url": "https://research.hacettepe.edu.tr/en/profiles"
+        },
+        {
+            "intent": "Araştırma Birimlerini Görüntüle",
+            "url": "https://research.hacettepe.edu.tr/tr/research-units"
+        },
+        {
+            "intent": "View Research Units",
+            "url": "https://research.hacettepe.edu.tr/en/research-units"
+        },
+        {
+            "intent": "Projeleri İncele",
+            "url": "https://research.hacettepe.edu.tr/tr/projects"
+        },
+        {
+            "intent": "View Projects",
+            "url": "https://research.hacettepe.edu.tr/en/projects"
+        },
+        {
+            "intent": "Araştırma Çıktılarını Görüntüle",
+            "url": "https://research.hacettepe.edu.tr/tr/research-output"
+        },
+        {
+            "intent": "View Research Output",
+            "url": "https://research.hacettepe.edu.tr/en/research-output"
+        },
+        {
+            "intent": "Bize Ulaşın",
+            "url": "https://research.hacettepe.edu.tr/tr/contact"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://research.hacettepe.edu.tr/en/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://research.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 83
+}

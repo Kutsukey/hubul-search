@@ -1,0 +1,20 @@
+{
+    "entity_name": "Ulaşım Hizmetleri Müdürlüğü",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi bünyesindeki araç taleplerinin, ulaşım hizmetlerinin ve lojistik süreçlerin yönetiminden sorumlu idari birimdir. transportation services, vehicle request system, university logistics, shuttle services, transport management.",
+    "action_links": [
+        {
+            "intent": "Araç Talep Yönetim Sistemine Git",
+            "url": "https://uhm.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Access Vehicle Request Management System",
+            "url": "https://uhm.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://uhm.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 11
+}

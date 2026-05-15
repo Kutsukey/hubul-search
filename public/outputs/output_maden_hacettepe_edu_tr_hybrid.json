@@ -1,0 +1,71 @@
+{
+    "entity_name": "Maden Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Maden Mühendisliği Bölümü, maden işletilmesi ve zenginleştirilmesi konularında uzman, teknik ve sosyal donanımlı mühendisler yetiştirmeyi amaçlamaktadır. mining engineering, ore processing, syllabus, internship, academic staff.",
+    "action_links": [
+        {
+            "intent": "Lisans Ders Programını İncele",
+            "url": "https://maden.hacettepe.edu.tr/lisans-ders-programi"
+        },
+        {
+            "intent": "Lisans Sınav Programını İncele",
+            "url": "https://maden.hacettepe.edu.tr/lisans-sinav-programi"
+        },
+        {
+            "intent": "Öğretim Programları ve Ders İçerikleri",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en&curOp=showPac&curUnit=310&curSunit=338"
+        },
+        {
+            "intent": "Staj Bilgilerini Görüntüle",
+            "url": "https://maden.hacettepe.edu.tr/staj"
+        },
+        {
+            "intent": "Öğretim Üyeleri ve Görevlileri",
+            "url": "https://maden.hacettepe.edu.tr/ogretim-uyeleri-gorevlileri"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://maden.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Undergraduate Course Contents",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en&curOp=showPac&curUnit=310&curSunit=338"
+        },
+        {
+            "intent": "Faculty Members/Lecturers",
+            "url": "https://maden.hacettepe.edu.tr/en/faculty_memberslecturers-27"
+        },
+        {
+            "intent": "Research Assistants",
+            "url": "https://maden.hacettepe.edu.tr/en/research_assistants-28"
+        },
+        {
+            "intent": "Administrative Staff",
+            "url": "https://maden.hacettepe.edu.tr/en/administrative-30"
+        },
+        {
+            "intent": "Mission and Vision",
+            "url": "https://maden.hacettepe.edu.tr/en/mission_and_vision-25"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://maden.hacettepe.edu.tr/en/menu/contact_us-45"
+        },
+        {
+            "intent": "Master of Science (MSc) Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?prg_oid=PRGRAM_0000000000000000000010108&birim_kod=2024&programduzey=3&submenuheader=2&durum=&prg_kod=20241&dil_kod=2"
+        },
+        {
+            "intent": "Doctorate (PhD) Program Details",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?prg_oid=PRGRAM_0000000000000000000010401&birim_kod=2024&programduzey=5&submenuheader=2&durum=&prg_kod=20242&dil_kod=2"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Maden İşletmesi Anabilim Dalı",
+        "Cevher Hazırlama Anabilim Dalı"
+    ],
+    "url": "https://maden.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 46
+}

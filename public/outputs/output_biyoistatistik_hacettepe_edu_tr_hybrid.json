@@ -1,0 +1,50 @@
+{
+    "entity_name": "Biyoistatistik Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi bünyesinde lisans ve lisansüstü eğitim veren, ayrıca araştırmacılara istatistiksel çözümleme danışmanlığı hizmetleri sunan akademik birimdir. biostatistics, graduate programs, course schedule, statistical analysis, research consultancy.",
+    "action_links": [
+        {
+            "intent": "2025-2026 Bahar Dönemi Ders Programını İncele",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2025_2026_biyoistatistik_bahar_donemi_ders_programi.pdf"
+        },
+        {
+            "intent": "View 2025-2026 Spring Course Schedule",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2025_2026_biyoistatistik_bahar_donemi_ders_programi.pdf"
+        },
+        {
+            "intent": "2025-2026 Güz Dönemi Ders Programını İncele",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2025-2026_guz_ders_programi.pdf"
+        },
+        {
+            "intent": "View 2025-2026 Fall Course Schedule",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2025-2026_guz_ders_programi.pdf"
+        },
+        {
+            "intent": "Lisansüstü Program Başvuru Bilgilerini İncele",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/lisansüstüduyuru_2025-26güz.pdf"
+        },
+        {
+            "intent": "Review Graduate Program Application Information",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/lisansüstüduyuru_2025-26güz.pdf"
+        },
+        {
+            "intent": "2024-2025 Bahar Dönemi Ders Programını İncele",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2024_2025_Bahar_DersProgrami.pdf"
+        },
+        {
+            "intent": "View 2024-2025 Spring Course Schedule",
+            "url": "https://biyoistatistik.hacettepe.edu.tr/DuyuruDosyalar/2024_2025_Bahar_DersProgrami.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Bilimsel Hazırlık Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı",
+        "Bütünleşik Doktora Programı"
+    ],
+    "url": "https://biyoistatistik.hacettepe.edu.tr",
+    "deep_crawl_files": 10,
+    "deep_crawl_pages": 120
+}

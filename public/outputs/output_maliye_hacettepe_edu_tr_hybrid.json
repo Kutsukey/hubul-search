@@ -1,0 +1,81 @@
+{
+    "entity_name": "Maliye Bölümü",
+    "category": "Bölüm",
+    "description": "1983 yılında kurulan Maliye Bölümü; lisans, yüksek lisans ve doktora düzeylerinde eğitim veren, kamu maliyesi ve vergi hukuku gibi alanlarda uzmanlaşmış bir akademik birimdir. public finance, syllabus, undergraduate program, graduate studies, taxation, budget.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://maliye.hacettepe.edu.tr/lisans-programi"
+        },
+        {
+            "intent": "Undergraduate Program",
+            "url": "https://maliye.hacettepe.edu.tr/en/undergraduate-program"
+        },
+        {
+            "intent": "Lisansüstü Programını İncele",
+            "url": "https://maliye.hacettepe.edu.tr/lisansustu-programi"
+        },
+        {
+            "intent": "Graduate Program",
+            "url": "https://maliye.hacettepe.edu.tr/en/graduate-program"
+        },
+        {
+            "intent": "Staj Bilgilerini Görüntüle",
+            "url": "https://maliye.hacettepe.edu.tr/staj"
+        },
+        {
+            "intent": "Internship Information",
+            "url": "https://maliye.hacettepe.edu.tr/en/internship"
+        },
+        {
+            "intent": "Yatay Geçiş İşlemleri",
+            "url": "https://maliye.hacettepe.edu.tr/yatay-gecis"
+        },
+        {
+            "intent": "Lateral Transfer",
+            "url": "https://maliye.hacettepe.edu.tr/en/lateral-transfer"
+        },
+        {
+            "intent": "Değişim Programları Hakkında Bilgi",
+            "url": "https://maliye.hacettepe.edu.tr/degisim-programlari"
+        },
+        {
+            "intent": "Exchange Programs",
+            "url": "https://maliye.hacettepe.edu.tr/en/exchange-programs"
+        },
+        {
+            "intent": "Sıkça Sorulan Sorular (Lisans)",
+            "url": "https://maliye.hacettepe.edu.tr/sss-lisans"
+        },
+        {
+            "intent": "FAQ (Undergraduate)",
+            "url": "https://maliye.hacettepe.edu.tr/en/faq-undergraduate"
+        },
+        {
+            "intent": "Sıkça Sorulan Sorular (Lisansüstü)",
+            "url": "https://maliye.hacettepe.edu.tr/sss-lisansustu"
+        },
+        {
+            "intent": "FAQ (Graduate)",
+            "url": "https://maliye.hacettepe.edu.tr/en/faq-graduate"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://maliye.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://maliye.hacettepe.edu.tr/en/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Maliye Teorisi",
+        "Mali İktisat",
+        "Mali Hukuk",
+        "Bütçe ve Mali Planlama"
+    ],
+    "url": "https://maliye.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 155
+}

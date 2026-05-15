@@ -1,0 +1,57 @@
+{
+    "entity_name": "Eğitim Yönetimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi bünyesinde eğitim yönetimi, denetimi ve politikaları alanında yüksek nitelikli uzmanlar yetiştirmeyi amaçlayan lisansüstü bir akademik birimdir. educational management, master of science, doctorate, postgraduate programs, educational leadership",
+    "action_links": [
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/yuksek_lisans-25"
+        },
+        {
+            "intent": "Review Master of Science Programs",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/master_of_science_msc-48"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/doktora-26"
+        },
+        {
+            "intent": "Review Doctorate Programs",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/doctorate_phd-49"
+        },
+        {
+            "intent": "Bütünleşik Doktora Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/butunlesik_doktora-27"
+        },
+        {
+            "intent": "Review Integrated PhD Programs",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/integrated_phd-50"
+        },
+        {
+            "intent": "Yararlı Belgeleri İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/yararli_belgeler-15"
+        },
+        {
+            "intent": "View Useful Documents",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/useful_documents-39"
+        },
+        {
+            "intent": "Lisansüstü Bilgi Sistemine Eriş",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/graduate_information_system-44"
+        },
+        {
+            "intent": "Mezun Bilgi Sistemine Eriş",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/mezun_bilgi_sistemi-20"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tezsiz Yüksek Lisans",
+        "Yüksek Lisans",
+        "Doktora",
+        "Bütünleşik Doktora"
+    ],
+    "url": "https://eytpe.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 55
+}

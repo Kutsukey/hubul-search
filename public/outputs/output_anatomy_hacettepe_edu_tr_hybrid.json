@@ -1,0 +1,46 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Tıp Fakültesi Anatomi Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde yer alan bu birim, anatomi alanında eğitim, bilimsel araştırma ve laboratuvar hizmetleri sunmaktadır. anatomy, medical education, cadaver donation, anatomical research, medical school.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Bilgilerini İncele",
+            "url": "https://anatomy.hacettepe.edu.tr/egitim%20arastirma/guidestu.php"
+        },
+        {
+            "intent": "Kadavra Bağışı Bilgisi Al",
+            "url": "https://anatomy.hacettepe.edu.tr/egitim%20arastirma/kadavra.php"
+        },
+        {
+            "intent": "Anatomi Kaynaklarını Görüntüle",
+            "url": "https://anatomy.hacettepe.edu.tr/egitim%20arastirma/kitap.php"
+        },
+        {
+            "intent": "Araştırma ve Eğitim Laboratuvarlarını İncele",
+            "url": "https://anatomy.hacettepe.edu.tr/egitim%20arastirma/makro.php"
+        },
+        {
+            "intent": "Süreli Yayınlara Eriş",
+            "url": "https://anatomy.hacettepe.edu.tr/egitim%20arastirma/dergi.php"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://anatomy.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Visit English Version",
+            "url": "https://anatomy.hacettepe.edu.tr/english/"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Eğitimi",
+        "Lisansüstü Eğitim",
+        "Araştırma ve Eğitim Laboratuvarları",
+        "Kadavra Bağışı",
+        "Akademik Personel"
+    ],
+    "url": "https://anatomy.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 17
+}

@@ -1,0 +1,40 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Mikro-Analiz, Sosyal Etkileşim ve Öğrenme Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde, kurumsal ortamlardaki sosyal etkileşimleri konuşma analizi çerçevesinde inceleyen bir araştırma merkezidir. research centre, social interaction, conversation analysis, academic research, Hacettepe",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://human.hacettepe.edu.tr/tr/menu/yonetmelik-21"
+        },
+        {
+            "intent": "View Regulations",
+            "url": "https://human.hacettepe.edu.tr/en/menu/yonetmelik-21"
+        },
+        {
+            "intent": "2021 Faaliyet Raporunu İndir",
+            "url": "http://fs.hacettepe.edu.tr/human/dosyalar/web%20HUMAN%20Faaliyet%20Raporu%202021.pdf"
+        },
+        {
+            "intent": "Güncel Duyuruları Görüntüle",
+            "url": "https://human.hacettepe.edu.tr/tr/menu/guncel_duyurular-92"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "https://human.hacettepe.edu.tr/en/menu/announcements"
+        },
+        {
+            "intent": "Okuma Grubu Programını İncele",
+            "url": "https://human.hacettepe.edu.tr/tr/menu/okuma_grubu-119"
+        },
+        {
+            "intent": "View Reading Group Program",
+            "url": "https://human.hacettepe.edu.tr/en/menu/reading_groups"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://human.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 45
+}

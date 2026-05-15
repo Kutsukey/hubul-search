@@ -1,0 +1,60 @@
+{
+    "entity_name": "Sağlık Yönetimi Bölümü",
+    "category": "Bölüm",
+    "description": "Sağlık hizmetlerinin ve kuruluşlarının yönetimine ilişkin bilgi birikimini geliştiren, lisans ve lisansüstü düzeyde eğitim, öğretim ve araştırma yapan öncü bir akademik birimdir. health management, health administration, internship, academic programs, curriculum, faculty.",
+    "action_links": [
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://sid.hacettepe.edu.tr/tr/menu/degisim_programlari-132"
+        },
+        {
+            "intent": "Explore Exchange Programs",
+            "url": "https://sid.hacettepe.edu.tr/en/menu/exchange_programs-154"
+        },
+        {
+            "intent": "İsteğe Bağlı (Gönüllü) Staj Bilgileri",
+            "url": "https://sid.hacettepe.edu.tr/tr/menu/istege_bagli_gonullu_staj-138"
+        },
+        {
+            "intent": "Voluntary Internship Information",
+            "url": "https://sid.hacettepe.edu.tr/en/menu/voluntary_internship-175"
+        },
+        {
+            "intent": "SAİ 488 Mesleki Uygulama Dersi Detayları",
+            "url": "https://sid.hacettepe.edu.tr/tr/menu/sai_488_saglik_kurumlarinda_mesleki-134"
+        },
+        {
+            "intent": "SAİ 488 Professional Practice Course Details",
+            "url": "https://sid.hacettepe.edu.tr/en/menu/internship-150"
+        },
+        {
+            "intent": "Dilekçe ve Form Örneklerini İncele",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri_-132"
+        },
+        {
+            "intent": "Download Petition and Form Samples",
+            "url": "http://www.iibf.hacettepe.edu.tr/tr/menu/yararli_belgeler-132"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://fs.hacettepe.edu.tr/sid/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://oidb.hacettepe.edu.tr/en/menu/20212022_academic_calendar-110"
+        },
+        {
+            "intent": "Hacettepe Sağlık İdaresi Dergisi",
+            "url": "https://dergipark.org.tr/tr/pub/hacettepesid"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Anabilim Dalları",
+        "Komisyonlar",
+        "Koordinatörlükler"
+    ],
+    "url": "https://www.sid.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 211
+}

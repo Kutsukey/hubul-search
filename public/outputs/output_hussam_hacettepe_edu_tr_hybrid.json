@@ -1,0 +1,28 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Sosyal Sorumluluk Uygulama ve Araştırma Merkezi (HÜSSAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde faaliyet gösteren merkez, toplumun kırılgan gruplarının yaşam koşullarını iyileştirmek ve toplumsal dayanışmayı artırmak amacıyla sosyal sorumluluk projeleri geliştirmektedir. social responsibility, research center, social projects, community engagement, Hacettepe University",
+    "action_links": [
+        {
+            "intent": "Proje Vizyonu ve Amaçları Hakkında Detaylı Bilgi Al",
+            "url": "https://hussam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Dünya İşitme Günü Bilgi Notunu İncele",
+            "url": "https://hussam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Açık Erişimli Kitabı Görüntüle",
+            "url": "https://hussam.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Sempozyum Davet Görseli ve Programını İncele",
+            "url": "https://hussam.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://hussam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

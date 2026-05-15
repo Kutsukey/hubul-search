@@ -1,0 +1,64 @@
+{
+    "entity_name": "Nükleer Bilimler Enstitüsü",
+    "category": "Enstitü",
+    "description": "Nükleer Bilimler Enstitüsü, kuantum bilimi, kuantum mühendisliği ve nükleer fizik gibi alanlarda lisansüstü eğitim ve ileri düzey araştırmalar yürüten akademik bir birimdir. (nuclear science, quantum engineering, postgraduate, research, admission, academic calendar)",
+    "action_links": [
+        {
+            "intent": "Kuantum Bilimi ve Mühendisliği Programı Kabul Şartlarını İncele",
+            "url": "https://nbe.hacettepe.edu.tr/tr/menu/_disiplinlerarasi_kuantum_bilimi_ve-172"
+        },
+        {
+            "intent": "Review Admission Requirements for Quantum Science and Engineering",
+            "url": "https://nbe.hacettepe.edu.tr/en/menu/admission_requirements_for_the_inte-174"
+        },
+        {
+            "intent": "Yüksek Lisans Programı Genel Bilgilerini İndir",
+            "url": "https://fs.hacettepe.edu.tr/nukleerbilimler/dosyalar/ogrenci_isleri/Y%C3%9CKSEK%20L%C4%B0SANS%20PROGRAMINA%20A%C4%B0T%20GENEL%20B%C4%B0LG%C4%B0LER.docx"
+        },
+        {
+            "intent": "Download General Information About the Master's Program",
+            "url": "https://fs.hacettepe.edu.tr/nukleerbilimler/dosyalar/ogrenci_isleri/Y%C3%9CKSEK%20L%C4%B0SANS%20PROGRAMINA%20A%C4%B0T%20GENEL%20B%C4%B0LG%C4%B0LER%20ING.docx"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgi Paketini Görüntüle",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?l"
+        },
+        {
+            "intent": "Check Course Catalog / ECTS Information Package",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=en&curOp=showPac&curUnit=2&curSunit=3240"
+        },
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://nbe.hacettepe.edu.tr/en/menu/academic_calendar-142"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://nbe.hacettepe.edu.tr/en/menu/academic_calendar-142"
+        },
+        {
+            "intent": "Personel Formlarını İndir",
+            "url": "https://nbe.hacettepe.edu.tr/tr/menu/personel_icin_formlar-184"
+        },
+        {
+            "intent": "Download Forms",
+            "url": "https://nbe.hacettepe.edu.tr/en/menu/forms-178"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Enstitü Yönetimi",
+        "Enstitü Yönetim Kurulu",
+        "Kalite Komisyonu",
+        "Birim Danışma Kurulu",
+        "Kuantum Bilimi ve Mühendisliği Tezli Yüksek Lisans Programı",
+        "Fotonik Ana Bilim Dalı",
+        "Radyasyon Fiziği ve Uygulamaları Ana Bilim Dalı",
+        "Araştırma Öncelik Alanları",
+        "Projeler ve Araştırmalar",
+        "Yayınlar ve Sunumlar",
+        "Seminerler"
+    ],
+    "url": "https://nbe.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 152
+}

@@ -1,0 +1,69 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Üniversitenin tüm bilgi teknolojileri altyapısını, ağ servislerini, e-posta sistemlerini ve yazılım ihtiyaçlarını yöneten ve destekleyen idari birimdir. IT services, network configuration, university email, proxy settings, software support.",
+    "action_links": [
+        {
+            "intent": "E-Posta Girişi Yap",
+            "url": "https://portal.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Proxy Ayarları ve Kurulum Kılavuzlarını İncele",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Review Proxy Configuration Guides",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Download Server Request Form",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formunu İndir",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Download IT Staff Application Form",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Download HÜ-İYS Application Form",
+            "url": "https://www.farabi.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "WEB Servisleri",
+        "Ağ Altyapısı",
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Sözleşmeli Bilişim Personeli Alımı"
+    ],
+    "url": "https://www.farabi.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

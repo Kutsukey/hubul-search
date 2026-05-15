@@ -1,0 +1,70 @@
+{
+    "entity_name": "Fen Bilimleri Enstitüsü",
+    "category": "Enstitü",
+    "description": "Hacettepe Üniversitesi bünyesinde fen bilimleri alanındaki lisansüstü eğitim-öğretim faaliyetlerinin, tez süreçlerinin ve akademik başvuruların yürütüldüğü birimdir. graduate school, science and engineering, thesis submission, PhD application, master's degree, academic calendar.",
+    "action_links": [
+        {
+            "intent": "Yönetmelik, Yönerge ve Esasları İncele",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/yonetmelik_yonergeler_ve_esaslar-43"
+        },
+        {
+            "intent": "Review Regulations and Directives",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/regulations-76"
+        },
+        {
+            "intent": "Başvuru İşlemleri Hakkında Bilgi Al",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/basvuru_islemleri-44"
+        },
+        {
+            "intent": "Application and Registration Information",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/application_and_registration-66"
+        },
+        {
+            "intent": "Tez Yazım İşlemleri Kılavuzuna Eriş",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/tez_yazim_islemleri-49"
+        },
+        {
+            "intent": "Thesis Writing Procedures",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/thesis_writing_procedures-68"
+        },
+        {
+            "intent": "Tez Teslim ve Mezuniyet Süreçlerini İncele",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/tez_teslim_ve_mezuniyet_sureci-50"
+        },
+        {
+            "intent": "Thesis Submission and Graduation Procedures",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/thesis_submission_and_graduation_pr-69"
+        },
+        {
+            "intent": "Öğrenci Formlarına Eriş",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/formlar-24"
+        },
+        {
+            "intent": "Access Student Forms",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/forms-65"
+        },
+        {
+            "intent": "Orjinallik Raporu ve İntihal Kontrolü",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/tr/menu/orjinallik_raporu_intihal_kontrol_p-51"
+        },
+        {
+            "intent": "Originality Report and Plagiarism Control",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/en/menu/originality_report-67"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://fenbilimleri.hacettepe.edu.tr/tr/menu/takvim-90"
+        },
+        {
+            "intent": "Lisansüstü Eğitim Yönetmeliği (PDF)",
+            "url": "https://fs.hacettepe.edu.tr/fenbilimleri/dosyalar/yonetmelik_yonerge_esaslar/26112016yonetmelik.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Ana Bilim Dalları"
+    ],
+    "url": "https://www.fenbilimleri.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 95
+}

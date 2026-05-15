@@ -1,0 +1,36 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Güzel Sanatlar Fakültesi Özel Yetenek Sınavları Başvuru Sistemi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi Güzel Sanatlar Fakültesi'ne giriş için kullanılan resmi özel yetenek sınavları başvuru portalıdır. special talent exam, fine arts admission, Hacettepe University application, arts exam, portfolio submission.",
+    "action_links": [
+        {
+            "intent": "Sınav Yönetmeliğini İncele",
+            "url": "https://ozelyeteneksinavi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Review Exam Regulations",
+            "url": "https://ozelyeteneksinavi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Sınav Programını Görüntüle",
+            "url": "https://ozelyeteneksinavi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "View Exam Schedule",
+            "url": "https://ozelyeteneksinavi.hacettepe.edu.tr"
+        },
+        {
+            "intent": "İletişime Geç",
+            "url": "mailto:gsf@hacettepe.edu.tr"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "mailto:gsf@hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://ozelyeteneksinavi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

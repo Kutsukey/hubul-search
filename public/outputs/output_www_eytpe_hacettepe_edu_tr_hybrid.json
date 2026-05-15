@@ -1,0 +1,73 @@
+{
+    "entity_name": "Eğitim Yönetimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Kamu ve özel eğitim kurumlarını yönetebilecek liderlik becerilerine sahip, vizyoner ve bilimsel etik değerleri özümsemiş uzmanlar yetiştiren akademik birimdir. educational administration, educational leadership, graduate programs, MSc, PhD.",
+    "action_links": [
+        {
+            "intent": "Tezsiz Yüksek Lisans Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/tezsiz_yuksek_lisans-24"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/yuksek_lisans-25"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/doktora-26"
+        },
+        {
+            "intent": "Bütünleşik Doktora Programını İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/butunlesik_doktora-27"
+        },
+        {
+            "intent": "Explore Master of Science (MSc) Programs",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/master_of_science_msc-48"
+        },
+        {
+            "intent": "Explore Doctorate (PhD) Programs",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/doctorate_phd-49"
+        },
+        {
+            "intent": "Explore Integrated PhD Program",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/integrated_phd-50"
+        },
+        {
+            "intent": "Yararlı Belgeleri Görüntüle",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/yararli_belgeler-62"
+        },
+        {
+            "intent": "View Useful Documents",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/useful_documents-39"
+        },
+        {
+            "intent": "Mezun Bilgi Sistemine Git",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/mezun_bilgi_sistemi-20"
+        },
+        {
+            "intent": "Access Graduate Information System",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/graduate_information_system-44"
+        },
+        {
+            "intent": "Aday Öğrenci Bilgilerini İncele",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/aday_ogrenciler-16"
+        },
+        {
+            "intent": "Information for Prospective Students",
+            "url": "https://eytpe.hacettepe.edu.tr/en/menu/prospective_students-40"
+        },
+        {
+            "intent": "APA 7 Kılavuzuna Eriş",
+            "url": "https://eytpe.hacettepe.edu.tr/tr/menu/apa_7_kilavuzu-60"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tezsiz Yüksek Lisans",
+        "Yüksek Lisans",
+        "Doktora",
+        "Bütünleşik Doktora"
+    ],
+    "url": "https://www.eytpe.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 111
+}

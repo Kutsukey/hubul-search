@@ -1,0 +1,44 @@
+{
+    "entity_name": "Kimya Mühendisliği Bölümü",
+    "category": "Bölüm",
+    "description": "1967 yılında kurulan ve eğitim dili %100 İngilizce olan Kimya Mühendisliği Bölümü, proses mühendisliği odaklı modern laboratuvar imkanları ve geniş akademik kadrosuyla eğitim vermektedir. chemical engineering, curriculum, internship, course catalog, admission.",
+    "action_links": [
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "http://yunus.hacettepe.edu.tr/~elvan.konuk/kmu400/"
+        },
+        {
+            "intent": "Check Internship Information",
+            "url": "http://yunus.hacettepe.edu.tr/~elvan.konuk/kmu400ingilizce/%20"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri Görüntüle",
+            "url": "https://cheng.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-29"
+        },
+        {
+            "intent": "View Rules and Regulations",
+            "url": "https://cheng.hacettepe.edu.tr/en/menu/rules_and_regulations-120"
+        },
+        {
+            "intent": "Ders Kataloğu ve AKTS Bilgilerini İncele",
+            "url": "https://cheng.hacettepe.edu.tr/tr/menu/ders_katalogu_akts_bilgi_paketleri-30"
+        },
+        {
+            "intent": "View Course Catalog / ECTS Information Package",
+            "url": "https://cheng.hacettepe.edu.tr/en/menu/course_catalog_ects_information_pac-119"
+        },
+        {
+            "intent": "Belgeler ve Formlara Ulaş",
+            "url": "https://cheng.hacettepe.edu.tr/en/menu/documents_and_forms-130"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Proses ve Reaktör Tasarımı",
+        "Temel İşlemler ve Termodinamik",
+        "Kimyasal Teknolojiler"
+    ],
+    "url": "https://cheng.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 152
+}

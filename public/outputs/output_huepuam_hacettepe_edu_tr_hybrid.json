@@ -1,0 +1,43 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Enerji Piyasaları Uygulama ve Araştırma Merkezi (HÜEPUAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Enerji piyasaları, enerji ürünleri, emtia ve türev araçlar üzerine araştırma, uygulama ve akademik faaliyetler yürüten bir birimdir. energy markets, energy research, energy economics, energy policy, energy commodities.",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://huepuam.hacettepe.edu.tr/Yonetmelik.html"
+        },
+        {
+            "intent": "Review Regulation",
+            "url": "https://huepuam.hacettepe.edu.tr/english/index.html"
+        },
+        {
+            "intent": "2024 Faaliyet Raporunu İndir",
+            "url": "https://huepuam.hacettepe.edu.tr/HUEPUAM Faaliyet Raporu 2024.pdf"
+        },
+        {
+            "intent": "Download 2024 Annual Report",
+            "url": "https://huepuam.hacettepe.edu.tr/HUEPUAM Faaliyet Raporu 2024.pdf"
+        },
+        {
+            "intent": "CEVI 2025 Çağrı Metni (CfP)",
+            "url": "https://huepuam.hacettepe.edu.tr/CEVI2025_CfP.pdf"
+        },
+        {
+            "intent": "Download CEVI 2025 Call for Papers",
+            "url": "https://huepuam.hacettepe.edu.tr/CEVI2025_CfP.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Genel Tanıtım",
+        "Amaç ve Faaliyet Alanı",
+        "Yönetmelik",
+        "Yönetim",
+        "İletişim",
+        "English"
+    ],
+    "url": "https://huepuam.hacettepe.edu.tr",
+    "deep_crawl_files": 7,
+    "deep_crawl_pages": 9
+}

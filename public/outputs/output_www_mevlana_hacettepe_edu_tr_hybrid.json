@@ -1,0 +1,45 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "Daire Başkanlığı",
+    "description": "Üniversitenin tüm bilişim altyapısını, ağ sistemlerini, e-posta hizmetlerini, yazılım ihtiyaçlarını ve bilgi güvenliği süreçlerini yöneten temel idari birimdir. IT services, network infrastructure, email settings, software support, cybersecurity.",
+    "action_links": [
+        {
+            "intent": "Chrome Proxy Ayarlarını İncele",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarlarını İncele",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.mevlana.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Bilgi Güvenliği Politikası",
+        "Ağ Altyapısı",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Yazılım Deposu",
+        "Formlar",
+        "Sözleşmeli Bilişim Personeli Alımı"
+    ],
+    "url": "https://www.mevlana.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

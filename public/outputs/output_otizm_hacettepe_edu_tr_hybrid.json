@@ -1,0 +1,46 @@
+{
+    "entity_name": "Otizm Spektrum Bozukluğu Eğitimi Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Eğitim Fakültesi bünyesinde, otizm spektrum bozukluğu olan bireylerin eğitimi ve sosyal uyumu için bilimsel temelli programlar sunan akademik birimdir. autism spectrum disorder, special education, master's program, postgraduate studies, autism education.",
+    "action_links": [
+        {
+            "intent": "Yüksek Lisans Programı Bilgilerini İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?prg_oid=410c62646d6cd9d8016e6ecefb870b58&birim_kod=2167&programduzey=3&submenuheader=2&durum=&prg_kod=21673"
+        },
+        {
+            "intent": "View Master's Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?prg_oid=410c62646d6cd9d8016e6ecefb870b58&birim_kod=2167&programduzey=3&submenuheader=2&durum=&prg_kod=21673&dil_kod=2"
+        },
+        {
+            "intent": "Öğretim Üyeleri Listesi",
+            "url": "https://otizm.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-12"
+        },
+        {
+            "intent": "Academic Staff List",
+            "url": "https://otizm.hacettepe.edu.tr/en/menu/academic_staff-68"
+        },
+        {
+            "intent": "Tarihçe",
+            "url": "https://otizm.hacettepe.edu.tr/tr/menu/tarihce-21"
+        },
+        {
+            "intent": "History",
+            "url": "https://otizm.hacettepe.edu.tr/en/menu/history-62"
+        },
+        {
+            "intent": "Vizyon ve Misyon",
+            "url": "https://otizm.hacettepe.edu.tr/tr/menu/vizyon_ve_misyon-20"
+        },
+        {
+            "intent": "Mission and Vision",
+            "url": "https://otizm.hacettepe.edu.tr/en/menu/mission_and_vision-64"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yüksek Lisans Programı"
+    ],
+    "url": "https://otizm.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 31
+}

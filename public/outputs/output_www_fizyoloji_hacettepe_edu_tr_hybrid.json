@@ -1,0 +1,49 @@
+{
+    "entity_name": "Fizyoloji Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Tıp eğitiminin temel taşlarından biri olan insan fizyolojisi süreçlerini araştıran ve lisans ile lisansüstü düzeyde eğitim veren akademik bir birimdir. physiology, medical education, research laboratories, postgraduate programs, medical physiology.",
+    "action_links": [
+        {
+            "intent": "Lisans Programlarını İncele",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/lisans_programi-8"
+        },
+        {
+            "intent": "View Undergraduate Programs",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/en/menu/lisans_programi-8"
+        },
+        {
+            "intent": "Lisansüstü Programları İncele",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/lisansustu_programlar-9"
+        },
+        {
+            "intent": "View Postgraduate Programs",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/en/menu/lisansustu_programlar-9"
+        },
+        {
+            "intent": "Araştırma Laboratuvarlarını İncele",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/arastirma_laboratuvarlari-21"
+        },
+        {
+            "intent": "Explore Research Laboratories",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/en/menu/arastirma_laboratuvarlari-21"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/tr/menu/iletisim-16"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://www.fizyoloji.hacettepe.edu.tr/en/menu/iletisim-16"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Nörofizyoloji",
+        "Solunum",
+        "Hemoreoloji",
+        "Moleküler Fizyoloji"
+    ],
+    "url": "https://www.fizyoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 24
+}

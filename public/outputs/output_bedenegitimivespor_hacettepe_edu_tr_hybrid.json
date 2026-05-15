@@ -1,0 +1,42 @@
+{
+    "entity_name": "Beden Eğitimi ve Spor Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Sağlık Bilimleri Enstitüsü bünyesinde yer alan birim; spor bilimleri, egzersiz fizyolojisi, hareket ve antrenman bilimleri gibi alanlarda lisansüstü (yüksek lisans ve doktora) eğitim ve araştırma faaliyetleri yürütmektedir. sports science, physical education, postgraduate studies, research, academic curriculum.",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://bedenegitimivespor.hacettepe.edu.tr/akademik-takvim"
+        },
+        {
+            "intent": "BİLSİS Sistemine Giriş Yap",
+            "url": "https://bilis.hacettepe.edu.tr"
+        },
+        {
+            "intent": "ORPHEUS Etiketi Hakkında Bilgi Al",
+            "url": "https://orpheus-med.org"
+        },
+        {
+            "intent": "Başvuru ve Kayıt Bilgilerini Görüntüle",
+            "url": "https://bedenegitimivespor.hacettepe.edu.tr/basvuru-ve-kayit"
+        },
+        {
+            "intent": "AKTS Bilgi Paketini İncele",
+            "url": "https://bedenegitimivespor.hacettepe.edu.tr/akts-bilgi-paketi"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Öğretim Üyeleri",
+        "Öğretim Görevlileri",
+        "Araştırma Görevlileri",
+        "İdari Personel",
+        "Yüksek Lisans",
+        "Doktora",
+        "Devam Eden Projeler",
+        "Tamamlanan Projeler",
+        "Tezler"
+    ],
+    "url": "https://bedenegitimivespor.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 57
+}

@@ -1,0 +1,36 @@
+{
+    "entity_name": "Sürdürülebilir Kalkınma Birimi",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi'nin sürdürülebilirlik stratejilerini, küresel sürdürülebilirlik sıralamalarındaki başarılarını ve sürdürülebilir kalkınma amaçlarına yönelik eylem planlarını koordine eden birimdir. sustainable development, sustainability rankings, SD goals, climate action, green metric.",
+    "action_links": [
+        {
+            "intent": "SK Taahhüdünü İncele",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/sk-taahhudu"
+        },
+        {
+            "intent": "Review Commitment to SD",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/en/commitment-to-sd"
+        },
+        {
+            "intent": "SK Amaçlarına Katkıyı İncele",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/sk-amaclarina-katki"
+        },
+        {
+            "intent": "Review Contribution to the SD Goals",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/en/contribution-to-the-sd-goals"
+        },
+        {
+            "intent": "SK Amaçları Entegrasyon Eylem Planını İncele",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/sk-amaclari-entegrasyon-eylem-plani"
+        },
+        {
+            "intent": "Review SD Goals Integration Action Plan",
+            "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/en/sd-goals-integration-action-plan"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 28
+}

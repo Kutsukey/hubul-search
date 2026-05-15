@@ -1,0 +1,48 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Üniversitenin ağ altyapısı, e-posta servisleri, yazılım desteği, bilgi güvenliği ve bilişim teknolojileri süreçlerini yöneten merkezi birimdir. (it services, network infrastructure, email settings, information security, software support)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını İncele",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Android Outlook Mail Ayarlarını İncele",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "HÜ-İYS Başvuru Formunu İndir",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/BGYS-F-23-IYSTalepFormurevizyon.docx"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu (.xlsx)",
+            "url": "https://www.etikkurul.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilgi Güvenliği Yönetim Sistemi",
+        "Ağ Altyapısı",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları ve Kurulumu",
+        "Yazılım Deposu",
+        "Sözleşmeli Bilişim Personeli Alımı",
+        "Formlar"
+    ],
+    "url": "https://www.etikkurul.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

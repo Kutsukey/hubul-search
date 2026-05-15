@@ -1,0 +1,58 @@
+{
+    "entity_name": "Kişisel Verileri Koruma Komisyonu",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi'nin 6698 sayılı Kişisel Verilerin Korunması Kanunu'na uyum süreçlerini yöneten, kurumsal politikaları belirleyen ve veri güvenliği süreçlerini denetleyen birimdir. personal data protection, KVKK, privacy policy, data compliance, data subject rights.",
+    "action_links": [
+        {
+            "intent": "Kurumsal Politikaları İncele",
+            "url": "https://kvkk.hacettepe.edu.tr/tr/kurumsal_politikalar-203"
+        },
+        {
+            "intent": "Review Institutional Policies",
+            "url": "https://kvkk.hacettepe.edu.tr/en/institutional_policies-216"
+        },
+        {
+            "intent": "Aydınlatma Metinlerini Görüntüle",
+            "url": "https://kvkk.hacettepe.edu.tr/tr/aydinlatma_metinleri-202"
+        },
+        {
+            "intent": "View Information Notices",
+            "url": "https://kvkk.hacettepe.edu.tr/en/information_notice-218"
+        },
+        {
+            "intent": "Açık Rıza Metinlerini İncele",
+            "url": "https://kvkk.hacettepe.edu.tr/tr/acik_riza_metinleri-204"
+        },
+        {
+            "intent": "Review Explicit Consent Texts",
+            "url": "https://kvkk.hacettepe.edu.tr/en/explicit_consent_texts-219"
+        },
+        {
+            "intent": "İlgili Kişi Başvuru Sürecini Öğren",
+            "url": "https://kvkk.hacettepe.edu.tr/tr/ilgili_kisi_basvuru_sureci-205"
+        },
+        {
+            "intent": "Learn Data Subject Request Process",
+            "url": "https://kvkk.hacettepe.edu.tr/en/data_subject_request_process-220"
+        },
+        {
+            "intent": "Raporları Görüntüle",
+            "url": "https://kvkk.hacettepe.edu.tr/tr/raporlar-211"
+        },
+        {
+            "intent": "View Reports",
+            "url": "https://kvkk.hacettepe.edu.tr/en/reports-217"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kurumsal Politikalar",
+        "Aydınlatma Metinleri",
+        "Açık Rıza Metinleri",
+        "İlgili Kişi Başvuru Süreci",
+        "Raporlar"
+    ],
+    "url": "https://kvkk.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 28
+}

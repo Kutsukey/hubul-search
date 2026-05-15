@@ -1,0 +1,65 @@
+{
+    "entity_name": "Aile ve Tüketici Bilimleri Bölümü",
+    "category": "Bölüm",
+    "description": "Aile, birey ve toplumun yaşam kalitesini artırmaya yönelik eğitim, araştırma ve hizmet sunan akademik bir birimdir. family and consumer sciences, undergraduate, graduate, curriculum, internship, faculty.",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "Review Academic Calendar",
+            "url": "https://fs.hacettepe.edu.tr/oidb/dosyalar/akademik_takvimler/25-26/2025-2026_akademik_takvim_24042024_2025_69.pdf"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "https://www.hacettepe.edu.tr/duyurular/kanun-ve-yonetmelikler"
+        },
+        {
+            "intent": "Review Rules and Regulations",
+            "url": "https://www.hacettepe.edu.tr/duyurular/kanun-ve-yonetmelikler"
+        },
+        {
+            "intent": "Mesleki Eğitim ve Yaz Uygulaması Belgeleri",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/aile_ve_tuketici_bilimlerinde_mesle-127"
+        },
+        {
+            "intent": "Professional Training and Summer Application Documents",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/aile_ve_tuketici_bilimlerinde_mesle-127"
+        },
+        {
+            "intent": "Dilekçe ve Form Örnekleri",
+            "url": "https://iibf.hacettepe.edu.tr/tr/menu/dilekce_ve_form_ornekleri_-132"
+        },
+        {
+            "intent": "Course Catalog / ECTS Information Package",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000310&birim_kod=577&prg_oid=PRGRAM_0000000000000000000000279&prg_kod=577&programduzey=2&submenuheader=2"
+        },
+        {
+            "intent": "Lisans Programı Bilgileri",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/lisans_programi_-11"
+        },
+        {
+            "intent": "Undergraduate Program Information",
+            "url": "https://atb.hacettepe.edu.tr/en/menu/undergraduate-30"
+        },
+        {
+            "intent": "Lisansüstü Program Bilgileri",
+            "url": "https://atb.hacettepe.edu.tr/tr/menu/yuksek_lisans_programi_-61"
+        },
+        {
+            "intent": "Graduate Program Information",
+            "url": "https://atb.hacettepe.edu.tr/en/menu/master_of_science_msc_-31"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı",
+        "Yan Dal"
+    ],
+    "url": "https://www.eeb.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 143
+}

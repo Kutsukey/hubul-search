@@ -1,0 +1,52 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Pestisit Araştırma ve Referans Laboratuvarı",
+    "category": "Araştırma Merkezi",
+    "description": "TÜRKAK akreditasyonuna sahip, pestisit analizleri, kimyasal ve biyolojik testler konusunda uzmanlaşmış bir araştırma laboratuvarıdır. pesticide analysis, chemical testing, research laboratory, accreditation, lab services.",
+    "action_links": [
+        {
+            "intent": "Numune Gönderim Bilgilerini İndir",
+            "url": "https://pestisit.hacettepe.edu.tr/numune-gonderim"
+        },
+        {
+            "intent": "Download Sample Submission Information",
+            "url": "https://pestisit.hacettepe.edu.tr/en/sample-submission"
+        },
+        {
+            "intent": "Personel Listesini Görüntüle",
+            "url": "https://pestisit.hacettepe.edu.tr/personel"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://pestisit.hacettepe.edu.tr/en/personel"
+        },
+        {
+            "intent": "Belgeleri ve Formları İncele",
+            "url": "https://pestisit.hacettepe.edu.tr/belgeler"
+        },
+        {
+            "intent": "Review Documents and Forms",
+            "url": "https://pestisit.hacettepe.edu.tr/en/documents"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://pestisit.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Contact Information",
+            "url": "https://pestisit.hacettepe.edu.tr/en/contact"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kimyasal Analizler",
+        "Fiziksel Testler",
+        "Biyolojik Etkinlik Testleri",
+        "Ruhsata Esas Analizler",
+        "Formulasyon Kontrolü",
+        "Belgeler/Formlar",
+        "Laboratuvar Yönetim Sistemi"
+    ],
+    "url": "https://pestisit.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 45
+}

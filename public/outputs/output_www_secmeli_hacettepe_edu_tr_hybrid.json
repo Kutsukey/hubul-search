@@ -1,0 +1,45 @@
+{
+    "entity_name": "Seçmeli Dersler Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi bünyesindeki seçmeli derslerin (SEC kodlu) akademik süreçlerini, ders programlarını, sınav takvimlerini ve ilgili mevzuatları yöneten birimdir. elective courses, course catalog, syllabus, exam schedule, academic regulations.",
+    "action_links": [
+        {
+            "intent": "Mevzuatı İncele",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/mevzuat-30"
+        },
+        {
+            "intent": "Formları İndir",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/formlar-32"
+        },
+        {
+            "intent": "Sınav Takvimini Görüntüle",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/sinav_takvimi-93"
+        },
+        {
+            "intent": "Ders Programını Görüntüle",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/ders_programi-75"
+        },
+        {
+            "intent": "SEC Kodlu Dersleri İncele",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/sec_kodlu_dersler-95"
+        },
+        {
+            "intent": "Koordinatörlük Faaliyetlerini İncele",
+            "url": "https://www.secmeli.hacettepe.edu.tr/tr/menu/koordinatorluk_faaliyetleri-99"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Sosyal ve Beşeri Bilimler",
+        "Sağlık Bilimleri",
+        "Fen ve Mühendislik Bilimleri",
+        "Mimarlık",
+        "Güzel Sanatlar",
+        "Spor Bilimleri",
+        "Müzik ve Sahne Sanatları",
+        "Yabancı Diller"
+    ],
+    "url": "https://www.secmeli.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 89
+}

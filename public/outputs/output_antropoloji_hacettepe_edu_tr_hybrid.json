@@ -1,0 +1,78 @@
+{
+    "entity_name": "Antropoloji Bölümü",
+    "category": "Bölüm",
+    "description": "Antropoloji Bölümü, insan topluluklarının biyolojik ve kültürel çeşitliliğini bilimsel veriler ışığında inceleyen nitelikli eğitim ve araştırma programları sunar. anthropology, undergraduate program, graduate studies, research, faculty, contact.",
+    "action_links": [
+        {
+            "intent": "Lisans Programını İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/undergraduate_program-85"
+        },
+        {
+            "intent": "Review Undergraduate Program",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/undergraduate_program-85"
+        },
+        {
+            "intent": "Yüksek Lisans Programını İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/ma_program-87"
+        },
+        {
+            "intent": "Review M.A. Program",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/ma_program-87"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/phd_program-89"
+        },
+        {
+            "intent": "Review PhD Program",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/phd_program-89"
+        },
+        {
+            "intent": "Erasmus Programını İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/erasmus-95"
+        },
+        {
+            "intent": "Review Erasmus Program",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/erasmus-95"
+        },
+        {
+            "intent": "Akademik Kadroyu İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/faculty-75"
+        },
+        {
+            "intent": "Review Faculty",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/faculty-75"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/contact-119"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/contact-119"
+        },
+        {
+            "intent": "Misyon ve Vizyonu İncele",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/mission_and_vision-71"
+        },
+        {
+            "intent": "Review Mission and Vision",
+            "url": "https://antropoloji.hacettepe.edu.tr/en/menu/mission_and_vision-71"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı",
+        "Yandal Programı",
+        "Erasmus Programı",
+        "Mevlana Programı",
+        "Farabi Programı",
+        "Hacettepe Üniversitesi İskelet Biyolojisi Laboratuvarı (Husbio_L)",
+        "Hacettepe Üniversitesi Moleküler Antropoloji Grubu (Human_G)"
+    ],
+    "url": "https://antropoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 127
+}

@@ -1,0 +1,64 @@
+{
+    "entity_name": "Türk Dili ve Edebiyatı Bölümü",
+    "category": "Bölüm",
+    "description": "Türk dili ve edebiyatı alanında bilimsel araştırmalar yürüten; lisans, yüksek lisans ve doktora programları sunan akademik bir birimdir. turkish language and literature, department, academic programs, syllabus, admission, faculty.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Kılavuzunu İncele",
+            "url": "https://fs.hacettepe.edu.tr/turkoloji/dosyalar/pdfdosyalar/ogrencikilavuzu.pdf"
+        },
+        {
+            "intent": "Download Student Booklet",
+            "url": "https://fs.hacettepe.edu.tr/turkoloji/dosyalar/pdfdosyalar/studentbooklet.pdf"
+        },
+        {
+            "intent": "Erasmus Bilgileri",
+            "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/erasmus-231"
+        },
+        {
+            "intent": "Erasmus Information",
+            "url": "https://turkoloji.hacettepe.edu.tr/en/menu/erasmus-70"
+        },
+        {
+            "intent": "Farabi Değişim Programı",
+            "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/farabi-233"
+        },
+        {
+            "intent": "Farabi Exchange Program",
+            "url": "https://turkoloji.hacettepe.edu.tr/en/menu/farabi-72"
+        },
+        {
+            "intent": "Mevlana Değişim Programı",
+            "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/mevlana-235"
+        },
+        {
+            "intent": "Mevlana Exchange Program",
+            "url": "https://turkoloji.hacettepe.edu.tr/en/menu/mevlana-74"
+        },
+        {
+            "intent": "Form ve Dilekçelere Eriş",
+            "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/form_ve_dilekceler-68"
+        },
+        {
+            "intent": "Access Forms and Petitions",
+            "url": "https://turkoloji.hacettepe.edu.tr/tr/menu/form_ve_dilekceler-68"
+        },
+        {
+            "intent": "Serbest Öğrenme Yönergesini İncele",
+            "url": "https://fs.hacettepe.edu.tr/turkoloji/dosyalar/pdfdosyalar/Serbest%20%C3%96%C4%9Frenmenin%20Tan%C4%B1mas%C4%B1%20Y%C3%B6nergesi.pdf"
+        },
+        {
+            "intent": "Öğretim Süreçlerinde Yapay Zeka Kullanım Politikası",
+            "url": "https://fs.hacettepe.edu.tr/turkoloji/dosyalar/pdfduyurular/yapay%20zeka%202025.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Eski Türk Edebiyatı",
+        "Türk Dili",
+        "Yeni Türk Edebiyatı"
+    ],
+    "url": "https://turkoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 117
+}

@@ -1,0 +1,65 @@
+{
+    "entity_name": "Eczacılık Fakültesi",
+    "category": "Fakülte",
+    "description": "Eczacılık alanında lisans ve lisansüstü eğitim, bilimsel araştırmalar ve klinik eczacılık uygulamaları yürüten akademik bir birimdir. pharmacy, faculty, pharmacology, pharmaceutical sciences, clinical pharmacy, pharmacy degree",
+    "action_links": [
+        {
+            "intent": "Yönerge ve İlke Esaslarını İncele",
+            "url": "https://eczacilik.hacettepe.edu.tr/tr/menu/yonerge_ve_ilke_esaslar-147"
+        },
+        {
+            "intent": "View Guides",
+            "url": "https://eczacilik.hacettepe.edu.tr/en/menu/guides-163"
+        },
+        {
+            "intent": "Lisans Eğitimi Bilgileri",
+            "url": "https://eczacilik.hacettepe.edu.tr/tr/menu/egitim_programi-58"
+        },
+        {
+            "intent": "Download Pharmacy Programme Guide",
+            "url": "http://fs.hacettepe.edu.tr/eczacilik/eng/PharmacyProg.pdf"
+        },
+        {
+            "intent": "Ders Kataloğunu Görüntüle",
+            "url": "http://akts.hacettepe.edu.tr/ders_listesi.php?prg_ref=PRGRAM_0000000000000000000000312&birim_kod=313&submenuheader=2&prg_kod=313"
+        },
+        {
+            "intent": "Öğrenci Bilgilendirme Broşürünü İncele",
+            "url": "http://fs.hacettepe.edu.tr/eczacilik/basliksiz_klasor/brosur_16102021.pdf"
+        },
+        {
+            "intent": "Fakülte Tanıtım Broşürünü İncele",
+            "url": "http://fs.hacettepe.edu.tr/eczacilik/dosyalar/fakulte%20hakk%C4%B1nda/eczacilik%20fakultesi%20brosur%20-%202.pdf"
+        },
+        {
+            "intent": "Erasmus Programları Hakkında Bilgi Al",
+            "url": "http://www.abofisi.hacettepe.edu.tr/eng/"
+        },
+        {
+            "intent": "Uluslararası Öğrenciler İçin Bilgilendirme",
+            "url": "https://eczacilik.hacettepe.edu.tr/tr/menu/for_international_students-191"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Farmakognozi Anabilim Dalı",
+        "Farmakoloji Anabilim Dalı",
+        "Farmasötik Botanik Anabilim Dalı",
+        "Farmasötik Kimya Anabilim Dalı",
+        "Farmasötik Toksikoloji Anabilim Dalı",
+        "Eczacılık İşletmeciliği Anabilim Dalı",
+        "Klinik Eczacılık Anabilim Dalı",
+        "Farmasötik Biyoteknoloji Anabilim Dalı",
+        "Farmasötik Teknoloji Anabilim Dalı",
+        "Biyofarmasötik ve Farmakokinetik Bilim Dalı",
+        "Kozmetoloji Bilim Dalı",
+        "Radyofarmasi Anabilim Dalı",
+        "Analitik Kimya Anabilim Dalı",
+        "Biyokimya Anabilim Dalı",
+        "Farmasötik Mikrobiyoloji Anabilim Dalı",
+        "Eczacılık Temel Bilimleri Anabilim Dalı"
+    ],
+    "url": "https://eczacilik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 290
+}

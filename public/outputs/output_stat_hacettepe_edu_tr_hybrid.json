@@ -1,0 +1,79 @@
+{
+    "entity_name": "Hacettepe Üniversitesi İstatistik Bölümü",
+    "category": "Bölüm",
+    "description": "1967 yılında kurulan Türkiye'nin ilk istatistik bölümü olup, güçlü akademik kadrosuyla istatistik ve veri bilimi alanlarında ulusal ve uluslararası eğitim ve araştırma faaliyetleri yürütmektedir. statistics, data science, syllabus, academic programs, internship",
+    "action_links": [
+        {
+            "intent": "Lisans Bilgi Paketi'ni İncele",
+            "url": "https://bilsis.hacettepe.edu.tr/oibs/bologna/index.aspx?lang=tr&curOp=showPac&curUnit=307&curSunit=329"
+        },
+        {
+            "intent": "View Undergraduate Program",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000313&birim_kod=329&prg_oid=PRGRAM_0000000000000000000000282&prg_kod=329&programduzey=2&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "İstatistik Yüksek Lisans Programını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000568&birim_kod=2020&prg_oid=PRGRAM_0000000000000000000000538&prg_kod=20201&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Veri Bilimi Yüksek Lisans Programını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000568&birim_kod=2020&prg_oid=PRGRAM_0000000000000000000010531&prg_kod=45107&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "Doktora Programını İncele",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000568&birim_kod=2020&prg_oid=PRGRAM_0000000000000000000000852&prg_kod=20202&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "View Master of Science Program",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000001039&birim_kod=2020&prg_oid=PRGRAM_0000000000000000000010211&prg_kod=20201&programduzey=3&submenuheader=2"
+        },
+        {
+            "intent": "View Doctor of Philosophy Program",
+            "url": "http://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000001039&birim_kod=2020&prg_oid=PRGRAM_0000000000000000000010355&prg_kod=20202&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Yan Dal Programı Bilgileri",
+            "url": "https://stat.hacettepe.edu.tr/tr/menu/yan_dal-12"
+        },
+        {
+            "intent": "View Minor Program",
+            "url": "https://stat.hacettepe.edu.tr/en/menu/minor_program-79"
+        },
+        {
+            "intent": "Çift Anadal Programı Bilgileri",
+            "url": "https://stat.hacettepe.edu.tr/tr/menu/cift_anadal-13"
+        },
+        {
+            "intent": "View Double Major Program",
+            "url": "https://stat.hacettepe.edu.tr/en/menu/double_major_program-80"
+        },
+        {
+            "intent": "Erasmus+ Programı Hakkında Bilgi Al",
+            "url": "https://stat.hacettepe.edu.tr/en/menu/erasmus_+_program-87"
+        },
+        {
+            "intent": "Erasmus+ Staj Programı Hakkında Bilgi Al",
+            "url": "https://stat.hacettepe.edu.tr/en/menu/erasmus_+_internship_program-88"
+        },
+        {
+            "intent": "Laws and Regulations (English)",
+            "url": "http://www.oid.hacettepe.edu.tr/english/index_sub.php?grp=y&dir=&file=01_lisans_20161005_1149&fi"
+        },
+        {
+            "intent": "Bölüm Stratejik Planını İncele (PDF)",
+            "url": "https://fs.hacettepe.edu.tr/stat/dosyalar/stratejik_planlar/2023_2027_istatistik_bolumu_stratejik_plani.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Uygulamalı İstatistik",
+        "İstatistik Teorisi",
+        "Yöneylem Araştırması",
+        "Risk Analizi",
+        "Olasılık Teorisi ve Olasılık Süreçleri",
+        "İstatistiksel Bilgi Sistemleri"
+    ],
+    "url": "https://stat.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 162
+}

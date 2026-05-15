@@ -1,0 +1,44 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Çocuk Hakları Uygulama ve Araştırma Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Çocuk haklarının korunması, geliştirilmesi ve bu alandaki akademik araştırmaların yürütülmesi amacıyla kurulmuş bir uygulama ve araştırma merkezidir. child rights, child protection, research center, human rights, Hacettepe University.",
+    "action_links": [
+        {
+            "intent": "Genel Tanıtımı İncele",
+            "url": "https://cohum.hacettepe.edu.tr/genel-tanitim"
+        },
+        {
+            "intent": "View General Introduction",
+            "url": "https://cohum.hacettepe.edu.tr/en/general-introduction"
+        },
+        {
+            "intent": "Proje ve Yayınları Görüntüle",
+            "url": "https://cohum.hacettepe.edu.tr/proje-ve-yayinlar"
+        },
+        {
+            "intent": "View Projects and Publications",
+            "url": "https://cohum.hacettepe.edu.tr/en/projects-and-publications"
+        },
+        {
+            "intent": "İletişim Bilgilerine Eriş",
+            "url": "https://cohum.hacettepe.edu.tr/iletisim"
+        },
+        {
+            "intent": "Access Contact Information",
+            "url": "https://cohum.hacettepe.edu.tr/en/contact"
+        },
+        {
+            "intent": "Yönetim Kurulunu Görüntüle",
+            "url": "https://cohum.hacettepe.edu.tr/yonetim-kurulu"
+        },
+        {
+            "intent": "View Board of Directors",
+            "url": "https://cohum.hacettepe.edu.tr/en/board-of-directors"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://cohum.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 16
+}

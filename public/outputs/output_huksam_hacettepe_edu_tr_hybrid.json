@@ -1,0 +1,22 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Toplumsal Cinsiyet Eşitliği Araştırma Merkezi (HÜKSAM)",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde toplumsal cinsiyet eşitliğini desteklemek amacıyla akademik araştırmalar, politika geliştirme ve farkındalık çalışmaları yürüten bir araştırma merkezidir. gender equality, women's rights, social justice, research center, gender studies.",
+    "action_links": [
+        {
+            "intent": "Toplumsal Cinsiyet Eşitliği Eylem Planı'nı İncele",
+            "url": "https://www.hacettepe.edu.tr/hakkinda/toplumsal_cinsiyet_esitligi"
+        },
+        {
+            "intent": "The Impact Rankings Gender Equality Page",
+            "url": "https://www.timeshighereducation.com/impactrankings/gender-equality?page=1#"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Cinsel Tacize ve Cinsel Saldırıya Karşı Koruma ve Destek Komisyonu"
+    ],
+    "url": "https://huksam.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

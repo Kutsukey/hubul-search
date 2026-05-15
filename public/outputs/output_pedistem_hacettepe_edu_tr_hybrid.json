@@ -1,0 +1,48 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Kök Hücre Araştırma ve Uygulama Merkezi (PEDi-STEM)",
+    "category": "Araştırma Merkezi",
+    "description": "Kök hücre, gen tedavileri, hücresel tedaviler ve doku mühendisliği alanlarında rejeneratif tıp başlığı altında translasyonel araştırmalar yürüten multidisipliner bir merkezdir. stem cell research, regenerative medicine, gene therapy, tissue engineering, doctoral studies.",
+    "action_links": [
+        {
+            "intent": "Merkez Yönetmeliğini İncele",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/yonetmelik-8"
+        },
+        {
+            "intent": "Yüksek Lisans Bilgileri",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/yuksek_lisans-30"
+        },
+        {
+            "intent": "Doktora ve Sanatta Yeterlik Bilgileri",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/doktorasanatta_yeterlik-62"
+        },
+        {
+            "intent": "Staj Eğitimi Hakkında Bilgi Al",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/staj_egitimi-31"
+        },
+        {
+            "intent": "Hizmet Olanaklarını Görüntüle",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/hizmet_olanaklari-74"
+        },
+        {
+            "intent": "Araştırma Altyapısını İncele",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/arastirma_olanaklari_alt_yapi-75"
+        },
+        {
+            "intent": "İletişim Bilgileri",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/iletisim-38"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/iletisim-38"
+        },
+        {
+            "intent": "Research Facilities and Infrastructure",
+            "url": "https://pedistem.hacettepe.edu.tr/tr/menu/arastirma_olanaklari_alt_yapi-75"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://pedistem.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 31
+}

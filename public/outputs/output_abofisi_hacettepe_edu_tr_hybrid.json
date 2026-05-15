@@ -1,0 +1,81 @@
+{
+    "entity_name": "Avrupa Birliği Ofisi",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi'nin Erasmus+ ve diğer Avrupa Birliği programları ile hareketlilik süreçlerini yöneten ve koordine eden birimdir. Erasmus+, student mobility, staff exchange, study abroad, internship, KA131, KA171.",
+    "action_links": [
+        {
+            "intent": "Giden Öğrenci Bilgilerini İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/outgoing_student-1064"
+        },
+        {
+            "intent": "Review Outgoing Student Information",
+            "url": "https://abofisi.hacettepe.edu.tr/en/outgoing_student-1064"
+        },
+        {
+            "intent": "Gelen Öğrenci Bilgilerini İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/incoming_student-1092"
+        },
+        {
+            "intent": "Review Incoming Student Information",
+            "url": "https://abofisi.hacettepe.edu.tr/en/incoming_student-1092"
+        },
+        {
+            "intent": "Giden Personel Bilgilerini İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/outgoing_staff-1078"
+        },
+        {
+            "intent": "Review Outgoing Staff Information",
+            "url": "https://abofisi.hacettepe.edu.tr/en/outgoing_staff-1078"
+        },
+        {
+            "intent": "Gelen Personel Bilgilerini İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/incoming_staff-1110"
+        },
+        {
+            "intent": "Review Incoming Staff Information",
+            "url": "https://abofisi.hacettepe.edu.tr/en/incoming_staff-1110"
+        },
+        {
+            "intent": "Belge ve Formlara Eriş",
+            "url": "https://abofisi.hacettepe.edu.tr/en/documents_forms"
+        },
+        {
+            "intent": "Access Documents & Forms",
+            "url": "https://abofisi.hacettepe.edu.tr/en/documents_forms"
+        },
+        {
+            "intent": "Sıkça Sorulan Soruları İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/faq"
+        },
+        {
+            "intent": "Review Frequently Asked Questions (FAQ)",
+            "url": "https://abofisi.hacettepe.edu.tr/en/faq"
+        },
+        {
+            "intent": "Kurum Bilgi Formlarını (Fact Sheet) İncele",
+            "url": "https://abofisi.hacettepe.edu.tr/en/fact_sheet"
+        },
+        {
+            "intent": "Review Fact Sheets",
+            "url": "https://abofisi.hacettepe.edu.tr/en/fact_sheet"
+        },
+        {
+            "intent": "Ders Kataloglarını Görüntüle",
+            "url": "https://abofisi.hacettepe.edu.tr/en/course_catalogues"
+        },
+        {
+            "intent": "View Course Catalogues",
+            "url": "https://abofisi.hacettepe.edu.tr/en/course_catalogues"
+        }
+    ],
+    "announcement_schema": ".dataTable",
+    "sub_branches": [
+        "Öğrenim Hareketliliği (Study Mobility)",
+        "Staj Hareketliliği (Traineeship Mobility)",
+        "Personel Hareketliliği (Staff Mobility)",
+        "KA131 ve KA171 Programları"
+    ],
+    "url": "https://abofisi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 165
+}

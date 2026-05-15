@@ -1,0 +1,70 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Tarih Bölümü",
+    "category": "Bölüm",
+    "description": "Tarih biliminin çeşitli alanlarında akademik araştırma, lisans ve lisansüstü eğitim faaliyetleri yürüten akademik bir birimdir. history, department, undergraduate, graduate, research, faculty, academic programs.",
+    "action_links": [
+        {
+            "intent": "Lisans Programı Bilgilerini İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/lisans-93"
+        },
+        {
+            "intent": "View Undergraduate Program Information",
+            "url": "https://history.hacettepe.edu.tr/en/menu/undergraduate_program-149"
+        },
+        {
+            "intent": "Yüksek Lisans Programı Bilgilerini İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/yuksek_lisans-95"
+        },
+        {
+            "intent": "View Master Program Information",
+            "url": "https://history.hacettepe.edu.tr/en/menu/master_program-151"
+        },
+        {
+            "intent": "Doktora Programı Bilgilerini İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/doktora-97"
+        },
+        {
+            "intent": "View Doctoral Program Information",
+            "url": "https://history.hacettepe.edu.tr/en/menu/doctoral_program-153"
+        },
+        {
+            "intent": "Belgeler ve Formları İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/belgeler_ve_formlar-35"
+        },
+        {
+            "intent": "View Documents and Forms",
+            "url": "https://history.hacettepe.edu.tr/en/menu/documents_and_forms-163"
+        },
+        {
+            "intent": "Yönetmelik ve Yönergeleri İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/yonetmelik_ve_yonergeler-37"
+        },
+        {
+            "intent": "Read Regulations and Directives",
+            "url": "https://history.hacettepe.edu.tr/en/menu/regulations_and_directives-165"
+        },
+        {
+            "intent": "Değişim Programlarını İncele",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/degisim_programlari-27"
+        },
+        {
+            "intent": "View Exchange Programs",
+            "url": "https://history.hacettepe.edu.tr/en/menu/exchange_programs-155"
+        },
+        {
+            "intent": "Ercüment Kuran Kütüphanesine Eriş",
+            "url": "https://history.hacettepe.edu.tr/tr/menu/ercument_kuran_kutuphanesi-69"
+        },
+        {
+            "intent": "Access Ercüment Kuran Library",
+            "url": "https://history.hacettepe.edu.tr/en/menu/ercument_kuran_library-171"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Tarih Anabilim Dalı"
+    ],
+    "url": "https://history.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 113
+}

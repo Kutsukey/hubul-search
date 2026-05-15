@@ -1,0 +1,31 @@
+{
+    "entity_name": "Dış İlişkiler Genel Koordinatörlüğü",
+    "category": "Koordinatörlük",
+    "description": "Hacettepe Üniversitesi'nin ulusal ve uluslararası düzeyde temsil edilmesini sağlayan, kurumlar arası iş birliklerini geliştiren ve uluslararasılaşma stratejilerini yöneten birimdir. international education, exchange programs, Erasmus, international students, external affairs",
+    "action_links": [
+        {
+            "intent": "Uluslararası Öğrenci Başvurusu / International Student Application",
+            "url": "https://www.iso.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Uluslararası Öğrenci Ofisi / International Students Office",
+            "url": "https://www.iso.hacettepe.edu.tr"
+        },
+        {
+            "intent": "Öğrenci İşleri Daire Başkanlığı / Registrar's Office",
+            "url": "https://www.oid.hacettepe.edu.tr"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Protokoller ve Ortaklıklar Ofisi",
+        "Uluslararasılaşma ve Sıralama Ofisi",
+        "Uluslararası Öğrenci Ofisi",
+        "Avrupa Birliği (Erasmus) Değişim Ofisi",
+        "Mevlana Değişim Programı Ofisi",
+        "Farabi Değişim Programı Ofisi"
+    ],
+    "url": "https://internationaleducation.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 0
+}

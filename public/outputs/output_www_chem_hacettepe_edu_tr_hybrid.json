@@ -1,0 +1,63 @@
+{
+    "entity_name": "Kimya Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde ileri düzey araştırmalar yürüten ve küresel standartlarda yetkin bilim insanları yetiştirmeyi amaçlayan akademik bir birimdir. chemistry, research, laboratory, curriculum, undergraduate, postgraduate.",
+    "action_links": [
+        {
+            "intent": "Erasmus Programını İncele",
+            "url": "https://chem.hacettepe.edu.tr/tr/menu/erasmus_programi-20"
+        },
+        {
+            "intent": "Explore Erasmus Program",
+            "url": "https://chem.hacettepe.edu.tr/en/menu/erasmus_programi-20"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "https://chem.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-25"
+        },
+        {
+            "intent": "Review Regulations and Directives",
+            "url": "https://chem.hacettepe.edu.tr/en/menu/kanun_ve_yonetmelikler-25"
+        },
+        {
+            "intent": "Lisans Programı Bilgileri",
+            "url": "https://chem.hacettepe.edu.tr/tr/menu/lisans_programi-139"
+        },
+        {
+            "intent": "Undergraduate Program Information",
+            "url": "https://chem.hacettepe.edu.tr/en/menu/lisans_programi-139"
+        },
+        {
+            "intent": "Yüksek Lisans Programı Bilgileri",
+            "url": "https://chem.hacettepe.edu.tr/tr/menu/yuksek_lisans_programi-18"
+        },
+        {
+            "intent": "Master's Program Information",
+            "url": "https://chem.hacettepe.edu.tr/en/menu/yuksek_lisans_programi-18"
+        },
+        {
+            "intent": "Doktora Programı Bilgileri",
+            "url": "https://chem.hacettepe.edu.tr/tr/menu/doktora_programi-19"
+        },
+        {
+            "intent": "PhD Program Information",
+            "url": "https://chem.hacettepe.edu.tr/en/menu/doktora_programi-19"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Analitik Kimya",
+        "Anorganik Kimya",
+        "Biyokimya",
+        "Fizikokimya",
+        "Organik Kimya",
+        "Polimer Kimyası",
+        "Teorik Kimya",
+        "Lisans Programı",
+        "Yüksek Lisans Programı",
+        "Doktora Programı"
+    ],
+    "url": "https://www.chem.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 937
+}

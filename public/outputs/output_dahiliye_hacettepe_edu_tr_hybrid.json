@@ -1,0 +1,33 @@
+{
+    "entity_name": "İç Hastalıkları Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde 1963 yılından beri uzman hekim ve yan dal asistanı yetiştiren, kapsamlı klinik eğitim ve akademik araştırmalar yürüten köklü bir akademik birimdir. internal medicine, medical residency, physician training, clinical research, specialization.",
+    "action_links": [
+        {
+            "intent": "Aylık Çalışma Programını İncele",
+            "url": "https://dahiliye.hacettepe.edu.tr/ekler/May%C4%B1s%202026.pdf"
+        },
+        {
+            "intent": "Yurt Dışı Katılım Formunu İndir",
+            "url": "https://dahiliye.hacettepe.edu.tr/ekler/yurtdisikatilimformu.doc"
+        },
+        {
+            "intent": "Şeref Zileli 2025 Davetiyesini Görüntüle",
+            "url": "https://dahiliye.hacettepe.edu.tr/ekler/Seref%20Zileli%202025%20davetiye.pdf"
+        },
+        {
+            "intent": "Anma ve İç Hastalıkları Günü Belgesini İndir",
+            "url": "https://dahiliye.hacettepe.edu.tr/ekler/34Seref_Zileli.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilim Dalları",
+        "Dönem IV Eğitim Programı",
+        "Dönem VI Eğitim Programı",
+        "Asistan Eğitim Programı"
+    ],
+    "url": "https://dahiliye.hacettepe.edu.tr",
+    "deep_crawl_files": 3,
+    "deep_crawl_pages": 19
+}

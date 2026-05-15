@@ -1,0 +1,60 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Kanser Enstitüsü",
+    "category": "Enstitü",
+    "description": "Hacettepe Üniversitesi Kanser Enstitüsü, kanser araştırmaları ve lisansüstü eğitim alanında uzmanlaşmış, doktora ve yüksek lisans programları sunan akademik bir birimdir. oncology, cancer research, postgraduate programs, PhD in oncology, academic calendar.",
+    "action_links": [
+        {
+            "intent": "2025-2026 Akademik Takvimini İncele",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/2025-2026AkademikTakvim.pdf"
+        },
+        {
+            "intent": "View Academic Calendar 2025-2026",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/2025-2026AkademikTakvim.pdf"
+        },
+        {
+            "intent": "2024-2025 Akademik Takvimini İncele",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/akademiktakvim190225.pdf"
+        },
+        {
+            "intent": "View Academic Calendar 2024-2025",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/akademiktakvim190225.pdf"
+        },
+        {
+            "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini İncele",
+            "url": "https://onkoloji.hacettepe.edu.tr?sayfa=yonetmelik"
+        },
+        {
+            "intent": "Read Postgraduate Education and Examination Regulations",
+            "url": "https://onkoloji.hacettepe.edu.tr?sayfa=yonetmelik"
+        },
+        {
+            "intent": "Mevcut Öğrenci Listesini Görüntüle (2025-2026)",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/MevcutOgrenciler141025.pdf"
+        },
+        {
+            "intent": "View Current Student List (2025-2026)",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/MevcutOgrenciler141025.pdf"
+        },
+        {
+            "intent": "Birim Araştırma Etik Kurulları Yönergesini İncele",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/BAEK.pdf"
+        },
+        {
+            "intent": "Review Unit Research Ethics Committee Directive",
+            "url": "https://onkoloji.hacettepe.edu.tr/dosya/BAEK.pdf"
+        },
+        {
+            "intent": "Eğitim Programlarını İncele",
+            "url": "https://onkoloji.hacettepe.edu.tr?sayfa=egitimprogramlari"
+        },
+        {
+            "intent": "View Education Programs",
+            "url": "https://onkoloji.hacettepe.edu.tr?sayfa=egitimprogramlari"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://onkoloji.hacettepe.edu.tr",
+    "deep_crawl_files": 16,
+    "deep_crawl_pages": 80
+}

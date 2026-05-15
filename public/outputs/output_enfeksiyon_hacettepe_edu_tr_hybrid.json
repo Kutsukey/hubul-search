@@ -1,0 +1,61 @@
+{
+    "entity_name": "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Anabilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde eğitim, araştırma ve sağlık hizmeti sunan, enfeksiyon hastalıkları ve klinik mikrobiyoloji alanında uzmanlaşmış akademik birimdir. infectious diseases, clinical microbiology, medical research, infection control, vaccination, academic department.",
+    "action_links": [
+        {
+            "intent": "Öğretim Üyelerini İncele",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/our_staff_members-185"
+        },
+        {
+            "intent": "View Staff Members",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/our_staff_members-185"
+        },
+        {
+            "intent": "Lisans Eğitimini İncele",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/undergraduate-131"
+        },
+        {
+            "intent": "View Undergraduate Program",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/undergraduate-131"
+        },
+        {
+            "intent": "Lisansüstü Eğitimi İncele",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/graduate-133"
+        },
+        {
+            "intent": "View Graduate Program",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/graduate-133"
+        },
+        {
+            "intent": "Araştırmaları İncele",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/research-129"
+        },
+        {
+            "intent": "View Research",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/research-129"
+        },
+        {
+            "intent": "Tanı ve Tedavi Algoritmalarını İncele",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/patient_care-137"
+        },
+        {
+            "intent": "View Diagnosis and Treatment Algorithms",
+            "url": "https://enfeksiyon.hacettepe.edu.tr/en/menu/patient_care-137"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Antibiyotik Yönetişim Birimi",
+        "Erişkin Aşı Birimi",
+        "Klinik Araştırmalar Birimi",
+        "Enfeksiyonların Önlenmesi ve Kontrolü Ekibi",
+        "ID Research Lab",
+        "Lisans Eğitimi",
+        "Lisansüstü Eğitim",
+        "Hasta Hizmeti"
+    ],
+    "url": "https://enfeksiyon.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 89
+}

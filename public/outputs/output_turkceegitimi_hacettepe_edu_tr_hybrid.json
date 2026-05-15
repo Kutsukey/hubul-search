@@ -1,0 +1,59 @@
+{
+    "entity_name": "Türkçe ve Sosyal Bilimler Eğitimi Bölümü",
+    "category": "Bölüm",
+    "description": "Türkçe ve sosyal bilimler alanında yetkin öğretmen adayları yetiştirmeyi ve ana dili eğitimi üzerine bilimsel araştırmalar yapmayı amaçlayan akademik bir birimdir. turkish language education, teacher training, undergraduate program, postgraduate studies, curriculum, faculty.",
+    "action_links": [
+        {
+            "intent": "Staj Bilgilerini İncele",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/staj-43"
+        },
+        {
+            "intent": "Review Internship Information",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/en/menu/internship-95"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/akademik_takvim-47"
+        },
+        {
+            "intent": "Check Academic Calendar",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/en/menu/academic_calender-97"
+        },
+        {
+            "intent": "Ders Programlarını İncele",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/ders_programi-45"
+        },
+        {
+            "intent": "View Course Schedules",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/en/menu/course_schedules-101"
+        },
+        {
+            "intent": "Kanun ve Yönetmelikleri Oku",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/kanun_ve_yonetmelikler-17"
+        },
+        {
+            "intent": "Read Laws and Regulations",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/en/menu/laws_and_regulations-137"
+        },
+        {
+            "intent": "Yararlı Belgeleri İndir",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/yararli_belgeler-19"
+        },
+        {
+            "intent": "Download Useful Documents",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/en/menu/documents_-105"
+        },
+        {
+            "intent": "Lisansüstü Eğitim Kılavuzunu İncele",
+            "url": "https://turkceegitimi.hacettepe.edu.tr/tr/menu/lisansustu_egitim_kilavuzu_-144"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Türkçe Eğitimi Ana Bilim Dalı",
+        "Yurt Dışında Yaşayan Türk Çocuklarına Türkçe Öğretimi"
+    ],
+    "url": "https://turkceegitimi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 180
+}

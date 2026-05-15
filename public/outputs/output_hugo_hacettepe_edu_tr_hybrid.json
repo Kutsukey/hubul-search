@@ -1,0 +1,50 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Göç ve Siyaset Araştırmaları Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Göç, mülteci hareketleri, uluslararası siyasi ilişkiler ve sosyolojik süreçler üzerine ulusal ve uluslararası düzeyde araştırmalar, projeler ve eğitim programları yürüten akademik bir merkezdir. migration research, political science, sociology, international relations, refugee studies.",
+    "action_links": [
+        {
+            "intent": "Merkez Hakkında Bilgi Al",
+            "url": "https://hugo.hacettepe.edu.tr/en/about_center-19"
+        },
+        {
+            "intent": "Learn About the Center",
+            "url": "https://hugo.hacettepe.edu.tr/en/about_center-19"
+        },
+        {
+            "intent": "Yönetim Kurulunu İncele",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/executive_board-53"
+        },
+        {
+            "intent": "View Executive Board",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/executive_board-53"
+        },
+        {
+            "intent": "Danışma Kurulunu İncele",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/advisory_board-55"
+        },
+        {
+            "intent": "View Advisory Board",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/advisory_board-55"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/contact-30"
+        },
+        {
+            "intent": "Access Contact Information",
+            "url": "https://hugo.hacettepe.edu.tr/en/menu/contact-30"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim Kurulu",
+        "Danışma Kurulu",
+        "Projeler",
+        "Araştırma",
+        "Etkinlikler"
+    ],
+    "url": "https://hugo.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 42
+}

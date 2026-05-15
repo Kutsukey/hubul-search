@@ -1,0 +1,52 @@
+{
+    "entity_name": "Biyomühendislik Anabilim Dalı",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi bünyesinde biyomühendislik ve biyoteknoloji alanlarında lisansüstü eğitim veren, disiplinlerarası araştırmalar ve uluslararası iş birlikleriyle bilimsel çalışmalar yürüten akademik birimdir. bioengineering, biotechnology, postgraduate, syllabus, research groups",
+    "action_links": [
+        {
+            "intent": "Öğretim Üyelerini Görüntüle",
+            "url": "https://biyomuh.hacettepe.edu.tr/tr/menu/ogretim_uyeleri-16"
+        },
+        {
+            "intent": "View Faculty",
+            "url": "https://biyomuh.hacettepe.edu.tr/en/menu/faculty-57"
+        },
+        {
+            "intent": "Ders Programını İncele",
+            "url": "https://biyomuh.hacettepe.edu.tr/tr/menu/ders_programi-40"
+        },
+        {
+            "intent": "Yönetmelik ve Yönergeleri İncele",
+            "url": "https://biyomuh.hacettepe.edu.tr/tr/menu/yonetmelikler_ve_yonergeler-45"
+        },
+        {
+            "intent": "Formlara Eriş",
+            "url": "https://biyomuh.hacettepe.edu.tr/tr/menu/formlar-46"
+        },
+        {
+            "intent": "Araştırma Gruplarını İncele",
+            "url": "https://biyomuh.hacettepe.edu.tr/tr/menu/arastirma_gruplari-41"
+        },
+        {
+            "intent": "View Research Groups",
+            "url": "https://biyomuh.hacettepe.edu.tr/en/menu/research_groups-63"
+        },
+        {
+            "intent": "Tez Yazım Kılavuzunu İndir",
+            "url": "https://www.fenbilimleri.hacettepe.edu.tr/TezYazimKilavuzu2018.pdf"
+        },
+        {
+            "intent": "Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğini İncele",
+            "url": "https://fs.hacettepe.edu.tr/biyomuh/dosyalar/26112016yonetmelik.pdf"
+        },
+        {
+            "intent": "View Announcements",
+            "url": "https://biyomuh.hacettepe.edu.tr/en/menu/announcements-79"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://biyomuh.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 35
+}

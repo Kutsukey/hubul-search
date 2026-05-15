@@ -1,0 +1,32 @@
+{
+    "entity_name": "Uyku Bozuklukları Tanı ve Tedavi Merkezi",
+    "category": "Araştırma Merkezi",
+    "description": "Uyku ve uyanıklıkla ilişkili bozuklukların tanısı, tedavisi ve bu alandaki bilimsel araştırmaların yürütüldüğü uzmanlaşmış merkezdir. sleep disorders, sleep clinic, sleep diagnosis, medical research, sleep treatment.",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://uykumerkezi.hacettepe.edu.tr/tr/menu/yonetmelik-2"
+        },
+        {
+            "intent": "Yönetim Kurulunu Görüntüle",
+            "url": "https://uykumerkezi.hacettepe.edu.tr/tr/menu/yonetim_kurulu-3"
+        },
+        {
+            "intent": "Misyon ve Vizyonu Oku",
+            "url": "https://uykumerkezi.hacettepe.edu.tr/tr/menu/misyon_vizyon-4"
+        },
+        {
+            "intent": "Tamamlanmış Projeleri İncele",
+            "url": "https://uykumerkezi.hacettepe.edu.tr/tr/menu/tamamlanmis_projeler-6"
+        },
+        {
+            "intent": "Devam Eden Projeleri İncele",
+            "url": "https://uykumerkezi.hacettepe.edu.tr/tr/menu/devam_eden_projeler-7"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://uykumerkezi.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 8
+}

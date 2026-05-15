@@ -1,0 +1,62 @@
+{
+    "entity_name": "İç Mimarlık ve Çevre Tasarımı Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi İç Mimarlık ve Çevre Tasarımı Bölümü'nün akademik programları, öğretim üyeleri, öğrenci danışmanlıkları ve güncel duyuruları hakkında bilgi sunan resmi birim sayfasıdır. interior architecture, environmental design, academic staff, undergraduate, graduate, curriculum.",
+    "action_links": [
+        {
+            "intent": "Öğrenci Kılavuzunu İndir",
+            "url": "https://fs.hacettepe.edu.tr/ict/dosyalar/B%C3%B6l%C3%BCm_Resmi_Belgeler/%C3%96%C4%9ERENC%C4%B0%20KILAVUZU.pdf"
+        },
+        {
+            "intent": "Download Student Guide",
+            "url": "https://fs.hacettepe.edu.tr/ict/dosyalar/B%C3%B6l%C3%BCm_Resmi_Belgeler/%C3%96%C4%9ERENC%C4%B0%20KILAVUZU.pdf"
+        },
+        {
+            "intent": "Staj Bilgi ve Belgelerini İncele",
+            "url": "https://ict.hacettepe.edu.tr/tr/menu/staj_ile_ilgili_bilgi_ve_belgeler-269"
+        },
+        {
+            "intent": "Review Internship Information and Documents",
+            "url": "https://ict.hacettepe.edu.tr/tr/menu/staj_ile_ilgili_bilgi_ve_belgeler-269"
+        },
+        {
+            "intent": "Bölüm Staj Koordinatörlerine Ulaş",
+            "url": "https://ict.hacettepe.edu.tr/tr/menu/bolum_staj_koordinatorleri-109"
+        },
+        {
+            "intent": "Contact Internship Coordinators",
+            "url": "https://ict.hacettepe.edu.tr/tr/menu/bolum_staj_koordinatorleri-109"
+        },
+        {
+            "intent": "Öğrenci Mazeret Sınav Dilekçesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/gsf/Formlar/ARA%20SINAVLAR%20ICIN%20MAZERET%20HAKKI%20TALEP%20DILEKCESI.docx"
+        },
+        {
+            "intent": "Download Student Excuse Exam Petition",
+            "url": "https://fs.hacettepe.edu.tr/gsf/Formlar/ARA%20SINAVLAR%20ICIN%20MAZERET%20HAKKI%20TALEP%20DILEKCESI.docx"
+        },
+        {
+            "intent": "Kayıt Dondurma İzinli Sayılma Dilekçesini İndir",
+            "url": "https://fs.hacettepe.edu.tr/gsf/Formlar/KAYIT%20DONDURMA-IZINLI%20SAYILMA%20DILEKCESI.docx"
+        },
+        {
+            "intent": "Download Registration Freeze Petition",
+            "url": "https://fs.hacettepe.edu.tr/gsf/Formlar/KAYIT%20DONDURMA-IZINLI%20SAYILMA%20DILEKCESI.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Lisans",
+        "Yüksek Lisans",
+        "Doktora Programı",
+        "Erasmus+",
+        "Mevlana",
+        "Farabi",
+        "Danışmanlıklar",
+        "Akademik Personel",
+        "İdari Personel"
+    ],
+    "url": "https://ict.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 222
+}

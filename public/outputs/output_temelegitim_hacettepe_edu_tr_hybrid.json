@@ -1,0 +1,51 @@
+{
+    "entity_name": "Temel Eğitim Bölümü",
+    "category": "Bölüm",
+    "description": "Okul öncesi ve sınıf öğretmenliği alanlarında nitelikli eğitimciler yetiştirmeyi amaçlayan akademik bir birimdir. (primary education, early childhood education, classroom teaching, curriculum, faculty members)",
+    "action_links": [
+        {
+            "intent": "Kanun ve Yönetmelikleri İncele",
+            "url": "http://www.oid.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Review Regulations and Guidelines",
+            "url": "http://www.oid.hacettepe.edu.tr/english/index_sub.php"
+        },
+        {
+            "intent": "AKTS Bilgi Paketini Görüntüle",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/akts_bilgi_paketi-19"
+        },
+        {
+            "intent": "View ECTS Information",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/ects_information-64"
+        },
+        {
+            "intent": "Duyuruları Takip Et",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/duyurular-27"
+        },
+        {
+            "intent": "Check Noticeboard",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/mission_and_vision-46"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://temelegitim.hacettepe.edu.tr/tr/menu/iletisim-13"
+        },
+        {
+            "intent": "Contact Us",
+            "url": "https://temelegitim.hacettepe.edu.tr/en/menu/contact-44"
+        },
+        {
+            "intent": "Yararlı Belgeleri İndir",
+            "url": "http://www.egitim.hacettepe.edu.tr/ogrenci_form.html"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Okul Öncesi Eğitimi Ana Bilim Dalı",
+        "Sınıf Eğitimi Ana Bilim Dalı"
+    ],
+    "url": "https://temelegitim.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 28
+}

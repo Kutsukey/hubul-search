@@ -1,0 +1,74 @@
+{
+    "entity_name": "Matematik Bölümü",
+    "category": "Bölüm",
+    "description": "Hacettepe Üniversitesi Fen Fakültesi Matematik Bölümü'nün akademik programlarını, ders ve sınav takvimlerini, lisans ve lisansüstü eğitim duyurularını içeren resmi sayfasıdır. mathematics, math department, syllabus, academic calendar, undergraduate, postgraduate.",
+    "action_links": [
+        {
+            "intent": "Lisans Ders Programını İncele",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Ders-Programi.pdf"
+        },
+        {
+            "intent": "View Undergraduate Course Schedule",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Ders-Programi.pdf"
+        },
+        {
+            "intent": "Ara Sınav Takvimini İncele",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Ara-Sinav-Takvimi.pdf"
+        },
+        {
+            "intent": "View Midterm Exam Schedule",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Ara-Sinav-Takvimi.pdf"
+        },
+        {
+            "intent": "Mazeret Sınavı Başvurusu Yap",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Mazeret-Sinavlari-Basvurusu.pdf"
+        },
+        {
+            "intent": "Apply for Makeup Exams",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Mazeret-Sinavlari-Basvurusu.pdf"
+        },
+        {
+            "intent": "Lisansüstü Ders Programını İncele",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Lisansustu-Ders-Programi.pdf"
+        },
+        {
+            "intent": "View Graduate Course Schedule",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Lisansustu-Ders-Programi.pdf"
+        },
+        {
+            "intent": "Erasmus+ Seçim Takvimini İncele",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2026-2027-A.Y.-ErasmusPlus-G.D.-ve-Tam-A.Y.-Secim-Takvimi-Hakkinda.pdf"
+        },
+        {
+            "intent": "Check Erasmus+ Selection Calendar",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2026-2027-A.Y.-ErasmusPlus-G.D.-ve-Tam-A.Y.-Secim-Takvimi-Hakkinda.pdf"
+        },
+        {
+            "intent": "Pedagojik Formasyon Yönergesini İncele",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/Pedagojik-Formasyon-Egitimi-Yonergesi.pdf"
+        },
+        {
+            "intent": "Pedagojik Formasyon Başvuru Formu",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026_O.Y.-Pedagojik-Formasyon-Egitimi-Basvurusu.pdf"
+        },
+        {
+            "intent": "Çift Ana Dal Kontenjanlarını Gör",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Cift-Ana-Dal-Kontenjan-Bilgileri.pdf"
+        },
+        {
+            "intent": "Yan Dal Kontenjanlarını Gör",
+            "url": "https://mat.hacettepe.edu.tr/duyurular/2025-2026-B.D.-Yan-Dal-Kontenjan-Bilgileri.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Cebir ve Sayılar Teorisi",
+        "Analiz ve Fonksiyonlar Teorisi",
+        "Uygulamalı Matematik",
+        "Matematik Temelleri ve Matematiksel Mantık",
+        "Geometri ve Topoloji"
+    ],
+    "url": "https://mat.hacettepe.edu.tr",
+    "deep_crawl_files": 523,
+    "deep_crawl_pages": 140
+}

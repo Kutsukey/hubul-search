@@ -1,0 +1,84 @@
+{
+    "entity_name": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi öğrencilerinin ve personelinin sağlık, kültür, spor, barınma ve beslenme hizmetlerini koordine eden ve yöneten idari birimdir. (health culture and sports, student services, dormitory, sports center, student support, campus facilities)",
+    "action_links": [
+        {
+            "intent": "2025-2026 Öğrenci Desteklerini İncele",
+            "url": "https://sksdb.hacettepe.edu.tr/files/2025_2026_Destek.pdf"
+        },
+        {
+            "intent": "View Student Supports 2025-2026",
+            "url": "https://sksdb.hacettepe.edu.tr/files/2025_2026_Destek.pdf"
+        },
+        {
+            "intent": "Kısmi Zamanlı Çalışma Esaslarını İncele",
+            "url": "https://sksdb.hacettepe.edu.tr/files/kismi_zamanli/yuksekogretim-kurumlari-kismi-zamanli-ogrenci-calistirma-usul-ve-esaslari-pdf-133070246515773407.pdf"
+        },
+        {
+            "intent": "View Part-time Work Regulations",
+            "url": "https://sksdb.hacettepe.edu.tr/files/kismi_zamanli/yuksekogretim-kurumlari-kismi-zamanli-ogrenci-calistirma-usul-ve-esaslari-pdf-133070246515773407.pdf"
+        },
+        {
+            "intent": "Staj Sigorta İş Akış Şemasını İndir",
+            "url": "https://sksdb.hacettepe.edu.tr/files/stajyer/staj-is-akisi-pdf-133070253355751790.pdf"
+        },
+        {
+            "intent": "Download Internship Insurance Workflow",
+            "url": "https://sksdb.hacettepe.edu.tr/files/stajyer/staj-is-akisi-pdf-133070253355751790.pdf"
+        },
+        {
+            "intent": "Barınma Başvuru Takvimini İncele",
+            "url": "https://sksdb.hacettepe.edu.tr/files/barinma/2025-2026-Egitim-Ogretim-Donemi-Basvuru-Takvimi-pdf-134012687323360612.pdf"
+        },
+        {
+            "intent": "View Housing Application Calendar",
+            "url": "https://sksdb.hacettepe.edu.tr/files/barinma/2025-2026-Egitim-Ogretim-Donemi-Basvuru-Takvimi-pdf-134012687323360612.pdf"
+        },
+        {
+            "intent": "HÜ-Kart Bakiye İade Formu (Öğrenci)",
+            "url": "https://sksdb.hacettepe.edu.tr/files/tahakkuk/hu-kart-bakiye-iadeleri-1-pdf-133851200993387760.pdf"
+        },
+        {
+            "intent": "HU-Card Balance Refund Form (Student)",
+            "url": "https://sksdb.hacettepe.edu.tr/files/tahakkuk/hu-kart-bakiye-iadeleri-1-pdf-133851200993387760.pdf"
+        },
+        {
+            "intent": "Atletik Üyelik Ücretlerini İncele",
+            "url": "https://sksdb.hacettepe.edu.tr/files/atletik/hacettepe_atletik_2026_fiyatlar.pdf"
+        },
+        {
+            "intent": "View Athletic Membership Fees",
+            "url": "https://sksdb.hacettepe.edu.tr/files/atletik/hacettepe_atletik_2026_fiyatlar.pdf"
+        },
+        {
+            "intent": "Anaokulu Ön Kayıt Başvurusu Yap",
+            "url": "https://sksdb.hacettepe.edu.tr/files/anaokul/On_Kayit_ilani_Duyurusu_2026-2027.pdf"
+        },
+        {
+            "intent": "Apply for Kindergarten Pre-registration",
+            "url": "https://sksdb.hacettepe.edu.tr/files/anaokul/On_Kayit_ilani_Duyurusu_2026-2027.pdf"
+        },
+        {
+            "intent": "Yurt Yol Haritasını İncele",
+            "url": "https://sksdb.hacettepe.edu.tr/files/barinma/Hacettepe-yurt-yol-haritasi-pdf-134014397028303806.pdf"
+        },
+        {
+            "intent": "View Dormitory Roadmap",
+            "url": "https://sksdb.hacettepe.edu.tr/files/barinma/Hacettepe-yurt-yol-haritasi-pdf-134014397028303806.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Satınalma Müdürlüğü",
+        "Bütçe-Tahakkuk Müdürlüğü",
+        "Barınma Birimleri",
+        "Beslenme Birimleri",
+        "Spor Birimleri",
+        "Okul Öncesi Eğitimi Hizmetleri",
+        "Kısmi Zamanlı Çalışma ve Stajyer Öğrenci Birimi"
+    ],
+    "url": "https://sksdb.hacettepe.edu.tr",
+    "deep_crawl_files": 1187,
+    "deep_crawl_pages": 240
+}

@@ -1,0 +1,58 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Hemşirelik Fakültesi",
+    "category": "Fakülte",
+    "description": "Hacettepe Üniversitesi'nin 62 yıllık köklü geçmişiyle hemşirelik eğitiminde ulusal ve uluslararası düzeyde liderlik eden akademik birimidir. nursing faculty, nursing curriculum, academic calendar, nursing internship, nursing research",
+    "action_links": [
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://hemsirelik.hacettepe.edu.tr/tr/menu/akademik_takvimler-422"
+        },
+        {
+            "intent": "Check Academic Calendar",
+            "url": "https://hemsirelik.hacettepe.edu.tr/en/menu/academic_calender-443"
+        },
+        {
+            "intent": "Sınav Takvimlerini Görüntüle",
+            "url": "https://hemsirelik.hacettepe.edu.tr/tr/menu/sinav_takvimleri-424"
+        },
+        {
+            "intent": "View Exam Schedule",
+            "url": "https://hemsirelik.hacettepe.edu.tr/en/menu/exam_schedule-445"
+        },
+        {
+            "intent": "Değişim Programları Hakkında Bilgi Al",
+            "url": "https://hemsirelik.hacettepe.edu.tr/tr/menu/degisim_programlari-427"
+        },
+        {
+            "intent": "Information on Exchange Programs",
+            "url": "https://hemsirelik.hacettepe.edu.tr/en/menu/exchange_programs-448"
+        },
+        {
+            "intent": "Anabilim Dalları Listesi",
+            "url": "https://hemsirelik.hacettepe.edu.tr/tr/menu/anabilim_dallari-412"
+        },
+        {
+            "intent": "Departments List",
+            "url": "https://hemsirelik.hacettepe.edu.tr/en/menu/departments-434"
+        },
+        {
+            "intent": "Araştırma Etik Kurulu",
+            "url": "https://hemsirelik.hacettepe.edu.tr/tr/menu/hacettepe_universitesi_hemsirelik_f-533"
+        },
+        {
+            "intent": "Faculty Administration",
+            "url": "https://hemsirelik.hacettepe.edu.tr/en/menu/administration-473"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Anabilim Dalları",
+        "Koordinatörlükler",
+        "Komisyonlar",
+        "Araştırma Merkezleri",
+        "Hacettepe Hemşirelik Lisans ve Lisansüstü Mezunları Derneği (H-HEMDER)"
+    ],
+    "url": "https://hemsirelik.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 492
+}

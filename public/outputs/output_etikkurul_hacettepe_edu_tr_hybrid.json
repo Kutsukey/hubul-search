@@ -1,0 +1,48 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Etik Kurulları",
+    "category": "İdari Birim",
+    "description": "Hacettepe Üniversitesi bünyesinde yürütülen akademik araştırmaların, yayınların ve hayvan deneylerinin etik ilkelere uygunluğunu denetleyen ve süreçleri yöneten kurulların merkezidir. ethics committee, research ethics, animal welfare, scientific integrity, ethics application, institutional ethics.",
+    "action_links": [
+        {
+            "intent": "Kurumsal Etik İlkeleri ve Yönergesini İncele",
+            "url": "https://etikkurul.hacettepe.edu.tr/akademik/HUKurumsalEtikilkeleriveKurumsalEtikKurulYonergesi160421.pdf"
+        },
+        {
+            "intent": "Sosyal ve Beşeri Bilimler Etik Kurul Başvuru Formunu İndir",
+            "url": "https://etikkurul.hacettepe.edu.tr/senato/HUSosyalveBeseriBilimlerArastirmaEtikKuruluBasvuruFormu_21102024.doc"
+        },
+        {
+            "intent": "Bilimsel Araştırma ve Yayın Etiği Yönergesini İncele",
+            "url": "https://etikkurul.hacettepe.edu.tr/yayinetigi/BilimselArastirmaYayinEtigiYonergesi2025.pdf"
+        },
+        {
+            "intent": "Hayvan Deneyleri Etik Kurulu Yönergesini İncele",
+            "url": "https://etikkurul.hacettepe.edu.tr/hdek/etikkurulyonerge020318.pdf"
+        },
+        {
+            "intent": "Hayvan Deneyleri Sertifika Başvuru Formu",
+            "url": "https://etikkurul.hacettepe.edu.tr/hdek/SertifikaBasvuruFormu2025.docx"
+        },
+        {
+            "intent": "Bilimsel Araştırma ve Yayın Etiği İhlal İddiası Başvuru Formu",
+            "url": "https://etikkurul.hacettepe.edu.tr/yayinetigi/yayinetigikomisyonubasvuruformu220419.pdf"
+        },
+        {
+            "intent": "Sağlık Bilimleri Araştırma Etik Kurulu Yönergesi",
+            "url": "https://etikkurul.hacettepe.edu.tr/yerel/saglikbilimleriarastirmaetikkurulu090823.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Sosyal ve Beşeri Bilimler Araştırma Etik Kurulu",
+        "Sağlık Bilimleri Araştırma Etik Kurulu",
+        "Hayvan Deneyleri Etik Kurulu",
+        "Yayın Komisyonu",
+        "Bilimsel Araştırma ve Yayın Etiği Komisyonu",
+        "Kozmetik Klinik Araştırmalar Etik Kurulu",
+        "Cinsel Tacize ve Cinsel Saldırıya Karşı Koruma ve Destek Komisyonu"
+    ],
+    "url": "https://etikkurul.hacettepe.edu.tr",
+    "deep_crawl_files": 69,
+    "deep_crawl_pages": 53
+}

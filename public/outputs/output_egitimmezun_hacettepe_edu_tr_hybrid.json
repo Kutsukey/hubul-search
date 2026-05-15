@@ -1,0 +1,20 @@
+{
+    "entity_name": "Eğitim Fakültesi Mezun Bilgi Sistemi",
+    "category": "Fakülte",
+    "description": "Eğitim Fakültesi mezunlarının bilgilerini güncel tutabileceği, eski arkadaşlarıyla iletişim kurabileceği ve güncel duyurulardan haberdar olabileceği bir platformdur. education faculty, alumni, graduate information system, alumni network, contact.",
+    "action_links": [
+        {
+            "intent": "Mezun Bilgi Sistemine Kaydol",
+            "url": "https://egitimmezun.hacettepe.edu.tr/kaydol"
+        },
+        {
+            "intent": "Sisteme Giriş Yap",
+            "url": "https://egitimmezun.hacettepe.edu.tr/giris"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://egitimmezun.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 3
+}

@@ -1,0 +1,62 @@
+{
+    "entity_name": "Hacettepe Üniversitesi TÖMER (Türkçe Öğretim Merkezi)",
+    "category": "Araştırma Merkezi",
+    "description": "Hacettepe Üniversitesi bünyesinde yabancılara Türkçe öğretimi, çeşitli sertifika programları ve yoğun dil kursları sunan akademik bir merkezdir. turkish language courses, TÖMER, certificate programs, intensive turkish, language center.",
+    "action_links": [
+        {
+            "intent": "Yönetmeliği İncele",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/yonetmelik-4"
+        },
+        {
+            "intent": "Review Regulations",
+            "url": "https://tomer.hacettepe.edu.tr/en/menu/regulations-4"
+        },
+        {
+            "intent": "Yönergeyi İncele",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/yonerge-75"
+        },
+        {
+            "intent": "Review Directive",
+            "url": "https://tomer.hacettepe.edu.tr/en/menu/directive-75"
+        },
+        {
+            "intent": "Akademik Takvimi Görüntüle",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/akademik_takvim-85"
+        },
+        {
+            "intent": "View Academic Calendar",
+            "url": "https://tomer.hacettepe.edu.tr/en/menu/academic_calendar-85"
+        },
+        {
+            "intent": "Yoğun Türkçe Kurslarını İncele",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/yogun_turkce_kurslari-13"
+        },
+        {
+            "intent": "Explore Intensive Turkish Courses",
+            "url": "https://tomer.hacettepe.edu.tr/en/menu/intensive_turkish_courses-13"
+        },
+        {
+            "intent": "Sertifika Programlarını İncele",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/yabancilara_turkce_ogretimi_sertifi-16"
+        },
+        {
+            "intent": "Explore Certificate Programmes",
+            "url": "https://tomer.hacettepe.edu.tr/en/menu/certificate_programmes-16"
+        },
+        {
+            "intent": "E-Devlet Sertifika Doğrula",
+            "url": "https://tomer.hacettepe.edu.tr/tr/menu/edevlet_sertifika_dogrulama-65"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yabancı Dil Olarak Türkçe Öğretimi Birimi",
+        "Türk Dili Dersleri Birimi",
+        "Sürekli Mesleki Gelişim Koordinatörlüğü",
+        "Erasmus Yoğun Dil Kursları",
+        "Sertifika Programları"
+    ],
+    "url": "https://tomer.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 96
+}

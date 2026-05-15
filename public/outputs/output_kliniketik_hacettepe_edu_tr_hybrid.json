@@ -1,0 +1,40 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Klinik Araştırmalar Etik Kurulu",
+    "category": "İdari Birim",
+    "description": "Klinik araştırmaların etik standartlara uygunluğunu denetleyen, başvuru süreçlerini yöneten ve ilgili mevzuatı takip eden birimdir. clinical research ethics, ethics committee, clinical trials, research application, ethics approval.",
+    "action_links": [
+        {
+            "intent": "Etik Kurul Başvuru Kılavuzunu İncele",
+            "url": "https://kliniketik.hacettepe.edu.tr/belge/BasvuruKilavuz010725.pdf"
+        },
+        {
+            "intent": "TİTÇK Başvuru Kılavuzunu İncele",
+            "url": "https://kliniketik.hacettepe.edu.tr/belge/TITCKBasvuruKilavuz010725.pdf"
+        },
+        {
+            "intent": "Başvuru Ücretleri Listesini İndir",
+            "url": "https://kliniketik.hacettepe.edu.tr/belge/2025FYATTARFESI.xlsx"
+        },
+        {
+            "intent": "Başvuru Formları Hakkında Bilgi Al",
+            "url": "https://kliniketik.hacettepe.edu.tr/belge/EK1_HUKAEK_BASVURUFORMLARIHAKKINDADUYURU.pdf"
+        },
+        {
+            "intent": "Başvuru Süreci Hakkında Önemli Duyuruyu Oku",
+            "url": "https://kliniketik.hacettepe.edu.tr/belge/HUKlinikArastirmalarEtikKuruluOnemliDuyuruKasim2023.pdf"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Kurul Üyeleri",
+        "Mevzuat",
+        "Etik Kurul Başvurusu",
+        "Duyurular",
+        "İLETİŞİM",
+        "HACETTEPE ÜNİVERSİTESİ KLİNİK ARAŞTIRMALAR ETİK KURULU BAŞVURU ÜCRETLERİ",
+        "EN"
+    ],
+    "url": "https://kliniketik.hacettepe.edu.tr",
+    "deep_crawl_files": 10,
+    "deep_crawl_pages": 8
+}

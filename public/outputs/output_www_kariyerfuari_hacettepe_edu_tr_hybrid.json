@@ -1,0 +1,77 @@
+{
+    "entity_name": "Hacettepe Üniversitesi Bilgi İşlem Kariyer ve Teknik Destek Portalı",
+    "category": "İdari Birim",
+    "description": "Bilgi İşlem Daire Başkanlığı'nın personel alım süreçleri, İŞKUR programları ve üniversite personeli/öğrencileri için kritik teknik konfigürasyonlar (proxy, e-posta, VPN, yazılım talepleri) hakkında bilgi ve formlar sunan teknik bilgilendirme portalıdır. it services, recruitment, proxy settings, email configuration, technical support.",
+    "action_links": [
+        {
+            "intent": "Microsoft Edge Proxy Ayarlarını İncele",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/proxy-pdf/edgeproxy_2023.pdf"
+        },
+        {
+            "intent": "Check Microsoft Edge Proxy Settings",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/proxy-pdf/edgeproxy_2023.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarlarını İncele",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Check Chrome Proxy Settings",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "VPN Bağlantı Talep Formunu İndir",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Download VPN Connection Request Form",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formunu İndir",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Download Software Development Request Form",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Android Outlook Mail Ayarlarını İncele",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "View Android Outlook Mail Settings",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/yenimail/android_outlook_191125.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formunu İndir",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Download IT Personnel Application Form",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Sunucu Talep Formunu İndir",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        },
+        {
+            "intent": "Download Server Request Form",
+            "url": "https://www.kariyerfuari.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Yönetim",
+        "Bilgi Güvenliği Politikası",
+        "Ağ Altyapısı",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları",
+        "Formlar",
+        "Yazılım Deposu",
+        "Sözleşmeli Bilişim Personeli Alımı"
+    ],
+    "url": "https://www.kariyerfuari.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}

@@ -1,0 +1,64 @@
+{
+    "entity_name": "Özel Yetenekliler Eğitimi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Özel yetenekli bireylerin taranması, tanılanması ve eğitim programlarının hazırlanması konularında lisansüstü düzeyde uzmanlaşmış akademik birimdir. gifted education, special education, master's degree, PhD, graduate studies.",
+    "action_links": [
+        {
+            "intent": "Tanıtımı İncele",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/tanitim-14"
+        },
+        {
+            "intent": "Read Introduction",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en/menu/introduction-32"
+        },
+        {
+            "intent": "Tarihçeyi Görüntüle",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/tarihce-16"
+        },
+        {
+            "intent": "View History",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en/menu/history-34"
+        },
+        {
+            "intent": "Misyon ve Vizyonu İncele",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/misyon_ve_vizyon-15"
+        },
+        {
+            "intent": "Read Mission and Vision",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en/menu/mission_and_vision-33"
+        },
+        {
+            "intent": "Yönetimi Görüntüle",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/menu/yonetim-17"
+        },
+        {
+            "intent": "View Administration",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/en/menu/administration-35"
+        },
+        {
+            "intent": "Yüksek Lisans Program Detaylarını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62645f81cd21015fed48ee8727d1&birim_kod=2167&prg_oid=410c62645f81cd21015fed4a237c27d2&prg_kod=21671&programduzey=3&submenuheader=2&dil_kod=1"
+        },
+        {
+            "intent": "View MA Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62645f81cd21015fed48ee8727d1&birim_kod=2167&prg_oid=410c62645f81cd21015fed4a237c27d2&prg_kod=21671&programduzey=3&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Doktora Program Detaylarını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62645f81cd21015fed48ee8727d1&birim_kod=2167&prg_oid=410c62646d6cd9d8016e6ecd8c9f0b57&prg_kod=21672&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "View PhD Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=410c62645f81cd21015fed4b309527d4&birim_kod=2167&prg_oid=410c62646d6cd9d8016e6ed0a0e90b59&prg_kod=21672&programduzey=5&submenuheader=2"
+        },
+        {
+            "intent": "Güncel Duyuruları Gör",
+            "url": "https://ozelyetenekliler.hacettepe.edu.tr/tr/duyurular"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://ozelyetenekliler.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 31
+}

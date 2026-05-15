@@ -1,0 +1,76 @@
+{
+    "entity_name": "Radyasyon Onkolojisi Ana Bilim Dalı",
+    "category": "Ana Bilim Dalı",
+    "description": "Hacettepe Üniversitesi Tıp Fakültesi bünyesinde, kanser tedavisi ve radyoterapi alanında uzmanlaşmış bilim insanları yetiştiren ve klinik araştırmalar yürüten akademik birimdir. radiation oncology, radiotherapy, cancer treatment, medical physics, oncology curriculum.",
+    "action_links": [
+        {
+            "intent": "Genel Tanıtımı İncele",
+            "url": "https://radonko.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "Review General Introduction",
+            "url": "https://radonko.hacettepe.edu.tr/hakkinda/tanitim.php"
+        },
+        {
+            "intent": "Akademik Kadroyu Görüntüle",
+            "url": "https://radonko.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "View Academic Staff",
+            "url": "https://radonko.hacettepe.edu.tr/personel/ogruyesi.php"
+        },
+        {
+            "intent": "Ön Lisans Programı Bilgileri",
+            "url": "https://radonko.hacettepe.edu.tr/program/onlisans.php"
+        },
+        {
+            "intent": "Associate Degree Program Information",
+            "url": "https://radonko.hacettepe.edu.tr/program/onlisans.php"
+        },
+        {
+            "intent": "Lisans Programı Bilgileri",
+            "url": "https://radonko.hacettepe.edu.tr/program/lisans.php"
+        },
+        {
+            "intent": "Undergraduate Program Information",
+            "url": "https://radonko.hacettepe.edu.tr/program/lisans.php"
+        },
+        {
+            "intent": "Lisansüstü Program Bilgileri",
+            "url": "https://radonko.hacettepe.edu.tr/program/lisansustu.php"
+        },
+        {
+            "intent": "Graduate Program Information",
+            "url": "https://radonko.hacettepe.edu.tr/program/lisansustu.php"
+        },
+        {
+            "intent": "Yüksek Lisans Tezlerini İncele",
+            "url": "https://radonko.hacettepe.edu.tr/tez/lisans_tez.php"
+        },
+        {
+            "intent": "Review Master's Theses",
+            "url": "https://radonko.hacettepe.edu.tr/tez/lisans_tez.php"
+        },
+        {
+            "intent": "Doktora Tezlerini İncele",
+            "url": "https://radonko.hacettepe.edu.tr/tez/doktora_tez.php"
+        },
+        {
+            "intent": "Review Doctoral Theses",
+            "url": "https://radonko.hacettepe.edu.tr/tez/doktora_tez.php"
+        },
+        {
+            "intent": "İletişim Bilgilerine Ulaş",
+            "url": "https://radonko.hacettepe.edu.tr/iletisim/iletisim.php"
+        },
+        {
+            "intent": "Access Contact Information",
+            "url": "https://radonko.hacettepe.edu.tr/iletisim/iletisim.php"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [],
+    "url": "https://radonko.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 19
+}

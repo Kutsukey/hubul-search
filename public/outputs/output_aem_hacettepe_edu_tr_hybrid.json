@@ -1,0 +1,52 @@
+{
+    "entity_name": "Mesleki Teknoloji Yüksekokulu",
+    "category": "Yüksekokul / Meslek Yüksekokulu",
+    "description": "Mesleki Teknoloji Yüksekokulu, mühendislik ve teknoloji alanlarında lisans ve lisansüstü düzeyde eğitim veren, köklü bir akademik birimdir. vocational technology school, engineering programs, undergraduate, graduate, academic calendar, curriculum.",
+    "action_links": [
+        {
+            "intent": "Lisans Programlarını İncele",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000134&birim_kod=359&prg_oid=PRGRAM_0000000000000000000000142&prg_kod=359&programduzey=2&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "View Undergraduate Program Details",
+            "url": "https://akts.hacettepe.edu.tr/program_detay.php?birim_ref=AKDBRM_0000000000000000000000134&birim_kod=359&prg_oid=PRGRAM_0000000000000000000000142&prg_kod=359&programduzey=2&submenuheader=2&dil_kod=2"
+        },
+        {
+            "intent": "Yüksek Lisans Başvuru İşlemleri",
+            "url": "https://fenbilimleri.hacettepe.edu.tr/tr/menu/basvuru_islemleri-44"
+        },
+        {
+            "intent": "Application to Grad. Program",
+            "url": "https://fenbilimleri.hacettepe.edu.tr/en/menu/application_and_registration-66"
+        },
+        {
+            "intent": "Ders Programlarını Görüntüle",
+            "url": "https://aem.hacettepe.edu.tr/tr/menu/ders_programlari-115"
+        },
+        {
+            "intent": "Akademik Takvimi İncele",
+            "url": "https://oidb.hacettepe.edu.tr/"
+        },
+        {
+            "intent": "Academic Calendar",
+            "url": "https://oidb.hacettepe.edu.tr/en"
+        },
+        {
+            "intent": "Gerekli Belgeleri ve Formları İndir",
+            "url": "https://fenbilimleri.hacettepe.edu.tr/tr/menu/formlar-24"
+        },
+        {
+            "intent": "Download Documents and Forms",
+            "url": "https://fenbilimleri.hacettepe.edu.tr/en/menu/forms-65"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Ağaç İşleri Endüstri Mühendisliği Bölümü",
+        "Lisans Programları",
+        "Yüksek Lisans Programları"
+    ],
+    "url": "https://aem.hacettepe.edu.tr",
+    "deep_crawl_files": 0,
+    "deep_crawl_pages": 37
+}

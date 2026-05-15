@@ -1,0 +1,48 @@
+{
+    "entity_name": "Bilgi İşlem Daire Başkanlığı (BIDB)",
+    "category": "Daire Başkanlığı",
+    "description": "Hacettepe Üniversitesi'nin ağ altyapısı, e-posta sistemleri, proxy ayarları, yazılım desteği ve bilgi güvenliği süreçlerini yöneten idari birimdir. (it services, network administration, email configuration, proxy settings, cybersecurity, software support)",
+    "action_links": [
+        {
+            "intent": "VPN Bağlantı Talep Formu",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/SSLVPNBaglantiTalepFormu.pdf"
+        },
+        {
+            "intent": "Yazılım Geliştirme Talep Formu",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/HUBIDB_YazilimGelistirmeTalepFormu.pdf"
+        },
+        {
+            "intent": "Chrome Proxy Ayarları",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/proxy-pdf/chromeproxy_2023.pdf"
+        },
+        {
+            "intent": "Android Mail Hesabı Ayarları",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/yenimail/Android_posta_kurulum_250522.pdf"
+        },
+        {
+            "intent": "iOS Mail Hesabı Ayarları",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/yenimail/ios_kurulum_250522.pdf"
+        },
+        {
+            "intent": "Sözleşmeli Bilişim Personeli Başvuru Formu",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/basvuruformu_bidb_280425.xlsx"
+        },
+        {
+            "intent": "Sunucu Talep Formu",
+            "url": "https://www.sporbilimleri.hacettepe.edu.tr/dosyalar/BGYS-F-03SunucuTalepFormuv01.docx"
+        }
+    ],
+    "announcement_schema": null,
+    "sub_branches": [
+        "Bilgi Güvenliği",
+        "Ağ Altyapısı",
+        "E-Posta İşlemleri",
+        "Proxy Ayarları",
+        "Yazılım Deposu",
+        "Formlar",
+        "Web Servisleri"
+    ],
+    "url": "https://www.sporbilimleri.hacettepe.edu.tr",
+    "deep_crawl_files": 42,
+    "deep_crawl_pages": 71
+}
