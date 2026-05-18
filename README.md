@@ -1,5 +1,7 @@
 # Hubul
 
+> 📘 **Sistem Devir, Kurulum ve Bakım Dokümanı:** Projenin yeni ekibe devredilmesi, kurulum adımları, otonom zeka kuralları ve rutin operasyon detayları için hazırlanan kapsamlı [MAINTENANCE.md](file:///c:/Users/ACER/Desktop/a-z-hacettepe/MAINTENANCE.md) dokümanını okumayı unutmayın.
+
 Hubul, Hacettepe Üniversitesi'nin dağınık web yapısı içinde birim, sayfa, belge ve duyuru bulmayı hızlandırmak için geliştirilmiş bir arama katmanıdır.
 
 Proje iki ana parçadan oluşur:
@@ -188,10 +190,10 @@ Bu yapı, veri setinin düzenli olarak güncel kalmasını sağlar.
 - [x] Visual Viewport API ile mobil klavye uyumu sağlandı; klavye açıldığında widget paneli otomatik olarak klavye üstüne sabitleniyor
 - [x] `endokrin.hacettepe.edu.tr` kara listeye alındı (crawler, announcement_pinger ve eski crawler sürümlerinde)
 - [x] Otonom Temizlikçi (Cleanup) protokolü: `veri_temizleyici.py` işlem bittikten sonra ham `output_*.json` dosyalarını otomatik olarak temizliyor
+- [x] Detaylı devir teslim, kurulum ve bakım (maintenance) dokümantasyonu ([MAINTENANCE.md](file:///c:/Users/ACER/Desktop/a-z-hacettepe/MAINTENANCE.md)) tamamlandı
 
 ## Yapılması Beklenenler
 
-- [ ] README'ye bakım (maintenance) kılavuzu eklenmesi: kara liste yönetimi, kara listeye alınmış domain'lerin nasıl çıkarılacağı, Supabase loglarının nasıl okunacağı ve periyodik veri yenileme prosedürü
 - [ ] Duyuru içeriklerinde tam metin arama desteği
 - [ ] Hangi kurumların veya anahtar kelimelerin ne sıklıkla arandığını ölçen anonim arama loglama altyapısı (Supabase `search_logs` tablosu hazır; otomatik kayıt mekanizması eklenecek)
 - [ ] Crawler job'larının bağımsız parçalara ayrılması ve GitHub Actions üzerinden kritik hata ile başarı bildirimleri için Telegram/Discord webhook desteği
@@ -213,6 +215,7 @@ PR açmadan önce dikkat edilmesi gereken noktalar:
 
 ## Geliştirici Notları
 
+- Geliştiriciler ve sistemi yönetecek olanlar, cron job zamanlamaları, Supabase telemetri entegrasyonu ve `jargonMap` gibi otonom zeka ayarları için mutlaka [MAINTENANCE.md](file:///c:/Users/ACER/Desktop/a-z-hacettepe/MAINTENANCE.md) dokümanını kılavuz olarak kullanmalıdır.
 - Frontend tarafı herhangi bir build tool (Webpack, Vite, npm) kullanmaz. `ia-widget.js` doğrudan CDN mantığıyla herhangi bir sayfaya entegre edilebilecek şekilde tasarlanmıştır.
 - Repo içinde eski veya deneysel crawler scriptleri bulunabilir; ancak bunların tamamı aktif GitHub Actions akışının parçası değildir. Ana pipeline `hybrid_hacettepe_crawler_3.py` ve veri temizleyici scriptler üzerinden yürür.
 - Bazı Python scriptleri, eksik `inputs/` ve `outputs/` dizinlerini ilk çalıştırmada otomatik olarak oluşturur.
