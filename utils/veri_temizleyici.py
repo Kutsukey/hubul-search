@@ -9,6 +9,22 @@ def turkish_lower(s):
     if not s: return ""
     return s.replace('İ', 'i').replace('I', 'ı').lower()
 
+def otonom_kisaltma_uret(metin):
+    """Otomatik baş harf kısaltması üretir (Örn: Tıbbi Dokümantasyon ve Sekreterlik Prog. -> tds)"""
+    if not metin:
+        return ""
+        
+    yasakli_kelimeler = ['ve', 'ile', 'bölümü', 'programı', 'prog.', 'fakültesi', 'yüksekokulu', 'meslek', 'anabilim', 'dalı', 'teknikerliği', 'teknolojisi', 'hizmetleri', 'teknikleri']
+    
+    # Noktalama işaretlerini boşlukla değiştir ki "Prog." kelimesi "prog" olarak yakalansın
+    temiz_metin = metin.replace('.', ' ').replace(',', ' ')
+    kelimeler = [k for k in temiz_metin.split() if k.lower() not in yasakli_kelimeler]
+    
+    # Sadece 2 veya daha fazla geçerli kelimeden oluşan isimlere kısaltma yap
+    if len(kelimeler) >= 2:
+        return "".join([k[0] for k in kelimeler if k.isalpha()]).lower()
+    return ""
+
 try:
     from utils.config import MASTER_JSON
 except ImportError:
@@ -247,6 +263,34 @@ def clean_and_merge_json(file_path):
         intents = " ".join([l.get("intent", "") for l in item.get("action_links", [])])
         subdomain = item.get("search_alias", "")
         item["search_text"] = turkish_lower(f"{subdomain} {item['entity_name']} {intents}")
+
+        # Otonom Kısaltma ve Alt Dal (Sub-Branch) Enjeksiyonu
+        ekstra_kelimeler = set() # Aynı kelimeler tekrar etmesin diye Set kullanıyoruz
+
+        # 1. Kartın kendi adının kısaltmasını al (Örn: İktisadi ve İdari Bilimler -> iibf)
+        ekstra_kelimeler.add(otonom_kisaltma_uret(item.get("entity_name", "")))
+
+        # 2. Crawler'ın siteden bulduğu tüm Alt Birimleri (sub_branches) tarayalım
+        for sub in item.get("sub_branches", []):
+            ekstra_kelimeler.add(sub.lower()) # Alt bölümün tam adını göm ("tıbbi görüntüleme")
+            ekstra_kelimeler.add(otonom_kisaltma_uret(sub)) # Kısaltmasını göm ("tg")
+
+        # 3. İntentlerde (Butonlarda) gizli program adları varsa onları da tara
+        for link in item.get("action_links", []):
+            intent_metni = link.get("intent", "")
+            if len(intent_metni.split()) >= 2:
+                ekstra_kelimeler.add(otonom_kisaltma_uret(intent_metni))
+
+        # Sözlükten gelen özel durumlar (Yemekhane, Eduroam gibi webte yazmayan argolar) 
+        # Sadece bunlar manuel kalmalı, bölümler değil!
+        e_name = item.get("entity_name", "").lower()
+        if "sağlık, kültür" in e_name: ekstra_kelimeler.update(["yemekhane", "yemek", "menü", "yurt", "mediko"])
+        if "bilgi işlem" in e_name: ekstra_kelimeler.update(["eduroam", "wifi", "vpn", "şifre"])
+        if "ab ofisi" in e_name or "european" in e_name: ekstra_kelimeler.update(["erasmus", "farabi", "mevlana", "yurtdışı"])
+
+        # Temizle, boşlukları sil ve arama metnine (search_text) kaynak yap
+        saf_kelimeler = " ".join([k for k in ekstra_kelimeler if k])
+        item["search_text"] = f"{item.get('search_text', '')} {saf_kelimeler}".strip().lower()
 
     # Sözlükteki değerleri tekrar JSON listesine çevir
     final_list = list(merged_data.values())

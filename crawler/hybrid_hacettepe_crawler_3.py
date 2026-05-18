@@ -725,6 +725,17 @@ Sadece geçerli bir JSON dön:
 # 6. BATCH PROCESSOR (STATE PERSISTENCE + 2'Lİ MODEL)
 # ==========================================
 async def crawl_batch(initial_links: List[str]):
+    # Normalize initial_links to a list of strings since it might contain dictionaries from AI Gatekeeper
+    cleaned_initial_links = []
+    for item in initial_links:
+        if isinstance(item, dict):
+            url = item.get("url")
+            if url:
+                cleaned_initial_links.append(url)
+        elif isinstance(item, str):
+            cleaned_initial_links.append(item)
+    initial_links = cleaned_initial_links
+
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key: return
     client = genai.Client(api_key=api_key)

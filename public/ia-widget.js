@@ -477,7 +477,7 @@
 
     function buildMasterFuse(data) {
         fuseInstance = new Fuse(data, {
-            includeScore: true, threshold: 0.45, ignoreLocation: true, useExtendedSearch: true,
+            includeScore: true, threshold: 0.25, ignoreLocation: true, useExtendedSearch: true, // 🚀 KRİTİK DÜZELTME: 0.45'ten 0.25'e indi. Çöpler kapı dışarı!
             keys: [{ name: 'search_alias', weight: 5.0 }, { name: 'entity_name', weight: 3.0 }, { name: 'description', weight: 2.0 }, { name: 'search_text', weight: 1.0 }]
         });
     }
@@ -503,8 +503,12 @@
             });
         });
         fuseAnnouncements = new Fuse(flatAnnouncements, {
-            includeScore: true, includeMatches: true, threshold: 0.45, ignoreLocation: true, ignoreFieldNorm: true,
-            keys: [{ name: 'title', weight: 3.0 }, { name: 'source', weight: 1.5 }, { name: 'search_text', weight: 1.0 }]
+            includeScore: true, includeMatches: true, threshold: 0.4, ignoreLocation: true, ignoreFieldNorm: true, useExtendedSearch: true,
+            keys: [
+                { name: 'title', weight: 0.7 },
+                { name: 'entity', weight: 0.3 },
+                { name: 'source', weight: 0.3 }
+            ]
         });
     }
 
@@ -603,6 +607,14 @@
         buildMasterFuse(masterData);
     }
 
+    // 🧠 TÜRKÇE KARAKTER NORMALİZATÖRÜ (ASCII FOLDING)
+    const normalizeTR = (text) => {
+        if (!text) return "";
+        return text.toLowerCase()
+            .replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's')
+            .replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ç/g, 'c');
+    };
+
     function handleSearch(val) {
         const query = val.trim().toLocaleLowerCase('tr-TR');
         if (query.length < 2) {
@@ -622,60 +634,100 @@
                 : []
         }));
 
-        // MUTLAK İTAAT VE CEZA KANUNU (Çipler Dahil!)
-        const exactQuery = query.toLowerCase().trim();
+        // 🚀 ZEKİ KAVRAMA, HİYERARŞİ VE TÜRKÇE SONEK KANUNU (V4)
+        let exactQuery = normalizeTR(query).trim();
+
+        // 🚀 KAMPÜS ARGOSU ÇEVİRMENİ (Token-Based Query Rewriter)
+        const jargonMap = {
+            "cge": "cocuk gelisimi", "iibf": "iktisadi ve idari", "shmyo": "saglik hizmetleri meslek",
+            "mediko": "saglik kultur", "bilsis": "bilgi islem", "akad": "akademik takvim",
+            "oidb": "ogrenci isleri", "obs": "ogrenci bilgi", "agno": "agirlikli genel not",
+            "cap": "cift anadal", "dis": "dis hekimligi", "ebe": "ebelik", "hem": "hemsirelik",
+            "kyk": "yurt", "bim": "bilgi islem", "sksdb": "saglik kultur spor",
+            "fen": "fen fakultesi", "tip": "tip fakultesi"
+        };
+
+        // Kullanıcının "cge sınav" sorgusunu anında "cocuk gelisimi sinav"a çevirir
+        const rewrittenTerms = exactQuery.split(/\s+/).map(token => jargonMap[token] || token);
+        exactQuery = rewrittenTerms.join(" ");
+        const meaningfulSearchTerms = exactQuery.split(/\s+/).filter(t => t.length > 2); 
 
         entityResults.forEach(r => {
-            const eName = r.item.entity_name.toLowerCase();
-            const eAlias = (r.item.search_alias || "").toLowerCase();
+            // Kurum isimlerini ve SEO'ları da normalize et (Örn: "Çocuk Gelişimi" -> "cocuk gelisimi")
+            const eName = normalizeTR(r.item.entity_name);
+            const eAlias = normalizeTR(r.item.search_alias);
+            const sText = normalizeTR(r.item.search_text);
 
-            // YENİ: Kartın içindeki çiplerde (butonlarda) bu kelime geçiyor mu?
-            const hasIntentMatch = r.item.action_links && r.item.action_links.some(l =>
-                l.intent && new RegExp(`\\b${exactQuery}\\b`).test(l.intent.toLowerCase())
+            const hasExactIntentMatch = r.item.action_links && r.item.action_links.some(l =>
+                l.intent && new RegExp(`\\b${exactQuery}\\b`).test(normalizeTR(l.intent))
             );
+            const hasSeoMatch = new RegExp(`\\b${exactQuery}\\b`).test(sText);
+            const hasAllTerms = meaningfulSearchTerms.every(term => sText.includes(term));
+            const hasNamePartial = meaningfulSearchTerms.some(term => new RegExp(`\\b${term}\\b`).test(eName));
+            // Aranan kelimelerden herhangi biri SEO'da veya Subdomain'de (search_text) BİREBİR geçiyor mu?
+            const hasSubdomainOrSeoMatch = meaningfulSearchTerms.some(term => new RegExp(`\\b${term}\\b`).test(sText));
 
             let newScore = r.score;
 
-            // KURAL 0: VIP KAVRAMSAL YONLENDIRME (Erasmus = AB Ofisi)
-            const isErasmusQuery = exactQuery.includes("erasmus") || exactQuery.includes("yurtdışı") || exactQuery.includes("değişim") || exactQuery.includes("avrupa") || exactQuery.includes("ab ofis");
-            const isEUOffice = eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler") || eAlias.includes("abofisi") || eAlias.includes("erasmus");
+            // KAVRAMSAL YÖNLENDİRME
+            const isErasmusQuery = exactQuery.includes("erasmus") || exactQuery.includes("yurtdışı") || exactQuery.includes("değişim");
+            const isEUOffice = eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler") || eAlias === "erasmus";
 
             if (isErasmusQuery && isEUOffice) {
-                newScore = 0.000000001; // Mutlak Kraldan bile daha üstün skor!
+                newScore = 0.000000001; 
             }
-            // 1. KURAL: Gerçek ismin BİREBİR kendisiyse (Mutlak Kral)
-            else if (eName === exactQuery || eName === `${exactQuery} bölümü` || eName === `${exactQuery} mühendisliği`) {
+            // 1. Mutlak Kral
+            else if (eName === exactQuery || eName === `${exactQuery} bolumu` || eName === `${exactQuery} muhendisligi`) {
                 newScore = 0.00000001;
             }
-            // 2. KURAL: Gerçek isim aranan kelimeyle BAŞLIYORSA 
+            // 2. Başlangıç Tutması (Hiyerarşili)
             else if (eName.startsWith(`${exactQuery} `) || eName === exactQuery) {
-                newScore = 0.0000001;
+                if (eName.includes("bolumu") || eName.includes("fakultesi")) newScore = 0.0000001;
+                else if (eName.includes("merkez") || eName.includes("uam")) newScore = 0.0000009;
+                else newScore = 0.0000005;
             }
-            // 3. KURAL: Aranan kelime, gerçek ismin İÇİNDE tam kelime olarak geçiyorsa
+            // 🚀 2.5 ÖZ İSİM KRALLIĞI (SBF'yi ezen kural)
+            else if (meaningfulSearchTerms.filter(term => eName.includes(term)).length >= 2) {
+                // Eğer bölüm veya fakülteyse, dağınık SEO'ları (0.005) ezip geçecek bir skor ver!
+                if (eName.includes("bolumu") || eName.includes("fakultesi")) newScore = 0.0000002;
+                else newScore = 0.0000008;
+            }
+            // 3. İsim İçinde Tam Geçiş
             else if (new RegExp(`\\b${exactQuery}\\b`).test(eName)) {
-                newScore = 0.000001;
+                if (eName.includes("bolumu") || eName.includes("fakultesi")) newScore = 0.000001;
+                else newScore = 0.000005;
             }
-            // 4. KURAL: Alias (Takma ad) eşleşmesi
-            else if (eAlias === exactQuery) {
-                newScore = 0.0001;
-            }
-            // 5. KURAL (HAYAT KURTARAN): İsmi uymasa da ÇİPLERİNDEN birinde bu kelime varsa ceza yemesin!
-            else if (hasIntentMatch) {
+            // 4. Alias / Çip / SEO Tam Eşleşmesi
+            else if (eAlias === exactQuery || hasExactIntentMatch || hasSeoMatch) {
                 newScore = 0.001;
             }
-            // 6. CEZA KURALI: Hiçbir yerinde tam geçmiyor, Fuse.js uydurmuş. +10 ver, göm!
+            // 5. AND MANTIĞI (Tüm kelimeler bir yerlerde geçiyor)
+            else if (hasAllTerms) {
+                newScore = 0.005;
+            }
+            // 🚀 6. KISMİ EŞLEŞME VEYA SUBDOMAIN KALKANI (İşte Çocuk Gelişimini ölümden kurtaran kural!)
+            // İsminde veya Subdomain'inde (cge gibi) kelimenin BİRİ bile geçiyorsa bu kartı ipten al!
+            else if (hasNamePartial || hasSubdomainOrSeoMatch) {
+                if (eName.includes("bolumu") || eName.includes("fakultesi")) newScore = 0.01;
+                else newScore = 0.05; 
+            }
+            // 6. ÇÖP VE ANABİLİM/MERKEZ KATİLİ
             else {
-                newScore = newScore + 10;
+                // 🚀 KESİN İNFAZ: Eğer hiçbir kuralımızla eşleşmediyse (zattiri zottu gibi), 
+                // Fuse.js'in harf benzerliği avansına güvenme! Skoru 1.0 (ÇÖP) yap.
+                newScore = 1.0; 
             }
 
-            r.score = newScore;
+            // PRİO İSYANI: JSON'dan gelen emeği (priority_score) ekle
+            const prioBonus = (r.item.priority_score || 0) * 0.0000000001;
+            r.score = newScore - prioBonus;
         });
 
-        // Skorları bizim kurallara göre ZORLA yeniden sırala (Küçük skor = En üst sıra)
+        // Skorları ZORLA yeniden sırala
         entityResults.sort((a, b) => a.score - b.score);
 
-        // 🚀 ÇÖP ÖĞÜTÜCÜ: +10 Ceza yemiş (Yani alakasız olan) hiçbir şeyi ekranda gösterme!
-        entityResults = entityResults.filter(r => r.score < 10);
+        // 🚀 YENİ ÇÖP ÖĞÜTÜCÜ: +5 gibi saçma diktatör cezalar yerine, sadece Fuse.js'in matematiksel olarak kötü bulduğu (0.4 ve üstü) şeyleri gizle!
+        entityResults = entityResults.filter(r => r.score < 0.4);
 
         // RING KARTI İÇİN KESKİN NİŞANCI KALKANI (Spring, Engineering Tıkacı)
         entityResults = entityResults.filter(r => {
@@ -696,35 +748,54 @@
 
 
 
+        // 🚀 KÜRESEL DUYURU ARAMA MOTORU (TOKEN-BASED & TYPO TOLERANT)
         let annResults = [];
-        if (fuseAnnouncements) {
-            const annSearchResults = fuseAnnouncements.search(query);
 
-            const minSolidBlock = query.length < 4 ? query.length : 3;
+        if (meaningfulSearchTerms.length > 0) {
+            let flatAnnouncements = [];
+            currentAnnouncements.forEach(group => {
+                (group.items || []).forEach(item => {
+                    flatAnnouncements.push({
+                        title: item.title,
+                        link: item.link,
+                        source: item.source || group.entity,
+                        entity: group.entity
+                    });
+                });
+            });
 
-            annResults = annSearchResults.filter(r => {
-                const sourceLower = (r.item.source || "").toLowerCase();
-                const isMerkezAnn = sourceLower.includes("merkezi") && (sourceLower.includes("araştırma") || sourceLower.includes("uygulama"));
-                if (isMerkezAnn && r.score > 0.15) return false;
-                if (r.score >= 0.45) return false;
+            let customAnnResults = flatAnnouncements.map(ann => {
+                const titleNorm = normalizeTR(ann.title || "");
+                const eNameNorm = normalizeTR(ann.entity || ann.source || "");
+                const combinedText = `${titleNorm} ${eNameNorm}`;
 
-                let hasSolidBlock = false;
-                if (r.matches) {
-                    for (const match of r.matches) {
-                        for (const [start, end] of match.indices) {
-                            if ((end - start + 1) >= minSolidBlock) {
-                                hasSolidBlock = true;
-                                break;
-                            }
-                        }
-                        if (hasSolidBlock) break;
-                    }
-                }
+                let matchCount = 0;
+                meaningfulSearchTerms.forEach(term => {
+                    if (combinedText.includes(term)) matchCount += 1;
+                    else if (term.length >= 4 && combinedText.includes(term.substring(0, 4))) matchCount += 0.8;
+                });
 
-                if (!hasSolidBlock) return false;
+                // 🚀 ÇARPIM SKORU MANTIĞI
+                // Kurum adında eşleşme varsa 1.5x çarpan ver, yoksa 1.0 (Etkisiz)
+                const entityMatchScore = meaningfulSearchTerms.some(t => eNameNorm.includes(t)) ? 1.5 : 1.0;
+                
+                // Başlıktaki kelime eşleşme sayısı
+                const titleMatchScore = meaningfulSearchTerms.filter(t => titleNorm.includes(t)).length;
 
-                return true;
-            }).slice(0, 2).map(r => ({ ann: r.item, score: (1 - r.score) * 800 }));
+                // Skor ne kadar düşükse o kadar iyi. Kurum uyuşuyorsa skor çok daha hızlı düşer (iyileşir)
+                let score = 1.0 - (titleMatchScore * 0.3 * entityMatchScore) - (matchCount * 0.1);
+
+                return { ann: ann, score: score, matchCount: matchCount };
+            });
+
+            // Sadece aranan kelimelerden en az biriyle (veya typosuyla) eşleşen duyuruları tut
+            customAnnResults = customAnnResults.filter(r => r.matchCount > 0.5);
+
+            // En iyi skora göre sırala
+            customAnnResults.sort((a, b) => a.score - b.score);
+
+            // En iyi 2 duyuruyu al
+            annResults = customAnnResults.slice(0, 2);
         }
 
         render(entityResults.slice(0, 5), annResults);
@@ -799,14 +870,14 @@
                 cardHtml += '<div class="h-chips">';
 
                 // 🚀 ZEKİ SIRALAMA VE ZERO-STATE (BOŞ EKRAN) MANTIĞI
-                const searchVal = document.getElementById('h-input').value.toLowerCase().trim();
+                const searchVal = normalizeTR(document.getElementById('h-input').value.trim());
                 let sortedLinks = [...item.action_links];
 
                 if (searchVal.length > 2) {
                     // 1. Durum: Kullanıcı arama yaptıysa, yazdığı kelimeye uyan butonları öne çek!
                     sortedLinks.sort((a, b) => {
-                        const aMatch = a.intent.toLowerCase().includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
-                        const bMatch = b.intent.toLowerCase().includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                        const aMatch = normalizeTR(a.intent).includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                        const bMatch = normalizeTR(b.intent).includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
                         return bMatch - aMatch; 
                     });
                 } else {
@@ -822,7 +893,7 @@
 
                 // Şimdi güvenle ilk 3'ü alabiliriz, çünkü önemli olanlar artık en önde!
                 sortedLinks.slice(0, 3).forEach(l => {
-                    const isHighlight = searchVal.length > 2 && (l.intent.toLowerCase().includes(searchVal) || l.url.toLowerCase().includes(searchVal));
+                    const isHighlight = searchVal.length > 2 && normalizeTR(l.intent).includes(searchVal);
                     const isJs = l.url.startsWith('javascript:');
                     cardHtml += `<a href="${l.url}" ${isJs ? '' : 'target="_blank"'} class="h-chip${isHighlight ? ' highlight' : ''}" onclick="event.stopPropagation(); hubul_save('${item.entity_name}');">
                         <span>${l.intent}</span>
@@ -931,14 +1002,14 @@
                     cardHtml += '<div class="h-chips">';
 
                     // 🚀 ZEKİ SIRALAMA VE ZERO-STATE (BOŞ EKRAN) MANTIĞI
-                    const searchVal = document.getElementById('h-input').value.toLowerCase().trim();
+                    const searchVal = normalizeTR(document.getElementById('h-input').value.trim());
                     let sortedLinks = [...item.action_links];
 
                     if (searchVal.length > 2) {
                         // 1. Durum: Kullanıcı arama yaptıysa, yazdığı kelimeye uyan butonları öne çek!
                         sortedLinks.sort((a, b) => {
-                            const aMatch = a.intent.toLowerCase().includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
-                            const bMatch = b.intent.toLowerCase().includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                            const aMatch = normalizeTR(a.intent).includes(searchVal) || a.url.toLowerCase().includes(searchVal) ? 1 : 0;
+                            const bMatch = normalizeTR(b.intent).includes(searchVal) || b.url.toLowerCase().includes(searchVal) ? 1 : 0;
                             return bMatch - aMatch; 
                         });
                     } else {
@@ -952,7 +1023,7 @@
                     }
 
                     sortedLinks.slice(0, 3).forEach(l => {
-                        const isHighlight = searchVal.length > 2 && (l.intent.toLowerCase().includes(searchVal) || l.url.toLowerCase().includes(searchVal));
+                        const isHighlight = searchVal.length > 2 && normalizeTR(l.intent).includes(searchVal);
                         const isJs = l.url.startsWith('javascript:');
                         cardHtml += `<a href="${l.url}" ${isJs ? '' : 'target="_blank"'} class="h-chip${isHighlight ? ' highlight' : ''}" onclick="event.stopPropagation(); hubul_save('${item.entity_name}');">
                             <span>${l.intent}</span>
