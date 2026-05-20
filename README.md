@@ -1,6 +1,6 @@
 # Hubul
 
-> 📘 **Sistem Devir, Kurulum ve Bakım Dokümanı:** Projenin yeni ekibe devredilmesi, kurulum adımları, otonom zeka kuralları ve rutin operasyon detayları için hazırlanan kapsamlı [MAINTENANCE.md](file:///c:/Users/ACER/Desktop/a-z-hacettepe/MAINTENANCE.md) dokümanını okumayı unutmayın.
+> 📘 **Sistem Kurulum ve Bakım Dokümanı:** Projenin kurulum adımları, otonom zeka kuralları ve rutin operasyon detayları için hazırlanan kapsamlı [MAINTENANCE.md](file:///c:/Users/ACER/Desktop/a-z-hacettepe/MAINTENANCE.md) dokümanını okumayı unutmayın.
 
 Hubul, Hacettepe Üniversitesi'nin dağınık web yapısı içinde birim, sayfa, belge ve duyuru bulmayı hızlandırmak için geliştirilmiş bir arama katmanıdır.
 
