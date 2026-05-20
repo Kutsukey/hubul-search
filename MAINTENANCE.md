@@ -1,10 +1,8 @@
-# Hubul Search — Devir Teslim, Kurulum ve Bakım Dokümanı
+# Hubul Search — Kurulum ve Bakım Dokümanı
 
 [![Setup & Configuration Check](https://github.com/Kutsukey/hubul-search/actions/workflows/verify_setup.yml/badge.svg)](https://github.com/Kutsukey/hubul-search/actions/workflows/verify_setup.yml)
 
 > **Proje:** Hubul Search — Hacettepe Üniversitesi Otonom Arama Motoru  
-> **Geliştiren:** Hacettepe Üniversitesi Dijital Dönüşüm Ofisi  
-> **Belge Türü:** Enterprise Devir Teslim & Operasyon Kılavuzu  
 > **Son Güncelleme:** Mayıs 2026
 
 ---
@@ -560,7 +558,3 @@ LIMIT 20;
 > **Koda müdahaleden kaçının:** Operasyonun %90'ı `jargonMap`, `HARDCODED_OVERRIDES` ve `crawler_blacklist.json` üzerinden yönetilebilir. Temel arama mantığına dokunmadan sistemi yıllarca işletmek mümkündür.
 
 > **Supabase loglarını düzenli okuyun:** "Bulunamadı" logları, sistemin kör noktalarını gösterir. Bu loglar beslenmeden jargon sözlüğü güncellenmezse arama kalitesi zamanla düşer.
-
----
-
-*Bu doküman, Hubul Search sistemini devralan teknik ve operasyon ekiplerine yönelik hazırlanmıştır. Sorular ve güncellemeler için proje `README.md` ve kaynak kod yorumları birincil referans kaynaklarıdır.*
