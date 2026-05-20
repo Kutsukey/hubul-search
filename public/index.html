@@ -435,6 +435,12 @@
                     extraKeywords += " eduroam wifi vpn şifre internet";
                 }
 
+                // Bölüm, fakülte, enstitü ve yüksekokullara genel akademik kelimeleri ekle!
+                const cat = (item.category || "").toLowerCase();
+                if (cat.includes("bölüm") || cat.includes("fakülte") || cat.includes("enstitü") || cat.includes("yüksekokul")) {
+                    extraKeywords += " sınav vize final bütünleme ders programı müfredat";
+                }
+
                 const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
                 const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
                 item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""} ${extraKeywords}`.toLowerCase();

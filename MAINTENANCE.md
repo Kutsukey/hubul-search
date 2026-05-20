@@ -1,5 +1,7 @@
 # Hubul Search — Devir Teslim, Kurulum ve Bakım Dokümanı
 
+[![Setup & Configuration Check](https://github.com/Kutsukey/hubul-search/actions/workflows/verify_setup.yml/badge.svg)](https://github.com/Kutsukey/hubul-search/actions/workflows/verify_setup.yml)
+
 > **Proje:** Hubul Search — Hacettepe Üniversitesi Otonom Arama Motoru  
 > **Geliştiren:** Hacettepe Üniversitesi Dijital Dönüşüm Ofisi  
 > **Belge Türü:** Enterprise Devir Teslim & Operasyon Kılavuzu  
@@ -208,27 +210,36 @@ Settings → Secrets and variables → Actions → New repository secret
 | Secret Adı | Açıklama |
 |---|---|
 | `GOOGLE_API_KEY` | Google AI Studio'dan alınan Gemma/Gemini API anahtarı |
-| `SUPABASE_URL` | Supabase proje URL'si (telemetri için) |
-| `SUPABASE_ANON_KEY` | Supabase anonim erişim anahtarı (telemetri için) |
 
-> **Not:** Supabase olmadan sistem tamamen çalışır. Sadece "Bulunamadı" logları ve telemetri kaydedilmez.
+> **Not:** GitHub Actions üzerinde çalışan otonom veri tarama (crawler) adımları için `GOOGLE_API_KEY` gereklidir.
 
 ### Adım 3 — Supabase Kurulumu (Telemetri)
 
+Supabase telemetrisi, kullanıcıların bulamadığı aramaları kaydetmek için kullanılır. Bu işlem **istemci (tarayıcı) tarafında** çalıştığı için veriler GitHub Actions Secrets üzerinden okunmaz, doğrudan kod dosyalarına eklenmelidir.
+
 1. [supabase.com](https://supabase.com) üzerinde yeni bir proje açın.
-2. SQL Editor'de aşağıdaki tabloyu oluşturun:
+2. SQL Editor'de aşağıdaki SQL komutunu çalıştırarak hem tabloyu oluşturun hem de anonim anahtarın güvenliğini sağlamak için RLS (Row Level Security) politikasını tanımlayın (böylece dışarıdan sadece veri eklenebilir, mevcut veriler okunamaz veya silinemez):
 
 ```sql
+-- 1. Tabloyu oluşturun
 CREATE TABLE search_logs (
     id BIGSERIAL PRIMARY KEY,
     query TEXT NOT NULL,
     found BOOLEAN NOT NULL DEFAULT false,
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- 2. Row Level Security aktif edin
+ALTER TABLE search_logs ENABLE ROW LEVEL SECURITY;
+
+-- 3. Sadece veri eklemeye (INSERT) izin veren politikayı tanımlayın
+CREATE POLICY "Herkes veri ekleyebilir" ON search_logs
+    FOR INSERT 
+    TO public
+    WITH CHECK (true);
 ```
 
-3. Proje URL ve Anon Key değerlerini GitHub Secrets'a ekleyin (Adım 2).
-4. `ia-widget.js` içinde Supabase istemcisinin URL ve KEY alanlarını güncelleyin.
+3. `public/ia-widget.js` ve `public/index.html` dosyalarının içindeki `SUPABASE_URL` ve `SUPABASE_ANON_KEY` alanlarını kendi projenizin değerleriyle güncelleyin.
 
 ### Adım 4 — Frontend Deployment (Netlify / Vercel)
 
@@ -276,17 +287,25 @@ echo "GOOGLE_API_KEY=your_key_here" > .env
 
 ### Adım 6 — Lokal Test
 
+Ön yüz dosyalarını test etmek için `public` klasörünün içinden HTTP sunucusunu başlatmak en doğrusudur (böylece göreceli yollar doğru çözümlenir):
+
 ```bash
-cd a-z-hacettepe
+cd public
 python -m http.server 8000
-# Tarayıcıda: http://localhost:8000/public/
+# Tarayıcıda: http://localhost:8000
 ```
 
 ---
 
 ## 5. GitHub Actions — Otomasyon Takvimi
 
-Sistem iki ayrı otomasyon pipeline'ı ile kendi kendini günceller.
+Sistem üç ayrı otomasyon pipeline'ı ile çalışır.
+
+### Pipeline 0 — Kurulum ve Konfigürasyon Kontrolü (Setup Check)
+
+**Dosya:** `.github/workflows/verify_setup.yml`  
+**Zamanlama:** Her `push`, `pull_request` adımında veya manuel olarak tetiklendiğinde.  
+**Yapılan İş:** Projenin bağımlılıklarının doğru kurulduğunu, gerekli dosya yapısının mevcut olduğunu, `GOOGLE_API_KEY`'in geçerliliğini ve Supabase telemetri veritabanı bağlantısının sorunsuz çalıştığını kontrol eder.
 
 ### Pipeline 1 — Günlük Duyuru Güncellemesi
 

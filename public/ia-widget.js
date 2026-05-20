@@ -199,6 +199,22 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
             transform: translateY(-1px);
         }
+        .h-result-card.h-exact-card {
+            border: 1px solid rgba(166, 25, 46, 0.18);
+            box-shadow: 0 4px 18px rgba(166, 25, 46, 0.07), 0 1px 3px rgba(166, 25, 46, 0.03);
+            background: linear-gradient(145deg, #ffffff, rgba(166, 25, 46, 0.015));
+        }
+        .h-result-card.h-exact-card:hover {
+            box-shadow: 0 8px 24px rgba(166, 25, 46, 0.14), 0 3px 8px rgba(166, 25, 46, 0.06);
+            border-color: rgba(166, 25, 46, 0.3);
+            transform: translateY(-2px);
+        }
+        .h-divider {
+            height: 1px;
+            background: var(--h-border);
+            margin: 4px 0;
+            opacity: 0.35;
+        }
 
         .h-result-card.h-ann-card {
             border-left: 3px solid var(--h-primary);
@@ -475,9 +491,45 @@
         return nextMins !== -1;
     }
 
+    function prepareMasterData(data) {
+        data.forEach(item => {
+            if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
+            
+            // SEO ENJEKSİYONU: Makineye bilmediği kavramları gizlice öğretiyoruz
+            let extraKeywords = "";
+            const eName = item.entity_name.toLowerCase();
+            
+            // Erasmus ve Yurtdışı kelimelerini AB Ofisi'nin zihnine kazı!
+            if (eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler")) {
+                extraKeywords += " erasmus yurtdışı değişim farabi mevlana";
+            }
+            // Yemek, Yurt gibi kelimeleri SKS'nin zihnine kazı!
+            if (eName.includes("sağlık") && eName.includes("kültür")) {
+                extraKeywords += " yemekhane yemek menü yurt barınma mediko";
+            }
+            // İnternet sorunlarını Bilgi İşlem'e bağla!
+            if (eName.includes("bilgi işlem")) {
+                extraKeywords += " eduroam wifi vpn şifre internet";
+            }
+
+            // Bölüm, fakülte, enstitü ve yüksekokullara genel akademik kelimeleri ekle!
+            const cat = (item.category || "").toLowerCase();
+            if (cat.includes("bölüm") || cat.includes("fakülte") || cat.includes("enstitü") || cat.includes("yüksekokul")) {
+                extraKeywords += " sınav vize final bütünleme ders programı müfredat";
+            }
+
+            const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
+            const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
+            
+            // extraKeywords'ü görünmez arama metnine (search_text) gömüyoruz!
+            item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""} ${extraKeywords}`.toLowerCase();
+        });
+    }
+
     function buildMasterFuse(data) {
+        prepareMasterData(data);
         fuseInstance = new Fuse(data, {
-            includeScore: true, threshold: 0.25, ignoreLocation: true, useExtendedSearch: true, // 🚀 KRİTİK DÜZELTME: 0.45'ten 0.25'e indi. Çöpler kapı dışarı!
+            includeScore: true, threshold: 0.38, ignoreLocation: true, useExtendedSearch: true, // 🚀 0.25'İ 0.38 YAPTIK! Kapıyı VIP'ler geçebilsin diye biraz araladık.
             keys: [{ name: 'search_alias', weight: 5.0 }, { name: 'entity_name', weight: 3.0 }, { name: 'description', weight: 2.0 }, { name: 'search_text', weight: 1.0 }]
         });
     }
@@ -521,15 +573,16 @@
         const cachedMaster = localStorage.getItem(cacheKey);
         const cachedAnn = localStorage.getItem(annCacheKey);
         const now = new Date().getTime();
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 
-        if (cachedMaster) {
+        if (cachedMaster && !isLocal) {
             masterData = JSON.parse(cachedMaster);
             input.placeholder = "Ne arıyorsun? (Örn: oidb, erasmus)";
             showFiller(); // Cache var, anında göster!
         } else {
             showFiller(true);
         }
-        if (cachedAnn) {
+        if (cachedAnn && !isLocal) {
             currentAnnouncements = JSON.parse(cachedAnn);
         }
 
@@ -541,7 +594,7 @@
                 let fetchPromises = [];
                 let isMasterFetching = false;
 
-                if (!lastFetch || (now - parseInt(lastFetch)) > 2 * 60 * 60 * 1000) {
+                if (!lastFetch || (now - parseInt(lastFetch)) > 2 * 60 * 60 * 1000 || isLocal) {
                     fetchPromises.push(fetch(CONFIG.masterDataUrl + cacheBuster).then(res => res.json()));
                     isMasterFetching = true;
                 } else {
@@ -552,41 +605,14 @@
 
                 const [newMaster, newAnn] = await Promise.all(fetchPromises);
 
-                if (isMasterFetching && newMaster && JSON.stringify(newMaster) !== cachedMaster) {
+                if (isMasterFetching && newMaster && (!masterData || JSON.stringify(newMaster) !== JSON.stringify(masterData))) {
                     masterData = newMaster;
                     localStorage.setItem(cacheKey, JSON.stringify(newMaster));
                     localStorage.setItem(cacheTimeKey, now.toString());
-
-                    masterData.forEach(item => {
-                        if (!item.search_alias && item.url) item.search_alias = getSubdomain(item.url);
-                        
-                        // SEO ENJEKSİYONU: Makineye bilmediği kavramları gizlice öğretiyoruz
-                        let extraKeywords = "";
-                        const eName = item.entity_name.toLowerCase();
-                        
-                        // Erasmus ve Yurtdışı kelimelerini AB Ofisi'nin zihnine kazı!
-                        if (eName.includes("ab ofisi") || eName.includes("european") || eName.includes("dış ilişkiler")) {
-                            extraKeywords += " erasmus yurtdışı değişim farabi mevlana";
-                        }
-                        // Yemek, Yurt gibi kelimeleri SKS'nin zihnine kazı!
-                        if (eName.includes("sağlık") && eName.includes("kültür")) {
-                            extraKeywords += " yemekhane yemek menü yurt barınma mediko";
-                        }
-                        // İnternet sorunlarını Bilgi İşlem'e bağla!
-                        if (eName.includes("bilgi işlem")) {
-                            extraKeywords += " eduroam wifi vpn şifre internet";
-                        }
-
-                        const intents = item.action_links ? item.action_links.map(l => l.intent).join(" ") : "";
-                        const subs = item.sub_branches ? item.sub_branches.join(" ") : "";
-                        
-                        // extraKeywords'ü görünmez arama metnine (search_text) gömüyoruz!
-                        item.search_text = `${item.search_alias} ${item.entity_name} ${intents} ${subs} ${item.description || ""} ${extraKeywords}`.toLowerCase();
-                    });
                     buildMasterFuse(masterData);
                 }
 
-                if (newAnn && JSON.stringify(newAnn) !== cachedAnn) {
+                if (newAnn && (!currentAnnouncements || JSON.stringify(newAnn) !== JSON.stringify(currentAnnouncements))) {
                     currentAnnouncements = newAnn;
                     localStorage.setItem(annCacheKey, JSON.stringify(newAnn));
                     buildAnnouncementsFuse(newAnn);
@@ -595,7 +621,7 @@
             } catch (e) { console.error("Veri güncellenemedi:", e); }
         }
 
-        if (!cachedMaster) {
+        if (!cachedMaster || isLocal) {
             await refreshData();
             input.placeholder = "Ne arıyorsun? (Örn: oidb, erasmus)";
             if (!input.value.trim()) showFiller(false);
@@ -848,15 +874,13 @@
         }
 
         if (entityResults.length > 0) {
-            if (!isFiller) {
-                html += `<div class="h-section-label">Tam Eşleşen</div>`;
-            }
             const firstResult = entityResults[0];
             const item = firstResult.item;
             const matchedIntents = firstResult.matchedIntents || [];
 
+            const cardClass = isFiller ? "h-result-card" : "h-result-card h-exact-card";
             let cardHtml = `
-                <div class="h-result-card" onclick="if(event.target.tagName !== 'A') { window.open('${item.url}','_blank'); hubul_save('${item.entity_name}'); }">
+                <div class="${cardClass}" onclick="if(event.target.tagName !== 'A') { window.open('${item.url}','_blank'); hubul_save('${item.entity_name}'); }">
                     <div class="h-category-pill">${item.category || "Birim"}</div>
                     <h3 class="h-entity-title">${item.entity_name}</h3>
             `;
@@ -981,7 +1005,7 @@
 
         if (entityResults.length > 1) {
             if (!isFiller) {
-                html += '<div class="h-section-label" style="margin-top:8px;">Diğer Sonuçlar</div>';
+                html += '<div class="h-divider"></div>';
             }
             html += entityResults.slice(1).map(r => {
                 const item = r.item;

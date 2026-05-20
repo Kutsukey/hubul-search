@@ -259,6 +259,21 @@ def clean_and_merge_json(file_path):
         if "action_links" in item:
             item["action_links"] = filter_outdated_links(item["action_links"])
         
+        # 🚀 SKSDB İÇİN MEDİKO (SUNİ ÇİP) ENJEKSİYONU
+        e_name = item.get("entity_name", "").lower()
+        if "sağlık, kültür" in e_name or "sksdb" in item.get("search_alias", ""):
+            if "action_links" not in item:
+                item["action_links"] = []
+            
+            # Eğer bot zaten bulamadıysa, o linki zorla karta ekle
+            mevcut_linkler = [link.get("intent", "").lower() for link in item["action_links"]]
+            if not any("mediko" in link or "sağlık" in link for link in mevcut_linkler):
+                item["action_links"].append({
+                    "intent": "Öğrenci Sağlık Merkezi (Mediko)",
+                    "url": "https://hacettepe.edu.tr/yerleskedeyasam/saglik", # Aşılanan link
+                    "type": "external"
+                })
+        
         # 2. Mega İndeks Güncelleme (Filtreleme sonrası en güncel intents ile)
         intents = " ".join([l.get("intent", "") for l in item.get("action_links", [])])
         subdomain = item.get("search_alias", "")
@@ -323,6 +338,42 @@ def clean_and_merge_json(file_path):
     ]
     
     final_list.append(ring_karti)
+
+    # 🚀 HACETTEPE HASTANELERİ İÇİN ÖZEL VIP KART ENJEKSİYONU
+    hastane_var_mi = False
+    for item in final_list:
+        # Eğer crawler bir şekilde bulduysa, onu VIP yap ve SEO'sunu güçlendir
+        if "hastane.hacettepe.edu.tr" in item.get("url", ""):
+            hastane_var_mi = True
+            item["entity_name"] = "Hacettepe Üniversitesi Hastaneleri"
+            item["search_text"] = item.get("search_text", "") + " hastane hastaneleri randevu poliklinik laboratuvar tahlil online islemler"
+            item["priority_score"] = 150  # En tepeye çıksın diye ekstrem skor
+            
+            if "action_links" not in item:
+                item["action_links"] = []
+            mevcut_linkler = [link.get("intent", "").lower() for link in item["action_links"]]
+            if not any("online" in link for link in mevcut_linkler):
+                item["action_links"].append({
+                    "intent": "Online İşlemler",
+                    "url": "https://hastane.hacettepe.edu.tr/online-islemler_35.html",
+                    "type": "external"
+                })
+            break
+
+    # Eğer crawler hastaneyi tamamen es geçtiyse, sıfırdan jilet gibi bir kart oluştur
+    if not hastane_var_mi:
+        final_list.append({
+            "id": "vip_hastane_001",
+            "entity_name": "Hacettepe Üniversitesi Hastaneleri",
+            "url": "https://hastane.hacettepe.edu.tr",
+            "search_alias": "hastane",
+            "search_text": "hastane hastaneleri randevu poliklinik onkoloji cocuk e-randevu laboratuvar online islemler",
+            "priority_score": 150, # VIP Puanı (Fakülteleri bile ezer geçer)
+            "description": "Erişkin Hastanesi, İhsan Doğramacı Çocuk Hastanesi ve Onkoloji Hastanesi Ana Portalı",
+            "action_links": [
+                {"intent": "Online İşlemler", "url": "https://hastane.hacettepe.edu.tr/online-islemler_35.html", "type": "external"}
+            ]
+        })
 
     # YEDEKLEME VE ÜZERİNE YAZMA
     backup_path = file_path.replace(".json", "_backup.json")
