@@ -16126,5 +16126,50 @@
             "https://seramikvecam.hacettepe.edu.tr",
             "https://23nisan23cocuk23sanat.hacettepe.edu.tr"
         ]
+    },
+    "https://www.ai.hacettepe.edu.tr": {
+        "hash": "1e0a18c1e857fbcb7705d9d263ce6983",
+        "data": {
+            "is_active": true,
+            "entity_name": "Yapay Zeka Mühendisliği Bölümü",
+            "category": "Bölüm",
+            "description": "Hacettepe Üniversitesi bünyesinde yapay zeka alanında lisans ve lisansüstü düzeyde eğitim, araştırma ve geliştirme faaliyetlerini yürüten akademik birimdir. artificial intelligence, engineering, curriculum, research, prospective students",
+            "action_links": [
+                {
+                    "intent": "Aday Öğrenci Kılavuzunu Görüntüle",
+                    "url": "https://www.ai.hacettepe.edu.tr/assets/documents/Hacettepe_AIDE_Aday_Ogrenci_Kilavuzu_2026.pdf"
+                },
+                {
+                    "intent": "View Prospective Student Guide",
+                    "url": "https://www.ai.hacettepe.edu.tr/assets/documents/Hacettepe_AIDE_Aday_Ogrenci_Kilavuzu_2026.pdf"
+                }
+            ],
+            "announcement_schema": null,
+            "sub_branches": [],
+            "url": "https://www.ai.hacettepe.edu.tr",
+            "deep_crawl_files": 1,
+            "deep_crawl_pages": 23
+        },
+        "discovered": [
+            "https://cs.hacettepe.edu.tr",
+            "https://vision.cs.hacettepe.edu.tr",
+            "https://gazete.hacettepe.edu.tr",
+            "https://www.cs.hacettepe.edu.tr",
+            "https://www.secmeli.hacettepe.edu.tr",
+            "https://auton.cs.hacettepe.edu.tr",
+            "https://universitem.hacettepe.edu.tr",
+            "https://web.cs.hacettepe.edu.tr",
+            "https://yunus.hacettepe.edu.tr",
+            "https://intern.cs.hacettepe.edu.tr",
+            "https://avesis.hacettepe.edu.tr",
+            "https://internationalstudents.hacettepe.edu.tr",
+            "https://sksdb.hacettepe.edu.tr",
+            "https://www.hacettepe.edu.tr",
+            "https://fs.hacettepe.edu.tr",
+            "https://bilsis.hacettepe.edu.tr",
+            "https://akts.hacettepe.edu.tr",
+            "https://oidb.hacettepe.edu.tr",
+            "https://abofisi.hacettepe.edu.tr"
+        ]
     }
 }

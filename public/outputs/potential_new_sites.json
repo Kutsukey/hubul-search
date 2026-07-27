@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "url": "https://intern.cs.hacettepe.edu.tr",
+        "entity_name": "intern.cs.hacettepe.edu.tr"
+    },
+    {
+        "url": "https://auton.cs.hacettepe.edu.tr",
+        "entity_name": "auton.cs.hacettepe.edu.tr"
+    },
+    {
+        "url": "https://vision.cs.hacettepe.edu.tr",
+        "entity_name": "vision.cs.hacettepe.edu.tr"
+    }
+]
