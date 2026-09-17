@@ -2,7 +2,7 @@
     {
         "entity": "Adli Bilişim Araştırma ve Uygulama Merkezi",
         "url": "https://adlibilisim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.825116",
+        "last_updated": "2026-09-17T13:18:46.811383",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı Bilişim ve Fikri Mülkiyet Hukuku Tezsiz Yüksek Lisans Programı Başvuru Süreci",
@@ -49,8 +49,16 @@
     {
         "entity": "Ankara Devlet Konservatuvarı",
         "url": "https://adk.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:34.367032",
+        "last_updated": "2026-09-17T13:18:42.753388",
         "items": [
+            {
+                "title": "► Değerli mezunumuz ve eğitmenimiz, kıymetli sanatçı Münir Canar'ın Vefatı",
+                "link": "https://fs.hacettepe.edu.tr/adk/Duyurular/diger/M%C3%BCnir%20Canar.jpeg",
+                "date": "17.09.2026 00:00",
+                "source": "Ankara Devlet Konservatuvarı",
+                "entity": "Ankara Devlet Konservatuvarı",
+                "description": null
+            },
             {
                 "title": "► Yeni Kazanan Öğrencilerin Dikkatine",
                 "link": "https://fs.hacettepe.edu.tr/adk/DUYURU.pdf",
@@ -64,7 +72,7 @@
     {
         "entity": "Ağaçişleri Endüstri Mühendisliği Bölümü",
         "url": "https://aem.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:34.683220",
+        "last_updated": "2026-09-17T13:18:39.282688",
         "items": [
             {
                 "title": "2026-2027 Eğitim Yılı Güz Dönemi Haftalık Ders Programı",
@@ -111,7 +119,7 @@
     {
         "entity": "Tıp Fakültesi Adli Tıp Ana Bilim Dalı",
         "url": "https://adlitip.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.867996",
+        "last_updated": "2026-09-17T13:18:43.983717",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Sağlık Bilimleri Enstitüsü \"Postmortem Morfolojik İncelemeler\" Tezsiz Yüksek Lisans Programı\r\n\r\n2025-2026 Eğitim Öğretim Yılı\r\nGüz Yarı Yılı İçin\r\nÖğrenci Alımları Başlıyor.",
@@ -134,11 +142,19 @@
     {
         "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
         "url": "https://adea.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:37.042418",
+        "last_updated": "2026-09-17T13:18:41.957281",
         "items": [
             {
+                "title": "Yüksek Lisans Öğretim progamının güncellenmiş hali ilgili menüye eklenmiştir.",
+                "link": "https://adea.hacettepe.edu.tr/tr/menu/ogretim_programi_yuksek_lisans-86",
+                "date": "16.09.2026 00:00",
+                "source": "Alman Dili Eğitimi Ana Bilim Dalı",
+                "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
+                "description": "Güncel PDF Dosyası (Yüksek Lisans) Hacettepe Bologna Web Sayfası (Yüksek Lisans) Eski Dosyalar PDF Dosyası (Lisansüstü Programlar - YL ve DR)"
+            },
+            {
                 "title": "2026-2027 Güz Dönemi Lisans Programı güncellenmiştir.",
-                "link": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program - Sınav/GÜZ2627_LisansDersProgramı_16.09.2026_SONN.pdf",
+                "link": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program - Sınav/GÜZ2627_LisansDersProgramı_16.09.2026_ENSON.pdf",
                 "date": "16.09.2026 00:00",
                 "source": "Alman Dili Eğitimi Ana Bilim Dalı",
                 "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
@@ -146,7 +162,7 @@
             },
             {
                 "title": "2026-2027 Güz Dönemi ALE 401 Öğretmenlik Uygulaması I dersinin Öğrenci Dağılım Listesi güncellenmiştir",
-                "link": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program - Sınav/16.09. SON  2026_2027 GÜZ Dönemi ALE 401 Öğretmenlik Uygulaması Dersi Uygulama Okulları Öğrenci Dağılım Listesi_166.09.2026_SON.pdf",
+                "link": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program - Sınav/öğretmenlikuygulaması_ENSON.pdf",
                 "date": "16.09.2026 00:00",
                 "source": "Alman Dili Eğitimi Ana Bilim Dalı",
                 "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
@@ -167,21 +183,13 @@
                 "source": "Alman Dili Eğitimi Ana Bilim Dalı",
                 "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
                 "description": "| | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| | 1 | 2026-2027 EGT Güz Programı* * Oluşabilecek değişikliklere karşı bu belgeyi daima çevrimiçi olarak takip ediniz. | | | | | | | | | | | | | | | | | | | | | | | | | | | 2 | DERS KODU, ŞUBESİ VE ADI | TPK | AKTS | DERS SORUMLUSU | GÜNÜ | SAATİ | DERSLİK | | | | | | | | | | | | | "
-            },
-            {
-                "title": "2026-2027 Güz Yarıyılı Lisansüstü Ders Programı güncellenmiştir",
-                "link": "https://fs.hacettepe.edu.tr/adea/dosyalar/Program - Sınav/ADÖ_YL_Güz20262027_Ders Programı.pdf",
-                "date": "15.09.2026 00:00",
-                "source": "Alman Dili Eğitimi Ana Bilim Dalı",
-                "entity": "Alman Dili Eğitimi Ana Bilim Dalı",
-                "description": null
             }
         ]
     },
     {
         "entity": "Adli Bilimler Yüksek Lisans ve Doktora Programı",
         "url": "https://adlibilimler.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.352270",
+        "last_updated": "2026-09-17T13:18:44.049916",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı Adli Bilimler Yüksek Lisans/Doktora 2. Başvuru Giriş Sınavları Hakkında",
@@ -228,7 +236,7 @@
     {
         "entity": "European Union Office",
         "url": "https://abofisi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:34.004873",
+        "last_updated": "2026-09-17T13:18:40.224552",
         "items": [
             {
                 "title": "ÖĞRENİM HAREKETLİLİĞİ | ERASMUS+ ASOSİYE OLMAYAN ÜLKELER ARASINDA ÖĞRENCİ ÖĞRENİM HAREKETLİLİĞİ PROGRAMI 2026-2027 AKADEMİK YILI KESİN YERLEŞTİRME SONUÇLARI (2024-1-TR01-KA171-HED-000224162)",
@@ -275,7 +283,7 @@
     {
         "entity": "Alman Dili ve Edebiyatı Bölümü",
         "url": "https://ade.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.830371",
+        "last_updated": "2026-09-17T13:18:42.642592",
         "items": [
             {
                 "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisansüstü Ders Programı",
@@ -322,7 +330,7 @@
     {
         "entity": "Amerikan Kültürü ve Edebiyatı Bölümü",
         "url": "https://ake.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:36.726573",
+        "last_updated": "2026-09-17T13:18:42.063244",
         "items": [
             {
                 "title": "2026-2027 GÜZ DÖNEMİ ÇİFT ANADAL VE YANDAL PROGRAMINA KABUL EDİLENLER",
@@ -369,12 +377,12 @@
     {
         "entity": "Aktüerya Bilimleri Bölümü",
         "url": "https://aktuerya.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.964471",
+        "last_updated": "2026-09-17T13:19:02.338880",
         "items": [
             {
                 "title": "ÇAP ve YANDAL Rehberi Hakkında",
                 "link": "https://oidb.hacettepe.edu.tr/tr/menu/%3Cimg_src=httpfshacettepeedutryenika-161",
-                "date": "16.09.2026 00:00",
+                "date": "18.09.2026 00:00",
                 "source": "Aktüerya Bilimleri Bölümü",
                 "entity": "Aktüerya Bilimleri Bölümü",
                 "description": "ÇAP Rehberi (güncelleme 26.01.2026) Yandal Rehber i (güncelleme 23.12.2025)"
@@ -416,7 +424,7 @@
     {
         "entity": "Department of Architecture",
         "url": "https://architecture.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.875970",
+        "last_updated": "2026-09-17T13:18:47.459715",
         "items": [
             {
                 "title": "2026-2027 Academic Year Fall Semester Temporary Classroom Information for SEC-Coded Courses",
@@ -463,7 +471,7 @@
     {
         "entity": "Arkeoloji Bölümü",
         "url": "https://arkeo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:39.165071",
+        "last_updated": "2026-09-17T13:18:40.811716",
         "items": [
             {
                 "title": "2026-2027 ÖĞRETİM YILI GÜZ DÖNEMİ YANDAL PROGRAMINA BAŞVURAN VE KABUL EDİLEN ÖĞRENCİLER",
@@ -510,7 +518,7 @@
     {
         "entity": "Aile ve Tüketici Bilimleri Bölümü",
         "url": "https://atb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.639693",
+        "last_updated": "2026-09-17T13:18:41.087421",
         "items": [
             {
                 "title": "Hacettepe Aile ve Tüketici Topluluğu (HATÜT) Başkanlık Seçimi hakk.",
@@ -557,7 +565,7 @@
     {
         "entity": "Antropoloji Bölümü",
         "url": "https://antropoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.901734",
+        "last_updated": "2026-09-17T13:18:47.437777",
         "items": [
             {
                 "title": "Antropoloji Bölümü 2026-2027 Güz Yarıyılı Ders Programları",
@@ -604,7 +612,7 @@
     {
         "entity": "Aşı Enstitüsü",
         "url": "https://asienstitusu.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.883092",
+        "last_updated": "2026-09-17T13:18:47.928922",
         "items": [
             {
                 "title": "EMEK'li Sohbetler 34. Bölümde Enstitümüz ve Lisansüstü Eğitim Olanaklarımız ile yer aldık",
@@ -651,7 +659,7 @@
     {
         "entity": "Bilimsel Araştırma Projeleri Koordinasyon Birimi",
         "url": "https://bap.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.667183",
+        "last_updated": "2026-09-17T13:18:45.984397",
         "items": [
             {
                 "title": "2026 yılı BAP Uygulama Esasları yayınlandı.",
@@ -698,7 +706,7 @@
     {
         "entity": "Biyoloji Eğitimi Ana Bilim Dalı",
         "url": "https://beabd.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.140625",
+        "last_updated": "2026-09-17T13:18:47.410392",
         "items": [
             {
                 "title": "2026 - 2027 Eğitim Öğretim Yılı Güz Dönemi Lisans Programına Ulaşmak İçin Tıklayınız (Güncellemeler için takip ediniz)",
@@ -710,11 +718,11 @@
             },
             {
                 "title": "2026 - 2027 Eğitim Öğretim Yılı Güz Dönemi Lisansüstü Programına Ulaşmak İçin Tıklayınız (Güncellemeler için takip ediniz)",
-                "link": "https://fs.hacettepe.edu.tr/beabd/dersprogrami/26guz/26GuzLisansUstu.pdf",
+                "link": "https://docs.google.com/document/d/1h_3Z9eUM8e9HpwzoSxHHyJcHkWXoTmae/edit#heading=h.bb004a553juh",
                 "date": "14.09.2026 00:00",
                 "source": "Biyoloji Eğitimi Ana Bilim Dalı",
                 "entity": "Biyoloji Eğitimi Ana Bilim Dalı",
-                "description": null
+                "description": "JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload. This browser version is no longer supported. Please upgrade to a supported browser. 26-27 GÜZ LİSANSÜSTÜ DERS PROGRAMI Share Sign in File Edit View Tools Help Accessibility Debug Unsaved changes to Drive"
             },
             {
                 "title": "2025-2026 Bahar Yarıyılı Bütünleme Sınav Programı",
@@ -745,7 +753,7 @@
     {
         "entity": "Bilgisayar ve Bilişim Bilimleri Fakültesi",
         "url": "https://bbbf.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:39.112054",
+        "last_updated": "2026-09-17T13:18:44.970583",
         "items": [
             {
                 "title": "2026 YKS İLE ÜNİVERSİTEMİZE YERLEŞEN ADAYLAR",
@@ -776,8 +784,16 @@
     {
         "entity": "Beslenme ve Diyetetik Bölümü",
         "url": "https://bdb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.120409",
+        "last_updated": "2026-09-17T13:18:41.757860",
         "items": [
+            {
+                "title": "2026-2027 Güz Dönemi Lisans Ders Programı",
+                "link": "https://fs.hacettepe.edu.tr/bdb/Duyurular/2026-2027 Güz Lisans Ders Programı Güncel.pdf",
+                "date": "17.09.2026 00:00",
+                "source": "Beslenme ve Diyetetik Bölümü",
+                "entity": "Beslenme ve Diyetetik Bölümü",
+                "description": null
+            },
             {
                 "title": "Öğrencilerimizin Dikkatine Sektör Kampüste Programı Kapsamında Yeni Dersler Açıldı!",
                 "link": "https://bdb.hacettepe.edu.tr/tr/ogrencilerimizin_dikkatine_sek-710",
@@ -809,21 +825,13 @@
                 "source": "Beslenme ve Diyetetik Bölümü",
                 "entity": "Beslenme ve Diyetetik Bölümü",
                 "description": "HACETTEPE ÜNİVERSİTESİ Beslenme ve Diyetetik Bölümü TR EN Kalite Güvencesi Anasayfa Anasayfa Duyurular Etkinlikler Haberler Öğretim Programlar Ders Programı Akademik Takvim Değişim Programları Öğrenciler İçin Öğrenci Formları Öğrenci Kılavuzu Usul ve Esaslar Öğrenci Temsilcileri Öğrenci Toplulukları Yatay ve Dikey Geçiş ÇAP ve YANDAL Rehberi Araştırma Araştırma Laboratuvarları Projeler Dergiler Öncelikli Alanlar Bilimsel Danışmanlık Hizmeti Personel Öğretim Üyeleri Araştırma Görevlileri İdari Pe"
-            },
-            {
-                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı (Güncellenmiştir.)",
-                "link": "https://fs.hacettepe.edu.tr/bdb/Duyurular/2026-2027 GÜZ DÖNEMİ DERS PROGRAMI-DUYURU (15.09).pdf",
-                "date": "14.09.2026 00:00",
-                "source": "Beslenme ve Diyetetik Bölümü",
-                "entity": "Beslenme ve Diyetetik Bölümü",
-                "description": null
             }
         ]
     },
     {
         "entity": "Beden Eğitimi ve Spor Anabilim Dalı",
         "url": "https://bedenegitimivespor.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.850542",
+        "last_updated": "2026-09-17T13:18:47.856293",
         "items": [
             {
                 "title": "Doktora öğrencimizden Uluslararası İstanbul Spor Filmleri Festivali’nde belgesel başarısı",
@@ -870,7 +878,7 @@
     {
         "entity": "Beden Eğitimi ve Spor Öğretmenliği Bölümü",
         "url": "https://beo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.131546",
+        "last_updated": "2026-09-17T13:18:44.703422",
         "items": [
             {
                 "title": "TÜBİTAK 2219 – Yurt Dışı Doktora Sonrası Araştırma Bursu başarısı",
@@ -917,7 +925,7 @@
     {
         "entity": "Bilgi İşlem Daire Başkanlığı",
         "url": "https://bidb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:36.193085",
+        "last_updated": "2026-09-17T13:18:40.725050",
         "items": [
             {
                 "title": "Microsoft OneDrive Depolama Kotaları Hakkında Bilgilendirme",
@@ -964,7 +972,7 @@
     {
         "entity": "Beytepe Anaokulu",
         "url": "https://beytepeanaokulu.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.854851",
+        "last_updated": "2026-09-17T13:18:45.553676",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Anaokulları 2026-2027 Eğitim Yılı 'Kesin Kayıt' İlanı",
@@ -1011,7 +1019,7 @@
     {
         "entity": "Biyoinformatik Anabilim Dalı",
         "url": "https://biyoinformatik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.669400",
+        "last_updated": "2026-09-17T13:18:47.056376",
         "items": [
             {
                 "title": "Biyoinformatik Anabilim Dalı'nın 2025-2026 Bahar dönemi yüksek lisans mülakatları 28.01.2026",
@@ -1058,7 +1066,7 @@
     {
         "entity": "Biyoloji Bölümü",
         "url": "https://biology.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.628460",
+        "last_updated": "2026-09-17T13:18:45.904088",
         "items": [
             {
                 "title": "Sadece 2026-2027 YILI İTİBARİYLE YENİ KAYIT yaptıran öğrencilerin, 2026-2027 Güz Dönemi Lisans Ders Programı için tıklayınız.",
@@ -1105,7 +1113,7 @@
     {
         "entity": "Bulaşıcı Olmayan Hastalıkların Önlenmesi İşbirliği ve Araştırma Merkezi (BOHAM)",
         "url": "https://boham.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.407532",
+        "last_updated": "2026-09-17T13:18:46.424812",
         "items": [
             {
                 "title": "21 Eylül Dünya Alzheimer Gününde Çevirimiçi Konferansta Buluşmak Dileğiyle...                               (ZOOM Toplantı Kimliği:895 1706 5472     Parola:Qd2y8T)",
@@ -1128,7 +1136,7 @@
     {
         "entity": "Biyoistatistik Anabilim Dalı",
         "url": "https://biyoistatistik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.837451",
+        "last_updated": "2026-09-17T13:18:44.311038",
         "items": [
             {
                 "title": "Biyoistatistik Anabilim Dalı 2026-2027 Güz Yarıyılı Ders Programı",
@@ -1175,8 +1183,16 @@
     {
         "entity": "Biyomühendislik Anabilim Dalı",
         "url": "https://biyomuh.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.240311",
+        "last_updated": "2026-09-17T13:18:45.247924",
         "items": [
+            {
+                "title": "BYM 702 – Biyolojik Bilimler II Dersi Hakkında Önemli Duyuru",
+                "link": "https://biyomuh.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrtestb-470",
+                "date": "17.09.2026 00:00",
+                "source": "Biyomühendislik Anabilim Dalı",
+                "entity": "Biyomühendislik Anabilim Dalı",
+                "description": "BYM 702 – Biyolojik Bilimler II dersi, 2026–2027 Güz Dönemi için Enstitü tarafından sehven açılmıştır. Bu nedenle söz konusu dersin bu dönem öğrenci ders programlarına eklenmemesi gerekmektedir. Ders kaydını henüz kesinleştirmemiş öğrencilerimizin BYM 702 dersine kayıt yapmamaları; ders kaydını kesinleştirmiş ve BYM 702 dersini programına eklemiş öğrencilerimizin ise ekle-sil döneminde dersi programlarından silmeleri gerekmektedir. Tüm öğrencilerimizin ders kayıt işlemleri sırasında bu hususa di"
+            },
             {
                 "title": "15.09.2026 tarihi itibariyle güncellenen 2026–2027 Güz Dönemi Ders Programı için tıklayınız",
                 "link": "https://fs.hacettepe.edu.tr/biyomuh/150926%20bym.pdf",
@@ -1208,21 +1224,13 @@
                 "source": "Biyomühendislik Anabilim Dalı",
                 "entity": "Biyomühendislik Anabilim Dalı",
                 "description": null
-            },
-            {
-                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Öğrenci Alımı Afişi",
-                "link": "https://fs.hacettepe.edu.tr/biyomuh/140826%20bak%C4%B1r%C3%A7ay.png",
-                "date": "14.08.2026 00:00",
-                "source": "Biyomühendislik Anabilim Dalı",
-                "entity": "Biyomühendislik Anabilim Dalı",
-                "description": null
             }
         ]
     },
     {
         "entity": "Environmental Engineering Department",
         "url": "https://cevre.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:39.140553",
+        "last_updated": "2026-09-17T13:18:45.944276",
         "items": [
             {
                 "title": "2026-2027 Fall Term Course Schedule,Updated!!!",
@@ -1269,7 +1277,7 @@
     {
         "entity": "Çevre Eğitimi, Kuş Araştırma ve Halkalama Merkezi",
         "url": "https://cekam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.583275",
+        "last_updated": "2026-09-17T13:18:48.552296",
         "items": [
             {
                 "title": "Üniversitemizin Beytepe Yerleşkesindeki Kuş Türleri İle İlgili Detaylı Verileri İçeren Araştırmamız Yayımlandı. Ulaşmak İçin Tıklayınız.",
@@ -1308,7 +1316,7 @@
     {
         "entity": "Civil Engineering Department",
         "url": "https://ce.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.731448",
+        "last_updated": "2026-09-17T13:18:45.860734",
         "items": [
             {
                 "title": "2026-27 Fall Course Schedule",
@@ -1355,7 +1363,7 @@
     {
         "entity": "Bilişim Enstitüsü",
         "url": "https://bilisim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:37.949882",
+        "last_updated": "2026-09-17T13:18:43.626241",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi II. Alım Giriş Sınavı Sonucunda Bilimsel Hazırlık Dersleri Alacak Öğrenciler",
@@ -1367,7 +1375,7 @@
             },
             {
                 "title": "Yüksek Lisans Programları II. Öğrenci Alım Süreci Kesin Kayıt İşlemleri",
-                "link": "https://fs.hacettepe.edu.tr/bilisim/Dosyalar/26-27%20G%C3%BCz/26-27_Guz_2.Alim_KesinKayit.pdf",
+                "link": "https://fs.hacettepe.edu.tr/bilisim/Dosyalar/26-27%20G%C3%BCz/26-27_Guz_II.Alim_KesinKayit.pdf",
                 "date": "10.09.2026 00:00",
                 "source": "Bilişim Enstitüsü",
                 "entity": "Bilişim Enstitüsü",
@@ -1379,7 +1387,7 @@
                 "date": "10.09.2026 00:00",
                 "source": "Bilişim Enstitüsü",
                 "entity": "Bilişim Enstitüsü",
-                "description": "Haftalık ders programlarına aşağıdaki bağlantılardan ulaşabilirsiniz. Bina ve derslik bilgileri daha sonra güncellenecektir. Tezli Yüksek Lisans Programları Haftalık Ders Programı Tezsiz Yüksek Lisans Programları Haftalık Ders Programı Uzaktan Eğitim \"Eğitimde Bilişim Teknolojileri\" Tezsiz Yüksek Lisans Programı Bilişim ve Fikri Mülkiyet Hukuku Tezsiz Yüksek Lisans Programı"
+                "description": "Haftalık ders programlarına aşağıdaki bağlantılardan ulaşabilirsiniz. Tezli Yüksek Lisans Programları Haftalık Ders Programı Tezsiz Yüksek Lisans Programları Haftalık Ders Programı Uzaktan Eğitim \"Eğitimde Bilişim Teknolojileri\" Tezsiz Yüksek Lisans Programı Bilişim ve Fikri Mülkiyet Hukuku Tezsiz Yüksek Lisans Programı"
             },
             {
                 "title": "2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı II. Alım Genel Başarı Değerlendirme Sınavı Sonuçları",
@@ -1402,7 +1410,7 @@
     {
         "entity": "Çocuk Gelişimi Bölümü",
         "url": "https://cge.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.550284",
+        "last_updated": "2026-09-17T13:18:47.581048",
         "items": [
             {
                 "title": "LİSANS ÖĞRENCİLERİMİZİN DİKKATİNE! 2026-2027 GÜZ YARIYILI DERS PROGRAMI, KAYIT DUYURUSU ve KAYIT YÖN...",
@@ -1449,7 +1457,7 @@
     {
         "entity": "Çocuk Gelişimi Uygulama ve Araştırma Merkezi",
         "url": "https://cogaum.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.157106",
+        "last_updated": "2026-09-17T13:18:47.466826",
         "items": [
             {
                 "title": "Gelişimsel Erken Müdahale Sempozyumu için tıklayınız.",
@@ -1496,7 +1504,7 @@
     {
         "entity": "Kimya Mühendisliği Bölümü",
         "url": "https://cheng.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.696715",
+        "last_updated": "2026-09-17T13:18:43.040865",
         "items": [
             {
                 "title": "15.09.2026 tarihi itibariyle güncellenen 2026-2027 Güz dönemi lisans ders programı için tıklayınız",
@@ -1543,8 +1551,16 @@
     {
         "entity": "Kimya Bölümü",
         "url": "https://chem.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.190752",
+        "last_updated": "2026-09-17T13:18:47.939827",
         "items": [
+            {
+                "title": "2026-2927 GÜZ DÖNEMİ\r\nKIM 488-KİMYADA ENDÜSTRİYEL UYGULAMALAR DERSİ\r\nBAŞVURU TAKVİMİ",
+                "link": "https://chem.hacettepe.edu.tr/tr/20262927_guz_donemikim_488ki-1116",
+                "date": "17.09.2026 00:00",
+                "source": "Kimya Bölümü",
+                "entity": "Kimya Bölümü",
+                "description": "Üniversite-Sanayi işbirliği kapsamında 2022-2023 Güz Döneminde ilk defa açılan KİM 488-Kimyada Endüstriyel Uygulamalar (TPK 062 , 4 AKTS) dersi için Gen İlaç ve Sağlık Ürünleri S.T A.O. ile yapılan protokol çerçevesinde; • Ders kapsamında öğrenciler 14 hafta boyunca haftanın belirlenen bir gününde (2026-2027Güz Dönemi için perşembe günü) GEN İlaç’ın Organize Sanayi Bölgesinde bulunan Üretim Tesisinde bulunacaklar ve UNİGEN projesi kapsamında GEN İLAÇ tarafından hazırlanan eğitim programına dahil"
+            },
             {
                 "title": "KİM 310 Kendini Onarabilen Malzemeler, KİM 271 Kimyada Makine Öğrenmesi ve Yapay Zeka ve KİM 311 Organik Yapı Analizi dersleri hk.",
                 "link": "https://chem.hacettepe.edu.tr/tr/kim_310_kendini_onarabilen_mal-1114",
@@ -1576,21 +1592,13 @@
                 "source": "Kimya Bölümü",
                 "entity": "Kimya Bölümü",
                 "description": "Hacettepe Üniversitesi Kimya Bölümü 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisansüstü Programları öğrenci kabul sınavları, 8 Eylül 2026 Salı günü aşağıdaki program doğrultusunda gerçekleştirilecektir."
-            },
-            {
-                "title": "Erasmus+ KA171 - Ortak Ülkeler (Programla İlişkili Olmayan Üçüncü Ülkelerde) Öğrenim Hareketliliği 2026-2027 Akademik Yılı Seçim Takvimi",
-                "link": "https://chem.hacettepe.edu.tr/tr/erasmus+_ka171_ortak_ulkeler_p-1106",
-                "date": "13.08.2026 00:00",
-                "source": "Kimya Bölümü",
-                "entity": "Kimya Bölümü",
-                "description": "Erasmus+ KA171 Ortak Ülkeler (Programla İlişkili Olmayan Üçüncü Ülkeler) ile Yükseköğretimde Bireylerin Öğrenme Hareketliliği Programı kapsamında yürütülmekte olan, 2024 Çağrı Yılına ait 2024-1-TR01-KA171-HED-000224162 numaralı proje çerçevesinde gerçekleştirilecek 2026-2027 Akademik Yılı Öğrenim Hareketliliği faaliyetlerine (en geç 31.07.2027 tarihinde tamamlanmak üzere) ilişkin başvuru, seçim ve yerleştirme takvimini içeren Uluslararası İlişkiler ve Protokoller Koordinatörlüğünün yazısı ve bil"
             }
         ]
     },
     {
         "entity": "Tıp Fakültesi İç Hastalıkları Anabilim Dalı",
         "url": "https://dahiliye.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.832096",
+        "last_updated": "2026-09-17T13:18:44.082346",
         "items": [
             {
                 "title": "İç Hastalıkları Anabilim Dalı Web Sayfasına Hoşgeldiniz,",
@@ -1605,7 +1613,7 @@
     {
         "entity": "Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü",
         "url": "https://ctl.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.168696",
+        "last_updated": "2026-09-17T13:18:44.265039",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı (Güncel)",
@@ -1652,7 +1660,7 @@
     {
         "entity": "Tıp Tarihi ve Etik Anabilim Dalı",
         "url": "https://deontoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.546498",
+        "last_updated": "2026-09-17T13:18:47.119902",
         "items": [
             {
                 "title": "DÜNYA BİYOETİK GÜNÜ KUTLU OLSUN!!",
@@ -1699,7 +1707,7 @@
     {
         "entity": "Eğitim Bilimleri Bölümü",
         "url": "https://ebb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:40.604137",
+        "last_updated": "2026-09-17T13:18:45.205449",
         "items": [
             {
                 "title": "2026-2027 Eğitim Öğretim Yılı Güz Dönemi Lisansüstü Ders Programı açıklanmıştır.(Bu belgeyi daima çevrimiçi olarak kullanınız.)",
@@ -1722,8 +1730,16 @@
     {
         "entity": "İktisat Bölümü",
         "url": "https://econ.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:39.210007",
+        "last_updated": "2026-09-17T13:18:47.565261",
         "items": [
+            {
+                "title": "YDYO Modern Diller Birimi Ortak Zorunlu İngilize Dersleri 2026-2027 Güz Dönemi 21 EYLÜL 2026 Muafiyet Sınavı Duyurusu",
+                "link": "https://fs.hacettepe.edu.tr/ydyo/duyuru/modern_diller_duyuru_dosyalari/Modern_Diller_Muafiyet_Sinavi_Duyurusu_Tablo.docx.pdf",
+                "date": "21.09.2026 00:00",
+                "source": "İktisat Bölümü",
+                "entity": "İktisat Bölümü",
+                "description": null
+            },
             {
                 "title": "Lisans Öğrenci Kimlikleri Hakkında",
                 "link": "https://econ.hacettepe.edu.tr/tr/lisans_ogrenci_kimlikleri_hakk-1088",
@@ -1731,13 +1747,37 @@
                 "source": "İktisat Bölümü",
                 "entity": "İktisat Bölümü",
                 "description": "2026 girişli öğrencilerin öğrenci kimlikleri, 15 Eylül Salı 15.30-17.00 ve 16 Eylül Çarşamba 10.00-11.30 ve 13.30-16.30 arasında Arş. Gör. Baver Yeşilyurt tarafından İktisadi ve İdari Bilimler Fakültesi 4. Kat ’ta dağıtılacaktır."
+            },
+            {
+                "title": "Meliha Ercan Vakfı Burs Duyurusu",
+                "link": "https://econ.hacettepe.edu.tr/tr/meliha_ercan_vakfi_burs_duyuru-1096",
+                "date": "14.09.2026 00:00",
+                "source": "İktisat Bölümü",
+                "entity": "İktisat Bölümü",
+                "description": "Meliha Ercan Vakfı , başarılı kız öğrencilerimize yönelik bir burs programı başlatmıştır. Maddi imkânları sınırlı olan kadın öğrencileri eğitim hayatları boyunca destekleyerek ülkemizin geleceğine değer katacak kadınların yetişmesine katkı sağlanması amaçlanmaktadır. 2026-2027 eğitim-öğretim yılı itibarıyla verilecek olan burslara www.melihaercanvakfi.org.tr adresinden lisans düzeyinde eğitim gören kız öğrenciler 1-30 Eylül tarihleri arasında başvuru yapabileceklerdir."
+            },
+            {
+                "title": "Tezli Yüksek Lisans ve Doktora Öğrencilerimizin Dikkatine",
+                "link": "https://econ.hacettepe.edu.tr/tr/tezli_yuksek_lisans_ve_doktora-1090",
+                "date": "13.09.2026 00:00",
+                "source": "İktisat Bölümü",
+                "entity": "İktisat Bölümü",
+                "description": "Tez ile ilgili Araştırma Çalışmaları Dersleri 2025-2026 Eğitim-Öğretim Yılı Güz Dönemi girişli öğrencilerden itibaren uygulanmak üzere “Tezle İlgili Araştırma Çalışmaları” dersleri zorunlu statüde birbirinin ön koşulu olarak açılmıştır. İlgili dersim ders notu Geçti/Kaldı olarak verilecektir. Yüksek Lisans: ECO890 – ECO891 Doktora: ECO990 – ECO991 – ECO992 2026-2027 Güz Dönemi girişli öğrenciler, Doktora Programlarında “ECO990 Tezle İlgili Araştırma Çalışmaları I” Yüksek Lisans Programlarında “E"
+            },
+            {
+                "title": "Türk Eğitim Vakfı (TEV) Burs Duyurusu",
+                "link": "https://econ.hacettepe.edu.tr/tr/turk_egitim_vakfi_tev_burs_duy-1086",
+                "date": "08.09.2026 00:00",
+                "source": "İktisat Bölümü",
+                "entity": "İktisat Bölümü",
+                "description": "Türk Eğitim Vakfı (TEV), başarılı ve maddi imkânları kısıtlı üniversite öğrencilerine burs desteği sağlamaktadır. TEV Üniversite Eğitim Bursu için başvurular, 14 Eylül 2026 – 8 Ekim 2026 tarihleri arasında TEV’in mobil uygulaması Obigenç üzerinden çevrim içi olarak alınacaktır. Başvuru yapmak isteyen öğrencilerimizin Türk Eğitim Vakfı’nın ( www.tev.org.tr ) internet sayfasında açıklanan prosedürü takip etmesi gerekmektedir."
             }
         ]
     },
     {
         "entity": "Diş Hekimliği Fakültesi",
         "url": "https://dis.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.261838",
+        "last_updated": "2026-09-17T13:18:49.145214",
         "items": [
             {
                 "title": "Hacettepe Tanıtım Kataloğu",
@@ -1784,7 +1824,7 @@
     {
         "entity": "Eczacılık Fakültesi",
         "url": "https://eczacilik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.710741",
+        "last_updated": "2026-09-17T13:18:46.624278",
         "items": [
             {
                 "title": "2026-2027 Öğretim Yılı Güz Dönemi Ders Programı",
@@ -1831,7 +1871,7 @@
     {
         "entity": "Edebiyat Fakültesi",
         "url": "https://edebiyat.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.653544",
+        "last_updated": "2026-09-17T13:18:47.068945",
         "items": [
             {
                 "title": "2026-2027 YANDAL PROGRAMLARINA KABUL EDİLEN ÖĞRENCİLER",
@@ -1878,7 +1918,7 @@
     {
         "entity": "Eğitim Bilimleri Enstitüsü",
         "url": "https://egitimbilimlerienstitusu.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:38.572534",
+        "last_updated": "2026-09-17T13:18:43.278808",
         "items": [
             {
                 "title": "2026-2027 EĞİTİM-ÖĞRETİM YILI GÜZ YARIYILI II...",
@@ -1925,8 +1965,16 @@
     {
         "entity": "Eğitim Fakültesi",
         "url": "https://egitim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.894863",
+        "last_updated": "2026-09-17T13:18:46.979399",
         "items": [
+            {
+                "title": "ISO 9001 Kalite Yönetim Sistemi Belgemiz Hk.",
+                "link": "https://fs.hacettepe.edu.tr/egitim/Duyuru%20Dosyalar%C4%B1/2026-2027%20G%C3%BCz%20D%C3%B6nemi%20BTE199%20Bili%C5%9Fim%20Teknolojileri%20Ders%20Program%C4%B1%20.pdf",
+                "date": "17.09.2026 00:00",
+                "source": "Eğitim Fakültesi",
+                "entity": "Eğitim Fakültesi",
+                "description": null
+            },
             {
                 "title": "Hacettepe Üniversitesi 2026-2027 Öğretim Yılı Mezun Öğrenciler İçin Pedagojik Formasyon Eğitimi Sertifika Programı Başvuruları 16.09.2026 tarihine kadar uzatılmıştır.",
                 "link": "https://egitim.hacettepe.edu.tr/tr/<img_src=httpsfshacettepeedutr-872",
@@ -1937,16 +1985,8 @@
             },
             {
                 "title": "2026 - 2027  Öğretim Yılı Güz Dönemi Çift Anadal Başvuruları Başvuru Sonuçları",
-                "link": "https://fs.hacettepe.edu.tr/egitim/%C3%87ift%20Ana%20Dal/2026-2027%20G%C3%BCz%20%C3%87ift%20Anadal%20Yandal%20Sonu%C3%A7lar%C4%B1.pdf",
+                "link": "https://fs.hacettepe.edu.tr/egitim/Duyuru%20Dosyalar%C4%B1/2026-2027%20G%C3%BCz%20%C3%87ift%20Anadal%20Yandal%20Sonu%C3%A7lar%C4%B1.pdf",
                 "date": "15.09.2026 00:00",
-                "source": "Eğitim Fakültesi",
-                "entity": "Eğitim Fakültesi",
-                "description": null
-            },
-            {
-                "title": "ISO 9001 Kalite Yönetim Sistemi Belgemiz Hk.",
-                "link": "https://fs.hacettepe.edu.tr/egitim/Duyuru%20Dosyalar%C4%B1/2026-2027_G%C3%BCz_GKS_PROGRAMI.pdf",
-                "date": "14.09.2026 00:00",
                 "source": "Eğitim Fakültesi",
                 "entity": "Eğitim Fakültesi",
                 "description": null
@@ -1972,7 +2012,7 @@
     {
         "entity": "Eğitim Komisyonu",
         "url": "https://egitimkomisyonu.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.646477",
+        "last_updated": "2026-09-17T13:18:45.934194",
         "items": [
             {
                 "title": "\"Birim ve Program Açma ve Kapatma Gerekçe Formu\" ve \"Program Güncelleme, Yeni Ders Açma Kapatma ...",
@@ -2019,7 +2059,7 @@
     {
         "entity": "Engelli Öğrenci Birimi",
         "url": "https://eob.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.119223",
+        "last_updated": "2026-09-17T13:18:48.511542",
         "items": [
             {
                 "title": "Her Öğrenci İçin Eşit Erişim, Eşit Fırsat",
@@ -2058,7 +2098,7 @@
     {
         "entity": "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Anabilim Dalı",
         "url": "https://enfeksiyon.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.643798",
+        "last_updated": "2026-09-17T13:18:47.591564",
         "items": [
             {
                 "title": "Antimikrobiyal Yönetişim Sertifikalı Online Eğitim Programı",
@@ -2081,7 +2121,7 @@
     {
         "entity": "Eğitim Programları ve Öğretim Anabilim Dalı",
         "url": "https://epo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:45.043953",
+        "last_updated": "2026-09-17T13:18:50.071894",
         "items": [
             {
                 "title": "Yeni 2025-2026 Öğretim Yılı Bahar Dönemi Eğitim Bilimleri Anabilim Dalı Lisansüstü Programı için tıklayınız.",
@@ -2128,7 +2168,7 @@
     {
         "entity": "Fen Bilgisi Öğretmenliği Ana Bilim Dalı",
         "url": "https://fbo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.875312",
+        "last_updated": "2026-09-17T13:18:48.932373",
         "items": [
             {
                 "title": "1. Sınıf öğrencilerinin ders kaydı yaparken seçmeleri gereken şube listelerine ulaşmak için lütfen tıklayınız.",
@@ -2139,7 +2179,7 @@
                 "description": "Sıra Öğrenci No (Son 4 Hane) Adı Soyadı Fizik-Kimya Seçeceği Şube 1 C***2007 DİDEM ÖK*** 1 2 ***6004 KÜBRA YI*** 1 3 ***6008 EREN ŞA*** 1 4 ***6011 ARAS AT*** 1 5 ***6013 ELİFSU KA*** 1 6 ***6019 TİMURHAN AÇ*** 1 7 ***6026 İBRAHİM KA*** 1 8 ***6027 EYLEM OR*** 1 9 ***6032 SUDE VU*** 1 10 ***6044 ABDULLAH AYBEY KO*** 1 11 ***6047 GİZEM Şİ*** 1 12 ***6001 ZEYNEP BETÜL YA*** 1 13 ***6004 İREMSU ER*** 1 14 ***6005 ENES AS*** 1 15 ***6006 ELİF ŞA*** 1 16 ***6007 ZEYNEP EF*** 1 17 ***6009 ELİF SUDE HA"
             },
             {
-                "title": "2026-2027 Güz Dönemi Lisans ders programı için lütfen tıklayınız.",
+                "title": "2026-2027 Güz Dönemi Lisans ders programı için lütfen tıklayınız. (GÜNCELLENDİ)",
                 "link": "https://fbo.hacettepe.edu.tr/tr/20262027_guz_donemi_lisans_der-362",
                 "date": "15.09.2026 00:00",
                 "source": "Fen Bilgisi Öğretmenliği Ana Bilim Dalı",
@@ -2155,12 +2195,12 @@
                 "description": "Sıra Öğrenci No (Son 4 Hane) Adı Soyadı Biyoloji-II Dersi Atanan Şube 1 ***6003 ŞULE KA** 1 2 ***6028 YAĞMUR ŞEVVAL ÇE** 1 3 ***6001 ROJİN ÖZ** 1 4 ***6002 ELİF ÖZGÜ GÜ** 1 5 ***6003 AYÇA AL** 1 6 ***6005 HAFSA SENA ER** 1 7 ***6006 SUDE HA** 1 8 ***6007 KEZBAN ELİF ER** 1 9 ***6009 CELAL YI** 1 10 ***6010 ATAKAN ÖZ** 1 11 ***6014 BUSE VO** 1 12 ***6015 SUDE NAZ KA** 1 13 ***6016 ZÜLFÜ DAMLA ES** 1 14 ***6017 MEHMET ÖZ** 1 15 ***6018 BARAN Cİ** 1 16 ***6020 MEDİNE Bİ** 2 17 ***6021 CEREN Sİ** 2 "
             },
             {
-                "title": "2026-2027 Güz Dönemi FEN401 Öğretmenlik Uygulaması I Öğrenci Dağılım Listesine ulaşmak için lütfen tıklayınız",
+                "title": "2026-2027 Güz Dönemi FEN401 Öğretmenlik Uygulaması I Öğrenci Dağılım Listesine ulaşmak için lütfen tıklayınız. (GÜNCELLENDİ)",
                 "link": "https://fbo.hacettepe.edu.tr/tr/20262027_guz_donemi_fen401_ogr-360",
                 "date": "15.09.2026 00:00",
                 "source": "Fen Bilgisi Öğretmenliği Ana Bilim Dalı",
                 "entity": "Fen Bilgisi Öğretmenliği Ana Bilim Dalı",
-                "description": "2026-2027 GÜZ DÖNEMİ FEN401 ÖĞRETMENLİK UYGULAMASI-I ÖĞRENCİ DAĞILIM LİSTESİ Şube Danışman Okul Öğrenci sayısı Öğretmen Öğrenci No (son 4 hanesi) / Adı Soyadı 1 Prof. Dr. Cemil AYDOĞDU ERYAMAN KOOPERATİFLER BİRLİĞİ O.O. 3 Z** G** ***6054 ME** Tİ** ***6006 AY** DA** ***6044 RE** ÜN** 2 Dr. Fatma ŞENER ERYAMAN KOOPERATİFLER BİRLİĞİ O.O. 3 D** Ş** ***6001 ME** BA** ***6015 GÜ** EK** ***6004 SE** AV** 3 Prof. Dr. Gültekin ÇAKMAKCI BEYTEPE ORTAOKULU 3 N** C** ***6050 AS** AY** ***6038 ÖZ** UL** ***60"
+                "description": "2026-2027 GÜZ DÖNEMİ FEN401 ÖĞRETMENLİK UYGULAMASI-I ÖĞRENCİ DAĞILIM LİSTESİ Şube Danışman Okul Öğrenci sayısı Öğrenci No (son 4 hanesi) / Adı Soyadı 1 Prof. Dr. Cemil AYDOĞDU ERYAMAN KOOPERATİFLER BİRLİĞİ O.O. 3 ***6054 ME** Tİ** ***6006 AY** DA** ***6044 RE** ÜN** 2 Dr. Fatma ŞENER ERYAMAN KOOPERATİFLER BİRLİĞİ O.O. 3 ***6001 ME** BA** ***6015 GÜ** EK** ***6004 SE** AV** 3 Prof. Dr. Gültekin ÇAKMAKCI BEYTEPE ORTAOKULU 3 ***6050 AS** AY** ***6038 ÖZ** UL** ***6012 ÖZ** UL** 4 Doç. Dr. İlke ÖNAL"
             },
             {
                 "title": "2026-2027 Güz Dönemi EGT-EBB (Meslek Bilgisi) kodlu zorunlu ve seçmeli derslerin ders programına erişmek için lütfen tıklayınız",
@@ -2175,7 +2215,7 @@
     {
         "entity": "Eğitim Yönetimi Ana Bilim Dalı",
         "url": "https://eytpe.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.853434",
+        "last_updated": "2026-09-17T13:18:49.714546",
         "items": [
             {
                 "title": "2025-2026 Eğitim Öğretim Yılı Bahar Dönemi Lisansüstü Ders Programı açıklanmıştır.(Bu belgeyi daima çevrimiçi olarak kullanınız.)",
@@ -2222,7 +2262,7 @@
     {
         "entity": "Fizik Eğitimi Ana Bilim Dalı",
         "url": "https://feabd.hacettepe.edu.tr/tr/duyurular",
-        "last_updated": "2026-09-16T13:22:45.073807",
+        "last_updated": "2026-09-17T13:18:49.413935",
         "items": [
             {
                 "title": "2026-2027 Akademik Yılı Güz Dönemi Lisans Ders Programları Hk.2026-09-15 18:00:00",
@@ -2269,7 +2309,7 @@
     {
         "entity": "Fen Bilimleri Enstitüsü",
         "url": "https://fenbilimleri.hacettepe.edu.tr/tr/duyuru/duyurular",
-        "last_updated": "2026-09-16T13:22:42.874260",
+        "last_updated": "2026-09-17T13:18:47.451292",
         "items": [
             {
                 "title": "Af Kapsamında Başvuru Yapan Öğrencilerimizin 2026-2027 Güz Dönemi Ders Kayıt İşlemleri Hakkında",
@@ -2316,15 +2356,15 @@
     {
         "entity": "Felsefe Bölümü",
         "url": "https://felsefe.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.297112",
+        "last_updated": "2026-09-17T13:18:48.915950",
         "items": [
             {
-                "title": "2026-2027 Güz Dönemi Felsefe Bölümü Ders Programları",
-                "link": "https://felsefe.hacettepe.edu.tr/tr/20262027_guz_donemi_felsefe-680",
+                "title": "ÖNEMLİ GÜNCELLEME2026-2027 Güz Dönemi Felsefe Bölümü Ders Programları",
+                "link": "https://felsefe.hacettepe.edu.tr/tr/_onemli_guncelleme_2026-680",
                 "date": "11.09.2026 00:00",
                 "source": "Felsefe Bölümü",
                 "entity": "Felsefe Bölümü",
-                "description": "Lisans Ders Programı Yüksek Lisans Ders Programı Doktora Ders Programı"
+                "description": "Lisans Ders Programı Yüksek Lisans Ders Programı Doktora Ders Programı Güncelleme: FELSEFE ÖĞRENCİLERİNİN SOS104 KODLU SOSYOLOJİYE GİRİŞ DERSİNİN 14. ŞUBESİNİ (DOÇ. DR. SEVGİ ÇOBAN) SEÇMESİ GEREKMEKTEDİR. SOS104 SOSYOLOJİYE GİRİŞ DERSİNİN BİLGİLERİ GÜNCELLENMİŞTİR. DERS KODU SOS104-014 OLUP DERS EMEL DOĞRAMACI SALONUNDA CUMA GÜNLERİ SAAT 13.40-16.30 ARASINDA DOÇ. DR. SEVGİ ÇOBAN TARAFINDAN YÜRÜTÜLECEKTİR."
             },
             {
                 "title": "2026-2027 Güz Dönemi İnsan Hakları Anabilim Dalı Ders Programları",
@@ -2363,7 +2403,7 @@
     {
         "entity": "Fransız Dili Eğitimi Anabilim Dalı",
         "url": "https://fdo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.894261",
+        "last_updated": "2026-09-17T13:18:47.552489",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı Lisans Ders Programı",
@@ -2386,7 +2426,7 @@
     {
         "entity": "Fizyoloji Ana Bilim Dalı",
         "url": "https://fizyoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.065423",
+        "last_updated": "2026-09-17T13:18:47.830002",
         "items": [
             {
                 "title": "Fizyoloji Anabilim Dalı 2026 Yaz Stajı",
@@ -2409,8 +2449,16 @@
     {
         "entity": "Gıda Mühendisliği Bölümü",
         "url": "https://food.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.207780",
+        "last_updated": "2026-09-17T13:18:48.125569",
         "items": [
+            {
+                "title": "GMÜ309 Gıda Kimyası Laboratuvarı dersini alan öğrencilerin dikkatine!",
+                "link": "https://food.hacettepe.edu.tr/tr/gmu309_gida_kimyasi_laboratuva-1200",
+                "date": "17.09.2026 00:00",
+                "source": "Gıda Mühendisliği Bölümü",
+                "entity": "Gıda Mühendisliği Bölümü",
+                "description": "İlgili dersin ilk hafta tanıtım ve laboratuvar güvenliğini içeren ilk dersi 4 şubenin de katılımı ile toplu olarak 21 Eylül Pazartesi günü saat 15.15’de Amfi’de gerçekleştirilecektir. Yoklama alınacaktır. 25 Eylül Cuma günü saat 15.45’de amfide Laboratuvar Güvenliği sınavı yapılacaktır. Derse devam edecek öğrencilerin sınava katılımı zorunludur (Sınav için mazereti bulunan öğrencilerin ders sorumlusu ile iletişime geçmesi gerekmektedir)"
+            },
             {
                 "title": "2026-2027 Güz dönemi lisans ders programı",
                 "link": "https://fs.hacettepe.edu.tr/food/duyurular/Ders%20Sorumlular%C4%B1_Program%C4%B1/1_2026_2027_g%C3%BCz/3b_2026-2027_guz_lisans_15_09_26_web.pdf",
@@ -2442,21 +2490,13 @@
                 "source": "Gıda Mühendisliği Bölümü",
                 "entity": "Gıda Mühendisliği Bölümü",
                 "description": null
-            },
-            {
-                "title": "Naz Erdem’in EuroSense 2026’da sunacağı poster çalışması, duyusal ve tüketici bilimi alanının önemli uluslararası konferanslarından EuroSense kapsamında “Emerging Talent Spotlight” seçkisinde yer alan üç posterden biri olarak seçildi.",
-                "link": "https://food.hacettepe.edu.tr/tr/naz_erdemin_eurosense_2026da_s-1188",
-                "date": "09.09.2026 00:00",
-                "source": "Gıda Mühendisliği Bölümü",
-                "entity": "Gıda Mühendisliği Bölümü",
-                "description": "Hacettepe Üniversitesi Gıda Mühendisliği Bölümü doktora öğrencisi Araş. Gör. Naz Erdem’in “Bliss point based modelling approach for sugar and salt reductions in bakery product formulations” başlıklı poster çalışması, EuroSense 2026 Emerging Talent Spotlight kapsamında öne çıkarılan üç posterden biri olarak seçildi. EuroSense – European Conference on Sensory and Consumer Research, duyusal ve tüketici bilimi alanında akademi ve endüstriden araştırmacıları dünya çapında bir araya getiren önemli ulu"
             }
         ]
     },
     {
         "entity": "Fizik Tedavi ve Rehabilitasyon Fakültesi",
         "url": "https://ftrfakulte.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:45.347199",
+        "last_updated": "2026-09-17T13:18:49.810660",
         "items": [
             {
                 "title": "Güncel 2026–2027 Eğitim-Öğretim Yılı Güz Dönemi Ders Programları",
@@ -2503,7 +2543,7 @@
     {
         "entity": "Uluslararası Gıda Biyogüvenlik ve Biyoteknoloji Araştırma ve Yayım Merkezi (IFBBC)",
         "url": "https://foodbiotech.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:45.997606",
+        "last_updated": "2026-09-17T13:18:50.519143",
         "items": [
             {
                 "title": "Gıda Mikrobiyolojisinde Bakteriyel Metagenom Dizileme İçin Uygulamalı Biyoinformatik Yaklaşımlar konulu eğitimimize davetlisiniz!",
@@ -2550,7 +2590,7 @@
     {
         "entity": "Harita Mühendisliği Bölümü",
         "url": "https://geomatik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.708742",
+        "last_updated": "2026-09-17T13:18:48.273806",
         "items": [
             {
                 "title": "2026-27 Güz Dönemi Programı",
@@ -2597,7 +2637,7 @@
     {
         "entity": "Güzel Sanatlar Fakültesi",
         "url": "https://gsf.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.008787",
+        "last_updated": "2026-09-17T13:18:46.634989",
         "items": [
             {
                 "title": "YENİGSF KODLU ORTAK SEÇMELİ DERSLERİ - 2026-2027 GÜZ DÖNEMİ DERS PROGRAMI",
@@ -2612,7 +2652,7 @@
     {
         "entity": "Türk Halkbilimi Bölümü",
         "url": "https://halkbilimi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:44.104914",
+        "last_updated": "2026-09-17T13:18:48.461787",
         "items": [
             {
                 "title": "2026-2027 Güz Ders Programı",
@@ -2659,7 +2699,7 @@
     {
         "entity": "Gitar Bölümü",
         "url": "https://gitar.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.752094",
+        "last_updated": "2026-09-17T13:18:48.477221",
         "items": [
             {
                 "title": "Kadınlar Günü Konseri",
@@ -2682,7 +2722,7 @@
     {
         "entity": "Grafik Bölümü",
         "url": "https://grafik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:41.994403",
+        "last_updated": "2026-09-17T13:18:47.084333",
         "items": [
             {
                 "title": "YENİGSF KODLU ORTAK SEÇMELİ DERSLERİ - 2026-2027 GÜZ DÖNEMİ DERS PROGRAMI",
@@ -2705,7 +2745,7 @@
     {
         "entity": "Güzel Sanatlar Enstitüsü",
         "url": "https://gse.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.201858",
+        "last_updated": "2026-09-17T13:18:48.221051",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi II. Öğrenci Alımı Kesin Kayıt Hakkı Kazanan Öğrenci Listesi",
@@ -2752,7 +2792,7 @@
     {
         "entity": "Arı ve Arı Ürünleri Uygulama ve Araştırma Merkezi (HARÜM)",
         "url": "https://harum.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.259714",
+        "last_updated": "2026-09-17T13:18:50.985771",
         "items": [
             {
                 "title": "5-25.Ekim.2026 tarihleri arasında hibrit olarak \"Arıcılık, Arı Ürünleri Ve Nektarlı Bitkiler Sertifika Programı\" eğitmenlerimiz Prof.Dr. Aslı Özkök Saban, Prof.Dr. Mahmut Kabalak ve Doç.Dr. Golshan Zare tarafından verilecektir. Eğitime ilgi duyanları bekliyoruz.",
@@ -2799,7 +2839,7 @@
     {
         "entity": "Hayat Boyu Öğrenme ve Yetişkin Eğitimi Ana Bilim Dalı",
         "url": "https://hbo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:42.849772",
+        "last_updated": "2026-09-17T13:18:49.391489",
         "items": [
             {
                 "title": "Hayat Boyu Öğrenme Semineri 4 Duyurusu Hk.",
@@ -2838,7 +2878,7 @@
     {
         "entity": "Halk Sağlığı Enstitüsü",
         "url": "https://halksagligiens.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.135146",
+        "last_updated": "2026-09-17T13:18:50.480963",
         "items": [
             {
                 "title": "Prof. Dr. Ü.Şevkat BAHAR ÖZVARIŞ \r\nEMEKLİLİK TÖRENİ\r\n27.02.2026",
@@ -2885,7 +2925,7 @@
     {
         "entity": "Tıp Fakültesi Halk Sağlığı Anabilim Dalı",
         "url": "https://halksagligi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:23:02.189684",
+        "last_updated": "2026-09-17T13:19:02.179133",
         "items": [
             {
                 "title": "lütfen tıklayınız.",
@@ -2900,7 +2940,7 @@
     {
         "entity": "Hareket Analizi ve Podiatri Uygulama ve Araştırma Merkezi (HAPUAM)",
         "url": "https://hapuam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.699375",
+        "last_updated": "2026-09-17T13:18:48.484237",
         "items": [
             {
                 "title": "Hareket Analizi ve Podiatri Uygulama ve Araştırma Merkezi (HAPUAM) Etkinliği",
@@ -2915,15 +2955,23 @@
     {
         "entity": "1. OSB Meslek Yüksekokulu",
         "url": "https://hacettepeaso.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.334372",
+        "last_updated": "2026-09-17T13:18:51.052253",
         "items": [
+            {
+                "title": "2026-2027 GÜZ DÖNEMİ BAŞINDA YAPILACAK OLAN ÜÇ DERS SINAVI BAŞVURULARI",
+                "link": "https://hacettepeaso.hacettepe.edu.tr/tr/20262027_guz_donemi_basinda_ya-158",
+                "date": "17.09.2026 00:00",
+                "source": "1. OSB Meslek Yüksekokulu",
+                "entity": "1. OSB Meslek Yüksekokulu",
+                "description": "2026-2027 GÜZ DÖNEMİ BAŞINDA YAPILACAK OLAN ÜÇ DERS SINAVINA BAŞVURULARI KABUL EDİLEN ÖĞRENCİLERİMİZİN LİSTESİ İÇİN TIKLAYINIZ. Sınav Takvimi daha sonra duyurulacaktır."
+            },
             {
                 "title": "2026 - 2027 EĞİTİM VE ÖĞRETİM YILI GÜZ DÖNEMİ DERS PROGRAMLARI",
                 "link": "https://hacettepeaso.hacettepe.edu.tr/tr/2026_2027_egitim_ve_ogretim_yi-156",
                 "date": "15.09.2026 00:00",
                 "source": "1. OSB Meslek Yüksekokulu",
                 "entity": "1. OSB Meslek Yüksekokulu",
-                "description": "MAKİNE VE METAL TEKNOLOJİLERİ BÖLÜMÜ MAKİNE PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (1. VE 2. SINIF) MAKİNE PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF) ELEKTRİK VE ENERJİ BÖLÜMÜ ALTERNATİF ENERJİ KAYNAKLARI PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF) ALTERNATİF ENERJİ KAYNAKLARI PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (1. VE 2. SINIF) ELEKTRİK PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (1. VE 2. SINIF) ELEKTRİK PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF) TASARIM BÖLÜMÜ EUT PROG"
+                "description": "MAKİNE VE METAL TEKNOLOJİLERİ BÖLÜMÜ MAKİNE PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (17.09.2026 Güncelleme) (1. VE 2. SINIF) MAKİNE PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF) ELEKTRİK VE ENERJİ BÖLÜMÜ ALTERNATİF ENERJİ KAYNAKLARI PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF) ALTERNATİF ENERJİ KAYNAKLARI PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (1. VE 2. SINIF) ELEKTRİK PROGRAMI 2026-2027 GÜZ DERS PROGRAMI (1. VE 2. SINIF) ELEKTRİK PROGRAMI 2026-2027 GÜZ DERS KATALOĞU (1. VE 2. SINIF)"
             },
             {
                 "title": "2026-2027 Akademik Yılı Güz Dönemi HMY297 İşyeri Beceri Eğitimi II Dersi Uygulaması GEÇ BAŞVURU Tarihleri Hakkında",
@@ -2948,21 +2996,13 @@
                 "source": "1. OSB Meslek Yüksekokulu",
                 "entity": "1. OSB Meslek Yüksekokulu",
                 "description": "14-18 Eylül 2026 tarihleri arasında yapılacak olan UNI101 Üniversite Yaşamına Giriş Dersi Bilgileri için tıklayınız.... 15 Eylül 2026 Meslek Yüksekokulumuz Programları Bölüm Tanıtımı Bilgileri için Tıklayınız..."
-            },
-            {
-                "title": "7592 Sayılı Af Kanunu Kapsamında Meslek Yüksekokulumuz Programlarına Başvuru Yapacak Adayların Dikkatine",
-                "link": "https://hacettepeaso.hacettepe.edu.tr/tr/7592_sayili_af_kanunu_kapsamin-146",
-                "date": "03.09.2026 00:00",
-                "source": "1. OSB Meslek Yüksekokulu",
-                "entity": "1. OSB Meslek Yüksekokulu",
-                "description": "Hacettepe Üniversitesi Öğrenci İşleri Daire Başkanlığı'nın 7592 Sayılı Af Kanunu Kapsamında Önlisans-Lisans Programlarına Başvuru Yapacak Adaylar hakkındaki duyurusu için tıklayınız.."
             }
         ]
     },
     {
         "entity": "Nüfus Etütleri Enstitüsü",
         "url": "https://hips.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:45.732586",
+        "last_updated": "2026-09-17T13:18:50.755612",
         "items": [
             {
                 "title": "2026-2027 Öğretim Yılı Güz Dönemi Açılan Dersler ve Ders Programları",
@@ -3009,8 +3049,16 @@
     {
         "entity": "Hemşirelik Fakültesi",
         "url": "https://hemsirelik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.221964",
+        "last_updated": "2026-09-17T13:18:50.491495",
         "items": [
+            {
+                "title": "HEPDAK Özdeğerlendirme Raporu Hazırlama Kılavuzu-Sürüm 6.0 başarım göstergelerinin güncellenmesi bilgilendirme toplantısı ayrıntıları için tıklayınız.",
+                "link": "https://fs.hacettepe.edu.tr/hemsirelik/dosyalar/duyurular/hepdak_bilgilendirme.jpg",
+                "date": "17.09.2026 00:00",
+                "source": "Hemşirelik Fakültesi",
+                "entity": "Hemşirelik Fakültesi",
+                "description": null
+            },
             {
                 "title": "Sevgili Öğrenciler, 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Haftalık Ders Programı ve Ders Kayıt Haftasına ilişkin bilgilendirme için tıklayınız.",
                 "link": "https://fs.hacettepe.edu.tr/hemsirelik/dosyalar/%C3%B6%C4%9Frenci%20i%C5%9Fleri/2026-2027%20GUZ%20%20HAFTALIK%20PROGRAM%20VE%20ONEMLI%20BILGILER.pdf",
@@ -3042,21 +3090,13 @@
                 "source": "Hemşirelik Fakültesi",
                 "entity": "Hemşirelik Fakültesi",
                 "description": null
-            },
-            {
-                "title": "QS dünya üniversite sıralamasında fakültemiz 51-100 bandına 85. sırada girmiş olup, tüm paydaşlarımızı tebrik ediyoruz.",
-                "link": "https://fs.hacettepe.edu.tr/hemsirelik/slider/QS-2026b.png",
-                "date": "30.03.2026 00:00",
-                "source": "Hemşirelik Fakültesi",
-                "entity": "Hemşirelik Fakültesi",
-                "description": null
             }
         ]
     },
     {
         "entity": "Heykel Bölümü",
         "url": "https://heykel.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:45.055181",
+        "last_updated": "2026-09-17T13:18:49.379939",
         "items": [
             {
                 "title": "2026-2027 GÜZ DÖNEMİ GSF ORTAK SEÇMELİ HAVUZ DERSLERİ PROGRAMI",
@@ -3103,7 +3143,7 @@
     {
         "entity": "Tarih Bölümü",
         "url": "https://history.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:43.278609",
+        "last_updated": "2026-09-17T13:18:48.550236",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Lisans Ders Programı",
@@ -3150,7 +3190,7 @@
     {
         "entity": "Okul Sosyal Hizmeti Uygulama ve Araştırma Merkezi (HOSMER)",
         "url": "https://hosmer.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.101557",
+        "last_updated": "2026-09-17T13:18:51.873726",
         "items": [
             {
                 "title": "\"Unutmayalım ki önlemek, müdahaleden daha güçlüdür\" başlıklı Hürriyet Gazetesi haberi hakkında",
@@ -3197,7 +3237,7 @@
     {
         "entity": "Enerji Piyasaları Uygulama ve Araştırma Merkezi (HÜEPUAM)",
         "url": "https://huepuam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.893727",
+        "last_updated": "2026-09-17T13:18:59.384987",
         "items": [
             {
                 "title": "SHURA Enerji Dönüşümü Merkezi'nden",
@@ -3244,7 +3284,7 @@
     {
         "entity": "HÜDHAM (Hacettepe Üniversitesi Deney Hayvanları Araştırma Merkezi)",
         "url": "https://hudham.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.132807",
+        "last_updated": "2026-09-17T13:18:51.801305",
         "items": [
             {
                 "title": "HÜDHAM 2026 yılı fiyatları güncellendi!",
@@ -3291,7 +3331,7 @@
     {
         "entity": "Göç ve Siyaset Araştırmaları Merkezi (HUGO)",
         "url": "https://hugo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.662253",
+        "last_updated": "2026-09-17T13:18:53.386017",
         "items": [
             {
                 "title": "Avrasya Üniversitesi 2025 Ulusal Göç Sempozyumu Duyurusu",
@@ -3338,8 +3378,32 @@
     {
         "entity": "Hukuk Fakültesi",
         "url": "https://hukukfakultesi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.295127",
+        "last_updated": "2026-09-17T13:18:51.069489",
         "items": [
+            {
+                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Bilişim Enstitüsü Bilişim ve Fikri Mülkiyet Hukuku Türkçe Tezsiz Yüksek Lisans Programı",
+                "link": "https://fs.hacettepe.edu.tr/hukuk/Bilisim_Enstitusu_Bilisim_ve_Fikri_Mulkiyet_Hukuku_2026_2027_2028/26-27_Guz_Hukuk_DersProgrami_v2_17.09.2026.pdf",
+                "date": "17.09.2026 00:00",
+                "source": "Hukuk Fakültesi",
+                "entity": "Hukuk Fakültesi",
+                "description": null
+            },
+            {
+                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Ders Programı (Güncellendi. 17.09.2026 15:34)",
+                "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrhukuk-1774",
+                "date": "17.09.2026 00:00",
+                "source": "Hukuk Fakültesi",
+                "entity": "Hukuk Fakültesi",
+                "description": "Değerli Öğrencimiz, Ders programında herhangi bir nedenle değişiklik yapılması ihtimaline karşılık, duyuruyu sürekli takip etmenizi önemle rica ederiz. 1. Sınıf İngilizce Ders Programı 1. Sınıf Türkçe Ders Programı 2. Sınıf İngilizce Ders Programı (Güncellendi. 17.09.2026 15:34) 2. Sınıf Türkçe Ders Programı 3. Sınıf Türkçe Ders Programı (Güncellendi. 16.09.2026 13:50) 4. Sınıf Türkçe Ders Programı (Güncellendi. 16.09.2026 10:30)"
+            },
+            {
+                "title": "Kamu Hukuku Anabilim Dalı 2026-2027 Eğitim Öğretim Yılı Güz Dönemi Yüksek Lisans ve Doktora Ders Programları (Güncellendi.17.09.2026 15:45)",
+                "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/%3Cimg_src=httpfshacettepeedutrh-83",
+                "date": "17.09.2026 00:00",
+                "source": "Hukuk Fakültesi",
+                "entity": "Hukuk Fakültesi",
+                "description": "* 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Kamu Hukuku Tezli Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.15.09.2026 15:45) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Bilişim Hukuku Tezsiz İkinci Öğretim Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.15.09.2026 15:45) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Ekonomi ve Enerji Hukuku Tezsiz İkinci Öğretim Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. * 2026-2027 Eğitim"
+            },
             {
                 "title": "Türk Eğitim Vakfı (TEV) Bursu",
                 "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrhukuk-1778",
@@ -3349,43 +3413,19 @@
                 "description": "Değerli Öğrencimiz, 2026/2027 Öğretim Yılı Türk Eğitim Vakfı burs başvuruları 1 4 Eylül- 08 Ekim 2026 tarihleri arasında gerçekleşecek olup, başvurular TEV’in mobil uygulaması Obigenç üzerinden çevrim içi olarak alınacaktır. Başvuru yapmak isteyen öğrencilerimizin Türk Eğitim Vakfı’nın ( www.tev.org.tr ) internet sayfasında açıklanan prosedürü takip etmesi gerekmektedir."
             },
             {
-                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Ders Programı (Güncellendi. 16.09.2026 13:50)",
-                "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrhukuk-1774",
-                "date": "16.09.2026 00:00",
-                "source": "Hukuk Fakültesi",
-                "entity": "Hukuk Fakültesi",
-                "description": "Değerli Öğrencimiz, Ders programında herhangi bir nedenle değişiklik yapılması ihtimaline karşılık, duyuruyu sürekli takip etmenizi önemle rica ederiz. 1. Sınıf İngilizce Ders Programı 1. Sınıf Türkçe Ders Programı 2. Sınıf İngilizce Ders Programı 2. Sınıf Türkçe Ders Programı 3. Sınıf Türkçe Ders Programı (Güncellendi. 16.09.2026 13:50) 4. Sınıf Türkçe Ders Programı (Güncellendi. 16.09.2026 10:30)"
-            },
-            {
-                "title": "Kamu Hukuku Anabilim Dalı 2026-2027 Eğitim Öğretim Yılı Güz Dönemi Yüksek Lisans ve Doktora Ders Programları (Güncellendi.15.09.2026 15:45)",
-                "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/%3Cimg_src=httpfshacettepeedutrh-83",
-                "date": "15.09.2026 00:00",
-                "source": "Hukuk Fakültesi",
-                "entity": "Hukuk Fakültesi",
-                "description": "* 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Kamu Hukuku Tezli Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.15.09.2026 15:45) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Bilişim Hukuku Tezsiz İkinci Öğretim Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.15.09.2026 15:45) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Ekonomi ve Enerji Hukuku Tezsiz İkinci Öğretim Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. * 2026-2027 Eğitim"
-            },
-            {
                 "title": "Hukuk İngilizcesi-I Dersini Almak İsteyen Öğrencilerin Dikkatine",
                 "link": "https://fs.hacettepe.edu.tr/hukuk/duyurular/dekanlılk duyuru/2026_Guz_HUK371_Duyuru _14.09.2026.pdf",
                 "date": "14.09.2026 00:00",
                 "source": "Hukuk Fakültesi",
                 "entity": "Hukuk Fakültesi",
                 "description": null
-            },
-            {
-                "title": "Özel Hukuk Anabilim Dalı 2026-2027 Eğitim Öğretim Yılı Güz Dönemi Yüksek Lisans ve Doktora Ders Programları (Güncellendi.14.09.2026 16:00)",
-                "link": "https://hukukfakultesi.hacettepe.edu.tr/tr/%3Cimg_src=httpfshacettepeedutrh-82",
-                "date": "14.09.2026 00:00",
-                "source": "Hukuk Fakültesi",
-                "entity": "Hukuk Fakültesi",
-                "description": "* 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Özel Hukuk Tezli Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.14.09.2026 16:00) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Özel Hukuk Doktora ders programını görmek için lütfen TIKLAYINIZ. (Güncellendi.14.09.2026 16:00) * 2026-2027 Eğitim - Öğretim Yılı Güz Dönemi Sağlık Hukuku Tezsiz II. Öğretim Yüksek Lisans ders programını görmek için lütfen TIKLAYINIZ."
             }
         ]
     },
     {
         "entity": "Sepsis Çalışmaları Araştırma ve Uygulama Merkezi (HÜSEP)",
         "url": "https://husep.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.038502",
+        "last_updated": "2026-09-17T13:18:50.935418",
         "items": [
             {
                 "title": "Akut Dahiliye ve Dahiliye Yoğun Bakım Platformu (ADYOB) ve HUSEP Webinarı",
@@ -3432,7 +3472,7 @@
     {
         "entity": "Stratejik Araştırmalar Merkezi (HÜSAM)",
         "url": "https://husam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.883548",
+        "last_updated": "2026-09-17T13:18:51.538731",
         "items": [
             {
                 "title": "29.02.2024 - \"Hocalı Katliamı Anısına: Dünü, Bugünü ve Yarınıyla Karabağ\" Paneli",
@@ -3455,7 +3495,7 @@
     {
         "entity": "Uzaktan Eğitim Uygulama ve Araştırma Merkezi (HUZEM)",
         "url": "https://huzem.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.740231",
+        "last_updated": "2026-09-17T13:18:56.205544",
         "items": [
             {
                 "title": "2025 - 2026 Güz Dönemi Hakkında Üniversitemiz lisans/lisansüstü öğrenci otomasyon sisteminden \r\n\t\t\t\t...",
@@ -3502,7 +3542,7 @@
     {
         "entity": "İç Mimarlık ve Çevre Tasarımı Bölümü",
         "url": "https://ict.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.181882",
+        "last_updated": "2026-09-17T13:18:51.795691",
         "items": [
             {
                 "title": "2026 - 2027 Güz Dönemi SEC Kodlu Seçmeli Ders Programları",
@@ -3549,7 +3589,7 @@
     {
         "entity": "İngiliz Dilbilimi Bölümü",
         "url": "https://idb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.574299",
+        "last_updated": "2026-09-17T13:18:51.041130",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı Lisans Ders Programı",
@@ -3596,8 +3636,16 @@
     {
         "entity": "İlköğretim Matematik Öğretmenliği Programı",
         "url": "https://imo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.246717",
+        "last_updated": "2026-09-17T13:18:53.995191",
         "items": [
+            {
+                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programına Ulaşmak için Tıklayınız.",
+                "link": "https://docs.google.com/document/d/13GDqa72-SDmIHiw475ajhAgb-KxeeOUY/edit",
+                "date": "17.09.2026 00:00",
+                "source": "İlköğretim Matematik Öğretmenliği Programı",
+                "entity": "İlköğretim Matematik Öğretmenliği Programı",
+                "description": "JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload. This browser version is no longer supported. Please upgrade to a supported browser. 2026-2027 Güz Dönemi Lisansüstü Ders Programı Share Sign in File Edit View Tools Help Accessibility Debug Unsaved changes to Drive"
+            },
             {
                 "title": "2026-2027 Güz Dönemi Lisans Ders Programına ulaşmak için tıklayınız.",
                 "link": "https://fs.hacettepe.edu.tr/imo/duyuru/2026-2027%20G%C3%BCz%20D%C3%B6nemi%20Lisans%20Ders%20Program%C4%B1.docx",
@@ -3629,21 +3677,13 @@
                 "source": "İlköğretim Matematik Öğretmenliği Programı",
                 "entity": "İlköğretim Matematik Öğretmenliği Programı",
                 "description": "MATEMATİK VE FEN BİLİMLERİ EĞİTİMİ BÖLÜMÜ MATEMATİK EĞİTİMİ ANABİLİM DALI İLKÖĞRETİM MATEMATİK ÖĞRETMENLİĞİ PROGRAMI 2025-2026 BAHAR DÖNEMİ BÜTÜNLEME PROGRAMI 1. SINIF SINAV PROGRAMI DERSİN OPTİK KODU VE ŞUBESİ DERS KODU, ŞUBESİ VE ADI DERS SORUMLUSU BÜTÜNLEME TARİHİ GÜNÜ SAATİ YERİ 305106.08 AİT 106.08 Atatürk İlkeleri ve İnkılap Tarihi II Dr. Çiğdem Dumanlı Ders sorumlusu ile iletişime geçiniz. 490100.02 TKD 100.02 Türk Dili II İlgili Bölüm 23.06.2026 Salı 15:00 Yıldız Amfi 775102.01-02 MAE 10"
-            },
-            {
-                "title": "2025-2026 Bahar Dönem Sonu Sınav Takvimine ulaşmak için tıklayınız.",
-                "link": "https://imo.hacettepe.edu.tr/tr/20252026_bahar_donem_sonu_sina-208",
-                "date": "20.05.2026 00:00",
-                "source": "İlköğretim Matematik Öğretmenliği Programı",
-                "entity": "İlköğretim Matematik Öğretmenliği Programı",
-                "description": "1. SINIF SINAV PROGRAMI DERS KODU, ŞUBESİ VE ADI DERS SORUMLUSU GENEL SINAV TARİHİ GÜNÜ SAATİ YERİ AİT 106.08 Atatürk İlkeleri ve İnkılap Tarihi II Dr. Çiğdem Dumanlı 04.06.2026 Perşembe 10.40-12.30 C-ZK-13 TKD 100.02 Türk Dili II Dr. Gül Uluğtekin 02.06.2026 Salı 14:40-15:30 C-K3-12 MAE 102.01 Matematiğin Temelleri 2 Dr. Esra Demiray 01.06.2026 Pazartesi 09.00-10.30 C-K2-14 MAE 102.02 Matematiğin Temelleri 2 Dr. Esra Demiray 01.06.2026 Pazartesi 10.30-12.00 C-K2-14 MAE 104.01 Analiz 2 Dr. Yeter"
             }
         ]
     },
     {
         "entity": "Department of Industrial Engineering",
         "url": "https://ie.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.268781",
+        "last_updated": "2026-09-17T13:18:52.454711",
         "items": [
             {
                 "title": "2026-2027 Fall Course Schedule (Last Update: 15.09.2026)",
@@ -3690,7 +3730,7 @@
     {
         "entity": "İletişim Fakültesi",
         "url": "https://iletisim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.926131",
+        "last_updated": "2026-09-17T13:18:52.483827",
         "items": [
             {
                 "title": "Moment Dergi artıkScopuskapsamında!",
@@ -3713,7 +3753,7 @@
     {
         "entity": "İktisadi ve İdari Bilimler Fakültesi",
         "url": "https://iibf.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.260314",
+        "last_updated": "2026-09-17T13:18:55.124480",
         "items": [
             {
                 "title": "YENİ!2026-2027 Güz Dönemi Yan Dal/Çift Ana Dal Kontenjan ve Başvuru Takvimi",
@@ -3760,7 +3800,7 @@
     {
         "entity": "International Relations and Protocols Office",
         "url": "https://int.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.643714",
+        "last_updated": "2026-09-17T13:18:53.743421",
         "items": [
             {
                 "title": "The UNI 101 Introduction to University Life Course Was Organized",
@@ -3807,7 +3847,7 @@
     {
         "entity": "İdari İşler Daire Başkanlığı",
         "url": "https://imidb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.735483",
+        "last_updated": "2026-09-17T13:18:52.521048",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Taşınmazların Kiraya Verilmesi İşi.",
@@ -3854,7 +3894,7 @@
     {
         "entity": "International Students",
         "url": "https://internationalstudent.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.842534",
+        "last_updated": "2026-09-17T13:18:56.223333",
         "items": [
             {
                 "title": "In line with our internationalization goals, our International Student page is now live with a modern design.",
@@ -3901,7 +3941,7 @@
     {
         "entity": "Uluslararası İlişkiler Bölümü",
         "url": "https://ir.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.851575",
+        "last_updated": "2026-09-17T13:18:51.480693",
         "items": [
             {
                 "title": "TESYEV 2026-2027 Eğitim Öğretim Yılı Burs Duyurusu için tıklayınız.",
@@ -3948,7 +3988,7 @@
     {
         "entity": "İş Sağlığı ve Güvenliği Koordinatörlüğü",
         "url": "https://isgb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.430500",
+        "last_updated": "2026-09-17T13:18:53.485367",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi İlkyardımcı Eğitim Programı",
@@ -3979,8 +4019,16 @@
     {
         "entity": "İşletme Bölümü",
         "url": "https://isletme.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.168526",
+        "last_updated": "2026-09-17T13:18:55.446717",
         "items": [
+            {
+                "title": "Lisans Ders Programı Güncellenmiştir",
+                "link": "https://isletme.hacettepe.edu.tr/tr/lisans_ders_programi_guncellen-1456",
+                "date": "16.09.2026 00:00",
+                "source": "İşletme Bölümü",
+                "entity": "İşletme Bölümü",
+                "description": "Güncelleme Lisans Ders Programı Güncellenmiştir 2026-2027 Güz Yarıyılı · İşletme Lisans Programı Güncelleme Tarihi 16 Eylül 2026 Kapsam İşletme Lisans Programı 2026-2027 Güz Yarıyılı Genel Bilgilendirme Değerli Öğrencilerimiz, 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı lisans ders programı güncellenmiştir. Güncel programa aşağıdaki bağlantıdan ulaşabilirsiniz. Ders kaydı yapmadan ve kaydını daha önce tamamlamış olan öğrencilerimiz de dâhil olmak üzere, güncel programın kontrol edilmesi gerekmekt"
+            },
             {
                 "title": "İş Analitiği Ders Programı Güncellenmiştir",
                 "link": "https://isletme.hacettepe.edu.tr/tr/is_analitigi_ders_programi_gun-1458",
@@ -3988,14 +4036,6 @@
                 "source": "İşletme Bölümü",
                 "entity": "İşletme Bölümü",
                 "description": "Güncelleme İş Analitiği Ders Programı Güncellenmiştir 2026-2027 Güz Yarıyılı · İş Analitiği Tezli Yüksek Lisans Programı Güncelleme Tarihi 16 Eylül 2026 Kapsam İş Analitiği Tezli Yüksek Lisans 2026-2027 Güz Yarıyılı Genel Bilgilendirme Değerli Öğrencilerimiz, 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı İş Analitiği Tezli Yüksek Lisans Programı ders programı güncellenmiştir. Güncel programa aşağıdaki bağlantıdan ulaşabilirsiniz. BAL 603 Optimizasyon Yöntemleri dersinin gün, saat ve yeri değişmişti"
-            },
-            {
-                "title": "Lisans Ders Programı Güncellenmiştir",
-                "link": "https://isletme.hacettepe.edu.tr/tr/lisans_ders_programi_guncellen-1456",
-                "date": "15.09.2026 00:00",
-                "source": "İşletme Bölümü",
-                "entity": "İşletme Bölümü",
-                "description": "Güncelleme Lisans Ders Programı Güncellenmiştir 2026-2027 Güz Yarıyılı · İşletme Lisans Programı Güncelleme Tarihi 15 Eylül 2026 Kapsam İşletme Lisans Programı 2026-2027 Güz Yarıyılı Genel Bilgilendirme Değerli Öğrencilerimiz, 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı lisans ders programı güncellenmiştir. Güncel programa aşağıdaki bağlantıdan ulaşabilirsiniz. Ders kaydı yapmadan ve kaydını daha önce tamamlamış olan öğrencilerimiz de dâhil olmak üzere, güncel programın kontrol edilmesi gerekmekt"
             },
             {
                 "title": "Attention to Students Enrolled in Internship I",
@@ -4026,7 +4066,7 @@
     {
         "entity": "Kariyer Gelişimi Uygulama ve Araştırma Merkezi (KARMER)",
         "url": "https://karmer.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:23:00.272292",
+        "last_updated": "2026-09-17T13:19:05.391635",
         "items": [
             {
                 "title": "SEC 500 Kariyer Geliştirme, Planlama ve Yönetimi Dersi Etkinliği",
@@ -4057,7 +4097,7 @@
     {
         "entity": "Koruma ve Güvenlik Müdürlüğü",
         "url": "https://korumaguvenlik.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.451788",
+        "last_updated": "2026-09-17T13:18:54.507891",
         "items": [
             {
                 "title": "2025 - 2026 EĞİTİM ÖĞRETİM DÖNEMİ TAŞIT TANITIM PULU DUYURUSU",
@@ -4104,7 +4144,7 @@
     {
         "entity": "Kimya Eğitimi Ana Bilim Dalı",
         "url": "https://kimegi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.069220",
+        "last_updated": "2026-09-17T13:18:57.737749",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Kimya Eğitimi Lisans Ders Programına ulaşmak için tıklayınız...",
@@ -4128,7 +4168,7 @@
                 "date": "14.09.2026 00:00",
                 "source": "Kimya Eğitimi Ana Bilim Dalı",
                 "entity": "Kimya Eğitimi Ana Bilim Dalı",
-                "description": "Anasayfa 2025 - 2026 Pedagojik Formasyon Eğitimi Sertifika Programı’nı başarıyla tamamlayan öğrencilerimizin sertifikalarının dağıtımına başlanmıştır. 31.08.2026 10:00 Gazi Mustafa Kemal Atatürk başta olmak üzere tüm şehit ve gazilerimizi saygı ve minnetle anıyorum. Aynı inanç ve kararlılıkla, 30 Ağustos Zafer Bayramımız kutlu olsun. Prof. Dr. Şefika Şule ERÇETİN Dekan 30.08.2026 11:00 24.08.2026 10:00 23.08.2026 21:00 10.08.2026 14:00 15 Temmuz Demokrasi ve Milli Birlik Günü Panelimize davetlis"
+                "description": "Anasayfa 17.09.2026 13:00 2025 - 2026 Pedagojik Formasyon Eğitimi Sertifika Programı’nı başarıyla tamamlayan öğrencilerimizin sertifikalarının dağıtımına başlanmıştır. 31.08.2026 10:00 Gazi Mustafa Kemal Atatürk başta olmak üzere tüm şehit ve gazilerimizi saygı ve minnetle anıyorum. Aynı inanç ve kararlılıkla, 30 Ağustos Zafer Bayramımız kutlu olsun. Prof. Dr. Şefika Şule ERÇETİN Dekan 30.08.2026 11:00 24.08.2026 10:00 23.08.2026 21:00 10.08.2026 14:00 15 Temmuz Demokrasi ve Milli Birlik Günü Pa"
             },
             {
                 "title": "2026-2027 Güz Dönemi Kimya Eğitimi Yüksek Lisans Programı Ders Programına ulaşmak için tıklayınız.",
@@ -4151,7 +4191,7 @@
     {
         "entity": "Kültür Merkezi",
         "url": "https://kulturmerkezi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.318907",
+        "last_updated": "2026-09-17T13:18:51.996226",
         "items": [
             {
                 "title": "Hacettepe Sağlık Zirvesi 7-8 Mart 2025 M Salonu",
@@ -4166,7 +4206,7 @@
     {
         "entity": "Kütüphane",
         "url": "https://library.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:46.974165",
+        "last_updated": "2026-09-17T13:18:51.728918",
         "items": [
             {
                 "title": "Complete Anatomy Eğitim Toplantısı",
@@ -4213,7 +4253,7 @@
     {
         "entity": "Kalite ve Uygunluk Değerlendirme Mühendisliği",
         "url": "https://kudem.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.296973",
+        "last_updated": "2026-09-17T13:18:53.189078",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Kalite ve Uygunluk Değerlendirme Mühendisliği ders programı. Son güncelleme (09.09.2026)",
@@ -4260,7 +4300,7 @@
     {
         "entity": "Maliye Bölümü",
         "url": "https://maliye.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.015949",
+        "last_updated": "2026-09-17T13:18:54.192986",
         "items": [
             {
                 "title": "Yeni!2026-2027 AKADEMİK YILI ERASMUS+ ÖĞRENİM HAREKETLİLİĞİ PROGRAMI BAHAR DÖNEMİ SEÇİM TAKVİMİ",
@@ -4307,7 +4347,7 @@
     {
         "entity": "Maden Mühendisliği Bölümü",
         "url": "https://maden.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.406897",
+        "last_updated": "2026-09-17T13:18:55.358902",
         "items": [
             {
                 "title": "2026-2027 Akademik Yılı GÜZ Dönemi Güncel Ders Programı yayınlanmıştır.",
@@ -4354,7 +4394,7 @@
     {
         "entity": "Matematik Bölümü",
         "url": "https://mat.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.052727",
+        "last_updated": "2026-09-17T13:18:51.740875",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi",
@@ -4401,7 +4441,7 @@
     {
         "entity": "Müzik ve Bale Ortaokulu",
         "url": "https://mbo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.062945",
+        "last_updated": "2026-09-17T13:18:54.489262",
         "items": [
             {
                 "title": "03.09.2026 TARİHİNDE YAPILAN YARDIMCI PİYANO DERSİ NAKİL VE GEÇİŞ SINAVINA GİREN ADAYLARIN PUANLARI",
@@ -4448,7 +4488,7 @@
     {
         "entity": "Tıp Fakültesi Tıp-Bilim Doktoru Bütünleşik Programı (TBDr)",
         "url": "https://mdphd.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:47.191211",
+        "last_updated": "2026-09-17T13:18:51.967456",
         "items": [
             {
                 "title": "2026-27 Akademik yılında Tıp-Bilim Doktoru (TBDr) Bütünleşik Programı'na kabul edilen öğrenciler belli oldu.",
@@ -4495,7 +4535,7 @@
     {
         "entity": "Tıp Eğitimi ve Bilişimi Ana Bilim Dalı",
         "url": "https://medinfo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.214526",
+        "last_updated": "2026-09-17T13:18:52.902710",
         "items": [
             {
                 "title": "Tıp Eğitimi ve Bilişimi Anabilim Dalı 2026-2027 Öğretim Yılı Güz Dönemi Lisansüstü Ders Programı açıklandı",
@@ -4526,7 +4566,7 @@
     {
         "entity": "Department of Mechanical Engineering",
         "url": "https://me.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.473484",
+        "last_updated": "2026-09-17T13:18:54.801632",
         "items": [
             {
                 "title": "Update to the ING140–ING150 Group Placement Test Time",
@@ -4573,7 +4613,7 @@
     {
         "entity": "Matematik ve Fen Bilimleri Eğitimi Bölümü",
         "url": "https://mfb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.801349",
+        "last_updated": "2026-09-17T13:18:53.758690",
         "items": [
             {
                 "title": "Times Higher Education World University Rankings Sıralama Kuruluşunun Education Studies Kategorisine İlişkin Başarı Sıralaması Hk.",
@@ -4596,7 +4636,7 @@
     {
         "entity": "Mezunlarla İletişim Koordinatörlüğü",
         "url": "https://mezunkoor.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.001685",
+        "last_updated": "2026-09-17T13:18:56.963649",
         "items": [
             {
                 "title": "Üniversitemiz tarafından düzenlenen “İyiliğe Vefa Töreni” 17 Şubat’ta Sıhhiye Yerleşkesi Kültür Merkezi M Salonu’nda düzenlendi.",
@@ -4635,7 +4675,7 @@
     {
         "entity": "Faculty of Architecture",
         "url": "https://mimarlikfakultesi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.302784",
+        "last_updated": "2026-09-17T13:18:56.477735",
         "items": [
             {
                 "title": "2026-2027 Academic Year UNI 101 Program",
@@ -4682,7 +4722,7 @@
     {
         "entity": "Ankara Devlet Konservatuvarı Müzik ve Sahne Sanatları Lisesi",
         "url": "https://mssl.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.992273",
+        "last_updated": "2026-09-17T13:18:53.605527",
         "items": [
             {
                 "title": "BESTECİLİK SANAT DALI NAKİL VE GEÇİŞ SINAVINA GİREN ADAYLARIN PUANLARI",
@@ -4729,7 +4769,7 @@
     {
         "entity": "Mütercim ve Tercümanlık Bölümü",
         "url": "https://mtb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.103538",
+        "last_updated": "2026-09-17T13:18:57.007140",
         "items": [
             {
                 "title": "Fransızca Mütercim ve Tercümanlık Lisans Öğrencilerinin Dikkatine (Ders Kontenjan Artırımı hk)",
@@ -4776,7 +4816,7 @@
     {
         "entity": "Mühendislik Fakültesi",
         "url": "https://muhfak.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.604917",
+        "last_updated": "2026-09-17T13:18:56.569383",
         "items": [
             {
                 "title": "2026/2027 Eğitim-Öğretim Yılı Güz Dönemi Yandal Programı Başvuru Sonuçları",
@@ -4823,7 +4863,7 @@
     {
         "entity": "Nükleer Bilimler ve Mühendisliği Enstitüsü",
         "url": "https://nbe.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.113063",
+        "last_updated": "2026-09-17T13:18:54.440626",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Ders Programı Yayınlanmıştır.",
@@ -4870,7 +4910,7 @@
     {
         "entity": "Nörolojik Bilimler ve Psikiyatri Enstitüsü",
         "url": "https://norbil.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.916443",
+        "last_updated": "2026-09-17T13:18:59.018544",
         "items": [
             {
                 "title": "Nörolojik Bilimler ve Psikiyatri Enstitüsü Araştırma Görevlisi Alım İlanı",
@@ -4917,15 +4957,23 @@
     {
         "entity": "Nükleer Enerji Mühendisliği Bölümü",
         "url": "https://nuke.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.618344",
+        "last_updated": "2026-09-17T13:18:54.499662",
         "items": [
             {
-                "title": "MÜH101 dersini alacak Bölüm öğrencilerimizin ders kayıtlarında 4. şubeyi seçmeleri gerekmektedir.",
-                "link": "https://nuke.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrnukei-484",
-                "date": "10.09.2026 00:00",
+                "title": "NEM 146 Technical Drawing Dersi İle İlgili Duyuru",
+                "link": "https://fs.hacettepe.edu.tr/nuke/documents/fall2027/notification%20for%20NEM%20146%20Technical%20Drawing.pdf",
+                "date": "16.09.2026 00:00",
                 "source": "Nükleer Enerji Mühendisliği Bölümü",
                 "entity": "Nükleer Enerji Mühendisliği Bölümü",
-                "description": "MÜH101 dersini alacak Bölüm öğrencilerimizin ders kayıtlarında 4. şubeyi seçmeleri gerekmektedir. Lütfen ders seçiminizi yaparken bu hususa dikkat ediniz."
+                "description": null
+            },
+            {
+                "title": "TÜBA-Nükleer Enerji Çalıştayı ve Paneli",
+                "link": "https://nuke.hacettepe.edu.tr/tr/tubanukleer_enerji_calistayi_v-29",
+                "date": "16.09.2026 00:00",
+                "source": "Nükleer Enerji Mühendisliği Bölümü",
+                "entity": "Nükleer Enerji Mühendisliği Bölümü",
+                "description": "TÜBA-Nükleer Enerji Çalıştayı ve Paneli Çalıştay Programı Basında Çalıştay"
             },
             {
                 "title": "2026-2027 Güz Dönemi Ders Programı",
@@ -4934,14 +4982,6 @@
                 "source": "Nükleer Enerji Mühendisliği Bölümü",
                 "entity": "Nükleer Enerji Mühendisliği Bölümü",
                 "description": null
-            },
-            {
-                "title": "TÜBA-Nükleer Enerji Çalıştayı ve Paneli",
-                "link": "https://nuke.hacettepe.edu.tr/tr/tubanukleer_enerji_calistayi_v-29",
-                "date": "10.09.2026 00:00",
-                "source": "Nükleer Enerji Mühendisliği Bölümü",
-                "entity": "Nükleer Enerji Mühendisliği Bölümü",
-                "description": "TÜBA-Nükleer Enerji Çalıştayı ve Paneli Çalıştay Programı Basında Çalıştay"
             },
             {
                 "title": "Yüksek Lisans ve Doktora Güz Yarıyılı Sınavı ile İlgili Duyuru",
@@ -4964,7 +5004,7 @@
     {
         "entity": "Nanoteknoloji ve Nanotıp Anabilim Dalı",
         "url": "https://nanott.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.716534",
+        "last_updated": "2026-09-17T13:18:57.632247",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Ders Programı",
@@ -5011,12 +5051,20 @@
     {
         "entity": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
         "url": "https://oidb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.869826",
+        "last_updated": "2026-09-17T13:18:55.984792",
         "items": [
             {
                 "title": "2026-2027 Öğretim Yılı Güz Dönemi 21 Eylül 2026 Modern Diller Birimi Ortak Zorunlu İngilizce Derslerinin Muafiyet Sınavı Hakkında",
                 "link": "https://fs.hacettepe.edu.tr/ydyo/duyuru/modern_diller_duyuru_dosyalari/Modern_Diller_Muafiyet_Sinavi_Duyurusu_Tablo.docx.pdf",
                 "date": "21.09.2026 00:00",
+                "source": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
+                "entity": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
+                "description": null
+            },
+            {
+                "title": "2026-2027 Hazırlık Birimleri Üniversitemize Af ile Kayıt Olan Öğrenciler, Uluslararası Öğrenciler ve...",
+                "link": "https://fs.hacettepe.edu.tr/ydyo/%C4%B0rem/26-27%20AFYEDEK%20ULUSLARARASISPOR%20MUAFIYET%20TAKVIMI.pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
                 "entity": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
                 "description": null
@@ -5044,22 +5092,22 @@
                 "source": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
                 "entity": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
                 "description": "2026/2027 Öğretim Yılı Güler ve Atila Erkut Eğitim Destek Vakfı burs başvuruları 05 Eylül- 14 Eylül 2026 tarihleri arasında gerçekleşecek olup, başvurular //gaev.org web adresinden online olarak kabul edilecektir. Başvuru yapmak isteyen öğrencilerimizin Güler ve Atila Erkut Eğitim Destek Vakfı’nın internet sayfasında açıklanan prosedürü takip etmesi gerekmektedir. 2026-2027 EĞİTİM ÖĞRETİM YILI BURS BAŞVURULARI HAKKINDA AÇIKLAMA Vakfımız; bilim ve aklin, uluslararasi hukuk ve insan haklarinin hak"
-            },
-            {
-                "title": "2026-2027 Akademik Yılı Yurtdışından Öğrenci Kabulü TRYÖS, SAT 1 Sınavları ve GCE A Level Başvurularında Boş Kalan Kontenjanlar İçin Kayıt Hakkı Verilen 1. Yedek Aday Listeleri",
-                "link": "https://internationalstudents.hacettepe.edu.tr/tr/placement-results-reserve-1",
-                "date": "08.09.2026 00:00",
-                "source": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
-                "entity": "Öğrenci İşleri Daire Başkanlığı (OİDB)",
-                "description": null
             }
         ]
     },
     {
         "entity": "Okul Öncesi Eğitimi Anabilim Dalı",
         "url": "https://okuloncesi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.699501",
+        "last_updated": "2026-09-17T13:18:57.229691",
         "items": [
+            {
+                "title": "OOE407 Öğretmenlik Uygulaması I Şube Bilgileri Hk. (Güncellendi/17.09.26)",
+                "link": "https://okuloncesi.hacettepe.edu.tr/tr/ooe407_ogretmenlik_uygulamasi_-672",
+                "date": "16.09.2026 00:00",
+                "source": "Okul Öncesi Eğitimi Anabilim Dalı",
+                "entity": "Okul Öncesi Eğitimi Anabilim Dalı",
+                "description": "OOE407 Öğretmenlik Uygulaması I Dersi Şube Bilgileri için tıklayınız..."
+            },
             {
                 "title": "BEB 650 Temel Bilgi ve İletişim Teknolojileri Kullanımı Dersi Hk.",
                 "link": "https://okuloncesi.hacettepe.edu.tr/tr/beb_650_temel_bilgi_ve_iletisi-670",
@@ -5077,7 +5125,7 @@
                 "description": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi EGT-EBB kodlu derslerin programına Eğitim Bilimleri Bölümü web sayfasından ulaşabilirsiniz. Ders programı için tıklayınız..."
             },
             {
-                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisans Ders Programı Hk. (Güncellendi/16.09.26)",
+                "title": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisans Ders Programı Hk. (Güncellendi/17.09.26)",
                 "link": "https://okuloncesi.hacettepe.edu.tr/tr/20262027_egitimogretim_yili_gu-666",
                 "date": "14.09.2026 00:00",
                 "source": "Okul Öncesi Eğitimi Anabilim Dalı",
@@ -5091,21 +5139,13 @@
                 "source": "Okul Öncesi Eğitimi Anabilim Dalı",
                 "entity": "Okul Öncesi Eğitimi Anabilim Dalı",
                 "description": "Lisansüstü danışman atamaları hakkındaki duyuru için tıklayınız."
-            },
-            {
-                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı Hk.",
-                "link": "https://okuloncesi.hacettepe.edu.tr/tr/20262027_guz_donemi_lisansustu-662",
-                "date": "31.08.2026 00:00",
-                "source": "Okul Öncesi Eğitimi Anabilim Dalı",
-                "entity": "Okul Öncesi Eğitimi Anabilim Dalı",
-                "description": "2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisansüstü Ders Programı için tıklayınız..."
             }
         ]
     },
     {
         "entity": "Kanser Enstitüsü",
         "url": "https://onkoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:48.715194",
+        "last_updated": "2026-09-17T13:18:53.457727",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Kanser Enstitüsü Öğretim Görevlisi Alımı Sınav Sonucu",
@@ -5152,12 +5192,12 @@
     {
         "entity": "Otizm Spektrum Bozukluğu Eğitimi Anabilim Dalı",
         "url": "https://otizm.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.174880",
+        "last_updated": "2026-09-17T13:18:54.865683",
         "items": [
             {
-                "title": "2026-2027 Güz Dönemi Ders Programı",
-                "link": "https://fs.hacettepe.edu.tr/otizm/2026-2027%20G%C3%BCz%20D%C3%B6nemi%20Otizm%20Spektrum%20Bozuklu%C4%9Fu%20E%C4%9Fitimi%20Y%C3%BCksek%20Lisans%20E%C4%9Fitimi%20Ders%20Program%C4%B1.pdf",
-                "date": "07.09.2026 00:00",
+                "title": "2026-2027 Güz Dönemi Ders Programı (Güncellendi 17.09.2026)",
+                "link": "https://fs.hacettepe.edu.tr/otizm/2026-2027%20G%C3%BCz%20D%C3%B6nemi%20Otizm%20Spektrum%20Bozuklu%C4%9Fu%20E%C4%9Fitimi%20Ders%20Program%C4%B1%20(17.09.2026).pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Otizm Spektrum Bozukluğu Eğitimi Anabilim Dalı",
                 "entity": "Otizm Spektrum Bozukluğu Eğitimi Anabilim Dalı",
                 "description": null
@@ -5199,20 +5239,20 @@
     {
         "entity": "Özel Eğitim Bölümü",
         "url": "https://ozelegitim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.077860",
+        "last_updated": "2026-09-17T13:18:56.258813",
         "items": [
             {
-                "title": "2026-2027 Güz Dönemi Lisans Ders Programı (Güncellendi: 14.09.2026)",
-                "link": "https://fs.hacettepe.edu.tr/ozelegitim/2026-2027 Lisans Ders Programı (14.09.2026).pdf",
-                "date": "14.09.2026 00:00",
+                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı (Güncellendi: 17.09.2026)",
+                "link": "https://fs.hacettepe.edu.tr/ozelegitim/17.09.2026 lisansustu.pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Özel Eğitim Bölümü",
                 "entity": "Özel Eğitim Bölümü",
                 "description": null
             },
             {
-                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı",
-                "link": "https://fs.hacettepe.edu.tr/ozelegitim/dosyalar/2026 2027 Guz lısansustu.pdf",
-                "date": "07.09.2026 00:00",
+                "title": "2026-2027 Güz Dönemi Lisans Ders Programı (Güncellendi: 17.09.2026)",
+                "link": "https://fs.hacettepe.edu.tr/ozelegitim/17.09.2026.pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Özel Eğitim Bölümü",
                 "entity": "Özel Eğitim Bölümü",
                 "description": null
@@ -5220,7 +5260,7 @@
             {
                 "title": "Özel Eğitim Öğretmenliği Bölümü Ders Dağılımı",
                 "link": "https://ozelegitim.hacettepe.edu.tr/tr/ozel_egitim_ogretmenligi_bolum-116",
-                "date": "07.09.2026 00:00",
+                "date": "17.09.2026 00:00",
                 "source": "Özel Eğitim Bölümü",
                 "entity": "Özel Eğitim Bölümü",
                 "description": "Bölümümüzün ders dağılımı aşağıdaki linkte sunulmuştur. Mezun olmak için tamamlanması gereken dersler tabloda yer almaktadır. Özel Eğitim Öğretmenliği Bölümü Ders Dağılımı"
@@ -5228,10 +5268,10 @@
             {
                 "title": "Hacettepe Üniversitesi Özel Eğitim Bölümü;",
                 "link": "https://ozelegitim.hacettepe.edu.tr/tr/duyurular",
-                "date": "07.09.2026 00:00",
+                "date": "17.09.2026 00:00",
                 "source": "Özel Eğitim Bölümü",
                 "entity": "Özel Eğitim Bölümü",
-                "description": "Duyurular Arşiv Duyurular Başlık 2026-2027 Güz Dönemi Lisansüstü Ders Programı 2026-09-07 11:00:00 2026-2027 Güz Dönemi Lisans Ders Programı (Güncellendi: 14.09.2026) 2026-09-07 11:00:00 İntibak başvurusu hk. 2026-08-26 15:00:00 Özel Eğitim Öğretmenliği Bölümü Ders Dağılımı 2022-09-30 10:00:00"
+                "description": "Duyurular Arşiv Duyurular Başlık 2026-2027 Güz Dönemi Lisansüstü Ders Programı (Güncellendi: 17.09.2026) 2026-09-07 11:00:00 2026-2027 Güz Dönemi Lisans Ders Programı (Güncellendi: 17.09.2026) 2026-09-07 11:00:00 İntibak başvurusu hk. 2026-08-26 15:00:00 Özel Eğitim Öğretmenliği Bölümü Ders Dağılımı 2022-09-30 10:00:00"
             },
             {
                 "title": "İntibak başvurusu hk.",
@@ -5246,12 +5286,12 @@
     {
         "entity": "Özel Yetenekliler Eğitimi Ana Bilim Dalı",
         "url": "https://ozelyetenekliler.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:49.049560",
+        "last_updated": "2026-09-17T13:18:53.849595",
         "items": [
             {
-                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı",
-                "link": "https://fs.hacettepe.edu.tr/ozelyetenek/2026%202027%20Guz%20l%C4%B1sansustu.pdf",
-                "date": "07.09.2026 00:00",
+                "title": "2026-2027 Güz Dönemi Lisansüstü Ders Programı (Güncellendi: 17.09.2026)",
+                "link": "https://fs.hacettepe.edu.tr/ozelyetenek/17.09.2026 oye.pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Özel Yetenekliler Eğitimi Ana Bilim Dalı",
                 "entity": "Özel Yetenekliler Eğitimi Ana Bilim Dalı",
                 "description": null
@@ -5261,7 +5301,7 @@
     {
         "entity": "Kök Hücre Araştırma ve Uygulama Merkezi (PEDi-STEM)",
         "url": "https://pedistem.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.040116",
+        "last_updated": "2026-09-17T13:18:54.677006",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Kök Hücre Araştırma ve Uygulama Merkezi’ne (PEDi-STEM) Hoş Geldiniz",
@@ -5276,7 +5316,7 @@
     {
         "entity": "Rehberlik ve Psikolojik Danışmanlık Anabilim Dalı",
         "url": "https://pdr.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.574694",
+        "last_updated": "2026-09-17T13:18:58.168706",
         "items": [
             {
                 "title": "Güz 2026 EGT Ders Programı için Tıklayınız",
@@ -5323,7 +5363,7 @@
     {
         "entity": "Proje Destek Ofisi",
         "url": "https://pdo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.746314",
+        "last_updated": "2026-09-17T13:18:58.002741",
         "items": [
             {
                 "title": "Yaşam Bilimleri Alanındaki Araştırmacılar İçin EMBO Destek Programları",
@@ -5362,7 +5402,7 @@
     {
         "entity": "Fizik Mühendisliği Bölümü",
         "url": "https://physweb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.372446",
+        "last_updated": "2026-09-17T13:18:55.679557",
         "items": [
             {
                 "title": "Mezunlarımızdan Bazıları",
@@ -5409,12 +5449,12 @@
     {
         "entity": "Psikoloji Bölümü",
         "url": "https://psikoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.582088",
+        "last_updated": "2026-09-17T13:18:55.747557",
         "items": [
             {
-                "title": "2026-2027 Güz Dönemi Lisans Ders Programı (Güncelleme 16.09.2026 11.20)",
-                "link": "https://fs.hacettepe.edu.tr/psikoloji/dosyalar/Ders%20programlar%C4%B1/2026-27%20L%C4%B0SANS%20PANO.pdf",
-                "date": "16.09.2026 00:00",
+                "title": "2026-2027 Güz Dönemi Lisans Ders Programı (Güncelleme 17.09.2026 11.40)",
+                "link": "https://fs.hacettepe.edu.tr/psikoloji/dosyalar/Ders%20programlar%C4%B1/2026-27%20L%C4%B0SANS%20PANO..pdf",
+                "date": "17.09.2026 00:00",
                 "source": "Psikoloji Bölümü",
                 "entity": "Psikoloji Bölümü",
                 "description": null
@@ -5456,7 +5496,7 @@
     {
         "entity": "Rekreasyon Bölümü",
         "url": "https://rekreasyon.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.893093",
+        "last_updated": "2026-09-17T13:18:59.156378",
         "items": [
             {
                 "title": "2. Hacettepe Gençlik Koşusu tamamlandı!",
@@ -5503,7 +5543,7 @@
     {
         "entity": "Güzel Sanatlar Fakültesi Resim Bölümü",
         "url": "https://resim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.289768",
+        "last_updated": "2026-09-17T13:18:56.451581",
         "items": [
             {
                 "title": "İNG127 İngilizce I dersini alacak öğrencilerimizin dikkatine!",
@@ -5534,7 +5574,7 @@
     {
         "entity": "Sağlık Bilimleri Enstitüsü",
         "url": "https://saglikbilimleri.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.747531",
+        "last_updated": "2026-09-17T13:18:59.396697",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı ders kayıt işlemleri hakkında önemli duyuru",
@@ -5581,7 +5621,7 @@
     {
         "entity": "Sağlık Bilimleri Fakültesi",
         "url": "https://sbf.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.187314",
+        "last_updated": "2026-09-17T13:18:59.588595",
         "items": [
             {
                 "title": "ÜNİ 101 Hakkında",
@@ -5628,7 +5668,7 @@
     {
         "entity": "Sağlık Bilimleri Fakültesi Odyoloji Bölümü",
         "url": "https://sbfodyoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.961530",
+        "last_updated": "2026-09-17T13:19:00.206635",
         "items": [
             {
                 "title": "2026-2027 AKADEMİK YILI ERASMUS+ SEÇİM TAKVİMLERİ",
@@ -5675,7 +5715,7 @@
     {
         "entity": "Sosyal Bilimler Meslek Yüksekokulu",
         "url": "https://sbmy.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.069401",
+        "last_updated": "2026-09-17T13:18:59.226332",
         "items": [
             {
                 "title": "Üniversitemizi kazanan yeni öğrencilerimizin alması gereken UNI101 Üniversite Yaşamına Giriş dersler...",
@@ -5722,7 +5762,7 @@
     {
         "entity": "Siyaset Bilimi ve Kamu Yönetimi Bölümü",
         "url": "https://sbky.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:50.141363",
+        "last_updated": "2026-09-17T13:18:55.607038",
         "items": [
             {
                 "title": "2026-2027 Akademik Yılı Erasmus+ Öğrenim Hareketliliği Programı Bahar Dönemi Seçim Takvimi",
@@ -5769,7 +5809,7 @@
     {
         "entity": "Güzel Sanatlar Fakültesi Seramik ve Cam Bölümü",
         "url": "https://seramikvecam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.955710",
+        "last_updated": "2026-09-17T13:18:57.305809",
         "items": [
             {
                 "title": "2025-26 Akademik Yılı Güz Dönemi Seramik Anasanat Dalı Lisansüstü Programı için tıklayınız(Güncellendi!!!).",
@@ -5816,11 +5856,11 @@
     {
         "entity": "Seçmeli Dersler Koordinatörlüğü",
         "url": "https://secmeli.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.928330",
+        "last_updated": "2026-09-17T13:18:58.101611",
         "items": [
             {
                 "title": "2026-2027 EĞİTİM-ÖĞRETİM YILI GÜZ DÖNEMİ DERS PROGRAMI",
-                "link": "https://fs.hacettepe.edu.tr/secmeli/dersprogramlari/2026-2027%20G%C3%BCz%20D%C3%B6nemi%20Ders%20P..pdf",
+                "link": "https://fs.hacettepe.edu.tr/secmeli/dersprogramlari/G%C3%BCz%20D%C3%B6nemi.pdf",
                 "date": "15.09.2026 00:00",
                 "source": "Seçmeli Dersler Koordinatörlüğü",
                 "entity": "Seçmeli Dersler Koordinatörlüğü",
@@ -5863,7 +5903,7 @@
     {
         "entity": "Sağlık Hizmetleri Meslek Yüksekokulu",
         "url": "https://shmyo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.844873",
+        "last_updated": "2026-09-17T13:18:57.858469",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Haftalık Ders Programı.",
@@ -5886,7 +5926,7 @@
     {
         "entity": "Sınıf Eğitimi Anabilim Dalı",
         "url": "https://snf.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.669736",
+        "last_updated": "2026-09-17T13:18:56.894738",
         "items": [
             {
                 "title": "GKS kodlu derslerin 2026-2027 güz dönemi programı",
@@ -5933,7 +5973,7 @@
     {
         "entity": "Sosyal Hizmet Bölümü",
         "url": "https://sh.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.536461",
+        "last_updated": "2026-09-17T13:18:57.024363",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi Lisans Ders Dağılım Çizelgesine ulaşmak için tıklayınız",
@@ -5980,7 +6020,7 @@
     {
         "entity": "Sosyal Politika Araştırma ve Uygulama Merkezi",
         "url": "https://sosyalpolitika.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.806730",
+        "last_updated": "2026-09-17T13:19:00.168059",
         "items": [
             {
                 "title": "13 Mayıs 2026 Çarşamba günü saat 20.00’de çevrim içi gerçekleştirilecek, Prof. Dr. Reyhan Atasü-Topcuoğlu’nun konuşmacı olarak katılacağı “Sosyal Politika Perspektifinden Kadınların Adalete Erişimi: 70. Birleşmiş Milletler Kadının Statüsü Komisyonu Kararları” başlıklı konferansa tüm Hacettepeliler davetlidir.",
@@ -6027,7 +6067,7 @@
     {
         "entity": "Sağlık Yönetimi Bölümü",
         "url": "https://sid.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.260927",
+        "last_updated": "2026-09-17T13:18:58.571200",
         "items": [
             {
                 "title": "ING127 Dersi Şube Seçimi Hakkında",
@@ -6035,7 +6075,7 @@
                 "date": "16.09.2026 00:00",
                 "source": "Sağlık Yönetimi Bölümü",
                 "entity": "Sağlık Yönetimi Bölümü",
-                "description": "2026-2027 Akademik Güz döneminde ING127 dersini alacak öğrencilerimiz; Ders seçimi yaparken, seçtikleri şubelerin ders programı ile uyumlu olması gerekmektedir. ING derslerinin şubelere göre gün ve saatleri için tıklayınız. ING127 dersini alan öğrencilerimizin, bölüm kapsamındaki diğer derslerle çakışma yaşamamaları için; 8-9-19-20-30-31-32-33-34-35-36-38-39 şubelerini seçebilirler. Ders kaydını yapan ve kesinleştiren öğrenciler eğer yanlış şubeleri seçmişlerse, ekle-sil haftasında değişiklik ya"
+                "description": "2026-2027 Akademik Güz döneminde ING127 dersini alacak öğrencilerimiz; Ders seçimi yaparken, seçtikleri şubelerin ders programı ile uyumlu olması gerekmektedir. ING derslerinin şubelere göre gün ve saatleri için tıklayınız. ING127 dersini alan öğrencilerimizin, bölüm kapsamındaki diğer derslerle çakışma yaşamamaları için; Pazartesi: Şube 8-9 Çarşamba : Şube 19-20 Perşembe: Şube 30-31-32-33-34 Cuma: Şube 35-36-38-39 seçebilirler. Ders kaydını yapan ve kesinleştiren öğrenciler eğer yanlış şubeleri"
             },
             {
                 "title": "2026-2027 Akademik Yılı Erasmus+ Öğrenim Hareketliliği Programı Bahar Dönemi  Akademik Yılı Seçim Takvimi",
@@ -6074,7 +6114,7 @@
     {
         "entity": "Spor Hekimliği Anabilim Dalı",
         "url": "https://sporhekimligi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:51.836632",
+        "last_updated": "2026-09-17T13:18:56.942465",
         "items": [
             {
                 "title": "Hacettepe Spor Hekimliği Günü",
@@ -6089,7 +6129,7 @@
     {
         "entity": "Sosyoloji Bölümü",
         "url": "https://sosyoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:52.875931",
+        "last_updated": "2026-09-17T13:18:57.197717",
         "items": [
             {
                 "title": "orhanpence@gmail.com",
@@ -6136,7 +6176,7 @@
     {
         "entity": "Sosyal Bilimler Enstitüsü",
         "url": "https://sosyalbilimler.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.487062",
+        "last_updated": "2026-09-17T13:19:00.440073",
         "items": [
             {
                 "title": "Danışman Atama ve Danışman Değişikliği Formları Güncellendi",
@@ -6183,7 +6223,7 @@
     {
         "entity": "Spor Dostu Kampüs Koordinatörlüğü",
         "url": "https://spordostu.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.162842",
+        "last_updated": "2026-09-17T13:18:59.836346",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Avrupa Üniversite Sporları Birliği (EUSA) ortak üyesi oldu",
@@ -6230,7 +6270,7 @@
     {
         "entity": "Sağlık, Kültür ve Spor Daire Başkanlığı",
         "url": "https://sksdb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:57.857395",
+        "last_updated": "2026-09-17T13:19:02.993791",
         "items": [
             {
                 "title": "SIHHİYE MEMUR YEMEK SALONU 21 EYLÜL’DE HİZMETE AÇILIYOR",
@@ -6277,7 +6317,7 @@
     {
         "entity": "Spor ve Egzersiz Psikolojisi Anabilim Dalı",
         "url": "https://sporpsikolojisi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.410880",
+        "last_updated": "2026-09-17T13:19:00.291934",
         "items": [
             {
                 "title": "Yüksek Lisans Programına Müracaat Eden ve Mülakat Sınavına Katılmaya Hak Kazanan Adayların Listesi",
@@ -6324,7 +6364,7 @@
     {
         "entity": "İstatistik Bölümü",
         "url": "https://stat.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.904879",
+        "last_updated": "2026-09-17T13:19:00.837790",
         "items": [
             {
                 "title": "Türk Eğitim Vakfı (TEV) Bursu Hakkında",
@@ -6371,7 +6411,7 @@
     {
         "entity": "Kök Hücre Bilimleri Anabilim Dalı",
         "url": "https://stemcell.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.743253",
+        "last_updated": "2026-09-17T13:19:00.523279",
         "items": [
             {
                 "title": "2026-2027 Güz Yarıyılı Yüksek Lisans Ders Programları",
@@ -6418,7 +6458,7 @@
     {
         "entity": "Sürdürülebilir Yerleşkeler Koordinatörlüğü",
         "url": "https://syk.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.504858",
+        "last_updated": "2026-09-17T13:19:00.664216",
         "items": [
             {
                 "title": "Dünya Çevre Günü - Halil İbrahim Yılmaz ve Prof. Dr. Meltem Yılmaz",
@@ -6465,7 +6505,7 @@
     {
         "entity": "Tahkim ve Arabuluculuk Merkezi (HÜTAM)",
         "url": "https://tahkim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.276488",
+        "last_updated": "2026-09-17T13:19:01.295225",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi Ticari Tahkim 101: Kariyer ve Gelecek Etkinliği Gerçekleştirildi!",
@@ -6512,7 +6552,7 @@
     {
         "entity": "Temel Eğitim Bölümü",
         "url": "https://temelegitim.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.853323",
+        "last_updated": "2026-09-17T13:19:02.234221",
         "items": [
             {
                 "title": "Okul Öncesi Eğitimi",
@@ -6520,7 +6560,7 @@
                 "date": "16.09.2026 00:00",
                 "source": "Temel Eğitim Bölümü",
                 "entity": "Temel Eğitim Bölümü",
-                "description": "Duyurular Arşiv Duyurular Başlık BEB 650 Temel Bilgi ve İletişim Teknolojileri Kullanımı Dersi Hk. 2026-09-16 14:00:00 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi EGT-EBB Kodlu Ders Programı Hk. 2026-09-15 14:00:00 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisans Ders Programı Hk. (Güncellendi/16.09.26) 2026-09-14 14:00:00 Lisansüstü Danışman Atamaları Hk. 2026-08-31 13:00:00 2026-2027 Güz Dönemi Lisansüstü Ders Programı Hk. 2026-08-31 12:00:00"
+                "description": "Duyurular Arşiv Duyurular Başlık OOE407 Öğretmenlik Uygulaması I Şube Bilgileri Hk. (Güncellendi/17.09.26) 2026-09-16 16:00:00 BEB 650 Temel Bilgi ve İletişim Teknolojileri Kullanımı Dersi Hk. 2026-09-16 14:00:00 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi EGT-EBB Kodlu Ders Programı Hk. 2026-09-15 14:00:00 2026-2027 Eğitim-Öğretim Yılı Güz Dönemi Lisans Ders Programı Hk. (Güncellendi/17.09.26) 2026-09-14 14:00:00 Lisansüstü Danışman Atamaları Hk. 2026-08-31 13:00:00 2026-2027 Güz Dönemi Lisansüstü"
             },
             {
                 "title": "Sınıf Eğitimi",
@@ -6535,7 +6575,7 @@
     {
         "entity": "Sürdürülebilir Kalkınma Birimi",
         "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr/tr",
-        "last_updated": "2026-09-16T13:22:56.027905",
+        "last_updated": "2026-09-17T13:19:00.876196",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi dünyada 121. sırada",
@@ -6582,7 +6622,7 @@
     {
         "entity": "Türk İşaret Dili Çalışmaları ve Uygulamaları Ana Bilim Dalı",
         "url": "https://tid.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.304893",
+        "last_updated": "2026-09-17T13:18:58.536072",
         "items": [
             {
                 "title": "AĞ SAYFAMIZA HOŞ GELDİNİZ",
@@ -6597,7 +6637,7 @@
     {
         "entity": "Tıbbi Biyoloji Anabilim Dalı",
         "url": "https://tibbibiyoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.758441",
+        "last_updated": "2026-09-17T13:19:00.645225",
         "items": [
             {
                 "title": "2025 Yaz Dönemi Staj Programı",
@@ -6636,7 +6676,7 @@
     {
         "entity": "Tıp Fakültesi",
         "url": "https://tip.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.652568",
+        "last_updated": "2026-09-17T13:19:01.467266",
         "items": [
             {
                 "title": "Tanıtım Videomuz",
@@ -6683,11 +6723,11 @@
     {
         "entity": "TÖMER (Türkçe Öğretim Merkezi)",
         "url": "https://tomer.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.445000",
+        "last_updated": "2026-09-17T13:19:01.028695",
         "items": [
             {
                 "title": "TRK117 ve TRK101 TÜRKÇE DERSLERİNİN MUAFİYET SINAVLARI BAŞVURUSU (22 Eylül 2026)",
-                "link": "https://tomer.hacettepe.edu.tr/tr/<img_src=httpswwwhacettepeedut-332",
+                "link": "https://tomer.hacettepe.edu.tr/tr/trk117_ve_trk101_turkce_dersle-332",
                 "date": "22.09.2026 00:00",
                 "source": "TÖMER (Türkçe Öğretim Merkezi)",
                 "entity": "TÖMER (Türkçe Öğretim Merkezi)",
@@ -6700,6 +6740,14 @@
                 "source": "TÖMER (Türkçe Öğretim Merkezi)",
                 "entity": "TÖMER (Türkçe Öğretim Merkezi)",
                 "description": "Üniversitemize yedek listeden kayıt olan uluslararası öğrenciler için Türkçe Hazırlık muafiyet sınavı 21 Eylül 2026 Pazartesi günü saat 09.30' da yapılacaktır. Öğrenciler kayıt için TÖMER'e geldiğinde sınava başvuru yapabileceklerdir."
+            },
+            {
+                "title": "Değişim Programı Öğrencileri için Seçmeli Türkçe Dersleri",
+                "link": "https://tomer.hacettepe.edu.tr/en/%3Cimg_src=httpsfshacettepeedutr-342",
+                "date": "17.09.2026 00:00",
+                "source": "TÖMER (Türkçe Öğretim Merkezi)",
+                "entity": "TÖMER (Türkçe Öğretim Merkezi)",
+                "description": "Click the link below to apply for the exemption examinations for TRK102 and TRK118 courses to be held on 22 September : https://forms.gle/KpjKn2XnBxehuySy9 TRK 101: 22.09.2026, 09.30-12.30 (then the speaking test) TRK 117: 22.09.2026, 17.00-18.00 You may direct any questions regarding the examinations to faikud@hacettepe.edu.tr ."
             },
             {
                 "title": "TRK110 TÜRKÇE HAZIRLIK MUAFİYET SINAVI SONUÇLARI (07 Eylül 2026)",
@@ -6716,21 +6764,13 @@
                 "source": "TÖMER (Türkçe Öğretim Merkezi)",
                 "entity": "TÖMER (Türkçe Öğretim Merkezi)",
                 "description": "Üniversitemize kayıt yaptıran ve Türkçe bilme şartı aranan uluslararası öğrenciler için Türkçe Hazırlık muafiyet sınavı 7 Eylül 2026 günü yapılacaktır. Sınav, sabah (09.30) (okuma, dinleme, yazma) ve öğleden sonra (13.30) (konuşma) olmak üzere iki oturum şeklindedir. Sınav ile ilgili bilgiler Üniversite kayıt haftası olan 31 Ağustos-4 Eylül 2026 tarihleri arasında TÖMER'de (Beytepe Kampüsü) verilecektir. Hacettepe TÖMER Türkçe Sınavı, Diller için Avrupa Ortak Başvuru Metni C1 seviyesine uygun ol"
-            },
-            {
-                "title": "Türk Dili Dersleri 2026-2027 Sınav Takvimi",
-                "link": "https://fs.hacettepe.edu.tr/tomer/T%C3%BCrk%20Dili%20Dersleri%20Ders%20Program%C4%B1-S%C4%B1nav%20Takvimi.pdf",
-                "date": "03.07.2026 00:00",
-                "source": "TÖMER (Türkçe Öğretim Merkezi)",
-                "entity": "TÖMER (Türkçe Öğretim Merkezi)",
-                "description": null
             }
         ]
     },
     {
         "entity": "Ulaşım Hizmetleri Müdürlüğü",
         "url": "https://uhm.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.103144",
+        "last_updated": "2026-09-17T13:18:58.821164",
         "items": [
             {
                 "title": "Araç Talep Yönetim Yönetim Sistemimiz yayına alınmıştır",
@@ -6745,7 +6785,7 @@
     {
         "entity": "Türkiyat Araştırmaları Enstitüsü",
         "url": "https://turkiyat.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.172154",
+        "last_updated": "2026-09-17T13:18:58.088839",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi program kayıtları hakkında duyuru için tıklayınız!",
@@ -6792,7 +6832,7 @@
     {
         "entity": "Türk Dili ve Edebiyatı Bölümü",
         "url": "https://turkoloji.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.158321",
+        "last_updated": "2026-09-17T13:18:59.927132",
         "items": [
             {
                 "title": "Türk Dili Anabilim Dalı 2026-2027 Güz dönemi lisansüstü ders programı için tıklayınız.",
@@ -6839,7 +6879,7 @@
     {
         "entity": "Yapı İşleri ve Teknik Daire Başkanlığı",
         "url": "https://yapi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.298567",
+        "last_updated": "2026-09-17T13:19:01.198744",
         "items": [
             {
                 "title": "Program Ertelenmesi hk.",
@@ -6886,7 +6926,7 @@
     {
         "entity": "Yabancı Diller Yüksekokulu Yabancı Dil Kursları",
         "url": "https://ydkydyo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:55.828651",
+        "last_updated": "2026-09-17T13:19:00.685725",
         "items": [
             {
                 "title": "EYLÜL 2026 DÖNEMİ YABANCI DİL KURS PROGRAMI DUYURUSU",
@@ -6925,7 +6965,7 @@
     {
         "entity": "Türkçe ve Sosyal Bilimler Eğitimi Bölümü",
         "url": "https://turkceegitimi.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.876033",
+        "last_updated": "2026-09-17T13:19:01.825589",
         "items": [
             {
                 "title": "UNI101 Üniversite Yaşamına Giriş Kapsamında Bölüm Tanıtımı Toplantısı Bilgileri Hk. (Yeni başlayan öğrencilerimizin dikaktine!)",
@@ -6972,7 +7012,7 @@
     {
         "entity": "Yeni ve Temiz Enerji Uygulama ve Araştırma Merkezi (YETAM)",
         "url": "https://yetam.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.616654",
+        "last_updated": "2026-09-17T13:19:01.337188",
         "items": [
             {
                 "title": "YETAM Müdürü Prof. Dr. Murat KADEMLİ'nin Cezeri Yeşil Teknoloji MTAL Sektörel Mükemmeliyet Merkezi Ziyareti",
@@ -7011,7 +7051,7 @@
     {
         "entity": "Yabancı Diller Eğitimi Bölümü",
         "url": "https://yde.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.550289",
+        "last_updated": "2026-09-17T13:18:59.554031",
         "items": [
             {
                 "title": "İngiliz Dili Eğitimi Bilim Dalımız ve ABD Büyükelçiliği iş birliği kapsamında düzenlenecek olan, Ali...",
@@ -7026,7 +7066,7 @@
     {
         "entity": "Zihin Engelliler Eğitimi Anabilim Dalı",
         "url": "https://zihinengelliler.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:58.068214",
+        "last_updated": "2026-09-17T13:19:03.542906",
         "items": [
             {
                 "title": "TÜBİTAK 1001 Kapsamında Üniversitemizde Desteklenen 12 Projenin Bir Tanesi Ana Bilim Dalımızdan!",
@@ -7057,7 +7097,7 @@
     {
         "entity": "Yükseköğretimin Yönetimi Ana Bilim Dalı",
         "url": "https://yoy.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:53.727421",
+        "last_updated": "2026-09-17T13:18:58.839221",
         "items": [
             {
                 "title": "2025-2026 Bahar Yarıyılı Ders programına buradan ulaşabilirsiniz...",
@@ -7104,7 +7144,7 @@
     {
         "entity": "Yabancı Diller Yüksekokulu",
         "url": "https://ydyo.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:54.510785",
+        "last_updated": "2026-09-17T13:19:00.384551",
         "items": [
             {
                 "title": "2026-2027 Öğretim Yılı Güz Dönemi 21 Eylül 2026 Modern Diller Birimi\r\nOrtak Zorunlu İngilizce Derslerinin Muafiyet Sınavı Hakkında",
@@ -7116,11 +7156,11 @@
             },
             {
                 "title": "2026-2027 Hazırlık Birimleri Üniversitemize Af ile Kayıt Olan Öğrenciler, Uluslararası Öğrenciler ve...",
-                "link": "https://fs.hacettepe.edu.tr/ydyo/%C4%B0rem/26-27%20AFYEDEK%20ULUSLARARASISPOR%20MUAFIYET%20TAKVIMI.pdf",
-                "date": "16.09.2026 00:00",
+                "link": "https://ydyo.hacettepe.edu.tr/tr/<img_src=fshacettepeedutrydyor-2140",
+                "date": "17.09.2026 00:00",
                 "source": "Yabancı Diller Yüksekokulu",
                 "entity": "Yabancı Diller Yüksekokulu",
-                "description": null
+                "description": "İngilizce Düzey Belirleme Sınavı Yönergesi İngilizce Muafiyet Sınavı Yönergesi Almanca Düzey Belirleme Sınavı Yönergesi Almanca Muafiyet Sınavı Yönergesi Fransızca Muafiyet Sınavı Yönergesi"
             },
             {
                 "title": "14 Eylül DBS Sonrası İsteğe Bağlı İngilizce Hazırlık Eğitimi (İNG140) Alacak Öğrencilerin Listesi",
@@ -7151,7 +7191,7 @@
     {
         "entity": "Egzersiz ve Spor Bilimleri Bölümü",
         "url": "https://esb.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.234365",
+        "last_updated": "2026-09-17T13:19:01.097002",
         "items": [
             {
                 "title": "Doç. Dr. Şenay AKIN, European Journal of Preventive Cardiology dergisinin 2024 yılı \"En İyi Hakemler\" listesine girmiştir",
@@ -7182,7 +7222,7 @@
     {
         "entity": "Bologna Koordinatörlüğü",
         "url": "https://hubologna.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.152236",
+        "last_updated": "2026-09-17T13:19:01.144504",
         "items": [
             {
                 "title": "Bologna Koordinatörlüğü 2025 Yılı İzleme ve Değerlendirme Raporu yayınlandı.",
@@ -7229,7 +7269,7 @@
     {
         "entity": "HÜ Kütüphaneleri İç Kontrol Sistemi",
         "url": "https://libraryworkflows.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:23:06.146406",
+        "last_updated": "2026-09-17T13:19:10.404606",
         "items": [
             {
                 "title": "Faaliyet Raporları",
@@ -7260,7 +7300,7 @@
     {
         "entity": "Sürdürülebilir Kalkınma Koordinatörlüğü",
         "url": "https://surdurulebilirkalkinma.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:57.443859",
+        "last_updated": "2026-09-17T13:19:02.530419",
         "items": [
             {
                 "title": "Hacettepe Üniversitesi dünyada 121. sırada",
@@ -7307,7 +7347,7 @@
     {
         "entity": "İngiliz Dili Eğitimi Ana Bilim Dalı",
         "url": "https://elt.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.821664",
+        "last_updated": "2026-09-17T13:19:01.550257",
         "items": [
             {
                 "title": "Sevgili öğrencilerimiz, 2026-2027 Akademik Yılı Güz Dönemi Lisans ders programına, Şube Bölünmelerin...",
@@ -7330,7 +7370,7 @@
     {
         "entity": "Eğitim Ölçme ve Değerlendirme Ana Bilim Dalı",
         "url": "https://eod.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:56.607621",
+        "last_updated": "2026-09-17T13:19:01.799880",
         "items": [
             {
                 "title": "2026-2027 Güz Dönemi EÖD lisansüstü ders programı için tıklayınız. Bu belgeyi daima çevrimiçi kullanınız.",
@@ -7345,7 +7385,7 @@
     {
         "entity": "Yapay Zeka Mühendisliği Bölümü",
         "url": "https://ai.hacettepe.edu.tr",
-        "last_updated": "2026-09-16T13:22:59.264182",
+        "last_updated": "2026-09-17T13:19:04.600443",
         "items": [
             {
                 "title": "Fall 2026–2027 graduate course schedule published",
